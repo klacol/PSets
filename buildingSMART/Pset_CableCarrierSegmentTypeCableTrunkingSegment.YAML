@@ -1,0 +1,40 @@
+﻿name: Pset_CableCarrierSegmentTypeCableTrunkingSegment
+ifcVersion:
+  version: IFC4
+  schema: IfcElectricalDomain
+ifdGuid: ''
+definition: 'An enclosed carrier segment with one or more compartments into which cables are placed.HISTORY: IFC4 - NominalLength deleted. To be handled as a quantity measure'
+applicableIfcClasses:
+- name: IfcCableCarrierSegmentType
+  type: IfcCableCarrierSegmentType/CABLETRUNKINGSEGMENT
+properties:
+- name: NominalWidth
+  ifdGuid: fbe21e96f4794095831a6c57863a3378
+  definition: The nominal width of the segment.
+  localizations:
+  - language: ja-JP
+    name: 公称幅
+    definition: 呼び幅寸法。
+  - language: ko-KR
+    name: 공칭 폭
+    definition: 폭 치수
+- name: NominalHeight
+  ifdGuid: ee88b41e38894d68943164fc67682bba
+  definition: The nominal height of the segment.
+  localizations:
+  - language: ja-JP
+    name: 公称高
+    definition: 呼び高寸法。
+  - language: ko-KR
+    name: 공칭높이
+    definition: 고 치수
+- name: NumberOfCompartments
+  ifdGuid: db06989bcccf4e2d90a8ae05eb0168b3
+  definition: The number of separate internal compartments within the trunking.
+  localizations:
+  - language: ja-JP
+    name: 区画数
+    definition: 管の区別される内部区画の個数。
+  - language: ko-KR
+    name: 구획 수
+    definition: 관 구분되는 내부 파티션 개수

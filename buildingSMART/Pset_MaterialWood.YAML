@@ -1,0 +1,37 @@
+﻿name: Pset_MaterialWood
+ifcVersion:
+  version: IFC4
+  schema: IfcMaterialResource
+ifdGuid: ''
+definition: This is a collection of properties applicable to wood-based materials that specify kind and grade of material as well as moisture related parameters.
+applicableIfcClasses:
+- name: IfcMaterial
+  type: IfcMaterial/Wood
+properties:
+- name: Species
+  definition: Wood species of a solid wood or laminated wood product.
+  localizations: []
+- name: StrengthGrade
+  definition: Grade with respect to mechanical strength and stiffness.
+  localizations: []
+- name: AppearanceGrade
+  definition: Grade with respect to visual quality.
+  localizations: []
+- name: Layup
+  definition: Configuration of the lamination.
+  localizations: []
+- name: Layers
+  definition: Number of layers.
+  localizations: []
+- name: Plies
+  definition: Number of plies.
+  localizations: []
+- name: MoistureContent
+  definition: Total weight of moisture relative to oven-dried weight of the wood.
+  localizations: []
+- name: DimensionalChangeCoefficient
+  definition: Weighted dimensional change coefficient, relative to 1% change in moisture content.
+  localizations: []
+- name: ThicknessSwelling
+  definition: Swelling ratio relative to board depth.
+  localizations: []

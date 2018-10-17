@@ -1,0 +1,19 @@
+﻿name: Pset_SwitchingDeviceTypeMomentarySwitch
+ifcVersion:
+  version: IFC4
+  schema: IfcElectricalDomain
+ifdGuid: ''
+definition: 'A momentary switch is a switch that does not hold state.  HISTORY: Added in IFC4.'
+applicableIfcClasses:
+- name: IfcSwitchingDeviceType
+  type: IfcSwitchingDeviceType/MOMENTARYSWITCH
+properties:
+- name: MomentaryType
+  definition: A list of the available types of momentary switch from which that required may be selected.
+  localizations:
+  - language: ja-JP
+    name: 瞬時スイッチタイプ
+    definition: 選択が必要となる、自動復帰スイッチの一覧リスト。
+  - language: ko-KR
+    name: 순간스위치 유형
+    definition: 선택이 필요한 자동 복귀 스위치 목록

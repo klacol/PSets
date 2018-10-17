@@ -1,0 +1,40 @@
+﻿name: Pset_CableCarrierSegmentTypeCableLadderSegment
+ifcVersion:
+  version: IFC4
+  schema: IfcElectricalDomain
+ifdGuid: ''
+definition: 'An open carrier segment on which cables are carried on a ladder structure.HISTORY: IFC4 - NominalLength deleted. To be handled as a quantity measure.'
+applicableIfcClasses:
+- name: IfcCableCarrierSegmentType
+  type: IfcCableCarrierSegmentType/CABLELADDERSEGMENT
+properties:
+- name: NominalWidth
+  ifdGuid: 469a805d5caf451980449a0d72231dc0
+  definition: The nominal width of the segment.
+  localizations:
+  - language: ja-JP
+    name: 公称幅
+    definition: 呼び幅寸法。
+  - language: ko-KR
+    name: 공칭 폭
+    definition: 폭 치수.
+- name: NominalHeight
+  ifdGuid: c14cb6772c4e40c18d27a7f08edc6299
+  definition: The nominal height of the segment.
+  localizations:
+  - language: ja-JP
+    name: 公称高
+    definition: 呼び高寸法。
+  - language: ko-KR
+    name: 공칭 높이
+    definition: 고치수
+- name: LadderConfiguration
+  ifdGuid: 036361980b4e41f4b0ad83fbdf60ba76
+  definition: Description of the configuration of the ladder structure used.
+  localizations:
+  - language: ja-JP
+    name: 梯子設定
+    definition: 使用されるはしご構造の概要説明。
+  - language: ko-KR
+    name: 사다리 설정
+    definition: 사용되는 사다리 구조의 개요 설명.

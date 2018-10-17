@@ -1,0 +1,72 @@
+﻿name: Pset_DistributionPortTypeCable
+ifcVersion:
+  version: IFC4
+ifdGuid: ''
+definition: Cable port occurrence attributes attached to an instance of IfcDistributionPort.
+applicableIfcClasses:
+- name: IfcDistributionPort/ELECTRICAL
+  type: IfcDistributionPort/ELECTRICAL
+properties:
+- name: ConnectionType
+  ifdGuid: 1b51a5433f934fa7a5031c877bb4b429
+  definition: ConsoleAppYamlTest.PropertyType
+  localizations:
+  - language: ja-JP
+    name: 接続タイプ
+    definition: '物理ポート接続：- ACPLUG: AC プラグ- DCPLUG: DC プラグ- CRIMP: 裸線'
+- name: ConnectionSubtype
+  ifdGuid: 4a16661be73843fb99eb498a99015880
+  definition: ConsoleAppYamlTest.PropertyType
+  localizations:
+  - language: ja-JP
+    name: 接続サブタイプ
+    definition: '物理ポート接続のサブタイプ。接続タイプ以外の情報を設定する場合に使用。下記の値を設定：- ACプラグ: A, B, C, D, E, F, EF, G, H, I, J, K, L, M'
+- name: ConnectionGender
+  ifdGuid: 5a9b13be92d1458583634e056c138f30
+  definition: ConsoleAppYamlTest.PropertyType
+  localizations:
+  - language: ja-JP
+    name: 接続ジェンダー
+    definition: 形状的な接続ジェンダー（オス、メス、その他、未知、未設定）。
+- name: ConductorFunction
+  ifdGuid: 03d981504bcf4f748b31dee8065d5959
+  definition: ConsoleAppYamlTest.PropertyType
+  localizations:
+  - language: ja-JP
+    name: 電線種類
+    definition: 電気負荷と連結する電線種類。
+- name: CurrentContent3rdHarmonic
+  ifdGuid: eaf80f92e6df4c29a18086e89bea20e9
+  definition: ConsoleAppYamlTest.PropertyType
+  localizations:
+  - language: ja-JP
+    name: 第３高調波電流と相電流の比
+    definition: 第３高調波電流と相電流の比率。
+- name: Current
+  ifdGuid: 5207092197274e99917bfdcae2efea80
+  definition: ConsoleAppYamlTest.PropertyType
+  localizations:
+  - language: ja-JP
+    name: 電流
+    definition: 実電流と動作可能範囲。
+- name: Voltage
+  ifdGuid: 87b7f6b294b5447ab7edaa0e2b690e7d
+  definition: ConsoleAppYamlTest.PropertyType
+  localizations:
+  - language: ja-JP
+    name: 電圧
+    definition: 実電圧と動作可能範囲。
+- name: Power
+  ifdGuid: 437e2945ded040998d45ae3d9d9770db
+  definition: ConsoleAppYamlTest.PropertyType
+  localizations:
+  - language: ja-JP
+    name: 電力
+    definition: 実電力と動作可能範囲。
+- name: Protocols
+  ifdGuid: 1592daba2e144952a71949248bab50cc
+  definition: ConsoleAppYamlTest.PropertyType
+  localizations:
+  - language: ja
+    name: プロトコル
+    definition: 'OSIのオープンシステム相互接続用基本プロトコル(ISO 7498)：1. 物理層; 2.データリンク層; 3. ネットワーク層; 4. トランスポート層; 5. セッション層; 6.プレゼンテーション層 ; 7. アプリケーション層. 例: 3:IP, 4:TCP, 5:HTTP'

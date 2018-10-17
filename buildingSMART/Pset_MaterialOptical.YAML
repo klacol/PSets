@@ -1,0 +1,37 @@
+﻿name: Pset_MaterialOptical
+ifcVersion:
+  version: IFC4
+  schema: IfcMaterialResource
+ifdGuid: ''
+definition: A set of optical properties of materials.
+applicableIfcClasses:
+- name: IfcMaterial
+  type: IfcMaterial
+properties:
+- name: VisibleTransmittance
+  definition: Transmittance at normal incidence (visible). Defines the fraction of the visible spectrum of solar radiation that passes through per unit area, perpendicular to the surface.
+  localizations: []
+- name: SolarTransmittance
+  definition: Transmittance at normal incidence (solar). Defines the fraction of solar radiation that passes through per unit area, perpendicular to the surface.
+  localizations: []
+- name: ThermalIrTransmittance
+  definition: Thermal IR transmittance at normal incidence. Defines the fraction of thermal energy that passes through per unit area, perpendicular to the surface.
+  localizations: []
+- name: ThermalIrEmissivityBack
+  definition: 'Thermal IR emissivity: back side. Defines the fraction of thermal energy emitted per unit area to "blackbody" at the same temperature, through the "back" side of the material.'
+  localizations: []
+- name: ThermalIrEmissivityFront
+  definition: 'Thermal IR emissivity: front side. Defines the fraction of thermal energy emitted per unit area to "blackbody" at the same temperature, through the "front" side of the material.'
+  localizations: []
+- name: VisibleReflectanceBack
+  definition: 'Reflectance at normal incidence (visible): back side. Defines the fraction of the solar ray in the visible spectrum that is reflected and not transmitted when the ray passes from one medium into another, at the "back" side of the other material, perpendicular to the surface. Dependent on material and surface characteristics.'
+  localizations: []
+- name: VisibleReflectanceFront
+  definition: 'Reflectance at normal incidence (visible): front side. Defines the fraction of the solar ray in the visible spectrum that is reflected and not transmitted when the ray passes from one medium into another, at the "front" side of the other material, perpendicular to the surface. Dependent on material and surface characteristics.'
+  localizations: []
+- name: SolarReflectanceBack
+  definition: 'Reflectance at normal incidence (solar): back side. Defines the fraction of the solar ray that is reflected and not transmitted when the ray passes from one medium into another, at the "back" side of the other material, perpendicular to the surface. Dependent on material and surface characteristics.'
+  localizations: []
+- name: SolarReflectanceFront
+  definition: 'Reflectance at normal incidence (solar): front side. Defines the fraction of the solar ray that is reflected and not transmitted when the ray passes from one medium into another, at the "front" side of the other material, perpendicular to the surface. Dependent on material and surface characteristics.'
+  localizations: []

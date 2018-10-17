@@ -1,0 +1,19 @@
+﻿name: Pset_MaterialCommon
+ifcVersion:
+  version: IFC4
+  schema: IfcMaterialResource
+ifdGuid: ''
+definition: A set of general material properties.
+applicableIfcClasses:
+- name: IfcMaterial
+  type: IfcMaterial
+properties:
+- name: MolecularWeight
+  definition: Molecular weight of material (typically gas).
+  localizations: []
+- name: Porosity
+  definition: The void fraction of the total volume occupied by material (Vbr - Vnet)/Vbr.
+  localizations: []
+- name: MassDensity
+  definition: Material mass density.
+  localizations: []

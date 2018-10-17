@@ -1,0 +1,28 @@
+﻿name: Pset_MaterialConcrete
+ifcVersion:
+  version: IFC4
+  schema: IfcMaterialResource
+ifdGuid: ''
+definition: A set of extended mechanical properties related to concrete materials.
+applicableIfcClasses:
+- name: IfcMaterial
+  type: IfcMaterial/Concrete
+properties:
+- name: CompressiveStrength
+  definition: The compressive strength of the concrete.
+  localizations: []
+- name: MaxAggregateSize
+  definition: The maximum aggregate size of the concrete.
+  localizations: []
+- name: AdmixturesDescription
+  definition: Description of the admixtures added to the concrete mix.
+  localizations: []
+- name: Workability
+  definition: Description of the workability of the fresh concrete defined according to local standards.
+  localizations: []
+- name: WaterImpermeability
+  definition: Description of the water impermeability denoting the water repelling properties.
+  localizations: []
+- name: ProtectivePoreRatio
+  definition: The protective pore ratio indicating the frost-resistance of the concrete.
+  localizations: []

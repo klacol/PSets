@@ -1,0 +1,20 @@
+﻿name: Pset_SensorTypeSoundSensor
+ifcVersion:
+  version: IFC4
+  schema: IfcBuildingControlsDomain
+ifdGuid: ''
+definition: 'A device that senses or detects sound. HISTORY: SoundSensorSensorSetPoint changed to SetPointSound. Range, accuracy and time constant deleted.'
+applicableIfcClasses:
+- name: IfcSensorType
+  type: IfcSensorType/SOUNDSENSOR
+properties:
+- name: SetPointSound
+  ifdGuid: 1b499f0886b74625ba4a0fc13217706c
+  definition: The sound pressure value to be sensed. Use IfcPropertyBoundedValue.SetPointValue to set the set point value.
+  localizations:
+  - language: ja-JP
+    name: 音圧設定値
+    definition: 感知される音圧。セットポイント値を置くために、IfcPropertyBoundedValue.SetPointValueを使用する。
+  - language: ko-KR
+    name: 읍압 설정치
+    definition: 감지되는 음압. 세트 포인트 값을 넣으려면, IfcPropertyBoundedValue.SetPointValue를 사용하십시오.

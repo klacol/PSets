@@ -1,0 +1,16 @@
+﻿name: Pset_ShadingDevicePHistory
+ifcVersion:
+  version: IFC4
+  schema: IfcHvacDomain
+ifdGuid: ''
+definition: Shading device performance history attributes.
+applicableIfcClasses:
+- name: IfcPerformanceHistory
+  type: IfcShadingDevice
+properties:
+- name: TiltAngle
+  definition: The angle of tilt defined in the plane perpendicular to the extrusion axis (X-Axis of the local placement). The angle shall be measured from the orientation of the Z-Axis in the local placement.
+  localizations: []
+- name: Azimuth
+  definition: The azimuth of the outward normal for the outward or upward facing surface.
+  localizations: []

@@ -1,0 +1,24 @@
+﻿name: Pset_HumidifierPHistory
+ifcVersion:
+  version: IFC4
+  schema: IfcHvacDomain
+ifdGuid: ''
+definition: 'Humidifier performance history attributes.Sound attribute deleted in IFC2x2 Pset Addendum: Use IfcSoundProperties instead.'
+applicableIfcClasses:
+- name: IfcPerformanceHistory
+  type: IfcHumidifier
+properties:
+- name: AtmosphericPressure
+  ifdGuid: 1510d3230e094924ac8b001fb8900d43
+  definition: Ambient atmospheric pressure.
+  localizations:
+  - language: ja-JP
+    name: 標準大気圧（外気圧）
+    definition: 標準大気圧(外気圧）
+- name: SaturationEfficiency
+  ifdGuid: d202cdbc22314689a8ee53f22f9e251e
+  definition: 'Saturation efficiency: Ratio of leaving air absolute humidity to the maximum absolute humidity.'
+  localizations:
+  - language: ja-JP
+    name: 飽和比率
+    definition: 飽和比率：最大絶対湿度に対する現在の絶対湿度の割合

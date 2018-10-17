@@ -1,0 +1,52 @@
+﻿name: Pset_ReinforcementBarCountOfIndependentFooting
+ifcVersion:
+  version: IFC4
+  schema: IfcStructuralElementsDomain
+ifdGuid: ''
+definition: "Reinforcement Concrete parameter [ST-2]: The amount number information of reinforcement  bar with the independent footing. The X and Y direction are based on the local coordinate system of building storey. The X and Y direction of the reinforcement bar are parallel to the X and Y axis of the IfcBuildingStorey's local coordinate system, respectively."
+applicableIfcClasses:
+- name: IfcFooting
+  type: IfcFootingType
+properties:
+- name: Description
+  ifdGuid: 1d0566f06dc048de9474afe409d906c4
+  definition: Description of the reinforcement.
+  localizations:
+  - language: ja-JP
+    name: 説明
+    definition: 鉄筋の説明。
+- name: Reference
+  ifdGuid: 039c223512cb4cee993c918df93dd4e6
+  definition: A descriptive label for the general reinforcement type.
+  localizations:
+  - language: ja-JP
+    name: 参照記号
+    definition: 一般的な鉄筋タイプの説明ラベル。
+- name: XDirectionLowerBarCount
+  ifdGuid: 8f76d0652b1240428ff7b0d74f25402a
+  definition: The number of bars with X direction lower bar.
+  localizations:
+  - language: ja-JP
+    name: X方向下端筋本数
+    definition: X方向の下端筋本数。
+- name: YDirectionLowerBarCount
+  ifdGuid: 16d215891b904c2b9183c699f3c9b8a1
+  definition: The number of bars with Y direction lower bar.
+  localizations:
+  - language: ja-JP
+    name: Y方向下端筋本数
+    definition: Y方向の下端筋本数。
+- name: XDirectionUpperBarCount
+  ifdGuid: d127de5aefd74bd7b5245a0eff2d08cb
+  definition: The number of bars with X direction upper bar.
+  localizations:
+  - language: ja-JP
+    name: X方向上端筋本数
+    definition: X方向の上端筋本数。
+- name: YDirectionUpperBarCount
+  ifdGuid: 2d50a6768da349d3aba63d0d685c30da
+  definition: The number of bars with Y direction upper bar.
+  localizations:
+  - language: ja-JP
+    name: Y方向上端筋本数
+    definition: Y方向の上端筋本数。

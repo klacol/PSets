@@ -1,0 +1,131 @@
+﻿name: Pset_SpaceThermalDesign
+ifcVersion:
+  version: IFC4
+  schema: IfcSharedBldgServiceElements
+ifdGuid: ''
+definition: 'Space or zone HVAC design requirements. HISTORY: New property set in IFC Release 1.0 (Pset_SpaceHvacInformation); renamed to Pset_SpaceThermalDesign and revised in IFC2x2.'
+applicableIfcClasses:
+- name: IfcSpace
+  type: IfcSpace
+properties:
+- name: CoolingDesignAirflow
+  ifdGuid: 35399fc3c82646f7889b4099a99cf4b0
+  definition: 'The air flowrate required during the peak cooling conditions. '
+  localizations:
+  - language: ja-JP
+    name: 冷房設計吸気量
+    definition: ピーク時の冷房条件で要求される給気量。
+- name: HeatingDesignAirflow
+  ifdGuid: 444f3662fd864dd6968975aa03f4a750
+  definition: 'The air flowrate required during the peak heating conditions, but could also be determined by minimum ventilation requirement or minimum air change requirements. '
+  localizations: []
+- name: TotalSensibleHeatGain
+  ifdGuid: 96df9bca905e4bc98d725d378bd0606c
+  definition: 'The total sensible heat or energy gained by the space during the peak cooling conditions. '
+  localizations:
+  - language: ja-JP
+    name: 顕熱負荷の合計
+    definition: ピーク時の冷房条件で取得した顕熱或いはエネルギー。
+  - language: ko-KR
+    name: 현열 부하의 합계
+    definition: 피크 냉방 조건에서 얻은 현열 또는 에너지.
+- name: TotalHeatGain
+  ifdGuid: 477a3f1e8a1140689faf7deffe055587
+  definition: "The total amount of heat or energy gained by the space at the time of the space's peak cooling conditions. "
+  localizations:
+  - language: ja-JP
+    name: 熱取得の合計
+    definition: ピーク時の室内最大冷房負荷時に取得した顕熱或いはエネルギー。
+  - language: ko-KR
+    name: 연 인수 금액
+    definition: 최대의 실내 최대 냉방 부하 취득한 현열 또는 에너지.
+- name: TotalHeatLoss
+  ifdGuid: ffd9c863a76244b49d5400164b99f1ae
+  definition: "The total amount of heat or energy lost by the space at the time of the space's peak heating conditions. "
+  localizations:
+  - language: ja-JP
+    name: 熱ロスの合計
+    definition: ピーク時の室内最大暖房負荷時に取得・損失した熱或いはエネルギー。
+  - language: ko-KR
+    name: 열 손실 합계
+    definition: 최대의 실내 최대 난방 부하에 취득 · 손실 열 또는 에너지.
+- name: CoolingDryBulb
+  ifdGuid: 0ebb71fdcc6d4ec39779c766f552961e
+  definition: Inside dry bulb temperature for cooling design.
+  localizations:
+  - language: ja-JP
+    name: 冷房設計温度
+    definition: 冷房設計における室内設計乾球温度。
+  - language: ko-KR
+    name: 냉방 설계온도
+    definition: 냉방 설계의 실내 디자인 건구 온도
+- name: CoolingRelativeHumidity
+  ifdGuid: a09d928edbda4d27b980d1f0e946a3b4
+  definition: 'Inside relative humidity for cooling design. '
+  localizations:
+  - language: ja-JP
+    name: 冷房設計相対湿度
+    definition: 冷房設計における室内設計相対湿度。
+  - language: ko-KR
+    name: 냉방 설계 상대습도
+    definition: 냉방 설계의 실내 디자인 상대 습도.
+- name: HeatingDryBulb
+  ifdGuid: 5ddea57863cd4cee8aedc71d5a4e425d
+  definition: Inside dry bulb temperature for heating design.
+  localizations:
+  - language: ja-JP
+    name: 暖房設計温度
+    definition: 暖房設計における室内設計乾球温度。
+  - language: ko-KR
+    name: 난방 설계온도
+    definition: 난방 설계의 실내 디자인 건구 온도
+- name: HeatingRelativeHumidity
+  ifdGuid: 6557d97374f14743844c2834dce5bed7
+  definition: 'Inside relative humidity for heating design. '
+  localizations:
+  - language: ja-JP
+    name: 暖房設計相対湿度
+    definition: 暖房設計における室内設計相対湿度。
+  - language: ko-KR
+    name: 난방 설계 상대습도
+    definition: 난방 설계의 실내 디자인 상대 습도.
+- name: VentilationAirFlowrate
+  ifdGuid: 2dfc571f30d940e59bbec29c7ff83d64
+  definition: 'Ventilation outside air requirement for the space. '
+  localizations:
+  - language: ja-JP
+    name: 外気量
+    definition: 必要外気量。
+  - language: ko-KR
+    name: 외기량
+    definition: 필요 외기 량.
+- name: ExhaustAirFlowrate
+  ifdGuid: 3fb740a80ab845eaaecbda8f351b156a
+  definition: 'Design exhaust air flow rate for the space. '
+  localizations:
+  - language: ja-JP
+    name: 排気量
+    definition: 設計排気量。
+  - language: ko-KR
+    name: 배기량
+    definition: 설계 배기량.
+- name: CeilingRAPlenum
+  ifdGuid: f0d9c264c4e04c8fae3df2e476c7707f
+  definition: 'Ceiling plenum used for return air or not. TRUE = Yes, FALSE = No. '
+  localizations:
+  - language: ja-JP
+    name: 天井裏還気
+    definition: 天井裏還気（リタンあり・なし）　TRUE=あり、FALSE=なし。
+  - language: ko-KR
+    name: 천장환원주의
+    definition: 천장 환 기 (리탄있어 · 없음) TRUE = 있고 FALSE = 없음.
+- name: BoundaryAreaHeatLoss
+  ifdGuid: 7cb9f31d026642b79057ba8660dcab62
+  definition: 'Heat loss per unit area for the boundary object. This is a design input value for use in the absence of calculated load data. '
+  localizations:
+  - language: ja-JP
+    name: 周辺関連設備の熱ロス
+    definition: 単位面積ありた周辺関連設備の熱ロス。空調負荷計算値以外の設計設定値。
+  - language: ko-KR
+    name: 주변 관련 설비의 열 손실
+    definition: 단위 면적이 주변 관련 설비의 열 손실. 공조 부하 계산 이외의 디자인 설정.

@@ -1,0 +1,65 @@
+﻿name: Pset_DistributionPortPHistoryCable
+ifcVersion:
+  version: IFC4
+ifdGuid: ''
+definition: Log of electrical activity attached to an instance of IfcPerformanceHistory having an assigned IfcDistributionPort of type CABLE.
+applicableIfcClasses:
+- name: IfcDistributionPort/ELECTRICAL
+  type: IfcDistributionPort/ELECTRICAL
+properties:
+- name: Current
+  ifdGuid: 9fadeb7592de4a228764c24ee4f76b0b
+  definition: ConsoleAppYamlTest.PropertyType
+  localizations:
+  - language: ja-JP
+    name: 電流
+    definition: 電流のログ。
+- name: Voltage
+  ifdGuid: 6fa8730d435442e497527bd9defeb047
+  definition: ConsoleAppYamlTest.PropertyType
+  localizations:
+  - language: ja-JP
+    name: 電圧
+    definition: 電圧のログ。
+- name: RealPower
+  ifdGuid: fbaec68991c14f8fb0c963eb65250f26
+  definition: ConsoleAppYamlTest.PropertyType
+  localizations:
+  - language: ja-JP
+    name: 有効電力
+    definition: 有効電力。
+- name: ReactivePower
+  ifdGuid: 401dc737009748699b073ef617ef615c
+  definition: ConsoleAppYamlTest.PropertyType
+  localizations:
+  - language: ja-JP
+    name: 無効電力
+    definition: 無効電力。
+- name: ApparentPower
+  ifdGuid: af897460248b427685e28b50acfc7106
+  definition: ConsoleAppYamlTest.PropertyType
+  localizations:
+  - language: ja-JP
+    name: 皮相電力
+    definition: 皮相電力。
+- name: PowerFactor
+  ifdGuid: 53e43bcebef54a4096fd8862a450903d
+  definition: ConsoleAppYamlTest.PropertyType
+  localizations:
+  - language: ja-JP
+    name: パワーファクタ
+    definition: パワーファクタ。
+- name: DataTransmitted
+  ifdGuid: c1d8b4f5077244d98bb7d96e3b9a3282
+  definition: ConsoleAppYamlTest.PropertyType
+  localizations:
+  - language: ja
+    name: 発信
+    definition: 発信データのログ。IfcTimeSeriesValue.Valuesのリスト値にはPset_DistributionPortTypeCable.Protocolsよりデータを送信する。
+- name: DataReceived
+  ifdGuid: e72bcd7d84ae42c6b1e3f696451d1e6e
+  definition: ConsoleAppYamlTest.PropertyType
+  localizations:
+  - language: ja
+    name: 受信
+    definition: 受信データのログ。IfcTimeSeriesValue.Valuesのリスト値にはPset_DistributionPortTypeCable.Protocolsよりデータを受信する。

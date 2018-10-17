@@ -1,0 +1,28 @@
+﻿name: Pset_AirTerminalOccurrence
+ifcVersion:
+  version: IFC4
+  schema: IfcHvacDomain
+ifdGuid: ''
+definition: Air terminal occurrence attributes attached to an instance of IfcAirTerminal.
+applicableIfcClasses:
+- name: IfcAirTerminal
+  type: IfcAirTerminal
+properties:
+- name: AirflowType
+  definition: Enumeration defining the functional type of air flow through the terminal.
+  localizations:
+  - language: fr-FR
+    name: Type de débit d'air
+    definition: Enumération définissant le type fonctionnel de débit à travers le terminal
+  - language: ja-JP
+    name: エアフロータイプ
+    definition: ターミナルを通過する気流の機能タイプ（給気、還気、排気他）
+- name: Location
+  definition: Location  (a single type of diffuser can be used for multiple locations); high means close to ceiling.
+  localizations:
+  - language: fr-FR
+    name: Emplacement
+    definition: Emplacement (un seul type de diffuseur peut être utilisé pour des emplaments multiples); Haut signifie proche du plafond.
+  - language: ja-JP
+    name: 位置
+    definition: 制気口の取り付け位置（壁面高所・低部、天井ぺり、天井中央、床、床下他）

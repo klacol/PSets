@@ -1,0 +1,22 @@
+﻿name: Pset_FlowMeterTypeEnergyMeter
+ifcVersion:
+  version: IFC4
+  schema: IfcHvacDomain
+ifdGuid: ''
+definition: Device that measures, indicates and sometimes records, the energy usage in a system.
+applicableIfcClasses:
+- name: IfcFlowMeterType
+  type: IfcFlowMeterType/ENERGYMETER
+properties:
+- name: NominalCurrent
+  ifdGuid: f808e92dece246c0b75c9dec5cc48d0a
+  definition: The nominal current that is designed to be measured.
+  localizations: []
+- name: MaximumCurrent
+  ifdGuid: f809a0f1f331409484559a97649b68e4
+  definition: 'The maximum allowed current that a device is certified to handle. '
+  localizations: []
+- name: MultipleTarriff
+  ifdGuid: 6ff49680ac24477d89ef26336b9f921e
+  definition: Indicates whether meter has built-in support for multiple tarriffs (variable energy cost rates).
+  localizations: []

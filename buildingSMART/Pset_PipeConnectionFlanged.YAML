@@ -1,0 +1,66 @@
+﻿name: Pset_PipeConnectionFlanged
+ifcVersion:
+  version: IFC4
+  schema: IfcHvacDomain
+ifdGuid: ''
+definition: This property set is used to define the specifics of a flanged pipe connection used between occurrences of pipe segments and fittings.
+applicableIfcClasses:
+- name: IfcPipeSegment
+  type: IfcPipeSegment
+properties:
+- name: FlangeTable
+  ifdGuid: 38174fe813e04fe3a8f2b1b881ee0815
+  definition: Designation of the standard table to which the flange conforms.
+  localizations:
+  - language: ja-JP
+    name: フランジ基準
+    definition: フランジ形状の名称基準
+- name: FlangeStandard
+  ifdGuid: 01a3d9e26aa340549207d875d233b1cb
+  definition: Designation of the standard describing the flange table.
+  localizations:
+  - language: ja-JP
+    name: フランジ規格
+    definition: フランジ規格を記述している基準
+- name: BoreSize
+  ifdGuid: 21663889ed6a4b4fa21b52108914668a
+  definition: The nominal bore of the pipe flange.
+  localizations:
+  - language: ja-JP
+    name: フランジの内径のサイズ
+    definition: フランジの呼び径
+- name: FlangeDiameter
+  ifdGuid: 0f11eb3fc5534760b2eab4e02990e1c6
+  definition: Overall diameter of the flange.
+  localizations:
+  - language: ja-JP
+    name: フランジの直径
+    definition: フランジの全直径
+- name: FlangeThickness
+  ifdGuid: ffb4b49c7c6e44ffafa4efddc975a46b
+  definition: Thickness of the material from which the pipe bend is constructed.
+  localizations:
+  - language: ja-JP
+    name: フランジの厚さ
+    definition: パイプをつなぐ材料の厚み
+- name: NumberOfBoltholes
+  ifdGuid: 4ada4683222d49228535f35fad439fd5
+  definition: Number of boltholes in the flange.
+  localizations:
+  - language: ja-JP
+    name: ボルト穴の数
+    definition: フランジにあるボルト穴の数
+- name: BoltSize
+  ifdGuid: 0492e42dd14e4a57863cb54a9b6b7ed7
+  definition: Size of the bolts securing the flange.
+  localizations:
+  - language: ja-JP
+    name: ボルトの大きさ
+    definition: フランジを締めるボルトの大きさ
+- name: BoltholePitch
+  ifdGuid: 16dbc1b20e64417288264b2c4322c17e
+  definition: Diameter of the circle along which the boltholes are placed.
+  localizations:
+  - language: ja-JP
+    name: ボルト穴ピッチ
+    definition: ボルト穴がある円の直径

@@ -1,0 +1,45 @@
+﻿name: Pset_DistributionPortTypeDuct
+ifcVersion:
+  version: IFC4
+ifdGuid: ''
+definition: Duct port occurrence attributes attached to an instance of IfcDistributionPort.
+applicableIfcClasses:
+- name: IfcDistributionPort/AIRCONDITIONING
+  type: IfcDistributionPort/AIRCONDITIONING
+properties:
+- name: ConnectionType
+  ifdGuid: d2b239a61db14c2ab423e3d735a6de1f
+  definition: ConsoleAppYamlTest.PropertyType
+  localizations: []
+- name: ConnectionSubType
+  ifdGuid: 15d916dd1d7340bc81481576f81d2a08
+  definition: ConsoleAppYamlTest.PropertyType
+  localizations: []
+- name: NominalWidth
+  ifdGuid: a28e9f226e204a909976810e633a45f4
+  definition: ConsoleAppYamlTest.PropertyType
+  localizations: []
+- name: NominalHeight
+  ifdGuid: 90a90418907a41809a527bb1ef069005
+  definition: ConsoleAppYamlTest.PropertyType
+  localizations: []
+- name: DryBulbTemperature
+  ifdGuid: 0e28d2efe50346319664f17e52ebd118
+  definition: ConsoleAppYamlTest.PropertyType
+  localizations: []
+- name: WetBulbTemperature
+  ifdGuid: 46e6cb4f3ecb4016b3d952ec26836ce6
+  definition: ConsoleAppYamlTest.PropertyType
+  localizations: []
+- name: VolumetricFlowRate
+  ifdGuid: 639c0067eb444ed8b9d177247c1f1cc2
+  definition: ConsoleAppYamlTest.PropertyType
+  localizations: []
+- name: Velocity
+  ifdGuid: 26538518abf6475ba1562ce731d7975e
+  definition: ConsoleAppYamlTest.PropertyType
+  localizations: []
+- name: Pressure
+  ifdGuid: 7583cd7c5ea74d109e2b6ad6d0dafa4b
+  definition: ConsoleAppYamlTest.PropertyType
+  localizations: []

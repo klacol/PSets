@@ -1,0 +1,35 @@
+﻿name: Pset_PrecastSlab
+ifcVersion:
+  version: IFC4
+  schema: IfcStructuralElementsDomain
+ifdGuid: ''
+definition: Layout and component information defining how prestressed slab components are laid out in a precast slab assembly. The values are global defaults for the slab as a whole, but can be overridden by local placements of the individual com
+applicableIfcClasses:
+- name: >
+    IfcSlabType
+  type: IfcSlabType
+properties:
+- name: TypeDesignator
+  definition: Type designator for the precast concrete slab, expressing mainly the component type. Possible values are “Hollow-core”, “Double-tee”, “Flat plank”, etc.
+  localizations: []
+- name: ToppingType
+  definition: Defines if a topping is applied and what kind. Values are “Full topping”, “Perimeter Wash”, “None”
+  localizations: []
+- name: EdgeDistanceToFirstAxis
+  definition: The distance from the left (‘West’) edge of the slab (in the direction of span of the components) to the axis of the first component.
+  localizations: []
+- name: DistanceBetweenComponentAxes
+  definition: The distance between the axes of the components, measured along the ‘South’ edge of the slab.
+  localizations: []
+- name: AngleToFirstAxis
+  definition: The angle of rotation of the axis of the first component relative to the ‘West’ edge of the slab.
+  localizations: []
+- name: AngleBetweenComponentAxes
+  definition: The angle between the axes of each pair of components.
+  localizations: []
+- name: NominalThickness
+  definition: The nominal overall thickness of the slab.
+  localizations: []
+- name: NominalToppingThickness
+  definition: The nominal thickness of the topping.
+  localizations: []

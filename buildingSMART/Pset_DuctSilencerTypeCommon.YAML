@@ -1,0 +1,71 @@
+﻿name: Pset_DuctSilencerTypeCommon
+ifcVersion:
+  version: IFC4
+  schema: IfcHvacDomain
+ifdGuid: ''
+definition: 'Duct silencer type common attributes.InsertionLoss and RegeneratedSound attributes deleted in IFC2x2 Pset Addendum: Use IfcSoundProperties instead.'
+applicableIfcClasses:
+- name: IfcDuctSilencerType
+  type: IfcDuctSilencerType
+properties:
+- name: Reference
+  definition: "Reference ID for this specified type in this project (e.g. type 'A-1'), provided, if there is no classification reference to a recognized classification system used. "
+  localizations:
+  - language: ja-JP
+    name: 参照記号
+    definition: このプロジェクトにおける参照記号(例：A-1)。分類コードではなく内部で使用されるプロジェクトタイプとして使用されるもの。
+- name: Status
+  definition: 'Status of the element, predominately used in renovation or retrofitting projects. The status can be assigned to as "New" - element designed as new addition, "Existing" - element exists and remains, "Demolish" - element existed but is to be demolished,  "Temporary" - element will exists only temporary (like a temporary support structure). '
+  localizations:
+  - language: ja-JP
+    name: 状態
+    definition: 要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+- name: HydraulicDiameter
+  ifdGuid: df4ca3ae30374376ac8f4a02ec30f9a2
+  definition: Hydraulic diameter.
+  localizations:
+  - language: ja-JP
+    name: 水力直径
+    definition: 水力直径
+- name: Length
+  ifdGuid: 442a237363a74ca4a08e1ee79c66b34c
+  definition: The finished length of the silencer.
+  localizations:
+  - language: ja-JP
+    name: 長さ
+    definition: サイレンサの仕上げ長さ
+- name: Weight
+  ifdGuid: 254a801b69cf4fbf901194e9f9117555
+  definition: The weight of the silencer.
+  localizations:
+  - language: ja-JP
+    name: 重さ
+    definition: サイレンサ重量
+- name: AirFlowrateRange
+  ifdGuid: 6def23cc025c4c7b995bcddd56fbc98d
+  definition: Possible range of airflow that can be delivered.
+  localizations:
+  - language: ja-JP
+    name: 流量範囲
+    definition: 送風可能な風量範囲
+- name: WorkingPressureRange
+  ifdGuid: f107881b87724af6bddf5b4fa6edc958
+  definition: Allowable minimum and maximum  working pressure (relative to ambient pressure).
+  localizations:
+  - language: ja-JP
+    name: 作動圧力範囲
+    definition: 許容最小・最大作動圧力（周囲圧との相対値）
+- name: TemperatureRange
+  ifdGuid: d8e82f1ea9c84867aefecef1822f85bf
+  definition: Allowable minimum and maximum temperature.
+  localizations:
+  - language: ja-JP
+    name: 温度範囲
+    definition: 許容最低・最高温度
+- name: HasExteriorInsulation
+  ifdGuid: 92c36abad60c43239d31b676512d3620
+  definition: TRUE if the silencer has exterior insulation. FALSE if it does not.
+  localizations:
+  - language: ja-JP
+    name: 外部保温
+    definition: サイレンサに外部保温があるときTRUE

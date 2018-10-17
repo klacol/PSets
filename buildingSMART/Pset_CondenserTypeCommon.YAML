@@ -1,0 +1,47 @@
+﻿name: Pset_CondenserTypeCommon
+ifcVersion:
+  version: IFC4
+  schema: IfcHvacDomain
+ifdGuid: ''
+definition: Condenser type common attributes.
+applicableIfcClasses:
+- name: IfcCondenserType
+  type: IfcCondenserType
+properties:
+- name: Reference
+  definition: "Reference ID for this specified type in this project (e.g. type 'A-1'), provided, if there is no classification reference to a recognized classification system used. "
+  localizations:
+  - language: ja-JP
+    name: 参照記号
+    definition: このプロジェクトにおける参照記号(例：A-1)。分類コードではなく内部で使用されるプロジェクトタイプとして使用されるもの。
+- name: RefrigerantClass
+  ifdGuid: 11b1ac4da3394124b8a8111b75788755
+  definition: 'Refrigerant class used by the condenser.CFC: Chlorofluorocarbons.HCFC: Hydrochlorofluorocarbons.HFC: Hydrofluorocarbons.'
+  localizations: []
+- name: RefrigerantMaterial
+  definition: The refrigerant material used for heat transfer purposes.
+  localizations: []
+- name: ExternalSurfaceArea
+  ifdGuid: 479f8fd091f24a37b2ec3ac74ebad415
+  definition: External surface area (both primary and secondary area).
+  localizations: []
+- name: InternalSurfaceArea
+  ifdGuid: 7f3847f72bbd47ba8d81f63803d0fc41
+  definition: Internal surface area.
+  localizations: []
+- name: InternalRefrigerantVolume
+  ifdGuid: be6b7361f7ff40e6a4791e5858469e9c
+  definition: Internal volume of condenser (refrigerant side).
+  localizations: []
+- name: InternalWaterVolume
+  ifdGuid: 8f6acf8a54724729b699d40a69258eac
+  definition: Internal volume of condenser (water side).
+  localizations: []
+- name: NominalHeatTransferArea
+  ifdGuid: 273f136db7d247fc9930d5f7de825477
+  definition: Nominal heat transfer surface area associated with nominal overall heat transfer coefficient.
+  localizations: []
+- name: NominalHeatTransferCoefficient
+  ifdGuid: 52e79c107e8847e0be4cb7125f20e032
+  definition: Nominal overall heat transfer coefficient associated with nominal heat transfer area.
+  localizations: []

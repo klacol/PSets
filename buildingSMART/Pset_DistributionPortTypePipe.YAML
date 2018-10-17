@@ -1,0 +1,86 @@
+﻿name: Pset_DistributionPortTypePipe
+ifcVersion:
+  version: IFC4
+ifdGuid: ''
+definition: Pipe port occurrence attributes attached to an instance of IfcDistributionPort.
+applicableIfcClasses:
+- name: IfcDistributionPort/CHEMICAL
+  type: IfcDistributionPort/CHEMICAL
+properties:
+- name: ConnectionType
+  ifdGuid: f842a89d8ec5470cb8ba7fec7338c6e3
+  definition: ConsoleAppYamlTest.PropertyType
+  localizations:
+  - language: ja-JP
+    name: 接続タイプ
+    definition: '物理ポート接続：- Coaxial: 同軸コネクタ.- DSub: D-Subコネクタ.- Infrared:赤外線- RJ: 登録済みジャック.- Radio: 無線- USB: USB.'
+- name: ConnectionSubType
+  ifdGuid: df1d39774bb44a8d96c833058af039e0
+  definition: ConsoleAppYamlTest.PropertyType
+  localizations:
+  - language: ja-JP
+    name: 接続サブタイプ
+    definition: '物理ポート接続のサブタイプ。接続タイプ以外の情報を設定する場合に使用。下記の値を設定：- DSub: DA15, DB25, DC37, DD50, DE9, DE15 - Radio: IEEE802.11g, IEEE802.11n- RJ: 4P4C, 6P2C, 8P8C - USB: A, B, MiniA, MiniB, MicroA, MicroB'
+- name: NominalDiameter
+  ifdGuid: ac9d798031fc44e1828a2cc76ae5d86c
+  definition: ConsoleAppYamlTest.PropertyType
+  localizations:
+  - language: ja-JP
+    name: 呼び径
+    definition: 配管の呼び径。
+- name: InnerDiameter
+  ifdGuid: fcd3dc22fdfd4ea084f200be83155aa3
+  definition: ConsoleAppYamlTest.PropertyType
+  localizations:
+  - language: ja-JP
+    name: 内径
+    definition: 配管の実内径。
+- name: OuterDiameter
+  ifdGuid: 4d18569df1264f3baceb2da495f1dfda
+  definition: ConsoleAppYamlTest.PropertyType
+  localizations:
+  - language: ja-JP
+    name: 外径
+    definition: 配管の実外径。
+- name: Temperature
+  ifdGuid: b6cb7483a65d4bd5ac6551b080116323
+  definition: ConsoleAppYamlTest.PropertyType
+  localizations:
+  - language: ja-JP
+    name: 温度
+    definition: 流体の温度。
+- name: VolumetricFlowRate
+  ifdGuid: b4252ef25858465d840e3539db7eed5e
+  definition: ConsoleAppYamlTest.PropertyType
+  localizations:
+  - language: ja-JP
+    name: 体積流量
+    definition: 流体の体積流量。
+- name: MassFlowRate
+  ifdGuid: a3db7690009f42a988a9f5683b29eb8f
+  definition: ConsoleAppYamlTest.PropertyType
+  localizations:
+  - language: ja-JP
+    name: 質量流量
+    definition: 流体の質量流量。
+- name: FlowCondition
+  ifdGuid: a09f286511e94d0f939193c2e0155921
+  definition: ConsoleAppYamlTest.PropertyType
+  localizations:
+  - language: ja-JP
+    name: 流動状態
+    definition: 断面の充満率で流動状態を定義する。
+- name: Velocity
+  ifdGuid: 7faf6c2ffbd64304b38859166e006c4a
+  definition: ConsoleAppYamlTest.PropertyType
+  localizations:
+  - language: ja-JP
+    name: 速度
+    definition: 流体の速度。
+- name: Pressure
+  ifdGuid: cc4abc86f21d4ee3a86d3815019c5ab3
+  definition: ConsoleAppYamlTest.PropertyType
+  localizations:
+  - language: ja-JP
+    name: 圧力
+    definition: 流体の圧力。

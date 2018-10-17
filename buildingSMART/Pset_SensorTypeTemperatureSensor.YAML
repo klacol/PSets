@@ -1,0 +1,30 @@
+﻿name: Pset_SensorTypeTemperatureSensor
+ifcVersion:
+  version: IFC4
+  schema: IfcBuildingControlsDomain
+ifdGuid: ''
+definition: 'A device that senses or detects temperature. HISTORY: TemperatureSensorSensorSetPoint changed to SetPointTemperature. Range, accuracy and time constant deleted.'
+applicableIfcClasses:
+- name: IfcSensorType
+  type: IfcSensorType/TEMPERATURESENSOR
+properties:
+- name: TemperatureSensorType
+  ifdGuid: 889735a978c8476588bf66f7d93f86d6
+  definition: Enumeration that Identifies the types of temperature sensor that can be specified.
+  localizations:
+  - language: ja-JP
+    name: 温度センサータイプ
+    definition: 明示された温度センサーのタイプを識別する一覧。
+  - language: ko-KR
+    name: 온도 센서 타입
+    definition: 명시된 온도 센서 유형을 식별하는 목록.
+- name: SetPointTemperature
+  ifdGuid: bb144a7b5f9d48b5becf6161d8e08e3e
+  definition: The temperature value to be sensed. Use IfcPropertyBoundedValue.SetPointValue to set the set point value.
+  localizations:
+  - language: ja-JP
+    name: 温度設定値
+    definition: 感知される温度。セットポイント値を置くために、IfcPropertyBoundedValue.SetPointValueを使用する。
+  - language: ko-KR
+    name: 온도 성정
+    definition: 감지되는 온도. 세트 포인트 값을 넣으려면, IfcPropertyBoundedValue.SetPointValue를 사용하십시오.

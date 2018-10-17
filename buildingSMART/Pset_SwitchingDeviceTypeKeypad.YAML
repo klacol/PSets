@@ -1,0 +1,19 @@
+﻿name: Pset_SwitchingDeviceTypeKeypad
+ifcVersion:
+  version: IFC4
+  schema: IfcElectricalDomain
+ifdGuid: ''
+definition: 'A keypad is a switch supporting multiple functions.  HISTORY: Added in IFC4.'
+applicableIfcClasses:
+- name: IfcSwitchingDeviceType
+  type: IfcSwitchingDeviceType/KEYPAD
+properties:
+- name: KeypadType
+  definition: A list of the available types of keypad switch from which that required may be selected.
+  localizations:
+  - language: ja-JP
+    name: キーパッドタイプ
+    definition: 選択が必要となる、キーパッドスイッチの一覧リスト。
+  - language: ko-KR
+    name: 키패드 유형
+    definition: 선택이 필요한 키패드 스위치 목록

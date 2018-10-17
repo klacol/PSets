@@ -1,0 +1,24 @@
+﻿name: Pset_ValveTypeIsolating
+ifcVersion:
+  version: IFC4
+  schema: IfcHvacDomain
+ifdGuid: ''
+definition: Valve that is used to isolate system components.Note that an isolating valve is constrained to have a 2 port  pattern.
+applicableIfcClasses:
+- name: IfcValveType
+  type: IfcValveType/ISOLATING
+properties:
+- name: IsNormallyOpen
+  ifdGuid: ce28c7bdc6e445d7893623a590ddda99
+  definition: 'If TRUE, the valve is normally open. If FALSE is is normally closed. '
+  localizations:
+  - language: ja-JP
+    name: ノーマルオープン
+    definition: もし、TRUEなら弁はノーマルオープン、もし、FALSEならノーマルクローズ
+- name: IsolatingPurpose
+  ifdGuid: 3befda2f08754c518d7cc051d7628cae
+  definition: Defines the purpose for which the isolating valve is used since the way in which the valve is identified as an isolating valve may be in the context of its use. Note that unless there is a contextual name for the isolating valve (as in the case of a Landing Valve on a rising fire main), then the value assigned shoulkd be UNSET.
+  localizations:
+  - language: ja-JP
+    name: 遮断目的
+    definition: その使用の前後関係から遮断弁として使われる弁があるようであれば、遮断弁が使われている理由を定義します。注：燃え上がる火の上のランディング弁のように、遮断弁に前後関係から別な名前がつく場合は別です。このようなとき値は定まらない。

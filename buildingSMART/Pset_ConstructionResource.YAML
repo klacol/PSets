@@ -1,0 +1,65 @@
+﻿name: Pset_ConstructionResource
+ifcVersion:
+  version: IFC4
+ifdGuid: ''
+definition: Properties for tracking resource usage over time.
+applicableIfcClasses:
+- name: IfcConstructionResource
+  type: IfcConstructionResource
+properties:
+- name: ScheduleWork
+  ifdGuid: ee566b00d1cc11e1800000215ad4efdf
+  definition: ConsoleAppYamlTest.PropertyType
+  localizations:
+  - language: ja-JP
+    name: 予定作業時間
+    definition: 資源配分のための予定された作業。
+- name: ActualWork
+  ifdGuid: f1515b80d1cc11e1800000215ad4efdf
+  definition: ConsoleAppYamlTest.PropertyType
+  localizations:
+  - language: ja-JP
+    name: 実績作業時間
+    definition: 資源配分のための実績の作業。
+- name: RemainingWork
+  ifdGuid: f3b3b580d1cc11e1800000215ad4efdf
+  definition: ConsoleAppYamlTest.PropertyType
+  localizations:
+  - language: ja-JP
+    name: 残存作業時間
+    definition: 資源配分のための残存している作業。
+- name: ScheduleCost
+  ifdGuid: f6aea600d1cc11e1800000215ad4efdf
+  definition: ConsoleAppYamlTest.PropertyType
+  localizations:
+  - language: ja-JP
+    name: 予定コスト
+    definition: 資源配分のための予定されているコスト。
+- name: ActualCost
+  ifdGuid: f9110000d1cc11e1800000215ad4efdf
+  definition: ConsoleAppYamlTest.PropertyType
+  localizations:
+  - language: ja-JP
+    name: 実績コスト
+    definition: 資源配分のための実績のコスト。
+- name: RemainingCost
+  ifdGuid: fb735a00d1cc11e1800000215ad4efdf
+  definition: ConsoleAppYamlTest.PropertyType
+  localizations:
+  - language: ja-JP
+    name: 残存コスト
+    definition: 資源配分のための残存しているコスト。
+- name: ScheduleCompletion
+  ifdGuid: fe6e4a80d1cc11e1800000215ad4efdf
+  definition: ConsoleAppYamlTest.PropertyType
+  localizations:
+  - language: ja-JP
+    name: 予定完了率
+    definition: 予定された完了率。
+- name: ActualCompletion
+  ifdGuid: 00d0a480d1cd11e1800000215ad4efdf
+  definition: ConsoleAppYamlTest.PropertyType
+  localizations:
+  - language: ja-JP
+    name: 実績完了率
+    definition: 実績の完了率。

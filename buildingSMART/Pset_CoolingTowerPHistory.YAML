@@ -1,0 +1,30 @@
+﻿name: Pset_CoolingTowerPHistory
+ifcVersion:
+  version: IFC4
+  schema: IfcHvacDomain
+ifdGuid: ''
+definition: Cooling tower performance history attributes.
+applicableIfcClasses:
+- name: IfcPerformanceHistory
+  type: IfcCoolingTower[PerformanceHistory]
+properties:
+- name: Capacity
+  ifdGuid: 69061ade26884052b80690ede143b94a
+  definition: Cooling tower capacity in terms of heat transfer rate of the cooling tower between air stream and water stream.
+  localizations: []
+- name: HeatTransferCoefficient
+  ifdGuid: bf2d9707c73f4801a15cb88080599f5e
+  definition: Heat transfer coefficient-area product.
+  localizations: []
+- name: SumpHeaterPower
+  ifdGuid: 4ccf48f017bd45a398b8bbf04193f421
+  definition: Electrical heat power of sump heater.
+  localizations: []
+- name: UACurve
+  ifdGuid: e4c46b988b3c4a6c82dd761743bd8de9
+  definition: UA value as a  function of fan speed at certain water flow rate, UA = f ( fan speed).
+  localizations: []
+- name: Performance
+  ifdGuid: 4baee93d17324f379bd512c99845d1d7
+  definition: Water temperature change as a function of wet-bulb temperature, water entering temperature, water flow rate, air flow rate, Tdiff = f ( Twet-bulb, Twater,in, mwater, mair).
+  localizations: []

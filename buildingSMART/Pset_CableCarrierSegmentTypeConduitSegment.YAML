@@ -1,0 +1,50 @@
+﻿name: Pset_CableCarrierSegmentTypeConduitSegment
+ifcVersion:
+  version: IFC4
+  schema: IfcElectricalDomain
+ifdGuid: ''
+definition: 'An enclosed tubular carrier segment through which cables are pulled.HISTORY: IFC4 - NominalLength deleted. To be handled as a quantity measure.'
+applicableIfcClasses:
+- name: IfcCableCarrierSegmentType
+  type: IfcCableCarrierSegmentType/CONDUITSEGMENT
+properties:
+- name: NominalWidth
+  ifdGuid: 5dc02d277be9499085595cad28fcaffa
+  definition: The nominal width of the segment.
+  localizations:
+  - language: ja-JP
+    name: 公称幅
+    definition: 呼び幅寸法。
+  - language: ko-KR
+    name: 공칭 폭
+    definition: 폭 치수
+- name: NominalHeight
+  ifdGuid: 0cd94691cd08475a8285eb42554aac54
+  definition: The nominal height of the segment.
+  localizations:
+  - language: ja-JP
+    name: 公称高
+    definition: 呼び高寸法。
+  - language: ko-KR
+    name: 공칭 높이
+    definition: 고 치수
+- name: ConduitShapeType
+  ifdGuid: c32c564c23e84f59a502ae4b9e798210
+  definition: The shape of the conduit segment.
+  localizations:
+  - language: ja-JP
+    name: 電線管のタイプ
+    definition: 電線管の形状タイプ。（円筒形,卵形,その他,不明,なし）
+  - language: ko-KR
+    name: 전선관의 유형
+    definition: 전선관의 형상 타입. (원통형, 계란 모양, 기타 알 수 없음) "
+- name: IsRigid
+  ifdGuid: 6e2e2b18426f43d4bb2352164acaf974
+  definition: Indication of whether the conduit is rigid (= TRUE) or flexible (= FALSE).
+  localizations:
+  - language: ja-JP
+    name: 鋼管
+    definition: 鋼管か否か。
+  - language: ko-KR
+    name: 강관
+    definition: ''

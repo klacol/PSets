@@ -1,0 +1,108 @@
+﻿name: Pset_CoilTypeHydronic
+ifcVersion:
+  version: IFC4
+  schema: IfcHvacDomain
+ifdGuid: ''
+definition: Hydronic coil type attributes.
+applicableIfcClasses:
+- name: IfcCoilType
+  type: IfcCoilType
+properties:
+- name: FluidPressureRange
+  ifdGuid: 3472d215f49749a18acbf8a8799a5690
+  definition: Allowable water working pressure range inside the tube.
+  localizations:
+  - language: fr-FR
+    name: PlagePressionFluide
+    definition: Plage de pression hydraulique fonctionnelle admissible dans le tube.
+- name: CoilCoolant
+  ifdGuid: fd8d3ff2a9fd48e1b3624cc918dbaec1
+  definition: The fluid used for heating or cooling used by the hydronic coil.
+  localizations:
+  - language: fr-FR
+    name: RefrigerantBatterie
+    definition: Le fluide utilisé pour chauffer ou refroidir dans la batterie deux tubes.
+- name: CoilConnectionDirection
+  ifdGuid: 8d33b263b8444407a458f5d9d812b39c
+  definition: Coil connection direction (facing into the air stream).
+  localizations:
+  - language: fr-FR
+    name: DirectionConnexionBatterie
+    definition: Direction de la connexion à la batterie (en face du jet d'air)
+- name: CoilFluidArrangement
+  ifdGuid: 0a140429154f4c6795e61472aab955ac
+  definition: 'Fluid flow arrangement of the coil.CrossCounterFlow: Air and water flow enter in different directions.CrossFlow: Air and water flow are perpendicular.CrossParallelFlow: Air and water flow enter in same directions.'
+  localizations:
+  - language: fr-FR
+    name: DispositionFluideBatterie
+    definition: Disposition du flux du fluide dans la batterie.
+- name: CoilFaceArea
+  ifdGuid: 66fb819cde1e40f4abd44524b38857fe
+  definition: Coil face area in the direction against air the flow.
+  localizations:
+  - language: fr-FR
+    name: SurfaceEchangeBatterie
+    definition: Surface d'échange de la batterie dans la direction contraire du jet.
+- name: HeatExchangeSurfaceArea
+  ifdGuid: dc36dc3929d249a2859bb8d3ebc40503
+  definition: Heat exchange surface area associated with U-value.
+  localizations:
+  - language: fr-FR
+    name: SurfaceEchangeThermique
+    definition: Surface d'échange thermique associé à la valeur U.
+- name: PrimarySurfaceArea
+  ifdGuid: 61ac3fcba64a4d3a8e8a0ac88316c6aa
+  definition: Primary heat transfer surface area of the tubes and headers.
+  localizations:
+  - language: fr-FR
+    name: SurfaceEchangePrimaire
+    definition: Surface d'échange thermique au primaire des tubes et aux collecteurs.
+- name: SecondarySurfaceArea
+  ifdGuid: 28b68edc7a314b2d8ccc5f3d772b55a5
+  definition: Secondary heat transfer surface area created by fins.
+  localizations:
+  - language: fr-FR
+    name: SurfaceEchangeSecondaire
+    definition: Surface d'échange thermique au secondaire crée par les ailettes.
+- name: Fluid
+  ifdGuid: e0374235a17a4851810e25406b509ee5
+  definition: The properties of the hydronic fluid used for heat transfer within the coil tubes.
+  localizations:
+  - language: fr-FR
+    name: Fluide
+    definition: Les propriétés du fluide utilisé pour l'échange thermique à l'intérieur des tubes de la batterie.
+- name: TotalUACurves
+  ifdGuid: 8d7b52dc58b84f67bf64afd803b16cfd
+  definition: 'Total UA curves, UA - air and water velocities, UA = [(C1 * AirFlowRate^0.8)^-1 + (C2 * WaterFlowRate^0.8)^-1]^-1.  Note: as two variables are used, DefiningValues and DefinedValues are null, and values are stored in IfcTable in the following order: AirFlowRate,WaterFlowRate,UA.  The IfcTable is related to IfcPropertyTableValue using IfcMetric and IfcPropertyConstraintRelationship.'
+  localizations:
+  - language: fr-FR
+    name: CourbesCoefficientTransmissionThermiqueTotal
+    definition: "Courbes de coefficient de transmission thermique total - vitesses de l'eau et de l'air, U.S = [(C1*DébitAéraulique^0,8)^-1 + (C2*DébitHydraulique^0,8)^-1]^-1.Remarque: comme deux variables sont utilisées, ValeursDefinir et ValeursDéfinies sont nulles, et les valeurs sont enregistrées dans IfcTable dans l'ordre suivant:DébitAéraulique, DebitHydraulique, U.S.Le IfcTable est lié à IfcPropertyTableValue en utilisant IfcMetric et IfcPropertyConstraintRelationship."
+- name: WaterPressureDropCurve
+  ifdGuid: 87c1c9eb5ad744eea1b3f8b054b73e7d
+  definition: Water pressure drop curve, pressure drop – flow rate curve, WaterPressureDrop = f(WaterflowRate).
+  localizations:
+  - language: fr-FR
+    name: CourbePerteChargeHydraulique
+    definition: Courbe de perte de charge hydraulique, courbe perte de charge - débit, perte de charge = f(DébitHydraulique).
+- name: BypassFactor
+  ifdGuid: 07b2d6d85a7d40c2a3b30cc7da60775a
+  definition: Fraction of air that is bypassed by the coil (0-1).
+  localizations:
+  - language: fr-FR
+    name: FacteurBypass
+    definition: Fraction de l'air qui est bypassé par la batterie (0 à 1).
+- name: SensibleHeatRatio
+  ifdGuid: c69ff9a2a76d4a31bfad45e856f6d1c3
+  definition: Air-side sensible heat ratio, or fraction of sensible heat transfer to the total heat transfer.
+  localizations:
+  - language: fr-FR
+    name: RatioChaleurSensible
+    definition: Ratio de chaleur sensible, ou fraction d'échange thermique sensible sur la chaleur thermique totale échangée.
+- name: WetCoilFraction
+  ifdGuid: 52c98e0bd9f74f0b86da7aed77362d73
+  definition: Fraction of coil surface area that is wet (0-1).
+  localizations:
+  - language: fr-FR
+    name: FractionBatterieHumide
+    definition: Fraction de la surface de la batterie qui est humide (0 à 1).

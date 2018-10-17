@@ -1,0 +1,82 @@
+﻿name: Pset_DistributionPortTypeGas
+ifcVersion:
+  version: IFC4
+  schema: IfcSharedBldgServiceElements
+ifdGuid: ''
+definition: Pipe port occurrence attributes attached to an instance of IfcDistributionPort.
+applicableIfcClasses:
+- name: IfcDistributionPort
+  type: IfcDistributionPort/GAS
+properties:
+- name: ConnectionType
+  definition: 'The end-style treatment of the pipe port:BRAZED: Brazed. COMPRESSION: Compression. FLANGED: Flanged. GROOVED: Grooved. OUTSIDESLEEVE: Outside Sleeve. SOLDERED: Soldered. SWEDGE: Swedge. THREADED: Threaded. WELDED: Welded. OTHER: Another type of end-style has been applied.NONE: No end-style has been applied.'
+  localizations:
+  - language: ja-JP
+    name: 接続タイプ
+    definition: '配管ポートの端部加工方法：- BRAZED: ろう型- COMPRESSION: 圧縮型 - FLANGED:フランジ型- GROOVED: 溝型. - OUTSIDESLEEVE: 外側スリーブ型- SOLDERED: ハンダ型- SWEDGE:  Swedge？Sくさび型？ - THREADED: ねじ型- WELDED: 溶接型 - OTHER: その他- NONE: なし.- USERDEFINED:ユーザー定義タイプ- NOTDEFINED: 不確定タイプ'
+  - language: ko-KR
+    name: 연결 유형
+    definition: '배관 포트 단부 가공 방법 BRAZED : 밀랍 형 COMPRESSION : 압축형 FLANGED : 플랜지 GROOVED : 구형. OUTSIDESLEEVE : 외부 슬리브 형식 SOLDERED : 납땜 형식 SWEDGE : Swedge? S 쐐기 모양? THREADED : 나사형 WELDED : 용접 형 OTHER : 기타 NONE : 없음 USERDEFINED : 사용자 정의 유형 NOTDEFINED : 불확정 유형'
+- name: ConnectionSubType
+  definition: 'The physical port connection subtype that further qualifies the ConnectionType.  '
+  localizations:
+  - language: ja-JP
+    name: 接続サブタイプ
+    definition: 物理ポート接続のサブタイプ。接続タイプ以外の情報を設定する場合に使用。
+  - language: ko-KR
+    name: 연결 서브타입
+    definition: ''
+- name: NominalDiameter
+  definition: The nominal diameter of the pipe connection.
+  localizations:
+  - language: ja-JP
+    name: 呼び径
+    definition: 配管の公称直径。
+  - language: ko-KR
+    name: 호칭 지름
+    definition: 배관의 공칭 직경
+- name: InnerDiameter
+  definition: The actual inner diameter of the pipe.
+  localizations:
+  - language: ja-JP
+    name: 内径
+    definition: 配管の実内径。
+  - language: ko-KR
+    name: 내경
+    definition: 배관의 열매 내경
+- name: OuterDiameter
+  definition: The actual outer diameter of the pipe.
+  localizations:
+  - language: ja-JP
+    name: 外径
+    definition: 配管の実外径。
+  - language: ko-KR
+    name: 외경
+    definition: 배관의 실제 외경
+- name: VolumetricFlowRate
+  definition: The volumetric flow rate of the fluid.
+  localizations:
+  - language: ja-JP
+    name: 体積流量
+    definition: 流体の体積流量。
+  - language: ko-KR
+    name: 체적유량
+    definition: 유체의 체적 유량
+- name: Velocity
+  definition: The velocity of the fluid.
+  localizations:
+  - language: ja-JP
+    name: 流速
+    definition: 流体の速度。
+  - language: ko-KR
+    name: 유속
+    definition: 유체의 속도
+- name: Pressure
+  definition: The pressure of the fluid.
+  localizations:
+  - language: ja-JP
+    name: 圧力
+    definition: 流体の圧力。
+  - language: ko-KR
+    name: 압력
+    definition: 유체의 압력

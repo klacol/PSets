@@ -1,0 +1,58 @@
+﻿name: Pset_PropertyAgreement
+ifcVersion:
+  version: IFC4
+  schema: IfcSharedFacilitiesElements
+ifdGuid: ''
+definition: A property agreement is an agreement that enables the occupation of a property for a period of time.The objective is to capture the information within an  agreement that is relevant to a facilities manager. Design and construction information associated with the property is not considered. A property agreement may be applied to an instance of IfcSpatialStructureElement including to compositions defined through the IfcSpatialStructureElement.Element.CompositionEnum.Note that the associated actors are captured by the IfcOccupant class.
+applicableIfcClasses:
+- name: IfcSpatialStructureElement
+  type: IfcSpatialStructureElement
+properties:
+- name: AgreementType
+  ifdGuid: 07b01cef641b4710aa5df9f923b1e574
+  definition: Identifies the predefined types of property agreement from which the type required may be set.
+  localizations: []
+- name: Identifier
+  ifdGuid: e35086c6ef94456a88ec3d57495eaac6
+  definition: The identifier assigned to the agreement for the purposes of tracking.
+  localizations: []
+- name: Version
+  ifdGuid: dba7683eaf4f47c492840a1558cd15c1
+  definition: The version number of the agreement that is identified.
+  localizations: []
+- name: VersionDate
+  ifdGuid: da9f2473f95d4f2a808a2f8a548cf6cb
+  definition: The date on which the version of the agreement became applicable.
+  localizations: []
+- name: PropertyName
+  ifdGuid: acdefac2178243ada49d40072805c6cb
+  definition: Addressing details of the property as stated within the agreement.
+  localizations: []
+- name: CommencementDate
+  ifdGuid: a8e3f1d4e46c4b2389deef78c987adb7
+  definition: Date on which the agreement commences.
+  localizations: []
+- name: TerminationDate
+  ifdGuid: 3ff60c32f8424313bb5c24739a863403
+  definition: Date on which the agreement terminates.
+  localizations: []
+- name: Duration
+  ifdGuid: 318e97e8a8904dd8ad76515f0a618d45
+  definition: The period of time for the lease.
+  localizations: []
+- name: Options
+  ifdGuid: fe0fc9d8530040d4a3fc137b74b0cfcf
+  definition: A statement of the options available in the agreement.
+  localizations: []
+- name: ConditionCommencement
+  ifdGuid: 72db0a1e329a4f59ab06c74d5522fff9
+  definition: Condition of property provided on commencement of the agreement e.g. cold shell, warm lit shell, broom clean, turn-key.
+  localizations: []
+- name: Restrictions
+  ifdGuid: 97cfbe4cb85a4d41981411bc11a407b7
+  definition: Restrictions that may be placed by a  competent authority.
+  localizations: []
+- name: ConditionTermination
+  ifdGuid: 14afcd06e44f4601858d404351123c2d
+  definition: Condition of property required on termination of the agreement e.g. cold shell, warm lit shell, broom clean, turn-key.
+  localizations: []

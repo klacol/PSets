@@ -1,0 +1,24 @@
+﻿name: Pset_PipeSegmentPHistory
+ifcVersion:
+  version: IFC4
+  schema: IfcHvacDomain
+ifdGuid: ''
+definition: Pipe segment performance history common attributes.
+applicableIfcClasses:
+- name: IfcPerformanceHistory
+  type: IfcPipeSegment
+properties:
+- name: LeakageCurve
+  ifdGuid: 4c3fe4f5a4604813b6ac3722ad26ab17
+  definition: Leakage per unit length curve versus working pressure.
+  localizations:
+  - language: ja-JP
+    name: 漏洩曲線
+    definition: 配管圧力に対する単位あたり流出量曲線
+- name: FluidFlowLeakage
+  ifdGuid: 3f7a6d51448846ae9c8f46d50da42014
+  definition: Volumetric leakage flow rate.
+  localizations:
+  - language: ja-JP
+    name: 流体漏洩量
+    definition: 漏洩量

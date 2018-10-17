@@ -1,0 +1,98 @@
+﻿name: Pset_CooledBeamTypeCommon
+ifcVersion:
+  version: IFC4
+  schema: IfcHvacDomain
+ifdGuid: ''
+definition: 'Cooled beam common attributes.SoundLevel and SoundAttenuation attributes deleted in IFC2x2 Pset Addendum: Use IfcSoundProperties instead.'
+applicableIfcClasses:
+- name: IfcCooledBeamType
+  type: IfcCooledBeamType
+properties:
+- name: Reference
+  definition: "Reference ID for this specified type in this project (e.g. type 'A-1'), provided, if there is no classification reference to a recognized classification system used. "
+  localizations:
+  - language: ja-JP
+    name: 参照記号
+    definition: このプロジェクトにおける参照記号(例：A-1)。分類コードではなく内部で使用されるプロジェクトタイプとして使用されるもの。
+- name: Status
+  definition: 'Status of the element, predominately used in renovation or retrofitting projects. The status can be assigned to as "New" - element designed as new addition, "Existing" - element exists and remains, "Demolish" - element existed but is to be demolished,  "Temporary" - element will exists only temporary (like a temporary support structure). '
+  localizations:
+  - language: ja-JP
+    name: 状態
+    definition: 要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+- name: IsFreeHanging
+  ifdGuid: 232e347792c64da78d961ae0b3c98e6a
+  definition: Is it free hanging type (not mounted in a false ceiling)?
+  localizations: []
+- name: WaterFlowControlSystemType
+  ifdGuid: 42f26141817a45be9276e8e3c0244057
+  definition: Factory fitted waterflow control system.
+  localizations: []
+- name: WaterPressureRange
+  ifdGuid: 78e783d0756a407980377359e2744f1e
+  definition: Allowable water circuit working pressure range.
+  localizations: []
+- name: NominalCoolingCapacity
+  ifdGuid: 277e6135be7b4db58705a7d88d7439d6
+  definition: Nominal cooling capacity.
+  localizations: []
+- name: NominalSurroundingTemperatureCooling
+  ifdGuid: f91bc6d4c5ca41bc8886a4c7c8d7d2e9
+  definition: Nominal surrounding temperature (refers to nominal cooling capacity).
+  localizations: []
+- name: NominalSurroundingHumidityCooling
+  ifdGuid: e5cc413e988b4058bea2771c93d58ec6
+  definition: Nominal surrounding humidity (refers to nominal cooling capacity).
+  localizations: []
+- name: NominalSupplyWaterTemperatureCooling
+  ifdGuid: 2602e9996e0345c3bbd795dae2aab0b6
+  definition: Nominal supply water temperature (refers to nominal cooling capacity).
+  localizations: []
+- name: NominalReturnWaterTemperatureCooling
+  ifdGuid: a4e69d6e6fef4e56b147d8a68e2eafe3
+  definition: Nominal return water temperature (refers to nominal cooling capacity).
+  localizations: []
+- name: NominalWaterFlowCooling
+  ifdGuid: 7b61fbcaf3ea46cba686b4d19acac71b
+  definition: Nominal water flow (refers to nominal cooling capacity).
+  localizations: []
+- name: NominalHeatingCapacity
+  ifdGuid: d944472f37f94638a72e33ec3cb2de24
+  definition: Nominal heating capacity.
+  localizations: []
+- name: NominalSurroundingTemperatureHeating
+  ifdGuid: e1b50bc6fa1a4315ab70b55490cf1807
+  definition: Nominal surrounding temperature (refers to nominal heating capacity).
+  localizations: []
+- name: NominalSupplyWaterTemperatureHeating
+  ifdGuid: 2b700f57e15c44688b1a0d3284dc6f17
+  definition: Nominal supply water temperature (refers to nominal heating capacity).
+  localizations: []
+- name: NominalReturnWaterTemperatureHeating
+  ifdGuid: 807b1e96f22d4b2bb17f75fe645c1579
+  definition: Nominal return water temperature (refers to nominal heating capacity).
+  localizations: []
+- name: NominalWaterFlowHeating
+  ifdGuid: 5150d5da05404455ae5d7156991baa67
+  definition: Nominal water flow (refers to nominal heating capacity).
+  localizations: []
+- name: IntegratedLightingType
+  ifdGuid: 0a7514bb113f41deaa44f1940e8b6b86
+  definition: Integrated lighting in cooled beam.
+  localizations: []
+- name: PipeConnectionEnum
+  ifdGuid: bc4afcd56bc8425ab27c0b8574adea94
+  definition: The manner in which the pipe connection is made to the cooled beam.
+  localizations: []
+- name: FinishColor
+  ifdGuid: 06d993069fc54a0487f9dcf2efe1a304
+  definition: Finish color for cooled beam.
+  localizations: []
+- name: CoilLength
+  ifdGuid: 356c6ecc283f4cecbac6a31e87f90ea5
+  definition: Length of coil.
+  localizations: []
+- name: CoilWidth
+  ifdGuid: b293677053cc4c2daec50343df213589
+  definition: Width of coil.
+  localizations: []

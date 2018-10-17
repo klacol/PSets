@@ -1,0 +1,19 @@
+﻿name: Pset_ElectricApplianceTypeDishwasher
+ifcVersion:
+  version: IFC4
+  schema: IfcElectricalDomain
+ifdGuid: ''
+definition: 'Common properties for dishwasher appliances.  HISTORY: Added in IFC4.'
+applicableIfcClasses:
+- name: IfcElectricApplianceType
+  type: IfcElectricApplianceType/DISHWASHER
+properties:
+- name: DishwasherType
+  definition: Type of dishwasher.
+  localizations:
+  - language: ja-JP
+    name: 食器洗浄機のタイプ
+    definition: 食器洗浄機のタイプ。
+  - language: ko-KR
+    name: 식기 세척기의 유형
+    definition: 식기 세척기의 유형

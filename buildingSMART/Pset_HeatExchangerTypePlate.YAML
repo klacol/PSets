@@ -1,0 +1,17 @@
+﻿name: Pset_HeatExchangerTypePlate
+ifcVersion:
+  version: IFC4
+  schema: IfcHvacDomain
+ifdGuid: ''
+definition: Plate heat exchanger type common attributes.
+applicableIfcClasses:
+- name: IfcHeatExchangerType
+  type: IfcHeatExchangerType/PLATE
+properties:
+- name: NumberOfPlates
+  ifdGuid: a12136b259d145779d2856c248255a2f
+  definition: Number of plates used by the plate heat exchanger.
+  localizations:
+  - language: ja-JP
+    name: プレート数
+    definition: プレート式熱交換器に使われているプレート数

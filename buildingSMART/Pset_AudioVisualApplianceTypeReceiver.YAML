@@ -1,0 +1,37 @@
+﻿name: Pset_AudioVisualApplianceTypeReceiver
+ifcVersion:
+  version: IFC4
+  schema: IfcElectricalDomain
+ifdGuid: ''
+definition: 'An audio-visual receiver is a device that switches audio and/or video from multiple sources, including external sources connected from ports and internal aggregated sources.  HISTORY: Added in IFC4.'
+applicableIfcClasses:
+- name: IfcAudioVisualApplianceType
+  type: IfcAudioVisualApplianceType/RECEIVER
+properties:
+- name: ReceiverType
+  definition: Indicates the type of receiver.
+  localizations:
+  - language: ja-JP
+    name: 受信機形式
+    definition: 受信機の形式を示す。
+  - language: ko-KR
+    name: 수신기 형식
+    definition: 수신기의 형식을 보여준다.
+- name: AudioAmplification
+  definition: Indicates audio amplification frequency ranges.
+  localizations:
+  - language: ja-JP
+    name: オーディオアンプ
+    definition: 再生周波数帯域を示す。
+  - language: ko-KR
+    name: 오디오 앰프
+    definition: 재생 주파수 대역을 나타낸다.
+- name: AudioMode
+  definition: Indicates audio sound modes and corresponding labels, if applicable.
+  localizations:
+  - language: ja-JP
+    name: オーディオモード
+    definition: オーディオサウンドモードの設定。
+  - language: ko-KR
+    name: 오디오 모드
+    definition: 오디오 사운드 모드 설정.

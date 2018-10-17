@@ -1,0 +1,54 @@
+﻿name: Pset_FilterTypeAirParticleFilter
+ifcVersion:
+  version: IFC4
+  schema: IfcHvacDomain
+ifdGuid: ''
+definition: Air particle filter type attributes.
+applicableIfcClasses:
+- name: IfcFilterType
+  type: IfcFilterType/AIRPARTICLEFILTER
+properties:
+- name: AirParticleFilterType
+  ifdGuid: 43118174e87045c1a2f9575b1a4141ea
+  definition: 'A panel dry type extended surface filter is a dry-type air filter with random fiber mats or blankets in the forms of pockets, V-shaped or radial pleats, and include the following:CoarseFilter: Filter with a efficiency lower than 30% for atmosphere dust-spot.CoarseMetalScreen: Filter made of metal screen.CoarseCellFoams: Filter made of cell foams.CoarseSpunGlass: Filter made of spun glass.MediumFilter: Filter with an efficiency between 30-98% for atmosphere dust-spot.MediumElectretFilter: Filter with fine electret synthetic fibers.MediumNaturalFiberFilter: Filter with natural fibers.HEPAFilter: High efficiency particulate air filter.ULPAFilter: Ultra low penetration air filter.MembraneFilters: Filter made of membrane for certain pore diameters in flat sheet and pleated form.A renewable media with a moving curtain viscous filter are random-fiber media coated with viscous substance in roll form or curtain where fresh media is fed across the face of the filter and the dirty media is rewound onto a roll at the bottom or to into a reservoir:RollForm: Viscous filter used in roll form.AdhesiveReservoir: Viscous filter used in moving curtain form.A renewable moving curtain dry media filter is a random-fiber dry media of relatively high porosity used in moving-curtain(roll) filters.An electrical filter uses electrostatic precipitation to remove and collect particulate contaminants.'
+  localizations: []
+- name: FrameMaterial
+  ifdGuid: a3e8a6ca79b2439693bf23c32842c4c0
+  definition: Filter frame material.
+  localizations: []
+- name: SeparationType
+  ifdGuid: 4021fdfb10204e00809b6d665b5bee84
+  definition: Air particulate filter media separation type.
+  localizations: []
+- name: DustHoldingCapacity
+  ifdGuid: bac1ff8a3fea489a95dd3f814d90557f
+  definition: Maximum filter dust holding capacity.
+  localizations: []
+- name: FaceSurfaceArea
+  ifdGuid: 2b21db5bed5a4b40b57e1087f715f894
+  definition: Face area of filter frame.
+  localizations: []
+- name: MediaExtendedArea
+  ifdGuid: 8fe36cbb1e624ac981922fd7a668f135
+  definition: Total extended media area.
+  localizations: []
+- name: NominalCountedEfficiency
+  ifdGuid: 6cfc010a4c93433688ccb9937cf5c454
+  definition: Nominal filter efficiency based the particle count concentration before and after the filter against particles with a certain size distribution.
+  localizations: []
+- name: NominalWeightedEfficiency
+  ifdGuid: ac18c1e930e446268f499efdf03eed92
+  definition: Nominal filter efficiency based the particle weight concentration before and after the filter against particles with a certain size distribution.
+  localizations: []
+- name: PressureDropCurve
+  ifdGuid: 9dabc222c1ff43ada30da5b686fd0d45
+  definition: Under certain dust holding weight, DelPressure = f (fluidflowRate)
+  localizations: []
+- name: CountedEfficiencyCurve
+  ifdGuid: 2c139c308a2c41478d7a15c4976a9b7e
+  definition: Counted efficiency curve as a function of dust holding weight, efficiency = f (dust holding weight).
+  localizations: []
+- name: WeightedEfficiencyCurve
+  ifdGuid: 5328c97da53140fcb1478498d64d8e2a
+  definition: Weighted efficiency curve as a function of dust holding weight, efficiency = f (dust holding weight).
+  localizations: []

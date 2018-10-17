@@ -1,0 +1,66 @@
+﻿name: Pset_SanitaryTerminalTypeToiletPan
+ifcVersion:
+  version: IFC4
+  schema: IfcPlumbingFireProtectionDomain
+ifdGuid: ''
+definition: 'Soil appliance for the disposal of excrement. HISTORY: In IFC4, Material property removed. Use materials capabilities from IfcMaterialsResource schema. Prefix for color property removed. Datatype of color changed to IfcLabel (still a string value). '
+applicableIfcClasses:
+- name: IfcSanitaryTerminalType
+  type: IfcSanitaryTerminalType/TOILETPAN
+properties:
+- name: ToiletType
+  ifdGuid: 79a25a4744ea4219b112fbeaa04f8686
+  definition: 'Enumeration that defines the types of toilet (water closet) arrangements that may be specified where:-BedPanWasher: Enclosed soil appliance in which bedpans and urinal bottles are emptied and cleansed.Chemical: Portable receptacle or soil appliance that receives and retains excrement in either an integral or a separate container, in which it is chemically treated and from which it has to be emptied periodically.CloseCoupled: 	Toilet suite in which a flushing cistern is connected directly to the water closet pan.LooseCoupled: 	Toilet arrangement in which a flushing cistern is connected to the water closet pan through a flushing pipe.SlopHopper: 	Hopper shaped soil appliance with a flushing rim and outlet similar to those of a toilet pan, into which human excrement is emptied for disposal.'
+  localizations:
+  - language: ja-JP
+    name: トイレ種類
+    definition: トイレ配置は下記に列挙された仕様となります。便器洗浄機：便器と小便器が空にされ洗浄される周囲が囲まれた電気機器。ケミカル：別々の容器で排泄物を受けて、保持し、化学的に扱われる、定期的に空にされる携帯用の容器または土機器。ｼｽﾀｰﾝ直結型：ｼｽﾀｰﾝがが便器に直接密着して設置されたタイプｼｽﾀｰﾝ分離型：ｼｽﾀｰﾝがﾊﾟｲﾌﾟを介して便器につながっているタイプ汚物流し：ホッパーは土壌器具にデザイされており、汚物が流され空になります。
+- name: ToiletPanType
+  ifdGuid: 968cc5ab493e4d5b950c71654aa662b7
+  definition: 'The property enumeration Pset_ToiletPanTypeEnum defines the types of toilet pan that may be specified within the property set Pset_Toilet:-Siphonic: 	Toilet pan in which excrement is removed by siphonage induced by the flushing water.Squat: 	Toilet pan with an elongated bowl installed with its top edge at or near floor level, so that the user has to squat.WashDown: 	Toilet pan in which excrement is removed by the momentum of the flushing water.WashOut: 	A washdown toilet pan in which excrement falls first into a shallow water filled bowl.'
+  localizations:
+  - language: ja-JP
+    name: 便器タイプ
+    definition: Pset_SanitaryMountingEnumは下記に列挙された便器タイプとして定義されます。サイホン式：流水を含むサイホンにより汚物が廃棄される便器和式：便器が床面か淵の高さと同じに配置された便器。使用者はしゃがまなければならない。ウォッシュダウン式：勢いよく洗い流すことにより便器をきれいにします洗浄式便器：まず汚物が落ちその後、便器に水が流れます
+- name: PanMounting
+  ifdGuid: 2442298f83864eccaff4c3e66b053433
+  definition: 'The property enumeration Pset_SanitaryMountingEnum defines the forms of mounting or fixing of the sanitary terminal that may be specified within property sets used to define sanitary terminals (WC’s, basins, sinks, etc.) where:-BackToWall: 	A pedestal mounted sanitary terminal that fits flush to the wall at the rear to cover its service connections.Pedestal: 	A floor mounted sanitary terminal that has an integral base.CounterTop: 	A sanitary terminal that is installed into a horizontal surface that is installed into a horizontal surface. Note: When applied to a wash hand basin, the term more normally used is ‘vanity’. See also Wash Hand Basin Type specification.WallHung: 	A sanitary terminal cantilevered clear of the floor.'
+  localizations:
+  - language: ja-JP
+    name: 取付方法
+    definition: Pset_SanitaryMountingEnumは固定された衛生器具の接続点（トイレや洗面器、シンクなど）に取り付けられます。・床置き壁排出：背面の壁に接続口を合わせること。・台：床置きの衛生器具には基礎があること。・カウンター：衛生器具の表層が水平に設置されていること。※手洗い台として設置された場合「化粧台」として扱うこと。また、洗面台種類の規格表を参照のこと。・壁掛け型：衛生器具は片側固定がされ床から離れていること。
+- name: Color
+  ifdGuid: 7d0059dc2b9c4ec1be99c6545d35d87a
+  definition: Color selection for this object
+  localizations:
+  - language: ja-JP
+    name: 色
+    definition: 要素の色。
+- name: SpilloverLevel
+  ifdGuid: ae4b75b2086a471b9b1afd3b0ecf2cae
+  definition: The level at which water spills out of the terminal.
+  localizations:
+  - language: ja-JP
+    name: 水位
+    definition: 継手からの水位。
+- name: NominalLength
+  ifdGuid: e5b1082dd44b40bf8d4b13458e088702
+  definition: 'Nominal or quoted length of the object. '
+  localizations:
+  - language: ja-JP
+    name: 長さ
+    definition: 要素の長さ。
+- name: NominalWidth
+  ifdGuid: 4a2ec4d68c1040a0ad8c5878bcd0bf2d
+  definition: 'Nominal or quoted width of the object. '
+  localizations:
+  - language: ja-JP
+    name: 幅
+    definition: 要素の幅。
+- name: NominalDepth
+  ifdGuid: cfeeabffee3f40f2b3e3e3b10c61a28c
+  definition: 'Nominal or quoted depth of the object. '
+  localizations:
+  - language: ja-JP
+    name: 深さ
+    definition: 要素の深さ。

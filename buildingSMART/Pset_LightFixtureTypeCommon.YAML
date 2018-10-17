@@ -1,0 +1,81 @@
+﻿name: Pset_LightFixtureTypeCommon
+ifcVersion:
+  version: IFC4
+  schema: IfcElectricalDomain
+ifdGuid: ''
+definition: 'Common data for light fixtures.History: IFC4 - Article number and manufacturer specific information deleted. Use Pset_ManufacturerTypeInformation. ArticleNumber instead.   Load properties moved from Pset_LightFixtureTypeThermal (deleted).'
+applicableIfcClasses:
+- name: IfcLightFixtureType
+  type: IfcLightFixtureType
+properties:
+- name: Reference
+  definition: "Reference ID for this specified type in this project (e.g. type 'A-1'), provided, if there is no classification reference to a recognized classification system used. "
+  localizations:
+  - language: ja-JP
+    name: 参照
+    definition: 当該プロジェクトで定義する形式の参照ID（例：A-1)、承認された分類に存在しないときに使用される。
+- name: Status
+  definition: 'Status of the element, predominately used in renovation or retrofitting projects. The status can be assigned to as "New" - element designed as new addition, "Existing" - element exists and remains, "Demolish" - element existed but is to be demolished,  "Temporary" - element will exists only temporary (like a temporary support structure). '
+  localizations:
+  - language: ja-JP
+    name: 状態
+    definition: 要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+- name: NumberOfSources
+  ifdGuid: bd34644754f540afa50c302bc4116b3f
+  definition: Number of sources .
+  localizations:
+  - language: ja-JP
+    name: 電球数
+    definition: 電球数。
+  - language: ko-KR
+    name: 전구수
+    definition: 전구수
+- name: TotalWattage
+  ifdGuid: b78ffa15dd014fcea471088c14693881
+  definition: Wattage on whole lightfitting device with all sources intact.
+  localizations:
+  - language: ja-JP
+    name: 総ワット数
+    definition: 全ての照明器具のワット数。
+  - language: ko-KR
+    name: 총 와트
+    definition: 모든 조명기구 와트.
+- name: LightFixtureMountingType
+  ifdGuid: ffd422427eba49ed9ddc938655cad32a
+  definition: A list of the available types of mounting for light fixtures from which that required may be selected.
+  localizations:
+  - language: ja-JP
+    name: 照明器具取付方法
+    definition: 照明器具の取付方法をリストから選択。
+  - language: ko-KR
+    name: 조명기구 설치방법
+    definition: 조명기구의 설치 방법을 목록에서 선택합니다.
+- name: LightFixturePlacingType
+  ifdGuid: 4b3f117f0a054c3c839197a070b5d44b
+  definition: A list of the available types of placing specification for light fixtures from which that required may be selected.
+  localizations:
+  - language: ja-JP
+    name: 照明器具取付場所
+    definition: 照明器具の取付場所をリストから選択。
+  - language: ko-KR
+    name: 조명기구 설치 장소
+    definition: 조명기구의 설치 장소를 목록에서 선택합니다.
+- name: MaintenanceFactor
+  ifdGuid: 05086e8278964678872e5c594355e050
+  definition: The arithmetical allowance made for depreciation of lamps and reflective equipment from their initial values due to dirt, fumes, or age.
+  localizations:
+  - language: ja-JP
+    name: 保守率
+    definition: 汚れ、煙、年数による初期からのランプや反射装置の低減許容計算。
+  - language: ko-KR
+    name: 보수 비율
+    definition: 먼지, 연기, 연수의 초기부터 램프와 반사 장치의 저감 허용 계산.
+- name: MaximumPlenumSensibleLoad
+  definition: 'Maximum or Peak sensible thermal load contributed to the conditioned space by the light fixture. '
+  localizations: []
+- name: MaximumSpaceSensibleLoad
+  definition: Maximum or Peak sensible thermal load contributed to return air plenum by the light fixture.
+  localizations: []
+- name: SensibleLoadToRadiant
+  definition: 'Percent of sensible thermal load to radiant heat. '
+  localizations: []

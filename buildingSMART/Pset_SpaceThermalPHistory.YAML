@@ -1,0 +1,52 @@
+﻿name: Pset_SpaceThermalPHistory
+ifcVersion:
+  version: IFC4
+  schema: IfcHvacDomain
+ifdGuid: ''
+definition: 'Thermal and air flow conditions of a space or zone. HISTORY: New property set in IFC 2x2.'
+applicableIfcClasses:
+- name: IfcPerformanceHistory
+  type: IfcSpace
+properties:
+- name: CoolingAirFlowRate
+  ifdGuid: bef37247259045ebbf81a4973d26a955
+  definition: 'Cooling air flow rate in the space. '
+  localizations:
+  - language: ja-JP
+    name: 冷却空気流量
+    definition: 室内の冷却空気流量
+- name: HeatingAirFlowRate
+  ifdGuid: 74fac869e75a4a1aaa58dd1e44e6d852
+  definition: 'Heating air flow rate in the space. '
+  localizations:
+  - language: ja-JP
+    name: 暖房空気流量
+    definition: 室内の暖房空気流量
+- name: VentilationAirFlowRate
+  ifdGuid: a881653a421449b1b37cb8faae1af6bd
+  definition: 'Ventilation air flow rate in the space. '
+  localizations:
+  - language: ja-JP
+    name: 換気気流速度
+    definition: 室内の換気空気流量
+- name: ExhaustAirFlowRate
+  ifdGuid: 2557663f889c47faa7904e0c4baf30b6
+  definition: 'Exhaust air flow rate in the space. '
+  localizations:
+  - language: ja-JP
+    name: 排気空気流量
+    definition: 室内の排気流量
+- name: SpaceTemperature
+  ifdGuid: ee158912662c4db78e81bdc8c8b687b2
+  definition: 'Temperature of the space. '
+  localizations:
+  - language: ja-JP
+    name: 室内温度
+    definition: 室内の温度
+- name: SpaceRelativeHumidity
+  ifdGuid: 65e7d250b20442df8f89a90b245c928f
+  definition: The relative humidity of the space.
+  localizations:
+  - language: ja-JP
+    name: 室内相対湿度
+    definition: 室内の相対湿度

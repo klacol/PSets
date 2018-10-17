@@ -1,0 +1,70 @@
+﻿name: Pset_ProtectiveDeviceTrippingUnitTypeElectronic
+ifcVersion:
+  version: IFC4
+  schema: IfcElectricalDomain
+ifdGuid: ''
+definition: Information on tripping units that are electronically tripped.
+applicableIfcClasses:
+- name: IfcProtectiveDeviceTrippingUnitType
+  type: IfcProtectiveDeviceTrippingUnitType/ELECTRONIC
+properties:
+- name: ElectronicTrippingUnitType
+  ifdGuid: 93b8d19246d84c69bb2841cf53575960
+  definition: A list of the available types of electronic tripping unit  from which that required may be selected.
+  localizations:
+  - language: ja-JP
+    name: 電磁式の装置タイプ
+    definition: 電磁式の装置タイプをリストから選択。
+  - language: ko-KR
+    name: 전자식 장치 유형
+    definition: 전자식 장치 유형을 목록에서 선택합니다.
+- name: NominalCurrents
+  ifdGuid: 8fcf47ea3f444520baa83b1521553fa7
+  definition: A set of values providing information on available modules (chips) for setting the nominal current of the protective device. Ifthe set is empty, no nominal current modules are available for the tripping unit.
+  localizations:
+  - language: ja-JP
+    name: 定格電流
+    definition: トリップ装置が対応する定格電流。
+  - language: ko-KR
+    name: 정격전류
+    definition: 트립 장치가 지원하는 정격 전류.
+- name: N_Protection
+  ifdGuid: 42bf1720efd14664a5722cd9b3dedb4a
+  definition: An indication whether the electronic tripping unit has separate protection for the N conductor, or not.
+  localizations:
+  - language: ja-JP
+    name: N_Protection
+    definition: 電磁式トリップ装置がN個の導体を保護するか否かの設定。
+  - language: ko-KR
+    name: N_Protection
+    definition: 전자식 트립 장치가 N 개의 도체를 보호 여부 설정.
+- name: N_Protection_50
+  ifdGuid: 189c7aec8a594d34b18e1b852a11c6e5
+  definition: An indication whether the electronic tripping unit is tripping if the current in the N conductor is more than 50% of that of the phase conductors. The property is only asserted if the property N_Protection is asserted.
+  localizations:
+  - language: ja-JP
+    name: N_Protection_50
+    definition: 電磁式トリップ装置がN導体の50％以上で保護するか否かの設定。
+  - language: ko-KR
+    name: N_Protection_50
+    definition: 전자식 트립 장치가 N 도체의 50 % 이상으로 보호 여부 설정.
+- name: N_Protection_100
+  ifdGuid: 5363750f6a4a4bfbb9ced1ad4284ef78
+  definition: An indication whether the electronic tripping unit is tripping if the current in the N conductor is more than 100% of that of the phase conductors. The property is only asserted if the property N_Protection is asserted.
+  localizations:
+  - language: ja-JP
+    name: N_Protection_100
+    definition: 電磁式トリップ装置がN導体の100％以上で保護するか否かの設定。
+  - language: ko-KR
+    name: N_Protection_100
+    definition: 전자식 트립 장치가 N 도체의 100 % 이상으로 보호 여부 설정.
+- name: N_Protection_Select
+  ifdGuid: d23f8af36b9c4c5c9f6530f3fc73d8fb
+  definition: An indication whether the use of the N_Protection can be selected by the user or not. If both the properties N_Protection_50 and N_Protection_100 are asserted, the value of N_Protection_Select property is set to TRUE. The property is only asserted if the property N_Protection is asserted.
+  localizations:
+  - language: ja-JP
+    name: N_Protectionの選択
+    definition: どのN_Protectionを使うかユーザが設定できるかどうかを指定する。N_Protection_50とN_Protection_100の両方が有効な場合は、TRUEにします。
+  - language: ko-KR
+    name: N_Protection 선택
+    definition: 어떤 N_Protection를 사용하거나 사용자가 설정할 수 있는지 여부를 지정합니다. N_Protection_50하면 N_Protection_100를 모두 사용할 경우에는 TRUE합니다.

@@ -1,0 +1,64 @@
+﻿name: Pset_DistributionPortTypeData
+ifcVersion:
+  version: IFC4
+  schema: IfcSharedBldgServiceElements
+ifdGuid: ''
+definition: Data port occurrence attributes attached to an instance of IfcDistributionPort.
+applicableIfcClasses:
+- name: IfcDistributionPort
+  type: IfcDistributionPort/DATA
+properties:
+- name: ConnectionType
+  definition: 'The physical port connection:Coaxial: Coaxial connector.RJ: Registered Jack.Radio: Radio waves (wireless).'
+  localizations:
+  - language: ja-JP
+    name: 接続タイプ
+    definition: '物理ポート接続：- Coaxial: 同軸コネクタ.- Infrared:赤外線- RJ: 登録済みジャック.- Radio: 無線'
+  - language: ko-KR
+    name: 연결유형
+    definition: 'Coaxial : 동축 커넥터 Infrared : 적외선 RJ : 등록된 잭. Radio : 무선'
+- name: ConnectionSubtype
+  definition: 'The physical port connection subtype that further qualifies the ConnectionType.  The following values are recommended:Radio: IEEE802.11g, IEEE802.11nRJ: 4P4C, 6P2C, 8P8C '
+  localizations:
+  - language: ja-JP
+    name: 接続サブタイプ
+    definition: '物理ポート接続のサブタイプ。接続タイプ以外の情報を設定する場合に使用。下記の値を設定：- Radio: IEEE802.11g, IEEE802.11n- RJ: 4P4C, 6P2C, 8P8C'
+  - language: ko-KR
+    name: 연결 서브타입
+    definition: 'Radio : IEEE802.11g, IEEE802.11n RJ : 4P4C, 6P2C, 8P8C'
+- name: ConnectionGender
+  definition: The physical connection gender.
+  localizations:
+  - language: ja-JP
+    name: 接続ジェンダー
+    definition: 形状的な接続ジェンダー（オス、メス、その他、未知、未設定）。
+  - language: ko-KR
+    name: 연결젠더
+    definition: ''
+- name: Frequency
+  definition: Electromagnetic frequency, if applicable.
+  localizations:
+  - language: ja-JP
+    name: 周波数
+    definition: 電磁波の周波数。
+  - language: ko-KR
+    name: 주파수
+    definition: 전자파의 주파수
+- name: DataSpeed
+  definition: Data transmission in bits per second.
+  localizations:
+  - language: ja-JP
+    name: データ転送速度
+    definition: 毎秒転送ビット数。
+  - language: ko-KR
+    name: 데이터 전송속도
+    definition: 초당 전송 비트수
+- name: Protocols
+  definition: 'Identifies the protocols used as defined by the Open System Interconnection (OSI) Basic Reference Model (ISO 7498).  Layers include: 1. Physical; 2. DataLink; 3. Network; 4. Transport; 5. Session; 6. Presentation; 7. Application.  Example: 3:IP, 4:TCP, 5:HTTP'
+  localizations:
+  - language: ja-JP
+    name: プロトコル
+    definition: 'OSIのオープンシステム相互接続用基本プロトコル(ISO 7498)：1. 物理層; 2.データリンク層; 3. ネットワーク層; 4. トランスポート層; 5. セッション層; 6.プレゼンテーション層 ; 7. アプリケーション層. 例: 3:IP, 4:TCP, 5:HTTP'
+  - language: ko-KR
+    name: 프로토콜
+    definition: '개방형 시스템 상호 연결을위한 기본 프로토콜  Layers include : 1. 실제 2. 데이터 연결; 3. 네트워크; 4. 수송; 5 세션; 6 프레 젠 테이션; 7. 적용됩니다. 예 : 3 IP, 4 : TCP 5 : HTTP'

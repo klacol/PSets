@@ -1,0 +1,72 @@
+﻿name: Pset_DiscreteAccessoryWireLoop
+ifcVersion:
+  version: IFC4
+  schema: IfcSharedComponentElements
+ifdGuid: ''
+definition: Shape properties common to wire loop joint connectors.
+applicableIfcClasses:
+- name: IfcDiscreteAccessory
+  type: IfcDiscreteAccessory/Wire loop
+- name: IfcDiscreteAccessoryType
+  type: IfcDiscreteAccessory/Wire loop
+properties:
+- name: WireLoopBasePlateThickness
+  ifdGuid: 0ef1535ff15d42ef8b4c245d50c81eed
+  definition: The thickness of the base plate.
+  localizations:
+  - language: ja-JP
+    name: ベースプレート厚
+    definition: ベースプレートの板厚。
+  - language: ko-KR
+    name: 베이스 플레이트 두께
+    definition: 베이스 플레이트 두께
+- name: WireLoopBasePlateWidth
+  ifdGuid: 573e02c1429b4c75a2b2ee5428bb0379
+  definition: The width of the base plate.
+  localizations:
+  - language: ja-JP
+    name: ベースプレート幅
+    definition: ベースプレートの幅。
+  - language: ko-KR
+    name: 베이스 플레이트 폭
+    definition: 베이스 플레이트 폭
+- name: WireLoopBasePlateLength
+  ifdGuid: cb82136e02524985ae4428c244802b38
+  definition: The length of the base plate.
+  localizations:
+  - language: ja-JP
+    name: ベースプレート長さ
+    definition: ベースプレートの長さ。
+  - language: ko-KR
+    name: 플레이트 길이
+    definition: 플레이트 길이
+- name: WireDiameter
+  ifdGuid: 15b690a69eca45b4baaa425a9de6490c
+  definition: The nominal diameter of the wire.
+  localizations:
+  - language: ja-JP
+    name: ワイヤー径
+    definition: ワイヤーの公称直径。
+  - language: ko-KR
+    name: 와이어 지름
+    definition: 와이어의 공칭 지름
+- name: WireEmbeddingLength
+  ifdGuid: 99636dbd2c1a4a8995abf117705dc604
+  definition: The length of the part of wire which is embedded in the precast concrete element.
+  localizations:
+  - language: ja-JP
+    name: 埋め込み長さ
+    definition: プレキャストコンクリート部材の中に埋め込まれたワイヤーの長さ。
+  - language: ko-KR
+    name: 포함 길이
+    definition: 프리 캐스트 콘크리트 부재속에 묻힌 철사의 길이
+- name: WireLoopLength
+  ifdGuid: c16ca1a4c2094cd4a6d70e093d91d6ee
+  definition: The length of the fastening loop part of the wire.
+  localizations:
+  - language: ja-JP
+    name: 留め具長さ
+    definition: ワイヤーの留め具部分の長さ。
+  - language: ko-KR
+    name: 클램프 길이
+    definition: 와이어 클램프 부분의 길이

@@ -1,0 +1,52 @@
+﻿name: Pset_DiscreteAccessoryCornerFixingPlate
+ifcVersion:
+  version: IFC4
+  schema: IfcSharedComponentElements
+ifdGuid: ''
+definition: Properties specific to corner fixing plates.
+applicableIfcClasses:
+- name: IfcDiscreteAccessory
+  type: IfcDiscreteAccessory/Corner fixing plate
+- name: IfcDiscreteAccessoryType
+  type: IfcDiscreteAccessory/Corner fixing plate
+properties:
+- name: CornerFixingPlateLength
+  ifdGuid: 3c9cf667fe7844f196e7c8c0f42007f9
+  definition: The length of the L-shaped corner plate.
+  localizations:
+  - language: ja-JP
+    name: 長さ
+    definition: L型コーナープレートの長さ。
+  - language: ko-KR
+    name: 길이
+    definition: L 형 코너 플레이트의 길이
+- name: CornerFixingPlateThickness
+  ifdGuid: c31b84fa225044fcb60ada75b0fee99d
+  definition: The thickness of the L-shaped corner plate.
+  localizations:
+  - language: ja-JP
+    name: 板厚
+    definition: L型コーナープレートの板厚。
+  - language: ko-KR
+    name: 두께
+    definition: L 형 코너 플레이트의 두께
+- name: CornerFixingPlateFlangeWidthInPlaneZ
+  ifdGuid: d40846c54ba84df8882887507769dfdd
+  definition: The flange width of the L-shaped corner plate in plane Z.
+  localizations:
+  - language: ja-JP
+    name: フランジ幅Z
+    definition: L型コーナープレートのZ面のフランジ幅。
+  - language: ko-KR
+    name: 플랜지 폭 Z
+    definition: L 형 코너 플레이트 Z면 플랜지 폭
+- name: CornerFixingPlateFlangeWidthInPlaneX
+  ifdGuid: 83526700c9d84f609bc8b4396a1505c4
+  definition: The flange width of the L-shaped corner plate in plane X.
+  localizations:
+  - language: ja-JP
+    name: フランジ幅X
+    definition: L型コーナープレートのX面のフランジ幅。
+  - language: ko-KR
+    name: 플랜지 폭 X
+    definition: L 형 코너 플레이트 X면 플랜지 폭

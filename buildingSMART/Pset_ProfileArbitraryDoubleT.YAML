@@ -1,0 +1,55 @@
+﻿name: Pset_ProfileArbitraryDoubleT
+ifcVersion:
+  version: IFC4
+  schema: IfcProfileResource
+ifdGuid: ''
+definition: This is a collection of geometric properties of double-T section profiles of precast concrete elements, to be used in conjunction with IfcArbitraryProfileDef when profile designation alone does not fulfill the information requirements.
+applicableIfcClasses:
+- name: IfcArbitraryClosedProfileDef
+  type: IfcArbitraryClosedProfileDef
+properties:
+- name: OverallWidth
+  definition: Overall width of the profile.
+  localizations: []
+- name: LeftFlangeWidth
+  definition: Left flange width of the profile.
+  localizations: []
+- name: RightFlangeWidth
+  definition: Right flange width of the profile.
+  localizations: []
+- name: OverallDepth
+  definition: Overall depth of the profile.
+  localizations: []
+- name: FlangeDepth
+  definition: Flange depth of the profile.
+  localizations: []
+- name: FlangeDraft
+  definition: Flange draft of the profile.
+  localizations: []
+- name: FlangeChamfer
+  definition: Flange chamfer of the profile.
+  localizations: []
+- name: FlangeBaseFillet
+  definition: Flange base fillet of the profile.
+  localizations: []
+- name: FlangeTopFillet
+  definition: Flange top fillet of the profile.
+  localizations: []
+- name: StemBaseWidth
+  definition: Stem base width of the profile.
+  localizations: []
+- name: StemTopWidth
+  definition: Stem top width of the profile.
+  localizations: []
+- name: StemBaseChamfer
+  definition: Stem base chamfer of the profile.
+  localizations: []
+- name: StemTopChamfer
+  definition: Stem top chamfer of the profile.
+  localizations: []
+- name: StemBaseFillet
+  definition: Stem base fillet of the profile.
+  localizations: []
+- name: StemTopFillet
+  definition: Stem top fillet of the profile.
+  localizations: []

@@ -1,0 +1,26 @@
+﻿name: Pset_DamperTypeFireDamper
+ifcVersion:
+  version: IFC4
+  schema: IfcHvacDomain
+ifdGuid: ''
+definition: Fire damper type attributes.Pset renamed from Pset_DamperTypeFire to Pset_DamperTypeFireDamper in IFC2x2 Pset Addendum.
+applicableIfcClasses:
+- name: IfcDamperType
+  type: IfcDamperType/FIREDAMPER
+properties:
+- name: ActuationType
+  ifdGuid: fb013c7d1cc14efb99cfb5686764b69d
+  definition: 'Enumeration that identifies the different types of dampers. '
+  localizations: []
+- name: ClosureRatingEnum
+  ifdGuid: 082c840ae2224c20b41da8fee29d71f1
+  definition: Enumeration that identifies the closure rating for the damper.
+  localizations: []
+- name: FireResistanceRating
+  ifdGuid: 07fe19da4d784d0994e1bbc63fed9ecf
+  definition: 'Measure of the fire resistance rating in hours (e.g., 1.5 hours, 2 hours, etc.). '
+  localizations: []
+- name: FusibleLinkTemperature
+  ifdGuid: 2ef1d03e993442708308b9c24e440224
+  definition: The temperature that the fusible link melts.
+  localizations: []

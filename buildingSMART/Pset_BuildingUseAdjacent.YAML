@@ -1,0 +1,38 @@
+﻿name: Pset_BuildingUseAdjacent
+ifcVersion:
+  version: IFC4
+  schema: IfcProductExtension
+ifdGuid: ''
+definition: Provides information on adjacent buildings and their uses to enable their impact on the building of interest to be determined. Note that for each instance of the property set used, where there is an existence of risk, there will be an instance of the property set Pset_Risk (q.v).
+applicableIfcClasses:
+- name: IfcBuilding
+  type: IfcBuilding
+properties:
+- name: MarketCategory
+  ifdGuid: f2bc9924dc04451eb2b96f0ddf46fad3
+  definition: Category of use e.g. residential, commercial, recreation etc.
+  localizations:
+  - language: fr-FR
+    name: Catégorie usage
+    definition: Catégorie d'usage (résidentiel, commercial, loisir,…)
+- name: MarketSubCategory
+  ifdGuid: 3ddd8732bbee4ef5bc20e2fee65ae395
+  definition: Subset of category of use e.g. multi-family, 2 bedroom, low rise.
+  localizations:
+  - language: fr-FR
+    name: Sous catégorie usage
+    definition: Sous catégorie d'usage.
+- name: PlanningControlStatus
+  ifdGuid: 66ec78a38bc247868a6fa4a02f6f33b9
+  definition: Label of zoning category or class, or planning control category for the site or facility.
+  localizations:
+  - language: fr-FR
+    name: Etat Planning Contrôle
+    definition: Catégorie de zone ou classe, ou catégorie relativement à un planning de contrôle pour le site ou l'ensemble immobilier.
+- name: NarrativeText
+  ifdGuid: 15c7949cb6464d10a41cb52bb3f49541
+  definition: Added information relating to the adjacent building use that is not appropriate to the general descriptive text associated with an entity through the inherited IfcRoot.Description.
+  localizations:
+  - language: fr-FR
+    name: Texte libre sur voisinage
+    definition: Information sur l'usage des bâtiments voisins

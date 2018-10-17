@@ -1,0 +1,66 @@
+﻿name: Pset_FilterTypeCommon
+ifcVersion:
+  version: IFC4
+  schema: IfcHvacDomain
+ifdGuid: ''
+definition: Filter type common attributes.
+applicableIfcClasses:
+- name: IfcFilterType
+  type: IfcFilterType
+properties:
+- name: Reference
+  definition: Reference ID for this specified type in this project (e.g. type 'A-1').
+  localizations:
+  - language: ja-JP
+    name: 参照記号
+    definition: このプロジェクトにおける参照記号(例：A-1)。分類コードではなく内部で使用されるプロジェクトタイプとして使用されるもの。
+- name: Status
+  definition: 'Status of the element, predominately used in renovation or retrofitting projects. The status can be assigned to as "New" - element designed as new addition, "Existing" - element exists and remains, "Demolish" - element existed but is to be demolished,  "Temporary" - element will exists only temporary (like a temporary support structure). '
+  localizations:
+  - language: ja-JP
+    name: 状態
+    definition: 要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+- name: Weight
+  ifdGuid: 9754acedd12447cbbc41dbefff55735e
+  definition: Weight of filter.
+  localizations: []
+- name: InitialResistance
+  ifdGuid: 02063e044c544563af1314ab015e07c0
+  definition: Initial new filter fluid resistance (i.e., pressure drop at the maximum air flowrate across the filter when the filter is new per ASHRAE Standard 52.1).
+  localizations: []
+- name: FinalResistance
+  ifdGuid: 08a4e3a9663148f7b4bbcf6090e87c74
+  definition: Filter fluid resistance when replacement is required (i.e., Pressure drop at the maximum air flowrate across the filter when the filter needs replacement per ASHRAE Standard 52.1).
+  localizations: []
+- name: OperationTemperatureRange
+  ifdGuid: 5ef2f229791e4ba397ff2c0117ac30a3
+  definition: Allowable operation ambient fluid temperature range.
+  localizations: []
+- name: FlowRateRange
+  ifdGuid: 3ec00fac0d774af5a5dd362cc4e09066
+  definition: Possible range of fluid flowrate that can be delivered.
+  localizations: []
+- name: NominalFilterFaceVelocity
+  ifdGuid: eb928dcee61b49b1a236408b4b01880f
+  definition: Filter face velocity.
+  localizations: []
+- name: NominalMediaSurfaceVelocity
+  ifdGuid: 5d181d49f9554dadb8922980f75e1cef
+  definition: Average fluid velocity at the media surface.
+  localizations: []
+- name: NominalPressureDrop
+  ifdGuid: 502b834b00ce4d5197b74c0592f05f9c
+  definition: Total pressure drop across the filter.
+  localizations: []
+- name: NominalFlowrate
+  ifdGuid: 5e0ba33668ed4b1795757f04a311b0c4
+  definition: Nominal fluid flow rate through the filter.
+  localizations: []
+- name: NominalParticleGeometricMeanDiameter
+  ifdGuid: 4471d895ece5434789042af8aedc2ecf
+  definition: Particle geometric mean diameter associated with nominal efficiency.
+  localizations: []
+- name: NominalParticleGeometricStandardDeviation
+  ifdGuid: 9340e68ee6784e51b5013cbb061cb2f7
+  definition: Particle geometric standard deviation associated with nominal efficiency.
+  localizations: []

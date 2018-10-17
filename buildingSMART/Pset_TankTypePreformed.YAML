@@ -1,0 +1,38 @@
+﻿name: Pset_TankTypePreformed
+ifcVersion:
+  version: IFC4
+  schema: IfcHvacDomain
+ifdGuid: ''
+definition: Fixed vessel manufactured as a single unit with one or more compartments for storing a liquid.Pset renamed from Pset_TankTypePreformedTank to Pset_TankTypePreformed in IFC2x2 Pset Addendum.
+applicableIfcClasses:
+- name: IfcTankType
+  type: IfcTankType/PREFORMED
+properties:
+- name: PatternType
+  ifdGuid: 5dc704e35e774c0eb4b91e7a2b1bc257
+  definition: Defines the types of pattern (or shape of a tank that may be specified.
+  localizations:
+  - language: ja-JP
+    name: パターンタイプ
+    definition: 定義　パターンのタイプ（又はタンクの形状）が明示される。
+- name: EndShapeType
+  ifdGuid: 938117cc88de4332acc8962109816a29
+  definition: Defines the types of end shapes that can be used for preformed tanks. The convention for reading these enumerated values is that for a vertical cylinder, the first value is the base and the second is the top; for a horizontal cylinder, the order of reading should be left to right. For a speherical tank, the value UNSET should be used.
+  localizations:
+  - language: ja-JP
+    name: 末端形状タイプ
+    definition: 定義　予めタンクに使用することができる端形状の種類を示す。これらの列挙された値を読み取るための規則は、垂直円筒に関しては、最初の値はベースです、そして、2番目は先端です。水平円筒に関しては、値は左から右に読む必要があります。球形タンクの場合、値はUNSETを使用する必要があります。
+- name: FirstCurvatureRadius
+  ifdGuid: 7c4e35fa394048ebb54f8459c2d8e7cf
+  definition: FirstCurvatureRadius should be defined as the base or left side radius of curvature value.
+  localizations:
+  - language: ja-JP
+    name: 最初の曲率半径
+    definition: 最初の曲率半径は、基本又は曲率の値の左側の半径として定義する必要があります。
+- name: SecondCurvatureRadius
+  ifdGuid: 6eae578304fd4ddb9a2d58e3aefdb1cb
+  definition: SecondCurvatureRadius should be defined as the top or right side radius of curvature value.
+  localizations:
+  - language: ja-JP
+    name: 2番目の曲率半径
+    definition: 2番目の曲率半径は、曲率の値の先頭又は右側の半径として定義する必要があります。

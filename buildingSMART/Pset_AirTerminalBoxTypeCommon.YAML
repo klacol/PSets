@@ -1,0 +1,158 @@
+﻿name: Pset_AirTerminalBoxTypeCommon
+ifcVersion:
+  version: IFC4
+  schema: IfcHvacDomain
+ifdGuid: ''
+definition: Air terminal box type common attributes.
+applicableIfcClasses:
+- name: IfcAirTerminalBoxType
+  type: IfcAirTerminalBoxType
+properties:
+- name: Reference
+  definition: "Reference ID for this specified type in this project (e.g. type 'A-1'), provided, if there is no classification reference to a recognized classification system used. "
+  localizations:
+  - language: fr-FR
+    name: Référence
+    definition: Identification de référence pour ce type spécifique à ce projet, c'est-à-dire type'A-1', fourni à partir du moment où, s'il n'y a pas de référence de classification par rapport à un système de classification reconnu et en usage.
+  - language: ja-JP
+    name: 参照記号
+    definition: このプロジェクトにおける参照記号(例：A-1)。分類コードではなく内部で使用されるプロジェクトタイプとして使用されるもの。
+- name: Status
+  definition: 'Status of the element, predominately used in renovation or retrofitting projects. The status can be assigned to as "New" - element designed as new addition, "Existing" - element exists and remains, "Demolish" - element existed but is to be demolished,  "Temporary" - element will exists only temporary (like a temporary support structure). '
+  localizations:
+  - language: fr-FR
+    name: Etat
+    definition: Etat de l'élément, utilisé avant tout pour les projets de rénovation et réaménagement. L'état assigné peut être "Nouveau" - l'élément prévu pour du neuf, "Existant" - l'élément existait et est maintenu, "Démoli" - l'élément existait mais doit être démoli/supprimé, "Provisoire" - l'élément existera à titre provisoire seulement (comme un support structurel par exemple).
+  - language: ja-JP
+    name: 状態
+    definition: 要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+- name: AirflowRateRange
+  ifdGuid: 926b218f436f4491aff0f9200058b70d
+  definition: Range of airflow that can be delivered.
+  localizations:
+  - language: fr-FR
+    name: Domaine de débit d'air
+    definition: Plage de débit d'air pouvant être fourni.
+  - language: ja-JP
+    name: 風量範囲
+    definition: 送風できる風量の範囲
+- name: AirPressureRange
+  ifdGuid: 75ae026f8f754d3f9b7e373dde7bb0b3
+  definition: Allowable air static pressure range at the entrance of the air terminal box.
+  localizations:
+  - language: fr-FR
+    name: Plage de pression d'air
+    definition: Plage admise de la pression statique de l'air à l'entrée du registre terminal de ventilation
+  - language: ja-JP
+    name: 空気圧範囲
+    definition: ターミナル入り口での許容静圧範囲
+- name: NominalAirFlowRate
+  ifdGuid: 1a03ca0837fa45349f2b8ed9129d5b49
+  definition: Nominal airflow rate.
+  localizations:
+  - language: fr-FR
+    name: Débit d'air nominal
+    definition: Débit d'air nominal
+  - language: ja-JP
+    name: 設計風量範囲
+    definition: 設計風量範囲
+- name: ArrangementType
+  ifdGuid: 05fa5dbbb9a84de29ff03c9ab93b2313
+  definition: 'Terminal box arrangement.SingleDuct: Terminal box receives warm or cold air from a single air supply duct.DualDuct: Terminal box receives warm and cold air from separate air supply ducts.'
+  localizations:
+  - language: fr-FR
+    name: Type de configuration
+    definition: "Configuration du registre terminal.Conduit unique: le registre terminal reçoit de l'air chaud ou froid depuis un conduit unique d'amenée d'air"
+  - language: ja-JP
+    name: ターミナル形式
+    definition: ターミナルボックスの形式。単一ダクト：単一のダクトから、温風または冷風を受け取るデュアルダクト：温風、冷風を分離されたダクトから受け取る
+- name: ReheatType
+  ifdGuid: a1c75efd7ffa43b69cefe3560a26e11e
+  definition: Terminal box reheat type.
+  localizations:
+  - language: fr-FR
+    name: Type de réchauffage
+    definition: Type de réchauffage d'un registre terminal de ventilation
+  - language: ja-JP
+    name: 再熱形式
+    definition: ターミナルの再熱方式（電気、水コイル、蒸気コイル、ガス加熱．．．）
+- name: HasSoundAttenuator
+  ifdGuid: 95b237bc3de74ae8817ed210b023ce96
+  definition: Terminal box has a sound attenuator.
+  localizations:
+  - language: fr-FR
+    name: Possède correction acoustique
+    definition: Le registre terminal possède une correction acoustique
+  - language: ja-JP
+    name: 消音有無
+    definition: ターミナルに消音があるか否か　（あればTRUE)
+- name: HasReturnAir
+  ifdGuid: e1eef52588f4443681946f20bec19a10
+  definition: Terminal box has return air mixed with supply air from duct work.
+  localizations:
+  - language: fr-FR
+    name: Possède air  repris
+    definition: Le registre terminal a son air de reprise mélangé avec une amenée d'air issu du réseau de ventilation
+  - language: ja-JP
+    name: 還気有無
+    definition: ターミナルで還気を混合しているか否か（していればTRUE)
+- name: HasFan
+  ifdGuid: b1dad999d71140feb811b408d5a68415
+  definition: Terminal box has a fan inside (fan powered box).
+  localizations:
+  - language: fr-FR
+    name: Possède ventilateur
+    definition: Le registre terminal possède dans son  intérieur un ventilateur (registre motorisé)
+  - language: ja-JP
+    name: 送風機有無
+    definition: 内部に送風機を持つ時にTRUE
+- name: NominalInletAirPressure
+  ifdGuid: beeaa378317f412397731160bdd48eba
+  definition: Nominal airflow inlet static pressure.
+  localizations:
+  - language: fr-FR
+    name: Pression nominale à l'entrée d'air
+    definition: Pression statique en débit d'air nominal à l'entrée
+  - language: ja-JP
+    name: 設計入口空気圧
+    definition: 入口静圧の設計値
+- name: NominalDamperDiameter
+  ifdGuid: 4456fbbf9c8e4f0d955d18afa99b6e05
+  definition: Nominal damper diameter.
+  localizations:
+  - language: fr-FR
+    name: Diamètre nominal clapet
+    definition: Diamètre nominal clapet
+  - language: ja-JP
+    name: 設計ダンパ直径
+    definition: ダンパ直径の設計値
+- name: HousingThickness
+  ifdGuid: 35a671ac4a814dd8b065a4cbc8706957
+  definition: Air terminal box housing material thickness.
+  localizations:
+  - language: fr-FR
+    name: Epaisseur de l'enveloppe
+    definition: Epaisseur du matériau réalisant l'enveloppe du registre terminal de ventilation
+  - language: ja-JP
+    name: ハウジング板厚
+    definition: ターミナルのハウジング材の板厚
+- name: OperationTemperatureRange
+  ifdGuid: c2ed6df8f0c246a8bcdb435e5e15cf97
+  definition: Allowable operational range of the ambient air temperature.
+  localizations:
+  - language: fr-FR
+    name: Plage de température d'exploitation
+    definition: Plage opérationnelle possible de la température de l'air ambiant
+  - language: ja-JP
+    name: 動作温度範囲
+    definition: 許容周囲温度範囲
+- name: ReturnAirFractionRange
+  ifdGuid: 71820d2754d44facaaa3a305c0f48c51
+  definition: Allowable return air fraction range as a fraction of discharge airflow.
+  localizations:
+  - language: fr-FR
+    name: Plage pour la fraction d'air repris
+    definition: Plage possiblede la fraction d'air repris en tant que fraction de l'air rejeté
+  - language: ja-JP
+    name: 還気風量比
+    definition: 送風量の一部としての許容還気風量

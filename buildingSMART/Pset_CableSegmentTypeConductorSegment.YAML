@@ -1,0 +1,60 @@
+﻿name: Pset_CableSegmentTypeConductorSegment
+ifcVersion:
+  version: IFC4
+  schema: IfcElectricalDomain
+ifdGuid: ''
+definition: 'An electrical conductor is a single linear element with the specific purpose to lead electric current. The core of one lead is normally single wired or multiwired which are intertwined. According to IEC 60050: IEV 195-01-07, a conductor is a conductive part intended to carry a specified electric current.'
+applicableIfcClasses:
+- name: IfcCableSegmentType
+  type: IfcCableSegmentType/CONDUCTORSEGMENT
+properties:
+- name: CrossSectionalArea
+  ifdGuid: 8f239bbc6b864944b17187cfd345bc8c
+  definition: Cross section area of the phase(s) lead(s).
+  localizations:
+  - language: ja-JP
+    name: 断面積
+    definition: 位相、リードの断面積。
+  - language: ko-KR
+    name: 단면적 영역
+    definition: 리드 단면적.
+- name: Function
+  ifdGuid: 48f8d616ace34ebfb854d5cc3dd2a74a
+  definition: 'Type of function for which the conductor is intended. '
+  localizations:
+  - language: ja-JP
+    name: 機能
+    definition: 導体の機能のタイプ。
+  - language: ko-KR
+    name: 기능
+    definition: 도체의 기능 유형.
+- name: Material
+  ifdGuid: 29c78866edcc4119966a2367f8baf29d
+  definition: Type of material from which the conductor is constructed.
+  localizations:
+  - language: ja-JP
+    name: 材料
+    definition: 導体を構成する材料のタイプ。
+  - language: ko-KR
+    name: 도체의 기능 유형.
+    definition: 도체를 구성하는 재료의 종류.
+- name: Construction
+  ifdGuid: 73f507a3d67e4d6983c566d7d6997d24
+  definition: Purpose of informing on how the vonductor is constucted (interwined or solid). I.e. Solid (IEV 461-01-06), stranded (IEV 461-01-07), solid-/finestranded(IEV 461-01-11) (not flexible/flexible).
+  localizations:
+  - language: ja-JP
+    name: 構造
+    definition: 導体の構成（より線か単線）の定義。すなわち単線（IEV 461-01-06）、より線（IEV 461-01-07）、フレキシブル導体（IEV 461-01-11）（フレキシブルか否か）で定義。
+  - language: ko-KR
+    name: 구조
+    definition: 도체 구성 (연선 또는 단선)의 정의 즉 단선 (IEV 461-01-06), 트위스트 (IEV 461-01-07), 플렉서블 도체 (IEV 461-01-11) (유연한 아닌지 가) 정의
+- name: Shape
+  ifdGuid: 965ff651cfac41d391c77674a5c9717c
+  definition: Indication of the shape of the conductor.
+  localizations:
+  - language: ja-JP
+    name: 形状
+    definition: 導体の形状を表示。
+  - language: ko-KR
+    name: 형상
+    definition: 도체의 형상을 표시합니다.

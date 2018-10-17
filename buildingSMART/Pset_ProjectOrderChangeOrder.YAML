@@ -1,0 +1,24 @@
+﻿name: Pset_ProjectOrderChangeOrder
+ifcVersion:
+  version: IFC4
+  schema: IfcSharedMgmtElements
+ifdGuid: ''
+definition: A change order is an instruction to make a change to a product or work being undertake. Note that the change order status is defined in the same way as a work order status since a change order implies a work requirement.
+applicableIfcClasses:
+- name: IfcProjectOrder
+  type: IfcProjectOrder/CHANGEORDER
+properties:
+- name: ReasonForChange
+  ifdGuid: 03b7746d22064859b349ab4a497b68f7
+  definition: A description of the problem for why a change is needed.
+  localizations:
+  - language: ja-JP
+    name: 変更理由
+    definition: 変更が必要となる問題の記述。
+- name: BudgetSource
+  ifdGuid: 34ecd67690bd43fdb5917cfaaa8617ff
+  definition: The budget source requested.
+  localizations:
+  - language: ja-JP
+    name: 予算源
+    definition: 要求された予算の出所・源。

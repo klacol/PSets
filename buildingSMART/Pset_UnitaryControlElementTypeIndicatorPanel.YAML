@@ -1,0 +1,13 @@
+﻿name: Pset_UnitaryControlElementTypeIndicatorPanel
+ifcVersion:
+  version: IFC4
+  schema: IfcBuildingControlsDomain
+ifdGuid: ''
+definition: 'Unitary control element type indicator panel attributes.  HISTORY: Added in IFC4.'
+applicableIfcClasses:
+- name: IfcUnitaryControlElementType
+  type: IfcUnitaryControlElementType/INDICATORPANEL
+properties:
+- name: Application
+  definition: The application of the unitary control element.
+  localizations: []

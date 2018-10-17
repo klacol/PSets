@@ -1,0 +1,40 @@
+﻿name: Pset_DistributionChamberElementTypeTrench
+ifcVersion:
+  version: IFC4
+  schema: IfcSharedBldgServiceElements
+ifdGuid: ''
+definition: Excavation, the length of which greatly exceeds the width.
+applicableIfcClasses:
+- name: IfcDistributionChamberElementType
+  type: IfcDistributionChamberElementType/TRENCH
+properties:
+- name: Width
+  ifdGuid: 0df9b181aa46462d9237ef59ae257042
+  definition: The width of the trench.
+  localizations:
+  - language: ja-JP
+    name: 長さ
+    definition: 溝の長さ。
+  - language: ko-KR
+    name: 길이
+    definition: 홈의 길이
+- name: Depth
+  ifdGuid: 568ec3a1b8634dba9054b649de3bf971
+  definition: The depth of the trench.
+  localizations:
+  - language: ja-JP
+    name: 幅
+    definition: 溝の幅。
+  - language: ko-KR
+    name: 폭
+    definition: 홈의 폭
+- name: InvertLevel
+  ifdGuid: 3f72db0611224caaaf887c15cf82322b
+  definition: Level of the lowest part of the cross section as measured from ground level.
+  localizations:
+  - language: ja-JP
+    name: 最大深さ（？）
+    definition: 断面の最も低い部分の深さ（地面から）。
+  - language: ko-KR
+    name: 최대 깊이
+    definition: 단면의 가장 낮은 부분의 깊이 (지상)

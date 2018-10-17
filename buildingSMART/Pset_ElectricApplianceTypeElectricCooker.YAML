@@ -1,0 +1,19 @@
+﻿name: Pset_ElectricApplianceTypeElectricCooker
+ifcVersion:
+  version: IFC4
+  schema: IfcElectricalDomain
+ifdGuid: ''
+definition: 'Common properties for electric cooker appliances.  HISTORY: Added in IFC4.'
+applicableIfcClasses:
+- name: IfcElectricApplianceType
+  type: IfcElectricApplianceType/ELECTRICCOOKER
+properties:
+- name: ElectricCookerType
+  definition: Type of electric cooker.
+  localizations:
+  - language: ja-JP
+    name: 電気調理器のタイプ
+    definition: 電気調理器のタイプ。
+  - language: ko-KR
+    name: 전기 밥솥의 종류
+    definition: 전자 조리기의 유형.

@@ -1,0 +1,14 @@
+﻿name: Pset_DamperTypeSmokeDamper
+ifcVersion:
+  version: IFC4
+  schema: IfcHvacDomain
+ifdGuid: ''
+definition: Smoke damper type attributes.Pset renamed from Pset_DamperTypeSmoke to Pset_DamperTypeSmokeDamper in IFC2x2 Pset Addendum.
+applicableIfcClasses:
+- name: IfcDamperType
+  type: IfcDamperType/SMOKEDAMPER
+properties:
+- name: ControlType
+  ifdGuid: 5e52acf1b7744053be422f65d6f95d9d
+  definition: The type of control used to operate the damper (e.g., Open/Closed Indicator, Resetable Temperature Sensor, Temperature Override, etc.) .
+  localizations: []

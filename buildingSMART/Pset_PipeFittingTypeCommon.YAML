@@ -1,0 +1,50 @@
+﻿name: Pset_PipeFittingTypeCommon
+ifcVersion:
+  version: IFC4
+  schema: IfcHvacDomain
+ifdGuid: ''
+definition: Pipe fitting type common attributes.
+applicableIfcClasses:
+- name: IfcPipeFittingType
+  type: IfcPipeFittingType
+properties:
+- name: Reference
+  definition: Reference ID for this specified type in this project (e.g. type 'A-1').
+  localizations:
+  - language: ja-JP
+    name: 参照記号
+    definition: このプロジェクトにおける参照記号(例：A-1)。分類コードではなく内部で使用されるプロジェクトタイプとして使用されるもの。
+- name: Status
+  definition: 'Status of the element, predominately used in renovation or retrofitting projects. The status can be assigned to as "New" - element designed as new addition, "Existing" - element exists and remains, "Demolish" - element existed but is to be demolished,  "Temporary" - element will exists only temporary (like a temporary support structure). '
+  localizations:
+  - language: ja-JP
+    name: 状態
+    definition: 要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+- name: PressureClass
+  ifdGuid: df455d83312841ffb699be6029d5f568
+  definition: The test or rated pressure classification of the fitting.
+  localizations:
+  - language: ja-JP
+    name: 圧力分類
+    definition: 継ぎ手接合部の圧力等級？
+- name: PressureRange
+  ifdGuid: 3695a59b11474f7b99af63be1b3d2519
+  definition: Allowable maximum and minimum working pressure (relative to ambient pressure).
+  localizations:
+  - language: ja-JP
+    name: 圧力範囲
+    definition: 許容できる最大/最小管内圧力(周囲圧力に比較して)
+- name: TemperatureRange
+  ifdGuid: b926268131ab41fca40acceaac43b42e
+  definition: Allowable maximum and minimum temperature.
+  localizations:
+  - language: ja-JP
+    name: 温度範囲
+    definition: 許容できる最大/最小温度
+- name: FittingLossFactor
+  ifdGuid: 8ae08bdd753045d684f4deada5eba8b5
+  definition: A factor that determines the pressure loss due to friction through the fitting.
+  localizations:
+  - language: ja-JP
+    name: 継ぎ手接合部損失係数
+    definition: 接合部を通過する際の摩擦による圧力損失を決める係数

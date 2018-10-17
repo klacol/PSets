@@ -1,0 +1,26 @@
+﻿name: Pset_ElementComponentCommon
+ifcVersion:
+  version: IFC4
+  schema: IfcSharedComponentElements
+ifdGuid: ''
+definition: Set of common properties of component elements (especially discrete accessories, but also fasteners, reinforcement elements, or other types of components).
+applicableIfcClasses:
+- name: IfcElementComponent
+  type: IfcElementComponent
+- name: IfcElementComponentType
+  type: IfcElementComponent
+properties:
+- name: Reference
+  definition: Reference ID for this specified type in this project (e.g. type 'A-1'), Also referred to as "construction type". It should be provided as an alternative to the name of the "object type", if the software does not support object types.
+  localizations: []
+- name: Status
+  definition: Status of the element, predominately used in renovation or retrofitting projects. The status can be assigned to as "New" - element designed as new addition, "Existing" - element exists and remains, "Demolish" - element existed but is to be demolished,  "Temporary" - element will exists only temporary (like a temporary support structure).
+  localizations: []
+- name: DeliveryType
+  ifdGuid: 4c9640f207094e11a46ecfcbc96c2801
+  definition: Determines how the accessory will be delivered to the site.
+  localizations: []
+- name: CorrosionTreatment
+  ifdGuid: 8a49acd68de44926baff6f4e8a12b497
+  definition: Determines corrosion treatment for metal components. This property is provided if the requirement needs to be expressed (a) independently of a material specification and (b) as a mere requirements statement rather than a workshop design/ processing feature.
+  localizations: []

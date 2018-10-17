@@ -1,0 +1,30 @@
+﻿name: Pset_ActuatorTypePneumaticActuator
+ifcVersion:
+  version: IFC4
+  schema: IfcBuildingControlsDomain
+ifdGuid: ''
+definition: 'A device that pneumatically actuates a control element '
+applicableIfcClasses:
+- name: IfcActuatorType
+  type: IfcActuatorType/PNEUMATICACTUATOR
+properties:
+- name: InputPressure
+  ifdGuid: d13f472f69c14d26a7a1064391c8a3c5
+  definition: 'Maximum input control air pressure requirement. '
+  localizations:
+  - language: ja-JP
+    name: 入力圧力
+    definition: 最大制御空気圧。
+  - language: ko-KR
+    name: 입력 압력
+    definition: 최대 제어 공압
+- name: InputFlowrate
+  ifdGuid: 56a1c1517af345b1907419da0ab6ea4f
+  definition: Maximum input control air flowrate requirement.
+  localizations:
+  - language: ja-JP
+    name: 入力流量
+    definition: 最大制御空気流量。
+  - language: ko-KR
+    name: 입력 유량
+    definition: 최대 제어 공기 유량

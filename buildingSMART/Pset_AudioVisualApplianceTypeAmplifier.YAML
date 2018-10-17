@@ -1,0 +1,37 @@
+﻿name: Pset_AudioVisualApplianceTypeAmplifier
+ifcVersion:
+  version: IFC4
+  schema: IfcElectricalDomain
+ifdGuid: ''
+definition: 'An audio-visual amplifier is a device that renders audio from a single external source connected from a port.  HISTORY: Added in IFC4.'
+applicableIfcClasses:
+- name: IfcAudioVisualApplianceType
+  type: IfcAudioVisualApplianceType/AMPLIFIER
+properties:
+- name: AmplifierType
+  definition: Indicates the type of amplifier.
+  localizations:
+  - language: ja-JP
+    name: アンプ形式
+    definition: アンプの形式を示す。
+  - language: ko-KR
+    name: 앰프 형식
+    definition: 앰프의 형식을 보여준다.
+- name: AudioAmplification
+  definition: Indicates audio amplification frequency ranges.
+  localizations:
+  - language: ja-JP
+    name: オーディオアンプ
+    definition: 再生周波数帯域を示す。
+  - language: ko-KR
+    name: 오디오 앰프
+    definition: 재생 주파수 대역을 나타낸다.
+- name: AudioMode
+  definition: Indicates audio sound modes and corresponding labels, if applicable.
+  localizations:
+  - language: ja-JP
+    name: オーディオモード
+    definition: オーディオサウンドモードの設定。
+  - language: ko-KR
+    name: 오디오 모드
+    definition: 오디오 사운드 모드 설정.

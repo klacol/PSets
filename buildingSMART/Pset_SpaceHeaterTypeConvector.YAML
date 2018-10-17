@@ -1,0 +1,16 @@
+﻿name: Pset_SpaceHeaterTypeConvector
+ifcVersion:
+  version: IFC4
+  schema: IfcHvacDomain
+ifdGuid: ''
+definition: Space heater type convector attributes.
+applicableIfcClasses:
+- name: IfcSpaceHeaterType
+  type: IfcSpaceHeaterType/CONVECTOR
+properties:
+- name: ConvectorType
+  definition: Indicates the type of convector, whether forced air (mechanically driven) or natural (gravity).
+  localizations:
+  - language: ja-JP
+    name: 対流タイプ
+    definition: 強制空気(機械的に運転される)か自然な(重力)であることにかかわらず対流式暖房器のタイプを示します。

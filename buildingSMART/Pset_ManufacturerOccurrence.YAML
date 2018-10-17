@@ -1,0 +1,30 @@
+﻿name: Pset_ManufacturerOccurrence
+ifcVersion:
+  version: IFC4
+  schema: IfcSharedFacilitiesElements
+ifdGuid: ''
+definition: 'Defines properties of individual instances of manufactured products that may be given by the manufacturer.HISTORY: IFC4: AssemblyPlace property added. This property does not need to be asserted if Pset_ManufacturerTypeInformation is allocated to the type and the AssemblyPlace property is asserted there.'
+applicableIfcClasses:
+- name: IfcElement
+  type: IfcElement
+properties:
+- name: AcquisitionDate
+  ifdGuid: 6ee2cd2dd89b4f118cb2359f3010b8c2
+  definition: The date that the manufactured item was purchased.
+  localizations: []
+- name: BarCode
+  ifdGuid: 3f8a349725984860babfc5077da4f88c
+  definition: The identity of the bar code given to an occurrence of the product.
+  localizations: []
+- name: SerialNumber
+  ifdGuid: ba79f4d3a01a417f9cb256049b5e64d1
+  definition: The serial number assigned to an occurrence of a product.
+  localizations: []
+- name: BatchReference
+  ifdGuid: 3db1b21c50af4117bd4e43c3104aaa80
+  definition: The identity of the batch reference from which an occurrence of a product is taken.
+  localizations: []
+- name: AssemblyPlace
+  ifdGuid: 57842447abe14e028dd5ab3da78c754c
+  definition: Enumeration defining where the assembly is intended to take place, either in a factory, other offsite location or on the building site.
+  localizations: []

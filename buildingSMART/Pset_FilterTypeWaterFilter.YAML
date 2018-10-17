@@ -1,0 +1,13 @@
+﻿name: Pset_FilterTypeWaterFilter
+ifcVersion:
+  version: IFC4
+  schema: IfcHvacDomain
+ifdGuid: ''
+definition: Water filter type attributes.
+applicableIfcClasses:
+- name: IfcFilterType
+  type: IfcFilterType/WATERFILTER
+properties:
+- name: WaterFilterType
+  definition: Further qualifies the type of water filter.  Filtration removes undissolved matter; Purification removes dissolved matter; Softening replaces dissolved matter.
+  localizations: []

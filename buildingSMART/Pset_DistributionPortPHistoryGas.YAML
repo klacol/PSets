@@ -1,0 +1,37 @@
+﻿name: Pset_DistributionPortPHistoryGas
+ifcVersion:
+  version: IFC4
+  schema: IfcSharedBldgServiceElements
+ifdGuid: ''
+definition: Log of fuel usage attached to an instance of IfcPerformanceHistory having an assigned IfcDistributionPort of type GAS.
+applicableIfcClasses:
+- name: IfcPerformanceHistory
+  type: IfcDistributionPort/GAS[PerformanceHistory]
+properties:
+- name: Temperature
+  definition: The temperature of the fuel.
+  localizations:
+  - language: ja-JP
+    name: 温度
+    definition: 燃料の温度。
+  - language: ko-KR
+    name: 온도
+    definition: 연료의 온도
+- name: Pressure
+  definition: The pressure of the fuel.
+  localizations:
+  - language: ja-JP
+    name: 圧力
+    definition: 燃料の圧力。
+  - language: ko-KR
+    name: 압력
+    definition: 연료 압력
+- name: Flowrate
+  definition: The flowrate of the fuel.
+  localizations:
+  - language: ja-JP
+    name: 流量
+    definition: 燃料の流速。
+  - language: ko-KR
+    name: 유량
+    definition: 연료의 유속

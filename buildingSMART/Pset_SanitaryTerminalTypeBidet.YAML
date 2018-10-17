@@ -1,0 +1,59 @@
+﻿name: Pset_SanitaryTerminalTypeBidet
+ifcVersion:
+  version: IFC4
+  schema: IfcPlumbingFireProtectionDomain
+ifdGuid: ''
+definition: 'Waste water appliance for washing the excretory organs while sitting astride the bowl (BS6100). HISTORY: In IFC4, Material property removed. Use materials capabilities from IfcMaterialsResource schema. Datatype of color changed to IfcLabel (still a string value). BidetMounting changed to Mounting.'
+applicableIfcClasses:
+- name: IfcSanitaryTerminalType
+  type: IfcSanitaryTerminalType/BIDET
+properties:
+- name: Mounting
+  ifdGuid: 03393c1ba39a459eb00fa7b290c47693
+  definition: 'The property enumeration Pset_SanitaryMountingEnum defines the forms of mounting or fixing of the sanitary terminal that may be specified within property sets used to define sanitary terminals (WC’s, basins, sinks, etc.) where:-BackToWall: 	A pedestal mounted sanitary terminal that fits flush to the wall at the rear to cover its service connections.Pedestal: 	A floor mounted sanitary terminal that has an integral base.CounterTop: 	A sanitary terminal that is installed into a horizontal surface that is installed into a horizontal surface. Note: When applied to a wash hand basin, the term more normally used is ‘vanity’. See also Wash Hand Basin Type specification.WallHung: 	A sanitary terminal cantilevered clear of the floor.Note that BackToWall, Pedestal and WallHung are allowable values for a bidet.'
+  localizations:
+  - language: ja-JP
+    name: 装着
+    definition: 列挙するプロパティはPset_SanitaryMountingEnumでは（トイレの、洗面台、シンクなど）、衛生配管への装着法で定義される：床置き壁排水：台座は、カバーの背面の壁にあるフラッシュバルブに接続される。床置き：床の衛生配管に装着される。カウンター：水平面に設置された衛生配管に接続します。注：手洗器があると、通常は'化粧'が使用される。手洗器を参照。壁掛け：衛生配管は壁から出され床には何もなくなる。。床置き壁排水、床置き、壁掛けは、ビデの許容値であることに注意。
+- name: NominalLength
+  ifdGuid: bb4031ab4ea74a1398cae713b0a5eab2
+  definition: 'Nominal or quoted length of the object. '
+  localizations:
+  - language: ja-JP
+    name: 呼び長さ
+    definition: 公称または引用長さ。
+- name: NominalWidth
+  ifdGuid: b6bc7f0a3f934f39816376aa6bc08b99
+  definition: 'Nominal or quoted width of the object. '
+  localizations:
+  - language: ja-JP
+    name: 呼び幅
+    definition: 公称または引用幅。
+- name: NominalDepth
+  ifdGuid: e584c21ee5b24f94962e1c52ba1754ea
+  definition: 'Nominal or quoted depth of the object. '
+  localizations:
+  - language: ja-JP
+    name: 公称深さ
+    definition: 公称または引用深さ。
+- name: Color
+  ifdGuid: 8ea5578bf0e840fdae8e4e11697450ad
+  definition: Color selection for this object.
+  localizations:
+  - language: ja-JP
+    name: 色
+    definition: 主要な色。
+- name: SpilloverLevel
+  ifdGuid: fef59a15b46a45058c8b3873a9fcbef9
+  definition: The level at which water spills out of the object.
+  localizations:
+  - language: ja-JP
+    name: 流出レベル
+    definition: 水がこぼれるレベル。
+- name: DrainSize
+  ifdGuid: a956a2d1f8f24c06907dbe2ae34555d1
+  definition: The size of the drain outlet connection from the object.
+  localizations:
+  - language: ja-JP
+    name: ドレインサイズ
+    definition: 排水口の接続のサイズ。

@@ -1,0 +1,13 @@
+﻿name: Pset_BuildingSystemCommon
+ifcVersion:
+  version: IFC4
+  schema: IfcSharedBldgElements
+ifdGuid: ''
+definition: Properties common to the definition of building systems.
+applicableIfcClasses:
+- name: IfcBuildingSystem
+  type: IfcBuildingSystem
+properties:
+- name: Reference
+  definition: Reference ID for this specified instance of building system in this project (e.g. 'TRA/EL1'), The reference values depend on the local code of practice.
+  localizations: []

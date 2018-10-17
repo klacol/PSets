@@ -1,0 +1,24 @@
+﻿name: Pset_ValveTypeMixing
+ifcVersion:
+  version: IFC4
+  schema: IfcHvacDomain
+ifdGuid: ''
+definition: A valve where typically the temperature of the outlet is determined by mixing hot and cold water inlet flows.
+applicableIfcClasses:
+- name: IfcValveType
+  type: IfcValveType/MIXING
+properties:
+- name: MixerControl
+  ifdGuid: 24cae0baab284fdaa032bedc714bda89
+  definition: Defines the form of control of the mixing valve.
+  localizations:
+  - language: ja-JP
+    name: 混合制御
+    definition: 混合弁の制御形式の定義
+- name: OutletConnectionSize
+  ifdGuid: 37f36925b83b409b83843c815dce3a76
+  definition: The size of the pipework connection from the mixing valve.
+  localizations:
+  - language: ja-JP
+    name: 出力側接続口径
+    definition: 混合弁の配管接続サイズ

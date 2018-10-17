@@ -1,0 +1,24 @@
+﻿name: Pset_PipeFittingPHistory
+ifcVersion:
+  version: IFC4
+  schema: IfcHvacDomain
+ifdGuid: ''
+definition: Pipe fitting performance history common attributes.
+applicableIfcClasses:
+- name: IfcPerformanceHistory
+  type: IfcPipeFitting
+properties:
+- name: LossCoefficient
+  ifdGuid: 6aea3dfae186454ca6c0c0c85256c645
+  definition: Dimensionless loss coefficient used for calculating fluid resistance representing the ratio of total pressure loss to velocity pressure at a referenced cross-section.
+  localizations:
+  - language: ja-JP
+    name: 損失係数
+    definition: 無次元数的な損失係数で、ある断面において、動圧に対する全圧損失の割合を表す流れ抵抗を計算するのに使われる。
+- name: FlowrateLeakage
+  ifdGuid: 8ec9a646a8fa4c6e8905f3de56e4745b
+  definition: Leakage flowrate versus pressure difference.
+  localizations:
+  - language: ja-JP
+    name: 漏洩流量
+    definition: 漏洩量と圧力差の関係

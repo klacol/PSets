@@ -1,0 +1,31 @@
+﻿name: Pset_UnitaryEquipmentTypeAirHandler
+ifcVersion:
+  version: IFC4
+  schema: IfcHvacDomain
+ifdGuid: ''
+definition: Air handler unitary equipment type attributes.Note that these attributes were formerly Pset_AirHandler prior to IFC2x2.
+applicableIfcClasses:
+- name: IfcUnitaryEquipmentType
+  type: IfcUnitaryEquipmentType/AIRHANDLER
+properties:
+- name: AirHandlerConstruction
+  ifdGuid: b5c6d0d990f049f3a21746b57ba86b29
+  definition: 'Enumeration defining how the air handler might be fabricated. '
+  localizations:
+  - language: ja-JP
+    name: 空調機製造
+    definition: 空調機の組立方法の定義の列挙
+- name: AirHandlerFanCoilArrangement
+  ifdGuid: 15008db3d8c9444cab68346d70e93822
+  definition: 'Enumeration defining the arrangement of the supply air fan and the cooling coil. '
+  localizations:
+  - language: ja-JP
+    name: 空調機ファン・コイル配列
+    definition: 給気ファンと冷却コイルの配置の定義列挙
+- name: DualDeck
+  ifdGuid: df2d8db97a5e43f1aad96e17b3549eba
+  definition: 'Does the AirHandler have a dual deck? TRUE = Yes, FALSE = No. '
+  localizations:
+  - language: ja-JP
+    name: 2層
+    definition: 空調機は2層になっているかTRUE=はい、FALSE=Iいいえ

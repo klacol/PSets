@@ -1,0 +1,37 @@
+﻿name: Pset_AudioVisualApplianceTypePlayer
+ifcVersion:
+  version: IFC4
+  schema: IfcElectricalDomain
+ifdGuid: ''
+definition: 'An audio-visual player is a device that plays stored media into a stream of audio and/or video, such as camera footage in security systems, background audio in retail areas, or media presentations in conference rooms or theatres.  HISTORY: Added in IFC4.'
+applicableIfcClasses:
+- name: IfcAudioVisualApplianceType
+  type: IfcAudioVisualApplianceType/PLAYER
+properties:
+- name: PlayerType
+  definition: Indicates the type of player.
+  localizations:
+  - language: ja-JP
+    name: プレイヤー形式
+    definition: 再生可能な形式を示す。
+  - language: ko-KR
+    name: 플레이어 형식
+    definition: 재생 가능한 형식을 보여준다.
+- name: PlayerMediaEject
+  definition: Indicates whether the media can be ejected from the player (if physical media).
+  localizations:
+  - language: ja-JP
+    name: メディア取り出し可否
+    definition: メディアを取り出すことができるかどうかを示す。
+  - language: ko-KR
+    name: 미디어 꺼내기 여부
+    definition: 미디어를 꺼낼 수 있는지 여부를 나타낸다.
+- name: PlayerMediaFormat
+  definition: Indicates supported media formats.
+  localizations:
+  - language: ja-JP
+    name: メディアフォーマット
+    definition: サポートされているメディアのフォーマットを示す。
+  - language: ko-KR
+    name: 미디어 포맷
+    definition: 지원되는 미디어 형식을 보여준다.

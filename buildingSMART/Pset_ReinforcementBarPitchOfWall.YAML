@@ -1,0 +1,52 @@
+﻿name: Pset_ReinforcementBarPitchOfWall
+ifcVersion:
+  version: IFC4
+  schema: IfcStructuralElementsDomain
+ifdGuid: ''
+definition: The pitch length information of reinforcement  bar with the wall.
+applicableIfcClasses:
+- name: IfcWall
+  type: IfcWallType
+properties:
+- name: Description
+  ifdGuid: f5764e78db6741eab664bba1a967f819
+  definition: Description of the reinforcement.
+  localizations:
+  - language: ja-JP
+    name: 説明
+    definition: 鉄筋の説明。
+- name: Reference
+  ifdGuid: 7e2480a8e0ef472fbaa766cefb0b36b0
+  definition: A descriptive label for the general reinforcement type.
+  localizations:
+  - language: ja-JP
+    name: 参照記号
+    definition: 一般的な鉄筋タイプの説明ラベル。（例えば、壁の外側・内側で鉄筋間隔が異なる場合に、"Outside","Inside"を記述する）
+- name: BarAllocationType
+  ifdGuid: 628ab606d0ab4d549fe10804621df6a6
+  definition: Defines the type of the reinforcement bar allocation.
+  localizations:
+  - language: ja-JP
+    name: 配筋タイプ
+    definition: 配筋タイプの定義。
+- name: VerticalBarPitch
+  ifdGuid: ea3a32cc1c914af9aebf135ed2503b43
+  definition: The pitch length of the vertical bar.
+  localizations:
+  - language: ja-JP
+    name: 縦筋ピッチ
+    definition: 鉛直方向の補強筋の間隔。
+- name: HorizontalBarPitch
+  ifdGuid: d8e673b20cad49a88f29a4328bb36378
+  definition: The pitch length of the horizontal bar.
+  localizations:
+  - language: ja-JP
+    name: 横筋ピッチ
+    definition: 水平方向の補強筋の間隔。
+- name: SpacingBarPitch
+  ifdGuid: da5fc72144eb4968884a8033503bdca0
+  definition: The pitch length of the spacing bar.
+  localizations:
+  - language: ja-JP
+    name: 巾止筋ピッチ
+    definition: 巾止筋の間隔。

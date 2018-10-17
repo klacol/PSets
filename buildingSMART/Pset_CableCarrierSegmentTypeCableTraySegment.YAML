@@ -1,0 +1,40 @@
+﻿name: Pset_CableCarrierSegmentTypeCableTraySegment
+ifcVersion:
+  version: IFC4
+  schema: IfcElectricalDomain
+ifdGuid: ''
+definition: 'An (typically) open carrier segment onto which cables are laid. HISTORY: IFC4 - NominalLength deleted. To be handled as a quantity measure'
+applicableIfcClasses:
+- name: IfcCableCarrierSegmentType
+  type: IfcCableCarrierSegmentType/CABLETRAYSEGMENT
+properties:
+- name: NominalWidth
+  ifdGuid: c7650cb354a64282bc3959353237514c
+  definition: The nominal width of the segment.
+  localizations:
+  - language: ja-JP
+    name: 公称幅
+    definition: 呼び幅寸法。
+  - language: ko-KR
+    name: 공칭 폭
+    definition: 폭 치수
+- name: NominalHeight
+  ifdGuid: f12a7d939cb24797a16385dd0204c503
+  definition: The nominal height of the segment.
+  localizations:
+  - language: ja-JP
+    name: 公称高
+    definition: 呼び高寸法。
+  - language: ko-KR
+    name: 공칭 높이
+    definition: 고 치수
+- name: HasCover
+  ifdGuid: d911fcbfebd040ff901a017c2353ae91
+  definition: Indication of whether the cable tray has a cover (=TRUE) or not (= FALSE). By default, this value should be set to FALSE..
+  localizations:
+  - language: ja-JP
+    name: カバー
+    definition: カバー付かどうか。
+  - language: ko-KR
+    name: 커버
+    definition: 커버 유무

@@ -1,0 +1,19 @@
+﻿name: Pset_DistributionPortPHistorySignal
+ifcVersion:
+  version: IFC4
+  schema: IfcSharedBldgServiceElements
+ifdGuid: ''
+definition: Log of signal activity attached to an instance of IfcPerformanceHistory having an assigned IfcDistributionPort of type SIGNAL.
+applicableIfcClasses:
+- name: IfcPerformanceHistory
+  type: IfcDistributionPort/SIGNAL[PerformanceHistory]
+properties:
+- name: Signal
+  definition: Log of signal value.
+  localizations:
+  - language: ja-JP
+    name: 信号
+    definition: 信号値のログ。
+  - language: ko-KR
+    name: 신호
+    definition: 신호값의 로그

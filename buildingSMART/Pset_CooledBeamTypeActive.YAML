@@ -1,0 +1,26 @@
+﻿name: Pset_CooledBeamTypeActive
+ifcVersion:
+  version: IFC4
+  schema: IfcHvacDomain
+ifdGuid: ''
+definition: Active (ventilated) cooled beam common attributes.
+applicableIfcClasses:
+- name: IfcCooledBeamType
+  type: IfcCooledBeamType/ACTIVE
+properties:
+- name: AirFlowConfiguration
+  ifdGuid: 8a4c809ce0ee4dbbb9b280fc700bfafb
+  definition: Air flow configuration type of cooled beam.
+  localizations: []
+- name: AirflowRateRange
+  ifdGuid: 5368782f8a5947bc9a07e84b607c8ddb
+  definition: Possible range of airflow that can be delivered.
+  localizations: []
+- name: SupplyAirConnectionType
+  ifdGuid: 528e1e841b554d32a217901591c118e9
+  definition: The manner in which the pipe connection is made to the cooled beam.
+  localizations: []
+- name: ConnectionSize
+  ifdGuid: d1b6eb81e2d04b8c82cabebf1f9d60f5
+  definition: Duct connection diameter.
+  localizations: []

@@ -1,0 +1,84 @@
+﻿name: Pset_ThermalLoadAggregate
+ifcVersion:
+  version: IFC4
+  schema: IfcSharedBldgServiceElements
+ifdGuid: ''
+definition: 'The aggregated thermal loads experienced by one or many spaces, zones, or buildings. This aggregate thermal load information is typically addressed by a system or plant. HISTORY: New property set in IFC Release 1.0 (Pset_AggregateLoadInformation); renamed Pset_ThermalLoadAggregate in IFC2x2.'
+applicableIfcClasses:
+- name: IfcZone
+  type: IfcSpatialElement
+- name: IfcSpatialStructureElement
+  type: IfcSpatialElement
+- name: IfcSystem
+  type: IfcSpatialElement
+properties:
+- name: TotalCoolingLoad
+  ifdGuid: 81295c73efd545ae9b232c5fe5ff29a1
+  definition: The peak total cooling load for the building, zone or space.
+  localizations:
+  - language: ja-JP
+    name: 冷房負荷
+    definition: 建物、ゾーン、部屋のピーク時の冷房負荷。
+  - language: ko-KR
+    name: 냉방부하
+    definition: 건물 영역 방 피크 냉방 부하.
+- name: TotalHeatingLoad
+  ifdGuid: fecc065e70074b27b37cfe0ef1c2b609
+  definition: The peak total heating load for the building, zone or space.
+  localizations:
+  - language: ja-JP
+    name: 暖房負荷
+    definition: 建物、ゾーン、部屋のピーク時の暖房負荷。
+  - language: ko-KR
+    name: 난방 부하
+    definition: 건물 영역 방 최대 난방 부하.
+- name: LightingDiversity
+  ifdGuid: b001d431a8cf4676a3342d0b48ba4074
+  definition: 'Lighting diversity. '
+  localizations:
+  - language: ja-JP
+    name: 照明負荷係数
+    definition: 照明負荷係数。
+  - language: ko-KR
+    name: 조명 부하계수
+    definition: 조명 부하 계수.
+- name: InfiltrationDiversitySummer
+  ifdGuid: 63e405db678f4701a6fa0a005ae97dc7
+  definition: 'Diversity factor for Summer infiltration. '
+  localizations:
+  - language: ja-JP
+    name: 夏期すき間換気率
+    definition: 夏期すき間換気率。
+  - language: ko-KR
+    name: 여름 틈새 환기 비율
+    definition: 여름 틈새 환기 비율.
+- name: InfiltrationDiversityWinter
+  ifdGuid: 83b85e83541143198a1d5affbe2b35a7
+  definition: 'Diversity factor for Winter infiltration. '
+  localizations:
+  - language: ja-JP
+    name: 冬期すき間換気率
+    definition: 冬期すき間換気率。
+  - language: ko-KR
+    name: 겨울철 틈새 환기비율
+    definition: 겨울철 틈새 환기 비율.
+- name: ApplianceDiversity
+  ifdGuid: 34220ed037b647eea295834289c186ba
+  definition: 'Diversity of appliance load. '
+  localizations:
+  - language: ja-JP
+    name: 機器の負荷率
+    definition: 機器の負荷率。
+  - language: ko-KR
+    name: 기기의 부하율
+    definition: 기기의 부하율.
+- name: LoadSafetyFactor
+  ifdGuid: d1a1d1cfd29a4c6fab17fe3e32beff04
+  definition: 'Load safety factor. '
+  localizations:
+  - language: ja-JP
+    name: 負荷の安全率
+    definition: 空調負荷計算用の安全率（割増係数）。
+  - language: ko-KR
+    name: 부하의 안전율
+    definition: 공조 부하 계산을위한 안전율 (할증 계수).

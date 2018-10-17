@@ -1,0 +1,45 @@
+﻿name: Pset_PipeFittingTypeJunction
+ifcVersion:
+  version: IFC4
+  schema: IfcHvacDomain
+ifdGuid: ''
+definition: Pipe fitting type attributes for junction shapes.
+applicableIfcClasses:
+- name: IfcPipeFittingType
+  type: IfcPipeFittingType/JUNCTION
+properties:
+- name: JunctionType
+  ifdGuid: 170071d91239490d9bb2fb27fa86622b
+  definition: The type of junction. TEE=3 ports, CROSS = 4 ports.
+  localizations:
+  - language: ja-JP
+    name: 継ぎ手タイプ
+    definition: 接合のタイプ　(T継ぎ手は3本　十字継ぎ手は4本)
+- name: JunctionLeftAngle
+  ifdGuid: 7e73524d11264c2d9c9181db6b003441
+  definition: The change of direction of flow for the left junction.
+  localizations:
+  - language: ja-JP
+    name: 左継ぎ手角度
+    definition: 左継ぎ手の流れの方向の変化
+- name: JunctionLeftRadius
+  ifdGuid: 95a3c1d34d864640b36053cc9520cd5c
+  definition: The radius of bending for the left junction.
+  localizations:
+  - language: ja-JP
+    name: 左継ぎ手半径
+    definition: 左継ぎ手の曲がりの半径
+- name: JunctionRightAngle
+  ifdGuid: 4d488e7a39694c6c92ba49f4c3f94255
+  definition: The change of direction of flow for the right junction where 0 indicates straight segment.
+  localizations:
+  - language: ja-JP
+    name: 右継ぎ手角度
+    definition: 右継ぎ手の流れの方向の変化
+- name: JunctionRightRadius
+  ifdGuid: a211259ace7a4fd39de436050cf5dad5
+  definition: The radius of bending for the right junction where 0 indicates sharp bend.
+  localizations:
+  - language: ja-JP
+    name: 右継ぎ手半径
+    definition: 右継ぎ手の曲がりの半径(ゼロは鋭い曲がりを意味する)

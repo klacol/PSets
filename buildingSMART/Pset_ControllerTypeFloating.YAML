@@ -1,0 +1,43 @@
+﻿name: Pset_ControllerTypeFloating
+ifcVersion:
+  version: IFC4
+  schema: IfcBuildingControlsDomain
+ifdGuid: ''
+definition: 'Properties for signal handling for an analog controller taking disparate valued multiple inputs and creating a single valued output.  HISTORY: IFC4 adapted from Pset_ControllerTypeCommon and applicable predefined type made specific to FLOATING; ACCUMULATOR and PULSECONVERTER types added; additional properties added to replace Pset_AnalogInput and Pset_AnalogOutput.'
+applicableIfcClasses:
+- name: IfcControllerType
+  type: IfcControllerType/FLOATING
+properties:
+- name: ControlType
+  definition: 'The type of signal modification effected and applicable ports: CONSTANT: No inputs; SignalOffset is written to the output value.MODIFIER: Single analog input is read, added to SignalOffset, multiplied by SignalFactor, and written to the output value.ABSOLUTE: Single analog input is read and absolute value is written to the output value.INVERSE: Single analog input is read, 1.0 is divided by the input value and written to the output value.HYSTERISIS: Single analog input is read, delayed according to SignalTime, and written to the output value.RUNNINGAVERAGE: Single analog input is read, averaged over SignalTime, and written to the output value.DERIVATIVE: Single analog input is read and the rate of change during the SignalTime is written to the output value.INTEGRAL: Single analog input is read and the average value during the SignalTime is written to the output value.BINARY: Single binary input is read and SignalOffset is written to the output value if True.ACCUMULATOR: Single binary input is read, and for each pulse the SignalOffset is added to the accumulator, and while the accumulator is greater than the SignalFactor, the accumulator is decremented by SignalFactor and the integer result is incremented by one.PULSECONVERTER: Single integer input is read, and for each increment the SignalMultiplier is added and written to the output value.SUM: Two analog inputs are read, added, and written to the output value.SUBTRACT: Two analog inputs are read, subtracted, and written to the output value.PRODUCT: Two analog inputs are read, multiplied, and written to the output value.DIVIDE: Two analog inputs are read, divided, and written to the output value.AVERAGE: Two analog inputs are read and the average is written to the output value.MAXIMUM: Two analog inputs are read and the maximum is written to the output value.MINIMUM: Two analog inputs are read and the minimum is written to the output value..INPUT: Controller element is a dedicated input.OUTPUT: Controller element is a dedicated output.VARIABLE: Controller element is an in-memory variable.'
+  localizations:
+  - language: ko-KR
+    name: FLOATING 유형
+    definition: '컨트롤러는 항상 하나의 출력 포트와 가변 입력 포트 유형에 따라있는 한결 : output = SignalOffset 수정자 : output = input * SignalFactor + SignalOffset 절대치 : output = | input | 역수 : output = 1.0 / input 지연 : output = 지연 (input, SignalTime 후) 이동 평균 : output = 평균 (inputN, SignalTime 사이) 미분 : output = 미분 (inputN, SignalTime 사이) 적분 : output = 적분 (inputN, SignalTime 사이) 바이너리 : output = SignalOffset ※ input = TRUE의 경우 누적 : output = accumulator       ※ accumulator = 펄스 카운트 * SignalOffset       ※ if (accumulator> SignalFactor) accumulator - = SignalFactor       ??? 펄스 카운터 : output = input * SignalMultiplier       ※ input 펄스 카운트, SignalMultiplier은 원인 불명       ??? 총 : output = input1 + input2 뺄셈 : output = input1 - input2 적립 : output = input1 * input2 나누기 : output = input1 / input2 평균 : output = (input1 + input2) / 2 최대 : output = input1 or input2 ※보다 큰 최소 : output = input1 or input2 ※보다 작은'
+- name: Labels
+  definition: Table mapping values to labels, where such labels indicate transition points such as 'Hi', 'Lo', 'HiHi', or 'LoLo'.
+  localizations: []
+- name: Range
+  definition: The physical range of values supported by the device.
+  localizations: []
+- name: Value
+  definition: The expected range and default value.  While the property data type is IfcReal (to support all cases including when the units are unknown), a unit may optionally be provided to indicate the measure and unit.  The LowerLimitValue and UpperLimitValue must fall within the physical Range and may be used to determine extents when charting Pset_ControllerPHistory.Value.
+  localizations: []
+- name: SignalOffset
+  definition: Offset constant added to modfied signal.
+  localizations:
+  - language: ko-KR
+    name: 옵셋
+    definition: 오프셋 상수 변경 신호에 추가됨
+- name: SignalFactor
+  definition: Factor multiplied onto offset signal.
+  localizations:
+  - language: ko-KR
+    name: 요소
+    definition: 인자는 오프셋 신호 곱셈
+- name: SignalTime
+  definition: Time factor used for integral and running average controllers.
+  localizations:
+  - language: ko-KR
+    name: 시간 요소
+    definition: 시간 요소는 INTEGRAL (적분)과 AVERAGE ((이동) 평균) 컨트롤러에 사용됨

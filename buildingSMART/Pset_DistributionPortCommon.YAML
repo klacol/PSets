@@ -1,0 +1,28 @@
+﻿name: Pset_DistributionPortCommon
+ifcVersion:
+  version: IFC4
+  schema: IfcSharedBldgServiceElements
+ifdGuid: ''
+definition: Common attributes attached to an instance of IfcDistributionPort.
+applicableIfcClasses:
+- name: IfcDistributionPort
+  type: IfcDistributionPort
+properties:
+- name: PortNumber
+  definition: The port index for logically ordering the port within the containing element or element type.
+  localizations:
+  - language: ja-JP
+    name: ポート番号
+    definition: ポートに含まれる要素、種類を示す番号。
+  - language: ko-KR
+    name: 포트 번호
+    definition: 포트에 포함되는 요소 유형을 나타내는 숫자
+- name: ColorCode
+  definition: Name of a color for identifying the connector, if applicable.
+  localizations:
+  - language: ja-JP
+    name: 色番号
+    definition: コネクタの色。
+  - language: ko-KR
+    name: 색상번호
+    definition: 커넥터 고유 이름

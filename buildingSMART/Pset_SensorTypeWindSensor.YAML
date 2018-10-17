@@ -1,0 +1,28 @@
+﻿name: Pset_SensorTypeWindSensor
+ifcVersion:
+  version: IFC4
+  schema: IfcBuildingControlsDomain
+ifdGuid: ''
+definition: 'A device that senses or detects wind speed and direction. HISTORY: Added in IFC4.'
+applicableIfcClasses:
+- name: IfcSensorType
+  type: IfcSensorType/WINDSENSOR
+properties:
+- name: WindSensorType
+  definition: Enumeration that Identifies the types of wind sensors that can be specified.
+  localizations:
+  - language: ja-JP
+    name: 風センサータイプ
+    definition: 明示された風センサーのタイプを識別する一覧。
+  - language: ko-KR
+    name: 바람 센서 타입
+    definition: 명시된 바람 센서 유형을 식별하는 목록.
+- name: SetPointSpeed
+  definition: 'The wind speed value to be sensed. Use IfcPropertyBoundedValue.SetPointValue to set the set point value. '
+  localizations:
+  - language: ja-JP
+    name: 風速設定値
+    definition: 感知される風速。セットポイント値を置くために、IfcPropertyBoundedValue.SetPointValueを使用する。
+  - language: ko-KR
+    name: 풍속 설정
+    definition: 감지되는 바람. 세트 포인트 값을 넣으려면, IfcPropertyBoundedValue.SetPointValue를 사용하십시오.

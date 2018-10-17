@@ -1,0 +1,17 @@
+﻿name: Pset_ProjectOrderMoveOrder
+ifcVersion:
+  version: IFC4
+  schema: IfcSharedMgmtElements
+ifdGuid: ''
+definition: Defines the requirements for move orders. Note that the move order status is defined in the same way as a work order status since a move order implies a work requirement.
+applicableIfcClasses:
+- name: IfcProjectOrder
+  type: IfcProjectOrder/MOVEORDER
+properties:
+- name: SpecialInstructions
+  ifdGuid: 917b004159a34882842f4858565ab012
+  definition: Special instructions that affect the move.
+  localizations:
+  - language: ja-JP
+    name: 特別指示
+    definition: 移動・引っ越しに影響する特別な指示。

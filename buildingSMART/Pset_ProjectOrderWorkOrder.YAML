@@ -1,0 +1,26 @@
+﻿name: Pset_ProjectOrderWorkOrder
+ifcVersion:
+  version: IFC4
+  schema: IfcSharedMgmtElements
+ifdGuid: ''
+definition: Defines the requirements for purchase orders in a project.
+applicableIfcClasses:
+- name: IfcProjectOrder
+  type: IfcProjectOrder/WORKORDER
+properties:
+- name: ProductDescription
+  ifdGuid: 1ecb44e133ab42e78d380c4707be2f40
+  definition: A textual description of the products that require the work.
+  localizations: []
+- name: WorkTypeRequested
+  ifdGuid: cf279177e73140c2b3a2405601c1961d
+  definition: Work type requested in circumstances where there are categorizations of types of work task. It could be used to identify a remedial task, minor work task, electrical task etc.
+  localizations: []
+- name: ContractualType
+  ifdGuid: 79a0f01b350441019beea29f928ec842
+  definition: The contractual type of the work.
+  localizations: []
+- name: IfNotAccomplished
+  ifdGuid: cf33356559c544689642bf7b46cbe4a8
+  definition: Comments if the job is not accomplished.
+  localizations: []

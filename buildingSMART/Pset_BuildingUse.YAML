@@ -1,0 +1,94 @@
+﻿name: Pset_BuildingUse
+ifcVersion:
+  version: IFC4
+  schema: IfcProductExtension
+ifdGuid: ''
+definition: Provides information on on the real estate context of the building of interest both current and anticipated.
+applicableIfcClasses:
+- name: IfcBuilding
+  type: IfcBuilding
+properties:
+- name: MarketCategory
+  ifdGuid: cbb160248eee455099040c18f53cdb6e
+  definition: Category of use e.g. residential, commercial, recreation etc.
+  localizations:
+  - language: fr-FR
+    name: Caéegorie de marché
+    definition: Catégorie d'usage (résidentiel, commercial, loisir,…)
+- name: MarketSubCategory
+  ifdGuid: f9a2e3e620af47a8b865a5585b5c43a3
+  definition: Subset of category of use e.g. multi-family, 2 bedroom, low rise.
+  localizations:
+  - language: fr-FR
+    name: Sous-catégorie du marché
+    definition: "Sous catégorie d'usage (exemple : collectif, deux pièces,…)"
+- name: PlanningControlStatus
+  ifdGuid: 247acb1daac74cd98b0e70fb5ef61f68
+  definition: Label of zoning category or class, or planning control category for the site or facility.
+  localizations:
+  - language: fr-FR
+    name: Etat Planning Contrôle
+    definition: Catégorie de zone ou classe, ou catégorie relativement à un planning de contrôle pour le site ou l'ensemble immobilier.
+- name: NarrativeText
+  ifdGuid: 704e48beb3a7433da956993074c6af23
+  definition: Added information relating to the adjacent building use that is not appropriate to the general descriptive text associated with an entity through the inherited IfcRoot.Description.
+  localizations:
+  - language: fr-FR
+    name: Texte libre sur voisinage
+    definition: Information relative aux bâtiments voisins qui n'est pas appropriée au texte d'ordre général que l'on peut saisir dans l'attribut hérité IfcRoot.Description.
+- name: VacancyRateInCategoryNow
+  ifdGuid: b82a7ba198ed4984bf77218cca15c2e2
+  definition: Percentage of vacancy found in the particular category currently.
+  localizations:
+  - language: fr-FR
+    name: Taux actuel de vacance pour la catégorie
+    definition: Taux actuel de vacance pour la catégorie.
+- name: TenureModesAvailableNow
+  ifdGuid: cd530541fac949f6b93d8af6d138fc27
+  definition: A list of the tenure modes that are currently available expressed in terms of IfcLabel.
+  localizations:
+  - language: fr-FR
+    name: Possibilités d'occupation actuelles
+    definition: Liste des possibilités d'occupation actuelles.
+- name: MarketSubCategoriesAvailableNow
+  ifdGuid: a0170d65840245e7ab4c8a01b115c3e6
+  definition: A list of the sub categories of property that are currently available expressed in terms of IfcLabel.
+  localizations:
+  - language: fr-FR
+    name: Disponibilités actuelles par sous catégories
+    definition: Liste de sous catégories actuellement disponibles
+- name: RentalRatesInCategoryNow
+  ifdGuid: 795fb3136cf34638af2d5e212cb7057a
+  definition: Range of the cost rates for property currently available in the required category.
+  localizations:
+  - language: fr-FR
+    name: Prix actuel du loyer par catégorie
+    definition: Prix actuel des loyers pour la catégorie considérée.
+- name: VacancyRateInCategoryFuture
+  ifdGuid: c6f5c229a5dc42db8e6e81a4ca46235c
+  definition: Percentage of vacancy found in the particular category expected in the future.
+  localizations:
+  - language: fr-FR
+    name: Taux de vacance futur par catégorie
+    definition: Taux de vacance attendu dans le futur pour la catégorie.
+- name: TenureModesAvailableFuture
+  ifdGuid: bcf0980d6ddb4d94b79dffc699156ba9
+  definition: A list of the tenure modes that are expected to be available in the future expressed in terms of IfcLabel.
+  localizations:
+  - language: fr-FR
+    name: Possibilités d'occupation futures
+    definition: Liste des possibilités d'occupation futures.
+- name: MarketSubCategoriesAvailableFuture
+  ifdGuid: 989d44f418644a3c822585fca9af8976
+  definition: A list of the sub categories of property that are expected to be available in the future expressed in terms of IfcLabel.
+  localizations:
+  - language: fr-FR
+    name: Disponibilités futures par sous catégories
+    definition: Liste de sous catégories disponibles dans le futur.
+- name: RentalRatesInCategoryFuture
+  ifdGuid: fd804f37d798456baa87610b1a85d973
+  definition: Range of the cost rates for property expected to be available in the future in the required category.
+  localizations:
+  - language: fr-FR
+    name: Prix futur du loyer par catégorie
+    definition: Prix futur des loyers pour la catégorie considérée.

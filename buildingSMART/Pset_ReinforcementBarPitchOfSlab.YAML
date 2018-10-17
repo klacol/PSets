@@ -1,0 +1,108 @@
+﻿name: Pset_ReinforcementBarPitchOfSlab
+ifcVersion:
+  version: IFC4
+  schema: IfcStructuralElementsDomain
+ifdGuid: ''
+definition: The pitch length information of reinforcement  bar with the slab.
+applicableIfcClasses:
+- name: IfcSlab
+  type: IfcSlabType
+properties:
+- name: Description
+  ifdGuid: ff2c0865bde440c4a7704e7e53696cd6
+  definition: Description of the reinforcement.
+  localizations:
+  - language: ja-JP
+    name: 説明
+    definition: 鉄筋の説明。
+- name: Reference
+  ifdGuid: 98d11117f8c844e2a6c5ac4e6b4458b7
+  definition: A descriptive label for the general reinforcement type.
+  localizations:
+  - language: ja-JP
+    name: 参照記号
+    definition: 一般的な鉄筋タイプの説明ラベル。
+- name: LongOutsideTopBarPitch
+  ifdGuid: 51fb93041c6e4580ae6cd6cb0a06e28a
+  definition: The pitch length of the long outside top bar.
+  localizations:
+  - language: ja-JP
+    name: 長辺・柱列帯・上端ピッチ
+    definition: 長辺方向・柱列帯・上端の鉄筋間隔。
+- name: LongInsideCenterTopBarPitch
+  ifdGuid: 3347d2e4da49476cb0702511affde3a0
+  definition: The pitch length of the long inside center top bar.
+  localizations:
+  - language: ja-JP
+    name: 長辺・柱列帯・上端中央ピッチ
+    definition: 長辺方向・柱間帯・上端中央の鉄筋間隔。
+- name: LongInsideEndTopBarPitch
+  ifdGuid: 0fa0776f9782430786e212fa32ac1048
+  definition: The pitch length of the long inside end top bar.
+  localizations:
+  - language: ja-JP
+    name: 長辺・柱列帯・上端端部ピッチ
+    definition: 長辺方向・柱間帯・上端端部の鉄筋間隔。
+- name: ShortOutsideTopBarPitch
+  ifdGuid: 0460d8f5d61a401a982ae642fcf3bb2d
+  definition: The pitch length of the short outside top bar.
+  localizations:
+  - language: ja-JP
+    name: 短辺・柱列帯・上端ピッチ
+    definition: 短辺方向・柱列帯・上端の鉄筋間隔。
+- name: ShortInsideCenterTopBarPitch
+  ifdGuid: 8da6ff8269f84c22bcc910ae63e2d326
+  definition: The pitch length of the short inside center top bar.
+  localizations:
+  - language: ja-JP
+    name: 短辺・柱列帯・上端中央ピッチ
+    definition: 短辺方向・柱間帯・上端中央の鉄筋間隔。
+- name: ShortInsideEndTopBarPitch
+  ifdGuid: 0b7eb37e8a34492fb95fd09aa37daa86
+  definition: The pitch length of the short inside end top bar.
+  localizations:
+  - language: ja-JP
+    name: 短辺・柱列帯・上端端部ピッチ
+    definition: 短辺方向・柱間帯・上端端部の鉄筋間隔。
+- name: LongOutsideLowerBarPitch
+  ifdGuid: 3d662e115f9d4928a2bcfc187a489452
+  definition: The pitch length of the long outside lower bar.
+  localizations:
+  - language: ja-JP
+    name: 長辺・柱列帯・下端ピッチ
+    definition: 長辺方向・柱列帯・下端の鉄筋間隔。
+- name: LongInsideCenterLowerBarPitch
+  ifdGuid: 666072a72bb24e4e88271bb7c27c110b
+  definition: The pitch length of the long inside center lower bar.
+  localizations:
+  - language: ja-JP
+    name: 長辺・柱列帯・下端中央ピッチ
+    definition: 長辺方向・柱間帯・下端中央の鉄筋間隔。
+- name: LongInsideEndLowerBarPitch
+  ifdGuid: 916b563a45e241919d8f269b6042372e
+  definition: The pitch length of the long inside end lower bar.
+  localizations:
+  - language: ja-JP
+    name: 長辺・柱列帯・下端端部ピッチ
+    definition: 長辺方向・柱間帯・下端端部の鉄筋間隔。
+- name: ShortOutsideLowerBarPitch
+  ifdGuid: 49b02783b8c74e54b14a29b7e4b742c5
+  definition: The pitch length of the short outside lower bar.
+  localizations:
+  - language: ja-JP
+    name: 短辺・柱列帯・下端ピッチ
+    definition: 短辺方向・柱列帯・下端の鉄筋間隔。
+- name: ShortInsideCenterLowerBarPitch
+  ifdGuid: fa4a54f6c3ef4bb0a1ec03cbc7406f28
+  definition: The pitch length of the short inside center lower bar.
+  localizations:
+  - language: ja-JP
+    name: 短辺・柱列帯・下端中央ピッチ
+    definition: 短辺方向・柱間帯・下端中央の鉄筋間隔。
+- name: ShortInsideEndLowerBarPitch
+  ifdGuid: e48e9dd5412d4f9c90cf8bbeb4e07899
+  definition: The pitch length of the short inside end lower bar.
+  localizations:
+  - language: ja-JP
+    name: 短辺・柱列帯・下端端部ピッチ
+    definition: 短辺方向・柱間帯・下端端部の鉄筋間隔。

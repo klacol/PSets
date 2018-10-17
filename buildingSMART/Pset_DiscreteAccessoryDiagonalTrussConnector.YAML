@@ -1,0 +1,72 @@
+﻿name: Pset_DiscreteAccessoryDiagonalTrussConnector
+ifcVersion:
+  version: IFC4
+  schema: IfcSharedComponentElements
+ifdGuid: ''
+definition: Shape properties specific to connecting accessories in truss form with diagonal cross-bars.
+applicableIfcClasses:
+- name: IfcDiscreteAccessory
+  type: IfcDiscreteAccessory/Diagonal truss connector
+- name: IfcDiscreteAccessoryType
+  type: IfcDiscreteAccessory/Diagonal truss connector
+properties:
+- name: DiagonalTrussHeight
+  ifdGuid: c68492de11ad473a93b9d2c0204a0128
+  definition: The overall height of the truss connector.
+  localizations:
+  - language: ja-JP
+    name: 全体高さ
+    definition: トラス接続部材の全体の高さ。
+  - language: ko-KR
+    name: 전체 높이
+    definition: 트러스 연결 부재의 전체 높이
+- name: DiagonalTrussLength
+  ifdGuid: f2973ce0523d4a45bb4ca3a86c2ca6db
+  definition: The overall length of the truss connector.
+  localizations:
+  - language: ja-JP
+    name: 全体長さ
+    definition: トラス接続部材の全体の長さ。
+  - language: ko-KR
+    name: 전체 길이
+    definition: 트러스 연결 부재의 전체 길이
+- name: DiagonalTrussCrossBarSpacing
+  ifdGuid: e387943673934b36a189fb1c2538302d
+  definition: The spacing between diagonal cross-bar sections.
+  localizations:
+  - language: ja-JP
+    name: クロスバー間隔
+    definition: 斜めのクロスバーの間隔。
+  - language: ko-KR
+    name: 크로스바 간격
+    definition: 대각선 크로스바 간격
+- name: DiagonalTrussBaseBarDiameter
+  ifdGuid: a35e497986f24db28ea54ad7119c42be
+  definition: The nominal diameter of the base bar.
+  localizations:
+  - language: ja-JP
+    name: ベースバー径
+    definition: ベースバーの公称直径。
+  - language: ko-KR
+    name: 기반 막대 지름
+    definition: 기반 막대의 공칭 지름
+- name: DiagonalTrussSecondaryBarDiameter
+  ifdGuid: 4ca14376d5554171b252a87aeb204610
+  definition: The nominal diameter of the secondary bar.
+  localizations:
+  - language: ja-JP
+    name: 二次バー径
+    definition: 二次バーの公称直径。
+  - language: ko-KR
+    name: 보조 막대 지름
+    definition: 보조 막대의 공칭 지름
+- name: DiagonalTrussCrossBarDiameter
+  ifdGuid: b2f6c3c647014ba4a6dd430de5f2ed2f
+  definition: The nominal diameter of the diagonal cross-bars.
+  localizations:
+  - language: ja-JP
+    name: クロスバー径
+    definition: 斜めクロスバーの公称直径。
+  - language: ko-KR
+    name: 크로스바 지름
+    definition: 대각선 크로스바 공칭 지름

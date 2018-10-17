@@ -1,0 +1,38 @@
+﻿name: Pset_CoilPHistory
+ifcVersion:
+  version: IFC4
+  schema: IfcHvacDomain
+ifdGuid: ''
+definition: 'Coil performance history common attributes.Sound attribute deleted in IFC2x2 Pset Addendum: Use IfcSoundProperties instead.'
+applicableIfcClasses:
+- name: IfcPerformanceHistory
+  type: IfcCoil[PerformanceHistory]
+properties:
+- name: AtmosphericPressure
+  ifdGuid: 987602d7d07943a1bb0b5d5129fc3d02
+  definition: Ambient atmospheric pressure.
+  localizations:
+  - language: fr-FR
+    name: Pression atmosphérique
+    definition: Pression atmosphérique ambiante.
+- name: AirPressureDropCurve
+  ifdGuid: ac9693d2c4fe461cbe6a443c15368762
+  definition: Air pressure drop curve, pressure drop – flow rate curve, AirPressureDrop = f (AirflowRate).
+  localizations:
+  - language: fr-FR
+    name: CourbePerteDeChargeAir
+    definition: Courbe de perte de charge aéraulique, courbe perte de charge/débit.
+- name: SoundCurve
+  ifdGuid: 0ca15c99f4d746559b2de69710d5df7c
+  definition: Regenerated sound versus air-flow rate.
+  localizations:
+  - language: fr-FR
+    name: CourbeSon
+    definition: Son généré par rapport au débit aéraulique.
+- name: FaceVelocity
+  ifdGuid: 07d6b355fc1a4dcab9aa8c0cec2a24c5
+  definition: Air velocity through the coil.
+  localizations:
+  - language: fr-FR
+    name: VitesseFace
+    definition: Vitesse de l'air à travers la batterie.

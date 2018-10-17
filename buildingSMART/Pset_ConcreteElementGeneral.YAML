@@ -1,0 +1,65 @@
+﻿name: Pset_ConcreteElementGeneral
+ifcVersion:
+  version: IFC4
+  schema: IfcStructuralElementsDomain
+ifdGuid: ''
+definition: General properties common to different types of concrete elements. The Pset can be used by a number of subtypes of IfcBuildingElement.
+applicableIfcClasses:
+- name: IfcBuildingElement
+  type: IfcBuildingElement
+properties:
+- name: ConstructionMethod
+  ifdGuid: c602678ad3a942d7b8431dad1b01203f
+  definition: "Designator for whether the concrete element is constructed on site or prefabricated. Allowed values are: 'In-Situ' vs 'Precast'."
+  localizations: []
+- name: StructuralClass
+  ifdGuid: 63ef9cd2079942c0b12aabf632c5483f
+  definition: The structural class defined for the concrete structure (e.g. '1').
+  localizations:
+  - language: ko-KR
+    name: 구조 클래스
+    definition: 구조 클래스는 콘크리트 구조를 정의했다 (예를 들어 "1")
+- name: StrengthClass
+  definition: Classification of the concrete strength in accordance with the concrete design code which is applied in the project.
+  localizations: []
+- name: ExposureClass
+  ifdGuid: b23e6b06b86849608ca26e99435b1667
+  definition: Classification of exposure to environmental conditions, usually specified in accordance with the concrete design code which is applied in the project.
+  localizations: []
+- name: ReinforcementVolumeRatio
+  definition: The required ratio of the effective mass of the reinforcement to the effective volume of the concrete of a reinforced concrete structural element.
+  localizations: []
+- name: ReinforcementAreaRatio
+  definition: The required ratio of the effective area of the reinforcement to the effective area of the concrete At any section of a reinforced concrete structural element.
+  localizations: []
+- name: DimensionalAccuracyClass
+  ifdGuid: 7873a813dff5400a8e1fb2fd4dc69109
+  definition: Classification designation of the dimensional accuracy requirement according to local standards.
+  localizations:
+  - language: ko-KR
+    name: 치수 정밀도 클래스
+    definition: 국가 표준이 요구하는 치수 정밀도의 분류 지정
+- name: ConstructionToleranceClass
+  ifdGuid: 417246dc5ae54cb884e6e55b484cd144
+  definition: Classification designation of the on-site construction tolerances according to local standards.
+  localizations:
+  - language: ko-KR
+    name: 제조 허용 클래스
+    definition: 국가 표준이 요구하는 현장에서 제조 허용 범주 지정
+- name: ConcreteCover
+  definition: The protective concrete cover at the reinforcing bars according to local building regulations.
+  localizations: []
+- name: ConcreteCoverAtMainBars
+  ifdGuid: 18e58fcbcc3c4582805e295be34f6c00
+  definition: The protective concrete cover at the main reinforcing bars according to local building regulations.
+  localizations:
+  - language: ko-KR
+    name: 주근 콘크리트 입고
+    definition: 국가의 건축 기준에 따라 주로 철근을 콘크리트 입고로 보호
+- name: ConcreteCoverAtLinks
+  ifdGuid: 517aa09773cb4fc5bd25ee85ea3d939e
+  definition: The protective concrete cover at the reinforcement links according to local building regulations.
+  localizations:
+  - language: ko-KR
+    name: 보강근 콘크리트 입고
+    definition: 국가의 건축 기준에 따라 보강근 콘크리트의 입고로 보호

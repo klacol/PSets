@@ -1,0 +1,59 @@
+﻿name: Pset_EvaporativeCoolerTypeCommon
+ifcVersion:
+  version: IFC4
+  schema: IfcHvacDomain
+ifdGuid: ''
+definition: 'Evaporative cooler type common attributes.Sound attribute deleted in IFC2x2 Pset Addendum: Use IfcSoundProperties instead. WaterRequirement attribute unit type modified in IFC2x2 Pset Addendum.'
+applicableIfcClasses:
+- name: IfcEvaporativeCoolerType
+  type: IfcEvaporativeCoolerType
+properties:
+- name: Reference
+  definition: Reference ID for this specified type in this project (e.g. type 'A-1').
+  localizations:
+  - language: ja-JP
+    name: 参照記号
+    definition: このプロジェクトにおける参照記号(例：A-1)。分類コードではなく内部で使用されるプロジェクトタイプとして使用されるもの。
+- name: Status
+  definition: 'Status of the element, predominately used in renovation or retrofitting projects. The status can be assigned to as "New" - element designed as new addition, "Existing" - element exists and remains, "Demolish" - element existed but is to be demolished,  "Temporary" - element will exists only temporary (like a temporary support structure). '
+  localizations:
+  - language: ja-JP
+    name: 状態
+    definition: 要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+- name: FlowArrangement
+  ifdGuid: 691be12ca7394805b16497d3b67b9e96
+  definition: 'CounterFlow: Air and water flow enter in different directions.CrossFlow: Air and water flow are perpendicular.ParallelFlow: Air and water flow enter in same directions.'
+  localizations:
+  - language: ja-JP
+    name: 流れ種類
+    definition: カウンタフロー：空気と水の流れが逆方向で入るクロスフロー：空気と「水の流れが垂直平行流：空気と水の流れが同じ方向で入る
+- name: HeatExchangeArea
+  ifdGuid: 2a2106df9f6c48bc8e486f02e274e41b
+  definition: Heat exchange area.
+  localizations:
+  - language: ja-JP
+    name: 熱交換面積
+    definition: 熱交換面積
+- name: OperationTemperatureRange
+  ifdGuid: 2287da45985c4d47a4fa4fcce5329b7d
+  definition: Allowable operation ambient air temperature range.
+  localizations:
+  - language: ja-JP
+    name: 動作温度範囲
+    definition: 許容作動周囲空気温度範囲
+- name: WaterRequirement
+  ifdGuid: 7ed47422b7e3428aa17985b01b8e09c1
+  definition: Make-up water requirement.
+  localizations:
+  - language: ja-JP
+    name: 水要件
+    definition: 水の要件
+- name: EffectivenessTable
+  definition: Total heat transfer effectiveness curve as a function of the primary air flow rate.
+  localizations: []
+- name: AirPressureDropCurve
+  definition: Air pressure drop as function of air flow rate.
+  localizations: []
+- name: WaterPressDropCurve
+  definition: Water pressure drop as function of water flow rate.
+  localizations: []

@@ -1,0 +1,18 @@
+﻿name: Pset_DamperTypeControlDamper
+ifcVersion:
+  version: IFC4
+  schema: IfcHvacDomain
+ifdGuid: ''
+definition: Control damper type attributes.Pset renamed from Pset_DamperTypeControl to Pset_DamperTypeControlDamper in IFC2x2 Pset Addendum.
+applicableIfcClasses:
+- name: IfcDamperType
+  type: IfcDamperType/CONTROLDAMPER
+properties:
+- name: TorqueRange
+  ifdGuid: bcaa13a8c44b429d95704b99976b49c6
+  definition: 'Torque range: minimum operational torque to maximum allowable torque.'
+  localizations: []
+- name: ControlDamperOperation
+  ifdGuid: f03e319f107844b9996e745f7d8dee52
+  definition: The inherent characteristic of the control damper operation.
+  localizations: []

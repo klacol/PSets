@@ -1,0 +1,20 @@
+﻿name: Pset_ProtectiveDeviceTypeVaristor
+ifcVersion:
+  version: IFC4
+  schema: IfcElectricalDomain
+ifdGuid: ''
+definition: A high voltage surge protection device.
+applicableIfcClasses:
+- name: IfcProtectiveDeviceType
+  type: IfcProtectiveDeviceType/VARISTOR
+properties:
+- name: VaristorType
+  ifdGuid: b35ea467320d4411bcfee73431239d77
+  definition: A list of the available types of varistor  from which that required may be selected.
+  localizations:
+  - language: ja-JP
+    name: 保護タイプ
+    definition: 選択が必要となる、バリスターの一覧リスト。
+  - language: ko-KR
+    name: 보호 종류
+    definition: 선택된 varistor(소자)의 유용한 유형목록

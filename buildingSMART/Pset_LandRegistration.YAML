@@ -1,0 +1,51 @@
+﻿name: Pset_LandRegistration
+ifcVersion:
+  version: IFC4
+  schema: IfcProductExtension
+ifdGuid: ''
+definition: 'Specifies the identity of land within a statutory registration system. NOTE: The property LandTitleID is to be used in preference to deprecated attribute LandTitleNumber in IfcSite.'
+applicableIfcClasses:
+- name: IfcSite
+  type: IfcSite
+- name: IfcAnnotation
+  type: IfcSite
+properties:
+- name: LandID
+  ifdGuid: efda3aa648f04155906787867b2b6e43
+  definition: Identification number assigned by the statutory registration authority to a land parcel.
+  localizations:
+  - language: fr-FR
+    name: Identifiant parcelle
+    definition: 'Identifiant numérique de la parcelle attribué par une autorité [NDT : exemple : DGI]'
+  - language: ja-JP
+    name: 敷地ID
+    definition: 登記における識別番号。
+  - language: ko-KR
+    name: 부지 ID
+    definition: 등기의 ID입니다.
+- name: IsPermanentID
+  ifdGuid: a1e38a8876054b29b6dd0523c319276e
+  definition: Indicates whether the identity assigned to a land parcel is permanent (= TRUE) or temporary (=FALSE).
+  localizations:
+  - language: fr-FR
+    name: Identifiant permanent
+    definition: Indique si l'identifiant est permanent (VRAI) ou non (FAUX)
+  - language: ja-JP
+    name: 恒久ID区分
+    definition: 敷地IDが恒久的なものかどうかを示すブーリアン値。
+  - language: ko-KR
+    name: 영구 ID 구분
+    definition: 부지 ID가 영구적인 것인지 여부를 나타내는  값입니다.
+- name: LandTitleID
+  ifdGuid: 7cd3f251269b415db852bba2b101a1f8
+  definition: Identification number assigned by the statutory registration authority to the title to a land parcel.
+  localizations:
+  - language: fr-FR
+    name: Identifiant titre parcelle
+    definition: Identifiant numérique du titre de la parcelle attribué par une autorité.
+  - language: ja-JP
+    name: 敷地番号ID
+    definition: 登記所による識別番号。
+  - language: ko-KR
+    name: 부지 번호 ID
+    definition: 등기소의 ID입니다.

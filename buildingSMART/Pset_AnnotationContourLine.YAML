@@ -1,0 +1,23 @@
+﻿name: Pset_AnnotationContourLine
+ifcVersion:
+  version: IFC4
+  schema: IfcProductExtension
+ifdGuid: ''
+definition: Specifies parameters of a standard curve that has a single, consistent measure value.
+applicableIfcClasses:
+- name: IfcAnnotation
+  type: IfcAnnotation/ContourLine
+properties:
+- name: ContourValue
+  ifdGuid: 40766086e016447cb1ddfd12ee12ba8b
+  definition: Value of the elevation of the contour above or below a reference plane.
+  localizations:
+  - language: fr-FR
+    name: ValeurContour
+    definition: Valeur de l'élévation du contour au dessus ou au dessous d'un plan de référence.
+  - language: ja-JP
+    name: 等高線値
+    definition: 参照平面に対する等高線の高さ値。
+  - language: ko-KR
+    name: 등고선 값
+    definition: 참조 평면에 대한 등고선의 높이 값.

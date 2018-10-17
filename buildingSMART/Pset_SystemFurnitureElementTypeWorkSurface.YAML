@@ -1,0 +1,30 @@
+﻿name: Pset_SystemFurnitureElementTypeWorkSurface
+ifcVersion:
+  version: IFC4
+  schema: IfcSharedFacilitiesElements
+ifdGuid: ''
+definition: 'A set of specific properties for work surfaces used in workstations. HISTORY: First issued in IFC Release R1.5. Renamed from Pset_Worksurface'
+applicableIfcClasses:
+- name: IfcSystemFurnitureElementType
+  type: IfcSystemFurnitureElementType/WORKSURFACE
+properties:
+- name: UsePurpose
+  ifdGuid: 6bed612ab42a4bff8f9e36a872652f47
+  definition: The principal purpose for which the work surface is intended to be used e.g. writing/reading, computer, meeting, printer, reference files, etc.
+  localizations: []
+- name: SupportType
+  ifdGuid: 9378996079c140fdbbdfc002d3fb454e
+  definition: Available support types from which that required may be selected.
+  localizations: []
+- name: HangingHeight
+  ifdGuid: 575814e2e2ba4e0f8a0b1ba20505159f
+  definition: The hanging height of the worksurface.
+  localizations: []
+- name: NominalThickness
+  ifdGuid: 85665c86114e42e5831cb76d09e32d0a
+  definition: The nominal thickness of the work surface.
+  localizations: []
+- name: ShapeDescription
+  ifdGuid: ffefe112b4f44296a08382c99836c59d
+  definition: A description of the shape of the work surface e.g. corner square, rectangle, etc.
+  localizations: []

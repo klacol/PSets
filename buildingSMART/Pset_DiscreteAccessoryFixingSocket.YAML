@@ -1,0 +1,52 @@
+﻿name: Pset_DiscreteAccessoryFixingSocket
+ifcVersion:
+  version: IFC4
+  schema: IfcSharedComponentElements
+ifdGuid: ''
+definition: Properties common to fixing sockets.
+applicableIfcClasses:
+- name: IfcDiscreteAccessory
+  type: IfcDiscreteAccessory/Fixing socket
+- name: IfcDiscreteAccessoryType
+  type: IfcDiscreteAccessory/Fixing socket
+properties:
+- name: FixingSocketTypeReference
+  ifdGuid: 5449a6972b384e219a8fa417fb686154
+  definition: 'Type reference for the fixing socket according to local standards.  '
+  localizations:
+  - language: ja-JP
+    name: 参照基準
+    definition: 固定ソケットが参照するローカル標準。
+  - language: ko-KR
+    name: 참조 기준
+    definition: 고정 소켓이 참조하는 로컬 표준
+- name: FixingSocketHeight
+  ifdGuid: 5b049730b4fd40569ee92fad5088bc8e
+  definition: The overall height of the fixing socket.
+  localizations:
+  - language: ja-JP
+    name: 全体長さ
+    definition: 固定ソケットの全体長さ。
+  - language: ko-KR
+    name: 전체 길이
+    definition: 고정 소켓의 전체 길이
+- name: FixingSocketThreadDiameter
+  ifdGuid: a9c2c94aacf042f8b164d3bcb854f4d8
+  definition: The nominal diameter of the thread.
+  localizations:
+  - language: ja-JP
+    name: 公称径
+    definition: 線の公称直径。
+  - language: ko-KR
+    name: 공칭 지름
+    definition: 고정 소켓의 전체 길이
+- name: FixingSocketThreadLength
+  ifdGuid: e6969928d5fb4a1f937f54afe78a8413
+  definition: The length of the threaded part of the fixing socket.
+  localizations:
+  - language: ja-JP
+    name: ねじ部長さ
+    definition: 固定ソケットの全体長さねじ部の長さ。
+  - language: ko-KR
+    name: 나사부 길이
+    definition: 고정 소켓의 전체 길이 나사부의 길이

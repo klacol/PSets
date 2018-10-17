@@ -1,0 +1,59 @@
+﻿name: Pset_SanitaryTerminalTypeSanitaryFountain
+ifcVersion:
+  version: IFC4
+  schema: IfcPlumbingFireProtectionDomain
+ifdGuid: ''
+definition: 'Asanitary terminal that provides a low pressure jet of water for a specific purpose (IAI). HISTORY: In IFC4, Material property removed. Use materials capabilities from IfcMaterialsResource schema. Datatype of color changed to IfcLabel (still a string value). '
+applicableIfcClasses:
+- name: IfcSanitaryTerminalType
+  type: IfcSanitaryTerminalType/SANITARYFOUNTAIN
+properties:
+- name: FountainType
+  ifdGuid: aa50dedc77ea4f4aaf895f013eda8e0f
+  definition: 'Selection of the type of fountain from the enumerated list of types where:-DrinkingWater: 	Sanitary appliance that provides a low pressure jet of drinking water.Eyewash: 	Waste water appliance, usually installed in work places where there is a risk of injury to eyes by solid particles or dangerous liquids, with which the user can wash the eyes without touching them.'
+  localizations:
+  - language: ja-JP
+    name: 噴水タイプ
+    definition: 噴水タイプの選択：・飲用水：飲用水を低圧で供給するための衛生器具・洗眼器：廃水器具で、通常は個体の粒子か危険な液体による眼への障害の危険がある作業場所に設置され、使用者はそれらに触れずに目を洗うことができる。
+- name: Mounting
+  ifdGuid: a37b4c2a05b045e28fe8d126ccdd3f80
+  definition: 'Selection of the form of mounting of the fountain from the enumerated list of mountings where:-BackToWall: 	A pedestal mounted sanitary terminal that fits flush to the wall at the rear to cover its service connections.Pedestal: 	A floor mounted sanitary terminal that has an integral base.CounterTop: 	A sanitary terminal that is installed into a horizontal surface that is installed into a horizontal surface. Note: When applied to a wash hand basin, the term more normally used is ‘vanity’. See also Wash Hand Basin Type specification.WallHung: 	A sanitary terminal cantilevered clear of the floor.'
+  localizations:
+  - language: ja-JP
+    name: 設置
+    definition: 設置場所の選択：・床置き壁排出：接続口の後部に出水口を合わせること。・台：床置きの衛生器具には基礎があること。・調理台：衛生器具の表層が水平に設置されていること。※手洗い台として設置された場合「化粧台」として扱うこと。また、洗面台種類の規格表を参照のこと。・壁掛け型：衛生器具は片側固定がされ床から離れていること。
+- name: NominalLength
+  ifdGuid: ab845cd29b604e99a01113b8c735d151
+  definition: 'Nominal or quoted length of the object. '
+  localizations:
+  - language: ja-JP
+    name: 長さ
+    definition: 要素の長さ。
+- name: NominalWidth
+  ifdGuid: 092062a35eee4452af07ce644ec0ebd4
+  definition: 'Nominal or quoted width of the object. '
+  localizations:
+  - language: ja-JP
+    name: 幅
+    definition: 要素の幅。
+- name: NominalDepth
+  ifdGuid: dc1532afa33440cbacba000b9b5bdd4e
+  definition: 'Nominal or quoted depth of the object. '
+  localizations:
+  - language: ja-JP
+    name: 深さ
+    definition: 要素の深さ。
+- name: Color
+  ifdGuid: af1dd953f1cd419f898b61070b5c5af1
+  definition: Color selection for this object.
+  localizations:
+  - language: ja-JP
+    name: 色
+    definition: 要素の色。
+- name: DrainSize
+  ifdGuid: 3f6e3134f0304436b39559f0a8fa9c13
+  definition: The size of the drain outlet connection from the object.
+  localizations:
+  - language: ja-JP
+    name: 下水管サイズ
+    definition: 要素から排水溝への下水管サイズ。

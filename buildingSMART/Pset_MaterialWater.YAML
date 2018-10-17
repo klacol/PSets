@@ -1,0 +1,31 @@
+﻿name: Pset_MaterialWater
+ifcVersion:
+  version: IFC4
+  schema: IfcMaterialResource
+ifdGuid: ''
+definition: A set of extended material properties for of water typically used within the context of building services and flow distribution systems.
+applicableIfcClasses:
+- name: IfcMaterial
+  type: IfcMaterial
+properties:
+- name: IsPotable
+  definition: If TRUE, then the water is considered potable.
+  localizations: []
+- name: Hardness
+  definition: Water hardness as positive, multivalent ion concentration in the water (usually concentrations of calcium and magnesium ions in terms of calcium carbonate).
+  localizations: []
+- name: AlkalinityConcentration
+  definition: Maximum alkalinity concentration (maximum sum of concentrations of each of the negative ions substances measured as CaCO3).
+  localizations: []
+- name: AcidityConcentration
+  definition: Maximum CaCO3 equivalent that would neutralize the acid.
+  localizations: []
+- name: ImpuritiesContent
+  definition: Fraction of impurities such as dust to the total amount of water. This is measured in weight of impurities per weight of water and is therefore unitless.
+  localizations: []
+- name: DissolvedSolidsContent
+  definition: Fraction of the dissolved solids to the total amount of water. This is measured in weight of dissolved solids per weight of water and is therefore unitless.
+  localizations: []
+- name: PHLevel
+  definition: Maximum water PH in a range from 0-14.
+  localizations: []

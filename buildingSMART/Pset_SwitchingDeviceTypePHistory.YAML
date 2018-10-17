@@ -1,0 +1,13 @@
+﻿name: Pset_SwitchingDeviceTypePHistory
+ifcVersion:
+  version: IFC4
+  schema: IfcElectricalDomain
+ifdGuid: ''
+definition: Indicates switch positions or levels over time, such as for energy management or surveillance.
+applicableIfcClasses:
+- name: IfcSwitchingDeviceType
+  type: IfcSwitchingDeviceType
+properties:
+- name: SetPoint
+  definition: Indicates the switch position over time according to Pset_SwitchingDeviceTypeCommon.SetPoint.
+  localizations: []

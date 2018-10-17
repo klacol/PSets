@@ -1,0 +1,13 @@
+﻿name: Pset_FlowMeterOccurrence
+ifcVersion:
+  version: IFC4
+  schema: IfcHvacDomain
+ifdGuid: ''
+definition: Flow meter occurrence common attributes.
+applicableIfcClasses:
+- name: IfcFlowMeter
+  type: IfcFlowMeter
+properties:
+- name: Purpose
+  definition: Enumeration defining the purpose of the flow meter occurrence.
+  localizations: []

@@ -1,0 +1,28 @@
+﻿name: Pset_DuctFittingOccurrence
+ifcVersion:
+  version: IFC4
+  schema: IfcHvacDomain
+ifdGuid: ''
+definition: Duct fitting occurrence attributes.
+applicableIfcClasses:
+- name: IfcDuctFitting
+  type: IfcDuctFitting
+properties:
+- name: InteriorRoughnessCoefficient
+  definition: The interior roughness of the duct fitting material.
+  localizations:
+  - language: ja-JP
+    name: 内面粗さ係数
+    definition: ダクト継手材料の内面粗さ
+- name: HasLiner
+  definition: TRUE if the fitting has interior duct insulating lining, FALSE if it does not.
+  localizations:
+  - language: ja-JP
+    name: 内張り有無
+    definition: 内貼り保温ダクト内面にあるときにTRUE。無い時にFALSE
+- name: Color
+  definition: 'The color of the duct segment.Note: This is typically used for any duct segments with a painted surface which is not otherwise specified as a covering.'
+  localizations:
+  - language: ja-JP
+    name: 色
+    definition: ダクト継手の色メモ：塗装されているときに使用される。他の場合は仕上げとして定義

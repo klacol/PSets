@@ -1,0 +1,122 @@
+﻿name: Pset_DamperTypeCommon
+ifcVersion:
+  version: IFC4
+  schema: IfcHvacDomain
+ifdGuid: ''
+definition: Damper type common attributes.
+applicableIfcClasses:
+- name: IfcDamperType
+  type: IfcDamperType
+properties:
+- name: Reference
+  definition: "Reference ID for this specified type in this project (e.g. type 'A-1'), provided, if there is no classification reference to a recognized classification system used. "
+  localizations:
+  - language: ja-JP
+    name: 参照記号
+    definition: このプロジェクトにおける参照記号(例：A-1)。分類コードではなく内部で使用されるプロジェクトタイプとして使用されるもの。
+- name: Status
+  definition: 'Status of the element, predominately used in renovation or retrofitting projects. The status can be assigned to as "New" - element designed as new addition, "Existing" - element exists and remains, "Demolish" - element existed but is to be demolished,  "Temporary" - element will exists only temporary (like a temporary support structure). '
+  localizations:
+  - language: ja-JP
+    name: 状態
+    definition: 要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+- name: Operation
+  ifdGuid: 3fe1019e52824328928aae69d5e03666
+  definition: The operational mechanism for the damper operation.
+  localizations: []
+- name: Orientation
+  ifdGuid: 685a30ca8d5a43a4b301cb217d55dbbb
+  definition: The intended orientation for the damper as specified by the manufacturer.
+  localizations: []
+- name: BladeMaterial
+  ifdGuid: 621bd7d017db43c9b6384fa0278c497e
+  definition: The material from which the damper blades are constructed.
+  localizations: []
+- name: BladeThickness
+  ifdGuid: 9c39601c89dc4887bfc939fb629fc1db
+  definition: The thickness of the damper blade.
+  localizations: []
+- name: SealMaterial
+  ifdGuid: 51c701f2f5cb4300ac4e94cb41ee60a7
+  definition: The material from which the damper seals are constructed.
+  localizations: []
+- name: BladeAction
+  ifdGuid: c11a80b8a93a43ab97797b15f976668a
+  definition: Blade action.
+  localizations: []
+- name: BladeShape
+  ifdGuid: c00d5d5053ec4db8aeee184db5250ed8
+  definition: Blade shape. Flat means triple V-groove.
+  localizations: []
+- name: BladeEdge
+  ifdGuid: 98960adf83ad484a9553eca2f014cd0f
+  definition: Blade edge.
+  localizations: []
+- name: NumberofBlades
+  ifdGuid: 9399416bed054b819a137f84894934fd
+  definition: Number of blades.
+  localizations: []
+- name: FaceArea
+  ifdGuid: 9fa477b4b9b847c9b69b8c3818c52121
+  definition: Face area open to the airstream.
+  localizations: []
+- name: MaximumAirFlowRate
+  ifdGuid: 13fbb3dfdb9b48bc9728be0f295d4106
+  definition: Maximum allowable air flow rate.
+  localizations: []
+- name: TemperatureRange
+  ifdGuid: c0274bb3216e4650ad82cb219d4ab963
+  definition: Temperature range.
+  localizations: []
+- name: MaximumWorkingPressure
+  ifdGuid: 9fcd90ea0cd64ccfa1848eba3470f578
+  definition: Maximum working pressure.
+  localizations: []
+- name: TemperatureRating
+  ifdGuid: 8cf408abab7f41d7b5dff7136f14ed38
+  definition: Temperature rating.
+  localizations: []
+- name: NominalAirFlowRate
+  ifdGuid: 3060cf5e462d42c6975e57b4ed99e671
+  definition: Nominal air flow rate.
+  localizations: []
+- name: OpenPressureDrop
+  ifdGuid: 0f545db607bf46bc95acc68d1be1e9fb
+  definition: Total pressure drop across damper.
+  localizations: []
+- name: LeakageFullyClosed
+  ifdGuid: a6545ea11a144189927b0032019efc50
+  definition: Leakage when fully closed.
+  localizations: []
+- name: LossCoefficentCurve
+  ifdGuid: 239c7405a5904162b5324690c239a624
+  definition: Loss coefficient – blade position angle curve; ratio of pressure drop to velocity pressure versus blade angle; C = f (blade angle position).
+  localizations: []
+- name: LeakageCurve
+  ifdGuid: bc659fbbdc53418582653119239b9c66
+  definition: Leakage versus pressure drop; Leakage = f (pressure).
+  localizations: []
+- name: RegeneratedSoundCurve
+  ifdGuid: 5657dd7dc6744091923f3f9d09e748cb
+  definition: Regenerated sound versus air flow rate.
+  localizations: []
+- name: FrameType
+  ifdGuid: b4d871f10e9840a0860bd517c215a9c6
+  definition: The type of frame used by the damper (e.g., Standard, Single Flange, Single Reversed Flange, Double Flange, etc.).
+  localizations: []
+- name: FrameDepth
+  ifdGuid: 984038a73e79473cad269adfe77d1f7a
+  definition: The length (or depth) of the damper frame.
+  localizations: []
+- name: FrameMaterial
+  ifdGuid: e00d54fbc5db4b74aa4d3f899947509d
+  definition: The material from which the damper frame is constructed.
+  localizations: []
+- name: FrameThickness
+  ifdGuid: 2f8ebc1a8a9c41f3a21003d8dca1bcd5
+  definition: The thickness of the damper frame material.
+  localizations: []
+- name: CloseOffRating
+  ifdGuid: bfea80e0bf9f44a48c155386be6777e1
+  definition: 'Close off rating. '
+  localizations: []

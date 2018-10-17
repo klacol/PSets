@@ -1,0 +1,16 @@
+﻿name: Pset_ElectricDistributionBoardOccurrence
+ifcVersion:
+  version: IFC4
+  schema: IfcElectricalDomain
+ifdGuid: ''
+definition: Properties that may be applied to electric distribution board occurrences.
+applicableIfcClasses:
+- name: IfcElectricDistributionBoard
+  type: IfcElectricDistributionBoard
+properties:
+- name: IsMain
+  definition: Identifies if the current instance is a main distribution point or topmost level in an electrical distribution hierarchy (= TRUE) or a sub-main distribution point (= FALSE).
+  localizations: []
+- name: IsSkilledOperator
+  definition: Identifies if the current instance requires a skilled person or instructed person to perform operations on the distribution board (= TRUE) or whether operations may be performed by a person without appropriate skills or instruction (= FALSE).
+  localizations: []

@@ -1,0 +1,66 @@
+﻿name: Pset_ReinforcementBarPitchOfColumn
+ifcVersion:
+  version: IFC4
+  schema: IfcStructuralElementsDomain
+ifdGuid: ''
+definition: The pitch length information of reinforcement  bar with the column. The X and Y direction are based on the local coordinate system of building storey. The X and Y direction of the reinforcement bar are parallel to the X and Y axis of the IfcBuildingStorey's local coordinate system, respectively.
+applicableIfcClasses:
+- name: IfcColumn
+  type: IfcColumnType
+properties:
+- name: Description
+  ifdGuid: 35d092cbf787484fb5e5795963daf971
+  definition: Description of the reinforcement.
+  localizations:
+  - language: ja-JP
+    name: 説明
+    definition: 鉄筋の説明。
+- name: Reference
+  ifdGuid: a1a408e631cd4227aabcf77df702adc7
+  definition: A descriptive label for the general reinforcement type.
+  localizations:
+  - language: ja-JP
+    name: 参照記号
+    definition: 一般的な鉄筋タイプの説明ラベル。（例えば、柱の柱頭・柱脚で帯筋や巾止筋の間隔・本数が異なる場合に、"Top","Bottom"を記述する）
+- name: ReinforcementBarType
+  ifdGuid: b62c7d6818db4e489c67fe93cf702ad5
+  definition: Defines the type of the reinforcement bar.
+  localizations:
+  - language: ja-JP
+    name: 補強筋タイプ
+    definition: 補強筋タイプの定義。
+- name: HoopBarPitch
+  ifdGuid: c778cac8f6b743abb9b094dcba0d3824
+  definition: The pitch length of the hoop bar.
+  localizations:
+  - language: ja-JP
+    name: 帯筋間隔
+    definition: 帯筋の間隔。
+- name: XDirectionTieHoopBarPitch
+  ifdGuid: bd0cd505b9fc4eb4a701268539ace200
+  definition: The X direction pitch length of the tie hoop.
+  localizations:
+  - language: ja-JP
+    name: Ｘ方向巾止め筋間隔
+    definition: Ｘ方向巾止筋の間隔。
+- name: XDirectionTieHoopCount
+  ifdGuid: 7e50feaf303a4f57b92ef6fcb5d241d2
+  definition: The number of bars with X direction tie hoop bars.
+  localizations:
+  - language: ja-JP
+    name: Ｘ方向巾止め筋本数
+    definition: Ｘ方向巾止筋の本数。
+- name: YDirectionTieHoopBarPitch
+  ifdGuid: af1e2453fecc48e7a540a63bd7874e6c
+  definition: The Y direction pitch length of the tie hoop.
+  localizations:
+  - language: ja-JP
+    name: Y方向巾止め筋間隔
+    definition: Y方向巾止筋の間隔。
+- name: YDirectionTieHoopCount
+  ifdGuid: c7abea4ee1f14d9b841d83527287e306
+  definition: The number of bars with Y direction tie hoop bars.
+  localizations:
+  - language: ja-JP
+    name: Y方向巾止め筋本数
+    definition: Y方向巾止筋の本数。

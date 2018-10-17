@@ -1,0 +1,22 @@
+﻿name: Pset_PipeSegmentTypeCulvert
+ifcVersion:
+  version: IFC4
+  schema: IfcHvacDomain
+ifdGuid: ''
+definition: Covered channel or large pipe that forms a watercourse below ground level, usually under a road or railway (BS6100).
+applicableIfcClasses:
+- name: IfcPipeSegmentType
+  type: IfcPipeSegmentType/CULVERT
+properties:
+- name: InternalWidth
+  definition: The internal width of the culvert.
+  localizations:
+  - language: ja-JP
+    name: 内幅
+    definition: 暗渠管の内幅
+- name: ClearDepth
+  definition: The clear depth of the culvert.
+  localizations:
+  - language: ja-JP
+    name: 許容深さ
+    definition: 暗渠管の許容(安全)深さ

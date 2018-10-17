@@ -1,0 +1,80 @@
+﻿name: Pset_ProtectiveDeviceBreakerUnitTypeMCB
+ifcVersion:
+  version: IFC4
+  schema: IfcElectricalDomain
+ifdGuid: ''
+definition: A coherent set of attributes representing the breaking capacities of an MCB. Note - A protective device may be associated with different instances of this property set providing information related to different  basic characteristics.
+applicableIfcClasses:
+- name: IfcProtectiveDeviceType
+  type: IfcProtectiveDeviceType/CIRCUITBREAKER
+properties:
+- name: PowerLoss
+  ifdGuid: dc760833cc734c4493198043eb8e22d0
+  definition: The power loss in [W] per pole of the MCB  when the nominal current is flowing through the MCB.
+  localizations:
+  - language: ja-JP
+    name: 電力損失
+    definition: 定格電流がMCBに流れている時のMCBの極当たりの電力損失[W]。
+  - language: ko-KR
+    name: 전력 손실
+    definition: 정격 전류가 MCB 흐르고있을 때의 MCB 극 당 전력 손실 [W].
+- name: VoltageLevel
+  ifdGuid: 845fb01af3254ab7822a1e2cb849ebac
+  definition: The voltage levels for which the data of the instance is valid. More than one value may be selected in the enumeration.
+  localizations:
+  - language: ja-JP
+    name: 電圧レベル
+    definition: 電圧レベルを選択。
+  - language: ko-KR
+    name: 전압 레벨
+    definition: 전압레벨을 선택합니다.
+- name: NominalCurrents
+  ifdGuid: d1c413826a3340fe84e81f445db8e32b
+  definition: 'A set of nominal currents in [A] for which the data of this instance is valid. At least one value shall be provided. Any value in the set shall not exceed the value of the UltimateRatedCurrent associated with the same breaker unit. '
+  localizations:
+  - language: ja-JP
+    name: 定格電流
+    definition: 定格電流[A]を少なくても1つ値をセットしなければならない。 セット内の任意の値の値を超えてはならない。 定格電流は、同じブレーカ部に関連付けられている。
+  - language: ko-KR
+    name: 정격 전류
+    definition: 정격 전류 [A]를 적어도 2 개의 값을 설정해야한다.   동일한 차단기부와 연결된 정격전류는세트 내의 임의의 값은 초과할 수 없다.
+- name: ICU60947
+  ifdGuid: b7caa7e62c02466da60c04a2566b642e
+  definition: The ultimate breaking capacity in [A] for an MCB tested in accordance with the IEC 60947 series.
+  localizations:
+  - language: ja-JP
+    name: 定格限界短絡遮断容量
+    definition: IECの60947シリーズに基づいてテストされたMCBの定格限界短絡遮断容量を[A]で設定。
+  - language: ko-KR
+    name: 정격 한계 단락 차단 용량
+    definition: IEC의 60948 시리즈를 기반으로 시험한 MCB의 정격 한계 단락 차단 용량 [A]로 설정.
+- name: ICS60947
+  ifdGuid: 0d271c351b604e729a83885f0bdaf978
+  definition: The service breaking capacity in [A] for an MCB tested in accordance with the IEC 60947 series.
+  localizations:
+  - language: ja-JP
+    name: 定格使用短絡遮断容量
+    definition: IECの60947シリーズに基づいてテストされたMCBの定格使用短絡遮断容量を[A]で設定。
+  - language: ko-KR
+    name: 정격 사용 단락 차단 용량
+    definition: IEC의 60947 시리즈를 기반으로 시험한 MCB의 정격 사용 단락 차단 용량 [A]로 설정.
+- name: ICN60898
+  ifdGuid: b6a98892cede4070ba22d85de4a11854
+  definition: The nominal breaking capacity in [A] for an MCB tested in accordance with the IEC 60898 series.
+  localizations:
+  - language: ja-JP
+    name: ICN60898
+    definition: IECの60898シリーズに基づいてテストされたMCBの定格遮断容量を[A]で設定。
+  - language: ko-KR
+    name: ICN60898
+    definition: IEC의 60898 시리즈를 기반으로 시험한 MCB의 정격 차단 용량 [A]로 설정.
+- name: ICS60898
+  ifdGuid: 5c7153cbbcff4727b3ae208bc817e67c
+  definition: The service breaking capacity in [A] for an MCB tested in accordance with the IEC 60898 series.
+  localizations:
+  - language: ja-JP
+    name: ICS60898
+    definition: IECの60898シリーズに基づいてテストされたMCBの遮断使用容量を[A]で設定。
+  - language: ko-KR
+    name: ICS60898
+    definition: IEC의 60898 시리즈를 기반으로 시험한 MCB 차단 사용 용량 [A]로 설정.

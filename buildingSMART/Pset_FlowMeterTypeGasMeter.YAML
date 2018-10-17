@@ -1,0 +1,26 @@
+﻿name: Pset_FlowMeterTypeGasMeter
+ifcVersion:
+  version: IFC4
+  schema: IfcHvacDomain
+ifdGuid: ''
+definition: Device that measures, indicates and sometimes records, the volume of gas that passes through it without interrupting the flow.
+applicableIfcClasses:
+- name: IfcFlowMeterType
+  type: IfcFlowMeterType/GASMETER
+properties:
+- name: GasType
+  ifdGuid: 12f16168ac5f452784e6fdac0599127f
+  definition: Defines the types of gas that may be specified.
+  localizations: []
+- name: ConnectionSize
+  ifdGuid: 79c0ecef8daf4b9e9a9ad911afd95735
+  definition: Defines the size of inlet and outlet pipe connections to the meter.
+  localizations: []
+- name: MaximumFlowRate
+  ifdGuid: b8d6a2bc6539496784c6fbee92e6a02a
+  definition: Maximum rate of flow which the meter is expected to pass.
+  localizations: []
+- name: MaximumPressureLoss
+  ifdGuid: 97af99df883743e48c6d86377457074a
+  definition: Pressure loss expected across the meter under conditions of maximum flow.
+  localizations: []

@@ -1,0 +1,38 @@
+﻿name: Pset_CoveringFlooring
+ifcVersion:
+  version: IFC4
+  schema: IfcSharedBldgElements
+ifdGuid: ''
+definition: Properties common to the definition of all occurrence and type objects of covering with the predefined type set to FLOORING.
+applicableIfcClasses:
+- name: IfcCovering
+  type: IfcCoveringType/FLOORING,
+- name: IfcCoveringType
+  type: IfcCoveringType/FLOORING,
+properties:
+- name: HasNonSkidSurface
+  ifdGuid: e61163f7f2064b81a764fe13ee96a9ca
+  definition: Indication whether the surface finish is designed to prevent slippery (TRUE) or not (FALSE).
+  localizations:
+  - language: de-DE
+    name: Nichtrutschende Oberfläche
+    definition: Angabe, ob der Bodenbelag eine nichtrutschende Oberfläche hat (JA), oder nicht (NEIN).
+  - language: fr-FR
+    name: Anti dérapant
+    definition: Indique si la finition est conçue pour être anti dérapante (VRAI) ou non (FAUX).
+  - language: zh-CN
+    name: 表面是否防滑
+    definition: 表示表面处理是否设计为防滑的。
+- name: HasAntiStaticSurface
+  ifdGuid: 0194a9148f7f4419bcf3d9b9d7dacfad
+  definition: Indication whether the surface finish is designed to prevent electrostatic charge (TRUE) or not (FALSE).
+  localizations:
+  - language: de-DE
+    name: Antistatische Oberfläche
+    definition: Angabe, ob der Bodenbelag eine antistatische Oberfläche hat (JA), oder nicht (NEIN).
+  - language: fr-FR
+    name: Anti statique
+    definition: Indique si la finition est conçue pour être anti statique (VRAI) ou non (FAUX).
+  - language: zh-CN
+    name: 表面是否防静电
+    definition: 表示表面处理是否设计为防静电的。

@@ -1,0 +1,74 @@
+﻿name: Pset_CoolingTowerTypeCommon
+ifcVersion:
+  version: IFC4
+  schema: IfcHvacDomain
+ifdGuid: ''
+definition: Cooling tower type common attributes.WaterRequirement attribute unit type modified in IFC2x2 Pset Addendum.
+applicableIfcClasses:
+- name: IfcCoolingTowerType
+  type: IfcCoolingTowerType
+properties:
+- name: Reference
+  definition: "Reference ID for this specified type in this project (e.g. type 'A-1'), provided, if there is no classification reference to a recognized classification system used. "
+  localizations:
+  - language: ja-JP
+    name: 参照記号
+    definition: このプロジェクトにおける参照記号(例：A-1)。分類コードではなく内部で使用されるプロジェクトタイプとして使用されるもの。
+- name: Status
+  definition: 'Status of the element, predominately used in renovation or retrofitting projects. The status can be assigned to as "New" - element designed as new addition, "Existing" - element exists and remains, "Demolish" - element existed but is to be demolished,  "Temporary" - element will exists only temporary (like a temporary support structure). '
+  localizations:
+  - language: ja-JP
+    name: 状態
+    definition: 要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+- name: NominalCapacity
+  ifdGuid: 95b505e45cde4dd2975c0c39e061d864
+  definition: Nominal cooling tower capacity in terms of heat transfer rate of the cooling tower between air stream and water stream at nominal conditions.
+  localizations: []
+- name: CircuitType
+  ifdGuid: 7e361fedf4b14a16b0aaebb100ae65ab
+  definition: 'OpenCircuit: Exposes water directly to the cooling atmosphere.CloseCircuit: The fluid is separated from the atmosphere by a heat exchanger.Wet: The air stream or the heat exchange surface is evaporatively cooled.Dry: No evaporation into the air stream.DryWet: A combination of a dry tower and a wet tower.'
+  localizations: []
+- name: FlowArrangement
+  ifdGuid: e92c2164d28f47fbb37d54cb80e42c4c
+  definition: 'CounterFlow: Air and water flow enter in different directions.CrossFlow: Air and water flow are perpendicular.ParallelFlow: air and water flow enter in same directions.'
+  localizations: []
+- name: SprayType
+  ifdGuid: 31202a3d11b24ca09fbe522d92db1003
+  definition: 'SprayFilled: Water is sprayed into airflow.SplashTypeFill: water cascades over successive rows of splash bars.FilmTypeFill: water flows in a thin layer over closely spaced sheets.'
+  localizations: []
+- name: CapacityControl
+  ifdGuid: e1b429623ed9406c9f5497745fe9e18a
+  definition: 'FanCycling: Fan is cycled on and off to control duty.TwoSpeedFan: Fan is switched between low and high speed to control duty.VariableSpeedFan: Fan speed is varied to control duty.DampersControl: Dampers modulate the air flow to control duty.BypassValveControl: Bypass valve modulates the water flow to control duty.MultipleSeriesPumps: Turn on/off multiple series pump to control duty.TwoSpeedPump: Switch between high/low pump speed to control duty.VariableSpeedPump: vary pump speed to control duty.'
+  localizations: []
+- name: ControlStrategy
+  ifdGuid: d6a6ac4588644242b0b9ac9a14eded86
+  definition: 'FixedExitingWaterTemp: The capacity is controlled to maintain a fixed exiting water temperature.WetBulbTempReset: The set-point is reset based on the wet-bulb temperature.'
+  localizations: []
+- name: NumberOfCells
+  ifdGuid: 57a1521d1e9141d7b2cc6c855c07ab0e
+  definition: Number of cells in one cooling tower unit.
+  localizations: []
+- name: BasinReserveVolume
+  ifdGuid: 0cdf55b1a56a4b5f8f1757b2364145f0
+  definition: Volume between operating and overflow levels in cooling tower basin.
+  localizations: []
+- name: LiftElevationDifference
+  ifdGuid: da9e6b0b386a45888291d4be6b3a5acc
+  definition: Elevation difference between cooling tower sump and the top of the tower.
+  localizations: []
+- name: WaterRequirement
+  ifdGuid: e87a74958d364bdcb761808ac2f6ecc5
+  definition: Make-up water requirements.
+  localizations: []
+- name: OperationTemperatureRange
+  ifdGuid: 57e474699a69455391d49dcaf3f6a1e2
+  definition: Allowable operation ambient air temperature range.
+  localizations: []
+- name: AmbientDesignDryBulbTemperature
+  ifdGuid: fc7d2f7078a142baa52382ab24583448
+  definition: 'Ambient design dry bulb temperature used for selecting the cooling tower. '
+  localizations: []
+- name: AmbientDesignWetBulbTemperature
+  ifdGuid: c9c7a2ea6f494279a483e2dd3fdd0060
+  definition: 'Ambient design wet bulb temperature used for selecting the cooling tower. '
+  localizations: []

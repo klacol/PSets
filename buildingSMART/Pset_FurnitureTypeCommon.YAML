@@ -1,0 +1,38 @@
+﻿name: Pset_FurnitureTypeCommon
+ifcVersion:
+  version: IFC4
+  schema: IfcSharedFacilitiesElements
+ifdGuid: ''
+definition: "Common properties for all types of furniture such as chair, desk, table, and file cabinet. HISTORY: First issued in IFC Release R1.5. Renamed from Pset_FurnitureCommon. IFC4: 'IsBuiltIn' property added"
+applicableIfcClasses:
+- name: IfcFurnitureType
+  type: IfcFurnitureType
+properties:
+- name: Description
+  ifdGuid: 63a7457e00f540a89f677782fef0a731
+  definition: Specific description of this type of furniture.
+  localizations: []
+- name: Style
+  ifdGuid: 10094c0d06af4c628620253ad579f70b
+  definition: Description of the furniture style.
+  localizations: []
+- name: NominalHeight
+  ifdGuid: a342c80d5d404ff7950adea2f5b35cb8
+  definition: The nominal height of the furniture of this type. The size information is provided in addition to the shape representation and the geometric parameters used within. In cases of inconsistency between the geometric parameters and the size properties, provided in the attached property set, the geometric parameters take precedence.
+  localizations: []
+- name: NominalLength
+  ifdGuid: 6e4961b1f4024bfcbe6c7e6134ffdf26
+  definition: The nominal length of the furniture of this type. The size information is provided in addition to the shape representation and the geometric parameters used within. In cases of inconsistency between the geometric parameters and the size properties, provided in the attached property set, the geometric parameters take precedence.
+  localizations: []
+- name: NominalDepth
+  ifdGuid: 0f967f6ef6ec4699991891a3628a486d
+  definition: The nominal depth of the furniture of this type. The size information is provided in addition to the shape representation and the geometric parameters used within. In cases of inconsistency between the geometric parameters and the size properties, provided in the attached property set, the geometric parameters take precedence.
+  localizations: []
+- name: MainColor
+  ifdGuid: e08a54a8f0344c98948d5e1318d04e4f
+  definition: The main color of the furniture of this type.
+  localizations: []
+- name: IsBuiltIn
+  ifdGuid: 264d5210c46c4bfaa7f4bfe661e3165f
+  definition: Indicates whether the furniture type is intended to be 'built in' i.e. physically attached to a building or facility (= TRUE) or not i.e. Loose and movable (= FALSE).
+  localizations: []

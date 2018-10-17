@@ -1,0 +1,39 @@
+﻿name: Pset_ManufacturerTypeInformation
+ifcVersion:
+  version: IFC4
+  schema: IfcSharedFacilitiesElements
+ifdGuid: ''
+definition: "Defines characteristics of types (ranges) of manufactured products that may be given by the manufacturer. Note that the term 'manufactured' may also be used to refer to products that are supplied and identified by the supplier or that are assembled off site by a third party provider. HISTORY: This property set replaces the entity IfcManufacturerInformation from previous IFC releases. IFC4: AssemblyPlace property added."
+applicableIfcClasses:
+- name: IfcElement
+  type: IfcElementType
+- name: IfcElementType
+  type: IfcElementType
+properties:
+- name: GlobalTradeItemNumber
+  definition: The Global Trade Item Number (GTIN) is an identifier for trade items developed by GS1 (www.gs1.org).
+  localizations: []
+- name: ArticleNumber
+  ifdGuid: b711325d761d4c09b6440bbd7f895162
+  definition: Article number or reference that is be applied to a configured product according to a standard scheme for article number definition as defined by the manufacturer. It is often used as the purchasing number.
+  localizations: []
+- name: ModelReference
+  ifdGuid: 326748b8b0cc490dace0aa50f33a359c
+  definition: 'The model number or designator of the product model (or product line) as assigned by the manufacturer of the manufactured item. '
+  localizations: []
+- name: ModelLabel
+  ifdGuid: a19256e442a9461cbfbe68d94027f53a
+  definition: ' The descriptive model name of the product model (or product line) as assigned by the manufacturer of the manufactured item.'
+  localizations: []
+- name: Manufacturer
+  ifdGuid: 724e667b120d4d4e8273b4fcf96d7ded
+  definition: The organization that manufactured and/or assembled the item.
+  localizations: []
+- name: ProductionYear
+  ifdGuid: a1825b44fd3948c9b665f87c32f2fdfb
+  definition: The year of production of the manufactured item.
+  localizations: []
+- name: AssemblyPlace
+  ifdGuid: d5103e3e7af64663a7184a22a7889dbd
+  definition: Enumeration defining where the assembly is intended to take place, either in a factory or on the building site.
+  localizations: []

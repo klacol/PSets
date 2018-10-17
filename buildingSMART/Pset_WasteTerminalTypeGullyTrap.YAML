@@ -1,0 +1,84 @@
+﻿name: Pset_WasteTerminalTypeGullyTrap
+ifcVersion:
+  version: IFC4
+  schema: IfcPlumbingFireProtectionDomain
+ifdGuid: ''
+definition: Pipe fitting or assembly of fittings to receive surface water or waste water, fitted with a grating or sealed cover and discharging through a trap (BS6100 330 3504 modified)
+applicableIfcClasses:
+- name: IfcWasteTerminalType
+  type: IfcWasteTerminalType/GULLYTRAP
+properties:
+- name: NominalBodyLength
+  ifdGuid: de7782fc34cb4a75ae5f5400b9d0dd99
+  definition: Nominal or quoted length measured along the x-axis in the local coordinate system or the radius (in the case of a circular shape in plan) of the chamber of the gully trap.
+  localizations:
+  - language: ja-JP
+    name: 呼称躯体長
+    definition: 溝防臭弁の半径か局所座標系のＸ軸に沿って測定された呼称もしくは積算された長さ。
+- name: NominalBodyWidth
+  ifdGuid: b326ed868040438fb3c4352fada82a77
+  definition: Nominal or quoted length measured along the y-axis in the local coordinate system of the chamber of the gully trap.
+  localizations:
+  - language: ja-JP
+    name: 呼称躯体幅
+    definition: 溝防臭弁の半径か局所座標系のＹ軸に沿って測定された呼称もしくは積算された長さ。
+- name: NominalBodyDepth
+  ifdGuid: f25b3debffc64cacaa12f070cc7e03ba
+  definition: Nominal or quoted length measured along the z-axis in the local coordinate system of the chamber of the gully trap.
+  localizations:
+  - language: ja-JP
+    name: 呼称躯体深さ
+    definition: 溝防臭弁の半径か局所座標系のZ軸に沿って測定された呼称もしくは積算された長さ。
+- name: GullyType
+  ifdGuid: 7c4ae5aeecca4cdcba6fc5cd076ab56d
+  definition: Identifies the predefined types of gully from which the type required may be set.
+  localizations:
+  - language: ja-JP
+    name: 防臭弁の種類
+    definition: 設置する予定の溝をあらかじめ定義でタイプを確認します。
+- name: HasStrainer
+  ifdGuid: d24e103a33ad45889d57b6efb65459b4
+  definition: Indicates whether the gully trap has a strainer (= TRUE) or not (= FALSE).
+  localizations:
+  - language: ja-JP
+    name: ろ過装置
+    definition: 溝の防臭弁がろ過装置を備えているかどうかの指示。
+- name: TrapType
+  ifdGuid: d4cf6039393742c0833ef2fd856e0eff
+  definition: Identifies the predefined types of trap from which the type required may be set.
+  localizations:
+  - language: ja-JP
+    name: 防臭弁の種類
+    definition: セットされる予定の防臭弁のあらかじめ定義されたタイプを確認します。
+- name: OutletConnectionSize
+  ifdGuid: ed57ca5c6bb64bc995efd3671598c70c
+  definition: Size of the outlet connection from the object.
+  localizations:
+  - language: ja-JP
+    name: 排気口接続口サイズ
+    definition: 要素からの接続口サイズ。
+- name: BackInletPatternType
+  ifdGuid: 1fd012d5305f41eeaef1615968f3987f
+  definition: Identifies the pattern of inlet connections to a gully trap.A gulley trap may have 0,1,2,3 or 4 inlet connections and the pattern of their arrangement may vary. The enumeration makes the convention that an outlet is either vertical or is placed at the bottom (south side) of the gully trap (when viewed in plan). Position 1 is to the left (west), position 2 is to the top (north), position 3 is to the right (east) and position 4 is to the bottom (south).
+  localizations: []
+- name: InletConnectionSize
+  ifdGuid: 2c0716c41a05497c85a6e1757b5f1285
+  definition: Size of the inlet connection(s), where used, of the inlet connections.Note that all inlet connections are assumed to be the same size.
+  localizations:
+  - language: ja-JP
+    name: 吸気口接続口サイズ
+    definition: 吸気口接続口のサイズ。注意：同サイズの吸気接続口がないものとします。
+- name: CoverLength
+  ifdGuid: f044501b2ff0417495da7d04252b6792
+  definition: The length measured along the x-axis in the local coordinate system or the radius (in the case of a circular shape in plan) of the cover of the gully trap.
+  localizations:
+  - language: ja-JP
+    name: カバーの長さ
+    definition: 局所座標系のX軸に沿うか、半径（円状の形の場合）で測定された溝防臭弁カバーの長さ。
+- name: CoverWidth
+  ifdGuid: 775dd7d41bf24eb58968d621f11b74e5
+  definition: The length measured along the y-axis in the local coordinate system of the cover of the gully trap.
+  localizations:
+  - language: ja-JP
+    name: カバーの幅
+    definition: 局所座標系のY軸で測定された溝防臭弁カバーの長さ。

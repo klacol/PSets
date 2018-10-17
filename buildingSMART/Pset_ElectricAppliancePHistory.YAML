@@ -1,0 +1,13 @@
+﻿name: Pset_ElectricAppliancePHistory
+ifcVersion:
+  version: IFC4
+  schema: IfcElectricalDomain
+ifdGuid: ''
+definition: 'Captures realtime information for electric appliances, such as for energy usage.  HISTORY: Added in IFC4.'
+applicableIfcClasses:
+- name: IfcPerformanceHistory
+  type: IfcElectricApplianceType
+properties:
+- name: PowerState
+  definition: Indicates the power state of the device where True is on and False is off.
+  localizations: []

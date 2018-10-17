@@ -1,0 +1,100 @@
+﻿name: Pset_BoilerPHistory
+ifcVersion:
+  version: IFC4
+  schema: IfcHvacDomain
+ifdGuid: ''
+definition: 'Boiler performance history common attributes.WaterQuality attribute deleted in IFC2x2 Pset Addendum: Use IfcWaterProperties instead. CombustionProductsMaximulLoad and CombustionProductsPartialLoad attributes deleted in IFC2x2 Pset Addendum: Use IfcProductsOfCombustionProperties instead.'
+applicableIfcClasses:
+- name: IfcPerformanceHistory
+  type: IfcBoiler[PerformanceHistory]
+properties:
+- name: EnergySourceConsumption
+  ifdGuid: 6219a8135bc0401e95314ecbb0b8eb2b
+  definition: Energy consumption.
+  localizations:
+  - language: fr-FR
+    name: ConsommationSourceEnergie.
+    definition: Consommation d'énergie.
+  - language: ja-JP
+    name: エネルギ消費量
+    definition: エネルギ消費量
+- name: OperationalEfficiency
+  ifdGuid: 9fb1bee0b7724adf8769aca060d1659b
+  definition: 'Operational efficiency: boiler output divided by total energy input (electrical and fuel).'
+  localizations:
+  - language: fr-FR
+    name: EfficacitéOpérationnelle
+    definition: "Efficacité opérationnelle: production de la chaudière divisée par l'apport total d'énergie (électrique et combustible)."
+  - language: ja-JP
+    name: 運転効率
+    definition: 運転効率：全入力エネルギ（電力または燃料）でボイラ出力を割る
+- name: CombustionEfficiency
+  ifdGuid: 48896c9bd4c24634a9e0cad1794ad5d6
+  definition: Combustion efficiency under nominal condition.
+  localizations:
+  - language: fr-FR
+    name: EfficacitéCombustion
+    definition: Efficacité de la combustion sous conditions nominales.
+  - language: ja-JP
+    name: 燃焼効率
+    definition: 設計条件での燃焼効率
+- name: WorkingPressure
+  ifdGuid: 0eb151b68ff9476995569f982e9e678e
+  definition: Boiler working pressure.
+  localizations:
+  - language: fr-FR
+    name: PressionFonctionnement
+    definition: Pression de fonctionnement de la chaudière.
+  - language: ja-JP
+    name: 作動圧力
+    definition: ボイラ運転圧力
+- name: CombustionTemperature
+  ifdGuid: 580c3e961028435bbbf7577c6ded96e4
+  definition: Average combustion chamber temperature.
+  localizations:
+  - language: fr-FR
+    name: TempératureCombustion
+    definition: Température de combustion moyenne au foyer.
+  - language: ja-JP
+    name: 燃焼温度
+    definition: 燃焼室平均温度
+- name: PartLoadRatio
+  ifdGuid: 5908244be4a645e0b73dd3ea8cc31d26
+  definition: Ratio of the real to the nominal capacity.
+  localizations:
+  - language: fr-FR
+    name: Taux de charge
+    definition: Ratio entre capacité effective et capacité nominale
+  - language: ja-JP
+    name: 部分負荷比
+    definition: 設計容量との比
+- name: Load
+  ifdGuid: a1533b47192c4152a3b4e6d639ebf588
+  definition: Boiler real load.
+  localizations:
+  - language: fr-FR
+    name: Charge
+    definition: Charge effective de la chaudière.
+  - language: ja-JP
+    name: 負荷
+    definition: ボイラ実負荷
+- name: PrimaryEnergyConsumption
+  ifdGuid: cdbbb9cde4dd4eb48c0a0574b4b7a824
+  definition: Boiler primary energy source consumption (i.e., the fuel consumed for changing the thermodynamic state of the fluid).
+  localizations:
+  - language: fr-FR
+    name: ConsommationEnergiePrimaire
+    definition: Consommation d'énergie primaire de la chaudière(c'est-à-dire le combustible consommé pour le changement d'état thermodynamique du fluide).
+  - language: ja-JP
+    name: 一次エネルギ消費量
+    definition: ボイラ一次エネルギ消費量（つまり流体の熱力学状態変更のために消費された燃料）
+- name: AuxiliaryEnergyConsumption
+  ifdGuid: fb0fea70778b4d3590297f1d348969f8
+  definition: Boiler secondary energy source consumption (i.e., the electricity consumed by electrical devices such as fans and pumps).
+  localizations:
+  - language: fr-FR
+    name: ConsommationEnergieAuxiliaire
+    definition: Consommation d'énergie secondaire de la chaudière(c'est-à-dire l'électricité consommée pour les équipements électriques tels que ventilateurs et circulateurs).
+  - language: ja-JP
+    name: 補助エネルギ消費量
+    definition: ボイラ補助エネルギ消費量（つまりファンおよびポンプのような電気装置によって消費される電気）

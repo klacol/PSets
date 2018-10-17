@@ -1,0 +1,55 @@
+﻿name: Pset_DistributionPortTypeSewage
+ifcVersion:
+  version: IFC4
+  schema: IfcSharedBldgServiceElements
+ifdGuid: ''
+definition: Pipe port occurrence attributes attached to an instance of IfcDistributionPort.
+applicableIfcClasses:
+- name: IfcDistributionPort
+  type: IfcDistributionPort/SEWAGE
+properties:
+- name: ConnectionType
+  definition: 'The end-style treatment of the pipe port:BRAZED: Brazed. COMPRESSION: Compression. FLANGED: Flanged. GROOVED: Grooved. OUTSIDESLEEVE: Outside Sleeve. SOLDERED: Soldered. SWEDGE: Swedge. THREADED: Threaded. WELDED: Welded. OTHER: Another type of end-style has been applied.NONE: No end-style has been applied.USERDEFINED: User-defined port connection type. NOTDEFINED: Undefined port connection type. '
+  localizations:
+  - language: ja-JP
+    name: 接続タイプ
+    definition: '配管ポートの加工方式：- BRAZED: ろう型- COMPRESSION: 圧縮型 - FLANGED:フランジ型- GROOVED: 溝型. - OUTSIDESLEEVE: 外側スリーブ型- SOLDERED: ハンダ型- SWEDGE:  Swedge？Sくさび型？ - THREADED: ねじ型- WELDED: 溶接型 - OTHER: その他- NONE: なし.- USERDEFINED:ユーザー定義タイプ- NOTDEFINED: 不確定タイプ'
+  - language: ko-KR
+    name: 연결유형
+    definition: '배관 포트의 가공 방식 BRAZED : 밀랍 형 COMPRESSION : 압축형 FLANGED : 플랜지 GROOVED : 구형. OUTSIDESLEEVE : 외부 슬리브 형식 SOLDERED : 납땜 형식 SWEDGE : Swedge? S 쐐기 모양? THREADED : 나사형 WELDED : 용접 형 OTHER : 기타 NONE : 없음 USERDEFINED : 사용자 정의 유형 NOTDEFINED : 불확정 유형'
+- name: ConnectionSubType
+  definition: 'The physical port connection subtype that further qualifies the ConnectionType.  '
+  localizations:
+  - language: ja-JP
+    name: 接続サブタイプ
+    definition: 物理ポート接続のサブタイプ。接続タイプ以外の情報を設定する場合に使用。
+  - language: ko-KR
+    name: 연결 서브타입
+    definition: ''
+- name: NominalDiameter
+  definition: The nominal diameter of the pipe connection.
+  localizations:
+  - language: ja-JP
+    name: 公称直径
+    definition: 配管接続の公称直径。
+  - language: ko-KR
+    name: 호칭 지름내경
+    definition: 배관 연결 공칭 지름
+- name: InnerDiameter
+  definition: The actual inner diameter of the pipe.
+  localizations:
+  - language: ja-JP
+    name: 内径
+    definition: 配管の実内径。
+  - language: ko-KR
+    name: 내경
+    definition: 배관의 열매 내경
+- name: OuterDiameter
+  definition: The actual outer diameter of the pipe.
+  localizations:
+  - language: ja-JP
+    name: 外径
+    definition: 配管の実外径。
+  - language: ko-KR
+    name: 외경
+    definition: 배관의 실제 외경

@@ -1,0 +1,30 @@
+﻿name: Pset_DamperTypeFireSmokeDamper
+ifcVersion:
+  version: IFC4
+  schema: IfcHvacDomain
+ifdGuid: ''
+definition: Combination Fire and Smoke damper type attributes.New Pset in IFC2x2 Pset Addendum.
+applicableIfcClasses:
+- name: IfcDamperType
+  type: IfcDamperType/FIRESMOKEDAMPER
+properties:
+- name: ControlType
+  ifdGuid: 545bbffbd05b490997b60301b5d0d83c
+  definition: The type of control used to operate the damper (e.g., Open/Closed Indicator, Resetable Temperature Sensor, Temperature Override, etc.).
+  localizations: []
+- name: ActuationType
+  ifdGuid: 8eb43ff7efdb432fbd326611e03d027e
+  definition: Enumeration that identifies the different types of dampers.
+  localizations: []
+- name: ClosureRatingEnum
+  ifdGuid: 1018c2e6ef8c4ab98ed1d3c11331eae2
+  definition: Enumeration that identifies the closure rating for the damper.
+  localizations: []
+- name: FireResistanceRating
+  ifdGuid: 1285e949744e45b18210ed8bbf53e72e
+  definition: 'Measure of the fire resistance rating in hours (e.g., 1.5 hours, 2 hours, etc.). '
+  localizations: []
+- name: FusibleLinkTemperature
+  ifdGuid: 19306573a45e468986eb4e13a4cee51a
+  definition: 'The temperature that the fusible link melts. '
+  localizations: []

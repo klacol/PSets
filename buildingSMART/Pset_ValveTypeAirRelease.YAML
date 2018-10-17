@@ -1,0 +1,17 @@
+﻿name: Pset_ValveTypeAirRelease
+ifcVersion:
+  version: IFC4
+  schema: IfcHvacDomain
+ifdGuid: ''
+definition: Valve used to release air from a pipe or fitting. Note that an air release valve is constrained to have a single port pattern
+applicableIfcClasses:
+- name: IfcValveType
+  type: IfcValveType/AIRRELEASE
+properties:
+- name: IsAutomatic
+  ifdGuid: b59d83c2702249189f8325ba794bd358
+  definition: Indication of whether the valve is automatically operated (TRUE) or manually operated (FALSE).
+  localizations:
+  - language: ja-JP
+    name: 自動
+    definition: 弁が自動(TRUE)で操作されるか手動(FALSE)で操作されるかの表示

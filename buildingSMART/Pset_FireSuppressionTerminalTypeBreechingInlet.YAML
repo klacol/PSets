@@ -1,0 +1,45 @@
+﻿name: Pset_FireSuppressionTerminalTypeBreechingInlet
+ifcVersion:
+  version: IFC4
+  schema: IfcPlumbingFireProtectionDomain
+ifdGuid: ''
+definition: Symmetrical pipe fitting that unites two or more inlets into a single pipe (BS6100 330 114 adapted).
+applicableIfcClasses:
+- name: IfcFireSuppressionTerminalType
+  type: IfcFireSuppressionTerminalType/BREECHINGINLET
+properties:
+- name: BreechingInletType
+  ifdGuid: 592f7665c0564bbb8dcf554562f40282
+  definition: Defines the type of breeching inlet.
+  localizations:
+  - language: ja-JP
+    name: 送水口タイプ
+    definition: 送水口タイプの定義。
+- name: InletDiameter
+  ifdGuid: 4cd42aedf2244c758d9bfb61839f6020
+  definition: The inlet diameter of the breeching inlet.
+  localizations:
+  - language: ja-JP
+    name: 入口口径
+    definition: 入口の直径。
+- name: OutletDiameter
+  ifdGuid: aab6e8ddd53c47c4a81c6cdedf74aad7
+  definition: The outlet diameter of the breeching inlet.
+  localizations:
+  - language: ja-JP
+    name: 出口口径
+    definition: 出口の直径。
+- name: CouplingType
+  ifdGuid: fce72141cfa44c2b9019ff8a5a7290af
+  definition: Defines the type coupling on the inlet of the breeching inlet.
+  localizations:
+  - language: ja-JP
+    name: カップリングタイプ
+    definition: 送水口入口のカップリングタイプ。
+- name: HasCaps
+  ifdGuid: c97d11ee21de4d7989e8f463fe519af0
+  definition: Does the inlet connection have protective caps.
+  localizations:
+  - language: ja-JP
+    name: 保護キャップ
+    definition: 入口接続が保護キャップを持っているか。

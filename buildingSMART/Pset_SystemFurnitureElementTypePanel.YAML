@@ -1,0 +1,22 @@
+﻿name: Pset_SystemFurnitureElementTypePanel
+ifcVersion:
+  version: IFC4
+  schema: IfcSharedFacilitiesElements
+ifdGuid: ''
+definition: 'A set of specific properties for vertical panels that assembly workstations.. HISTORY: First issued in IFC Release R1.5. Renamed from Pset_Panel'
+applicableIfcClasses:
+- name: IfcSystemFurnitureElementType
+  type: IfcSystemFurnitureElementType/PANEL
+properties:
+- name: HasOpening
+  ifdGuid: 57eebe0171844adc9db51ed2e7ad43f2
+  definition: indicates whether the panel has an opening (= TRUE) or not (= FALSE).
+  localizations: []
+- name: FurniturePanelType
+  ifdGuid: aa757afa46564ccc89f69f2500d478c3
+  definition: Available panel types from which that required may be selected.
+  localizations: []
+- name: NominalThickness
+  ifdGuid: e31c6094edf74cc2bcda475bd50307a1
+  definition: The nominal thickness of the panel.
+  localizations: []

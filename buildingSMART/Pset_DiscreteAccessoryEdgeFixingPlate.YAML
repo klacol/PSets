@@ -1,0 +1,52 @@
+﻿name: Pset_DiscreteAccessoryEdgeFixingPlate
+ifcVersion:
+  version: IFC4
+  schema: IfcSharedComponentElements
+ifdGuid: ''
+definition: Properties specific to edge fixing plates.
+applicableIfcClasses:
+- name: IfcDiscreteAccessory
+  type: IfcDiscreteAccessory/Edge fixing plate
+- name: IfcDiscreteAccessoryType
+  type: IfcDiscreteAccessory/Edge fixing plate
+properties:
+- name: EdgeFixingPlateLength
+  ifdGuid: d0a7dfb22b5a4fba902220fe3c22b9d5
+  definition: The length of the L-shaped edge plate.
+  localizations:
+  - language: ja-JP
+    name: 長さ
+    definition: L型端部プレートの長さ。
+  - language: ko-KR
+    name: 길이
+    definition: L 형 단부 플레이트의 길이
+- name: EdgeFixingPlateThickness
+  ifdGuid: a6fa06e503694311b8615a464de7245c
+  definition: The thickness of the L-shaped edge plate.
+  localizations:
+  - language: ja-JP
+    name: 板厚
+    definition: L型端部プレートの板厚。
+  - language: ko-KR
+    name: 두께
+    definition: L 형 단부 플레이트의 두께
+- name: EdgeFixingPlateFlangeWidthInPlaneZ
+  ifdGuid: 2d10c60182c4465e9cd22df83e7da92d
+  definition: The flange width of the L-shaped edge plate in plane Z.
+  localizations:
+  - language: ja-JP
+    name: フランジ幅Z
+    definition: L型端部プレートのZ面フランジ幅。
+  - language: ko-KR
+    name: 플랜지 폭 Z
+    definition: L 형 단부 플레이트 Z면 플랜지 폭
+- name: EdgeFixingPlateFlangeWidthInPlaneX
+  ifdGuid: d6696ee32e704b41baf5b028d264e1d8
+  definition: The flange width of the L-shaped edge plate in plane X.
+  localizations:
+  - language: ja-JP
+    name: フランジ幅X
+    definition: L型端部プレートのX面フランジ幅。
+  - language: ko-KR
+    name: 플랜지 폭 X
+    definition: L 형 단부 플레이트 X면 플랜지 폭

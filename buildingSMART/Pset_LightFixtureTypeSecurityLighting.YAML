@@ -1,0 +1,64 @@
+﻿name: Pset_LightFixtureTypeSecurityLighting
+ifcVersion:
+  version: IFC4
+  schema: IfcElectricalDomain
+ifdGuid: ''
+definition: Properties that characterize security lighting.
+applicableIfcClasses:
+- name: IfcLightFixtureType
+  type: IfcLightFixtureType/SECURITYLIGHTING
+properties:
+- name: SecurityLightingType
+  definition: The type of security lighting.
+  localizations:
+  - language: ja-JP
+    name: 防犯灯
+    definition: 防犯灯のタイプ。
+  - language: ko-KR
+    name: 방범등
+    definition: 방범등 유형
+- name: FixtureHeight
+  definition: The height of the fixture, such as the text height of an exit sign.
+  localizations:
+  - language: ja-JP
+    name: 器具の高さ
+    definition: 出口標識などの器具の高さ。
+  - language: ko-KR
+    name: 기구의 높이
+    definition: 출구 표지판 등의기구의 높이
+- name: SelfTestFunction
+  definition: The type of self test function.
+  localizations:
+  - language: ja-JP
+    name: 自己診断機能
+    definition: 自己診断機能のタイプ。
+  - language: ko-KR
+    name: 자기 진단 기능
+    definition: 자기 진단 기능의 유형
+- name: BackupSupplySystem
+  definition: The type of backup supply system.
+  localizations:
+  - language: ja-JP
+    name: 電源バックアップシステム
+    definition: 電源バックアップシステムのタイプ。
+  - language: ko-KR
+    name: 전원백업 시스템
+    definition: 전원 백업 시스템 유형
+- name: PictogramEscapeDirection
+  definition: The direction of escape pictogram.
+  localizations:
+  - language: ja-JP
+    name: 避難標識の向き
+    definition: 避難標識の向き。
+  - language: ko-KR
+    name: 피난 표지판 방향
+    definition: 피난 표지판 방향
+- name: Addressablility
+  definition: The type of addressability.
+  localizations:
+  - language: ja-JP
+    name: アドレス指定能力
+    definition: アドレス指定能力のタイプ。
+  - language: ko-KR
+    name: 주소 지정 능력
+    definition: 주소 지정 능력 타입

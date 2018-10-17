@@ -1,0 +1,22 @@
+﻿name: Pset_MaterialThermal
+ifcVersion:
+  version: IFC4
+  schema: IfcMaterialResource
+ifdGuid: ''
+definition: A set of thermal material properties.
+applicableIfcClasses:
+- name: IfcMaterial
+  type: IfcMaterial
+properties:
+- name: SpecificHeatCapacity
+  definition: 'Defines the specific heat of the material: heat energy absorbed per temperature unit.'
+  localizations: []
+- name: BoilingPoint
+  definition: The boiling point of the material (fluid).
+  localizations: []
+- name: FreezingPoint
+  definition: The freezing point of the material (fluid).
+  localizations: []
+- name: ThermalConductivity
+  definition: The rate at which thermal energy is transmitted through the material.
+  localizations: []

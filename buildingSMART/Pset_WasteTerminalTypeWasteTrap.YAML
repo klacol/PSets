@@ -1,0 +1,31 @@
+﻿name: Pset_WasteTerminalTypeWasteTrap
+ifcVersion:
+  version: IFC4
+  schema: IfcPlumbingFireProtectionDomain
+ifdGuid: ''
+definition: Pipe fitting, set adjacent to a sanitary terminal, that retains liquid to prevent the passage of foul air.
+applicableIfcClasses:
+- name: IfcWasteTerminalType
+  type: IfcWasteTerminalType/WASTETRAP
+properties:
+- name: WasteTrapType
+  ifdGuid: 2ded3cd8a416457aac76f80df21c0ad0
+  definition: Identifies the predefined types of trap from which the type required may be set.
+  localizations:
+  - language: ja-JP
+    name: 廃棄物防臭弁種類
+    definition: 必要とされるタイプがセットされる防臭弁の定義されたタイプを確認してください。
+- name: OutletConnectionSize
+  ifdGuid: 9853904c94234a83873d174c03704fa0
+  definition: Size of the outlet connection from the object.
+  localizations:
+  - language: ja-JP
+    name: 排出口接続口サイズ
+    definition: 要素からの接続口サイズ。
+- name: InletConnectionSize
+  ifdGuid: b1b3d73cdc3f4afab9df6c3ebcc97b85
+  definition: Size of the inlet connection(s), where used, of the inlet connections.Note that all inlet connections are assumed to be the same size.
+  localizations:
+  - language: ja-JP
+    name: 吸気口接続口サイズ
+    definition: 吸気口接続口のサイズ。注意：同サイズの吸気口接続口がないものとします。

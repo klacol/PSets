@@ -1,0 +1,20 @@
+﻿name: Pset_ProtectiveDeviceTrippingUnitTypeResidualCurrent
+ifcVersion:
+  version: IFC4
+  schema: IfcElectricalDomain
+ifdGuid: ''
+definition: Information on tripping units that are activated by residual current.
+applicableIfcClasses:
+- name: IfcProtectiveDeviceTrippingUnitType
+  type: IfcProtectiveDeviceTrippingUnitType/RESIDUALCURRENT
+properties:
+- name: TrippingUnitReleaseCurrent
+  ifdGuid: db09365c04e94a55a57a274632d6f82b
+  definition: The value of tripping or residual current for which the device has the possibility to be equipped. The values are given in mA.
+  localizations:
+  - language: ja-JP
+    name: 定格感度電流
+    definition: 漏電ブレーカの感度電流値（mA）。
+  - language: ko-KR
+    name: 정격 감도 전류
+    definition: 누전 차단기의 감도 전류 (mA).

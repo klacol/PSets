@@ -1,0 +1,52 @@
+﻿name: Pset_CableSegmentOccurrence
+ifcVersion:
+  version: IFC4
+  schema: IfcElectricalDomain
+ifdGuid: ''
+definition: 'Properties for the occurrence of an electrical cable, core or conductor that conforms to a type as specified by an appropriate type definition within IFC. NOTE: Maximum allowed voltage drop should be derived from the property within Pset_ElectricalCircuit.'
+applicableIfcClasses:
+- name: IfcCableSegment
+  type: IfcCableSegment
+properties:
+- name: DesignAmbientTemperature
+  definition: The highest and lowest local ambient temperature likely to be encountered.
+  localizations: []
+- name: UserCorrectionFactor
+  definition: An arbitrary correction factor that may be applied by the user.
+  localizations: []
+- name: NumberOfParallelCircuits
+  definition: Number of parallel circuits.
+  localizations: []
+- name: InstallationMethod
+  definition: Method of installation of cable/conductor. Installation methods are typically defined by reference in standards such as IEC 60364-5-52, table 52A-1 or BS7871 Appendix 4 Table 4A1 etc. Selection of the value to be used should be determined from such a standard according to local usage.
+  localizations: []
+- name: InstallationMethodFlagEnum
+  definition: Special installation conditions relating to particular types of installation based on IEC60364-5-52:2001 reference installation methods C and D.
+  localizations: []
+- name: DistanceBetweenParallelCircuits
+  definition: Distance measured between parallel circuits.
+  localizations: []
+- name: SoilConductivity
+  definition: Thermal conductivity of soil. Generally, within standards such as IEC 60364-5-52, table 52A-16, the resistivity of soil is required (measured in [SI] units of degK.m /W). This is the reciprocal of the conductivity value and needs to be calculated accordingly.
+  localizations: []
+- name: CarrierStackNumber
+  definition: Number of carrier segments (tray, ladder etc.) that are vertically stacked (vertical is measured as the z-axis of the local coordinate system of the carrier segment).
+  localizations: []
+- name: MountingMethod
+  definition: The method of mounting cable segment occurrences on a cable carrier occurrence from which the method required can be selected. This is for the purpose of carrying out 'worst case' cable sizing calculations and may be a conceptual requirement rather than a statement of the physical occurrences of cable and carrier segments.
+  localizations: []
+- name: IsHorizontalCable
+  definition: Indication of whether the cable occurrences are mounted horizontally (= TRUE) or vertically (= FALSE).
+  localizations: []
+- name: IsMountedFlatCable
+  definition: Indication of whether the cable occurrences are mounted flat (= TRUE) or in a trefoil pattern (= FALSE).
+  localizations: []
+- name: CurrentCarryingCapasity
+  definition: 'Maximum value of electric current which can be carried continuously by a conductor, a device or an apparatus, under specified conditions without its steady-state temperature exceeding a  specified value. Based on IEC60826-11-13. NOTE: The temperature specified value is maximum Design Ambient Temperature.'
+  localizations: []
+- name: MaximumCableLength
+  definition: 'Maximum cable length based on voltagedrop. NOTE: This value may also be specified as a constraint within an IFC model if required but is included within the property set at this stage pending implementation of the required capabilities within software applications.'
+  localizations: []
+- name: PowerLoss
+  definition: 'Total loss of power across this cable.  '
+  localizations: []

@@ -1,0 +1,63 @@
+﻿name: Pset_SanitaryTerminalTypeShower
+ifcVersion:
+  version: IFC4
+  schema: IfcPlumbingFireProtectionDomain
+ifdGuid: ''
+definition: 'Installation or waste water appliance that emits a spray of water to wash the human body (BS6100). HISTORY: In IFC4, Material and MaterialThickness properties removed. Use materials capabilities from IfcMaterialsResource schema. Datatype of color changed to IfcLabel (still a string value)'
+applicableIfcClasses:
+- name: IfcSanitaryTerminalType
+  type: IfcSanitaryTerminalType/SHOWER
+properties:
+- name: ShowerType
+  ifdGuid: f96a0f25e5014aa4a72ccbaeaeef55fd
+  definition: 'Selection of the type of shower from the enumerated list of types where:-Drench:  	Shower that rapidly gives a thorough soaking in an emergency.Individual: 	Shower unit that is typically enclosed and is for the use of one person at a time.Tunnel: 	Shower that has a succession of shower heads or spreaders that operate simultaneously along its length.'
+  localizations:
+  - language: ja-JP
+    name: シャワータイプ
+    definition: 場所からのシャワータイプの選択：・水浸性：緊急時には素早く水に浸れるシャワー・独立性：一度に一人が使え、区切られているシャワーユニット・トンネル：シャワーヘッドの連続で設置されているか長さ方向に同時操作となる水散布機型のシャワー
+- name: HasTray
+  ifdGuid: d479a9bbc3da4bad953f851e620d87a5
+  definition: Indicates whether the shower has a separate receptacle that catches the water in a shower and directs it to a waste outlet.
+  localizations: []
+- name: NominalLength
+  ifdGuid: 2f9f9be07e644aeb8a6c6a9a6ef31e25
+  definition: 'Nominal or quoted length of the object. '
+  localizations:
+  - language: ja-JP
+    name: 長さ
+    definition: 要素の長さ。
+- name: NominalWidth
+  ifdGuid: 52faf21de96842ff8ba2f29230dfd719
+  definition: 'Nominal or quoted width of the object. '
+  localizations:
+  - language: ja-JP
+    name: 幅
+    definition: 要素の幅。
+- name: NominalDepth
+  ifdGuid: 34b606b2684345ce8ff79bc7b212e171
+  definition: 'Nominal or quoted depth of the object. '
+  localizations:
+  - language: ja-JP
+    name: 深さ
+    definition: 要素の深さ。
+- name: Color
+  ifdGuid: 72db3fca89044a5780b64322ea024928
+  definition: Color selection for this object.
+  localizations:
+  - language: ja-JP
+    name: 色
+    definition: 要素の色。
+- name: ShowerHeadDescription
+  ifdGuid: 33e1202c013e441b954cf9245136b62e
+  definition: A description of the shower head(s) that emit the spray of water.
+  localizations:
+  - language: ja-JP
+    name: シャワーヘッド表現
+    definition: シャワーヘッドが排出する水の放射の表現。
+- name: DrainSize
+  ifdGuid: 904cfb672ff64ca2a35e0c2bd94a222a
+  definition: The size of the drain outlet connection from the object.
+  localizations:
+  - language: ja-JP
+    name: 管口径
+    definition: 要素の排水口接続口サイズ。

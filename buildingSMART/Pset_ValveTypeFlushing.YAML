@@ -1,0 +1,31 @@
+﻿name: Pset_ValveTypeFlushing
+ifcVersion:
+  version: IFC4
+  schema: IfcHvacDomain
+ifdGuid: ''
+definition: Valve that flushes a predetermined quantity of water to cleanse a WC, urinal or slop hopper.Note that a flushing valve is constrained to have a 2 port  pattern.
+applicableIfcClasses:
+- name: IfcValveType
+  type: IfcValveType/FLUSHING
+properties:
+- name: FlushingRate
+  ifdGuid: fafdc63e147d4c82be6fd1add8901269
+  definition: The predetermined quantity of water to be flushed.
+  localizations:
+  - language: ja-JP
+    name: フラッシュ率
+    definition: 予め決められた流される水量
+- name: HasIntegralShutOffDevice
+  ifdGuid: bb411ad453c442e79f959894f37f7cce
+  definition: Indication of whether the flushing valve has an integral shut off device fitted (set TRUE) or not (set FALSE).
+  localizations:
+  - language: ja-JP
+    name: 全体閉止装置がついているかどうか
+    definition: フラッシュ弁に全体閉止装置がついているかどうかの表示（付きTRUE）又は（無しFALSE）
+- name: IsHighPressure
+  ifdGuid: 427656ae311b46359d525f6c84cd2abe
+  definition: Indication of whether the flushing valve is suitable for use on a high pressure water main (set TRUE) or not (set FALSE).
+  localizations:
+  - language: ja-JP
+    name: 高圧給水の有無
+    definition: フラッシュ弁の高圧給水主管への使用が適当かどうかの表示（適 TRUE）又は（不適 FALSE）

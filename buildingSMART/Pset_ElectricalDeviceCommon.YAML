@@ -1,0 +1,45 @@
+﻿name: Pset_ElectricalDeviceCommon
+ifcVersion:
+  version: IFC4
+ifdGuid: ''
+definition: A collection of properties that are commonly used by electrical device types.
+applicableIfcClasses:
+- name: IfcDistributionElement
+  type: IfcDistributionElement
+properties:
+- name: RatedCurrent
+  ifdGuid: 784d9d2144d440b5b30e2ad107609548
+  definition: ConsoleAppYamlTest.PropertyType
+  localizations: []
+- name: RatedVoltage
+  ifdGuid: a2e15fb5e52e49e3b86731401fe07f86
+  definition: ConsoleAppYamlTest.PropertyType
+  localizations: []
+- name: NominalFrequencyRange
+  ifdGuid: f69a795455c74842825a54711d3b5abc
+  definition: ConsoleAppYamlTest.PropertyType
+  localizations: []
+- name: PowerFactor
+  ifdGuid: cf5234358315441fa6c17c9b65bf62a0
+  definition: ConsoleAppYamlTest.PropertyType
+  localizations: []
+- name: ConductorFunction
+  ifdGuid: f936102bd4824b7eb989a5571e353770
+  definition: ConsoleAppYamlTest.PropertyType
+  localizations: []
+- name: NumberOfPoles
+  ifdGuid: 4b5b1c80d1df11e1800000215ad4efdf
+  definition: ConsoleAppYamlTest.PropertyType
+  localizations: []
+- name: HasProtectiveEarth
+  ifdGuid: 50b86700d1df11e1800000215ad4efdf
+  definition: ConsoleAppYamlTest.PropertyType
+  localizations: []
+- name: IP_Code
+  ifdGuid: 56ae4800d1df11e1800000215ad4efdf
+  definition: ConsoleAppYamlTest.PropertyType
+  localizations: []
+- name: InsulationStandardClass
+  ifdGuid: 5d3cbf80d1df11e1800000215ad4efdf
+  definition: ConsoleAppYamlTest.PropertyType
+  localizations: []

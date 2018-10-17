@@ -1,0 +1,94 @@
+﻿name: Pset_FireSuppressionTerminalTypeSprinkler
+ifcVersion:
+  version: IFC4
+  schema: IfcPlumbingFireProtectionDomain
+ifdGuid: ''
+definition: Device for sprinkling water from a pipe under pressure over an area (BS6100 100 3432)
+applicableIfcClasses:
+- name: IfcFireSuppressionTerminalType
+  type: IfcFireSuppressionTerminalType/SPRINKLER
+properties:
+- name: SprinklerType
+  ifdGuid: fe15668819774e3181ad7c9960cac338
+  definition: Identifies the predefined types of sprinkler  from which the type required may be set.
+  localizations:
+  - language: ja-JP
+    name: スプリンクラータイプ
+    definition: あらかじめ定義済みのスプリンクラーの型から必要な型を設定する識別。
+- name: Activation
+  ifdGuid: b78067e45f3845988cf0e10e8e3aec1f
+  definition: Identifies the predefined methods of sprinkler activation from which that required may be set.
+  localizations:
+  - language: ja-JP
+    name: 作動
+    definition: あらかじめ定義済みのスプリンクラーの作動方式から必要な方式を設定する識別。
+- name: Response
+  ifdGuid: a18baf260fc34406aa5a4c04cef91aa8
+  definition: Identifies the predefined methods of sprinkler response from which that required may be set.
+  localizations:
+  - language: ja-JP
+    name: 応答
+    definition: あらかじめ定義済みのスプリンクラーの応答方式から必要な方式を設定する識別。
+- name: ActivationTemperature
+  ifdGuid: 5042b2d788b24b7dae4f89e14086dcc1
+  definition: The temperature at which the object is designed to activate.
+  localizations:
+  - language: ja-JP
+    name: 作動温度
+    definition: 設計作動温度。
+- name: CoverageArea
+  ifdGuid: f8fe067a860e4114bb703763f94e6556
+  definition: The area that the sprinkler is designed to protect.
+  localizations:
+  - language: ja-JP
+    name: カバー面積
+    definition: スプリンクラーの設計保護区画面積。
+- name: HasDeflector
+  ifdGuid: 5cdd4e076e234d1e994604d94cb2aa86
+  definition: Indication of whether the sprinkler has a deflector (baffle) fitted to diffuse the discharge on activation (= TRUE) or not (= FALSE).
+  localizations:
+  - language: ja-JP
+    name: ディフレクターの有無
+    definition: スプリンクラー作動時、放水を拡散させる偏向器（バッフル）取り付けているかどうかの表示（= TRUE）そうでないか（= FALSE）を返します。
+- name: BulbLiquidColor
+  ifdGuid: 6ce7737ff94144b58c5f0fb24b6b0765
+  definition: The color of the liquid in the bulb for a bulb activated sprinkler. Note that the liquid color varies according to the activation temperature requirement of the sprinkler head. Note also that this property does not need to be asserted for quick response activated sprinklers.
+  localizations:
+  - language: ja-JP
+    name: バルブ液体色
+    definition: バルブ作動スプリンクラーのバルブ液体色の設定。液体色は、スプリンクラーヘッドの作動温度に応じて変化する。また、この属性は、高速応答スプリンクラーは設定する必要はない。
+- name: DischargeFlowRate
+  ifdGuid: 2a24dff3d0d64dfc8c51a4abfb742553
+  definition: The volumetric rate of fluid discharge.
+  localizations:
+  - language: ja-JP
+    name: 吐出流量
+    definition: 吐出流体の体積流量。
+- name: ResidualFlowingPressure
+  ifdGuid: d0674711b6954200b94176458f5342b7
+  definition: The residual flowing pressure in the pipeline at which the discharge flow rate is determined.
+  localizations:
+  - language: ja-JP
+    name: 残留流動圧力
+    definition: 吐出流量が確保される、パイプラインの流れ時残留圧力。
+- name: DischargeCoefficient
+  ifdGuid: 9e87c98d0ab5492b897260c737ba7024
+  definition: The coefficient of flow at the sprinkler.
+  localizations:
+  - language: ja-JP
+    name: 流量係数
+    definition: スプリンクラーの流れの係数。
+- name: MaximumWorkingPressure
+  ifdGuid: b8421f4eda904c73aecc1d96c7be3703
+  definition: Maximum pressure that the object is manufactured to withstand.
+  localizations:
+  - language: ja-JP
+    name: 最大作動圧力
+    definition: 最大圧力、製造耐圧。
+- name: ConnectionSize
+  ifdGuid: 3c78d32a854348559a5421e0c1c0b2bb
+  definition: Size of the inlet connection to the sprinkler.
+  localizations:
+  - language: ja-JP
+    name: 接続サイズ
+    definition: スプリンクラーへの入口接続のサイズ。

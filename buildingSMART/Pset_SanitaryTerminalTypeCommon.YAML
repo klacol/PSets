@@ -1,0 +1,16 @@
+﻿name: Pset_SanitaryTerminalTypeCommon
+ifcVersion:
+  version: IFC4
+  schema: IfcPlumbingFireProtectionDomain
+ifdGuid: ''
+definition: Common properties for sanitary terminals.
+applicableIfcClasses:
+- name: IfcSanitaryTerminalType
+  type: IfcSanitaryTerminalType
+properties:
+- name: Reference
+  definition: "Reference ID for this specified type in this project (e.g. type 'A-1'), provided, if there is no classification reference to a recognized classification system used. "
+  localizations:
+  - language: ja-JP
+    name: 参照記号
+    definition: 使用される認識分類システムで分類基準がない場合、プロジェクトで指定された型（タイプ'Ａ-1'など）で提供されるレファレンスID。

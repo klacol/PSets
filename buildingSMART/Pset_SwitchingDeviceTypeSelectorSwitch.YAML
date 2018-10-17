@@ -1,0 +1,37 @@
+﻿name: Pset_SwitchingDeviceTypeSelectorSwitch
+ifcVersion:
+  version: IFC4
+  schema: IfcElectricalDomain
+ifdGuid: ''
+definition: 'A selector switch is a switch that adjusts electrical power through a multi-position action.  HISTORY: Added in IFC4.'
+applicableIfcClasses:
+- name: IfcSwitchingDeviceType
+  type: IfcSwitchingDeviceType/SELECTORSWITCH
+properties:
+- name: SelectorType
+  definition: A list of the available types of selector switch from which that required may be selected.
+  localizations:
+  - language: ja-JP
+    name: セレクター（スイッチ）タイプ
+    definition: 選択が必要となる、切替えスイッチの一覧リスト。
+  - language: ko-KR
+    name: 스위치 타입
+    definition: 전환스위치 목록
+- name: SwitchUsage
+  definition: A list of the available usages for selector switches from which that required may be selected.
+  localizations:
+  - language: ja-JP
+    name: スイッチの使用法
+    definition: 選択が必要となる、切替えスイッチの使用法の一覧リスト。
+  - language: ko-KR
+    name: 스위치 사용
+    definition: 전환스위치 사용 목록
+- name: SwitchActivation
+  definition: A list of the available activations for selector switches from which that required may be selected.
+  localizations:
+  - language: ja-JP
+    name: 起動方式
+    definition: 選択が必要となる、切替えスイッチの起動方式の一覧リスト。
+  - language: ko-KR
+    name: 기동 방식
+    definition: 스위치 부팅방식의 목록

@@ -1,0 +1,70 @@
+﻿name: Pset_ProtectiveDeviceBreakerUnitTypeMotorProtection
+ifcVersion:
+  version: IFC4
+  schema: IfcElectricalDomain
+ifdGuid: ''
+definition: A coherent set of attributes representing different capacities of a a motor protection device, defined in accordance with IEC 60947. Note - A protective device may be associated with different instances of this Pset.
+applicableIfcClasses:
+- name: IfcProtectiveDeviceType
+  type: IfcProtectiveDeviceType
+properties:
+- name: PerformanceClasses
+  ifdGuid: add622fadfa34b4087dc9b51d5cdc910
+  definition: 'A set of designations of performance classes for the breaker unit for which the data of this instance is valid. A breaker unit being a motor protection device may beconstructed for different levels of breaking capacities. A maximum of 7 differentperformance classes may be provided. Examples of performance classes that may be specified include B, C, N, S, H, L, V. '
+  localizations:
+  - language: ja-JP
+    name: 能力クラス
+    definition: モータ保護を行う開閉装置は、能力が違う最大7種類がある。名称の例として、B, C, N, S, H, L, Vが含まれる。
+  - language: ko-KR
+    name: 능력클래스
+    definition: 모터 보호하는 개폐 장치는 능력이 다른 최대 7 종류가있다. 이름의 예로는, B, C, N, S, H, L, V가 포함된다.
+- name: VoltageLevel
+  ifdGuid: 915988c994bd4773925669245b1c7b30
+  definition: The voltage levels for which the data of the instance is valid. More than one value may be selected in the enumeration.
+  localizations:
+  - language: ja-JP
+    name: 電圧レベル
+    definition: 電圧レベルを選択。
+  - language: ko-KR
+    name: 전압레벨
+    definition: 전압 레벨을 선택합니다.
+- name: ICU60947
+  ifdGuid: f4866ae714ae40849588de124f389767
+  definition: The ultimate breaking capacity in [A] for a circuit breaker or motor protection device tested in accordance with the IEC 60947 series.
+  localizations:
+  - language: ja-JP
+    name: ICU60947
+    definition: IECの60947シリーズに基づいてテスト配線用遮断機またはモータ保護装置のための遮断容量を[A]で設定。
+  - language: ko-KR
+    name: ICU60947
+    definition: IEC의 60947 시리즈를 기반으로 테스트 배선용 차단기 또는 모터 보호 장치를위한 차단 용량 [A]로 설정.
+- name: ICS60947
+  ifdGuid: 5a7b24fd027042a7a15a1978d0b591cd
+  definition: The service breaking capacity in [A] for a circuit breaker or motor protection device tested in accordance with the IEC 60947 series.
+  localizations:
+  - language: ja-JP
+    name: ICS60947
+    definition: IECの60947シリーズに基づいてテスト配線用遮断機またはモータ保護装置のための遮断容量サービスを[A]で設定。
+  - language: ko-KR
+    name: ICS60947
+    definition: IEC의 60947 시리즈를 기반으로 테스트 배선용 차단기 또는 모터 보호 장치를위한 차단 용량 서비스를 [A]로 설정.
+- name: ICW60947
+  ifdGuid: fd9a354817174371ac15d50c78e0baf6
+  definition: The thermal withstand current in [A] for a circuit breaker or motor protection device tested in accordance with the IEC 60947 series. The value shall be related to 1 s.
+  localizations:
+  - language: ja-JP
+    name: ICW60947
+    definition: IEC60947シリーズに基づいてテストした配線遮断機またはモータ保護装置のための電流[A]に耐える温度。 値は、1sで与えられる。
+  - language: ko-KR
+    name: ICW60947
+    definition: IEC60947 시리즈를 기반으로 테스트 배선 차단기 또는 모터 보호 장치를위한 전류 [A]에 견디는 온도  값은 1s 주어진다.
+- name: ICM60947
+  ifdGuid: 6aa75bb2bbf34b8cbf96df39ec7ff3cb
+  definition: The making capacity in [A] for a circuit breaker or motor protection device tested in accordance with the IEC 60947 series.
+  localizations:
+  - language: ja-JP
+    name: ICM60947
+    definition: IECの60947シリーズに基づいてテストした配線遮断機またはモータ保護装置のためので作る能力[A]。
+  - language: ko-KR
+    name: ICM60947
+    definition: IEC의 60947 시리즈를 기반으로 테스트 배선 차단기 또는 모터 보호 장치를위한 만드는 능력 [A]. "

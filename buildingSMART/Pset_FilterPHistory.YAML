@@ -1,0 +1,22 @@
+﻿name: Pset_FilterPHistory
+ifcVersion:
+  version: IFC4
+  schema: IfcHvacDomain
+ifdGuid: ''
+definition: Filter performance history attributes.
+applicableIfcClasses:
+- name: IfcPerformanceHistory
+  type: IfcFilter
+properties:
+- name: CountedEfficiency
+  ifdGuid: ba77eb3191a54e5cba7a619cdf75df02
+  definition: Filter efficiency based the particle counts concentration before and after filter against particles with certain size distribution.
+  localizations: []
+- name: WeightedEfficiency
+  ifdGuid: 77038a9fdeba4957a3b2919723e74792
+  definition: Filter efficiency based the particle weight concentration before and after filter against particles with certain size distribution.
+  localizations: []
+- name: ParticleMassHolding
+  ifdGuid: 291462a7d43345718c8ef0d64fdbb421
+  definition: Mass of particle holding in the filter.
+  localizations: []

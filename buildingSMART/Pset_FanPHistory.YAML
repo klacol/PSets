@@ -1,0 +1,73 @@
+﻿name: Pset_FanPHistory
+ifcVersion:
+  version: IFC4
+  schema: IfcHvacDomain
+ifdGuid: ''
+definition: 'Fan performance history attributes.Sound attribute deleted in IFC2x2 Pset Addendum: Use IfcSoundProperties instead.'
+applicableIfcClasses:
+- name: IfcPerformanceHistory
+  type: IfcFan
+properties:
+- name: FanRotationSpeed
+  ifdGuid: f8618cdca31541c1852a13701d68f9b3
+  definition: Fan rotation speed.
+  localizations:
+  - language: ja-JP
+    name: 回転速度
+    definition: 回転速度
+- name: WheelTipSpeed
+  ifdGuid: d54b022a37174682a580d108a67923c0
+  definition: 'Fan blade tip speed, typically defined as the linear speed of the tip of the fan blade furthest from the shaft. '
+  localizations:
+  - language: ja-JP
+    name: ホイール先端速度
+    definition: ファンブレード先端速度通常、軸から最も遠いファンブレードの先端の直線速度として定義されている
+- name: FanEfficiency
+  ifdGuid: 333e9ccd759b4bba81cd4b3a8f9890a9
+  definition: Fan mechanical efficiency.
+  localizations:
+  - language: ja-JP
+    name: Fan効率
+    definition: ファン機械効率
+- name: OverallEfficiency
+  ifdGuid: cfdcbbe97aab4cbd9d74023ffeafc565
+  definition: Total efficiency of motor and fan.
+  localizations:
+  - language: ja-JP
+    name: 全体効率
+    definition: モーターとファンの全体効率
+- name: FanPowerRate
+  ifdGuid: 090eea60493e41c88da5e45ee8ad67d1
+  definition: Fan power consumption.
+  localizations:
+  - language: ja-JP
+    name: Fan効率動力量
+    definition: ファン消費電力
+- name: ShaftPowerRate
+  ifdGuid: 44eb0b81f24f49b28ae0dc1992c16e34
+  definition: Fan shaft power.
+  localizations:
+  - language: ja-JP
+    name: 軸動力量
+    definition: ファン軸動力
+- name: DischargeVelocity
+  ifdGuid: f1582654edbd49ea94594aad5af64df6
+  definition: 'The speed at which air discharges from the fan through the fan housing discharge opening. '
+  localizations:
+  - language: ja-JP
+    name: 吐出速度
+    definition: ファン吐出口からの吐出風速
+- name: DischargePressureLoss
+  ifdGuid: a2bdfbe956af4fd6b934c42c3a7f60fc
+  definition: Fan discharge pressure loss associated with the discharge arrangement.
+  localizations:
+  - language: ja-JP
+    name: 吐出圧力損失
+    definition: 吐出部に関連した吐出圧力損失
+- name: DrivePowerLoss
+  ifdGuid: fd6047bae9c545faa24585b6fd88ef15
+  definition: Fan drive power losses associated with the type of connection between the motor and the fan wheel.
+  localizations:
+  - language: ja-JP
+    name: 駆動電力損失
+    definition: ファン駆動力損失は、モータとファンホイールとの間の接続の種類に関連付けられている。

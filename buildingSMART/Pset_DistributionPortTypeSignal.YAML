@@ -1,0 +1,61 @@
+﻿name: Pset_DistributionPortTypeSignal
+ifcVersion:
+  version: IFC4
+  schema: IfcSharedBldgServiceElements
+ifdGuid: ''
+definition: Signal port occurrence attributes attached to an instance of IfcDistributionPort.
+applicableIfcClasses:
+- name: IfcDistributionPort
+  type: IfcDistributionPort/SIGNAL
+properties:
+- name: ConnectionType
+  definition: 'The physical port connection:CRIMP: bare wireRJ: registered jack'
+  localizations:
+  - language: ja-JP
+    name: 接続タイプ
+    definition: '物理ポート接続：- CRIMP: 裸線- RJ: 登録済みジャック'
+  - language: ko-KR
+    name: 연결유형
+    definition: 'CRIMP : 나선 RJ : 등록된 잭'
+- name: ConnectionSubtype
+  definition: 'The physical port connection subtype that further qualifies the ConnectionType.  The following values are recommended:DSub: DA15, DB25, DC37, DD50, DE9, DE15 RJ: 4P4C, 6P2C, 8P8C '
+  localizations:
+  - language: ja-JP
+    name: 接続サブタイプ
+    definition: '物理ポート接続のサブタイプ。接続タイプ以外の情報を設定する場合に使用。下記の値を設定：- DSub: DA15, DB25, DC37, DD50, DE9, DE15 - RJ: 4P4C, 6P2C, 8P8C'
+  - language: ko-KR
+    name: 연결 서브 타입
+    definition: 'DSub : DA15, DB25, DC37, DD50, DE9, DE15 RJ : 4P4C, 6P2C, 8P8C'
+- name: ConnectionGender
+  definition: The physical connection gender.
+  localizations:
+  - language: ja-JP
+    name: 接続ジェンダー
+    definition: 形状的な接続ジェンダー（オス、メス、その他、未知、未設定）。
+  - language: ko-KR
+    name: 연결 젠터
+    definition: 형상적인 연결 젠더
+- name: Current
+  definition: The nominal current and operable range.
+  localizations:
+  - language: ja-JP
+    name: 電流
+    definition: 公称電流と操作可能な範囲。
+  - language: ko-KR
+    name: 전류
+    definition: 공칭 전류와 작동 가능한 범위
+- name: Voltage
+  definition: The nominal voltage and operable range.
+  localizations:
+  - language: ja-JP
+    name: 電圧
+    definition: 公称電圧と操作可能な範囲。
+  - language: ko-KR
+    name: 전압
+    definition: 공칭 전압과 조작 가능한 범위
+- name: SignalIO
+  definition: Indicates whether the signal is interpreted as analog or digital.
+  localizations:
+  - language: ko-KR
+    name: 신호
+    definition: 논리 신호 값

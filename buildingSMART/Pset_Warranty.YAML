@@ -1,0 +1,44 @@
+﻿name: Pset_Warranty
+ifcVersion:
+  version: IFC4
+  schema: IfcSharedFacilitiesElements
+ifdGuid: ''
+definition: An assurance given by the seller or provider of an artefact that the artefact is without defects and will operate as described for a defined period of time without failure and that if a defect does arise during that time, that it will be corrected by the seller or provider.
+applicableIfcClasses:
+- name: IfcElement
+  type: IfcElementType
+- name: IfcElementType
+  type: IfcElementType
+properties:
+- name: WarrantyIdentifier
+  ifdGuid: 2c36790df63641b196fb8d0fb4529d75
+  definition: The identifier assigned to a warranty.
+  localizations: []
+- name: WarrantyStartDate
+  ifdGuid: ae97918b25ac4b749d67eea0da74bf83
+  definition: The date on which the warranty commences.
+  localizations: []
+- name: WarrantyEndDate
+  ifdGuid: 61a4c83c6b7047a499da01d6486183c2
+  definition: The date on which the warranty expires.
+  localizations: []
+- name: IsExtendedWarranty
+  ifdGuid: 6f9ea410037645948574b433f1ccfa92
+  definition: Indication of whether this is an extended warranty whose duration is greater than that normally assigned to an artefact (=TRUE) or not (= FALSE).
+  localizations: []
+- name: WarrantyPeriod
+  ifdGuid: 1f9c9357f1d04962b24bbe38ef2895eb
+  definition: The time duration during which a manufacturer or supplier guarantees or warrants the performance of an artefact.
+  localizations: []
+- name: PointOfContact
+  ifdGuid: 4ea6006da3f0484db2bc871cc2d80aba
+  definition: The organization that should be contacted for action under the terms of the warranty. Note that the role of the organization (manufacturer, supplier, installer etc.) is determined by the IfcActorRole attribute of IfcOrganization.
+  localizations: []
+- name: WarrantyContent
+  ifdGuid: 5095996bcb024bbb841bc2c1a4549821
+  definition: The content of the warranty.
+  localizations: []
+- name: Exclusions
+  ifdGuid: 25b70b152ae14da898ab426db40992e9
+  definition: Items, conditions or actions that may be excluded from the warranty or that may cause the warranty to become void.
+  localizations: []

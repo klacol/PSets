@@ -1,0 +1,18 @@
+﻿name: Pset_FurnitureTypeTable
+ifcVersion:
+  version: IFC4
+  schema: IfcSharedFacilitiesElements
+ifdGuid: ''
+definition: 'HISTORY: First issued in IFC Release R1.5. Renamed from Pset_Table'
+applicableIfcClasses:
+- name: IfcFurnitureType
+  type: IfcFurnitureType/TABLE
+properties:
+- name: WorksurfaceArea
+  ifdGuid: 7043fc08d61945a3b299f1152723a113
+  definition: The value of the work surface area of the desk..
+  localizations: []
+- name: NumberOfChairs
+  ifdGuid: 83a36fcf53334be2a17f218504df5351
+  definition: Maximum number of chairs that can fit with the table for normal use.
+  localizations: []

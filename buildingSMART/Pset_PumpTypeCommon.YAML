@@ -1,0 +1,64 @@
+﻿name: Pset_PumpTypeCommon
+ifcVersion:
+  version: IFC4
+  schema: IfcHvacDomain
+ifdGuid: ''
+definition: Common attributes of a pump type.
+applicableIfcClasses:
+- name: IfcPumpType
+  type: IfcPumpType
+properties:
+- name: Reference
+  definition: Reference ID for this specified type in this project (e.g. type 'A-1').
+  localizations:
+  - language: ja-JP
+    name: 参照記号
+    definition: このプロジェクトにおける参照記号(例：A-1)。分類コードではなく内部で使用されるプロジェクトタイプとして使用されるもの。
+- name: Status
+  definition: 'Status of the element, predominately used in renovation or retrofitting projects. The status can be assigned to as "New" - element designed as new addition, "Existing" - element exists and remains, "Demolish" - element existed but is to be demolished,  "Temporary" - element will exists only temporary (like a temporary support structure). '
+  localizations:
+  - language: ja-JP
+    name: 状態
+    definition: 要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+- name: FlowRateRange
+  ifdGuid: 9973ff7df5b94db3b0849899a0d587a8
+  definition: Allowable range of volume of fluid being pumped against the resistance specified.
+  localizations:
+  - language: ja-JP
+    name: 流量範囲
+    definition: 指定された抵抗に対してポンプでくみ上げ可能な流対量の許容範囲
+- name: FlowResistanceRange
+  ifdGuid: 7c6e56a252e34a66922d32c54876481c
+  definition: Allowable range of frictional resistance against which the fluid is being pumped.
+  localizations:
+  - language: ja-JP
+    name: 流体抵抗の範囲
+    definition: 流体をポンプでくみ上げる際の摩擦抵抗の許容範囲
+- name: ConnectionSize
+  ifdGuid: fe5398a6ccab48289f70b3cf8dcc61ad
+  definition: The connection size of the to and from the pump.
+  localizations:
+  - language: ja-JP
+    name: 接続サイズ
+    definition: ポンプの入出の接続サイズ
+- name: TemperatureRange
+  ifdGuid: cae37fffd92e40b4861c4c403a84dead
+  definition: Allowable operational range of the fluid temperature.
+  localizations:
+  - language: ja-JP
+    name: 温度範囲
+    definition: 流体温度の許容範囲
+- name: NetPositiveSuctionHead
+  ifdGuid: e3a16ab21c53401b86622020637ff2ee
+  definition: 'Minimum liquid pressure at the pump inlet to prevent cavitation. '
+  localizations:
+  - language: ja-JP
+    name: 正味吸入側水頭
+    definition: キャビテーションを防ぐポンプ入口の最小限の流体圧力
+- name: NominalRotationSpeed
+  ifdGuid: fe3add8ffab14aaa83699300aff51ad0
+  definition: Pump rotational speed under nominal conditions.
+  localizations:
+  - language: ja-JP
+    name: 通常の回転速度
+    definition: 多目的な状況の下でのポンプの回転速度

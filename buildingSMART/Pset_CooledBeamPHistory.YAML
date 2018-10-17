@@ -1,0 +1,62 @@
+﻿name: Pset_CooledBeamPHistory
+ifcVersion:
+  version: IFC4
+  schema: IfcHvacDomain
+ifdGuid: ''
+definition: Common performance history attributes for a cooled beam.
+applicableIfcClasses:
+- name: IfcPerformanceHistory
+  type: IfcCooledBeam[PerformanceHistory]
+properties:
+- name: TotalCoolingCapacity
+  ifdGuid: b606043254ba480894ff34e6ecc55122
+  definition: Total cooling capacity. This includes cooling capacity of beam and cooling capacity of supply air.
+  localizations: []
+- name: TotalHeatingCapacity
+  ifdGuid: 75116071c33841ebaecc3c98e75bdc1e
+  definition: Total heating capacity. This includes heating capacity of beam and heating capacity of supply air.
+  localizations: []
+- name: BeamCoolingCapacity
+  ifdGuid: a57df816aab7463ca00d6bf64bd5e75f
+  definition: Cooling capacity of beam. This excludes cooling capacity of supply air.
+  localizations: []
+- name: BeamHeatingCapacity
+  ifdGuid: b20107c6cc2d4baa93cb49ac568355e0
+  definition: Heating capacity of beam. This excludes heating capacity of supply air.
+  localizations: []
+- name: CoolingWaterFlowRate
+  ifdGuid: f180be8536574bff9f7b18552ccbba55
+  definition: Water flow rate for cooling.
+  localizations: []
+- name: HeatingWaterFlowRate
+  ifdGuid: 70ac6c4a0476476ebb1b0ed7d0a4e6aa
+  definition: Water flow rate for heating.
+  localizations: []
+- name: CorrectionFactorForCooling
+  ifdGuid: d7b6f05e2f9140fb88a7df2332b49440
+  definition: Correction factor k as a function of water flow rate (used to calculate cooling capacity).
+  localizations: []
+- name: CorrectionFactorForHeating
+  ifdGuid: b4797895b26f4e0e95adc9f75c668654
+  definition: Correction factor k as a function of water flow rate (used to calculate heating capacity).
+  localizations: []
+- name: WaterPressureDropCurves
+  ifdGuid: 039fb2576e66481ca5eb3ce7de578d13
+  definition: Water pressure drop as function of water flow rate.
+  localizations: []
+- name: SupplyWaterTemperatureCooling
+  ifdGuid: 6245c61f8a2a4039ab19dfa023b3826f
+  definition: Supply water temperature in cooling mode.
+  localizations: []
+- name: ReturnWaterTemperatureCooling
+  ifdGuid: d2c08402ba56455cb168e05dc689ff60
+  definition: Return water temperature in cooling mode.
+  localizations: []
+- name: SupplyWaterTemperatureHeating
+  ifdGuid: dab726e59f2448928f41d34175bb66e0
+  definition: Supply water temperature in heating mode.
+  localizations: []
+- name: ReturnWaterTemperatureHeating
+  ifdGuid: e9a39271720843cfa4b679158446433a
+  definition: Return water temperature in heating mode.
+  localizations: []

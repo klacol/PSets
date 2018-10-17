@@ -1,0 +1,91 @@
+﻿name: Pset_FanTypeCommon
+ifcVersion:
+  version: IFC4
+  schema: IfcHvacDomain
+ifdGuid: ''
+definition: Fan type common attributes.
+applicableIfcClasses:
+- name: IfcFanType
+  type: IfcFanType
+properties:
+- name: Reference
+  definition: Reference ID for this specified type in this project (e.g. type 'A-1').
+  localizations:
+  - language: ja-JP
+    name: 参照記号
+    definition: このプロジェクトにおける参照記号(例：A-1)。分類コードではなく内部で使用されるプロジェクトタイプとして使用されるもの。
+- name: Status
+  definition: 'Status of the element, predominately used in renovation or retrofitting projects. The status can be assigned to as "New" - element designed as new addition, "Existing" - element exists and remains, "Demolish" - element existed but is to be demolished,  "Temporary" - element will exists only temporary (like a temporary support structure). '
+  localizations:
+  - language: ja-JP
+    name: 状態
+    definition: 要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+- name: MotorDriveType
+  ifdGuid: d194532d05164c2d8f1139114f80333c
+  definition: 'Motor drive type:DIRECTDRIVE: Direct drive. BELTDRIVE: Belt drive. COUPLING: Coupling. OTHER: Other type of motor drive. UNKNOWN: Unknown motor drive type.'
+  localizations:
+  - language: ja-JP
+    name: モーター駆動種類
+    definition: 'モーター駆動種類DIRECTDRIVE: ダイレクトドライブBELTDRIVE: ベルトドライブCOUPLING: カップリングOTHER: その他'
+- name: CapacityControlType
+  ifdGuid: 4227b3b83c884d30adc6a7f6ab6669b0
+  definition: 'InletVane: Control by adjusting inlet vane.VariableSpeedDrive: Control by variable speed drive. BladePitchAngle: Control by adjusting blade pitch angle.TwoSpeed: Control by switch between high and low speed.DischargeDamper: Control by modulating discharge damper.'
+  localizations:
+  - language: ja-JP
+    name: 容量制御方式
+    definition: 'InletVane: インレットベーンVariableSpeedDrive: 変速駆動 BladePitchAngle: 羽根ピッチ制御TwoSpeed: 二速制御DischargeDamper: 吐出ダンパ制御'
+- name: OperationTemperatureRange
+  ifdGuid: a5de430f978e4b56b299c215bf601ef4
+  definition: Allowable operation ambient air temperature range.
+  localizations:
+  - language: ja-JP
+    name: 動作温度範囲
+    definition: 許容動作周囲温度範囲
+- name: NominalAirFlowRate
+  ifdGuid: a2c8ac2656f14740861ce965f2ab082e
+  definition: Nominal air flow rate.
+  localizations:
+  - language: ja-JP
+    name: 設計風量
+    definition: 設計風量
+- name: NominalTotalPressure
+  ifdGuid: a6bd7bd9165b4ac0a1c5cf14a4c5adb5
+  definition: Nominal total pressure rise across the fan.
+  localizations:
+  - language: ja-JP
+    name: 設計全圧
+    definition: ファンでの設計全圧上昇
+- name: NominalStaticPressure
+  ifdGuid: 658ee33551df4fdd821cc96e9586aa51
+  definition: The static pressure within the air stream that the fan must overcome to insure designed circulation of air.
+  localizations:
+  - language: ja-JP
+    name: 設計静圧
+    definition: 設計空気循環量を保証するためにファンが克服しなければならない気流中の静圧
+- name: NominalRotationSpeed
+  ifdGuid: 12015f7b25c54595aca346da73cd4a92
+  definition: Nominal fan wheel speed.
+  localizations:
+  - language: ja-JP
+    name: 設計回転速度
+    definition: 設計ホイール速度
+- name: NominalPowerRate
+  ifdGuid: ecbe8eacf21f459da1dd29ea8f01f4b8
+  definition: Nominal fan power rate.
+  localizations:
+  - language: ja-JP
+    name: 設計動力
+    definition: 設計動力
+- name: OperationalCriteria
+  ifdGuid: 7a588f5097844caea5bc9cee9ed0749a
+  definition: Time of operation at maximum operational ambient air temperature.
+  localizations:
+  - language: ja-JP
+    name: 動作環境
+    definition: 最大動作周囲温度での動作の時間
+- name: PressureCurve
+  definition: Pressure rise = f (flow rate).
+  localizations: []
+- name: EfficiencyCurve
+  definition: Fan efficiency =f (flow rate).
+  localizations: []

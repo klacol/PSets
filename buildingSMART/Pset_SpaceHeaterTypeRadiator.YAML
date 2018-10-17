@@ -1,0 +1,28 @@
+﻿name: Pset_SpaceHeaterTypeRadiator
+ifcVersion:
+  version: IFC4
+  schema: IfcHvacDomain
+ifdGuid: ''
+definition: Space heater type radiator attributes.
+applicableIfcClasses:
+- name: IfcSpaceHeaterType
+  type: IfcSpaceHeaterType/RADIATOR
+properties:
+- name: RadiatorType
+  definition: Indicates the type of radiator.
+  localizations:
+  - language: ja-JP
+    name: ラジエータータイプ
+    definition: ラジエーターの種類
+- name: TubingLength
+  definition: 'Water tube length inside the component. '
+  localizations:
+  - language: ja-JP
+    name: チューブの長さ
+    definition: 構成要素における水管の長さ
+- name: WaterContent
+  definition: 'Weight of water content within the heater. '
+  localizations:
+  - language: ja-JP
+    name: 水含量
+    definition: ヒーター内部の水分の重み

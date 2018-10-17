@@ -1,0 +1,31 @@
+﻿name: Pset_ActionRequest
+ifcVersion:
+  version: IFC4
+  schema: IfcSharedMgmtElements
+ifdGuid: ''
+definition: 'An action request is a request for an action to fulfill a need.  HISTORY: IFC4: Removed RequestSourceType, RequestDescription, Status'
+applicableIfcClasses:
+- name: IfcActionRequest
+  type: IfcActionRequest
+properties:
+- name: RequestSourceLabel
+  ifdGuid: ac5787a11fe94b9d83e7f249433f86f7
+  definition: A specific name or label that further qualifies the identity of a request source. In the event of an email, this may be the email address.
+  localizations:
+  - language: ja-JP
+    name: 要請ソースタイプ
+    definition: 要請がなされる源のあらかじめ定義されたタイプの識別子。
+- name: RequestSourceName
+  ifdGuid: 57735433d37a4372b84c44a53ac146fa
+  definition: The person making the request, where known.
+  localizations:
+  - language: ja-JP
+    name: 要請ソースラベル
+    definition: 要請源の識別を確認するための特定の名称またはラベル。電子メールの場合、電子メールアドレスに相当する。
+- name: RequestComments
+  ifdGuid: 9064f3bb6bff41bca862c7308a52500a
+  definition: Comments that may be made on the request.
+  localizations:
+  - language: ja-JP
+    name: 要請ソース名
+    definition: 要請を作成する人物の名称。

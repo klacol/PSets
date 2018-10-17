@@ -1,0 +1,25 @@
+﻿name: Pset_MaterialMechanical
+ifcVersion:
+  version: IFC4
+  schema: IfcMaterialResource
+ifdGuid: ''
+definition: A set of mechanical material properties normally used for structural analysis purpose. It contains all properties which are independent of the actual material type.
+applicableIfcClasses:
+- name: IfcMaterial
+  type: IfcMaterial
+properties:
+- name: DynamicViscosity
+  definition: A measure of the viscous resistance of the material.
+  localizations: []
+- name: YoungModulus
+  definition: A measure of the Young's modulus of elasticity of the material.
+  localizations: []
+- name: ShearModulus
+  definition: A measure of the shear modulus of elasticity of the material.
+  localizations: []
+- name: PoissonRatio
+  definition: A measure of the lateral deformations in the elastic range.
+  localizations: []
+- name: ThermalExpansionCoefficient
+  definition: A measure of the expansion coefficient for warming up the material about one Kelvin.
+  localizations: []

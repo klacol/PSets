@@ -1,0 +1,40 @@
+﻿name: Pset_SensorTypeSmokeSensor
+ifcVersion:
+  version: IFC4
+  schema: IfcBuildingControlsDomain
+ifdGuid: ''
+definition: 'A device that senses or detects smoke. HISTORY: PressureSensorSensorSetPoint (error in previous release) changed to SetPointConcentration. Range, accuracy and time constant deleted.'
+applicableIfcClasses:
+- name: IfcSensorType
+  type: IfcSensorType/SMOKESENSOR
+properties:
+- name: CoverageArea
+  ifdGuid: 721cbb8b80c043269a586db88b590d04
+  definition: The floor area that is covered by the sensor (typically measured as a circle whose center is at the location of the sensor).
+  localizations:
+  - language: ja-JP
+    name: 測定範囲
+    definition: センサでカバーされている床面積。(通常、センターがセンサの位置にある円として測定される)
+  - language: ko-KR
+    name: 측정 범위
+    definition: 센서 커버되는 바닥 면적. (일반적으로 센터 센서의 위치에있는 원형으로 측정되는)
+- name: SetPointConcentration
+  ifdGuid: 07b0055e38974cd7bb4daf3fc1e1b024
+  definition: The smoke concentration value to be sensed. Use IfcPropertyBoundedValue.SetPointValue to set the set point value.
+  localizations:
+  - language: ja-JP
+    name: 煙濃度設定値
+    definition: 感知される煙濃度。セットポイント値を置くために、IfcPropertyBoundedValue.SetPointValueを使用する。
+  - language: ko-KR
+    name: 연기 농도 설정
+    definition: 감지되는 연기 농도. 세트 포인트 값을 넣으려면, IfcPropertyBoundedValue.SetPointValue를 사용하십시오.
+- name: HasBuiltInAlarm
+  ifdGuid: 9505c16b042d405784f673f332e29bb6
+  definition: Indicates whether the smoke sensor is included as an element within a smoke alarm/sensor unit (TRUE) or not (FALSE).
+  localizations:
+  - language: ja-JP
+    name: 煙警報器に含まれているか
+    definition: 煙センサーが煙警報センサユニットの中に要素として含まれているか(TRUE)、否か(FALSE)を識別する。
+  - language: ko-KR
+    name: 연기 경보기에 포함여부
+    definition: 연기 센서가 화재 경보 센서 유닛의 요소로 포함되어 있는지 (TRUE) 여부 (FALSE)를 확인한다.

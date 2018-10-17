@@ -1,0 +1,30 @@
+﻿name: Pset_DistributionPortPHistoryPipe
+ifcVersion:
+  version: IFC4
+ifdGuid: ''
+definition: Log of substance usage attached to an instance of IfcPerformanceHistory having an assigned IfcDistributionPort of type PIPE.
+applicableIfcClasses:
+- name: IfcDistributionPort/GAS
+  type: IfcDistributionPort/GAS
+properties:
+- name: Temperature
+  ifdGuid: 36d77e7919364513b229f61c7632a638
+  definition: ConsoleAppYamlTest.PropertyType
+  localizations:
+  - language: ja-JP
+    name: 温度
+    definition: 燃料の温度。
+- name: Pressure
+  ifdGuid: d31964c0ab4f444aa3a526a72084e705
+  definition: ConsoleAppYamlTest.PropertyType
+  localizations:
+  - language: ja-JP
+    name: 圧力
+    definition: 燃料の圧力。
+- name: Flowrate
+  ifdGuid: 7a3f6bee58104037a997d1c2cbd68a4d
+  definition: ConsoleAppYamlTest.PropertyType
+  localizations:
+  - language: ja-JP
+    name: 流量
+    definition: 燃料の流速。

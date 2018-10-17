@@ -1,0 +1,22 @@
+﻿name: Pset_BuildingSystemCommon
+ifcVersion:
+  version: IFC4
+ifdGuid: ''
+definition: Properties common to the definition of building systems.
+applicableIfcClasses:
+- name: IfcBuildingSystem
+  type: IfcBuildingSystem
+properties:
+- name: Reference
+  ifdGuid: b13aaa80d1c511e1800000215ad4efdf
+  definition: ConsoleAppYamlTest.PropertyType
+  localizations:
+  - language: de-DE
+    name: Kennzeichen
+    definition: Kennzeichen für diese bauliche System in dem Projekt (z.B. 'TRA/EL1'). Die Kennzeichensystematik hängt von den jeweiligen nationalen/regionalen Regelungen ab.
+  - language: ja-JP
+    name: 参照記号
+    definition: このプロジェクトにおける建物システムの指定されたインスタンスの参照記号
+  - language: zh-CN
+    name: 参考号
+    definition: 该项目中该特定建筑系统实例的参考编号（例如，“TRA/EL1”）。该属性值由当地编码规范决定。

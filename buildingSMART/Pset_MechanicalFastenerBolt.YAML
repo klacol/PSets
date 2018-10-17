@@ -1,0 +1,34 @@
+﻿name: Pset_MechanicalFastenerBolt
+ifcVersion:
+  version: IFC4
+  schema: IfcSharedComponentElements
+ifdGuid: ''
+definition: Properties related to bolt-type fasteners. The properties of a whole set with bolt, washers and nut may be provided. Note, it is usually not necessary to transmit these properties in case of standardized bolts. Instead, the standard is referred to.
+applicableIfcClasses:
+- name: IfcMechanicalFastener
+  type: IfcMechanicalFastener/BOLT
+properties:
+- name: ThreadDiameter
+  definition: Nominal diameter of the thread, if different from the bolt's overall nominal diameter
+  localizations: []
+- name: ThreadLength
+  definition: Nominal length of the thread
+  localizations: []
+- name: NutsCount
+  definition: Count of nuts to be mounted on one bolt
+  localizations: []
+- name: WashersCount
+  definition: Count of washers to be mounted on one bolt
+  localizations: []
+- name: HeadShape
+  definition: Shape of the bolt's head, e.g. 'Hexagon', 'Countersunk', 'Cheese'
+  localizations: []
+- name: KeyShape
+  definition: If applicable, shape of the head's slot, e.g. 'Slot', 'Allen'
+  localizations: []
+- name: NutShape
+  definition: Shape of the nut, e.g. 'Hexagon', 'Cap', 'Castle', 'Wing'
+  localizations: []
+- name: WasherShape
+  definition: Shape of the washers, e.g. 'Standard', 'Square'
+  localizations: []
