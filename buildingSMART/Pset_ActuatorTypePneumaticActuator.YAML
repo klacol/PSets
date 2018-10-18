@@ -2,15 +2,15 @@
 ifcVersion:
   version: IFC4
   schema: IfcBuildingControlsDomain
-ifdGuid: ''
-definition: 'A device that pneumatically actuates a control element '
+ifdGuid: '2LCmi0qRqHuO00025QrE$V'
+definition: 'A device that pneumatically actuates a control element'
 applicableIfcClasses:
 - name: IfcActuatorType
   type: IfcActuatorType/PNEUMATICACTUATOR
 properties:
 - name: InputPressure
   ifdGuid: d13f472f69c14d26a7a1064391c8a3c5
-  definition: 'Maximum input control air pressure requirement. '
+  definition: 'Maximum input control air pressure requirement.'
   localizations:
   - language: ja-JP
     name: 入力圧力
