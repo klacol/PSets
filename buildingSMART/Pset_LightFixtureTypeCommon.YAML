@@ -22,7 +22,7 @@ properties:
     definition: 要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
 - name: NumberOfSources
   ifdGuid: bd34644754f540afa50c302bc4116b3f
-  definition: Number of sources .
+  definition: Number of sources
   localizations:
   - language: ja-JP
     name: 電球数
