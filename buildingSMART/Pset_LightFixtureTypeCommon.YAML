@@ -34,6 +34,9 @@ properties:
   ifdGuid: b78ffa15dd014fcea471088c14693881
   definition: Wattage on whole lightfitting device with all sources intact.
   localizations:
+  - language: de-DE
+    name: Gesamanschlussleistung
+    definition: Definition der Gesamanschlussleistung
   - language: ja-JP
     name: 総ワット数
     definition: 全ての照明器具のワット数。
