@@ -1,25 +1,123 @@
 ﻿name: Pset_MaterialHygroscopic
 ifcVersion:
-  version: IFC4
+  version: 4.0.0.0
   schema: IfcMaterialResource
 ifdGuid: ''
 definition: A set of hygroscopic properties of materials.
+localizations:
+- language: en-EN
+  name: ''
+  definition: ''
+- language: de-DE
+  name: ''
+  definition: ''
+- language: fr-FR
+  name: ''
+  definition: ''
+- language: ja-JP
+  name: ''
+  definition: ''
 applicableIfcClasses:
 - name: IfcMaterial
   type: IfcMaterial
 properties:
 - name: UpperVaporResistanceFactor
   definition: The vapor permeability relationship of air/material (typically value > 1), measured in high relative humidity (typically in 95/50 % RH).
-  localizations: []
+  ifdGuid: ''
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPositiveRatioMeasure
+    measureType: ''
+    unitType: USERDEFINED
 - name: LowerVaporResistanceFactor
   definition: The vapor permeability relationship of air/material (typically value > 1), measured in low relative humidity (typically in 0/50 % RH).
-  localizations: []
+  ifdGuid: ''
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPositiveRatioMeasure
+    measureType: ''
+    unitType: USERDEFINED
 - name: IsothermalMoistureCapacity
   definition: Based on water vapor density.
-  localizations: []
+  ifdGuid: ''
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcIsothermalMoistureCapacityMeasure
+    measureType: ''
+    unitType: USERDEFINED
 - name: VaporPermeability
   definition: The rate of water vapor transmission per unit area per unit of vapor pressure differential under test conditions.
-  localizations: []
+  ifdGuid: ''
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcVaporPermeabilityMeasure
+    measureType: ''
+    unitType: USERDEFINED
 - name: MoistureDiffusivity
   definition: Moisture diffusivity is a transport property that is frequently used in the hygrothermal analysis of building envelope components.
-  localizations: []
+  ifdGuid: ''
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcMoistureDiffusivityMeasure
+    measureType: ''
+    unitType: USERDEFINED

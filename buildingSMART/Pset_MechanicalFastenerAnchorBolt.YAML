@@ -1,15 +1,29 @@
 ﻿name: Pset_MechanicalFastenerAnchorBolt
 ifcVersion:
-  version: IFC4
+  version: 4.0.0.0
   schema: IfcSharedComponentElements
 ifdGuid: ''
 definition: Properties common to different types of anchor bolts.
+localizations:
+- language: en-EN
+  name: ''
+  definition: ''
+- language: de-DE
+  name: ''
+  definition: ''
+- language: fr-FR
+  name: ''
+  definition: ''
+- language: ja-JP
+  name: ''
+  definition: ''
 applicableIfcClasses:
 - name: IfcMechanicalFastener
   type: IfcMechanicalFastener/ANCHORBOLT
 properties:
 - name: AnchorBoltLength
   definition: The length of the anchor bolt.
+  ifdGuid: ''
   localizations:
   - language: ja-JP
     name: 長さ
@@ -17,8 +31,22 @@ properties:
   - language: ko-KR
     name: 길이
     definition: 앵커 볼트의 길이
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPositiveLengthMeasure
+    measureType: ''
+    unitType: LENGTHUNIT
 - name: AnchorBoltDiameter
   definition: The nominal diameter of the anchor bolt bar(s).
+  ifdGuid: ''
   localizations:
   - language: ja-JP
     name: 直径
@@ -26,15 +54,62 @@ properties:
   - language: ko-KR
     name: 지름
     definition: 앵커 볼트의 공칭 직경
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPositiveLengthMeasure
+    measureType: ''
+    unitType: LENGTHUNIT
 - name: AnchorBoltThreadLength
   definition: The length of the threaded part of the anchor bolt.
+  ifdGuid: ''
   localizations:
   - language: ko-KR
     name: 나사부 길이
     definition: 앵커 볼트의 나사 부분의 길이
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPositiveLengthMeasure
+    measureType: ''
+    unitType: LENGTHUNIT
 - name: AnchorBoltProtrusionLength
   definition: The length of the protruding part of the anchor bolt.
+  ifdGuid: ''
   localizations:
   - language: ko-KR
     name: 돌출부 길이
     definition: 앵커 볼트의 돌출 부분의 길이
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPositiveLengthMeasure
+    measureType: ''
+    unitType: LENGTHUNIT

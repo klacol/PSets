@@ -1,17 +1,43 @@
 ﻿name: Pset_ValveTypeGasTap
 ifcVersion:
-  version: IFC4
+  version: 4.0.0.0
   schema: IfcHvacDomain
 ifdGuid: ''
 definition: A small diameter valve, used to discharge gas from a system.
+localizations:
+- language: en-EN
+  name: ''
+  definition: ''
+- language: de-DE
+  name: ''
+  definition: ''
+- language: fr-FR
+  name: ''
+  definition: ''
+- language: ja-JP
+  name: ''
+  definition: ''
 applicableIfcClasses:
 - name: IfcValveType
   type: IfcValveType/GASTAP
 properties:
 - name: HasHoseUnion
-  ifdGuid: 7e8d3a66e2604516b1a1ace1b201ce2a
   definition: Indicates whether the gas tap is fitted with a hose union connection (= TRUE) or not (= FALSE).
+  ifdGuid: 1_ZJfcuc155h6XhE6o0Sug
   localizations:
   - language: ja-JP
     name: ホースユニオン付き
     definition: 排水コックにホースユニオン継手が付いているかの表示．付き(= TRUE)無し (= FALSE)
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcBoolean
+    measureType: ''
+    unitType: USERDEFINED

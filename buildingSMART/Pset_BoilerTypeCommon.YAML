@@ -1,15 +1,29 @@
 ﻿name: Pset_BoilerTypeCommon
 ifcVersion:
-  version: IFC4
+  version: 4.0.0.0
   schema: IfcHvacDomain
 ifdGuid: ''
 definition: 'Boiler type common attributes.SoundLevel attribute deleted in IFC2x2 Pset Addendum: Use IfcSoundProperties instead. PrimaryEnergySource and AuxiliaryEnergySource attributes deleted in IFC2x2 Pset Addendum: Use IfcEnergyProperties, IfcFuelProperties, etc. instead.'
+localizations:
+- language: en-EN
+  name: ''
+  definition: ''
+- language: de-DE
+  name: ''
+  definition: ''
+- language: fr-FR
+  name: ''
+  definition: ''
+- language: ja-JP
+  name: ''
+  definition: ''
 applicableIfcClasses:
 - name: IfcBoilerType
   type: IfcBoilerType
 properties:
 - name: Reference
-  definition: "Reference ID for this specified type in this project (e.g. type 'A-1'), provided, if there is no classification reference to a recognized classification system used. "
+  definition: Reference ID for this specified type in this project (e.g. type 'A-1'), provided, if there is no classification reference to a recognized classification system used.
+  ifdGuid: ''
   localizations:
   - language: fr-FR
     name: Référence
@@ -17,8 +31,19 @@ properties:
   - language: ja-JP
     name: 参照記号
     definition: このプロジェクトにおける参照記号(例：A-1)。分類コードではなく内部で使用されるプロジェクトタイプとして使用されるもの。
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcIdentifier
+    measureType: ''
+    unitType: USERDEFINED
 - name: Status
-  definition: 'Status of the element, predominately used in renovation or retrofitting projects. The status can be assigned to as "New" - element designed as new addition, "Existing" - element exists and remains, "Demolish" - element existed but is to be demolished,  "Temporary" - element will exists only temporary (like a temporary support structure). '
+  definition: Status of the element, predominately used in renovation or retrofitting projects. The status can be assigned to as "New" - element designed as new addition, "Existing" - element exists and remains, "Demolish" - element existed but is to be demolished,  "Temporary" - element will exists only temporary (like a temporary support structure).
+  ifdGuid: ''
   localizations:
   - language: fr-FR
     name: Etat
@@ -26,9 +51,114 @@ properties:
   - language: ja-JP
     name: 状態
     definition: 要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  typePropertyEnumeratedValue:
+    listName: PEnum_Status
+    enumerationValues:
+    - name: NEW
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: New
+        definition: ''
+      - language: de-DE
+        name: New
+        definition: ''
+      - language: fr-FR
+        name: New
+        definition: ''
+      - language: ja-JP
+        name: New
+        definition: ''
+    - name: EXISTING
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Existing
+        definition: ''
+      - language: de-DE
+        name: Existing
+        definition: ''
+      - language: fr-FR
+        name: Existing
+        definition: ''
+      - language: ja-JP
+        name: Existing
+        definition: ''
+    - name: DEMOLISH
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Demolish
+        definition: ''
+      - language: de-DE
+        name: Demolish
+        definition: ''
+      - language: fr-FR
+        name: Demolish
+        definition: ''
+      - language: ja-JP
+        name: Demolish
+        definition: ''
+    - name: TEMPORARY
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Temporary
+        definition: ''
+      - language: de-DE
+        name: Temporary
+        definition: ''
+      - language: fr-FR
+        name: Temporary
+        definition: ''
+      - language: ja-JP
+        name: Temporary
+        definition: ''
+    - name: OTHER
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Other
+        definition: ''
+      - language: de-DE
+        name: Other
+        definition: ''
+      - language: fr-FR
+        name: Other
+        definition: ''
+      - language: ja-JP
+        name: Other
+        definition: ''
+    - name: UNKNOWN
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Unknown
+        definition: ''
+      - language: de-DE
+        name: Unknown
+        definition: ''
+      - language: fr-FR
+        name: Unknown
+        definition: ''
+      - language: ja-JP
+        name: Unknown
+        definition: ''
 - name: PressureRating
-  ifdGuid: e8d2a0f1c19c4bd0a465f06b22a943c6
   definition: Nominal pressure rating of the boiler as rated by the agency having jurisdiction.
+  ifdGuid: 3eqg3nmPnBqAHby6iYgKF6
   localizations:
   - language: fr-FR
     name: PressionAdmissibleNominale
@@ -36,9 +166,19 @@ properties:
   - language: ja-JP
     name: 常用圧力
     definition: 管轄組織により設定されたボイラの常用圧力
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPressureMeasure
+    measureType: ''
+    unitType: PRESSUREUNIT
 - name: OperatingMode
-  ifdGuid: aa835531baeb432f8a768eaefbcb1182
   definition: Identifies the operating mode of the boiler.
+  ifdGuid: 2gWrKnkkj3BufsZgxxon62
   localizations:
   - language: fr-FR
     name: ModeFonctionnement
@@ -46,9 +186,98 @@ properties:
   - language: ja-JP
     name: 動作モード
     definition: ボイラの動作モードのID　（固定、２段階、比例．．．）
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  typePropertyEnumeratedValue:
+    listName: PEnum_BoilerOperatingMode
+    enumerationValues:
+    - name: FIXED
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Fixed
+        definition: ''
+      - language: de-DE
+        name: Fixed
+        definition: ''
+      - language: fr-FR
+        name: Fixed
+        definition: ''
+      - language: ja-JP
+        name: Fixed
+        definition: ''
+    - name: TWOSTEP
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Twostep
+        definition: ''
+      - language: de-DE
+        name: Twostep
+        definition: ''
+      - language: fr-FR
+        name: Twostep
+        definition: ''
+      - language: ja-JP
+        name: Twostep
+        definition: ''
+    - name: MODULATING
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Modulating
+        definition: ''
+      - language: de-DE
+        name: Modulating
+        definition: ''
+      - language: fr-FR
+        name: Modulating
+        definition: ''
+      - language: ja-JP
+        name: Modulating
+        definition: ''
+    - name: OTHER
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Other
+        definition: ''
+      - language: de-DE
+        name: Other
+        definition: ''
+      - language: fr-FR
+        name: Other
+        definition: ''
+      - language: ja-JP
+        name: Other
+        definition: ''
+    - name: UNKNOWN
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Unknown
+        definition: ''
+      - language: de-DE
+        name: Unknown
+        definition: ''
+      - language: fr-FR
+        name: Unknown
+        definition: ''
+      - language: ja-JP
+        name: Unknown
+        definition: ''
 - name: HeatTransferSurfaceArea
-  ifdGuid: 26683727b4d6483bb161731b6d241e7e
   definition: Total heat transfer area of the vessel.
+  ifdGuid: 0cQ3SdjDP8Ex5XSnjj91v_
   localizations:
   - language: fr-FR
     name: SurfaceEchangeChaleur
@@ -56,9 +285,19 @@ properties:
   - language: ja-JP
     name: 伝熱面積
     definition: 容器の伝熱部面積の合計
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcAreaMeasure
+    measureType: ''
+    unitType: AREAUNIT
 - name: NominalPartLoadRatio
-  ifdGuid: a537119f283c42f8bb8142ebaa2c9b75
   definition: Allowable part load ratio range.
+  ifdGuid: 2bDn6VA3n2_Bk1GkkgB9jr
   localizations:
   - language: fr-FR
     name: PlageNominaleChargePartielle
@@ -66,9 +305,20 @@ properties:
   - language: ja-JP
     name: 設計部分負荷比率
     definition: 許容部分負荷比範囲
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  typePropertyBoundedValue:
+    unitType: ConsoleAppYamlTest.UnitType
+    LowerBoundValue: 0
+    UpperBoundValue: '?'
+    typeName: TypePropertyBoundedValue
 - name: WaterInletTemperatureRange
-  ifdGuid: 5a84a80ee6884e529658b9252dbf33e4
   definition: Allowable water inlet temperature range.
+  ifdGuid: 1QXAWEveXEKfPOkIKjlpFa
   localizations:
   - language: fr-FR
     name: PlageTempératureAlimentationEau
@@ -76,9 +326,20 @@ properties:
   - language: ja-JP
     name: 入口水温範囲
     definition: 入口水温範囲
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  typePropertyBoundedValue:
+    unitType: ConsoleAppYamlTest.UnitType
+    LowerBoundValue: 0
+    UpperBoundValue: '?'
+    typeName: TypePropertyBoundedValue
 - name: WaterStorageCapacity
-  ifdGuid: a4f7395793d749f1894657843edc82c4
   definition: Water storage capacity.
+  ifdGuid: 2azpbNazT9yOb6LuG_t8B4
   localizations:
   - language: fr-FR
     name: CapacitéRéservoirEau
@@ -86,9 +347,19 @@ properties:
   - language: ja-JP
     name: 缶内水量
     definition: 缶内水量
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcVolumeMeasure
+    measureType: ''
+    unitType: VOLUMEUNIT
 - name: IsWaterStorageHeater
-  ifdGuid: 97628463dbbd432887b77e0a3f2abb39
   definition: This is used to identify if the boiler has storage capacity (TRUE). If FALSE, then there is no storage capacity built into the boiler, such as an instantaneous hot water heater.
+  ifdGuid: 2NOeHZsxr3A8UtVWe$Ahiv
   localizations:
   - language: fr-FR
     name: AvoirChauffeEau
@@ -96,9 +367,19 @@ properties:
   - language: ja-JP
     name: 給湯タンク有無
     definition: 給湯用の缶体があればTRUE、（瞬間湯沸かし器のように）ボイラにタンクがなければFALSE
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcBoolean
+    measureType: ''
+    unitType: USERDEFINED
 - name: PartialLoadEfficiencyCurves
-  ifdGuid: a0274fe6cc2745e6bda55273228e5fc4
   definition: Boiler efficiency as a function of the partial load factor; E = f (partialLaodfactor).
+  ifdGuid: 2W9q$cp2T5vhsbKdCYZb$4
   localizations:
   - language: fr-FR
     name: CourbesEfficacitéChargePartielle
@@ -106,9 +387,25 @@ properties:
   - language: ja-JP
     name: 部分負荷効率曲線
     definition: 部分負荷係数の関数としてのボイラ効率　　E=f(部分負荷率）
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  typePropertyTableValue:
+    Expression: ' - '
+    DefiningValue:
+      dataType: IfcPositiveRatioMeasure
+      measureType: ''
+      unitType: USERDEFINED
+    DefinedValue:
+      dataType: IfcNormalisedRatioMeasure
+      measureType: ''
+      unitType: USERDEFINED
 - name: OutletTemperatureRange
-  ifdGuid: 588d134604074967bd24438fe03bb6b8
   definition: Allowable outlet temperature of either the water or the steam.
+  ifdGuid: 1OZHD610T9PxqaGu$WExQu
   localizations:
   - language: fr-FR
     name: PlageTempératureSortie
@@ -116,9 +413,20 @@ properties:
   - language: ja-JP
     name: 出口温度範囲
     definition: 水または蒸気のどちらかの許容出口温度
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  typePropertyBoundedValue:
+    unitType: ConsoleAppYamlTest.UnitType
+    LowerBoundValue: 0
+    UpperBoundValue: '?'
+    typeName: TypePropertyBoundedValue
 - name: NominalEnergyConsumption
-  ifdGuid: fefb3572890b4dcdbee50045b2114999
   definition: Nominal fuel consumption rate required to produce the total boiler heat output.
+  ifdGuid: 3__pLoYGjDpRxb04Mo4KcP
   localizations:
   - language: fr-FR
     name: Consommation nominale d'energie
@@ -126,8 +434,19 @@ properties:
   - language: ja-JP
     name: 設計エネルギー消費量
     definition: ボイラ最大能力時の設計燃料消費量
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPowerMeasure
+    measureType: ''
+    unitType: POWERUNIT
 - name: EnergySource
   definition: Enumeration defining the energy source or fuel cumbusted to generate heat.
+  ifdGuid: ''
   localizations:
   - language: fr-FR
     name: SourceEnergie
@@ -135,3 +454,204 @@ properties:
   - language: ja-JP
     name: エネルギ種別
     definition: 加熱に使用する燃料のエネルギ種類　（石炭、石炭粉末、電気、ガス、油、プロパン、木材、木材チップ、木材ペレット、木粉、他）
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  typePropertyEnumeratedValue:
+    listName: PEnum_EnergySource
+    enumerationValues:
+    - name: COAL
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Coal
+        definition: ''
+      - language: de-DE
+        name: Coal
+        definition: ''
+      - language: fr-FR
+        name: Coal
+        definition: ''
+      - language: ja-JP
+        name: Coal
+        definition: ''
+    - name: COAL_PULVERIZED
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Coal_pulverized
+        definition: ''
+      - language: de-DE
+        name: Coal_pulverized
+        definition: ''
+      - language: fr-FR
+        name: Coal_pulverized
+        definition: ''
+      - language: ja-JP
+        name: Coal_pulverized
+        definition: ''
+    - name: ELECTRICITY
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Electricity
+        definition: ''
+      - language: de-DE
+        name: Electricity
+        definition: ''
+      - language: fr-FR
+        name: Electricity
+        definition: ''
+      - language: ja-JP
+        name: Electricity
+        definition: ''
+    - name: GAS
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Gas
+        definition: ''
+      - language: de-DE
+        name: Gas
+        definition: ''
+      - language: fr-FR
+        name: Gas
+        definition: ''
+      - language: ja-JP
+        name: Gas
+        definition: ''
+    - name: OIL
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Oil
+        definition: ''
+      - language: de-DE
+        name: Oil
+        definition: ''
+      - language: fr-FR
+        name: Oil
+        definition: ''
+      - language: ja-JP
+        name: Oil
+        definition: ''
+    - name: PROPANE
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Propane
+        definition: ''
+      - language: de-DE
+        name: Propane
+        definition: ''
+      - language: fr-FR
+        name: Propane
+        definition: ''
+      - language: ja-JP
+        name: Propane
+        definition: ''
+    - name: WOOD
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Wood
+        definition: ''
+      - language: de-DE
+        name: Wood
+        definition: ''
+      - language: fr-FR
+        name: Wood
+        definition: ''
+      - language: ja-JP
+        name: Wood
+        definition: ''
+    - name: WOOD_CHIP
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Wood_chip
+        definition: ''
+      - language: de-DE
+        name: Wood_chip
+        definition: ''
+      - language: fr-FR
+        name: Wood_chip
+        definition: ''
+      - language: ja-JP
+        name: Wood_chip
+        definition: ''
+    - name: WOOD_PELLET
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Wood_pellet
+        definition: ''
+      - language: de-DE
+        name: Wood_pellet
+        definition: ''
+      - language: fr-FR
+        name: Wood_pellet
+        definition: ''
+      - language: ja-JP
+        name: Wood_pellet
+        definition: ''
+    - name: WOOD_PULVERIZED
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Wood_pulverized
+        definition: ''
+      - language: de-DE
+        name: Wood_pulverized
+        definition: ''
+      - language: fr-FR
+        name: Wood_pulverized
+        definition: ''
+      - language: ja-JP
+        name: Wood_pulverized
+        definition: ''
+    - name: OTHER
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Other
+        definition: ''
+      - language: de-DE
+        name: Other
+        definition: ''
+      - language: fr-FR
+        name: Other
+        definition: ''
+      - language: ja-JP
+        name: Other
+        definition: ''
+    - name: UNKNOWN
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Unknown
+        definition: ''
+      - language: de-DE
+        name: Unknown
+        definition: ''
+      - language: fr-FR
+        name: Unknown
+        definition: ''
+      - language: ja-JP
+        name: Unknown
+        definition: ''

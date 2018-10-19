@@ -1,9 +1,22 @@
 ﻿name: Pset_DiscreteAccessoryStandardFixingPlate
 ifcVersion:
-  version: IFC4
+  version: 4.0.0.0
   schema: IfcSharedComponentElements
 ifdGuid: ''
 definition: Properties specific to standard fixing plates.
+localizations:
+- language: en-EN
+  name: ''
+  definition: ''
+- language: de-DE
+  name: ''
+  definition: ''
+- language: fr-FR
+  name: ''
+  definition: ''
+- language: ja-JP
+  name: ''
+  definition: ''
 applicableIfcClasses:
 - name: IfcDiscreteAccessory
   type: IfcDiscreteAccessory/Standard fixing plate
@@ -11,8 +24,8 @@ applicableIfcClasses:
   type: IfcDiscreteAccessory/Standard fixing plate
 properties:
 - name: StandardFixingPlateWidth
-  ifdGuid: ddee7853d42441189a59d722e656e281
   definition: The width of the standard fixing plate.
+  ifdGuid: 3TxdXJr2H169fProBcLkA1
   localizations:
   - language: ja-JP
     name: 幅
@@ -20,9 +33,22 @@ properties:
   - language: ko-KR
     name: 폭
     definition: 표준 고정 플레이트의 폭
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPositiveLengthMeasure
+    measureType: ''
+    unitType: LENGTHUNIT
 - name: StandardFixingPlateDepth
-  ifdGuid: 502544ff08c44fd9aae07068a87cba00
   definition: The depth of the standard fixing plate.
+  ifdGuid: 1G9KJ$2CHFsQhWS6YeVBe0
   localizations:
   - language: ja-JP
     name: 成
@@ -30,9 +56,22 @@ properties:
   - language: ko-KR
     name: 구성
     definition: 표준 고정 플레이트 구성
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPositiveLengthMeasure
+    measureType: ''
+    unitType: LENGTHUNIT
 - name: StandardFixingPlateThickness
-  ifdGuid: 255b433986a74661b21d8f5f0ca840ba
   definition: The thickness of the standard fixing plate.
+  ifdGuid: 0bMqCvXgT6OR8TZryCg42w
   localizations:
   - language: ja-JP
     name: 板厚
@@ -40,3 +79,16 @@ properties:
   - language: ko-KR
     name: 두께
     definition: 표준 고정 플레이트의 두께
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPositiveLengthMeasure
+    measureType: ''
+    unitType: LENGTHUNIT

@@ -1,54 +1,265 @@
 ﻿name: Pset_CondenserPHistory
 ifcVersion:
-  version: IFC4
+  version: 4.0.0.0
   schema: IfcHvacDomain
 ifdGuid: ''
 definition: Condenser performance history attributes.
+localizations:
+- language: en-EN
+  name: ''
+  definition: ''
+- language: de-DE
+  name: ''
+  definition: ''
+- language: fr-FR
+  name: ''
+  definition: ''
+- language: ja-JP
+  name: ''
+  definition: ''
 applicableIfcClasses:
 - name: IfcPerformanceHistory
   type: IfcCondenser[PerformanceHistory]
 properties:
 - name: HeatRejectionRate
-  ifdGuid: b059ff1e91914fb7be344acbb6a848e2
   definition: Sum of the refrigeration effect and the heat equivalent of the power input to the compressor.
-  localizations: []
+  ifdGuid: 2mMVyUaP5FjxuqIiksg4ZY
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertyReferenceValue:
+    refType: IfcTimeSeries
+    url: http://buildingsmart-tech.org
+    guid: ''
+    libraryName: Industry Foundation Classes by buildingSMART International
+    sectionref: Core Schema
 - name: ExteriorHeatTransferCoefficient
-  ifdGuid: fe5355e78508405c8858a32706bd9d53
   definition: Exterior heat transfer coefficient associated with exterior surface area.
-  localizations: []
+  ifdGuid: 3_KrNdXGX0N8XOeoS6lPrJ
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertyReferenceValue:
+    refType: IfcTimeSeries
+    url: http://buildingsmart-tech.org
+    guid: ''
+    libraryName: Industry Foundation Classes by buildingSMART International
+    sectionref: Core Schema
 - name: InteriorHeatTransferCoefficient
-  ifdGuid: 8bbc53908feb4b6c922c32002631e127
   definition: Interior heat transfer coefficient associated with interior surface area.
-  localizations: []
+  ifdGuid: 2Bl5EGZ_jBR98iCW0cCU4d
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertyReferenceValue:
+    refType: IfcTimeSeries
+    url: http://buildingsmart-tech.org
+    guid: ''
+    libraryName: Industry Foundation Classes by buildingSMART International
+    sectionref: Core Schema
 - name: RefrigerantFoulingResistance
-  ifdGuid: 88c2541145fb44248923f126bb33a8ea
   definition: Fouling resistance on the refrigerant side.
-  localizations: []
+  ifdGuid: 28mbGHHVj498aZyIQxCwZg
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertyReferenceValue:
+    refType: IfcTimeSeries
+    url: http://buildingsmart-tech.org
+    guid: ''
+    libraryName: Industry Foundation Classes by buildingSMART International
+    sectionref: Core Schema
 - name: CondensingTemperature
-  ifdGuid: ac2876abe6db4e43a6ccfd37e6f0de34
   definition: Refrigerant condensing temperature.
-  localizations: []
+  ifdGuid: 2iA7QhvjjEGwRC$JVcyDuq
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertyReferenceValue:
+    refType: IfcTimeSeries
+    url: http://buildingsmart-tech.org
+    guid: ''
+    libraryName: Industry Foundation Classes by buildingSMART International
+    sectionref: Core Schema
 - name: LogarithmicMeanTemperatureDifference
-  ifdGuid: 569f7669f50d4b44bac888cdd1694e4f
   definition: Logarithmic mean temperature difference between refrigerant and water or air.
-  localizations: []
+  ifdGuid: 1MdtPfzGrBHBh8YCtHQKvF
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertyReferenceValue:
+    refType: IfcTimeSeries
+    url: http://buildingsmart-tech.org
+    guid: ''
+    libraryName: Industry Foundation Classes by buildingSMART International
+    sectionref: Core Schema
 - name: UAcurves
-  ifdGuid: daddfb0cd49c4cb08854dd026bc49696
   definition: UV = f (VExterior, VInterior), UV as a function of interior and exterior fluid flow velocity at the entrance.
-  localizations: []
+  ifdGuid: 3QtViCr9nCi8XKtG9hn9QM
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertyReferenceValue:
+    refType: IfcTimeSeries
+    url: http://buildingsmart-tech.org
+    guid: ''
+    libraryName: Industry Foundation Classes by buildingSMART International
+    sectionref: Core Schema
 - name: CompressorCondenserHeatGain
-  ifdGuid: d6b7c8ee15834358bd2546fb97766f40
   definition: Heat gain between condenser inlet to compressor outlet.
-  localizations: []
+  ifdGuid: 3MjyZk5OD3MBqbHlkNTcz0
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertyReferenceValue:
+    refType: IfcTimeSeries
+    url: http://buildingsmart-tech.org
+    guid: ''
+    libraryName: Industry Foundation Classes by buildingSMART International
+    sectionref: Core Schema
 - name: CompressorCondenserPressureDrop
-  ifdGuid: f4b1cb8043e24596a7403d782fe75305
   definition: Pressure drop between condenser inlet and compressor outlet.
-  localizations: []
+  ifdGuid: 3qiSk0G_95bgT0FNWlvrC5
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertyReferenceValue:
+    refType: IfcTimeSeries
+    url: http://buildingsmart-tech.org
+    guid: ''
+    libraryName: Industry Foundation Classes by buildingSMART International
+    sectionref: Core Schema
 - name: CondenserMeanVoidFraction
-  ifdGuid: e205fa73b1b943fd8acd287867608e50
   definition: Mean void fraction in condenser.
-  localizations: []
+  ifdGuid: 3Y1VfpiRb3$OhDA7XdO8vG
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertyReferenceValue:
+    refType: IfcTimeSeries
+    url: http://buildingsmart-tech.org
+    guid: ''
+    libraryName: Industry Foundation Classes by buildingSMART International
+    sectionref: Core Schema
 - name: WaterFoulingResistance
-  ifdGuid: b2f3bc1e4de942c1bc9c84e03fb22029
   definition: Fouling resistance on water/air side.
-  localizations: []
+  ifdGuid: 2oyxmUJUb2mRoSXE0$iY0f
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertyReferenceValue:
+    refType: IfcTimeSeries
+    url: http://buildingsmart-tech.org
+    guid: ''
+    libraryName: Industry Foundation Classes by buildingSMART International
+    sectionref: Core Schema

@@ -1,9 +1,22 @@
 ﻿name: Pset_SpaceThermalRequirements
 ifcVersion:
-  version: IFC4
+  version: 4.0.0.0
   schema: IfcProductExtension
 ifdGuid: ''
 definition: Properties related to the comfort requirements for thermal and other  thermal related performance properties of spaces that apply to the occurrences of IfcSpace, IfcSpatialZone or IfcZone. It can also be used to capture requirements for IfcSpaceType's. This includes the required design temperature, humidity, ventilation, and air conditioning.
+localizations:
+- language: en-EN
+  name: ''
+  definition: ''
+- language: de-DE
+  name: ''
+  definition: ''
+- language: fr-FR
+  name: ''
+  definition: ''
+- language: ja-JP
+  name: ''
+  definition: ''
 applicableIfcClasses:
 - name: IfcSpace
   type: IfcSpace, IfcSpatialZone, IfcZone
@@ -16,6 +29,7 @@ applicableIfcClasses:
 properties:
 - name: SpaceTemperature
   definition: Temperature of the space or zone, that is required from user/designer view point.  If no summer or winter space temperature requirements are given, it applies all year, otherwise for the intermediate period. Provide this value, if no temperatur range (Min-Max) is available.
+  ifdGuid: ''
   localizations:
   - language: de-DE
     name: Raumtemperatur
@@ -26,9 +40,16 @@ properties:
   - language: ja-JP
     name: 最高室内温度
     definition: 空間またはゾーンの温度。利用者/設計者の視点から要求される。もし夏季または冬季の室内温度要求が与えられないと、それは通年に、さもなければ中間季に適用される。
+  - language: en-EN
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcThermodynamicTemperatureMeasure
+    measureType: ''
+    unitType: USERDEFINED
 - name: SpaceTemperatureMax
-  ifdGuid: 8fcb90b5115944cc93656f1102b798d1
   definition: Maximal temperature of the space or zone, that is required from user/designer view point.  If no summer or winter space temperature requirements are given, it applies all year, otherwise for the intermediate period.
+  ifdGuid: 2Fov2r4Lb4p9DbRn42jvZH
   localizations:
   - language: de-DE
     name: Raumtemperatur Maximal
@@ -42,9 +63,16 @@ properties:
   - language: ko-KR
     name: 최고 온도
     definition: 공간 또는 영역의 최고 온도. 이용자 / 설계자의 관점에서 요구된다. 만약 여름철 또는 겨울철 실내 온도 요구가 주어지지 않는, 그것은 연중에, 그렇지 않으면 중간 분기별로 적용된다.
+  - language: en-EN
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcThermodynamicTemperatureMeasure
+    measureType: ''
+    unitType: THERMODYNAMICTEMPERATUREUNIT
 - name: SpaceTemperatureMin
-  ifdGuid: a08daaa104724b528799f1a9b0bac944
-  definition: 'Minimal temperature of the space or zone, that is required from user/designer view point. If no summer or winter space temperature requirements are given, it applies all year, otherwise for the intermediate period.  '
+  definition: Minimal temperature of the space or zone, that is required from user/designer view point. If no summer or winter space temperature requirements are given, it applies all year, otherwise for the intermediate period.
+  ifdGuid: 2WZQgX179BKeUPyQcmkib4
   localizations:
   - language: de-DE
     name: Raumtemperatur Minimal
@@ -58,9 +86,16 @@ properties:
   - language: ko-KR
     name: 최저온도
     definition: 공간 또는 영역의 최저 온도 이용자 / 설계자의 관점에서 요구된다. 만약 여름철 또는 겨울철 실내 온도 요구가 주어지지 않는, 그것은 연중에, 그렇지 않으면 중간 분기별로 적용된다.
+  - language: en-EN
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcThermodynamicTemperatureMeasure
+    measureType: ''
+    unitType: THERMODYNAMICTEMPERATUREUNIT
 - name: SpaceTemperatureSummerMax
-  ifdGuid: 4d4df59ed9b946d0b5e072d1bafda6e0
   definition: Maximal temperature of the space or zone for the hot (summer) period, that is required from user/designer view point and provided as requirement for cooling.
+  ifdGuid: 1DJVMUsRb6qBNWSj6w$QRW
   localizations:
   - language: de-DE
     name: Raumtemperatur Kühlung Maximal
@@ -74,9 +109,16 @@ properties:
   - language: ko-KR
     name: 여름최고온도
     definition: 공간이나 영역 혹서 계절 (여름)의 최고 온도 이용자 / 설계자의 관점에서 요구된다.
+  - language: en-EN
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcThermodynamicTemperatureMeasure
+    measureType: ''
+    unitType: THERMODYNAMICTEMPERATUREUNIT
 - name: SpaceTemperatureSummerMin
-  ifdGuid: 6fc35a6c0ac84ae288aaca3581e00570
   definition: Minimal temperature of the space or zone for the hot (summer) period, that is required from user/designer view point and provided as requirement for cooling.
+  ifdGuid: 1lmrfi2iXAueYgoZM1u0Lm
   localizations:
   - language: de-DE
     name: Raumtemperatur Kühlung Minimal
@@ -90,9 +132,16 @@ properties:
   - language: ko-KR
     name: 여름최저온도
     definition: 공간이나 영역 혹서 계절 (여름)의 최저 온도. 이용자 / 설계자의 관점에서 요구된다.
+  - language: en-EN
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcThermodynamicTemperatureMeasure
+    measureType: ''
+    unitType: THERMODYNAMICTEMPERATUREUNIT
 - name: SpaceTemperatureWinterMax
-  ifdGuid: 1a2f9d27322b4109b491d0ec564c0d9f
   definition: Maximal temperature of the space or zone for the cold (winter) period, that is required from user/designer view point and provided as requirement for heating.
+  ifdGuid: 0QBvqdCYj12RIHqEnMJ0sV
   localizations:
   - language: de-DE
     name: Raumtemperatur Heizung Maximal
@@ -106,9 +155,16 @@ properties:
   - language: ko-KR
     name: 겨울최고온도
     definition: 공간이나 영역 추운 계절 (겨울) 최고 온도 이용자 / 설계자의 관점에서 요구된다.
+  - language: en-EN
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcThermodynamicTemperatureMeasure
+    measureType: ''
+    unitType: THERMODYNAMICTEMPERATUREUNIT
 - name: SpaceTemperatureWinterMin
-  ifdGuid: 19208adab7e94576960975e96cc711ff
   definition: Minimal temperature of the space or zone for the cold (winter) period, that is required from user/designer view point and provided as requirement for heating.
+  ifdGuid: 0P88hQj_b5TfO9TUbinn7$
   localizations:
   - language: de-DE
     name: Raumtemperatur Heizung Minimal
@@ -122,9 +178,16 @@ properties:
   - language: ko-KR
     name: 겨울철 최저온도
     definition: 공간이나 영역 추운 계절 (겨울)의 최저 온도. 이용자 / 설계자의 관점에서 요구된다.
+  - language: en-EN
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcThermodynamicTemperatureMeasure
+    measureType: ''
+    unitType: THERMODYNAMICTEMPERATUREUNIT
 - name: SpaceHumidity
-  ifdGuid: 86bf9d8cbe3e474d9355bf4d415f0393
   definition: Humidity of the space or zone that is required from user/designer view point.  If no summer or winter space humidity requirements are given, it applies all year, otherwise for the intermediate period. Provide this property, if no humidity range (Min-Max) is available.
+  ifdGuid: 26lvsClZv7JPDLlqr1NmEJ
   localizations:
   - language: de-DE
     name: Luftfeuchtigkeit
@@ -135,8 +198,16 @@ properties:
   - language: ja-JP
     name: 室内湿度
     definition: 空間またはゾーンの湿度。利用者/設計者の視点から要求される。もし夏季または冬季の室内湿度要求が与えられないと、それは通年に、さもなければ中間季に適用される。
+  - language: en-EN
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcRatioMeasure
+    measureType: ''
+    unitType: USERDEFINED
 - name: SpaceHumidityMax
   definition: Maximal permitted humidity of the space or zone that is required from user/designer view point.  If no summer or winter space humidity requirements are given, it applies all year, otherwise for the intermediate period.
+  ifdGuid: ''
   localizations:
   - language: de-DE
     name: Luftfeuchtigkeit Maximal
@@ -150,8 +221,16 @@ properties:
   - language: ko-KR
     name: 실내습도
     definition: 공간 또는 영역의 습도. 이용자 / 설계자의 관점에서 요구된다. 만약 여름철 또는 겨울철 실내 습도 요구가 주어지지 않는, 그것은 연중에, 그렇지 않으면 중간 분기별로 적용된다.
+  - language: en-EN
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcRatioMeasure
+    measureType: ''
+    unitType: USERDEFINED
 - name: SpaceHumidityMin
   definition: Minimal permitted humidity of the space or zone that is required from user/designer view point.  If no summer or winter space humidity requirements are given, it applies all year, otherwise for the intermediate period.
+  ifdGuid: ''
   localizations:
   - language: de-DE
     name: Luftfeuchtigkeit Minimal
@@ -162,9 +241,16 @@ properties:
   - language: ja-JP
     name: 最低室内湿度
     definition: 空間またはゾーンの最低湿度。利用者/設計者の視点から要求される。もし夏季または冬季の室内湿度要求が与えられないと、それは通年に、さもなければ中間季に適用される。
+  - language: en-EN
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcRatioMeasure
+    measureType: ''
+    unitType: USERDEFINED
 - name: SpaceHumiditySummer
-  ifdGuid: 1274d9e10de84f87baa8f1474792fb32
-  definition: 'Humidity of the space or zone for the hot (summer) period, that is required from user/designer view point and provided as requirement for cooling.  '
+  definition: Humidity of the space or zone for the hot (summer) period, that is required from user/designer view point and provided as requirement for cooling.
+  ifdGuid: 0ITDdX3UXFXxgeyKT7alio
   localizations:
   - language: de-DE
     name: Luftfeuchtigkeit Kühlung
@@ -178,9 +264,16 @@ properties:
   - language: ko-KR
     name: 여름철실내 습도
     definition: 공간이나 영역 혹서 계절 (여름) 실내 습도. 이용자 / 설계자의 관점에서 요구된다.
+  - language: en-EN
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcRatioMeasure
+    measureType: ''
+    unitType: USERDEFINED
 - name: SpaceHumidityWinter
-  ifdGuid: adccda58998e46e9a19ab4bdce529b27
-  definition: 'Humidity of the space or zone for the cold (winter) period that is required from user/designer view point and provided as requirement for heating.  '
+  definition: Humidity of the space or zone for the cold (winter) period that is required from user/designer view point and provided as requirement for heating.
+  ifdGuid: 2jpDfOcOv6wQ6QjBtEKfid
   localizations:
   - language: de-DE
     name: Luftfeuchtigkeit Heizung
@@ -194,9 +287,16 @@ properties:
   - language: ko-KR
     name: 겨울철실내 습도
     definition: 공간이나 영역 추운 계절 (동절기) 실내 습도. 이용자 / 설계자의 관점에서 요구된다.
+  - language: en-EN
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcRatioMeasure
+    measureType: ''
+    unitType: USERDEFINED
 - name: DiscontinuedHeating
-  ifdGuid: 9d86fcf5768343aea87331cd3d160d8f
   definition: Indication whether discontinued heating is required/desirable from user/designer view point. (TRUE) if yes, (FALSE) otherwise.
+  ifdGuid: 2TXlprTeD3hgXpCSqz5WsF
   localizations:
   - language: de-DE
     name: Diskontinuierliche Heizung
@@ -210,9 +310,16 @@ properties:
   - language: ko-KR
     name: 불연속 난방
     definition: 불연속 난방이 이용자 / 설계자의 관점에서 요청 / 요구되는지 여부를 나타내는 부울 값입니다. (TRUE) 필요 (FALSE) 불필요.
+  - language: en-EN
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcBoolean
+    measureType: ''
+    unitType: USERDEFINED
 - name: NaturalVentilation
-  ifdGuid: 7be3687e067a43849b1865e1e5928d0c
-  definition: 'Indication whether the space is required to have natural ventilation (TRUE) or mechanical ventilation (FALSE). '
+  definition: Indication whether the space is required to have natural ventilation (TRUE) or mechanical ventilation (FALSE).
+  ifdGuid: 1xusX_1df3X9iOPU7baeqC
   localizations:
   - language: de-DE
     name: Natürliche Lüftung
@@ -226,9 +333,16 @@ properties:
   - language: ko-KR
     name: 자연환기
     definition: 공간이 자연 환기가 있는지 환기있는 여부를 나타내는 값
+  - language: en-EN
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcBoolean
+    measureType: ''
+    unitType: USERDEFINED
 - name: NaturalVentilationRate
-  ifdGuid: 23b815796e764bc8b92834cac477d35e
   definition: Indication of the requirement of a particular natural air ventilation rate, given in air changes per hour.
+  ifdGuid: 0Zk1LvRdPBoBaeDCh4TzDU
   localizations:
   - language: de-DE
     name: Natürliche Luftwechselzahl
@@ -242,9 +356,16 @@ properties:
   - language: ko-KR
     name: 자연환기 비율
     definition: 특정 자연 환기 율의 요구 지표. 시간 당 환기 회수로 주어진다.
+  - language: en-EN
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcCountMeasure
+    measureType: ''
+    unitType: USERDEFINED
 - name: MechanicalVentilationRate
-  ifdGuid: 9806e9df0f044fdfaaf19676d936fc6c
   definition: Indication of the requirement of a particular mechanical air ventilation rate, given in air changes per hour.
+  ifdGuid: 2O1kdV3mHFtwhnbdRPDlni
   localizations:
   - language: de-DE
     name: Künstliche Luftwechselzahl
@@ -258,9 +379,16 @@ properties:
   - language: ko-KR
     name: 기계환기 비율
     definition: 특정 기계 환기 비율 요구 지표. 시간 당 환기 회수로 주어진다.
+  - language: en-EN
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcCountMeasure
+    measureType: ''
+    unitType: USERDEFINED
 - name: AirConditioning
-  ifdGuid: 14ade5c813504685bcdfa40ece7b2bae
   definition: Indication whether this space requires air conditioning provided (TRUE) or not (FALSE).
+  ifdGuid: 0KhUN84r16XRpVf0xEUokk
   localizations:
   - language: de-DE
     name: Klimaanlage
@@ -274,9 +402,16 @@ properties:
   - language: ko-KR
     name: 공조
     definition: 이 공간이 공조를 요청할지 여부를 나타내는 부울 값입니다. (TRUE) 필요 (FALSE) 불필요.
+  - language: en-EN
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcBoolean
+    measureType: ''
+    unitType: USERDEFINED
 - name: AirConditioningCentral
-  ifdGuid: f0a12d5437964116924095c5f822382c
   definition: Indication whether the space  requires a central air conditioning provided (TRUE) or not (FALSE).It should only be given, if the property "AirConditioning" is set to TRUE.
+  ifdGuid: 3meIrKDvP15f90bSNu8ZWi
   localizations:
   - language: de-DE
     name: Klimaanlage zentral
@@ -290,3 +425,10 @@ properties:
   - language: ko-KR
     name: 중앙식 에어컨
     definition: 공간이 중앙 식 공조를 요청할지 여부를 나타내는 부울 값입니다. "공조"속성이 TRUE로 설정된 경우에만 주어진다.
+  - language: en-EN
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcBoolean
+    measureType: ''
+    unitType: USERDEFINED

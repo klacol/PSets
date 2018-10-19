@@ -1,51 +1,143 @@
 ﻿name: Pset_VibrationIsolatorTypeCommon
 ifcVersion:
-  version: IFC4
+  version: 4.0.0.0
   schema: IfcHvacDomain
 ifdGuid: ''
 definition: Vibration isolator type common attributes.
+localizations:
+- language: en-EN
+  name: ''
+  definition: ''
+- language: de-DE
+  name: ''
+  definition: ''
+- language: fr-FR
+  name: ''
+  definition: ''
+- language: ja-JP
+  name: ''
+  definition: ''
 applicableIfcClasses:
 - name: IfcVibrationIsolatorType
   type: IfcVibrationIsolatorType
 properties:
 - name: Reference
   definition: Reference ID for this specified type in this project (e.g. type 'A-1').
+  ifdGuid: ''
   localizations:
   - language: ja-JP
     name: 参照記号
     definition: このプロジェクトにおける参照記号(例：A-1)。分類コードではなく内部で使用されるプロジェクトタイプとして使用されるもの。
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcIdentifier
+    measureType: ''
+    unitType: USERDEFINED
 - name: VibrationTransmissibility
-  ifdGuid: 8de454a0a3c74b4cb97f6f71fe73ca22
   definition: The vibration transmissibility percentage.
+  ifdGuid: 2Dv5IWeyTBJBb$Rt7_SyeY
   localizations:
   - language: ja-JP
     name: 振動伝達
     definition: 振動伝達割合
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPositiveRatioMeasure
+    measureType: ''
+    unitType: USERDEFINED
 - name: IsolatorStaticDeflection
-  ifdGuid: 6325236821d94a649e05ebf0de3eac84
   definition: Static deflection of the vibration isolator.
+  ifdGuid: 1Z9IDe8TbAP9u5w$3UFgo4
   localizations:
   - language: ja-JP
     name: 振動絶縁材静的たわみ
     definition: 振動絶縁材の静的たわみ
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcLengthMeasure
+    measureType: ''
+    unitType: LENGTHUNIT
 - name: IsolatorCompressibility
-  ifdGuid: cdb931b65bfd406da8d03e2fc10d74b1
   definition: The compressibility of the vibration isolator.
+  ifdGuid: 3DkJ6sM$r0RQZGFY$13NIn
   localizations:
   - language: ja-JP
     name: 振動絶縁材の圧縮率
     definition: 振動絶縁材の圧縮率の圧縮率
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcRatioMeasure
+    measureType: ''
+    unitType: USERDEFINED
 - name: Height
-  ifdGuid: 8f4beebf2cf94ad78ee7b6daa97d5b9f
-  definition: 'Height of the vibration isolator before tha application of load. '
+  definition: Height of the vibration isolator before tha application of load.
+  ifdGuid: 2FI_w$BFbAruxdjjgfVLkV
   localizations:
   - language: ja-JP
     name: 高さ
     definition: 負荷を掛ける前の振動絶縁材の高さ
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPositiveLengthMeasure
+    measureType: ''
+    unitType: LENGTHUNIT
 - name: MaximumSupportedWeight
-  ifdGuid: 2a1b3d7b6c0f471b87ac739d919f39fb
-  definition: 'The maximum weight that can be carried by the vibration isolator. '
+  definition: The maximum weight that can be carried by the vibration isolator.
+  ifdGuid: 0g6prxR0z76uUiSvsHdpdx
   localizations:
   - language: ja-JP
     name: 最高支持重量
     definition: 振動絶縁材で支えられる最高重量
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcMassMeasure
+    measureType: ''
+    unitType: MASSUNIT

@@ -1,30 +1,133 @@
 ﻿name: Pset_CoolingTowerPHistory
 ifcVersion:
-  version: IFC4
+  version: 4.0.0.0
   schema: IfcHvacDomain
 ifdGuid: ''
 definition: Cooling tower performance history attributes.
+localizations:
+- language: en-EN
+  name: ''
+  definition: ''
+- language: de-DE
+  name: ''
+  definition: ''
+- language: fr-FR
+  name: ''
+  definition: ''
+- language: ja-JP
+  name: ''
+  definition: ''
 applicableIfcClasses:
 - name: IfcPerformanceHistory
   type: IfcCoolingTower[PerformanceHistory]
 properties:
 - name: Capacity
-  ifdGuid: 69061ade26884052b80690ede143b94a
   definition: Cooling tower capacity in terms of heat transfer rate of the cooling tower between air stream and water stream.
-  localizations: []
+  ifdGuid: 1f1XhU9eX0KhW6aEtXGxbA
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertyReferenceValue:
+    refType: IfcTimeSeries
+    url: http://buildingsmart-tech.org
+    guid: ''
+    libraryName: Industry Foundation Classes by buildingSMART International
+    sectionref: Core Schema
 - name: HeatTransferCoefficient
-  ifdGuid: bf2d9707c73f4801a15cb88080599f5e
   definition: Heat transfer coefficient-area product.
-  localizations: []
+  ifdGuid: 2$BPS7npz80Q5Sk820MPzU
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertyReferenceValue:
+    refType: IfcTimeSeries
+    url: http://buildingsmart-tech.org
+    guid: ''
+    libraryName: Industry Foundation Classes by buildingSMART International
+    sectionref: Core Schema
 - name: SumpHeaterPower
-  ifdGuid: 4ccf48f017bd45a398b8bbf04193f421
   definition: Electrical heat power of sump heater.
-  localizations: []
+  ifdGuid: 1CpqZm5xr5evYuk$11a$GX
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertyReferenceValue:
+    refType: IfcTimeSeries
+    url: http://buildingsmart-tech.org
+    guid: ''
+    libraryName: Industry Foundation Classes by buildingSMART International
+    sectionref: Core Schema
 - name: UACurve
-  ifdGuid: e4c46b988b3c4a6c82dd761743bd8de9
   definition: UA value as a  function of fan speed at certain water flow rate, UA = f ( fan speed).
-  localizations: []
+  ifdGuid: 3an6kOYpnAR8BTTXT3lOtf
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertyReferenceValue:
+    refType: IfcTimeSeries
+    url: http://buildingsmart-tech.org
+    guid: ''
+    libraryName: Industry Foundation Classes by buildingSMART International
+    sectionref: Core Schema
 - name: Performance
-  ifdGuid: 4baee93d17324f379bd512c99845d1d7
   definition: Water temperature change as a function of wet-bulb temperature, water entering temperature, water flow rate, air flow rate, Tdiff = f ( Twet-bulb, Twater,in, mwater, mair).
-  localizations: []
+  ifdGuid: 1Bhkaz5p9FDvlL4icOHT7N
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertyReferenceValue:
+    refType: IfcTimeSeries
+    url: http://buildingsmart-tech.org
+    guid: ''
+    libraryName: Industry Foundation Classes by buildingSMART International
+    sectionref: Core Schema

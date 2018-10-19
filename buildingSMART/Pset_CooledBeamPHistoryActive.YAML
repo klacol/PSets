@@ -1,22 +1,89 @@
 ﻿name: Pset_CooledBeamPHistoryActive
 ifcVersion:
-  version: IFC4
+  version: 4.0.0.0
   schema: IfcHvacDomain
 ifdGuid: ''
 definition: Performance history attributes for an active cooled beam.
+localizations:
+- language: en-EN
+  name: ''
+  definition: ''
+- language: de-DE
+  name: ''
+  definition: ''
+- language: fr-FR
+  name: ''
+  definition: ''
+- language: ja-JP
+  name: ''
+  definition: ''
 applicableIfcClasses:
 - name: IfcPerformanceHistory
   type: IfcCooledBeamType/ACTIVE[PerformanceHistory]
 properties:
 - name: AirFlowRate
-  ifdGuid: 90c9e66506814bec9ff9c4b6a6f93154
   definition: Air flow rate.
-  localizations: []
+  ifdGuid: 2GoUPb1e5Bx9$vnBQc_J5K
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertyReferenceValue:
+    refType: IfcTimeSeries
+    url: http://buildingsmart-tech.org
+    guid: ''
+    libraryName: Industry Foundation Classes by buildingSMART International
+    sectionref: Core Schema
 - name: Throw
-  ifdGuid: 9a5c921cc76a49f1ab40f322486b453c
   definition: Distance cooled beam throws the air.
-  localizations: []
+  ifdGuid: 2QN98Snsf9yQj0yo98QqKy
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertyReferenceValue:
+    refType: IfcTimeSeries
+    url: http://buildingsmart-tech.org
+    guid: ''
+    libraryName: Industry Foundation Classes by buildingSMART International
+    sectionref: Core Schema
 - name: AirPressureDropCurves
-  ifdGuid: 1cde787f5ad341f999dcabdd52bd0824
   definition: Air pressure drop as function of air flow rate.
-  localizations: []
+  ifdGuid: 0StdX$MjD1_PdSgzrIlGWa
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertyReferenceValue:
+    refType: IfcTimeSeries
+    url: http://buildingsmart-tech.org
+    guid: ''
+    libraryName: Industry Foundation Classes by buildingSMART International
+    sectionref: Core Schema

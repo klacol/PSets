@@ -1,16 +1,29 @@
 ﻿name: Pset_BuildingCommon
 ifcVersion:
-  version: IFC4
+  version: 4.0.0.0
   schema: IfcProductExtension
 ifdGuid: ''
-definition: 'Properties common to the definition of all instances of IfcBuilding. Please note that several building attributes are handled directly at the IfcBuilding instance, the building number (or short name) by IfcBuilding.Name, the building name (or long name) by IfcBuilding.LongName, and the description (or comments) by IfcBuilding.Description. Actual building quantities, like building perimeter, building area and building volume are provided by IfcElementQuantity, and the building classification according to national building code by IfcClassificationReference. '
+definition: Properties common to the definition of all instances of IfcBuilding. Please note that several building attributes are handled directly at the IfcBuilding instance, the building number (or short name) by IfcBuilding.Name, the building name (or long name) by IfcBuilding.LongName, and the description (or comments) by IfcBuilding.Description. Actual building quantities, like building perimeter, building area and building volume are provided by IfcElementQuantity, and the building classification according to national building code by IfcClassificationReference.
+localizations:
+- language: en-EN
+  name: ''
+  definition: ''
+- language: de-DE
+  name: ''
+  definition: ''
+- language: fr-FR
+  name: ''
+  definition: ''
+- language: ja-JP
+  name: ''
+  definition: ''
 applicableIfcClasses:
 - name: IfcBuilding
   type: IfcBuilding
 properties:
 - name: Reference
-  ifdGuid: 96e6c3da9ad94823b1b15de88efc10d1
-  definition: "Reference ID for this specified type in this project (e.g. type 'A-1'). Used to store the non-classification driven internal project type. "
+  definition: Reference ID for this specified type in this project (e.g. type 'A-1'). Used to store the non-classification driven internal project type.
+  ifdGuid: 2MviFQcjb88x6nNUYE$13H
   localizations:
   - language: de-DE
     name: Referenz ID
@@ -24,9 +37,16 @@ properties:
   - language: ko-KR
     name: 참조 ID
     definition: '이 프로젝트의 참조 ID (예 : A-1). 분류 코드가 아닌 내부에서 사용되는 프로젝트 형식으로 사용됩니다.'
+  - language: en-EN
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcIdentifier
+    measureType: ''
+    unitType: USERDEFINED
 - name: BuildingID
-  ifdGuid: e6b11bbda02147c4a1eda8012ea26b92
   definition: A unique identifier assigned to a building. A temporary identifier is initially assigned at the time of making a planning application. This temporary identifier is changed to a permanent identifier when the building is registered into a statutory buildings and properties database.
+  ifdGuid: 3ciHkze257nA7jg04keckI
   localizations:
   - language: de-DE
     name: Gebäudekennzeichen
@@ -40,9 +60,16 @@ properties:
   - language: ko-KR
     name: 건물 ID
     definition: 건물에 부여되는 고유 식별자이다. 계획 요청시 사용되는 초기 임시 식별자이다. 이 임시 식별자는 건물이 정식으로 등록된 경우에 영구적인 식별자로 변경된다.
+  - language: en-EN
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcIdentifier
+    measureType: ''
+    unitType: USERDEFINED
 - name: IsPermanentID
-  ifdGuid: e164b9663ea1419b94c9c12ada21024f
   definition: Indicates whether the identity assigned to a building is permanent (= TRUE) or temporary (=FALSE).
+  ifdGuid: 3XPBbcFg51cvJ9mIhQ8G9F
   localizations:
   - language: de-DE
     name: Gebäudekennzeichen permanent
@@ -56,8 +83,16 @@ properties:
   - language: ko-KR
     name: 영구 ID 구분
     definition: 건물 ID가 영구적인 ID 여부값
+  - language: en-EN
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcBoolean
+    measureType: ''
+    unitType: USERDEFINED
 - name: ConstructionMethod
-  definition: 'The type of construction action to the building, the project deals with, e.g. new construction, renovation, refurbishment, etc. '
+  definition: The type of construction action to the building, the project deals with, e.g. new construction, renovation, refurbishment, etc.
+  ifdGuid: ''
   localizations:
   - language: de-DE
     name: Konstruktionsart
@@ -71,8 +106,16 @@ properties:
   - language: ko-KR
     name: 공사 종류
     definition: '공사의 유형. 예 : 신축 리노베이션 · 개장 등.'
+  - language: en-EN
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcLabel
+    measureType: ''
+    unitType: USERDEFINED
 - name: FireProtectionClass
   definition: Main fire protection class for the building which is assigned from the fire protection classification table as given by the relevant national building code.
+  ifdGuid: ''
   localizations:
   - language: de-DE
     name: Gebäudeklasse Brandschutz
@@ -86,9 +129,16 @@ properties:
   - language: ko-KR
     name: 방화 등급
     definition: 주요 방화 등급. 관련 건축 기준법, 소방법 등의 국가 표준을 참조하십시오.
+  - language: en-EN
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcLabel
+    measureType: ''
+    unitType: USERDEFINED
 - name: SprinklerProtection
-  ifdGuid: e41dec18c2f54e82991b04962b5e8e61
   definition: Indication whether this object is sprinkler protected (TRUE) or not (FALSE).
+  ifdGuid: 3a7UmOmlLEWfaR19OhNevX
   localizations:
   - language: de-DE
     name: Sprinklerschutz
@@ -102,9 +152,16 @@ properties:
   - language: ko-KR
     name: 스프링 클러 방어
     definition: 스프링 클러 설비의 유무를 나타내는 값
+  - language: en-EN
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcBoolean
+    measureType: ''
+    unitType: USERDEFINED
 - name: SprinklerProtectionAutomatic
-  ifdGuid: 8642e101610d4c269a73b0a7526fa75d
   definition: Indication whether this object has an automatic sprinkler protection (TRUE) or not (FALSE).
+  ifdGuid: 26Gk41OGrC9ffpiATIRwTT
   localizations:
   - language: de-DE
     name: Sprinklerschutz automatisch
@@ -118,9 +175,16 @@ properties:
   - language: ko-KR
     name: 스프링 클러 방어 자동 구분
     definition: 스프링 클러 설비가 자동 여부를 나타내는 값
+  - language: en-EN
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcBoolean
+    measureType: ''
+    unitType: USERDEFINED
 - name: OccupancyType
-  ifdGuid: 72708fad33e845e0bdd30a286dd36e7c
   definition: Occupancy type for this object.It is defined according to the presiding national building code.
+  ifdGuid: 1oS8_jC_X5uBtJ2YXjqsvy
   localizations:
   - language: de-DE
     name: Nutzungsart
@@ -134,9 +198,16 @@ properties:
   - language: ko-KR
     name: 점유자 유형
     definition: 점령 자의 유형. 건축 기준법을 준수합니다.
+  - language: en-EN
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcLabel
+    measureType: ''
+    unitType: USERDEFINED
 - name: GrossPlannedArea
-  ifdGuid: a6206fb3221e46dabc7add8b01538942
   definition: Total planned gross area for the building  Used for programming the building.
+  ifdGuid: 2c86_p8Xv6shnwtOi1Kub2
   localizations:
   - language: de-DE
     name: Bruttofläche nach Raumprogramm
@@ -150,8 +221,16 @@ properties:
   - language: ko-KR
     name: 계획 그로스 면적
     definition: 계획된 그로스 면적. 건물 계획시 사용됩니다.
+  - language: en-EN
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcAreaMeasure
+    measureType: ''
+    unitType: AREAUNIT
 - name: NetPlannedArea
   definition: Total planned net area for the building  Used for programming the building.
+  ifdGuid: ''
   localizations:
   - language: de-DE
     name: Nettofläche nach Raumprogramm
@@ -162,9 +241,16 @@ properties:
   - language: ja-JP
     name: 計画ネット面積
     definition: 計画されたネット面積。建物計画に際に使用。（通常は、柱型等を抜いた面積となる）
+  - language: en-EN
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcAreaMeasure
+    measureType: ''
+    unitType: AREAUNIT
 - name: NumberOfStoreys
-  ifdGuid: 121ebe786a7b47eebb8241afa7f0c7b5
   definition: The number of storeys within a building.Captured for those cases where the IfcBuildingStorey entity is not used. Note that if IfcBuilingStorey is asserted and the number of storeys in a building can be determined from it, then this approach should be used in preference to setting a property for the number of storeys.
+  ifdGuid: 0I7hvuQdj7xhk2GQ_dyCUr
   localizations:
   - language: de-DE
     name: Geschossanzahl
@@ -178,9 +264,16 @@ properties:
   - language: ko-KR
     name: 층 수
     definition: 건물 층 수. IfcBuildingStorey 수와 관계없이 취급한다.
+  - language: en-EN
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcInteger
+    measureType: ''
+    unitType: USERDEFINED
 - name: YearOfConstruction
-  ifdGuid: ae2a390fbc474628853001dc04f8e3cb
   definition: Year of construction of this building, including expected year of completion.
+  ifdGuid: 2kAZaFl4T6A8Km0Tm4_EFB
   localizations:
   - language: de-DE
     name: Baujahr
@@ -194,8 +287,16 @@ properties:
   - language: ko-KR
     name: 시공 년
     definition: 시공 년. 준공 예정 년 포함한다.
+  - language: en-EN
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcLabel
+    measureType: ''
+    unitType: USERDEFINED
 - name: YearOfLastRefurbishment
   definition: Year of last major refurbishment, or reconstruction, of the building (applies to reconstruction works).
+  ifdGuid: ''
   localizations:
   - language: de-DE
     name: letztes Renovierungsjahr
@@ -203,9 +304,19 @@ properties:
   - language: fr-FR
     name: Année de la dernière rénovation
     definition: Année de la dernière rénovation majeure ou de la reconstruction du bâtiment.
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcLabel
+    measureType: ''
+    unitType: USERDEFINED
 - name: IsLandmarked
-  ifdGuid: c00879c60a454757b39f3cf342da75ed
   definition: This builing is listed as a historic building (TRUE), or not (FALSE), or unknown.
+  ifdGuid: 3027d62aL7LxEVFFD2sdNj
   localizations:
   - language: de-DE
     name: Denkmalschutz
@@ -219,3 +330,10 @@ properties:
   - language: ko-KR
     name: 랜드마크 구분
     definition: 이 건물은 역사적인 건물 있는지 여부를 나타내는 값
+  - language: en-EN
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcLogical
+    measureType: ''
+    unitType: USERDEFINED

@@ -1,58 +1,308 @@
 ﻿name: Pset_ControllerTypeProportional
 ifcVersion:
-  version: IFC4
+  version: 4.0.0.0
   schema: IfcBuildingControlsDomain
 ifdGuid: ''
 definition: 'Properties for signal handling for an proportional controller taking setpoint and feedback inputs and creating a single valued output. HISTORY: In IFC4, SignalFactor1, SignalFactor2 and SignalFactor3 changed to ProportionalConstant, IntegralConstant and DerivativeConstant.  SignalTime1 and SignalTime2 changed to SignalTimeIncrease and SignalTimeDecrease.'
+localizations:
+- language: en-EN
+  name: ''
+  definition: ''
+- language: de-DE
+  name: ''
+  definition: ''
+- language: fr-FR
+  name: ''
+  definition: ''
+- language: ja-JP
+  name: ''
+  definition: ''
 applicableIfcClasses:
 - name: IfcControllerType
   type: IfcControllerType/PROPORTIONAL
 properties:
 - name: ControlType
-  definition: 'The type of signal modification.PROPORTIONAL: Output is proportional to the control error. The gain of a proportional control (Kp) will have the effect of reducing the rise time and reducing , but never eliminating, the steady-state error of the variable controlled. PROPORTIONALINTEGRAL: Part of the output is proportional to the control error and part is proportional to the time integral of the control error. Adding the gain of an integral control (Ki) will have the effect of eliminating the steady-state error of the variable controlled, but it may make the transient response worse. PROPORTIONALINTEGRALDERIVATIVE: Part of the output is proportional to the control error, part is proportional to the time integral of the control error and part is proportional to the time derivative of the control error. Adding the gain of a derivative control (Kd) will have the effect of increasing the stability of the system, reducing the overshoot, and improving the transient response of the variable controlled. '
+  definition: 'The type of signal modification.PROPORTIONAL: Output is proportional to the control error. The gain of a proportional control (Kp) will have the effect of reducing the rise time and reducing , but never eliminating, the steady-state error of the variable controlled. PROPORTIONALINTEGRAL: Part of the output is proportional to the control error and part is proportional to the time integral of the control error. Adding the gain of an integral control (Ki) will have the effect of eliminating the steady-state error of the variable controlled, but it may make the transient response worse. PROPORTIONALINTEGRALDERIVATIVE: Part of the output is proportional to the control error, part is proportional to the time integral of the control error and part is proportional to the time derivative of the control error. Adding the gain of a derivative control (Kd) will have the effect of increasing the stability of the system, reducing the overshoot, and improving the transient response of the variable controlled.'
+  ifdGuid: ''
   localizations:
   - language: ko-KR
     name: PROPORTIONAL 유형
     definition: '신호 변경 유형   P (비례), I (적분), D (미분)의 조합 PROPORTIONAL :   P (비례) 제어 PROPORTIONALINTEGRAL :   PI (비례 적분) 제어 PROPORTIONALINTEGRALDERIVATIVE :   PID (비례 적분 미분) 제어'
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertyEnumeratedValue:
+    listName: PEnum_ControllerProportionalType
+    enumerationValues:
+    - name: PROPORTIONAL
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Proportional
+        definition: ''
+      - language: de-DE
+        name: Proportional
+        definition: ''
+      - language: fr-FR
+        name: Proportional
+        definition: ''
+      - language: ja-JP
+        name: Proportional
+        definition: ''
+    - name: PROPORTIONALINTEGRAL
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Proportionalintegral
+        definition: ''
+      - language: de-DE
+        name: Proportionalintegral
+        definition: ''
+      - language: fr-FR
+        name: Proportionalintegral
+        definition: ''
+      - language: ja-JP
+        name: Proportionalintegral
+        definition: ''
+    - name: PROPORTIONALINTEGRALDERIVATIVE
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Proportionalintegralderivative
+        definition: ''
+      - language: de-DE
+        name: Proportionalintegralderivative
+        definition: ''
+      - language: fr-FR
+        name: Proportionalintegralderivative
+        definition: ''
+      - language: ja-JP
+        name: Proportionalintegralderivative
+        definition: ''
+    - name: OTHER
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Other
+        definition: ''
+      - language: de-DE
+        name: Other
+        definition: ''
+      - language: fr-FR
+        name: Other
+        definition: ''
+      - language: ja-JP
+        name: Other
+        definition: ''
+    - name: UNKNOWN
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Unknown
+        definition: ''
+      - language: de-DE
+        name: Unknown
+        definition: ''
+      - language: fr-FR
+        name: Unknown
+        definition: ''
+      - language: ja-JP
+        name: Unknown
+        definition: ''
 - name: Labels
   definition: Table mapping values to labels, where such labels indicate transition points such as 'Hi', 'Lo', 'HiHi', or 'LoLo'.
-  localizations: []
+  ifdGuid: ''
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertyTableValue:
+    Expression: '-'
+    DefiningValue:
+      dataType: IfcReal
+      measureType: ''
+      unitType: USERDEFINED
+    DefinedValue:
+      dataType: IfcLabel
+      measureType: ''
+      unitType: USERDEFINED
 - name: Range
   definition: The physical range of values.
-  localizations: []
+  ifdGuid: ''
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertyBoundedValue:
+    unitType: ConsoleAppYamlTest.UnitType
+    LowerBoundValue: '?'
+    UpperBoundValue: '?'
+    typeName: TypePropertyBoundedValue
 - name: Value
   definition: The expected range and default value.  While the property data type is IfcReal (to support all cases including when the units are unknown), a unit may optionally be provided to indicate the measure and unit.
-  localizations: []
+  ifdGuid: ''
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertyBoundedValue:
+    unitType: ConsoleAppYamlTest.UnitType
+    LowerBoundValue: '?'
+    UpperBoundValue: '?'
+    typeName: TypePropertyBoundedValue
 - name: ProportionalConstant
-  ifdGuid: 8ed0daad82ac4bd1b2e85eec033fc2f8
   definition: The proportional gain factor of the controller (usually referred to as Kp).
+  ifdGuid: 2EqDgjWgnBqRBeNkm3FyBu
   localizations:
   - language: ko-KR
     name: 비례 게인 (Kp)
     definition: 비례 게인 (Kp)
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcReal
+    measureType: ''
+    unitType: USERDEFINED
 - name: IntegralConstant
-  ifdGuid: 69d1b67804a74a40b0731058b0323a75
   definition: The integral gain factor of the controller (usually referred to as Ki).  Asserted where ControlType is PROPORTIONALINTEGRAL or PROPORTIONALINTEGRALDERIVATIVE.
+  ifdGuid: 1fqRPu1ATAGB1p45YmCZfr
   localizations:
   - language: ko-KR
     name: 적분 게인 (Ki)
     definition: 적분 게인 (Ki)
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcReal
+    measureType: ''
+    unitType: USERDEFINED
 - name: DerivativeConstant
-  ifdGuid: cca43d303bb3414ab53a5de138cf68cd
   definition: The derivative gain factor of the controller (usually referred to as Kd).  Asserted where ControlType is PROPORTIONALINTEGRALDERIVATIVE.
+  ifdGuid: 3Cf3qmExD1IhKwNU4upsZD
   localizations:
   - language: ko-KR
     name: 미분 게인 (Kd)
     definition: 미분 게인 (Kd)
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcReal
+    measureType: ''
+    unitType: USERDEFINED
 - name: SignalTimeIncrease
   definition: Time factor used for exponential increase.
+  ifdGuid: ''
   localizations:
   - language: ko-KR
     name: 적분 시간 (Ti)
     definition: 적분 시간 (Ti)
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcTimeMeasure
+    measureType: ''
+    unitType: USERDEFINED
 - name: SignalTimeDecrease
   definition: Time factor used for exponential decrease.
+  ifdGuid: ''
   localizations:
   - language: ko-KR
     name: 미분 시간 (Td)
     definition: 미분 시간 (Td)
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcTimeMeasure
+    measureType: ''
+    unitType: USERDEFINED

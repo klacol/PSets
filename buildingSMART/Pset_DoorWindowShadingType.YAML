@@ -1,9 +1,22 @@
 ﻿name: Pset_DoorWindowShadingType
 ifcVersion:
-  version: IFC4
+  version: 4.0.0.0
   schema: IfcSharedBldgElements
 ifdGuid: ''
 definition: Properties common to the definition of the shading component of occurrences of IfcDoor and IfcWindow, used for static (simplified) shading calculations.
+localizations:
+- language: en-EN
+  name: ''
+  definition: ''
+- language: de-DE
+  name: ''
+  definition: ''
+- language: fr-FR
+  name: ''
+  definition: ''
+- language: ja-JP
+  name: ''
+  definition: ''
 applicableIfcClasses:
 - name: IfcDoor
   type: IfcDoorType, IfcWindowType
@@ -24,6 +37,7 @@ applicableIfcClasses:
 properties:
 - name: ShadingCoefficient
   definition: Reduction of the Solar Heat Gain Coefficient (SHGC) value (equal to the g-value in Europe) of the glazing by applying a shading device. Commonly known as Fc (or previously z-Value). The total Radiation Transmittance g<total> = g * Fc. The reduction coefficient is given as a unitless value between 0 and 1; the lower the shading coefficient (SC) the less solar heat it transmits.
+  ifdGuid: ''
   localizations:
   - language: de-DE
     name: German-name-0
@@ -34,9 +48,19 @@ properties:
   - language: zh-CN
     name: 折减系数
     definition: 采用遮阳设备后玻璃的太阳能得热系数（SHGC值，在欧洲等于g值）的折减，又称为Fc（或z值）。总辐射透射率g<total> = g*Fc。折减系数为一个大于0小于1的无单位数，该值越小表示传递的太阳热量越小。
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcNormalisedRatioMeasure
+    measureType: ''
+    unitType: USERDEFINED
 - name: ExternalShadingCoefficient
-  ifdGuid: 9bb0b478c2794f7c9a981e62aa93caac
   definition: Radiation transmission coefficient of the outside shading device. It is a value without unit.
+  ifdGuid: 2RiBHumdbFV9gO7cAgaygi
   localizations:
   - language: de-DE
     name: German-name-1
@@ -47,9 +71,19 @@ properties:
   - language: zh-CN
     name: 外部遮阳系数
     definition: 外部遮阳设备的辐射透射系数。无单位。
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPositiveRatioMeasure
+    measureType: ''
+    unitType: USERDEFINED
 - name: InternalShadingCoefficient
-  ifdGuid: d05697ecb57748cb9cf7fb0250ee3130
-  definition: 'Radiation transmission coefficient of the inside shading device, symbol "b-value". It is a value without unit. '
+  definition: Radiation transmission coefficient of the inside shading device, symbol "b-value". It is a value without unit.
+  ifdGuid: 3GLfVijNT8ovpt_m9GxZ4m
   localizations:
   - language: de-DE
     name: German-name-2
@@ -60,9 +94,19 @@ properties:
   - language: zh-CN
     name: 内部遮阳系数
     definition: 内部遮阳设备的辐射透射系数，符号为b值。无单位。
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPositiveRatioMeasure
+    measureType: ''
+    unitType: USERDEFINED
 - name: InsetShadingCoefficient
-  ifdGuid: 46a504d3a8e34666b911b1bc99988f5e
-  definition: 'Radiation transmission coefficient of the shading device inside the glazing, symbol "b-value". It is a value without unit. '
+  definition: Radiation transmission coefficient of the shading device inside the glazing, symbol "b-value". It is a value without unit.
+  ifdGuid: 16fGJJgED6PhaHiRoPc8zU
   localizations:
   - language: de-DE
     name: German-name-3
@@ -73,3 +117,13 @@ properties:
   - language: zh-CN
     name: 内嵌遮阳系数
     definition: 玻璃内嵌的遮阳设备的辐射透射系数，符号为b值。无单位。
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPositiveRatioMeasure
+    measureType: ''
+    unitType: USERDEFINED

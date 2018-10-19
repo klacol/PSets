@@ -1,28 +1,143 @@
 ﻿name: Pset_MaterialConcrete
 ifcVersion:
-  version: IFC4
+  version: 4.0.0.0
   schema: IfcMaterialResource
 ifdGuid: ''
 definition: A set of extended mechanical properties related to concrete materials.
+localizations:
+- language: en-EN
+  name: ''
+  definition: ''
+- language: de-DE
+  name: ''
+  definition: ''
+- language: fr-FR
+  name: ''
+  definition: ''
+- language: ja-JP
+  name: ''
+  definition: ''
 applicableIfcClasses:
 - name: IfcMaterial
   type: IfcMaterial/Concrete
 properties:
 - name: CompressiveStrength
   definition: The compressive strength of the concrete.
-  localizations: []
+  ifdGuid: ''
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPressureMeasure
+    measureType: ''
+    unitType: USERDEFINED
 - name: MaxAggregateSize
   definition: The maximum aggregate size of the concrete.
-  localizations: []
+  ifdGuid: ''
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPositiveLengthMeasure
+    measureType: ''
+    unitType: USERDEFINED
 - name: AdmixturesDescription
   definition: Description of the admixtures added to the concrete mix.
-  localizations: []
+  ifdGuid: ''
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcText
+    measureType: ''
+    unitType: USERDEFINED
 - name: Workability
   definition: Description of the workability of the fresh concrete defined according to local standards.
-  localizations: []
+  ifdGuid: ''
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcText
+    measureType: ''
+    unitType: USERDEFINED
 - name: WaterImpermeability
   definition: Description of the water impermeability denoting the water repelling properties.
-  localizations: []
+  ifdGuid: ''
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcText
+    measureType: ''
+    unitType: USERDEFINED
 - name: ProtectivePoreRatio
   definition: The protective pore ratio indicating the frost-resistance of the concrete.
-  localizations: []
+  ifdGuid: ''
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcNormalisedRatioMeasure
+    measureType: ''
+    unitType: USERDEFINED

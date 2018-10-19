@@ -1,16 +1,29 @@
 ﻿name: Pset_ActuatorTypeLinearActuation
 ifcVersion:
-  version: IFC4
+  version: 4.0.0.0
   schema: IfcBuildingControlsDomain
 ifdGuid: ''
 definition: 'Characteristics of linear actuation of an actuatorHistory: Replaces Pset_LinearActuator'
+localizations:
+- language: en-EN
+  name: ''
+  definition: ''
+- language: de-DE
+  name: ''
+  definition: ''
+- language: fr-FR
+  name: ''
+  definition: ''
+- language: ja-JP
+  name: ''
+  definition: ''
 applicableIfcClasses:
 - name: IfcActuatorType
   type: IfcActuatorType
 properties:
 - name: Force
-  ifdGuid: 2a2960b3bd334c1887fcda58a6edb35b
   definition: Indicates the maximum close-off force for the actuator.
+  ifdGuid: 0gAM2plJDC68VysbYcxRDR
   localizations:
   - language: ja-JP
     name: 最大推力
@@ -18,9 +31,22 @@ properties:
   - language: ko-KR
     name: 최대추력
     definition: 액츄에이터의 최대 마감 힘을 보여준다.
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcForceMeasure
+    measureType: ''
+    unitType: FORCEUNIT
 - name: Stroke
-  ifdGuid: 91e91b7127dd4a84b384a3089005b9bc
   definition: Indicates the maximum distance the actuator must traverse.
+  ifdGuid: 2HwHjn9zrAXBE4emYG1Rcy
   localizations:
   - language: ja-JP
     name: ストローク
@@ -28,3 +54,16 @@ properties:
   - language: ko-KR
     name: 입력
     definition: 액츄에이터가 움직이는 최대 거리를 보여준다.
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcLengthMeasure
+    measureType: ''
+    unitType: LENGTHUNIT

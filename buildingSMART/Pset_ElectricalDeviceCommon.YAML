@@ -1,45 +1,363 @@
 ﻿name: Pset_ElectricalDeviceCommon
 ifcVersion:
-  version: IFC4
+  version: 4.0.0.0
 ifdGuid: ''
 definition: A collection of properties that are commonly used by electrical device types.
+localizations:
+- language: en-EN
+  name: ''
+  definition: ''
+- language: de-DE
+  name: ''
+  definition: ''
+- language: fr-FR
+  name: ''
+  definition: ''
+- language: ja-JP
+  name: ''
+  definition: ''
 applicableIfcClasses:
 - name: IfcDistributionElement
   type: IfcDistributionElement
 properties:
 - name: RatedCurrent
-  ifdGuid: 784d9d2144d440b5b30e2ad107609548
   definition: ConsoleAppYamlTest.PropertyType
-  localizations: []
+  ifdGuid: 1uJPqXHDH0jRCEAj47O9L8
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertyBoundedValue:
+    unitType: ConsoleAppYamlTest.UnitType
+    LowerBoundValue: ''
+    UpperBoundValue: ''
+    typeName: TypePropertyBoundedValue
 - name: RatedVoltage
-  ifdGuid: a2e15fb5e52e49e3b86731401fe07f86
   definition: ConsoleAppYamlTest.PropertyType
-  localizations: []
+  ifdGuid: 2YuL_rvIv9uxXdCK0Vu7_6
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertyBoundedValue:
+    unitType: ConsoleAppYamlTest.UnitType
+    LowerBoundValue: ''
+    UpperBoundValue: ''
+    typeName: TypePropertyBoundedValue
 - name: NominalFrequencyRange
-  ifdGuid: f69a795455c74842825a54711d3b5abc
   definition: ConsoleAppYamlTest.PropertyType
-  localizations: []
+  ifdGuid: 3scdbKLST8Ge9QL74TErgy
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertyBoundedValue:
+    unitType: ConsoleAppYamlTest.UnitType
+    LowerBoundValue: ''
+    UpperBoundValue: ''
+    typeName: TypePropertyBoundedValue
 - name: PowerFactor
-  ifdGuid: cf5234358315441fa6c17c9b65bf62a0
   definition: ConsoleAppYamlTest.PropertyType
-  localizations: []
+  ifdGuid: 3FKZGrWnL47wR1V9jblsAW
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcNormalisedRatioMeasure
+    measureType: ''
+    unitType: USERDEFINED
 - name: ConductorFunction
-  ifdGuid: f936102bd4824b7eb989a5571e353770
   definition: ConsoleAppYamlTest.PropertyType
-  localizations: []
+  ifdGuid: 3vDX0hr89BVhc9fLSUDJTm
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertyEnumeratedValue:
+    listName: PEnum_ConductorFunctionEnum
+    enumerationValues:
+    - name: L1
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: L1
+        definition: ''
+      - language: de-DE
+        name: L1
+        definition: ''
+      - language: fr-FR
+        name: L1
+        definition: ''
+      - language: ja-JP
+        name: L1
+        definition: ''
+    - name: L2
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: L2
+        definition: ''
+      - language: de-DE
+        name: L2
+        definition: ''
+      - language: fr-FR
+        name: L2
+        definition: ''
+      - language: ja-JP
+        name: L2
+        definition: ''
+    - name: L3
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: L3
+        definition: ''
+      - language: de-DE
+        name: L3
+        definition: ''
+      - language: fr-FR
+        name: L3
+        definition: ''
+      - language: ja-JP
+        name: L3
+        definition: ''
 - name: NumberOfPoles
-  ifdGuid: 4b5b1c80d1df11e1800000215ad4efdf
   definition: ConsoleAppYamlTest.PropertyType
-  localizations: []
+  ifdGuid: 1BMno0qTyHuO00025QrE$V
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcInteger
+    measureType: ''
+    unitType: USERDEFINED
 - name: HasProtectiveEarth
-  ifdGuid: 50b86700d1df11e1800000215ad4efdf
   definition: ConsoleAppYamlTest.PropertyType
-  localizations: []
+  ifdGuid: 1Gk6S0qTyHuO00025QrE$V
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcBoolean
+    measureType: ''
+    unitType: USERDEFINED
 - name: IP_Code
-  ifdGuid: 56ae4800d1df11e1800000215ad4efdf
   definition: ConsoleAppYamlTest.PropertyType
-  localizations: []
+  ifdGuid: 1MhaW0qTyHuO00025QrE$V
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcLabel
+    measureType: ''
+    unitType: USERDEFINED
 - name: InsulationStandardClass
-  ifdGuid: 5d3cbf80d1df11e1800000215ad4efdf
   definition: ConsoleAppYamlTest.PropertyType
-  localizations: []
+  ifdGuid: 1TFB_0qTyHuO00025QrE$V
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertyEnumeratedValue:
+    listName: PEnum_InsulationStandardClass
+    enumerationValues:
+    - name: CLASS0APPLIANCE
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Class0appliance
+        definition: ''
+      - language: de-DE
+        name: Class0appliance
+        definition: ''
+      - language: fr-FR
+        name: Class0appliance
+        definition: ''
+      - language: ja-JP
+        name: Class0appliance
+        definition: ''
+    - name: CLASS0IAPPLIANCE
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Class0iappliance
+        definition: ''
+      - language: de-DE
+        name: Class0iappliance
+        definition: ''
+      - language: fr-FR
+        name: Class0iappliance
+        definition: ''
+      - language: ja-JP
+        name: Class0iappliance
+        definition: ''
+    - name: CLASSIAPPLIANCE
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Classiappliance
+        definition: ''
+      - language: de-DE
+        name: Classiappliance
+        definition: ''
+      - language: fr-FR
+        name: Classiappliance
+        definition: ''
+      - language: ja-JP
+        name: Classiappliance
+        definition: ''
+    - name: CLASSIIAPPLIANCE
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Classiiappliance
+        definition: ''
+      - language: de-DE
+        name: Classiiappliance
+        definition: ''
+      - language: fr-FR
+        name: Classiiappliance
+        definition: ''
+      - language: ja-JP
+        name: Classiiappliance
+        definition: ''
+    - name: CLASSIIIAPPLIANCE
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Classiiiappliance
+        definition: ''
+      - language: de-DE
+        name: Classiiiappliance
+        definition: ''
+      - language: fr-FR
+        name: Classiiiappliance
+        definition: ''
+      - language: ja-JP
+        name: Classiiiappliance
+        definition: ''
+    - name: NOTKNOWN
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Notknown
+        definition: ''
+      - language: de-DE
+        name: Notknown
+        definition: ''
+      - language: fr-FR
+        name: Notknown
+        definition: ''
+      - language: ja-JP
+        name: Notknown
+        definition: ''
+    - name: UNSET
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Unset
+        definition: ''
+      - language: de-DE
+        name: Unset
+        definition: ''
+      - language: fr-FR
+        name: Unset
+        definition: ''
+      - language: ja-JP
+        name: Unset
+        definition: ''

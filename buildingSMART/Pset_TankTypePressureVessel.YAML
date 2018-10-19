@@ -1,31 +1,83 @@
 ﻿name: Pset_TankTypePressureVessel
 ifcVersion:
-  version: IFC4
+  version: 4.0.0.0
   schema: IfcHvacDomain
 ifdGuid: ''
 definition: Common attributes of a pressure vessel.
+localizations:
+- language: en-EN
+  name: ''
+  definition: ''
+- language: de-DE
+  name: ''
+  definition: ''
+- language: fr-FR
+  name: ''
+  definition: ''
+- language: ja-JP
+  name: ''
+  definition: ''
 applicableIfcClasses:
 - name: IfcTankType
   type: IfcTankType/PRESSUREVESSEL
 properties:
 - name: ChargePressure
-  ifdGuid: 2e0898c9b2b549fea166745289a9adc0
-  definition: 'Nominal or design operating pressure of the tank. '
+  definition: Nominal or design operating pressure of the tank.
+  ifdGuid: 0k29Z9ihL9$g5cT5A9gQt0
   localizations:
   - language: ja-JP
     name: 加圧力
     definition: タンクの公称又は設計運転圧力
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPressureMeasure
+    measureType: ''
+    unitType: PRESSUREUNIT
 - name: PressureRegulatorSetting
-  ifdGuid: 3083996d9d0e487a97caf243e3e96bd8
-  definition: 'Pressure that is automatically maintained in the tank. '
+  definition: Pressure that is automatically maintained in the tank.
+  ifdGuid: 0mWvbjdGv8UfVAyaFZwMlO
   localizations:
   - language: ja-JP
     name: 圧力調整設定
     definition: タンク内で自動的に維持される圧力
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPressureMeasure
+    measureType: ''
+    unitType: PRESSUREUNIT
 - name: ReliefValveSetting
-  ifdGuid: 0df70a8d7fd24c8692310b51e16e5d74
-  definition: 'Pressure at which the relief valve activates. '
+  definition: Pressure at which the relief valve activates.
+  ifdGuid: 0DzmgDVz9CXf8n2r7XRbrq
   localizations:
   - language: ja-JP
     name: 安全弁設定
     definition: 安全弁が作動する圧力
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPressureMeasure
+    measureType: ''
+    unitType: PRESSUREUNIT

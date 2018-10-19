@@ -1,9 +1,22 @@
 ﻿name: Pset_DiscreteAccessoryCornerFixingPlate
 ifcVersion:
-  version: IFC4
+  version: 4.0.0.0
   schema: IfcSharedComponentElements
 ifdGuid: ''
 definition: Properties specific to corner fixing plates.
+localizations:
+- language: en-EN
+  name: ''
+  definition: ''
+- language: de-DE
+  name: ''
+  definition: ''
+- language: fr-FR
+  name: ''
+  definition: ''
+- language: ja-JP
+  name: ''
+  definition: ''
 applicableIfcClasses:
 - name: IfcDiscreteAccessory
   type: IfcDiscreteAccessory/Corner fixing plate
@@ -11,8 +24,8 @@ applicableIfcClasses:
   type: IfcDiscreteAccessory/Corner fixing plate
 properties:
 - name: CornerFixingPlateLength
-  ifdGuid: 3c9cf667fe7844f196e7c8c0f42007f9
   definition: The length of the L-shaped corner plate.
+  ifdGuid: 0ydFPd$dX4yPRdoC3q80Vv
   localizations:
   - language: ja-JP
     name: 長さ
@@ -20,9 +33,22 @@ properties:
   - language: ko-KR
     name: 길이
     definition: L 형 코너 플레이트의 길이
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPositiveLengthMeasure
+    measureType: ''
+    unitType: LENGTHUNIT
 - name: CornerFixingPlateThickness
-  ifdGuid: c31b84fa225044fcb60ada75b0fee99d
   definition: The thickness of the L-shaped corner plate.
+  ifdGuid: 336uJw8b14$BOAsdMm$kcT
   localizations:
   - language: ja-JP
     name: 板厚
@@ -30,9 +56,22 @@ properties:
   - language: ko-KR
     name: 두께
     definition: L 형 코너 플레이트의 두께
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPositiveLengthMeasure
+    measureType: ''
+    unitType: LENGTHUNIT
 - name: CornerFixingPlateFlangeWidthInPlaneZ
-  ifdGuid: d40846c54ba84df8882887507769dfdd
   definition: The flange width of the L-shaped corner plate in plane Z.
+  ifdGuid: 3K24R5IwXD_8WeXr1tQT$T
   localizations:
   - language: ja-JP
     name: フランジ幅Z
@@ -40,9 +79,22 @@ properties:
   - language: ko-KR
     name: 플랜지 폭 Z
     definition: L 형 코너 플레이트 Z면 플랜지 폭
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPositiveLengthMeasure
+    measureType: ''
+    unitType: LENGTHUNIT
 - name: CornerFixingPlateFlangeWidthInPlaneX
-  ifdGuid: 83526700c9d84f609bc8b4396a1505c4
   definition: The flange width of the L-shaped corner plate in plane X.
+  ifdGuid: 23KcS0oTXFO9l8j3bg5GN4
   localizations:
   - language: ja-JP
     name: フランジ幅X
@@ -50,3 +102,16 @@ properties:
   - language: ko-KR
     name: 플랜지 폭 X
     definition: L 형 코너 플레이트 X면 플랜지 폭
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPositiveLengthMeasure
+    measureType: ''
+    unitType: LENGTHUNIT

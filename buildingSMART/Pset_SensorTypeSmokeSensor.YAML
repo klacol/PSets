@@ -1,16 +1,29 @@
 ﻿name: Pset_SensorTypeSmokeSensor
 ifcVersion:
-  version: IFC4
+  version: 4.0.0.0
   schema: IfcBuildingControlsDomain
 ifdGuid: ''
 definition: 'A device that senses or detects smoke. HISTORY: PressureSensorSensorSetPoint (error in previous release) changed to SetPointConcentration. Range, accuracy and time constant deleted.'
+localizations:
+- language: en-EN
+  name: ''
+  definition: ''
+- language: de-DE
+  name: ''
+  definition: ''
+- language: fr-FR
+  name: ''
+  definition: ''
+- language: ja-JP
+  name: ''
+  definition: ''
 applicableIfcClasses:
 - name: IfcSensorType
   type: IfcSensorType/SMOKESENSOR
 properties:
 - name: CoverageArea
-  ifdGuid: 721cbb8b80c043269a586db88b590d04
   definition: The floor area that is covered by the sensor (typically measured as a circle whose center is at the location of the sensor).
+  ifdGuid: 1o7BkBWC139ffORRYBMGq4
   localizations:
   - language: ja-JP
     name: 測定範囲
@@ -18,9 +31,22 @@ properties:
   - language: ko-KR
     name: 측정 범위
     definition: 센서 커버되는 바닥 면적. (일반적으로 센터 센서의 위치에있는 원형으로 측정되는)
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcAreaMeasure
+    measureType: ''
+    unitType: AREAUNIT
 - name: SetPointConcentration
-  ifdGuid: 07b0055e38974cd7bb4daf3fc1e1b024
   definition: The smoke concentration value to be sensed. Use IfcPropertyBoundedValue.SetPointValue to set the set point value.
+  ifdGuid: 07i0LUE9TCrxjDhp$1uR0a
   localizations:
   - language: ja-JP
     name: 煙濃度設定値
@@ -28,9 +54,23 @@ properties:
   - language: ko-KR
     name: 연기 농도 설정
     definition: 감지되는 연기 농도. 세트 포인트 값을 넣으려면, IfcPropertyBoundedValue.SetPointValue를 사용하십시오.
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertyBoundedValue:
+    unitType: ConsoleAppYamlTest.UnitType
+    LowerBoundValue: '?'
+    UpperBoundValue: '?'
+    typeName: TypePropertyBoundedValue
 - name: HasBuiltInAlarm
-  ifdGuid: 9505c16b042d405784f673f332e29bb6
   definition: Indicates whether the smoke sensor is included as an element within a smoke alarm/sensor unit (TRUE) or not (FALSE).
+  ifdGuid: 2L1S5h12r0LuJsS$Coufks
   localizations:
   - language: ja-JP
     name: 煙警報器に含まれているか
@@ -38,3 +78,16 @@ properties:
   - language: ko-KR
     name: 연기 경보기에 포함여부
     definition: 연기 센서가 화재 경보 센서 유닛의 요소로 포함되어 있는지 (TRUE) 여부 (FALSE)를 확인한다.
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcBoolean
+    measureType: ''
+    unitType: USERDEFINED

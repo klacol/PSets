@@ -1,16 +1,29 @@
 ﻿name: Pset_DistributionChamberElementTypeTrench
 ifcVersion:
-  version: IFC4
+  version: 4.0.0.0
   schema: IfcSharedBldgServiceElements
 ifdGuid: ''
 definition: Excavation, the length of which greatly exceeds the width.
+localizations:
+- language: en-EN
+  name: ''
+  definition: ''
+- language: de-DE
+  name: ''
+  definition: ''
+- language: fr-FR
+  name: ''
+  definition: ''
+- language: ja-JP
+  name: ''
+  definition: ''
 applicableIfcClasses:
 - name: IfcDistributionChamberElementType
   type: IfcDistributionChamberElementType/TRENCH
 properties:
 - name: Width
-  ifdGuid: 0df9b181aa46462d9237ef59ae257042
   definition: The width of the trench.
+  ifdGuid: 0D_R61gaP6BP8txrck9N12
   localizations:
   - language: ja-JP
     name: 長さ
@@ -18,9 +31,22 @@ properties:
   - language: ko-KR
     name: 길이
     definition: 홈의 길이
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPositiveLengthMeasure
+    measureType: ''
+    unitType: LENGTHUNIT
 - name: Depth
-  ifdGuid: 568ec3a1b8634dba9054b649de3bf971
   definition: The depth of the trench.
+  ifdGuid: 1MZiEXk6DDkf1KjadUE$bn
   localizations:
   - language: ja-JP
     name: 幅
@@ -28,9 +54,22 @@ properties:
   - language: ko-KR
     name: 폭
     definition: 홈의 폭
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPositiveLengthMeasure
+    measureType: ''
+    unitType: LENGTHUNIT
 - name: InvertLevel
-  ifdGuid: 3f72db0611224caaaf887c15cf82322b
   definition: Level of the lowest part of the cross section as measured from ground level.
+  ifdGuid: 0$Sji64I9Cgg_8V1NFWZ8h
   localizations:
   - language: ja-JP
     name: 最大深さ（？）
@@ -38,3 +77,16 @@ properties:
   - language: ko-KR
     name: 최대 깊이
     definition: 단면의 가장 낮은 부분의 깊이 (지상)
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcLengthMeasure
+    measureType: ''
+    unitType: LENGTHUNIT

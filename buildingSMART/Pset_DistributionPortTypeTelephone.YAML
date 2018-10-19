@@ -1,15 +1,29 @@
 ﻿name: Pset_DistributionPortTypeTelephone
 ifcVersion:
-  version: IFC4
+  version: 4.0.0.0
   schema: IfcSharedBldgServiceElements
 ifdGuid: ''
 definition: Telephone port occurrence attributes attached to an instance of IfcDistributionPort.
+localizations:
+- language: en-EN
+  name: ''
+  definition: ''
+- language: de-DE
+  name: ''
+  definition: ''
+- language: fr-FR
+  name: ''
+  definition: ''
+- language: ja-JP
+  name: ''
+  definition: ''
 applicableIfcClasses:
 - name: IfcDistributionPort
   type: IfcDistributionPort/TELEPHONE
 properties:
 - name: ConnectionType
   definition: 'The physical port connection:RJ: Registered Jack.'
+  ifdGuid: ''
   localizations:
   - language: ja-JP
     name: 接続タイプ
@@ -17,8 +31,69 @@ properties:
   - language: ko-KR
     name: 연결 유형
     definition: 'RJ : 등록된 잭'
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertyEnumeratedValue:
+    listName: PEnum_DistributionPortDataType
+    enumerationValues:
+    - name: RJ
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Rj
+        definition: ''
+      - language: de-DE
+        name: Rj
+        definition: ''
+      - language: fr-FR
+        name: Rj
+        definition: ''
+      - language: ja-JP
+        name: Rj
+        definition: ''
+    - name: OTHER
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Other
+        definition: ''
+      - language: de-DE
+        name: Other
+        definition: ''
+      - language: fr-FR
+        name: Other
+        definition: ''
+      - language: ja-JP
+        name: Other
+        definition: ''
+    - name: UNKNOWN
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Unknown
+        definition: ''
+      - language: de-DE
+        name: Unknown
+        definition: ''
+      - language: fr-FR
+        name: Unknown
+        definition: ''
+      - language: ja-JP
+        name: Unknown
+        definition: ''
 - name: ConnectionSubtype
-  definition: 'The physical port connection subtype that further qualifies the ConnectionType.  The following values are recommended:RJ: 4P4C, 6P2C, 8P8C '
+  definition: 'The physical port connection subtype that further qualifies the ConnectionType.  The following values are recommended:RJ: 4P4C, 6P2C, 8P8C'
+  ifdGuid: ''
   localizations:
   - language: ja-JP
     name: 接続のサブタイプ
@@ -26,8 +101,22 @@ properties:
   - language: ko-KR
     name: 연결 서브 타입
     definition: 'RJ : 4P4C, 6P2C, 8P8C'
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcLabel
+    measureType: ''
+    unitType: USERDEFINED
 - name: ConnectionGender
   definition: The physical connection gender.
+  ifdGuid: ''
   localizations:
   - language: ja-JP
     name: 接続ジェンダー
@@ -35,3 +124,79 @@ properties:
   - language: ko-KR
     name: 연결 젠더
     definition: 형상적인 연결 젠더 (수컷, 암컷? 기타 알 수없는 구성되지 않은)
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertyEnumeratedValue:
+    listName: PEnum_DistributionPortGender
+    enumerationValues:
+    - name: MALE
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Male
+        definition: ''
+      - language: de-DE
+        name: Male
+        definition: ''
+      - language: fr-FR
+        name: Male
+        definition: ''
+      - language: ja-JP
+        name: Male
+        definition: ''
+    - name: FEMALE
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Female
+        definition: ''
+      - language: de-DE
+        name: Female
+        definition: ''
+      - language: fr-FR
+        name: Female
+        definition: ''
+      - language: ja-JP
+        name: Female
+        definition: ''
+    - name: OTHER
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Other
+        definition: ''
+      - language: de-DE
+        name: Other
+        definition: ''
+      - language: fr-FR
+        name: Other
+        definition: ''
+      - language: ja-JP
+        name: Other
+        definition: ''
+    - name: UNKNOWN
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Unknown
+        definition: ''
+      - language: de-DE
+        name: Unknown
+        definition: ''
+      - language: fr-FR
+        name: Unknown
+        definition: ''
+      - language: ja-JP
+        name: Unknown
+        definition: ''

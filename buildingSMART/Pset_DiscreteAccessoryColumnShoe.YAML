@@ -1,9 +1,22 @@
 ﻿name: Pset_DiscreteAccessoryColumnShoe
 ifcVersion:
-  version: IFC4
+  version: 4.0.0.0
   schema: IfcSharedComponentElements
 ifdGuid: ''
 definition: Shape properties common to column shoes.
+localizations:
+- language: en-EN
+  name: ''
+  definition: ''
+- language: de-DE
+  name: ''
+  definition: ''
+- language: fr-FR
+  name: ''
+  definition: ''
+- language: ja-JP
+  name: ''
+  definition: ''
 applicableIfcClasses:
 - name: IfcDiscreteAccessory
   type: IfcDiscreteAccessory/SHOE
@@ -11,8 +24,8 @@ applicableIfcClasses:
   type: IfcDiscreteAccessory/SHOE
 properties:
 - name: ColumnShoeBasePlateThickness
-  ifdGuid: 648cfb0199784485a94bd9bb99138fa8
   definition: The thickness of the column shoe base plate.
+  ifdGuid: 1aZFi1cNX4XQbBsRkP4u_e
   localizations:
   - language: ja-JP
     name: ベースプレート厚
@@ -20,9 +33,22 @@ properties:
   - language: ko-KR
     name: 베이스 플레이트 두께
     definition: 기둥 다리베이스 플레이트의 두께
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPositiveLengthMeasure
+    measureType: ''
+    unitType: LENGTHUNIT
 - name: ColumnShoeBasePlateWidth
-  ifdGuid: a5a9315ba0da49f58ca94693c2ff1d17
   definition: The width of the column shoe base plate.
+  ifdGuid: 2bgJ5ReDf9zOofHfF2$nqN
   localizations:
   - language: ja-JP
     name: ベースプレート幅
@@ -30,9 +56,22 @@ properties:
   - language: ko-KR
     name: 베이스 플레이트 폭
     definition: 기둥 다리 받침판 폭
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPositiveLengthMeasure
+    measureType: ''
+    unitType: LENGTHUNIT
 - name: ColumnShoeBasePlateDepth
-  ifdGuid: f7adde518bc1429097e4c2f0daeefc69
   definition: The depth of the column shoe base plate.
+  ifdGuid: 3thTvHYy52a9Vaml3Qxlnf
   localizations:
   - language: ja-JP
     name: ベースプレート成
@@ -40,9 +79,22 @@ properties:
   - language: ko-KR
     name: 베이스 플레이트 구성
     definition: 기둥 다리 받침판 구성
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPositiveLengthMeasure
+    measureType: ''
+    unitType: LENGTHUNIT
 - name: ColumnShoeCasingHeight
-  ifdGuid: 7572e6031f9b48d2a0e46d96ac25df4c
   definition: The height of the column shoe casing.
+  ifdGuid: 1rSkO37vj8qg3aRPQi9TzC
   localizations:
   - language: ja-JP
     name: ケーシング厚
@@ -50,9 +102,22 @@ properties:
   - language: ko-KR
     name: 케이스 두께
     definition: 기둥 다리 케이스의 두께
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPositiveLengthMeasure
+    measureType: ''
+    unitType: LENGTHUNIT
 - name: ColumnShoeCasingWidth
-  ifdGuid: d79c18d097664c3b8eb58f9447081e33
   definition: The width of the column shoe casing.
+  ifdGuid: 3Nd1ZGbsPCEuwrZvH721up
   localizations:
   - language: ja-JP
     name: ケーシング幅
@@ -60,9 +125,22 @@ properties:
   - language: ko-KR
     name: 케이스 폭
     definition: 기둥 다리 케이스의 폭
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPositiveLengthMeasure
+    measureType: ''
+    unitType: LENGTHUNIT
 - name: ColumnShoeCasingDepth
-  ifdGuid: dfa6e4476171408dbea3525ff98b8b74
   definition: The depth of the column shoe casing.
+  ifdGuid: 3VfkH7ON50ZRwZKb$vYujq
   localizations:
   - language: ja-JP
     name: ケーシング成
@@ -70,3 +148,16 @@ properties:
   - language: ko-KR
     name: 케이스 구성
     definition: 기둥 다리 케이스의 구성
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPositiveLengthMeasure
+    measureType: ''
+    unitType: LENGTHUNIT

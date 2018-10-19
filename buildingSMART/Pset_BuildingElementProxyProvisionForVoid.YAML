@@ -1,9 +1,22 @@
 ﻿name: Pset_BuildingElementProxyProvisionForVoid
 ifcVersion:
-  version: IFC4
+  version: 4.0.0.0
   schema: IfcSharedBldgElements
 ifdGuid: ''
 definition: Properties common to the definition of a provision for void as a special type of an instance of IfcBuildingElementProxy. A provision for void is a spatial provision that might be resolved into a void in a building element. The properties carry requested values.
+localizations:
+- language: en-EN
+  name: ''
+  definition: ''
+- language: de-DE
+  name: ''
+  definition: ''
+- language: fr-FR
+  name: ''
+  definition: ''
+- language: ja-JP
+  name: ''
+  definition: ''
 applicableIfcClasses:
 - name: IfcBuildingElementProxy
   type: IfcBuildingElementProxyType/PROVISIONFORVOID
@@ -11,8 +24,8 @@ applicableIfcClasses:
   type: IfcBuildingElementProxyType/PROVISIONFORVOID
 properties:
 - name: Shape
-  ifdGuid: 1f84ce9dbb8045c4a89c1ca82f749a84
   definition: The shape form of the provision for void, the minimum set of agreed values includes 'Rectangle', 'Round', and 'Undefined'.
+  ifdGuid: 0VXCwTku15nAYS7AWlT9g4
   localizations:
   - language: de-DE
     name: Form
@@ -26,9 +39,16 @@ properties:
   - language: zh-CN
     name: 形状
     definition: 空构件的形状，当前得到认可的值至少包括“矩形”、“圆形”及“未定义”。
+  - language: en-EN
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcLabel
+    measureType: ''
+    unitType: USERDEFINED
 - name: Width
-  ifdGuid: ee42887c56014da1afff889fc5ce662c
   definition: The requested width (horizontal extension in elevation) of the provision for void, only provided if the Shape property is set to "rectangle".
+  ifdGuid: 3kGeXyLW5DeQ$$Y9$5pcOi
   localizations:
   - language: de-DE
     name: Breite
@@ -42,9 +62,16 @@ properties:
   - language: zh-CN
     name: 宽度
     definition: 空构件的宽度（在立面图中水平方向的长度），仅当“形状”属性为“矩形”时适用。
+  - language: en-EN
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPositiveLengthMeasure
+    measureType: ''
+    unitType: LENGTHUNIT
 - name: Height
-  ifdGuid: 436522bb17e4471a9457461e0b06c648
   definition: The requested height (vertical extension in elevation) of the provision for void", only provided if the Shape property is set to "rectangle".
+  ifdGuid: 13PIAx5_H76fHNHXuB1iP8
   localizations:
   - language: de-DE
     name: Höhe
@@ -58,9 +85,16 @@ properties:
   - language: zh-CN
     name: 高度
     definition: 空构件的高度（在立面图中竖直方向的长度），仅当“形状”属性为“矩形”时适用。
+  - language: en-EN
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPositiveLengthMeasure
+    measureType: ''
+    unitType: LENGTHUNIT
 - name: Diameter
-  ifdGuid: bb2447722d78415bafd408c2c46c4c8d
   definition: The requested diameter (in elevation) of the provision for void, only provided if the Shape property is set to "round".
+  ifdGuid: 2x94ToBNX1Mw$K2CB4R4oD
   localizations:
   - language: de-DE
     name: Durchmesser
@@ -74,9 +108,16 @@ properties:
   - language: zh-CN
     name: 直径
     definition: 空构件的直径（在立面图中），仅当“形状”属性为“圆形”时适用。
+  - language: en-EN
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPositiveLengthMeasure
+    measureType: ''
+    unitType: LENGTHUNIT
 - name: Depth
-  ifdGuid: 89c8805ab67d410d904907e6c084d466
   definition: The requested depth or thickness of the provision for void.
+  ifdGuid: 29o81Qjdr13P191_R0XDHc
   localizations:
   - language: de-DE
     name: Tiefe
@@ -90,9 +131,16 @@ properties:
   - language: zh-CN
     name: 深度
     definition: 空构件的深度或厚度。
+  - language: en-EN
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPositiveLengthMeasure
+    measureType: ''
+    unitType: LENGTHUNIT
 - name: System
-  ifdGuid: f95921e68338429b9ed40888d2b56b4c
   definition: he building service system that requires the provision for voids, e.g. 'Air Conditioning', 'Plumbing', 'Electro', etc.
+  ifdGuid: 3vMI7cWpX2cvxK28ZIjMjC
   localizations:
   - language: de-DE
     name: Anlage
@@ -106,3 +154,10 @@ properties:
   - language: zh-CN
     name: 系统
     definition: 需要空构件的建筑服务系统，例如，“空调”、“给排水”、“电气”等。
+  - language: en-EN
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcLabel
+    measureType: ''
+    unitType: USERDEFINED

@@ -1,30 +1,186 @@
 ﻿name: Pset_SystemFurnitureElementTypeWorkSurface
 ifcVersion:
-  version: IFC4
+  version: 4.0.0.0
   schema: IfcSharedFacilitiesElements
 ifdGuid: ''
 definition: 'A set of specific properties for work surfaces used in workstations. HISTORY: First issued in IFC Release R1.5. Renamed from Pset_Worksurface'
+localizations:
+- language: en-EN
+  name: ''
+  definition: ''
+- language: de-DE
+  name: ''
+  definition: ''
+- language: fr-FR
+  name: ''
+  definition: ''
+- language: ja-JP
+  name: ''
+  definition: ''
 applicableIfcClasses:
 - name: IfcSystemFurnitureElementType
   type: IfcSystemFurnitureElementType/WORKSURFACE
 properties:
 - name: UsePurpose
-  ifdGuid: 6bed612ab42a4bff8f9e36a872652f47
   definition: The principal purpose for which the work surface is intended to be used e.g. writing/reading, computer, meeting, printer, reference files, etc.
-  localizations: []
+  ifdGuid: 1hxM4gj2fB$u_UDgXoPIz7
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcLabel
+    measureType: ''
+    unitType: USERDEFINED
 - name: SupportType
-  ifdGuid: 9378996079c140fdbbdfc002d3fb454e
   definition: Available support types from which that required may be selected.
-  localizations: []
+  ifdGuid: 2JU9bWUS50$RlVm0BJ_qLE
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertyEnumeratedValue:
+    listName: PEnum_FurniturePanelType
+    enumerationValues:
+    - name: FREESTANDING
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Freestanding
+        definition: ''
+      - language: de-DE
+        name: Freestanding
+        definition: ''
+      - language: fr-FR
+        name: Freestanding
+        definition: ''
+      - language: ja-JP
+        name: Freestanding
+        definition: ''
+    - name: SUPPORTED
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Supported
+        definition: ''
+      - language: de-DE
+        name: Supported
+        definition: ''
+      - language: fr-FR
+        name: Supported
+        definition: ''
+      - language: ja-JP
+        name: Supported
+        definition: ''
+    - name: OTHER
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Other
+        definition: ''
+      - language: de-DE
+        name: Other
+        definition: ''
+      - language: fr-FR
+        name: Other
+        definition: ''
+      - language: ja-JP
+        name: Other
+        definition: ''
+    - name: UNKNOWN
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Unknown
+        definition: ''
+      - language: de-DE
+        name: Unknown
+        definition: ''
+      - language: fr-FR
+        name: Unknown
+        definition: ''
+      - language: ja-JP
+        name: Unknown
+        definition: ''
 - name: HangingHeight
-  ifdGuid: 575814e2e2ba4e0f8a0b1ba20505159f
   definition: The hanging height of the worksurface.
-  localizations: []
+  ifdGuid: 1NM1JYuhfE3ueB6w851HMV
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPositiveLengthMeasure
+    measureType: ''
+    unitType: LENGTHUNIT
 - name: NominalThickness
-  ifdGuid: 85665c86114e42e5831cb76d09e32d0a
   definition: The nominal thickness of the work surface.
-  localizations: []
+  ifdGuid: 25Pbo64Kv2vOCSjsq9uoqA
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPositiveLengthMeasure
+    measureType: ''
+    unitType: LENGTHUNIT
 - name: ShapeDescription
-  ifdGuid: ffefe112b4f44296a08382c99836c59d
   definition: A description of the shape of the work surface e.g. corner square, rectangle, etc.
-  localizations: []
+  ifdGuid: 3$x_4IjFH2bg23WicODiMT
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcLabel
+    measureType: ''
+    unitType: USERDEFINED

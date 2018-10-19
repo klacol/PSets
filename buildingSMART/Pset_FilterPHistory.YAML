@@ -1,22 +1,89 @@
 ﻿name: Pset_FilterPHistory
 ifcVersion:
-  version: IFC4
+  version: 4.0.0.0
   schema: IfcHvacDomain
 ifdGuid: ''
 definition: Filter performance history attributes.
+localizations:
+- language: en-EN
+  name: ''
+  definition: ''
+- language: de-DE
+  name: ''
+  definition: ''
+- language: fr-FR
+  name: ''
+  definition: ''
+- language: ja-JP
+  name: ''
+  definition: ''
 applicableIfcClasses:
 - name: IfcPerformanceHistory
   type: IfcFilter
 properties:
 - name: CountedEfficiency
-  ifdGuid: ba77eb3191a54e5cba7a619cdf75df02
   definition: Filter efficiency based the particle counts concentration before and after filter against particles with certain size distribution.
-  localizations: []
+  ifdGuid: 2wT_inaQLENBfwOPpVTTy2
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertyReferenceValue:
+    refType: IfcTimeSeries
+    url: http://buildingsmart-tech.org
+    guid: ''
+    libraryName: Industry Foundation Classes by buildingSMART International
+    sectionref: Core Schema
 - name: WeightedEfficiency
-  ifdGuid: 77038a9fdeba4957a3b2919723e74792
   definition: Filter efficiency based the particle weight concentration before and after filter against particles with certain size distribution.
-  localizations: []
+  ifdGuid: 1t0ugVthf9LwEoaPSZvqUI
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertyReferenceValue:
+    refType: IfcTimeSeries
+    url: http://buildingsmart-tech.org
+    guid: ''
+    libraryName: Industry Foundation Classes by buildingSMART International
+    sectionref: Core Schema
 - name: ParticleMassHolding
-  ifdGuid: 291462a7d43345718c8ef0d64fdbb421
   definition: Mass of particle holding in the filter.
-  localizations: []
+  ifdGuid: 0f56Adr3D5SOoEyDPFsxGX
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertyReferenceValue:
+    refType: IfcTimeSeries
+    url: http://buildingsmart-tech.org
+    guid: ''
+    libraryName: Industry Foundation Classes by buildingSMART International
+    sectionref: Core Schema

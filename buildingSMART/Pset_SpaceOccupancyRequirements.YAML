@@ -1,9 +1,22 @@
 ﻿name: Pset_SpaceOccupancyRequirements
 ifcVersion:
-  version: IFC4
+  version: 4.0.0.0
   schema: IfcProductExtension
 ifdGuid: ''
 definition: Properties concerning work activities occurring or expected to occur within one or a set of similar spatial structure elements.
+localizations:
+- language: en-EN
+  name: ''
+  definition: ''
+- language: de-DE
+  name: ''
+  definition: ''
+- language: fr-FR
+  name: ''
+  definition: ''
+- language: ja-JP
+  name: ''
+  definition: ''
 applicableIfcClasses:
 - name: IfcSpace
   type: IfcSpace, IfcSpatialZone, IfcZone
@@ -15,8 +28,8 @@ applicableIfcClasses:
   type: IfcSpace, IfcSpatialZone, IfcZone
 properties:
 - name: OccupancyType
-  ifdGuid: 5592a349ee4c4cee99e812b819bf7c90
   definition: Occupancy type for this object. It is defined according to the presiding national building code.
+  ifdGuid: 1LagD9xanCxfde4hWPltoG
   localizations:
   - language: de-DE
     name: Nutzungsart
@@ -27,9 +40,16 @@ properties:
   - language: ja-JP
     name: 用途
     definition: このオブジェクトの用途。統括する国の建築法規により定義される。
+  - language: en-EN
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcLabel
+    measureType: ''
+    unitType: USERDEFINED
 - name: OccupancyNumber
-  ifdGuid: 243ee4c079d6470daefac9f80aefbfb2
   definition: Number of people required for the activity assigned to this space.
+  ifdGuid: 0aFkJ0UTP73QxwoVWAxx_o
   localizations:
   - language: de-DE
     name: Belegung
@@ -40,9 +60,16 @@ properties:
   - language: ja-JP
     name: 利用人数
     definition: この空間に割り当てられた活動を遂行するために必要な人数。
+  - language: en-EN
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcCountMeasure
+    measureType: ''
+    unitType: USERDEFINED
 - name: OccupancyNumberPeak
-  ifdGuid: 978b2fb072ef4aca903633e997cbcf00
   definition: Maximal number of people required for the activity assigned to this space in peak time.
+  ifdGuid: 2NYo_mSkzAof0sC_cNoyy0
   localizations:
   - language: de-DE
     name: Maximale Belegung
@@ -53,9 +80,16 @@ properties:
   - language: ja-JP
     name: 利用人数ピーク
     definition: この空間に割り当てられた活動を遂行するために必要な最大人数。
+  - language: en-EN
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcCountMeasure
+    measureType: ''
+    unitType: USERDEFINED
 - name: OccupancyTimePerDay
-  ifdGuid: 57b9ed8ff6e44e7383aae987caccfa80
   definition: The amount of time during the day that the activity is required within this space.
+  ifdGuid: 1NkUsFzkHESuEgwOVApFg0
   localizations:
   - language: de-DE
     name: Belegungszeit pro Tag
@@ -66,9 +100,16 @@ properties:
   - language: ja-JP
     name: 日毎利用時間
     definition: この空間での活動をするために必要な日中の時間。
+  - language: en-EN
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcTimeMeasure
+    measureType: ''
+    unitType: TIMEUNIT
 - name: AreaPerOccupant
-  ifdGuid: 2d95a533679743cdafc47c22a9342c2f
   definition: Design occupancy loading for this type of usage assigned to this space.
+  ifdGuid: 0jbQKpPvT3pQ$4V2AfD2ml
   localizations:
   - language: de-DE
     name: Fläche pro Nutzer
@@ -79,9 +120,16 @@ properties:
   - language: ja-JP
     name: 利用者毎面積
     definition: この空間に割り当てられた用途に対する想定利用負荷。
+  - language: en-EN
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcAreaMeasure
+    measureType: ''
+    unitType: AREAUNIT
 - name: MinimumHeadroom
-  ifdGuid: 0b26f2613a944115ac75485def310044
   definition: Headroom required for the activity assigned to this space.
+  ifdGuid: 0B9l9XEfH15QnrI5tlCG14
   localizations:
   - language: de-DE
     name: Lichte Höhe
@@ -92,9 +140,16 @@ properties:
   - language: ja-JP
     name: 最小頭上あき高
     definition: この空間に割り当てられた用途に必要な頭上あき高。
+  - language: en-EN
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcLengthMeasure
+    measureType: ''
+    unitType: LENGTHUNIT
 - name: IsOutlookDesirable
-  ifdGuid: 39c036be7b0d489fb4543d63ac33ba33
   definition: An indication of whether the outlook is desirable (set TRUE) or not (set FALSE)
+  ifdGuid: 0vm3Q_Umr8dxHKFMEiCxep
   localizations:
   - language: de-DE
     name: Ausblick erwünscht
@@ -105,3 +160,10 @@ properties:
   - language: ja-JP
     name: 眺望の善し悪し
     definition: 外の眺望が望ましいかどうか。
+  - language: en-EN
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcBoolean
+    measureType: ''
+    unitType: USERDEFINED

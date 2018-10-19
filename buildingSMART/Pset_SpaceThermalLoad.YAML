@@ -1,15 +1,29 @@
 ﻿name: Pset_SpaceThermalLoad
 ifcVersion:
-  version: IFC4
+  version: 4.0.0.0
   schema: IfcSharedBldgServiceElements
 ifdGuid: ''
 definition: The space thermal load defines all thermal losses and gains occurring within a space or zone.  The thermal load source attribute defines an enumeration of possible sources of the thermal load. The maximum, minimum, time series and app
+localizations:
+- language: en-EN
+  name: ''
+  definition: ''
+- language: de-DE
+  name: ''
+  definition: ''
+- language: fr-FR
+  name: ''
+  definition: ''
+- language: ja-JP
+  name: ''
+  definition: ''
 applicableIfcClasses:
 - name: IfcSpace
   type: IfcSpace
 properties:
 - name: People
   definition: Heat gains and losses from people.
+  ifdGuid: ''
   localizations:
   - language: ja-JP
     name: 人員
@@ -17,8 +31,23 @@ properties:
   - language: ko-KR
     name: 인원
     definition: 사람의 열
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertyBoundedValue:
+    unitType: ConsoleAppYamlTest.UnitType
+    LowerBoundValue: '?'
+    UpperBoundValue: '?'
+    typeName: TypePropertyBoundedValue
 - name: Lighting
   definition: Lighting loads.
+  ifdGuid: ''
   localizations:
   - language: ja-JP
     name: 照明
@@ -26,8 +55,23 @@ properties:
   - language: ko-KR
     name: 조명
     definition: 조명 부하
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertyBoundedValue:
+    unitType: ConsoleAppYamlTest.UnitType
+    LowerBoundValue: '?'
+    UpperBoundValue: '?'
+    typeName: TypePropertyBoundedValue
 - name: EquipmentSensible
   definition: Heat gains and losses from equipment.
+  ifdGuid: ''
   localizations:
   - language: ja-JP
     name: 事務機器の顕熱
@@ -35,8 +79,23 @@ properties:
   - language: ko-KR
     name: 사무기기의 현열
     definition: 사무기기에서 열 취득 및 손실
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertyBoundedValue:
+    unitType: ConsoleAppYamlTest.UnitType
+    LowerBoundValue: '?'
+    UpperBoundValue: '?'
+    typeName: TypePropertyBoundedValue
 - name: VentilationIndoorAir
   definition: Ventilation loads from indoor air.
+  ifdGuid: ''
   localizations:
   - language: ja-JP
     name: 室内の換気量
@@ -44,8 +103,23 @@ properties:
   - language: ko-KR
     name: 실내 환기량
     definition: 실내 환기에 의한 열 부하
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertyBoundedValue:
+    unitType: ConsoleAppYamlTest.UnitType
+    LowerBoundValue: '?'
+    UpperBoundValue: '?'
+    typeName: TypePropertyBoundedValue
 - name: VentilationOutdoorAir
   definition: Ventilation loads from outdoor air.
+  ifdGuid: ''
   localizations:
   - language: ja-JP
     name: 外気量
@@ -53,8 +127,23 @@ properties:
   - language: ko-KR
     name: 외기량
     definition: 외기에한 열부하
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertyBoundedValue:
+    unitType: ConsoleAppYamlTest.UnitType
+    LowerBoundValue: '?'
+    UpperBoundValue: '?'
+    typeName: TypePropertyBoundedValue
 - name: RecirculatedAir
   definition: Loads from recirculated air.
+  ifdGuid: ''
   localizations:
   - language: ja-JP
     name: 循環空気
@@ -62,8 +151,23 @@ properties:
   - language: ko-KR
     name: 순환공기
     definition: 순환공기에 의한 열부하
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertyBoundedValue:
+    unitType: ConsoleAppYamlTest.UnitType
+    LowerBoundValue: '?'
+    UpperBoundValue: '?'
+    typeName: TypePropertyBoundedValue
 - name: ExhaustAir
   definition: Loads from exhaust air.
+  ifdGuid: ''
   localizations:
   - language: ja-JP
     name: 排気
@@ -71,8 +175,23 @@ properties:
   - language: ko-KR
     name: 배기
     definition: 배기에 의한 열부하
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertyBoundedValue:
+    unitType: ConsoleAppYamlTest.UnitType
+    LowerBoundValue: '?'
+    UpperBoundValue: '?'
+    typeName: TypePropertyBoundedValue
 - name: AirExchangeRate
   definition: Loads from the air exchange rate.
+  ifdGuid: ''
   localizations:
   - language: ja-JP
     name: 換気回数
@@ -80,8 +199,23 @@ properties:
   - language: ko-KR
     name: 환기회수
     definition: 환기에 의한 열부하
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertyBoundedValue:
+    unitType: ConsoleAppYamlTest.UnitType
+    LowerBoundValue: '?'
+    UpperBoundValue: '?'
+    typeName: TypePropertyBoundedValue
 - name: DryBulbTemperature
   definition: Loads from the dry bulb temperature.
+  ifdGuid: ''
   localizations:
   - language: ja-JP
     name: 乾球温度
@@ -89,8 +223,23 @@ properties:
   - language: ko-KR
     name: 건구온도
     definition: 건구온도에의한 열부하
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertyBoundedValue:
+    unitType: ConsoleAppYamlTest.UnitType
+    LowerBoundValue: '?'
+    UpperBoundValue: '?'
+    typeName: TypePropertyBoundedValue
 - name: RelativeHumidity
   definition: Loads from the relative humidity.
+  ifdGuid: ''
   localizations:
   - language: ja-JP
     name: 相対湿度
@@ -98,8 +247,23 @@ properties:
   - language: ko-KR
     name: 상대습도
     definition: 상대습도에 의한 열부하
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertyBoundedValue:
+    unitType: ConsoleAppYamlTest.UnitType
+    LowerBoundValue: '?'
+    UpperBoundValue: '?'
+    typeName: TypePropertyBoundedValue
 - name: InfiltrationSensible
   definition: Heat gains and losses from infiltration.
+  ifdGuid: ''
   localizations:
   - language: ja-JP
     name: すき間風の顕熱
@@ -107,8 +271,23 @@ properties:
   - language: ko-KR
     name: 열취득 및 손실
     definition: 열 부하및 열손실
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertyBoundedValue:
+    unitType: ConsoleAppYamlTest.UnitType
+    LowerBoundValue: '?'
+    UpperBoundValue: '?'
+    typeName: TypePropertyBoundedValue
 - name: TotalSensibleLoad
   definition: Total energy added or removed from air that affects its temperature.  If a value is less than zero (negative), then the thermal load is lost from the space. If a value is greater than zero (positive), then the thermal load is a gain to the space.
+  ifdGuid: ''
   localizations:
   - language: ja-JP
     name: 顕熱負荷の合計
@@ -116,8 +295,23 @@ properties:
   - language: ko-KR
     name: 현열부하의 합계
     definition: 공기 온도를 상승 · 하강하는 취득 · 손실 열량의 총. 제로보다 작은 (-) 경우 실내가 열 손실이된다. 제로보다 큰 (+) 경우 실내가 열을 검색된다.
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertyBoundedValue:
+    unitType: ConsoleAppYamlTest.UnitType
+    LowerBoundValue: '?'
+    UpperBoundValue: '?'
+    typeName: TypePropertyBoundedValue
 - name: TotalLatentLoad
   definition: Total energy added or removed from air that affects its humidity or concentration of water vapor.  If a value is less than zero (negative), then the thermal load is lost from the space. If a value is greater than zero (positive), then the thermal load is a gain to the space.
+  ifdGuid: ''
   localizations:
   - language: ja-JP
     name: 潜熱負荷の合計
@@ -125,8 +319,23 @@ properties:
   - language: ko-KR
     name: 잠열부하의 합계
     definition: 습도 (수증기량)을 상승 · 하강하는 취득 · 손실 열량의 총. 제로보다 작은 (-) 경우 실내의 수증기가 감소된다. 제로보다 큰 (+) 경우 실내의 수증기가 증가된다.
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertyBoundedValue:
+    unitType: ConsoleAppYamlTest.UnitType
+    LowerBoundValue: '?'
+    UpperBoundValue: '?'
+    typeName: TypePropertyBoundedValue
 - name: TotalRadiantLoad
   definition: Total electromagnetic energy added or removed by emission or absorption.  If a value is less than zero (negative), then the thermal load is lost from the space. If a value is greater than zero (positive), then the thermal load is a gain to the space.
+  ifdGuid: ''
   localizations:
   - language: ja-JP
     name: 放射熱負荷の合計
@@ -134,3 +343,17 @@ properties:
   - language: ko-KR
     name: 복사열로드 합계
     definition: 방사선 및 흡수에 의한 방사 에너지 증가 또는 감소의 총. 제로보다 작은 (-) 경우 방사 에너지가 감소된다. 제로보다 큰 (+) 경우 방사 에너지가 증대된다.
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertyBoundedValue:
+    unitType: ConsoleAppYamlTest.UnitType
+    LowerBoundValue: '?'
+    UpperBoundValue: '?'
+    typeName: TypePropertyBoundedValue

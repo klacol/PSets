@@ -1,34 +1,155 @@
 ﻿name: Pset_DamperPHistory
 ifcVersion:
-  version: IFC4
+  version: 4.0.0.0
   schema: IfcHvacDomain
 ifdGuid: ''
 definition: Damper performance history attributes.
+localizations:
+- language: en-EN
+  name: ''
+  definition: ''
+- language: de-DE
+  name: ''
+  definition: ''
+- language: fr-FR
+  name: ''
+  definition: ''
+- language: ja-JP
+  name: ''
+  definition: ''
 applicableIfcClasses:
 - name: IfcPerformanceHistory
   type: IfcDamper[PerformanceHistory]
 properties:
 - name: AirFlowRate
-  ifdGuid: 8cef4cb032a449298bce89ce9e99a6a7
   definition: Air flow rate.
-  localizations: []
+  ifdGuid: 2CxqomCgH9AOlEYSwUcQQd
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertyReferenceValue:
+    refType: IfcTimeSeries
+    url: http://buildingsmart-tech.org
+    guid: ''
+    libraryName: Industry Foundation Classes by buildingSMART International
+    sectionref: Core Schema
 - name: Leakage
-  ifdGuid: 42f506397e1f493793e80f0b9323ab98
   definition: Air leakage rate.
-  localizations: []
+  ifdGuid: 12zGOvVXz9DvFe3mkJ8wkO
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertyReferenceValue:
+    refType: IfcTimeSeries
+    url: http://buildingsmart-tech.org
+    guid: ''
+    libraryName: Industry Foundation Classes by buildingSMART International
+    sectionref: Core Schema
 - name: PressureDrop
-  ifdGuid: ca8cb644404c4f3eb979d00cda7a5b7e
   definition: Pressure drop.
-  localizations: []
+  ifdGuid: 3AZBP4G4nFFhbvq0pQUbj_
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertyReferenceValue:
+    refType: IfcTimeSeries
+    url: http://buildingsmart-tech.org
+    guid: ''
+    libraryName: Industry Foundation Classes by buildingSMART International
+    sectionref: Core Schema
 - name: BladePositionAngle
-  ifdGuid: 219ea113bcae4212b416064cfc39ffe7
   definition: Blade position angle; angle between the blade and flow direction ( 0 - 90).
-  localizations: []
+  ifdGuid: 0Xdg4JlAv24hGM1apyEV$d
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertyReferenceValue:
+    refType: IfcTimeSeries
+    url: http://buildingsmart-tech.org
+    guid: ''
+    libraryName: Industry Foundation Classes by buildingSMART International
+    sectionref: Core Schema
 - name: DamperPosition
-  ifdGuid: fd3c6a46eb5846ebac42ad252f86fd02
   definition: Damper position (0-1); damper position ( 0=closed=90deg position angle, 1=open=0deg position angle.
-  localizations: []
+  ifdGuid: 3zF6f6wrX6wwn2hIKlXlq2
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertyReferenceValue:
+    refType: IfcTimeSeries
+    url: http://buildingsmart-tech.org
+    guid: ''
+    libraryName: Industry Foundation Classes by buildingSMART International
+    sectionref: Core Schema
 - name: PressureLossCoefficient
-  ifdGuid: 9f8c6e4a03014e3b8de29721d7c5d469
   definition: Pressure loss coefficient.
-  localizations: []
+  ifdGuid: 2VZ6vA0m5EEutYbo7NnTHf
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertyReferenceValue:
+    refType: IfcTimeSeries
+    url: http://buildingsmart-tech.org
+    guid: ''
+    libraryName: Industry Foundation Classes by buildingSMART International
+    sectionref: Core Schema

@@ -1,15 +1,29 @@
 ﻿name: Pset_SwitchingDeviceTypeSelectorSwitch
 ifcVersion:
-  version: IFC4
+  version: 4.0.0.0
   schema: IfcElectricalDomain
 ifdGuid: ''
 definition: 'A selector switch is a switch that adjusts electrical power through a multi-position action.  HISTORY: Added in IFC4.'
+localizations:
+- language: en-EN
+  name: ''
+  definition: ''
+- language: de-DE
+  name: ''
+  definition: ''
+- language: fr-FR
+  name: ''
+  definition: ''
+- language: ja-JP
+  name: ''
+  definition: ''
 applicableIfcClasses:
 - name: IfcSwitchingDeviceType
   type: IfcSwitchingDeviceType/SELECTORSWITCH
 properties:
 - name: SelectorType
   definition: A list of the available types of selector switch from which that required may be selected.
+  ifdGuid: ''
   localizations:
   - language: ja-JP
     name: セレクター（スイッチ）タイプ
@@ -17,8 +31,101 @@ properties:
   - language: ko-KR
     name: 스위치 타입
     definition: 전환스위치 목록
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertyEnumeratedValue:
+    listName: PEnum_SwitchingDeviceDimmerSwitchType
+    enumerationValues:
+    - name: BUTTONS
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Buttons
+        definition: ''
+      - language: de-DE
+        name: Buttons
+        definition: ''
+      - language: fr-FR
+        name: Buttons
+        definition: ''
+      - language: ja-JP
+        name: Buttons
+        definition: ''
+    - name: SLIDE
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Slide
+        definition: ''
+      - language: de-DE
+        name: Slide
+        definition: ''
+      - language: fr-FR
+        name: Slide
+        definition: ''
+      - language: ja-JP
+        name: Slide
+        definition: ''
+    - name: TWIST
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Twist
+        definition: ''
+      - language: de-DE
+        name: Twist
+        definition: ''
+      - language: fr-FR
+        name: Twist
+        definition: ''
+      - language: ja-JP
+        name: Twist
+        definition: ''
+    - name: OTHER
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Other
+        definition: ''
+      - language: de-DE
+        name: Other
+        definition: ''
+      - language: fr-FR
+        name: Other
+        definition: ''
+      - language: ja-JP
+        name: Other
+        definition: ''
+    - name: UNKNOWN
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Unknown
+        definition: ''
+      - language: de-DE
+        name: Unknown
+        definition: ''
+      - language: fr-FR
+        name: Unknown
+        definition: ''
+      - language: ja-JP
+        name: Unknown
+        definition: ''
 - name: SwitchUsage
   definition: A list of the available usages for selector switches from which that required may be selected.
+  ifdGuid: ''
   localizations:
   - language: ja-JP
     name: スイッチの使用法
@@ -26,8 +133,133 @@ properties:
   - language: ko-KR
     name: 스위치 사용
     definition: 전환스위치 사용 목록
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertyEnumeratedValue:
+    listName: PEnum_SwitchUsage
+    enumerationValues:
+    - name: EMERGENCY
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Emergency
+        definition: ''
+      - language: de-DE
+        name: Emergency
+        definition: ''
+      - language: fr-FR
+        name: Emergency
+        definition: ''
+      - language: ja-JP
+        name: Emergency
+        definition: ''
+    - name: GUARD
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Guard
+        definition: ''
+      - language: de-DE
+        name: Guard
+        definition: ''
+      - language: fr-FR
+        name: Guard
+        definition: ''
+      - language: ja-JP
+        name: Guard
+        definition: ''
+    - name: LIMIT
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Limit
+        definition: ''
+      - language: de-DE
+        name: Limit
+        definition: ''
+      - language: fr-FR
+        name: Limit
+        definition: ''
+      - language: ja-JP
+        name: Limit
+        definition: ''
+    - name: START
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Start
+        definition: ''
+      - language: de-DE
+        name: Start
+        definition: ''
+      - language: fr-FR
+        name: Start
+        definition: ''
+      - language: ja-JP
+        name: Start
+        definition: ''
+    - name: STOP
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Stop
+        definition: ''
+      - language: de-DE
+        name: Stop
+        definition: ''
+      - language: fr-FR
+        name: Stop
+        definition: ''
+      - language: ja-JP
+        name: Stop
+        definition: ''
+    - name: OTHER
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Other
+        definition: ''
+      - language: de-DE
+        name: Other
+        definition: ''
+      - language: fr-FR
+        name: Other
+        definition: ''
+      - language: ja-JP
+        name: Other
+        definition: ''
+    - name: UNKNOWN
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Unknown
+        definition: ''
+      - language: de-DE
+        name: Unknown
+        definition: ''
+      - language: fr-FR
+        name: Unknown
+        definition: ''
+      - language: ja-JP
+        name: Unknown
+        definition: ''
 - name: SwitchActivation
   definition: A list of the available activations for selector switches from which that required may be selected.
+  ifdGuid: ''
   localizations:
   - language: ja-JP
     name: 起動方式
@@ -35,3 +267,159 @@ properties:
   - language: ko-KR
     name: 기동 방식
     definition: 스위치 부팅방식의 목록
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertyEnumeratedValue:
+    listName: PEnum_SwitchActivation
+    enumerationValues:
+    - name: ACTUATOR
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Actuator
+        definition: ''
+      - language: de-DE
+        name: Actuator
+        definition: ''
+      - language: fr-FR
+        name: Actuator
+        definition: ''
+      - language: ja-JP
+        name: Actuator
+        definition: ''
+    - name: FOOT
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Foot
+        definition: ''
+      - language: de-DE
+        name: Foot
+        definition: ''
+      - language: fr-FR
+        name: Foot
+        definition: ''
+      - language: ja-JP
+        name: Foot
+        definition: ''
+    - name: HAND
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Hand
+        definition: ''
+      - language: de-DE
+        name: Hand
+        definition: ''
+      - language: fr-FR
+        name: Hand
+        definition: ''
+      - language: ja-JP
+        name: Hand
+        definition: ''
+    - name: PROXIMITY
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Proximity
+        definition: ''
+      - language: de-DE
+        name: Proximity
+        definition: ''
+      - language: fr-FR
+        name: Proximity
+        definition: ''
+      - language: ja-JP
+        name: Proximity
+        definition: ''
+    - name: SOUND
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Sound
+        definition: ''
+      - language: de-DE
+        name: Sound
+        definition: ''
+      - language: fr-FR
+        name: Sound
+        definition: ''
+      - language: ja-JP
+        name: Sound
+        definition: ''
+    - name: TWOHAND
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Twohand
+        definition: ''
+      - language: de-DE
+        name: Twohand
+        definition: ''
+      - language: fr-FR
+        name: Twohand
+        definition: ''
+      - language: ja-JP
+        name: Twohand
+        definition: ''
+    - name: WIRE
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Wire
+        definition: ''
+      - language: de-DE
+        name: Wire
+        definition: ''
+      - language: fr-FR
+        name: Wire
+        definition: ''
+      - language: ja-JP
+        name: Wire
+        definition: ''
+    - name: OTHER
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Other
+        definition: ''
+      - language: de-DE
+        name: Other
+        definition: ''
+      - language: fr-FR
+        name: Other
+        definition: ''
+      - language: ja-JP
+        name: Other
+        definition: ''
+    - name: UNKNOWN
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Unknown
+        definition: ''
+      - language: de-DE
+        name: Unknown
+        definition: ''
+      - language: fr-FR
+        name: Unknown
+        definition: ''
+      - language: ja-JP
+        name: Unknown
+        definition: ''

@@ -1,31 +1,83 @@
 ﻿name: Pset_TankTypeSectional
 ifcVersion:
-  version: IFC4
+  version: 4.0.0.0
   schema: IfcHvacDomain
 ifdGuid: ''
 definition: 'Fixed vessel constructed from sectional parts with one or more compartments for storing a liquid.Note (1): All sectional construction tanks are considered to be rectangular by default.Note (2): Generally, it is not expected that sectional construction tanks will be used for the purposes of gas storage.Pset renamed from Pset_TankTypeSectionalTank to Pset_TankTypeSectional in IFC2x2 Pset Addendum.'
+localizations:
+- language: en-EN
+  name: ''
+  definition: ''
+- language: de-DE
+  name: ''
+  definition: ''
+- language: fr-FR
+  name: ''
+  definition: ''
+- language: ja-JP
+  name: ''
+  definition: ''
 applicableIfcClasses:
 - name: IfcTankType
   type: IfcTankType/SECTIONAL
 properties:
 - name: NumberOfSections
-  ifdGuid: 0265d6b01fba45d9ba7ffde68125918a
   definition: 'Number of sections used in the construction of the tankNote: All sections assumed to be the same size.'
+  ifdGuid: 02PTQm7xf5sRf$$UQ19P6A
   localizations:
   - language: ja-JP
     name: セクションの数
     definition: タンクの製作に使用されているセクションの数注：全てのセクションは同サイズと考える
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcInteger
+    measureType: ''
+    unitType: INTEGERCOUNTRATEUNIT
 - name: SectionLength
-  ifdGuid: 34c7f9f4f54a4b46a5741d588f3d497a
   definition: The length of a section used in the construction of the tank.
+  ifdGuid: 0qn$dqzKfBHgLq7LYFFKbw
   localizations:
   - language: ja-JP
     name: セクションの長さ
     definition: タンクの製作に使用されているセクションの長さ
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPositiveLengthMeasure
+    measureType: ''
+    unitType: LENGTHUNIT
 - name: SectionWidth
-  ifdGuid: 23228b1af67542ba939cf4febdea8fdb
   definition: The width of a section used in the construction of the tank.
+  ifdGuid: 0Z8eiQzdL2kfESzFwzwe$R
   localizations:
   - language: ja-JP
     name: セクションの幅
     definition: タンクの製作に使用されているセクションの幅
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPositiveLengthMeasure
+    measureType: ''
+    unitType: LENGTHUNIT

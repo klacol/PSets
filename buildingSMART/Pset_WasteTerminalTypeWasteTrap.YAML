@@ -1,31 +1,178 @@
 ﻿name: Pset_WasteTerminalTypeWasteTrap
 ifcVersion:
-  version: IFC4
+  version: 4.0.0.0
   schema: IfcPlumbingFireProtectionDomain
 ifdGuid: ''
 definition: Pipe fitting, set adjacent to a sanitary terminal, that retains liquid to prevent the passage of foul air.
+localizations:
+- language: en-EN
+  name: ''
+  definition: ''
+- language: de-DE
+  name: ''
+  definition: ''
+- language: fr-FR
+  name: ''
+  definition: ''
+- language: ja-JP
+  name: ''
+  definition: ''
 applicableIfcClasses:
 - name: IfcWasteTerminalType
   type: IfcWasteTerminalType/WASTETRAP
 properties:
 - name: WasteTrapType
-  ifdGuid: 2ded3cd8a416457aac76f80df21c0ad0
   definition: Identifies the predefined types of trap from which the type required may be set.
+  ifdGuid: 0jxJpOf1P5Ugns_0to70hG
   localizations:
   - language: ja-JP
     name: 廃棄物防臭弁種類
     definition: 必要とされるタイプがセットされる防臭弁の定義されたタイプを確認してください。
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertyEnumeratedValue:
+    listName: PEnum_TrapType
+    enumerationValues:
+    - name: NONE
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: None
+        definition: ''
+      - language: de-DE
+        name: None
+        definition: ''
+      - language: fr-FR
+        name: None
+        definition: ''
+      - language: ja-JP
+        name: None
+        definition: ''
+    - name: P_TRAP
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: P_trap
+        definition: ''
+      - language: de-DE
+        name: P_trap
+        definition: ''
+      - language: fr-FR
+        name: P_trap
+        definition: ''
+      - language: ja-JP
+        name: P_trap
+        definition: ''
+    - name: Q_TRAP
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Q_trap
+        definition: ''
+      - language: de-DE
+        name: Q_trap
+        definition: ''
+      - language: fr-FR
+        name: Q_trap
+        definition: ''
+      - language: ja-JP
+        name: Q_trap
+        definition: ''
+    - name: S_TRAP
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: S_trap
+        definition: ''
+      - language: de-DE
+        name: S_trap
+        definition: ''
+      - language: fr-FR
+        name: S_trap
+        definition: ''
+      - language: ja-JP
+        name: S_trap
+        definition: ''
+    - name: OTHER
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Other
+        definition: ''
+      - language: de-DE
+        name: Other
+        definition: ''
+      - language: fr-FR
+        name: Other
+        definition: ''
+      - language: ja-JP
+        name: Other
+        definition: ''
+    - name: UNKNOWN
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Unknown
+        definition: ''
+      - language: de-DE
+        name: Unknown
+        definition: ''
+      - language: fr-FR
+        name: Unknown
+        definition: ''
+      - language: ja-JP
+        name: Unknown
+        definition: ''
 - name: OutletConnectionSize
-  ifdGuid: 9853904c94234a83873d174c03704fa0
   definition: Size of the outlet connection from the object.
+  ifdGuid: 2OKv1Cb2DAWuSz5qm3S4_W
   localizations:
   - language: ja-JP
     name: 排出口接続口サイズ
     definition: 要素からの接続口サイズ。
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPositiveLengthMeasure
+    measureType: ''
+    unitType: LENGTHUNIT
 - name: InletConnectionSize
-  ifdGuid: b1b3d73cdc3f4afab9df6c3ebcc97b85
   definition: Size of the inlet connection(s), where used, of the inlet connections.Note that all inlet connections are assumed to be the same size.
+  ifdGuid: 2nizSyt3zA_hdVR3wyoNk5
   localizations:
   - language: ja-JP
     name: 吸気口接続口サイズ
     definition: 吸気口接続口のサイズ。注意：同サイズの吸気口接続口がないものとします。
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPositiveLengthMeasure
+    measureType: ''
+    unitType: LENGTHUNIT

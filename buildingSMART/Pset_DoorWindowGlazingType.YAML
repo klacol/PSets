@@ -1,9 +1,22 @@
 ﻿name: Pset_DoorWindowGlazingType
 ifcVersion:
-  version: IFC4
+  version: 4.0.0.0
   schema: IfcSharedBldgElements
 ifdGuid: ''
 definition: Properties common to the definition of the glazing component of occurrences of IfcDoor and IfcWindow, used for thermal and lighting calculations.
+localizations:
+- language: en-EN
+  name: ''
+  definition: ''
+- language: de-DE
+  name: ''
+  definition: ''
+- language: fr-FR
+  name: ''
+  definition: ''
+- language: ja-JP
+  name: ''
+  definition: ''
 applicableIfcClasses:
 - name: IfcDoor
   type: IfcDoorType, IfcWindowType
@@ -23,8 +36,8 @@ applicableIfcClasses:
   type: IfcDoorType, IfcWindowType
 properties:
 - name: GlassLayers
-  ifdGuid: 0fe3f7ce4a0b4a2686982b2f94474ced
-  definition: 'Number of glass layers within the frame. E.g. "2" for double glazing. '
+  definition: Number of glass layers within the frame. E.g. "2" for double glazing.
+  ifdGuid: 0Fu$VEIWjA9eQOAo_KHqpj
   localizations:
   - language: de-DE
     name: German-name-1
@@ -38,9 +51,16 @@ properties:
   - language: zh-CN
     name: 玻璃层数
     definition: 框内玻璃的层数。例如：”2”表示双层玻璃。
+  - language: en-EN
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcCountMeasure
+    measureType: ''
+    unitType: USERDEFINED
 - name: GlassThickness1
-  ifdGuid: a2a7272168ae4c4084d8d22866db90b7
-  definition: 'Thickness of the first (inner) glass layer. '
+  definition: Thickness of the first (inner) glass layer.
+  ifdGuid: 2YfoSXQAvCG8JOqYXcsv2t
   localizations:
   - language: de-DE
     name: German-name-2
@@ -54,9 +74,16 @@ properties:
   - language: zh-CN
     name: 玻璃厚度1
     definition: 第一层（内侧）玻璃的厚度。
+  - language: en-EN
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPositiveLengthMeasure
+    measureType: ''
+    unitType: LENGTHUNIT
 - name: GlassThickness2
-  ifdGuid: 78819c7b33174d4d9a8385b3c0bc2493
   definition: Thickness of the second (intermediate or outer) glass layer.
+  ifdGuid: 1uWPnxCnTDJPg3XRF0l2IJ
   localizations:
   - language: de-DE
     name: German-name-3
@@ -70,9 +97,16 @@ properties:
   - language: zh-CN
     name: 玻璃厚度2
     definition: 第二层（中间或外侧）玻璃的厚度。
+  - language: en-EN
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPositiveLengthMeasure
+    measureType: ''
+    unitType: LENGTHUNIT
 - name: GlassThickness3
-  ifdGuid: abe1f7ace95b45859cf6c33979429782
-  definition: 'Thickness of the third (outer) glass layer. '
+  definition: Thickness of the third (outer) glass layer.
+  ifdGuid: 2huVUiwLj5XPpsmpbvGfU2
   localizations:
   - language: de-DE
     name: German-name-4
@@ -86,9 +120,16 @@ properties:
   - language: zh-CN
     name: 玻璃厚度3
     definition: 第三层（外侧）玻璃的厚度。
+  - language: en-EN
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPositiveLengthMeasure
+    measureType: ''
+    unitType: LENGTHUNIT
 - name: FillGas
-  ifdGuid: 7d0548b8a6354f8785c22950bb2bbe0b
   definition: Name of the gas by which the gap between two glass layers is filled. It is given for information purposes only.
+  ifdGuid: 1z1KYufZLFXuN2AL2xAxuB
   localizations:
   - language: de-DE
     name: German-name-5
@@ -102,9 +143,16 @@ properties:
   - language: zh-CN
     name: 填充气体
     definition: 两层玻璃之间填充气体的名称。仅供参考。
+  - language: en-EN
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcLabel
+    measureType: ''
+    unitType: USERDEFINED
 - name: GlassColor
-  ifdGuid: 37da44a2cd4b4398a3658942b0a2478c
   definition: Color (tint) selection for this glazing. It is given for information purposes only.
+  ifdGuid: 0tsaIYpKj3cADbYKAmeaUC
   localizations:
   - language: de-DE
     name: German-name-6
@@ -118,9 +166,16 @@ properties:
   - language: zh-CN
     name: 玻璃颜色
     definition: 玻璃（贴膜）的颜色。仅供参考。
+  - language: en-EN
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcLabel
+    measureType: ''
+    unitType: USERDEFINED
 - name: IsTempered
-  ifdGuid: 506091dd0d2143df84074ca1b51df822
   definition: Indication whether the glass is tempered (TRUE) or not (FALSE) .
+  ifdGuid: 1GO97T3I53tuG7JA6r7VWY
   localizations:
   - language: de-DE
     name: German-name-7
@@ -134,9 +189,16 @@ properties:
   - language: zh-CN
     name: 是否钢化
     definition: 表示玻璃是否经过强化处理。
+  - language: en-EN
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcBoolean
+    measureType: ''
+    unitType: USERDEFINED
 - name: IsLaminated
-  ifdGuid: 9c6bb275bc2b4226abb3a6830ebf3239
-  definition: 'Indication whether the glass is layered with other materials (TRUE) or not (FALSE). '
+  definition: Indication whether the glass is layered with other materials (TRUE) or not (FALSE).
+  ifdGuid: 2SQx9rl2j29gkpfeCElp8v
   localizations:
   - language: de-DE
     name: German-name-8
@@ -150,9 +212,16 @@ properties:
   - language: zh-CN
     name: 是否夹层
     definition: 表示玻璃是否具有含其他材料的夹层。
+  - language: en-EN
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcBoolean
+    measureType: ''
+    unitType: USERDEFINED
 - name: IsCoated
-  ifdGuid: fa637085adfe40a381c12af2482505bd
-  definition: 'Indication whether the glass is coated with a material (TRUE) or not (FALSE). '
+  definition: Indication whether the glass is coated with a material (TRUE) or not (FALSE).
+  ifdGuid: 3wOt25hVv0eu71Al989GMz
   localizations:
   - language: de-DE
     name: German-name-9
@@ -166,9 +235,16 @@ properties:
   - language: zh-CN
     name: 是否镀膜
     definition: 表示玻璃是否具有某种材料的镀膜。
+  - language: en-EN
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcBoolean
+    measureType: ''
+    unitType: USERDEFINED
 - name: IsWired
-  ifdGuid: 9b504ebefa9046d28195b12f87f3e988
-  definition: 'Indication whether the glass includes a contained wire mesh to prevent break-in (TRUE) or not (FALSE) '
+  definition: Indication whether the glass includes a contained wire mesh to prevent break-in (TRUE) or not (FALSE)
+  ifdGuid: 2RK4w__f16qe6LiI_7y_c8
   localizations:
   - language: de-DE
     name: German-name-10
@@ -182,9 +258,16 @@ properties:
   - language: zh-CN
     name: 是否夹丝
     definition: 表示玻璃是否具有防断裂的纤维网格。
+  - language: en-EN
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcBoolean
+    measureType: ''
+    unitType: USERDEFINED
 - name: VisibleLightReflectance
-  ifdGuid: a481e48c2887403ba1708f3026c1dbbe
-  definition: 'Fraction of the visible light that is reflected by the glazing at normal incidence. It is a value without unit. '
+  definition: Fraction of the visible light that is reflected by the glazing at normal incidence. It is a value without unit.
+  ifdGuid: 2aWUICA8T0Ew5mZp0cmTk_
   localizations:
   - language: de-DE
     name: Reflektionsgrad für sichtbares Licht
@@ -198,9 +281,16 @@ properties:
   - language: zh-CN
     name: 可见光反射率
     definition: 正射时被玻璃反射的可见光比例。无单位。
+  - language: en-EN
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcNormalisedRatioMeasure
+    measureType: ''
+    unitType: USERDEFINED
 - name: VisibleLightTransmittance
-  ifdGuid: e29d42983908410d8a411349ce2eea87
-  definition: 'Fraction of the visible light that passes the glazing at normal incidence. It is a value without unit. '
+  definition: Fraction of the visible light that passes the glazing at normal incidence. It is a value without unit.
+  ifdGuid: 3YdKAOEGX13Of14qdEBkg7
   localizations:
   - language: de-DE
     name: Transmissionsgrad für sichtbares Licht
@@ -214,9 +304,16 @@ properties:
   - language: zh-CN
     name: 可见光透射率
     definition: 正射时穿透玻璃的可见光比例。无单位。
+  - language: en-EN
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcNormalisedRatioMeasure
+    measureType: ''
+    unitType: USERDEFINED
 - name: SolarAbsorption
-  ifdGuid: e71e1945879e4d88ac0f4237d83cf9f9
   definition: (Asol) The ratio of incident solar radiation that is absorbed by a glazing system. It is the sum of the absorption distributed to the exterior (a) and to the interior (qi). Note the following equation Asol + Rsol + Tsol = 1
+  ifdGuid: 3d7Xb5XvvDYAmFGZVOFFdv
   localizations:
   - language: de-DE
     name: Strahlungsabsorbtionsgrad
@@ -230,9 +327,16 @@ properties:
   - language: zh-CN
     name: 太阳能吸收率
     definition: （Asol）被玻璃系统吸收的太阳入射辐射的比率，为传递到室外和室内的吸收的总量。注：以下等式成立Asol + Rsol + Tsol = 1
+  - language: en-EN
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcNormalisedRatioMeasure
+    measureType: ''
+    unitType: USERDEFINED
 - name: SolarReflectance
-  ifdGuid: 0ebe9ecbc351422dac61da02ccdf1093
   definition: '(Rsol): The ratio of incident solar radiation that is reflected by a glazing system (also named ρe). Note the following equation Asol + Rsol + Tsol = 1'
+  ifdGuid: 0ElfxBmr52BQnXsWBCtn2J
   localizations:
   - language: de-DE
     name: Strahlungsreflectionsgrad
@@ -246,9 +350,16 @@ properties:
   - language: zh-CN
     name: 太阳能反射率
     definition: （Rsol）被玻璃系统反射的太阳入射辐射的比率（也可用ρe表示）。注：以下等式成立Asol + Rsol + Tsol = 1
+  - language: en-EN
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcNormalisedRatioMeasure
+    measureType: ''
+    unitType: USERDEFINED
 - name: SolarTransmittance
-  ifdGuid: f2ffc317a7ac4174a8abbbcf2d629bfc
   definition: '(Tsol): The ratio of incident solar radiation that directly passes through a glazing system (also named τe). Note the following equation Asol + Rsol + Tsol = 1'
+  ifdGuid: 3o$yCNfwn1TAYhkyyjOfly
   localizations:
   - language: de-DE
     name: Strahlungstransmissionsgrad
@@ -262,9 +373,16 @@ properties:
   - language: zh-CN
     name: 太阳能透射率
     definition: （Tsol）透过玻璃系统的太阳入射辐射的比率（也可用τe表示）。注：以下等式成立Asol + Rsol + Tsol = 1
+  - language: en-EN
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcNormalisedRatioMeasure
+    measureType: ''
+    unitType: USERDEFINED
 - name: SolarHeatGainTransmittance
-  ifdGuid: 40199c0c40764e4aae0b1cee736d1260
   definition: '(SHGC): The ratio of incident solar radiation that contributes to the heat gain of the interior, it is the solar radiation that directly passes (Tsol or τe) plus the part of the absorbed radiation that is distributed to the interior (qi). The SHGC is refered to also as g-value (g = τe + qi).'
+  ifdGuid: 106PmCG7PEIguB7EvpRH9W
   localizations:
   - language: de-DE
     name: Gesamtenergiedurchlassgrad
@@ -278,9 +396,16 @@ properties:
   - language: zh-CN
     name: 太阳能得热系数
     definition: （SHGC）导致室内取得热量的入射太阳辐射比率，该值为透射太阳辐射（Tsol或τe）与分配到室内的吸收太阳辐射（qi）的和。SHGC也被称为g值（g = τe + qi）。
+  - language: en-EN
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcNormalisedRatioMeasure
+    measureType: ''
+    unitType: USERDEFINED
 - name: ShadingCoefficient
-  ifdGuid: 03607e4029224b64a30cd477a3eb52c1
-  definition: '(SC): The measure of the ability of a glazing to transmit solar heat, relative to that ability for 3 mm (1/8-inch) clear, double-strength, single glass. Shading coefficient is being phased out in favor of the solar heat gain coefficient (SHGC), and is approximately equal to the SHGC multiplied by 1.15. The shading coefficient is expressed as a number without units between 0 and 1. '
+  definition: '(SC): The measure of the ability of a glazing to transmit solar heat, relative to that ability for 3 mm (1/8-inch) clear, double-strength, single glass. Shading coefficient is being phased out in favor of the solar heat gain coefficient (SHGC), and is approximately equal to the SHGC multiplied by 1.15. The shading coefficient is expressed as a number without units between 0 and 1.'
+  ifdGuid: 03O7v0AI9BPACCr7UZwrB1
   localizations:
   - language: de-DE
     name: mittlere Durchlassfaktor b
@@ -294,9 +419,16 @@ properties:
   - language: zh-CN
     name: 遮阳系数
     definition: （SC）玻璃传递太阳热量能力的度量，以3mm（1/8英寸）透明双倍强度单层玻璃为基准。遮阳系数有被太阳能得热系数（SHGC）取代的趋势，其值约为SHGC的1.15倍。遮阳系数以大于0小于1的无单位数表示。
+  - language: en-EN
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcNormalisedRatioMeasure
+    measureType: ''
+    unitType: USERDEFINED
 - name: ThermalTransmittanceSummer
-  ifdGuid: dc54f7f9a3d94db4aff6cd7d15667ff9
-  definition: 'Thermal transmittance coefficient (U-Value) of a material.Summer thermal transmittance coefficient of the glazing only, often referred to as (U-value). '
+  definition: Thermal transmittance coefficient (U-Value) of a material.Summer thermal transmittance coefficient of the glazing only, often referred to as (U-value).
+  ifdGuid: 3SLFVvezbDjA$spNqLPd$v
   localizations:
   - language: de-DE
     name: German-name-15
@@ -310,9 +442,16 @@ properties:
   - language: zh-CN
     name: 夏季导热系数
     definition: 材料的导热系数（U值）。仅玻璃的夏季导热系数，常以U值表示。
+  - language: en-EN
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcThermalTransmittanceMeasure
+    measureType: ''
+    unitType: THERMALTRANSMITTANCEUNIT
 - name: ThermalTransmittanceWinter
-  ifdGuid: b01fa3f4b42e4232ad551f5c0d1f14d9
-  definition: 'Thermal transmittance coefficient (U-Value) of a material.Winter thermal transmittance coefficient of the glazing only, often referred to as (U-value). '
+  definition: Thermal transmittance coefficient (U-Value) of a material.Winter thermal transmittance coefficient of the glazing only, often referred to as (U-value).
+  ifdGuid: 2m7wFqj2v2CgrL7rmD7nJP
   localizations:
   - language: de-DE
     name: German-name-16
@@ -326,3 +465,10 @@ properties:
   - language: zh-CN
     name: 冬季导热系数
     definition: 材料的导热系数（U值）。仅玻璃的冬季导热系数，常以U值表示。
+  - language: en-EN
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcThermalTransmittanceMeasure
+    measureType: ''
+    unitType: THERMALTRANSMITTANCEUNIT

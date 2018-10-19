@@ -1,98 +1,824 @@
 ﻿name: Pset_CooledBeamTypeCommon
 ifcVersion:
-  version: IFC4
+  version: 4.0.0.0
   schema: IfcHvacDomain
 ifdGuid: ''
 definition: 'Cooled beam common attributes.SoundLevel and SoundAttenuation attributes deleted in IFC2x2 Pset Addendum: Use IfcSoundProperties instead.'
+localizations:
+- language: en-EN
+  name: ''
+  definition: ''
+- language: de-DE
+  name: ''
+  definition: ''
+- language: fr-FR
+  name: ''
+  definition: ''
+- language: ja-JP
+  name: ''
+  definition: ''
 applicableIfcClasses:
 - name: IfcCooledBeamType
   type: IfcCooledBeamType
 properties:
 - name: Reference
-  definition: "Reference ID for this specified type in this project (e.g. type 'A-1'), provided, if there is no classification reference to a recognized classification system used. "
+  definition: Reference ID for this specified type in this project (e.g. type 'A-1'), provided, if there is no classification reference to a recognized classification system used.
+  ifdGuid: ''
   localizations:
   - language: ja-JP
     name: 参照記号
     definition: このプロジェクトにおける参照記号(例：A-1)。分類コードではなく内部で使用されるプロジェクトタイプとして使用されるもの。
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcIdentifier
+    measureType: ''
+    unitType: USERDEFINED
 - name: Status
-  definition: 'Status of the element, predominately used in renovation or retrofitting projects. The status can be assigned to as "New" - element designed as new addition, "Existing" - element exists and remains, "Demolish" - element existed but is to be demolished,  "Temporary" - element will exists only temporary (like a temporary support structure). '
+  definition: Status of the element, predominately used in renovation or retrofitting projects. The status can be assigned to as "New" - element designed as new addition, "Existing" - element exists and remains, "Demolish" - element existed but is to be demolished,  "Temporary" - element will exists only temporary (like a temporary support structure).
+  ifdGuid: ''
   localizations:
   - language: ja-JP
     name: 状態
     definition: 要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertyEnumeratedValue:
+    listName: PEnum_Status
+    enumerationValues:
+    - name: NEW
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: New
+        definition: ''
+      - language: de-DE
+        name: New
+        definition: ''
+      - language: fr-FR
+        name: New
+        definition: ''
+      - language: ja-JP
+        name: New
+        definition: ''
+    - name: EXISTING
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Existing
+        definition: ''
+      - language: de-DE
+        name: Existing
+        definition: ''
+      - language: fr-FR
+        name: Existing
+        definition: ''
+      - language: ja-JP
+        name: Existing
+        definition: ''
+    - name: DEMOLISH
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Demolish
+        definition: ''
+      - language: de-DE
+        name: Demolish
+        definition: ''
+      - language: fr-FR
+        name: Demolish
+        definition: ''
+      - language: ja-JP
+        name: Demolish
+        definition: ''
+    - name: TEMPORARY
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Temporary
+        definition: ''
+      - language: de-DE
+        name: Temporary
+        definition: ''
+      - language: fr-FR
+        name: Temporary
+        definition: ''
+      - language: ja-JP
+        name: Temporary
+        definition: ''
+    - name: OTHER
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Other
+        definition: ''
+      - language: de-DE
+        name: Other
+        definition: ''
+      - language: fr-FR
+        name: Other
+        definition: ''
+      - language: ja-JP
+        name: Other
+        definition: ''
+    - name: UNKNOWN
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Unknown
+        definition: ''
+      - language: de-DE
+        name: Unknown
+        definition: ''
+      - language: fr-FR
+        name: Unknown
+        definition: ''
+      - language: ja-JP
+        name: Unknown
+        definition: ''
 - name: IsFreeHanging
-  ifdGuid: 232e347792c64da78d961ae0b3c98e6a
   definition: Is it free hanging type (not mounted in a false ceiling)?
-  localizations: []
+  ifdGuid: 0ZBZHtaiPDfusM6k2poOvg
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcBoolean
+    measureType: ''
+    unitType: USERDEFINED
 - name: WaterFlowControlSystemType
-  ifdGuid: 42f26141817a45be9276e8e3c0244057
   definition: Factory fitted waterflow control system.
-  localizations: []
+  ifdGuid: 12yc51WNf5lf9swEF0941N
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertyEnumeratedValue:
+    listName: PEnum_CooledBeamWaterFlowControlSystemType
+    enumerationValues:
+    - name: NONE
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: None
+        definition: ''
+      - language: de-DE
+        name: None
+        definition: ''
+      - language: fr-FR
+        name: None
+        definition: ''
+      - language: ja-JP
+        name: None
+        definition: ''
+    - name: ONOFFVALVE
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Onoffvalve
+        definition: ''
+      - language: de-DE
+        name: Onoffvalve
+        definition: ''
+      - language: fr-FR
+        name: Onoffvalve
+        definition: ''
+      - language: ja-JP
+        name: Onoffvalve
+        definition: ''
+    - name: 2WAYVALVE
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: 2wayvalve
+        definition: ''
+      - language: de-DE
+        name: 2wayvalve
+        definition: ''
+      - language: fr-FR
+        name: 2wayvalve
+        definition: ''
+      - language: ja-JP
+        name: 2wayvalve
+        definition: ''
+    - name: 3WAYVALVE
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: 3wayvalve
+        definition: ''
+      - language: de-DE
+        name: 3wayvalve
+        definition: ''
+      - language: fr-FR
+        name: 3wayvalve
+        definition: ''
+      - language: ja-JP
+        name: 3wayvalve
+        definition: ''
+    - name: OTHER
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Other
+        definition: ''
+      - language: de-DE
+        name: Other
+        definition: ''
+      - language: fr-FR
+        name: Other
+        definition: ''
+      - language: ja-JP
+        name: Other
+        definition: ''
+    - name: UNKNOWN
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Unknown
+        definition: ''
+      - language: de-DE
+        name: Unknown
+        definition: ''
+      - language: fr-FR
+        name: Unknown
+        definition: ''
+      - language: ja-JP
+        name: Unknown
+        definition: ''
 - name: WaterPressureRange
-  ifdGuid: 78e783d0756a407980377359e2744f1e
   definition: Allowable water circuit working pressure range.
-  localizations: []
+  ifdGuid: 1uvuFGTMf0UO0tSrdYT4yU
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertyBoundedValue:
+    unitType: ConsoleAppYamlTest.UnitType
+    LowerBoundValue: 0
+    UpperBoundValue: '?'
+    typeName: TypePropertyBoundedValue
 - name: NominalCoolingCapacity
-  ifdGuid: 277e6135be7b4db58705a7d88d7439d6
   definition: Nominal cooling capacity.
-  localizations: []
+  ifdGuid: 0dVc4rldjDjOS5fzYDT3dM
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPowerMeasure
+    measureType: ''
+    unitType: POWERUNIT
 - name: NominalSurroundingTemperatureCooling
-  ifdGuid: f91bc6d4c5ca41bc8886a4c7c8d7d2e9
   definition: Nominal surrounding temperature (refers to nominal cooling capacity).
-  localizations: []
+  ifdGuid: 3v6yRKnSf1l8Y6fCV8rzBf
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcThermodynamicTemperatureMeasure
+    measureType: ''
+    unitType: THERMODYNAMICTEMPERATUREUNIT
 - name: NominalSurroundingHumidityCooling
-  ifdGuid: e5cc413e988b4058bea2771c93d58ec6
   definition: Nominal surrounding humidity (refers to nominal cooling capacity).
-  localizations: []
+  ifdGuid: 3bp44_c8j0MBwYTnoJrOx6
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcNormalisedRatioMeasure
+    measureType: ''
+    unitType: USERDEFINED
 - name: NominalSupplyWaterTemperatureCooling
-  ifdGuid: 2602e9996e0345c3bbd795dae2aab0b6
   definition: Nominal supply water temperature (refers to nominal cooling capacity).
-  localizations: []
+  ifdGuid: 0c0kcPRWD5mxlNbThYgh2s
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcThermodynamicTemperatureMeasure
+    measureType: ''
+    unitType: THERMODYNAMICTEMPERATUREUNIT
 - name: NominalReturnWaterTemperatureCooling
-  ifdGuid: a4e69d6e6fef4e56b147d8a68e2eafe3
   definition: Nominal return water temperature (refers to nominal cooling capacity).
-  localizations: []
+  ifdGuid: 2avfrkR_zELh57sAQEBg$Z
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcThermodynamicTemperatureMeasure
+    measureType: ''
+    unitType: THERMODYNAMICTEMPERATUREUNIT
 - name: NominalWaterFlowCooling
-  ifdGuid: 7b61fbcaf3ea46cba686b4d19acac71b
   definition: Nominal water flow (refers to nominal cooling capacity).
-  localizations: []
+  ifdGuid: 1xOVlAy_f6owQ6jD6QoiSR
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcVolumetricFlowRateMeasure
+    measureType: ''
+    unitType: VOLUMETRICFLOWRATEUNIT
 - name: NominalHeatingCapacity
-  ifdGuid: d944472f37f94638a72e33ec3cb2de24
   definition: Nominal heating capacity.
-  localizations: []
+  ifdGuid: 3PH4SlD$b6EASkC_myijua
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPowerMeasure
+    measureType: ''
+    unitType: POWERUNIT
 - name: NominalSurroundingTemperatureHeating
-  ifdGuid: e1b50bc6fa1a4315ab70b55490cf1807
   definition: Nominal surrounding temperature (refers to nominal heating capacity).
-  localizations: []
+  ifdGuid: 3XjGl6_Xf35QjmjLIGpnW7
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcThermodynamicTemperatureMeasure
+    measureType: ''
+    unitType: THERMODYNAMICTEMPERATUREUNIT
 - name: NominalSupplyWaterTemperatureHeating
-  ifdGuid: 2b700f57e15c44688b1a0d3284dc6f17
   definition: Nominal supply water temperature (refers to nominal heating capacity).
-  localizations: []
+  ifdGuid: 0hS0zNuLn4Q8iQ3JA4t6yN
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcThermodynamicTemperatureMeasure
+    measureType: ''
+    unitType: THERMODYNAMICTEMPERATUREUNIT
 - name: NominalReturnWaterTemperatureHeating
-  ifdGuid: 807b1e96f22d4b2bb17f75fe645c1579
   definition: Nominal return water temperature (refers to nominal heating capacity).
-  localizations: []
+  ifdGuid: 20UnwMyYrBAx5$TVvaN1Lv
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcThermodynamicTemperatureMeasure
+    measureType: ''
+    unitType: THERMODYNAMICTEMPERATUREUNIT
 - name: NominalWaterFlowHeating
-  ifdGuid: 5150d5da05404455ae5d7156991baa67
   definition: Nominal water flow (refers to nominal heating capacity).
-  localizations: []
+  ifdGuid: 1HKDNQ1K14LQvTSLQP6wfd
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcVolumetricFlowRateMeasure
+    measureType: ''
+    unitType: VOLUMETRICFLOWRATEUNIT
 - name: IntegratedLightingType
-  ifdGuid: 0a7514bb113f41deaa44f1940e8b6b86
   definition: Integrated lighting in cooled beam.
-  localizations: []
+  ifdGuid: 0ATHIx4Jz1tgf4yPGEYsk6
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertyEnumeratedValue:
+    listName: PEnum_CooledBeamIntegratedLightingType
+    enumerationValues:
+    - name: NONE
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: None
+        definition: ''
+      - language: de-DE
+        name: None
+        definition: ''
+      - language: fr-FR
+        name: None
+        definition: ''
+      - language: ja-JP
+        name: None
+        definition: ''
+    - name: DIRECT
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Direct
+        definition: ''
+      - language: de-DE
+        name: Direct
+        definition: ''
+      - language: fr-FR
+        name: Direct
+        definition: ''
+      - language: ja-JP
+        name: Direct
+        definition: ''
+    - name: INDIRECT
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Indirect
+        definition: ''
+      - language: de-DE
+        name: Indirect
+        definition: ''
+      - language: fr-FR
+        name: Indirect
+        definition: ''
+      - language: ja-JP
+        name: Indirect
+        definition: ''
+    - name: DIRECTANDINDIRECT
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Directandindirect
+        definition: ''
+      - language: de-DE
+        name: Directandindirect
+        definition: ''
+      - language: fr-FR
+        name: Directandindirect
+        definition: ''
+      - language: ja-JP
+        name: Directandindirect
+        definition: ''
+    - name: OTHER
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Other
+        definition: ''
+      - language: de-DE
+        name: Other
+        definition: ''
+      - language: fr-FR
+        name: Other
+        definition: ''
+      - language: ja-JP
+        name: Other
+        definition: ''
+    - name: UNKNOWN
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Unknown
+        definition: ''
+      - language: de-DE
+        name: Unknown
+        definition: ''
+      - language: fr-FR
+        name: Unknown
+        definition: ''
+      - language: ja-JP
+        name: Unknown
+        definition: ''
 - name: PipeConnectionEnum
-  ifdGuid: bc4afcd56bc8425ab27c0b8574adea94
   definition: The manner in which the pipe connection is made to the cooled beam.
-  localizations: []
+  ifdGuid: 2yIlpLQyX2Mh9y2uLqhUgK
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertyEnumeratedValue:
+    listName: PEnum_CooledBeamPipeConnection
+    enumerationValues:
+    - name: STRAIGHT
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Straight
+        definition: ''
+      - language: de-DE
+        name: Straight
+        definition: ''
+      - language: fr-FR
+        name: Straight
+        definition: ''
+      - language: ja-JP
+        name: Straight
+        definition: ''
+    - name: RIGHT
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Right
+        definition: ''
+      - language: de-DE
+        name: Right
+        definition: ''
+      - language: fr-FR
+        name: Right
+        definition: ''
+      - language: ja-JP
+        name: Right
+        definition: ''
+    - name: LEFT
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Left
+        definition: ''
+      - language: de-DE
+        name: Left
+        definition: ''
+      - language: fr-FR
+        name: Left
+        definition: ''
+      - language: ja-JP
+        name: Left
+        definition: ''
+    - name: TOP
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Top
+        definition: ''
+      - language: de-DE
+        name: Top
+        definition: ''
+      - language: fr-FR
+        name: Top
+        definition: ''
+      - language: ja-JP
+        name: Top
+        definition: ''
+    - name: OTHER
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Other
+        definition: ''
+      - language: de-DE
+        name: Other
+        definition: ''
+      - language: fr-FR
+        name: Other
+        definition: ''
+      - language: ja-JP
+        name: Other
+        definition: ''
+    - name: UNKNOWN
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Unknown
+        definition: ''
+      - language: de-DE
+        name: Unknown
+        definition: ''
+      - language: fr-FR
+        name: Unknown
+        definition: ''
+      - language: ja-JP
+        name: Unknown
+        definition: ''
 - name: FinishColor
-  ifdGuid: 06d993069fc54a0487f9dcf2efe1a304
   definition: Finish color for cooled beam.
-  localizations: []
+  ifdGuid: 06sPC6dyLA18VvtFBluQC4
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcLabel
+    measureType: ''
+    unitType: USERDEFINED
 - name: CoilLength
-  ifdGuid: 356c6ecc283f4cecbac6a31e87f90ea5
   definition: Length of coil.
-  localizations: []
+  ifdGuid: 0rR6xCA3zCxBh6enw7_Gwb
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPositiveLengthMeasure
+    measureType: ''
+    unitType: LENGTHUNIT
 - name: CoilWidth
-  ifdGuid: b293677053cc4c2daec50343df213589
   definition: Width of coil.
-  localizations: []
+  ifdGuid: 2oasTmKynCBQx50qFV8JM9
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPositiveLengthMeasure
+    measureType: ''
+    unitType: LENGTHUNIT

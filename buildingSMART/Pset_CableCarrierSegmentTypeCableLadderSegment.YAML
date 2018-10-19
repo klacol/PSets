@@ -1,16 +1,29 @@
 ﻿name: Pset_CableCarrierSegmentTypeCableLadderSegment
 ifcVersion:
-  version: IFC4
+  version: 4.0.0.0
   schema: IfcElectricalDomain
 ifdGuid: ''
 definition: 'An open carrier segment on which cables are carried on a ladder structure.HISTORY: IFC4 - NominalLength deleted. To be handled as a quantity measure.'
+localizations:
+- language: en-EN
+  name: ''
+  definition: ''
+- language: de-DE
+  name: ''
+  definition: ''
+- language: fr-FR
+  name: ''
+  definition: ''
+- language: ja-JP
+  name: ''
+  definition: ''
 applicableIfcClasses:
 - name: IfcCableCarrierSegmentType
   type: IfcCableCarrierSegmentType/CABLELADDERSEGMENT
 properties:
 - name: NominalWidth
-  ifdGuid: 469a805d5caf451980449a0d72231dc0
   definition: The nominal width of the segment.
+  ifdGuid: 16ce1TNAz56O14cWro8nt0
   localizations:
   - language: ja-JP
     name: 公称幅
@@ -18,9 +31,22 @@ properties:
   - language: ko-KR
     name: 공칭 폭
     definition: 폭 치수.
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPositiveLengthMeasure
+    measureType: ''
+    unitType: LENGTHUNIT
 - name: NominalHeight
-  ifdGuid: c14cb6772c4e40c18d27a7f08edc6299
   definition: The nominal height of the segment.
+  ifdGuid: 31JBPtB4v0mOqdf$2Et6AP
   localizations:
   - language: ja-JP
     name: 公称高
@@ -28,9 +54,22 @@ properties:
   - language: ko-KR
     name: 공칭 높이
     definition: 고치수
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPositiveLengthMeasure
+    measureType: ''
+    unitType: LENGTHUNIT
 - name: LadderConfiguration
-  ifdGuid: 036361980b4e41f4b0ad83fbdf60ba76
   definition: Description of the configuration of the ladder structure used.
+  ifdGuid: 03Os6O2qv1zB2jW$lVOBfs
   localizations:
   - language: ja-JP
     name: 梯子設定
@@ -38,3 +77,16 @@ properties:
   - language: ko-KR
     name: 사다리 설정
     definition: 사용되는 사다리 구조의 개요 설명.
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcText
+    measureType: ''
+    unitType: USERDEFINED

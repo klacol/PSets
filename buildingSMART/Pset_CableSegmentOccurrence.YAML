@@ -1,52 +1,462 @@
 ﻿name: Pset_CableSegmentOccurrence
 ifcVersion:
-  version: IFC4
+  version: 4.0.0.0
   schema: IfcElectricalDomain
 ifdGuid: ''
 definition: 'Properties for the occurrence of an electrical cable, core or conductor that conforms to a type as specified by an appropriate type definition within IFC. NOTE: Maximum allowed voltage drop should be derived from the property within Pset_ElectricalCircuit.'
+localizations:
+- language: en-EN
+  name: ''
+  definition: ''
+- language: de-DE
+  name: ''
+  definition: ''
+- language: fr-FR
+  name: ''
+  definition: ''
+- language: ja-JP
+  name: ''
+  definition: ''
 applicableIfcClasses:
 - name: IfcCableSegment
   type: IfcCableSegment
 properties:
 - name: DesignAmbientTemperature
   definition: The highest and lowest local ambient temperature likely to be encountered.
-  localizations: []
+  ifdGuid: ''
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertyBoundedValue:
+    unitType: ConsoleAppYamlTest.UnitType
+    LowerBoundValue: '?'
+    UpperBoundValue: '?'
+    typeName: TypePropertyBoundedValue
 - name: UserCorrectionFactor
   definition: An arbitrary correction factor that may be applied by the user.
-  localizations: []
+  ifdGuid: ''
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcReal
+    measureType: ''
+    unitType: USERDEFINED
 - name: NumberOfParallelCircuits
   definition: Number of parallel circuits.
-  localizations: []
+  ifdGuid: ''
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcInteger
+    measureType: ''
+    unitType: USERDEFINED
 - name: InstallationMethod
   definition: Method of installation of cable/conductor. Installation methods are typically defined by reference in standards such as IEC 60364-5-52, table 52A-1 or BS7871 Appendix 4 Table 4A1 etc. Selection of the value to be used should be determined from such a standard according to local usage.
-  localizations: []
+  ifdGuid: ''
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcLabel
+    measureType: ''
+    unitType: USERDEFINED
 - name: InstallationMethodFlagEnum
   definition: Special installation conditions relating to particular types of installation based on IEC60364-5-52:2001 reference installation methods C and D.
-  localizations: []
+  ifdGuid: ''
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertyEnumeratedValue:
+    listName: PEnum_InstallationMethodFlagEnum
+    enumerationValues:
+    - name: INDUCT
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Induct
+        definition: ''
+      - language: de-DE
+        name: Induct
+        definition: ''
+      - language: fr-FR
+        name: Induct
+        definition: ''
+      - language: ja-JP
+        name: Induct
+        definition: ''
+    - name: INSOIL
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Insoil
+        definition: ''
+      - language: de-DE
+        name: Insoil
+        definition: ''
+      - language: fr-FR
+        name: Insoil
+        definition: ''
+      - language: ja-JP
+        name: Insoil
+        definition: ''
+    - name: ONWALL
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Onwall
+        definition: ''
+      - language: de-DE
+        name: Onwall
+        definition: ''
+      - language: fr-FR
+        name: Onwall
+        definition: ''
+      - language: ja-JP
+        name: Onwall
+        definition: ''
+    - name: BELOWCEILING
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Belowceiling
+        definition: ''
+      - language: de-DE
+        name: Belowceiling
+        definition: ''
+      - language: fr-FR
+        name: Belowceiling
+        definition: ''
+      - language: ja-JP
+        name: Belowceiling
+        definition: ''
+    - name: OTHER
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Other
+        definition: ''
+      - language: de-DE
+        name: Other
+        definition: ''
+      - language: fr-FR
+        name: Other
+        definition: ''
+      - language: ja-JP
+        name: Other
+        definition: ''
+    - name: UNKNOWN
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Unknown
+        definition: ''
+      - language: de-DE
+        name: Unknown
+        definition: ''
+      - language: fr-FR
+        name: Unknown
+        definition: ''
+      - language: ja-JP
+        name: Unknown
+        definition: ''
 - name: DistanceBetweenParallelCircuits
   definition: Distance measured between parallel circuits.
-  localizations: []
+  ifdGuid: ''
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcLengthMeasure
+    measureType: ''
+    unitType: LENGTHUNIT
 - name: SoilConductivity
   definition: Thermal conductivity of soil. Generally, within standards such as IEC 60364-5-52, table 52A-16, the resistivity of soil is required (measured in [SI] units of degK.m /W). This is the reciprocal of the conductivity value and needs to be calculated accordingly.
-  localizations: []
+  ifdGuid: ''
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcThermalConductivityMeasure
+    measureType: ''
+    unitType: USERDEFINED
 - name: CarrierStackNumber
   definition: Number of carrier segments (tray, ladder etc.) that are vertically stacked (vertical is measured as the z-axis of the local coordinate system of the carrier segment).
-  localizations: []
+  ifdGuid: ''
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcInteger
+    measureType: ''
+    unitType: USERDEFINED
 - name: MountingMethod
   definition: The method of mounting cable segment occurrences on a cable carrier occurrence from which the method required can be selected. This is for the purpose of carrying out 'worst case' cable sizing calculations and may be a conceptual requirement rather than a statement of the physical occurrences of cable and carrier segments.
-  localizations: []
+  ifdGuid: ''
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertyEnumeratedValue:
+    listName: PEnum_MountingMethodEnum
+    enumerationValues:
+    - name: PERFORATEDTRAY
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Perforatedtray
+        definition: ''
+      - language: de-DE
+        name: Perforatedtray
+        definition: ''
+      - language: fr-FR
+        name: Perforatedtray
+        definition: ''
+      - language: ja-JP
+        name: Perforatedtray
+        definition: ''
+    - name: LADDER
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Ladder
+        definition: ''
+      - language: de-DE
+        name: Ladder
+        definition: ''
+      - language: fr-FR
+        name: Ladder
+        definition: ''
+      - language: ja-JP
+        name: Ladder
+        definition: ''
+    - name: OTHER
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Other
+        definition: ''
+      - language: de-DE
+        name: Other
+        definition: ''
+      - language: fr-FR
+        name: Other
+        definition: ''
+      - language: ja-JP
+        name: Other
+        definition: ''
+    - name: UNKNOWN
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Unknown
+        definition: ''
+      - language: de-DE
+        name: Unknown
+        definition: ''
+      - language: fr-FR
+        name: Unknown
+        definition: ''
+      - language: ja-JP
+        name: Unknown
+        definition: ''
 - name: IsHorizontalCable
   definition: Indication of whether the cable occurrences are mounted horizontally (= TRUE) or vertically (= FALSE).
-  localizations: []
+  ifdGuid: ''
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcBoolean
+    measureType: ''
+    unitType: USERDEFINED
 - name: IsMountedFlatCable
   definition: Indication of whether the cable occurrences are mounted flat (= TRUE) or in a trefoil pattern (= FALSE).
-  localizations: []
+  ifdGuid: ''
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcBoolean
+    measureType: ''
+    unitType: USERDEFINED
 - name: CurrentCarryingCapasity
   definition: 'Maximum value of electric current which can be carried continuously by a conductor, a device or an apparatus, under specified conditions without its steady-state temperature exceeding a  specified value. Based on IEC60826-11-13. NOTE: The temperature specified value is maximum Design Ambient Temperature.'
-  localizations: []
+  ifdGuid: ''
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcElectricCurrentMeasure
+    measureType: ''
+    unitType: ELECTRICCURRENTUNIT
 - name: MaximumCableLength
   definition: 'Maximum cable length based on voltagedrop. NOTE: This value may also be specified as a constraint within an IFC model if required but is included within the property set at this stage pending implementation of the required capabilities within software applications.'
-  localizations: []
+  ifdGuid: ''
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcLengthMeasure
+    measureType: ''
+    unitType: USERDEFINED
 - name: PowerLoss
-  definition: 'Total loss of power across this cable.  '
-  localizations: []
+  definition: Total loss of power across this cable.
+  ifdGuid: ''
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcElectricCurrentMeasure
+    measureType: ''
+    unitType: ELECTRICCURRENTUNIT

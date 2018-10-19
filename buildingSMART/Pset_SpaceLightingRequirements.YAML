@@ -1,9 +1,22 @@
 ﻿name: Pset_SpaceLightingRequirements
 ifcVersion:
-  version: IFC4
+  version: 4.0.0.0
   schema: IfcProductExtension
 ifdGuid: ''
 definition: Properties related to the lighting requirements that apply to the occurrences of IfcSpace or IfcZone. This includes the required artificial lighting, illuminance, etc.
+localizations:
+- language: en-EN
+  name: ''
+  definition: ''
+- language: de-DE
+  name: ''
+  definition: ''
+- language: fr-FR
+  name: ''
+  definition: ''
+- language: ja-JP
+  name: ''
+  definition: ''
 applicableIfcClasses:
 - name: IfcSpace
   type: IfcSpace, IfcSpatialZone, IfcZone
@@ -15,8 +28,8 @@ applicableIfcClasses:
   type: IfcSpace, IfcSpatialZone, IfcZone
 properties:
 - name: ArtificialLighting
-  ifdGuid: c97cfa0ca0ce41d5a07b4c773edda8f3
   definition: Indication whether this space  requires artificial lighting (as natural lighting would be not sufficient). (TRUE) indicates yes (FALSE) otherwise.
+  ifdGuid: 39VFeCeCv1rQ1xJ7S_tQZp
   localizations:
   - language: de-DE
     name: künstliche Beleuchtung
@@ -30,9 +43,16 @@ properties:
   - language: ko-KR
     name: 인공 조명
     definition: 이 공간이 인공 조명을 필요로하는지 여부 (자연 조명이 충분하지 않기 위하여)를 나타내는 부울 값입니다. (TRUE) 필요 (FALSE) 아니오 값.
+  - language: en-EN
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcBoolean
+    measureType: ''
+    unitType: USERDEFINED
 - name: Illuminance
-  ifdGuid: 6e0863fed1524928b26426ee1e6c6064
   definition: Required average illuminance value for this space.
+  ifdGuid: 1k26F_qL99AB9a9kuUR61a
   localizations:
   - language: de-DE
     name: Beleuchtungsstärke
@@ -46,3 +66,10 @@ properties:
   - language: ko-KR
     name: 조도
     definition: 이 공간을 위해 필요한 평균 조도
+  - language: en-EN
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcIlluminanceMeasure
+    measureType: ''
+    unitType: ILLUMINANCEUNIT

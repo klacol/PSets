@@ -1,9 +1,22 @@
 ﻿name: Pset_CoveringFlooring
 ifcVersion:
-  version: IFC4
+  version: 4.0.0.0
   schema: IfcSharedBldgElements
 ifdGuid: ''
 definition: Properties common to the definition of all occurrence and type objects of covering with the predefined type set to FLOORING.
+localizations:
+- language: en-EN
+  name: ''
+  definition: ''
+- language: de-DE
+  name: ''
+  definition: ''
+- language: fr-FR
+  name: ''
+  definition: ''
+- language: ja-JP
+  name: ''
+  definition: ''
 applicableIfcClasses:
 - name: IfcCovering
   type: IfcCoveringType/FLOORING,
@@ -11,8 +24,8 @@ applicableIfcClasses:
   type: IfcCoveringType/FLOORING,
 properties:
 - name: HasNonSkidSurface
-  ifdGuid: e61163f7f2064b81a764fe13ee96a9ca
   definition: Indication whether the surface finish is designed to prevent slippery (TRUE) or not (FALSE).
+  ifdGuid: 3c4MFtyWPBWQTa$XFkbgdA
   localizations:
   - language: de-DE
     name: Nichtrutschende Oberfläche
@@ -23,9 +36,19 @@ properties:
   - language: zh-CN
     name: 表面是否防滑
     definition: 表示表面处理是否设计为防滑的。
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcBoolean
+    measureType: ''
+    unitType: USERDEFINED
 - name: HasAntiStaticSurface
-  ifdGuid: 0194a9148f7f4419bcf3d9b9d7dacfad
   definition: Indication whether the surface finish is designed to prevent electrostatic charge (TRUE) or not (FALSE).
+  ifdGuid: 01bAaKZtz46RppsRdNsi_j
   localizations:
   - language: de-DE
     name: Antistatische Oberfläche
@@ -36,3 +59,13 @@ properties:
   - language: zh-CN
     name: 表面是否防静电
     definition: 表示表面处理是否设计为防静电的。
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcBoolean
+    measureType: ''
+    unitType: USERDEFINED

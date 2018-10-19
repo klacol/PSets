@@ -1,15 +1,29 @@
 ﻿name: Pset_EnvironmentalImpactValues
 ifcVersion:
-  version: IFC4
+  version: 4.0.0.0
   schema: IfcProductExtension
 ifdGuid: ''
 definition: The following properties capture environmental impact values of an element. They correspond to the indicators defined into Pset_EnvironmentalImpactIndicators. Environmental impact values are obtained multiplying indicator value per unit by the relevant quantity of the element.
+localizations:
+- language: en-EN
+  name: ''
+  definition: ''
+- language: de-DE
+  name: ''
+  definition: ''
+- language: fr-FR
+  name: ''
+  definition: ''
+- language: ja-JP
+  name: ''
+  definition: ''
 applicableIfcClasses:
 - name: IfcElement
   type: IfcElement
 properties:
 - name: TotalPrimaryEnergyConsumption
   definition: Quantity of energy used as defined in ISO21930:2007.
+  ifdGuid: ''
   localizations:
   - language: fr-FR
     name: ConsommationTotaleEnergiePrimaire
@@ -20,8 +34,19 @@ properties:
   - language: ko-KR
     name: 모든 차 에너지 소비
     definition: 'ISO21930 : 2007에서 정의된 에너지 사용량'
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcEnergyMeasure
+    measureType: ''
+    unitType: USERDEFINED
 - name: WaterConsumption
   definition: Quantity of water used.
+  ifdGuid: ''
   localizations:
   - language: fr-FR
     name: ConsommationEau
@@ -32,8 +57,19 @@ properties:
   - language: ko-KR
     name: 물 사용
     definition: 사용 수량의 리터 수
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcVolumeMeasure
+    measureType: ''
+    unitType: USERDEFINED
 - name: HazardousWaste
   definition: Quantity of hazardous waste generated.
+  ifdGuid: ''
   localizations:
   - language: fr-FR
     name: DechetsDangereux
@@ -44,8 +80,19 @@ properties:
   - language: ko-KR
     name: 유해 폐기물
     definition: 유해 폐기물의 발생량
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcMassMeasure
+    measureType: ''
+    unitType: USERDEFINED
 - name: NonHazardousWaste
   definition: Quantity of non hazardous waste generated.
+  ifdGuid: ''
   localizations:
   - language: fr-FR
     name: DechetsNonDangereux
@@ -56,8 +103,19 @@ properties:
   - language: ko-KR
     name: 비 유해 폐기물
     definition: 비 유해 폐기물의 발생량
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcMassMeasure
+    measureType: ''
+    unitType: USERDEFINED
 - name: ClimateChange
   definition: Quantity of greenhouse gases emitted calculated in equivalent CO2.
+  ifdGuid: ''
   localizations:
   - language: fr-FR
     name: ChangementClimatique
@@ -68,8 +126,19 @@ properties:
   - language: ko-KR
     name: 기후변화
     definition: CO2 등가 환산되는 온실 가스 발생량
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcMassMeasure
+    measureType: ''
+    unitType: USERDEFINED
 - name: AtmosphericAcidification
   definition: Quantity of gases responsible for the atmospheric acidification calculated in equivalent SO2.
+  ifdGuid: ''
   localizations:
   - language: fr-FR
     name: AcidificationAtmospherique
@@ -80,8 +149,19 @@ properties:
   - language: ko-KR
     name: 대기산성화
     definition: SO2에 해당 환산된 대기 산성 화의 원인이되는 가스량
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcMassMeasure
+    measureType: ''
+    unitType: USERDEFINED
 - name: RenewableEnergyConsumption
   definition: Quantity of renewable energy used as defined in ISO21930:2007
+  ifdGuid: ''
   localizations:
   - language: fr-FR
     name: ConsommationEnergieRenouvelable
@@ -92,8 +172,19 @@ properties:
   - language: ko-KR
     name: 재생 가능 에너지 소비
     definition: 'ISO21930 : 2007에 정의된 재생 가능 에너지 사용량'
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcEnergyMeasure
+    measureType: ''
+    unitType: USERDEFINED
 - name: NonRenewableEnergyConsumption
   definition: Quantity of non-renewable energy used as defined in ISO21930:2007
+  ifdGuid: ''
   localizations:
   - language: fr-FR
     name: ConsommationEnergieNonRenouvelable
@@ -104,8 +195,19 @@ properties:
   - language: ko-KR
     name: 재생 불가 에너지 소비
     definition: 'ISO21930 : 2007에 정의된 재생 불가 에너지 사용량'
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcEnergyMeasure
+    measureType: ''
+    unitType: USERDEFINED
 - name: ResourceDepletion
   definition: Quantity of resources used calculated in equivalent antimony.
+  ifdGuid: ''
   localizations:
   - language: fr-FR
     name: EpuisementRessources
@@ -116,8 +218,19 @@ properties:
   - language: ko-KR
     name: 자원 소비
     definition: 안티몬에 해당 환산된 사용 자원 량
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcMassMeasure
+    measureType: ''
+    unitType: USERDEFINED
 - name: InertWaste
   definition: Quantity of inert waste generated .
+  ifdGuid: ''
   localizations:
   - language: fr-FR
     name: DechetsInertes
@@ -128,8 +241,19 @@ properties:
   - language: ko-KR
     name: 불활성 폐기불
     definition: 불활성 폐기물 발생량
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcMassMeasure
+    measureType: ''
+    unitType: USERDEFINED
 - name: RadioactiveWaste
   definition: Quantity of radioactive waste generated.
+  ifdGuid: ''
   localizations:
   - language: fr-FR
     name: DechetsRadioactifs
@@ -140,8 +264,19 @@ properties:
   - language: ko-KR
     name: 방사성 폐기물
     definition: 방사성 폐기물 발생량
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcMassMeasure
+    measureType: ''
+    unitType: USERDEFINED
 - name: StratosphericOzoneLayerDestruction
   definition: Quantity of gases destroying the stratospheric ozone layer calculated in equivalent CFC-R11.
+  ifdGuid: ''
   localizations:
   - language: fr-FR
     name: DestructionCoucheOzoneStartospherique
@@ -152,8 +287,19 @@ properties:
   - language: ko-KR
     name: 성층권 오존층 파괴
     definition: CFC-R11에 해당 환산된 성층권 오존층 파괴 가스량
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcMassMeasure
+    measureType: ''
+    unitType: USERDEFINED
 - name: PhotochemicalOzoneFormation
   definition: Quantity of gases creating the photochemical ozone calculated in equivalent ethylene.
+  ifdGuid: ''
   localizations:
   - language: fr-FR
     name: FormationOzonePhotochimique
@@ -164,8 +310,19 @@ properties:
   - language: ko-KR
     name: 광화학 오존 생성
     definition: 에틸렌에 해당 환산된 광화학 오존 생성 끊 가스량
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcMassMeasure
+    measureType: ''
+    unitType: USERDEFINED
 - name: Eutrophication
   definition: Quantity of eutrophicating compounds calculated in equivalent PO4.
+  ifdGuid: ''
   localizations:
   - language: fr-FR
     name: Eutrophisation
@@ -176,3 +333,13 @@ properties:
   - language: ko-KR
     name: 부영 양화
     definition: PO4 (인산)에 상응하는 환산되는 부영 양화 성분 물량
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcMassMeasure
+    measureType: ''
+    unitType: USERDEFINED

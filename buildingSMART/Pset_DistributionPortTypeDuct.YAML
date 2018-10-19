@@ -1,45 +1,478 @@
 ﻿name: Pset_DistributionPortTypeDuct
 ifcVersion:
-  version: IFC4
+  version: 4.0.0.0
 ifdGuid: ''
 definition: Duct port occurrence attributes attached to an instance of IfcDistributionPort.
+localizations:
+- language: en-EN
+  name: ''
+  definition: ''
+- language: de-DE
+  name: ''
+  definition: ''
+- language: fr-FR
+  name: ''
+  definition: ''
+- language: ja-JP
+  name: ''
+  definition: ''
 applicableIfcClasses:
 - name: IfcDistributionPort/AIRCONDITIONING
   type: IfcDistributionPort/AIRCONDITIONING
 properties:
 - name: ConnectionType
-  ifdGuid: d2b239a61db14c2ab423e3d735a6de1f
   definition: ConsoleAppYamlTest.PropertyType
-  localizations: []
+  ifdGuid: 3IiZcc7R5CAhGZuzSrfjuV
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertyEnumeratedValue:
+    listName: PEnum_DuctConnectionType
+    enumerationValues:
+    - name: BEADEDSLEEVE
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Beadedsleeve
+        definition: ''
+      - language: de-DE
+        name: Beadedsleeve
+        definition: ''
+      - language: fr-FR
+        name: Beadedsleeve
+        definition: ''
+      - language: ja-JP
+        name: Beadedsleeve
+        definition: ''
+    - name: COMPRESSION
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Compression
+        definition: ''
+      - language: de-DE
+        name: Compression
+        definition: ''
+      - language: fr-FR
+        name: Compression
+        definition: ''
+      - language: ja-JP
+        name: Compression
+        definition: ''
+    - name: CRIMP
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Crimp
+        definition: ''
+      - language: de-DE
+        name: Crimp
+        definition: ''
+      - language: fr-FR
+        name: Crimp
+        definition: ''
+      - language: ja-JP
+        name: Crimp
+        definition: ''
+    - name: DRAWBAND
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Drawband
+        definition: ''
+      - language: de-DE
+        name: Drawband
+        definition: ''
+      - language: fr-FR
+        name: Drawband
+        definition: ''
+      - language: ja-JP
+        name: Drawband
+        definition: ''
+    - name: DRIVESLIP
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Driveslip
+        definition: ''
+      - language: de-DE
+        name: Driveslip
+        definition: ''
+      - language: fr-FR
+        name: Driveslip
+        definition: ''
+      - language: ja-JP
+        name: Driveslip
+        definition: ''
+    - name: FLANGED
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Flanged
+        definition: ''
+      - language: de-DE
+        name: Flanged
+        definition: ''
+      - language: fr-FR
+        name: Flanged
+        definition: ''
+      - language: ja-JP
+        name: Flanged
+        definition: ''
+    - name: OUTSIDESLEEVE
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Outsidesleeve
+        definition: ''
+      - language: de-DE
+        name: Outsidesleeve
+        definition: ''
+      - language: fr-FR
+        name: Outsidesleeve
+        definition: ''
+      - language: ja-JP
+        name: Outsidesleeve
+        definition: ''
+    - name: SLIPON
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Slipon
+        definition: ''
+      - language: de-DE
+        name: Slipon
+        definition: ''
+      - language: fr-FR
+        name: Slipon
+        definition: ''
+      - language: ja-JP
+        name: Slipon
+        definition: ''
+    - name: SOLDERED
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Soldered
+        definition: ''
+      - language: de-DE
+        name: Soldered
+        definition: ''
+      - language: fr-FR
+        name: Soldered
+        definition: ''
+      - language: ja-JP
+        name: Soldered
+        definition: ''
+    - name: SSLIP
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Sslip
+        definition: ''
+      - language: de-DE
+        name: Sslip
+        definition: ''
+      - language: fr-FR
+        name: Sslip
+        definition: ''
+      - language: ja-JP
+        name: Sslip
+        definition: ''
+    - name: STANDINGSEAM
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Standingseam
+        definition: ''
+      - language: de-DE
+        name: Standingseam
+        definition: ''
+      - language: fr-FR
+        name: Standingseam
+        definition: ''
+      - language: ja-JP
+        name: Standingseam
+        definition: ''
+    - name: SWEDGE
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Swedge
+        definition: ''
+      - language: de-DE
+        name: Swedge
+        definition: ''
+      - language: fr-FR
+        name: Swedge
+        definition: ''
+      - language: ja-JP
+        name: Swedge
+        definition: ''
+    - name: WELDED
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Welded
+        definition: ''
+      - language: de-DE
+        name: Welded
+        definition: ''
+      - language: fr-FR
+        name: Welded
+        definition: ''
+      - language: ja-JP
+        name: Welded
+        definition: ''
+    - name: OTHER
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Other
+        definition: ''
+      - language: de-DE
+        name: Other
+        definition: ''
+      - language: fr-FR
+        name: Other
+        definition: ''
+      - language: ja-JP
+        name: Other
+        definition: ''
+    - name: NONE
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: None
+        definition: ''
+      - language: de-DE
+        name: None
+        definition: ''
+      - language: fr-FR
+        name: None
+        definition: ''
+      - language: ja-JP
+        name: None
+        definition: ''
+    - name: USERDEFINED
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Userdefined
+        definition: ''
+      - language: de-DE
+        name: Userdefined
+        definition: ''
+      - language: fr-FR
+        name: Userdefined
+        definition: ''
+      - language: ja-JP
+        name: Userdefined
+        definition: ''
+    - name: NOTDEFINED
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Notdefined
+        definition: ''
+      - language: de-DE
+        name: Notdefined
+        definition: ''
+      - language: fr-FR
+        name: Notdefined
+        definition: ''
+      - language: ja-JP
+        name: Notdefined
+        definition: ''
 - name: ConnectionSubType
-  ifdGuid: 15d916dd1d7340bc81481576f81d2a08
   definition: ConsoleAppYamlTest.PropertyType
-  localizations: []
+  ifdGuid: 0LsHRT7ND0l8585NRu7Ie8
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcLabel
+    measureType: ''
+    unitType: USERDEFINED
 - name: NominalWidth
-  ifdGuid: a28e9f226e204a909976810e633a45f4
   definition: ConsoleAppYamlTest.PropertyType
-  localizations: []
+  ifdGuid: 2YZfyYRY1Aa9bsWGvZEaNq
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPositiveLengthMeasure
+    measureType: ''
+    unitType: USERDEFINED
 - name: NominalHeight
-  ifdGuid: 90a90418907a41809a527bb1ef069005
   definition: ConsoleAppYamlTest.PropertyType
-  localizations: []
+  ifdGuid: 2GgGGOa7f1W9fIUx7l1f05
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPositiveLengthMeasure
+    measureType: ''
+    unitType: USERDEFINED
 - name: DryBulbTemperature
-  ifdGuid: 0e28d2efe50346319664f17e52ebd118
   definition: ConsoleAppYamlTest.PropertyType
-  localizations: []
+  ifdGuid: 0EADBlvGD6CPPayNvIwz4O
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertyBoundedValue:
+    unitType: ConsoleAppYamlTest.UnitType
+    LowerBoundValue: ''
+    UpperBoundValue: ''
+    typeName: TypePropertyBoundedValue
 - name: WetBulbTemperature
-  ifdGuid: 46e6cb4f3ecb4016b3d952ec26836ce6
   definition: ConsoleAppYamlTest.PropertyType
-  localizations: []
+  ifdGuid: 16vijFFij05hFPKkmcWspc
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertyBoundedValue:
+    unitType: ConsoleAppYamlTest.UnitType
+    LowerBoundValue: ''
+    UpperBoundValue: ''
+    typeName: TypePropertyBoundedValue
 - name: VolumetricFlowRate
-  ifdGuid: 639c0067eb444ed8b9d177247c1f1cc2
   definition: ConsoleAppYamlTest.PropertyType
-  localizations: []
+  ifdGuid: 1Zd01dwqHEsBdHToHy7np2
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertyBoundedValue:
+    unitType: ConsoleAppYamlTest.UnitType
+    LowerBoundValue: ''
+    UpperBoundValue: ''
+    typeName: TypePropertyBoundedValue
 - name: Velocity
-  ifdGuid: 26538518abf6475ba1562ce731d7975e
   definition: ConsoleAppYamlTest.PropertyType
-  localizations: []
+  ifdGuid: 0cKuKOg$P7Mw5MBESnrvTU
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertyBoundedValue:
+    unitType: ConsoleAppYamlTest.UnitType
+    LowerBoundValue: ''
+    UpperBoundValue: ''
+    typeName: TypePropertyBoundedValue
 - name: Pressure
-  ifdGuid: 7583cd7c5ea74d109e2b6ad6d0dafa4b
   definition: ConsoleAppYamlTest.PropertyType
-  localizations: []
+  ifdGuid: 1rWyryNgTD49uhQjRGslfB
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertyBoundedValue:
+    unitType: ConsoleAppYamlTest.UnitType
+    LowerBoundValue: ''
+    UpperBoundValue: ''
+    typeName: TypePropertyBoundedValue

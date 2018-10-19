@@ -1,16 +1,29 @@
 ﻿name: Pset_ActuatorTypePneumaticActuator
 ifcVersion:
-  version: IFC4
+  version: 4.0.0.0
   schema: IfcBuildingControlsDomain
 ifdGuid: ''
-definition: 'A device that pneumatically actuates a control element '
+definition: A device that pneumatically actuates a control element
+localizations:
+- language: en-EN
+  name: ''
+  definition: ''
+- language: de-DE
+  name: ''
+  definition: ''
+- language: fr-FR
+  name: ''
+  definition: ''
+- language: ja-JP
+  name: ''
+  definition: ''
 applicableIfcClasses:
 - name: IfcActuatorType
   type: IfcActuatorType/PNEUMATICACTUATOR
 properties:
 - name: InputPressure
-  ifdGuid: d13f472f69c14d26a7a1064391c8a3c5
-  definition: 'Maximum input control air pressure requirement. '
+  definition: Maximum input control air pressure requirement.
+  ifdGuid: 3HFqSlQS5D9gUX1aEHoAF5
   localizations:
   - language: ja-JP
     name: 入力圧力
@@ -18,9 +31,22 @@ properties:
   - language: ko-KR
     name: 입력 압력
     definition: 최대 제어 공압
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPressureMeasure
+    measureType: ''
+    unitType: PRESSUREUNIT
 - name: InputFlowrate
-  ifdGuid: 56a1c1517af345b1907419da0ab6ea4f
   definition: Maximum input control air flowrate requirement.
+  ifdGuid: 1MeS5HUlD5iP1q6TeAjkfF
   localizations:
   - language: ja-JP
     name: 入力流量
@@ -28,3 +54,16 @@ properties:
   - language: ko-KR
     name: 입력 유량
     definition: 최대 제어 공기 유량
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcVolumetricFlowRateMeasure
+    measureType: ''
+    unitType: VOLUMETRICFLOWRATEUNIT

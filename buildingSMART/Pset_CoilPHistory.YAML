@@ -1,38 +1,111 @@
 ﻿name: Pset_CoilPHistory
 ifcVersion:
-  version: IFC4
+  version: 4.0.0.0
   schema: IfcHvacDomain
 ifdGuid: ''
 definition: 'Coil performance history common attributes.Sound attribute deleted in IFC2x2 Pset Addendum: Use IfcSoundProperties instead.'
+localizations:
+- language: en-EN
+  name: ''
+  definition: ''
+- language: de-DE
+  name: ''
+  definition: ''
+- language: fr-FR
+  name: ''
+  definition: ''
+- language: ja-JP
+  name: ''
+  definition: ''
 applicableIfcClasses:
 - name: IfcPerformanceHistory
   type: IfcCoil[PerformanceHistory]
 properties:
 - name: AtmosphericPressure
-  ifdGuid: 987602d7d07943a1bb0b5d5129fc3d02
   definition: Ambient atmospheric pressure.
+  ifdGuid: 2OTWBNq7b3eRiBNL4f$3q2
   localizations:
   - language: fr-FR
     name: Pression atmosphérique
     definition: Pression atmosphérique ambiante.
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertyReferenceValue:
+    refType: IfcTimeSeries
+    url: http://buildingsmart-tech.org
+    guid: ''
+    libraryName: Industry Foundation Classes by buildingSMART International
+    sectionref: Core Schema
 - name: AirPressureDropCurve
-  ifdGuid: ac9693d2c4fe461cbe6a443c15368762
   definition: Air pressure drop curve, pressure drop – flow rate curve, AirPressureDrop = f (AirflowRate).
+  ifdGuid: 2ibfFInFv67BvgH3mLDeTY
   localizations:
   - language: fr-FR
     name: CourbePerteDeChargeAir
     definition: Courbe de perte de charge aéraulique, courbe perte de charge/débit.
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertyReferenceValue:
+    refType: IfcTimeSeries
+    url: http://buildingsmart-tech.org
+    guid: ''
+    libraryName: Industry Foundation Classes by buildingSMART International
+    sectionref: Core Schema
 - name: SoundCurve
-  ifdGuid: 0ca15c99f4d746559b2de69710d5df7c
   definition: Regenerated sound versus air-flow rate.
+  ifdGuid: 0CeLoPzDT6LPijvfSGrTzy
   localizations:
   - language: fr-FR
     name: CourbeSon
     definition: Son généré par rapport au débit aéraulique.
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertyReferenceValue:
+    refType: IfcTimeSeries
+    url: http://buildingsmart-tech.org
+    guid: ''
+    libraryName: Industry Foundation Classes by buildingSMART International
+    sectionref: Core Schema
 - name: FaceVelocity
-  ifdGuid: 07d6b355fc1a4dcab9aa8c0cec2a24c5
   definition: Air velocity through the coil.
+  ifdGuid: 07rhDL$1fDohcgZ0piAYJ5
   localizations:
   - language: fr-FR
     name: VitesseFace
     definition: Vitesse de l'air à travers la batterie.
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertyReferenceValue:
+    refType: IfcTimeSeries
+    url: http://buildingsmart-tech.org
+    guid: ''
+    libraryName: Industry Foundation Classes by buildingSMART International
+    sectionref: Core Schema

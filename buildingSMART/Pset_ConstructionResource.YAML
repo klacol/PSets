@@ -1,65 +1,198 @@
 ﻿name: Pset_ConstructionResource
 ifcVersion:
-  version: IFC4
+  version: 4.0.0.0
 ifdGuid: ''
 definition: Properties for tracking resource usage over time.
+localizations:
+- language: en-EN
+  name: ''
+  definition: ''
+- language: de-DE
+  name: ''
+  definition: ''
+- language: fr-FR
+  name: ''
+  definition: ''
+- language: ja-JP
+  name: ''
+  definition: ''
 applicableIfcClasses:
 - name: IfcConstructionResource
   type: IfcConstructionResource
 properties:
 - name: ScheduleWork
-  ifdGuid: ee566b00d1cc11e1800000215ad4efdf
   definition: ConsoleAppYamlTest.PropertyType
+  ifdGuid: 3kLci0qSmHuO00025QrE$V
   localizations:
   - language: ja-JP
     name: 予定作業時間
     definition: 資源配分のための予定された作業。
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertyReferenceValue:
+    refType: IfcTimeSeries
+    url: http://buildingsmart-tech.org
+    guid: ''
+    libraryName: Industry Foundation Classes by buildingSMART International
+    sectionref: Core Schema
 - name: ActualWork
-  ifdGuid: f1515b80d1cc11e1800000215ad4efdf
   definition: ConsoleAppYamlTest.PropertyType
+  ifdGuid: 3nKLk0qSmHuO00025QrE$V
   localizations:
   - language: ja-JP
     name: 実績作業時間
     definition: 資源配分のための実績の作業。
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertyReferenceValue:
+    refType: IfcTimeSeries
+    url: http://buildingsmart-tech.org
+    guid: ''
+    libraryName: Industry Foundation Classes by buildingSMART International
+    sectionref: Core Schema
 - name: RemainingWork
-  ifdGuid: f3b3b580d1cc11e1800000215ad4efdf
   definition: ConsoleAppYamlTest.PropertyType
+  ifdGuid: 3pixM0qSmHuO00025QrE$V
   localizations:
   - language: ja-JP
     name: 残存作業時間
     definition: 資源配分のための残存している作業。
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertyReferenceValue:
+    refType: IfcTimeSeries
+    url: http://buildingsmart-tech.org
+    guid: ''
+    libraryName: Industry Foundation Classes by buildingSMART International
+    sectionref: Core Schema
 - name: ScheduleCost
-  ifdGuid: f6aea600d1cc11e1800000215ad4efdf
   definition: ConsoleAppYamlTest.PropertyType
+  ifdGuid: 3shgO0qSmHuO00025QrE$V
   localizations:
   - language: ja-JP
     name: 予定コスト
     definition: 資源配分のための予定されているコスト。
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertyReferenceValue:
+    refType: IfcTimeSeries
+    url: http://buildingsmart-tech.org
+    guid: ''
+    libraryName: Industry Foundation Classes by buildingSMART International
+    sectionref: Core Schema
 - name: ActualCost
-  ifdGuid: f9110000d1cc11e1800000215ad4efdf
   definition: ConsoleAppYamlTest.PropertyType
+  ifdGuid: 3v4G00qSmHuO00025QrE$V
   localizations:
   - language: ja-JP
     name: 実績コスト
     definition: 資源配分のための実績のコスト。
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertyReferenceValue:
+    refType: IfcTimeSeries
+    url: http://buildingsmart-tech.org
+    guid: ''
+    libraryName: Industry Foundation Classes by buildingSMART International
+    sectionref: Core Schema
 - name: RemainingCost
-  ifdGuid: fb735a00d1cc11e1800000215ad4efdf
   definition: ConsoleAppYamlTest.PropertyType
+  ifdGuid: 3xSre0qSmHuO00025QrE$V
   localizations:
   - language: ja-JP
     name: 残存コスト
     definition: 資源配分のための残存しているコスト。
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertyReferenceValue:
+    refType: IfcTimeSeries
+    url: http://buildingsmart-tech.org
+    guid: ''
+    libraryName: Industry Foundation Classes by buildingSMART International
+    sectionref: Core Schema
 - name: ScheduleCompletion
-  ifdGuid: fe6e4a80d1cc11e1800000215ad4efdf
   definition: ConsoleAppYamlTest.PropertyType
+  ifdGuid: 3_Rag0qSmHuO00025QrE$V
   localizations:
   - language: ja-JP
     name: 予定完了率
     definition: 予定された完了率。
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertyReferenceValue:
+    refType: IfcTimeSeries
+    url: http://buildingsmart-tech.org
+    guid: ''
+    libraryName: Industry Foundation Classes by buildingSMART International
+    sectionref: Core Schema
 - name: ActualCompletion
-  ifdGuid: 00d0a480d1cd11e1800000215ad4efdf
   definition: ConsoleAppYamlTest.PropertyType
+  ifdGuid: 00qAI0qSqHuO00025QrE$V
   localizations:
   - language: ja-JP
     name: 実績完了率
     definition: 実績の完了率。
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertyReferenceValue:
+    refType: IfcTimeSeries
+    url: http://buildingsmart-tech.org
+    guid: ''
+    libraryName: Industry Foundation Classes by buildingSMART International
+    sectionref: Core Schema

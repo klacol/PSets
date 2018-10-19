@@ -1,13 +1,154 @@
 ﻿name: Pset_FilterTypeWaterFilter
 ifcVersion:
-  version: IFC4
+  version: 4.0.0.0
   schema: IfcHvacDomain
 ifdGuid: ''
 definition: Water filter type attributes.
+localizations:
+- language: en-EN
+  name: ''
+  definition: ''
+- language: de-DE
+  name: ''
+  definition: ''
+- language: fr-FR
+  name: ''
+  definition: ''
+- language: ja-JP
+  name: ''
+  definition: ''
 applicableIfcClasses:
 - name: IfcFilterType
   type: IfcFilterType/WATERFILTER
 properties:
 - name: WaterFilterType
   definition: Further qualifies the type of water filter.  Filtration removes undissolved matter; Purification removes dissolved matter; Softening replaces dissolved matter.
-  localizations: []
+  ifdGuid: ''
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertyEnumeratedValue:
+    listName: PEnum_FilterWaterFilterType
+    enumerationValues:
+    - name: FILTRATION_DIATOMACEOUSEARTH
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Filtration_diatomaceousearth
+        definition: ''
+      - language: de-DE
+        name: Filtration_diatomaceousearth
+        definition: ''
+      - language: fr-FR
+        name: Filtration_diatomaceousearth
+        definition: ''
+      - language: ja-JP
+        name: Filtration_diatomaceousearth
+        definition: ''
+    - name: FILTRATION_SAND
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Filtration_sand
+        definition: ''
+      - language: de-DE
+        name: Filtration_sand
+        definition: ''
+      - language: fr-FR
+        name: Filtration_sand
+        definition: ''
+      - language: ja-JP
+        name: Filtration_sand
+        definition: ''
+    - name: PURIFICATION_DEIONIZING
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Purification_deionizing
+        definition: ''
+      - language: de-DE
+        name: Purification_deionizing
+        definition: ''
+      - language: fr-FR
+        name: Purification_deionizing
+        definition: ''
+      - language: ja-JP
+        name: Purification_deionizing
+        definition: ''
+    - name: PURIFICATION_REVERSEOSMOSIS
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Purification_reverseosmosis
+        definition: ''
+      - language: de-DE
+        name: Purification_reverseosmosis
+        definition: ''
+      - language: fr-FR
+        name: Purification_reverseosmosis
+        definition: ''
+      - language: ja-JP
+        name: Purification_reverseosmosis
+        definition: ''
+    - name: SOFTENING_ZEOLITE
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Softening_zeolite
+        definition: ''
+      - language: de-DE
+        name: Softening_zeolite
+        definition: ''
+      - language: fr-FR
+        name: Softening_zeolite
+        definition: ''
+      - language: ja-JP
+        name: Softening_zeolite
+        definition: ''
+    - name: OTHER
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Other
+        definition: ''
+      - language: de-DE
+        name: Other
+        definition: ''
+      - language: fr-FR
+        name: Other
+        definition: ''
+      - language: ja-JP
+        name: Other
+        definition: ''
+    - name: UNKNOWN
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Unknown
+        definition: ''
+      - language: de-DE
+        name: Unknown
+        definition: ''
+      - language: fr-FR
+        name: Unknown
+        definition: ''
+      - language: ja-JP
+        name: Unknown
+        definition: ''

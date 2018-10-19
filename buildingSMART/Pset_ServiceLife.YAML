@@ -1,9 +1,22 @@
 ﻿name: Pset_ServiceLife
 ifcVersion:
-  version: IFC4
+  version: 4.0.0.0
   schema: IfcSharedFacilitiesElements
 ifdGuid: ''
 definition: 'Captures the period of time that an artifact will last along with various factors that impact the expected service life.  HISTORY: Introduced in IFC4 as replacement for IfcServiceLife and IfcServiceLifeFactor.'
+localizations:
+- language: en-EN
+  name: ''
+  definition: ''
+- language: de-DE
+  name: ''
+  definition: ''
+- language: fr-FR
+  name: ''
+  definition: ''
+- language: ja-JP
+  name: ''
+  definition: ''
 applicableIfcClasses:
 - name: IfcElement
   type: IfcElementType
@@ -11,33 +24,320 @@ applicableIfcClasses:
   type: IfcElementType
 properties:
 - name: ServiceLifeType
-  definition: 'ACTUALSERVICELIFE: The service life that an asset has given. EXPECTEDSERVICELIFE: The service life that an artefact is expected to have under current operating conditions. OPTIMISTICREFERENCESERVICELIFE: The best or most optimistic estimate of service life that is quoted for an artefact under reference operating conditions. PESSIMISTICREFERENCESERVICELIFE: The least or most pessimistic estimate of service life that is quoted for an artefact under reference operating conditions. REFERENCESERVICELIFE: The typical service life that is quoted for an artefact under reference operating conditions. '
-  localizations: []
+  definition: 'ACTUALSERVICELIFE: The service life that an asset has given. EXPECTEDSERVICELIFE: The service life that an artefact is expected to have under current operating conditions. OPTIMISTICREFERENCESERVICELIFE: The best or most optimistic estimate of service life that is quoted for an artefact under reference operating conditions. PESSIMISTICREFERENCESERVICELIFE: The least or most pessimistic estimate of service life that is quoted for an artefact under reference operating conditions. REFERENCESERVICELIFE: The typical service life that is quoted for an artefact under reference operating conditions.'
+  ifdGuid: ''
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertyEnumeratedValue:
+    listName: PEnum_ServiceLifeType
+    enumerationValues:
+    - name: ACTUALSERVICELIFE
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Actualservicelife
+        definition: ''
+      - language: de-DE
+        name: Actualservicelife
+        definition: ''
+      - language: fr-FR
+        name: Actualservicelife
+        definition: ''
+      - language: ja-JP
+        name: Actualservicelife
+        definition: ''
+    - name: EXPECTEDSERVICELIFE
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Expectedservicelife
+        definition: ''
+      - language: de-DE
+        name: Expectedservicelife
+        definition: ''
+      - language: fr-FR
+        name: Expectedservicelife
+        definition: ''
+      - language: ja-JP
+        name: Expectedservicelife
+        definition: ''
+    - name: OPTIMISTICREFERENCESERVICELIFE
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Optimisticreferenceservicelife
+        definition: ''
+      - language: de-DE
+        name: Optimisticreferenceservicelife
+        definition: ''
+      - language: fr-FR
+        name: Optimisticreferenceservicelife
+        definition: ''
+      - language: ja-JP
+        name: Optimisticreferenceservicelife
+        definition: ''
+    - name: PESSIMISTICREFERENCESERVICELIFE
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Pessimisticreferenceservicelife
+        definition: ''
+      - language: de-DE
+        name: Pessimisticreferenceservicelife
+        definition: ''
+      - language: fr-FR
+        name: Pessimisticreferenceservicelife
+        definition: ''
+      - language: ja-JP
+        name: Pessimisticreferenceservicelife
+        definition: ''
+    - name: REFERENCESERVICELIFE
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Referenceservicelife
+        definition: ''
+      - language: de-DE
+        name: Referenceservicelife
+        definition: ''
+      - language: fr-FR
+        name: Referenceservicelife
+        definition: ''
+      - language: ja-JP
+        name: Referenceservicelife
+        definition: ''
+    - name: OTHER
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Other
+        definition: ''
+      - language: de-DE
+        name: Other
+        definition: ''
+      - language: fr-FR
+        name: Other
+        definition: ''
+      - language: ja-JP
+        name: Other
+        definition: ''
+    - name: UNKNOWN
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Unknown
+        definition: ''
+      - language: de-DE
+        name: Unknown
+        definition: ''
+      - language: fr-FR
+        name: Unknown
+        definition: ''
+      - language: ja-JP
+        name: Unknown
+        definition: ''
 - name: ServiceLifeDuration
   definition: The length or duration of a service life.
-  localizations: []
+  ifdGuid: ''
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcDuration
+    measureType: ''
+    unitType: USERDEFINED
 - name: QualityOfComponents
   definition: Adjustment of the service life resulting from the effect of the quality of components used.
-  localizations: []
+  ifdGuid: ''
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertyBoundedValue:
+    unitType: ConsoleAppYamlTest.UnitType
+    LowerBoundValue: '?'
+    UpperBoundValue: '?'
+    typeName: TypePropertyBoundedValue
 - name: DesignLevel
   definition: Adjustment of the service life resulting from the effect of design level employed.
-  localizations: []
+  ifdGuid: ''
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertyBoundedValue:
+    unitType: ConsoleAppYamlTest.UnitType
+    LowerBoundValue: '?'
+    UpperBoundValue: '?'
+    typeName: TypePropertyBoundedValue
 - name: WorkExecutionLevel
   definition: Adjustment of the service life resulting from the effect of the quality of work executed.
-  localizations: []
+  ifdGuid: ''
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertyBoundedValue:
+    unitType: ConsoleAppYamlTest.UnitType
+    LowerBoundValue: '?'
+    UpperBoundValue: '?'
+    typeName: TypePropertyBoundedValue
 - name: IndoorEnvironment
   definition: Adjustment of the service life resulting from the effect of the indoor environment (where appropriate).
-  localizations: []
+  ifdGuid: ''
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertyBoundedValue:
+    unitType: ConsoleAppYamlTest.UnitType
+    LowerBoundValue: '?'
+    UpperBoundValue: '?'
+    typeName: TypePropertyBoundedValue
 - name: OutdoorEnvironment
   definition: Adjustment of the service life resulting from the effect of the outdoor environment (where appropriate)
-  localizations: []
+  ifdGuid: ''
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertyBoundedValue:
+    unitType: ConsoleAppYamlTest.UnitType
+    LowerBoundValue: '?'
+    UpperBoundValue: '?'
+    typeName: TypePropertyBoundedValue
 - name: InUseConditions
   definition: Adjustment of the service life resulting from the effect of the conditions in which components are operating.
-  localizations: []
+  ifdGuid: ''
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertyBoundedValue:
+    unitType: ConsoleAppYamlTest.UnitType
+    LowerBoundValue: '?'
+    UpperBoundValue: '?'
+    typeName: TypePropertyBoundedValue
 - name: MaintenanceLevel
   definition: Adjustment of the service life resulting from the effect of the level or degree of maintenance applied to dcomponents.
-  localizations: []
+  ifdGuid: ''
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertyBoundedValue:
+    unitType: ConsoleAppYamlTest.UnitType
+    LowerBoundValue: '?'
+    UpperBoundValue: '?'
+    typeName: TypePropertyBoundedValue
 - name: MeanTimeBetweenFailure
-  ifdGuid: 0069595d8fc84b0cad1c3128bc355f57
   definition: The average time duration between instances of failure of a product.
-  localizations: []
+  ifdGuid: 00QLbTZyXB3AqSCIYyDLzN
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcDuration
+    measureType: ''
+    unitType: TIMEUNIT

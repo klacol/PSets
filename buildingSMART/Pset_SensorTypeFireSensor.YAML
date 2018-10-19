@@ -1,16 +1,29 @@
 ﻿name: Pset_SensorTypeFireSensor
 ifcVersion:
-  version: IFC4
+  version: 4.0.0.0
   schema: IfcBuildingControlsDomain
 ifdGuid: ''
 definition: A device that senses or detects the presence of fire.
+localizations:
+- language: en-EN
+  name: ''
+  definition: ''
+- language: de-DE
+  name: ''
+  definition: ''
+- language: fr-FR
+  name: ''
+  definition: ''
+- language: ja-JP
+  name: ''
+  definition: ''
 applicableIfcClasses:
 - name: IfcSensorType
   type: IfcSensorType/FIRESENSOR
 properties:
 - name: FireSensorSetPoint
-  ifdGuid: 2a125386b89d437e8242a10f473e17a1
   definition: The temperature value to be sensed to indicate the presence of fire.
+  ifdGuid: 0g4bE6k9r3Ve92eGz7FXUX
   localizations:
   - language: ja-JP
     name: 感知温度
@@ -18,9 +31,22 @@ properties:
   - language: ko-KR
     name: 감지 온도
     definition: 불꽃의 존재를 보여주기 위하여 감지되는 온도 값.
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcThermodynamicTemperatureMeasure
+    measureType: ''
+    unitType: THERMODYNAMICTEMPERATUREUNIT
 - name: AccuracyOfFireSensor
-  ifdGuid: 9c0a29be920a41a7b7c64417c0df3b87
   definition: The accuracy of the sensor.
+  ifdGuid: 2S2Yc_aWf1fxV6H1V0tpk7
   localizations:
   - language: ja-JP
     name: 精度
@@ -28,9 +54,22 @@ properties:
   - language: ko-KR
     name: 정확도
     definition: 센서의 정밀도.
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcThermodynamicTemperatureMeasure
+    measureType: ''
+    unitType: THERMODYNAMICTEMPERATUREUNIT
 - name: TimeConstant
-  ifdGuid: 51f3c69d39bf4c90b19f116b486f45c3
   definition: The time constant of the sensor.
+  ifdGuid: 1HyyQTERzCaB6V4Mj8RqN3
   localizations:
   - language: ja-JP
     name: 時定数
@@ -38,3 +77,16 @@ properties:
   - language: ko-KR
     name: 시정
     definition: 센서의 시정.
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcTimeMeasure
+    measureType: ''
+    unitType: TIMEUNIT

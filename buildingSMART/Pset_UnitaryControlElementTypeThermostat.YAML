@@ -1,13 +1,44 @@
 ﻿name: Pset_UnitaryControlElementTypeThermostat
 ifcVersion:
-  version: IFC4
+  version: 4.0.0.0
   schema: IfcBuildingControlsDomain
 ifdGuid: ''
 definition: 'Unitary control element type thermostat attributes.  HISTORY: Added in IFC4.'
+localizations:
+- language: en-EN
+  name: ''
+  definition: ''
+- language: de-DE
+  name: ''
+  definition: ''
+- language: fr-FR
+  name: ''
+  definition: ''
+- language: ja-JP
+  name: ''
+  definition: ''
 applicableIfcClasses:
 - name: IfcUnitaryControlElementType
   type: IfcUnitaryControlElementType/THERMOSTAT
 properties:
 - name: TemperatureSetPoint
   definition: The temperature setpoint range and default setpoint.
-  localizations: []
+  ifdGuid: ''
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertyBoundedValue:
+    unitType: ConsoleAppYamlTest.UnitType
+    LowerBoundValue: 0
+    UpperBoundValue: '?'
+    typeName: TypePropertyBoundedValue

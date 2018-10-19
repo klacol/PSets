@@ -1,17 +1,43 @@
 ﻿name: Pset_ValveTypePressureRelief
 ifcVersion:
-  version: IFC4
+  version: 4.0.0.0
   schema: IfcHvacDomain
 ifdGuid: ''
 definition: Spring or weight loaded valve that automatically discharges to a safe place fluid that has built up to excessive pressure in pipes or fittings.Note that a pressure relief valve is constrained to have a single port pattern.
+localizations:
+- language: en-EN
+  name: ''
+  definition: ''
+- language: de-DE
+  name: ''
+  definition: ''
+- language: fr-FR
+  name: ''
+  definition: ''
+- language: ja-JP
+  name: ''
+  definition: ''
 applicableIfcClasses:
 - name: IfcValveType
   type: IfcValveType/PRESSURERELIEF
 properties:
 - name: ReliefPressure
-  ifdGuid: 5ec8e65a191d426e95490f1d3f9f2161
   definition: The pressure at which the spring or weight in the valve is set to discharge fluid.
+  ifdGuid: 1UoEPQ6Hr2RfL93nq$do5X
   localizations:
   - language: ja-JP
     name: リリーフ圧力
     definition: バルブのバネやおもりが流体を放出する作動するときの圧力。
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPressureMeasure
+    measureType: ''
+    unitType: PRESSUREUNIT

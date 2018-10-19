@@ -1,15 +1,29 @@
 ﻿name: Pset_AirToAirHeatRecoveryTypeCommon
 ifcVersion:
-  version: IFC4
+  version: 4.0.0.0
   schema: IfcHvacDomain
 ifdGuid: ''
 definition: Air to Air Heat Recovery type common attributes.
+localizations:
+- language: en-EN
+  name: ''
+  definition: ''
+- language: de-DE
+  name: ''
+  definition: ''
+- language: fr-FR
+  name: ''
+  definition: ''
+- language: ja-JP
+  name: ''
+  definition: ''
 applicableIfcClasses:
 - name: IfcAirToAirHeatRecoveryType
   type: IfcAirToAirHeatRecoveryType
 properties:
 - name: Reference
-  definition: "Reference ID for this specified type in this project (e.g. type 'A-1'), provided, if there is no classification reference to a recognized classification system used. "
+  definition: Reference ID for this specified type in this project (e.g. type 'A-1'), provided, if there is no classification reference to a recognized classification system used.
+  ifdGuid: ''
   localizations:
   - language: fr-FR
     name: Référence
@@ -17,8 +31,19 @@ properties:
   - language: ja-JP
     name: 参照記号
     definition: このプロジェクトにおける参照記号(例：A-1)。分類コードではなく内部で使用されるプロジェクトタイプとして使用されるもの。
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcIdentifier
+    measureType: ''
+    unitType: USERDEFINED
 - name: Status
-  definition: 'Status of the element, predominately used in renovation or retrofitting projects. The status can be assigned to as "New" - element designed as new addition, "Existing" - element exists and remains, "Demolish" - element existed but is to be demolished,  "Temporary" - element will exists only temporary (like a temporary support structure). '
+  definition: Status of the element, predominately used in renovation or retrofitting projects. The status can be assigned to as "New" - element designed as new addition, "Existing" - element exists and remains, "Demolish" - element existed but is to be demolished,  "Temporary" - element will exists only temporary (like a temporary support structure).
+  ifdGuid: ''
   localizations:
   - language: fr-FR
     name: Etat
@@ -26,9 +51,114 @@ properties:
   - language: ja-JP
     name: 状態
     definition: 要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  typePropertyEnumeratedValue:
+    listName: PEnum_Status
+    enumerationValues:
+    - name: NEW
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: New
+        definition: ''
+      - language: de-DE
+        name: New
+        definition: ''
+      - language: fr-FR
+        name: New
+        definition: ''
+      - language: ja-JP
+        name: New
+        definition: ''
+    - name: EXISTING
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Existing
+        definition: ''
+      - language: de-DE
+        name: Existing
+        definition: ''
+      - language: fr-FR
+        name: Existing
+        definition: ''
+      - language: ja-JP
+        name: Existing
+        definition: ''
+    - name: DEMOLISH
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Demolish
+        definition: ''
+      - language: de-DE
+        name: Demolish
+        definition: ''
+      - language: fr-FR
+        name: Demolish
+        definition: ''
+      - language: ja-JP
+        name: Demolish
+        definition: ''
+    - name: TEMPORARY
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Temporary
+        definition: ''
+      - language: de-DE
+        name: Temporary
+        definition: ''
+      - language: fr-FR
+        name: Temporary
+        definition: ''
+      - language: ja-JP
+        name: Temporary
+        definition: ''
+    - name: OTHER
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Other
+        definition: ''
+      - language: de-DE
+        name: Other
+        definition: ''
+      - language: fr-FR
+        name: Other
+        definition: ''
+      - language: ja-JP
+        name: Other
+        definition: ''
+    - name: UNKNOWN
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Unknown
+        definition: ''
+      - language: de-DE
+        name: Unknown
+        definition: ''
+      - language: fr-FR
+        name: Unknown
+        definition: ''
+      - language: ja-JP
+        name: Unknown
+        definition: ''
 - name: HeatTransferTypeEnum
-  ifdGuid: 8134f2c51d9a4a5c86aec97de9cd23a6
   definition: Type of heat transfer between the two air streams.
+  ifdGuid: 21DFB57PfAN8QkoNtfpIEc
   localizations:
   - language: fr-FR
     name: TypeEchangeChaleurEnum
@@ -36,9 +166,82 @@ properties:
   - language: ja-JP
     name: 熱交換種類
     definition: 空気間の熱交換の種類（顕熱、潜熱…）
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  typePropertyEnumeratedValue:
+    listName: PEnum_AirToAirHeatTransferHeatTransferType
+    enumerationValues:
+    - name: SENSIBLE
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Sensible
+        definition: ''
+      - language: de-DE
+        name: Sensible
+        definition: ''
+      - language: fr-FR
+        name: Sensible
+        definition: ''
+      - language: ja-JP
+        name: Sensible
+        definition: ''
+    - name: LATENT
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Latent
+        definition: ''
+      - language: de-DE
+        name: Latent
+        definition: ''
+      - language: fr-FR
+        name: Latent
+        definition: ''
+      - language: ja-JP
+        name: Latent
+        definition: ''
+    - name: OTHER
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Other
+        definition: ''
+      - language: de-DE
+        name: Other
+        definition: ''
+      - language: fr-FR
+        name: Other
+        definition: ''
+      - language: ja-JP
+        name: Other
+        definition: ''
+    - name: UNKNOWN
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Unknown
+        definition: ''
+      - language: de-DE
+        name: Unknown
+        definition: ''
+      - language: fr-FR
+        name: Unknown
+        definition: ''
+      - language: ja-JP
+        name: Unknown
+        definition: ''
 - name: HasDefrost
-  ifdGuid: 85d1b8dae3fd4779963280ed7a5b77bf
   definition: has the heat exchanger has defrost function or not.
+  ifdGuid: 25qRZQu$r7UPOoWErwMtU$
   localizations:
   - language: fr-FR
     name: PossèdeDégel
@@ -46,9 +249,19 @@ properties:
   - language: ja-JP
     name: デフロスト有無
     definition: 熱交換器のデフロスト機能有無
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcBoolean
+    measureType: ''
+    unitType: USERDEFINED
 - name: OperationalTemperatureRange
-  ifdGuid: 27068a05d1304891bc2967b8d823169f
   definition: Allowable operation ambient air temperature range.
+  ifdGuid: 0d1ee5qJ18aRmfPxZO8nQV
   localizations:
   - language: fr-FR
     name: PlageTempératureOpérationelle
@@ -56,9 +269,20 @@ properties:
   - language: ja-JP
     name: 動作温度範囲
     definition: 動作を許容する周囲温度の範囲
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  typePropertyBoundedValue:
+    unitType: ConsoleAppYamlTest.UnitType
+    LowerBoundValue: 0
+    UpperBoundValue: '?'
+    typeName: TypePropertyBoundedValue
 - name: PrimaryAirflowRateRange
-  ifdGuid: 9ded388ab9d841cc9357057d4f4ca325
   definition: possible range of primary airflow that can be delivered..
+  ifdGuid: 2TxJYAkTX1p9DN1NrFJACb
   localizations:
   - language: fr-FR
     name: PlageDébitAirPrimaire
@@ -66,9 +290,20 @@ properties:
   - language: ja-JP
     name: 一次側風量範囲
     definition: 一次側の送風可能範囲
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  typePropertyBoundedValue:
+    unitType: ConsoleAppYamlTest.UnitType
+    LowerBoundValue: 0
+    UpperBoundValue: '?'
+    typeName: TypePropertyBoundedValue
 - name: SecondaryAirflowRateRange
-  ifdGuid: 2f2b3ba0c8044874a6435e84ee852049
-  definition: 'possible range of secondary airflow that can be delivered. '
+  definition: possible range of secondary airflow that can be delivered.
+  ifdGuid: 0lApkWo0H8TAP3NeJkXI19
   localizations:
   - language: fr-FR
     name: PlageDébitAirSecondaire
@@ -76,3 +311,14 @@ properties:
   - language: ja-JP
     name: 二次側風量範囲
     definition: 二次側の送風可能範囲
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  typePropertyBoundedValue:
+    unitType: ConsoleAppYamlTest.UnitType
+    LowerBoundValue: 0
+    UpperBoundValue: '?'
+    typeName: TypePropertyBoundedValue

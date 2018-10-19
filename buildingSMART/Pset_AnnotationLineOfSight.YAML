@@ -1,16 +1,29 @@
 ﻿name: Pset_AnnotationLineOfSight
 ifcVersion:
-  version: IFC4
+  version: 4.0.0.0
   schema: IfcProductExtension
 ifdGuid: ''
 definition: Specifies the properties of the line of sight at a point of connection between two elements. Typically used to define the line of sight visibility at the junction between two roads (particularly between an access road and a public road).
+localizations:
+- language: en-EN
+  name: ''
+  definition: ''
+- language: de-DE
+  name: ''
+  definition: ''
+- language: fr-FR
+  name: ''
+  definition: ''
+- language: ja-JP
+  name: ''
+  definition: ''
 applicableIfcClasses:
 - name: IfcAnnotation
   type: IfcAnnotation/LineOfSight
 properties:
 - name: SetbackDistance
-  ifdGuid: 870d14e7de9348b1b4ef5566b5477719
   definition: Setback distance from the point of connection on the major element along the axis of the minor element (e.g. distance from a public road at which the line of sigfht is measured.
+  ifdGuid: 273HJdtfD8iRJlLMQrHtSP
   localizations:
   - language: fr-FR
     name: Distance de recul
@@ -18,9 +31,19 @@ properties:
   - language: ja-JP
     name: 後退距離
     definition: 副要素の軸に沿った主要素の接続点からの後退距離（例えば、可視線が測定される公道からの距離）。
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPositiveLengthMeasure
+    measureType: ''
+    unitType: LENGTHUNIT
 - name: VisibleAngleLeft
-  ifdGuid: b7fbf15e716040038f94f66f7cd9fa79
   definition: Angle of visibility to the left of the access.
+  ifdGuid: 2t_$5USM100u_KzczysVfv
   localizations:
   - language: fr-FR
     name: Angle de visibilité à gauche
@@ -28,9 +51,19 @@ properties:
   - language: ja-JP
     name: 左側可視角度
     definition: 左側の経路に可視出来る角度。
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPositivePlaneAngleMeasure
+    measureType: ''
+    unitType: PLANEANGLEUNIT
 - name: VisibleAngleRight
-  ifdGuid: 397eeee44c52420a99f42665fda76e77
   definition: Angle of visibility to the right of the access.
+  ifdGuid: 0vVkxaJ5922fdq9cNzfsvt
   localizations:
   - language: fr-FR
     name: Angle de visibilité à droite
@@ -38,9 +71,19 @@ properties:
   - language: ja-JP
     name: 右側可視角度
     definition: 右側の経路に可視出来る角度。
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPositivePlaneAngleMeasure
+    measureType: ''
+    unitType: PLANEANGLEUNIT
 - name: RoadVisibleDistanceLeft
-  ifdGuid: 6f90fef9de9d48e5b325c25cc1b38003
   definition: Distance visible to the left of the access.
+  ifdGuid: 1laFxvtfr8vRCbmbp1iu03
   localizations:
   - language: fr-FR
     name: Distance de visibilité côté gauche
@@ -48,9 +91,19 @@ properties:
   - language: ja-JP
     name: 左側道路可視距離
     definition: 左側の経路に可視出来る距離。
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPositiveLengthMeasure
+    measureType: ''
+    unitType: LENGTHUNIT
 - name: RoadVisibleDistanceRight
-  ifdGuid: 07fe2be159964d6e88a7d198e414747e
   definition: Distance visible to the right of the access.
+  ifdGuid: 07$YlXMPPDReYdqPZa57H_
   localizations:
   - language: fr-FR
     name: Distance de visibilité côté droit
@@ -58,3 +111,13 @@ properties:
   - language: ja-JP
     name: 右側道路可視距離
     definition: 右側の経路に可視出来る距離。
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPositiveLengthMeasure
+    measureType: ''
+    unitType: LENGTHUNIT

@@ -1,15 +1,29 @@
 ﻿name: Pset_ElectricGeneratorTypeCommon
 ifcVersion:
-  version: IFC4
+  version: 4.0.0.0
   schema: IfcElectricalDomain
 ifdGuid: ''
 definition: Defines a particular type of engine that is a machine for converting mechanical energy into electrical energy.
+localizations:
+- language: en-EN
+  name: ''
+  definition: ''
+- language: de-DE
+  name: ''
+  definition: ''
+- language: fr-FR
+  name: ''
+  definition: ''
+- language: ja-JP
+  name: ''
+  definition: ''
 applicableIfcClasses:
 - name: IfcElectricGeneratorType
   type: IfcElectricGeneratorType
 properties:
 - name: Reference
-  definition: "Reference ID for this specified type in this project (e.g. type 'A-1'), provided, if there is no classification reference to a recognized classification system used. "
+  definition: Reference ID for this specified type in this project (e.g. type 'A-1'), provided, if there is no classification reference to a recognized classification system used.
+  ifdGuid: ''
   localizations:
   - language: ja-JP
     name: 参照
@@ -17,15 +31,137 @@ properties:
   - language: ko-KR
     name: 참조
     definition: '해당 프로젝트에 정의된 형식의 참조 ID (예 : A-1) 승인된 분류에 존재하지 않을 때 사용된다'
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcIdentifier
+    measureType: ''
+    unitType: USERDEFINED
 - name: Status
-  definition: 'Status of the element, predominately used in renovation or retrofitting projects. The status can be assigned to as "New" - element designed as new addition, "Existing" - element exists and remains, "Demolish" - element existed but is to be demolished,  "Temporary" - element will exists only temporary (like a temporary support structure). '
+  definition: Status of the element, predominately used in renovation or retrofitting projects. The status can be assigned to as "New" - element designed as new addition, "Existing" - element exists and remains, "Demolish" - element existed but is to be demolished,  "Temporary" - element will exists only temporary (like a temporary support structure).
+  ifdGuid: ''
   localizations:
   - language: ja-JP
     name: 状態
     definition: 要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertyEnumeratedValue:
+    listName: PEnum_Status
+    enumerationValues:
+    - name: NEW
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: New
+        definition: ''
+      - language: de-DE
+        name: New
+        definition: ''
+      - language: fr-FR
+        name: New
+        definition: ''
+      - language: ja-JP
+        name: New
+        definition: ''
+    - name: EXISTING
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Existing
+        definition: ''
+      - language: de-DE
+        name: Existing
+        definition: ''
+      - language: fr-FR
+        name: Existing
+        definition: ''
+      - language: ja-JP
+        name: Existing
+        definition: ''
+    - name: DEMOLISH
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Demolish
+        definition: ''
+      - language: de-DE
+        name: Demolish
+        definition: ''
+      - language: fr-FR
+        name: Demolish
+        definition: ''
+      - language: ja-JP
+        name: Demolish
+        definition: ''
+    - name: TEMPORARY
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Temporary
+        definition: ''
+      - language: de-DE
+        name: Temporary
+        definition: ''
+      - language: fr-FR
+        name: Temporary
+        definition: ''
+      - language: ja-JP
+        name: Temporary
+        definition: ''
+    - name: OTHER
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Other
+        definition: ''
+      - language: de-DE
+        name: Other
+        definition: ''
+      - language: fr-FR
+        name: Other
+        definition: ''
+      - language: ja-JP
+        name: Other
+        definition: ''
+    - name: UNKNOWN
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Unknown
+        definition: ''
+      - language: de-DE
+        name: Unknown
+        definition: ''
+      - language: fr-FR
+        name: Unknown
+        definition: ''
+      - language: ja-JP
+        name: Unknown
+        definition: ''
 - name: ElectricGeneratorEfficiency
-  ifdGuid: d94a7755fbaf4332a18d70b157e076bd
   definition: The ratio of output capacity to intake capacity.
+  ifdGuid: 3PIdTL_wz3Cg6DSB5Nu7Qz
   localizations:
   - language: ja-JP
     name: 発電効率
@@ -33,9 +169,22 @@ properties:
   - language: ko-KR
     name: 발전 효율
     definition: 출력 용량을 입력 용량의 비율
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPositiveRatioMeasure
+    measureType: ''
+    unitType: USERDEFINED
 - name: StartCurrentFactor
-  ifdGuid: 76062b0be7cc49e890285520a6d3024d
-  definition: 'IEC. Start current factor defines how large the peek starting current will become on the engine. StartCurrentFactor is multiplied to NominalCurrent and we get the start current. '
+  definition: IEC. Start current factor defines how large the peek starting current will become on the engine. StartCurrentFactor is multiplied to NominalCurrent and we get the start current.
+  ifdGuid: 1s1YiBvyn9w90eLI2cqm9D
   localizations:
   - language: ja-JP
     name: 始動電流係数
@@ -43,9 +192,22 @@ properties:
   - language: ko-KR
     name: 시동 전류 계수
     definition: 시동 전류 계수는 엔진이 움직이기 시작했다 피크 기동 전류를 정의합니다. 시동 전류 계수는 정격 전류 시동시 전류를 곱한 것
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcReal
+    measureType: ''
+    unitType: USERDEFINED
 - name: MaximumPowerOutput
-  ifdGuid: 3b7421da7ede47ebb0fc8add2c5ec2ee
   definition: The maximum output power rating of the engine.
+  ifdGuid: 0xT27QVjv7wx3yYjqiNiBk
   localizations:
   - language: ja-JP
     name: 最大出力
@@ -53,3 +215,16 @@ properties:
   - language: ko-KR
     name: 최대 출력
     definition: 엔진의 최대 출력 정격
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPowerMeasure
+    measureType: ''
+    unitType: POWERUNIT

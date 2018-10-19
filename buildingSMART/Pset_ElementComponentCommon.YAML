@@ -1,9 +1,22 @@
 ﻿name: Pset_ElementComponentCommon
 ifcVersion:
-  version: IFC4
+  version: 4.0.0.0
   schema: IfcSharedComponentElements
 ifdGuid: ''
 definition: Set of common properties of component elements (especially discrete accessories, but also fasteners, reinforcement elements, or other types of components).
+localizations:
+- language: en-EN
+  name: ''
+  definition: ''
+- language: de-DE
+  name: ''
+  definition: ''
+- language: fr-FR
+  name: ''
+  definition: ''
+- language: ja-JP
+  name: ''
+  definition: ''
 applicableIfcClasses:
 - name: IfcElementComponent
   type: IfcElementComponent
@@ -12,15 +25,398 @@ applicableIfcClasses:
 properties:
 - name: Reference
   definition: Reference ID for this specified type in this project (e.g. type 'A-1'), Also referred to as "construction type". It should be provided as an alternative to the name of the "object type", if the software does not support object types.
-  localizations: []
+  ifdGuid: ''
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcIdentifier
+    measureType: ''
+    unitType: USERDEFINED
 - name: Status
   definition: Status of the element, predominately used in renovation or retrofitting projects. The status can be assigned to as "New" - element designed as new addition, "Existing" - element exists and remains, "Demolish" - element existed but is to be demolished,  "Temporary" - element will exists only temporary (like a temporary support structure).
-  localizations: []
+  ifdGuid: ''
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertyEnumeratedValue:
+    listName: PEnum_ElementStatus
+    enumerationValues:
+    - name: NEW
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: New
+        definition: ''
+      - language: de-DE
+        name: New
+        definition: ''
+      - language: fr-FR
+        name: New
+        definition: ''
+      - language: ja-JP
+        name: New
+        definition: ''
+    - name: EXISTING
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Existing
+        definition: ''
+      - language: de-DE
+        name: Existing
+        definition: ''
+      - language: fr-FR
+        name: Existing
+        definition: ''
+      - language: ja-JP
+        name: Existing
+        definition: ''
+    - name: DEMOLISH
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Demolish
+        definition: ''
+      - language: de-DE
+        name: Demolish
+        definition: ''
+      - language: fr-FR
+        name: Demolish
+        definition: ''
+      - language: ja-JP
+        name: Demolish
+        definition: ''
+    - name: TEMPORARY
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Temporary
+        definition: ''
+      - language: de-DE
+        name: Temporary
+        definition: ''
+      - language: fr-FR
+        name: Temporary
+        definition: ''
+      - language: ja-JP
+        name: Temporary
+        definition: ''
+    - name: OTHER
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Other
+        definition: ''
+      - language: de-DE
+        name: Other
+        definition: ''
+      - language: fr-FR
+        name: Other
+        definition: ''
+      - language: ja-JP
+        name: Other
+        definition: ''
+    - name: UNKNOWN
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Unknown
+        definition: ''
+      - language: de-DE
+        name: Unknown
+        definition: ''
+      - language: fr-FR
+        name: Unknown
+        definition: ''
+      - language: ja-JP
+        name: Unknown
+        definition: ''
 - name: DeliveryType
-  ifdGuid: 4c9640f207094e11a46ecfcbc96c2801
   definition: Determines how the accessory will be delivered to the site.
-  localizations: []
+  ifdGuid: 1Cba3o1mbE4QHkpyl9R2W1
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertyEnumeratedValue:
+    listName: PEnum_ElementComponentDeliveryType
+    enumerationValues:
+    - name: CAST_IN_PLACE
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Cast_in_place
+        definition: ''
+      - language: de-DE
+        name: Cast_in_place
+        definition: ''
+      - language: fr-FR
+        name: Cast_in_place
+        definition: ''
+      - language: ja-JP
+        name: Cast_in_place
+        definition: ''
+    - name: WELDED_TO_STRUCTURE
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Welded_to_structure
+        definition: ''
+      - language: de-DE
+        name: Welded_to_structure
+        definition: ''
+      - language: fr-FR
+        name: Welded_to_structure
+        definition: ''
+      - language: ja-JP
+        name: Welded_to_structure
+        definition: ''
+    - name: LOOSE
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Loose
+        definition: ''
+      - language: de-DE
+        name: Loose
+        definition: ''
+      - language: fr-FR
+        name: Loose
+        definition: ''
+      - language: ja-JP
+        name: Loose
+        definition: ''
+    - name: ATTACHED_FOR_DELIVERY
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Attached_for_delivery
+        definition: ''
+      - language: de-DE
+        name: Attached_for_delivery
+        definition: ''
+      - language: fr-FR
+        name: Attached_for_delivery
+        definition: ''
+      - language: ja-JP
+        name: Attached_for_delivery
+        definition: ''
+    - name: PRECAST
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Precast
+        definition: ''
+      - language: de-DE
+        name: Precast
+        definition: ''
+      - language: fr-FR
+        name: Precast
+        definition: ''
+      - language: ja-JP
+        name: Precast
+        definition: ''
+    - name: OTHER
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Other
+        definition: ''
+      - language: de-DE
+        name: Other
+        definition: ''
+      - language: fr-FR
+        name: Other
+        definition: ''
+      - language: ja-JP
+        name: Other
+        definition: ''
+    - name: UNKNOWN
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Unknown
+        definition: ''
+      - language: de-DE
+        name: Unknown
+        definition: ''
+      - language: fr-FR
+        name: Unknown
+        definition: ''
+      - language: ja-JP
+        name: Unknown
+        definition: ''
 - name: CorrosionTreatment
-  ifdGuid: 8a49acd68de44926baff6f4e8a12b497
   definition: Determines corrosion treatment for metal components. This property is provided if the requirement needs to be expressed (a) independently of a material specification and (b) as a mere requirements statement rather than a workshop design/ processing feature.
-  localizations: []
+  ifdGuid: 2AIQpMZUH99hh$RqwA4hIN
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertyEnumeratedValue:
+    listName: PEnum_ElementComponentCorrosionTreatment
+    enumerationValues:
+    - name: PAINTED
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Painted
+        definition: ''
+      - language: de-DE
+        name: Painted
+        definition: ''
+      - language: fr-FR
+        name: Painted
+        definition: ''
+      - language: ja-JP
+        name: Painted
+        definition: ''
+    - name: EPOXYCOATED
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Epoxycoated
+        definition: ''
+      - language: de-DE
+        name: Epoxycoated
+        definition: ''
+      - language: fr-FR
+        name: Epoxycoated
+        definition: ''
+      - language: ja-JP
+        name: Epoxycoated
+        definition: ''
+    - name: GALVANISED
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Galvanised
+        definition: ''
+      - language: de-DE
+        name: Galvanised
+        definition: ''
+      - language: fr-FR
+        name: Galvanised
+        definition: ''
+      - language: ja-JP
+        name: Galvanised
+        definition: ''
+    - name: STAINLESS
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Stainless
+        definition: ''
+      - language: de-DE
+        name: Stainless
+        definition: ''
+      - language: fr-FR
+        name: Stainless
+        definition: ''
+      - language: ja-JP
+        name: Stainless
+        definition: ''
+    - name: NONE
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: None
+        definition: ''
+      - language: de-DE
+        name: None
+        definition: ''
+      - language: fr-FR
+        name: None
+        definition: ''
+      - language: ja-JP
+        name: None
+        definition: ''
+    - name: OTHER
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Other
+        definition: ''
+      - language: de-DE
+        name: Other
+        definition: ''
+      - language: fr-FR
+        name: Other
+        definition: ''
+      - language: ja-JP
+        name: Other
+        definition: ''
+    - name: UNKNWON
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Unknwon
+        definition: ''
+      - language: de-DE
+        name: Unknwon
+        definition: ''
+      - language: fr-FR
+        name: Unknwon
+        definition: ''
+      - language: ja-JP
+        name: Unknwon
+        definition: ''

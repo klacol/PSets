@@ -1,16 +1,29 @@
 ﻿name: Pset_CableCarrierSegmentTypeCableTrunkingSegment
 ifcVersion:
-  version: IFC4
+  version: 4.0.0.0
   schema: IfcElectricalDomain
 ifdGuid: ''
 definition: 'An enclosed carrier segment with one or more compartments into which cables are placed.HISTORY: IFC4 - NominalLength deleted. To be handled as a quantity measure'
+localizations:
+- language: en-EN
+  name: ''
+  definition: ''
+- language: de-DE
+  name: ''
+  definition: ''
+- language: fr-FR
+  name: ''
+  definition: ''
+- language: ja-JP
+  name: ''
+  definition: ''
 applicableIfcClasses:
 - name: IfcCableCarrierSegmentType
   type: IfcCableCarrierSegmentType/CABLETRUNKINGSEGMENT
 properties:
 - name: NominalWidth
-  ifdGuid: fbe21e96f4794095831a6c57863a3378
   definition: The nominal width of the segment.
+  ifdGuid: 3xuXwMz7b0bOCQR5U6EZDu
   localizations:
   - language: ja-JP
     name: 公称幅
@@ -18,9 +31,22 @@ properties:
   - language: ko-KR
     name: 공칭 폭
     definition: 폭 치수
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPositiveLengthMeasure
+    measureType: ''
+    unitType: LENGTHUNIT
 - name: NominalHeight
-  ifdGuid: ee88b41e38894d68943164fc67682bba
   definition: The nominal height of the segment.
+  ifdGuid: 3kYBGUE8bDQ9GnPFndQ2kw
   localizations:
   - language: ja-JP
     name: 公称高
@@ -28,9 +54,22 @@ properties:
   - language: ko-KR
     name: 공칭높이
     definition: 고 치수
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPositiveLengthMeasure
+    measureType: ''
+    unitType: LENGTHUNIT
 - name: NumberOfCompartments
-  ifdGuid: db06989bcccf4e2d90a8ae05eb0168b3
   definition: The number of separate internal compartments within the trunking.
+  ifdGuid: 3R1fYRpCzEBP2ehWNh0MYp
   localizations:
   - language: ja-JP
     name: 区画数
@@ -38,3 +77,16 @@ properties:
   - language: ko-KR
     name: 구획 수
     definition: 관 구분되는 내부 파티션 개수
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcInteger
+    measureType: ''
+    unitType: USERDEFINED

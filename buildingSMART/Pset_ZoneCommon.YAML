@@ -1,16 +1,29 @@
 ﻿name: Pset_ZoneCommon
 ifcVersion:
-  version: IFC4
+  version: 4.0.0.0
   schema: IfcProductExtension
 ifdGuid: ''
 definition: Properties common to the definition of all occurrences of IfcZone.
+localizations:
+- language: en-EN
+  name: ''
+  definition: ''
+- language: de-DE
+  name: ''
+  definition: ''
+- language: fr-FR
+  name: ''
+  definition: ''
+- language: ja-JP
+  name: ''
+  definition: ''
 applicableIfcClasses:
 - name: IfcZone
   type: IfcZone
 properties:
 - name: Reference
-  ifdGuid: b3a2c68a6f7c4690aa810aa523e18e16
   definition: Reference ID for this specified type in this project (e.g. type 'A-1'). Used to store the non-classification driven internal project type.
+  ifdGuid: 2peiQARtn6aAg12gKZuOuM
   localizations:
   - language: fr-FR
     name: Référence
@@ -21,8 +34,19 @@ properties:
   - language: ko-KR
     name: 참조 ID
     definition: '이 프로젝트의 참조 ID (예 : A-1). 분류 코드가 아닌 내부에서 사용되는 프로젝트 형식으로 사용됩니다.'
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcIdentifier
+    measureType: ''
+    unitType: USERDEFINED
 - name: IsExternal
   definition: Indication whether the element is designed for use in the exterior (TRUE) or not (FALSE). If (TRUE) it is an external zone at the outside of the building.
+  ifdGuid: ''
   localizations:
   - language: fr-FR
     name: Est extérieur
@@ -30,8 +54,19 @@ properties:
   - language: ja-JP
     name: 外部区分
     definition: 外部の部材かどうかを示すブーリアン値。もしTRUEの場合、外部の部材で建物の外側に面している。
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcBoolean
+    measureType: ''
+    unitType: USERDEFINED
 - name: GrossPlannedArea
   definition: Total planned gross area for the zone. Used for programming the zone.
+  ifdGuid: ''
   localizations:
   - language: fr-FR
     name: Surface programmée brute
@@ -39,8 +74,19 @@ properties:
   - language: ja-JP
     name: 計画グロス面積
     definition: 計画されたグロス面積。建物計画に際に使用。
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcAreaMeasure
+    measureType: ''
+    unitType: USERDEFINED
 - name: NetPlannedArea
   definition: Total planned net area for the zone. Used for programming the zone.
+  ifdGuid: ''
   localizations:
   - language: fr-FR
     name: Surface programmée nette
@@ -48,9 +94,19 @@ properties:
   - language: ja-JP
     name: 計画ネット面積
     definition: 計画されたネット面積。建物計画に際に使用。（通常は、柱型等を抜いた面積となる）
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcAreaMeasure
+    measureType: ''
+    unitType: USERDEFINED
 - name: PubliclyAccessible
-  ifdGuid: 2a61f5a8af0640e0af52a90dbee082ae
-  definition: 'Indication whether this space (in case of e.g., a toilet) is designed to serve as a publicly accessible space, e.g., for a public toilet (TRUE) or not (FALSE). '
+  definition: Indication whether this space (in case of e.g., a toilet) is designed to serve as a publicly accessible space, e.g., for a public toilet (TRUE) or not (FALSE).
+  ifdGuid: 0gOVMehmP0uAzIgGs_u8Ak
   localizations:
   - language: fr-FR
     name: AccessibleAuPublic
@@ -61,9 +117,19 @@ properties:
   - language: ko-KR
     name: 공공 액세스 가능성
     definition: '가능성이 공간이 공공 액세스 공간 여부를 나타내는 부울 값입니다. 예 : 공공 화장실의 경우 TRUE/ FALSE'
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcBoolean
+    measureType: ''
+    unitType: USERDEFINED
 - name: HandicapAccessible
-  ifdGuid: 70ba07765779421fb0d990c7b4e1fc68
   definition: Indication whether this space (in case of e.g., a toilet) is designed to serve as an accessible space for handicapped people, e.g., for a public toilet (TRUE) or not (FALSE). This information is often used to declare the need for access for the disabled and for special design requirements of this space.
+  ifdGuid: 1mkWTsLtb27x3PaCUquVne
   localizations:
   - language: fr-FR
     name: AccessibleHandicapes
@@ -74,3 +140,13 @@ properties:
   - language: ko-KR
     name: 핸디캠 액세스 가능성
     definition: '공간이 핸디캡을위한 공간 여부를 나타내는 부울 값입니다. 예 : 공공 화장실의 경우 TRUE. 이 정보는 장애인을위한 이용의 필요성과 특별한 디자인의 필요성을 나타내기 위해 사용된다.'
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcBoolean
+    measureType: ''
+    unitType: USERDEFINED

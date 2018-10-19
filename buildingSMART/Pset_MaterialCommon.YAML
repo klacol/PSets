@@ -1,19 +1,83 @@
 ﻿name: Pset_MaterialCommon
 ifcVersion:
-  version: IFC4
+  version: 4.0.0.0
   schema: IfcMaterialResource
 ifdGuid: ''
 definition: A set of general material properties.
+localizations:
+- language: en-EN
+  name: ''
+  definition: ''
+- language: de-DE
+  name: ''
+  definition: ''
+- language: fr-FR
+  name: ''
+  definition: ''
+- language: ja-JP
+  name: ''
+  definition: ''
 applicableIfcClasses:
 - name: IfcMaterial
   type: IfcMaterial
 properties:
 - name: MolecularWeight
   definition: Molecular weight of material (typically gas).
-  localizations: []
+  ifdGuid: ''
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcMolecularWeightMeasure
+    measureType: ''
+    unitType: USERDEFINED
 - name: Porosity
   definition: The void fraction of the total volume occupied by material (Vbr - Vnet)/Vbr.
-  localizations: []
+  ifdGuid: ''
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcNormalisedRatioMeasure
+    measureType: ''
+    unitType: USERDEFINED
 - name: MassDensity
   definition: Material mass density.
-  localizations: []
+  ifdGuid: ''
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcMassDensityMeasure
+    measureType: ''
+    unitType: USERDEFINED

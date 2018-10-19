@@ -1,15 +1,29 @@
 ﻿name: Pset_TransformerTypeCommon
 ifcVersion:
-  version: IFC4
+  version: 4.0.0.0
   schema: IfcElectricalDomain
 ifdGuid: ''
 definition: An inductive stationary device that transfers electrical energy from one circuit to another.
+localizations:
+- language: en-EN
+  name: ''
+  definition: ''
+- language: de-DE
+  name: ''
+  definition: ''
+- language: fr-FR
+  name: ''
+  definition: ''
+- language: ja-JP
+  name: ''
+  definition: ''
 applicableIfcClasses:
 - name: IfcTransformerType
   type: IfcTransformerType
 properties:
 - name: Reference
-  definition: "Reference ID for this specified type in this project (e.g. type 'A-1'), provided, if there is no classification reference to a recognized classification system used. "
+  definition: Reference ID for this specified type in this project (e.g. type 'A-1'), provided, if there is no classification reference to a recognized classification system used.
+  ifdGuid: ''
   localizations:
   - language: ja-JP
     name: 参照
@@ -17,15 +31,137 @@ properties:
   - language: ko-KR
     name: 참조
     definition: "이 프로젝트 (예 : 'A-1'유형 등) 지정된 참조 ID. 인정 분류 체계의 분류 참조가없는 경우에 적용된다."
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcIdentifier
+    measureType: ''
+    unitType: USERDEFINED
 - name: Status
-  definition: 'Status of the element, predominately used in renovation or retrofitting projects. The status can be assigned to as "New" - element designed as new addition, "Existing" - element exists and remains, "Demolish" - element existed but is to be demolished,  "Temporary" - element will exists only temporary (like a temporary support structure). '
+  definition: Status of the element, predominately used in renovation or retrofitting projects. The status can be assigned to as "New" - element designed as new addition, "Existing" - element exists and remains, "Demolish" - element existed but is to be demolished,  "Temporary" - element will exists only temporary (like a temporary support structure).
+  ifdGuid: ''
   localizations:
   - language: ja-JP
     name: 状態
     definition: 要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertyEnumeratedValue:
+    listName: PEnum_Status
+    enumerationValues:
+    - name: NEW
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: New
+        definition: ''
+      - language: de-DE
+        name: New
+        definition: ''
+      - language: fr-FR
+        name: New
+        definition: ''
+      - language: ja-JP
+        name: New
+        definition: ''
+    - name: EXISTING
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Existing
+        definition: ''
+      - language: de-DE
+        name: Existing
+        definition: ''
+      - language: fr-FR
+        name: Existing
+        definition: ''
+      - language: ja-JP
+        name: Existing
+        definition: ''
+    - name: DEMOLISH
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Demolish
+        definition: ''
+      - language: de-DE
+        name: Demolish
+        definition: ''
+      - language: fr-FR
+        name: Demolish
+        definition: ''
+      - language: ja-JP
+        name: Demolish
+        definition: ''
+    - name: TEMPORARY
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Temporary
+        definition: ''
+      - language: de-DE
+        name: Temporary
+        definition: ''
+      - language: fr-FR
+        name: Temporary
+        definition: ''
+      - language: ja-JP
+        name: Temporary
+        definition: ''
+    - name: OTHER
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Other
+        definition: ''
+      - language: de-DE
+        name: Other
+        definition: ''
+      - language: fr-FR
+        name: Other
+        definition: ''
+      - language: ja-JP
+        name: Other
+        definition: ''
+    - name: UNKNOWN
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Unknown
+        definition: ''
+      - language: de-DE
+        name: Unknown
+        definition: ''
+      - language: fr-FR
+        name: Unknown
+        definition: ''
+      - language: ja-JP
+        name: Unknown
+        definition: ''
 - name: PrimaryVoltage
-  ifdGuid: b0760e0100f5406da87af270ae791cdc
   definition: The voltage that is going to be transformed and that runs into the transformer on the primary side.
+  ifdGuid: 2mTWu10FL0RQXwyd2kUHpS
   localizations:
   - language: ja-JP
     name: 第1電圧
@@ -33,9 +169,22 @@ properties:
   - language: ko-KR
     name: 제 1 전압
     definition: 변압기 1 차 측에 전송되는 전압.
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcElectricVoltageMeasure
+    measureType: ''
+    unitType: ELECTRICVOLTAGEUNIT
 - name: SecondaryVoltage
-  ifdGuid: fdfa805b8f58444f85708c209f649008
   definition: The voltage that has been transformed and is running out of the transformer on the secondary side.
+  ifdGuid: 3z_e1RZrX4JuLmZ22VP908
   localizations:
   - language: ja-JP
     name: 第2電圧
@@ -43,9 +192,22 @@ properties:
   - language: ko-KR
     name: 두번째 전압
     definition: 변압기 2 차 측에 전송되는 전압.
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcElectricVoltageMeasure
+    measureType: ''
+    unitType: ELECTRICVOLTAGEUNIT
 - name: PrimaryCurrent
-  ifdGuid: fe7a47e8fc2d425ea8e326ce8d15be48
   definition: The current that is going to be transformed and that runs into the transformer on the primary side.
+  ifdGuid: 3_UaVe$2r2NgZZ9iwD5Rv8
   localizations:
   - language: ja-JP
     name: 第1電流
@@ -53,9 +215,22 @@ properties:
   - language: ko-KR
     name: 제 1 전류
     definition: 변압기 1 차 측에 전송되는 전류.
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcElectricCurrentMeasure
+    measureType: ''
+    unitType: ELECTRICCURRENTUNIT
 - name: SecondaryCurrent
-  ifdGuid: d64be135c23441f19701df5346f77a0a
   definition: The current that has been transformed and is running out of the transformer on the secondary side.
+  ifdGuid: 3MI_4rmZH1yPS1trD6zteA
   localizations:
   - language: ja-JP
     name: 第2電流
@@ -63,9 +238,22 @@ properties:
   - language: ko-KR
     name: 제 2 전류
     definition: 변압기 2 차 측에 전송되는 전류.
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcElectricCurrentMeasure
+    measureType: ''
+    unitType: ELECTRICCURRENTUNIT
 - name: PrimaryFrequency
-  ifdGuid: 18e74ce47aca4d3f99a88e6c9e3a69e8
   definition: The frequency that is going to be transformed and that runs into the transformer on the primary side.
+  ifdGuid: 0OvqpaUifDFvceZcoUEcde
   localizations:
   - language: ja-JP
     name: 第１周波数
@@ -73,9 +261,22 @@ properties:
   - language: ko-KR
     name: 제 1 주파수
     definition: 변압기 1 차 측에 전송되는 주파수.
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcFrequencyMeasure
+    measureType: ''
+    unitType: FREQUENCYUNIT
 - name: SecondaryFrequency
-  ifdGuid: fb1c1495dded4d15b55690021729dd56
   definition: The frequency that has been transformed and is running out of the transformer on the secondary side.
+  ifdGuid: 3x71ILtUrD5RLMa08NATrM
   localizations:
   - language: ja-JP
     name: 第2周波数
@@ -83,9 +284,22 @@ properties:
   - language: ko-KR
     name: 제 2 주파수
     definition: 변압기 2 차 측에 전송되는 주파수.
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcFrequencyMeasure
+    measureType: ''
+    unitType: FREQUENCYUNIT
 - name: PrimaryApparentPower
-  ifdGuid: 32cb85dfce494918a320eb71922522d8
   definition: The power in VA (volt ampere) that has been transformed and that runs into the transformer on the primary side.
+  ifdGuid: 0oouNVpab96ACWwt6I9IBO
   localizations:
   - language: ja-JP
     name: 第1電力
@@ -93,9 +307,22 @@ properties:
   - language: ko-KR
     name: 제 1 전력
     definition: '변압기 1 차 측에 전송되는 전력 (VA : 암페어).'
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPowerMeasure
+    measureType: ''
+    unitType: POWERUNIT
 - name: SecondaryApparentPower
-  ifdGuid: 48df84db676a4ca18a073acd8f10ce53
   definition: The power in VA (volt ampere) that has been transformed and is running out of the transformer on the secondary side.
+  ifdGuid: 18tuJRPsfCeOe7EisF4CvJ
   localizations:
   - language: ja-JP
     name: 第2電力
@@ -103,9 +330,22 @@ properties:
   - language: ko-KR
     name: 제 2 전원
     definition: '변압기 2 차측으로 출력되는 전력 (VA : 암페어).'
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPowerMeasure
+    measureType: ''
+    unitType: POWERUNIT
 - name: MaximumApparentPower
-  ifdGuid: 9e26d8d4cecd481db8f2f713d10afd7a
   definition: Maximum apparent power/capacity in VA (volt ampere).
+  ifdGuid: 2U9jZKpir87RZoznFH2lrw
   localizations:
   - language: ja-JP
     name: 最大電力
@@ -113,9 +353,22 @@ properties:
   - language: ko-KR
     name: 최대 전력
     definition: '피상 전력 / 용량 최대 (VA : 암페어).'
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPowerMeasure
+    measureType: ''
+    unitType: POWERUNIT
 - name: SecondaryCurrentType
-  ifdGuid: 408df08ebf4244b7b5495cc2c9aafbad
   definition: A list of the secondary current types that can result from transformer output.
+  ifdGuid: 10ZV2Elq94jxL9NCB9glkj
   localizations:
   - language: ja-JP
     name: 第2電流タイプ
@@ -123,9 +376,85 @@ properties:
   - language: ko-KR
     name: 제 2 전류 타입
     definition: 변압기에서 출력되는 제 2 전류의 종류 목록입니다.
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertyEnumeratedValue:
+    listName: PEnum_SecondaryCurrentType
+    enumerationValues:
+    - name: AC
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Ac
+        definition: ''
+      - language: de-DE
+        name: Ac
+        definition: ''
+      - language: fr-FR
+        name: Ac
+        definition: ''
+      - language: ja-JP
+        name: Ac
+        definition: ''
+    - name: DC
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Dc
+        definition: ''
+      - language: de-DE
+        name: Dc
+        definition: ''
+      - language: fr-FR
+        name: Dc
+        definition: ''
+      - language: ja-JP
+        name: Dc
+        definition: ''
+    - name: OTHER
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Other
+        definition: ''
+      - language: de-DE
+        name: Other
+        definition: ''
+      - language: fr-FR
+        name: Other
+        definition: ''
+      - language: ja-JP
+        name: Other
+        definition: ''
+    - name: UNKNOWN
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Unknown
+        definition: ''
+      - language: de-DE
+        name: Unknown
+        definition: ''
+      - language: fr-FR
+        name: Unknown
+        definition: ''
+      - language: ja-JP
+        name: Unknown
+        definition: ''
 - name: ShortCircuitVoltage
-  ifdGuid: ae60f6d147ae42b38d1b2a36058d9c24
   definition: A complex number that specifies the real and imaginary parts of the short-circuit voltage at rated current of a transformer given in %.
+  ifdGuid: 2kOFRHHwv2iuqRAZO5ZPma
   localizations:
   - language: ja-JP
     name: 短絡電圧
@@ -133,9 +462,22 @@ properties:
   - language: ko-KR
     name: 단락 전압
     definition: '%에서 주어진 변압기 정격 전류의 단락 전압의 실수와 허수를 정의하는 복소수.'
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcComplexNumber
+    measureType: ''
+    unitType: USERDEFINED
 - name: RealImpedanceRatio
-  ifdGuid: 49cc4727f82745e88b0b48455e9ce101
   definition: The ratio between the real part of the zero sequence impedance and the real part of the positive impedance (i.e. real part of the short-circuit voltage) of the transformer.Used for three-phase transformer which includes a N-conductor.
+  ifdGuid: 19p4Sd_2T5w8iBI4LUdE41
   localizations:
   - language: ja-JP
     name: インピーダンス実部比率
@@ -143,9 +485,22 @@ properties:
   - language: ko-KR
     name: 임피던스 실수 부 비율
     definition: '영 상 임피던스와 양의 상 임피던스 (예 : 단락 전압의 실제 부분) 사이의 비율. N-지휘자를 포함 삼상 변압기에 사용됩니다.'
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcRatioMeasure
+    measureType: ''
+    unitType: USERDEFINED
 - name: ImaginaryImpedanceRatio
-  ifdGuid: bc52fd6b7984478a8b9d6b06a33cdd0b
   definition: The ratio between the imaginary part of the zero sequence impedance and the imaginary part of the positive impedance (i.e. imaginary part of the short-circuit voltage) of the transformer.Used for three-phase transformer which includes a N-conductor.
+  ifdGuid: 2yKlrhUOH7YekTQmQZFDqB
   localizations:
   - language: ja-JP
     name: インピーダンス虚部比率
@@ -153,13 +508,265 @@ properties:
   - language: ko-KR
     name: 임피던스 허수 부 비율
     definition: '영 상 임피던스와 양의 상 임피던스 (예 : 단락 전압 국소 부) 사이의 비율. N-지휘자를 포함 삼상 변압기에 사용됩니다.'
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcRatioMeasure
+    measureType: ''
+    unitType: USERDEFINED
 - name: TransformerVectorGroup
-  ifdGuid: aafff604ade14bd09f7c75b61e8770a1
   definition: 'List of the possible vector groups for the transformer from which that required may be set. Values in the enumeration list follow a standard international code where the first letter  describes how the primary windings are connected,the second letter describes how the secondary windings are connected, and the numbers describe the rotation of voltages and currents from the primary to the secondary side in multiples of 30 degrees.D: means that the windings are delta-connected.Y: means that the windings are star-connected. Z: means that the windings are zig-zag connected (a special start-connected providing low reactance of the transformer); The connectivity is only relevant for three-phase transformers.'
-  localizations: []
+  ifdGuid: 2g$$O4hU5Bq9zyTROUXt2X
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertyEnumeratedValue:
+    listName: PEnum_TransformerVectorGroup
+    enumerationValues:
+    - name: DD0
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Dd0
+        definition: ''
+      - language: de-DE
+        name: Dd0
+        definition: ''
+      - language: fr-FR
+        name: Dd0
+        definition: ''
+      - language: ja-JP
+        name: Dd0
+        definition: ''
+    - name: DD6
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Dd6
+        definition: ''
+      - language: de-DE
+        name: Dd6
+        definition: ''
+      - language: fr-FR
+        name: Dd6
+        definition: ''
+      - language: ja-JP
+        name: Dd6
+        definition: ''
+    - name: DY5
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Dy5
+        definition: ''
+      - language: de-DE
+        name: Dy5
+        definition: ''
+      - language: fr-FR
+        name: Dy5
+        definition: ''
+      - language: ja-JP
+        name: Dy5
+        definition: ''
+    - name: DY11
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Dy11
+        definition: ''
+      - language: de-DE
+        name: Dy11
+        definition: ''
+      - language: fr-FR
+        name: Dy11
+        definition: ''
+      - language: ja-JP
+        name: Dy11
+        definition: ''
+    - name: YD5
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Yd5
+        definition: ''
+      - language: de-DE
+        name: Yd5
+        definition: ''
+      - language: fr-FR
+        name: Yd5
+        definition: ''
+      - language: ja-JP
+        name: Yd5
+        definition: ''
+    - name: YD11
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Yd11
+        definition: ''
+      - language: de-DE
+        name: Yd11
+        definition: ''
+      - language: fr-FR
+        name: Yd11
+        definition: ''
+      - language: ja-JP
+        name: Yd11
+        definition: ''
+    - name: DZ0
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Dz0
+        definition: ''
+      - language: de-DE
+        name: Dz0
+        definition: ''
+      - language: fr-FR
+        name: Dz0
+        definition: ''
+      - language: ja-JP
+        name: Dz0
+        definition: ''
+    - name: DZ6
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Dz6
+        definition: ''
+      - language: de-DE
+        name: Dz6
+        definition: ''
+      - language: fr-FR
+        name: Dz6
+        definition: ''
+      - language: ja-JP
+        name: Dz6
+        definition: ''
+    - name: YY0
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Yy0
+        definition: ''
+      - language: de-DE
+        name: Yy0
+        definition: ''
+      - language: fr-FR
+        name: Yy0
+        definition: ''
+      - language: ja-JP
+        name: Yy0
+        definition: ''
+    - name: YY6
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Yy6
+        definition: ''
+      - language: de-DE
+        name: Yy6
+        definition: ''
+      - language: fr-FR
+        name: Yy6
+        definition: ''
+      - language: ja-JP
+        name: Yy6
+        definition: ''
+    - name: YZ5
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Yz5
+        definition: ''
+      - language: de-DE
+        name: Yz5
+        definition: ''
+      - language: fr-FR
+        name: Yz5
+        definition: ''
+      - language: ja-JP
+        name: Yz5
+        definition: ''
+    - name: YZ11
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Yz11
+        definition: ''
+      - language: de-DE
+        name: Yz11
+        definition: ''
+      - language: fr-FR
+        name: Yz11
+        definition: ''
+      - language: ja-JP
+        name: Yz11
+        definition: ''
+    - name: OTHER
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Other
+        definition: ''
+      - language: de-DE
+        name: Other
+        definition: ''
+      - language: fr-FR
+        name: Other
+        definition: ''
+      - language: ja-JP
+        name: Other
+        definition: ''
+    - name: UNKNOWN
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Unknown
+        definition: ''
+      - language: de-DE
+        name: Unknown
+        definition: ''
+      - language: fr-FR
+        name: Unknown
+        definition: ''
+      - language: ja-JP
+        name: Unknown
+        definition: ''
 - name: IsNeutralPrimaryTerminalAvailable
-  ifdGuid: 43ff119f01294e259780065d690c58aa
   definition: An indication of whether the neutral point of the primary winding is available as a terminal (=TRUE) or not (= FALSE).
+  ifdGuid: 13$n6V0IbE9PU01brf35Yg
   localizations:
   - language: ja-JP
     name: 中性点第1ターミナルがあるかどうか
@@ -167,9 +774,22 @@ properties:
   - language: ko-KR
     name: 중성점 제 1 터미널 여부
     definition: 1차 권선의 중성점 터미널의 경우 (= TRUE), 다른 경우는 (= FALSE)로 표시
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcBoolean
+    measureType: ''
+    unitType: USERDEFINED
 - name: IsNeutralSecondaryTerminalAvailable
-  ifdGuid: c01a17394e514198b56d0cdb096967c5
   definition: An indication of whether the neutral point of the secondary winding is available as a terminal (=TRUE) or not (= FALSE).
+  ifdGuid: 306XSvJb51cBLj3Di9QMV5
   localizations:
   - language: ja-JP
     name: 中性点第2ターミナルがあるかどうか
@@ -177,3 +797,16 @@ properties:
   - language: ko-KR
     name: 중성점 제 2 터미널 여부
     definition: 2 차 코일의 중성점 터미널의 경우 (= TRUE), 다른 경우는 (= FALSE)로 표시
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcBoolean
+    measureType: ''
+    unitType: USERDEFINED

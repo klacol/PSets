@@ -1,16 +1,29 @@
 ﻿name: Pset_DistributionChamberElementTypeFormedDuct
 ifcVersion:
-  version: IFC4
+  version: 4.0.0.0
   schema: IfcSharedBldgServiceElements
 ifdGuid: ''
 definition: Space formed in the ground for the passage of pipes, cables, ducts.
+localizations:
+- language: en-EN
+  name: ''
+  definition: ''
+- language: de-DE
+  name: ''
+  definition: ''
+- language: fr-FR
+  name: ''
+  definition: ''
+- language: ja-JP
+  name: ''
+  definition: ''
 applicableIfcClasses:
 - name: IfcDistributionChamberElementType
   type: IfcDistributionChamberElementType/FORMEDDUCT
 properties:
 - name: ClearWidth
-  ifdGuid: 419e4ff3e28a40b29c214b66be7659e2
   definition: The width of the formed space in the duct.
+  ifdGuid: 11da$puef0ifmXIsQ_TbdY
   localizations:
   - language: ja-JP
     name: 幅員
@@ -18,9 +31,22 @@ properties:
   - language: ko-KR
     name: 폭
     definition: 덕트 공간 폭
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPositiveLengthMeasure
+    measureType: ''
+    unitType: LENGTHUNIT
 - name: ClearDepth
-  ifdGuid: cd99dc8dc2f840f0b89d563af47e412a
   definition: The depth of the formed space in the duct.
+  ifdGuid: 3DcToDmlX0yBYTLZhqVa4g
   localizations:
   - language: ja-JP
     name: 深さ
@@ -28,9 +54,22 @@ properties:
   - language: ko-KR
     name: 깊이
     definition: 덕트 공간의 깊이
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPositiveLengthMeasure
+    measureType: ''
+    unitType: LENGTHUNIT
 - name: WallThickness
-  ifdGuid: 0545b1d2ac30464bb884a636661e80d8
   definition: 'The thickness of the duct wall constructionNOTE: It is assumed that chamber walls will be constructed at a single thickness.'
+  ifdGuid: 05HR7Ih316IxY4fZPc7e3O
   localizations:
   - language: ja-JP
     name: 壁の厚さ
@@ -38,9 +77,22 @@ properties:
   - language: ko-KR
     name: 벽 두께
     definition: '덕트 공간 벽 두께 참고 : 덕트 공간의 벽은 단층 가정'
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPositiveLengthMeasure
+    measureType: ''
+    unitType: LENGTHUNIT
 - name: BaseThickness
-  ifdGuid: 872089b87e564de3b20686d44eb3b171
   definition: 'The thickness of the duct base constructionNOTE: It is assumed that duct base will be constructed at a single thickness.'
+  ifdGuid: 2788cuVbPDux86XjHEix5n
   localizations:
   - language: ja-JP
     name: 床（？）の厚さ
@@ -48,9 +100,22 @@ properties:
   - language: ko-KR
     name: 바닥두께
     definition: '덕트 공간 바닥의 두께 참고 : 덕트 공간의 바닥은 단층 가정'
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPositiveLengthMeasure
+    measureType: ''
+    unitType: LENGTHUNIT
 - name: AccessCoverLoadRating
-  ifdGuid: de841bf4068b4430b17e0757a5482875
   definition: The load rating of the access cover (which may be a value or an alphanumerically defined class rating).
+  ifdGuid: 3UX1lq1ej4CB5_1rUbI2Xr
   localizations:
   - language: ja-JP
     name: アクセス（点検）カバーの耐荷重
@@ -58,3 +123,16 @@ properties:
   - language: ko-KR
     name: 사용(체크)커버 하중
     definition: 사용 (체크) 커버 하중 (숫자 혹은 알파벳에서 정의됨)
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcText
+    measureType: ''
+    unitType: USERDEFINED

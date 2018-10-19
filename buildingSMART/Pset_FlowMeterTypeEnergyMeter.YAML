@@ -1,22 +1,83 @@
 ﻿name: Pset_FlowMeterTypeEnergyMeter
 ifcVersion:
-  version: IFC4
+  version: 4.0.0.0
   schema: IfcHvacDomain
 ifdGuid: ''
 definition: Device that measures, indicates and sometimes records, the energy usage in a system.
+localizations:
+- language: en-EN
+  name: ''
+  definition: ''
+- language: de-DE
+  name: ''
+  definition: ''
+- language: fr-FR
+  name: ''
+  definition: ''
+- language: ja-JP
+  name: ''
+  definition: ''
 applicableIfcClasses:
 - name: IfcFlowMeterType
   type: IfcFlowMeterType/ENERGYMETER
 properties:
 - name: NominalCurrent
-  ifdGuid: f808e92dece246c0b75c9dec5cc48d0a
   definition: The nominal current that is designed to be measured.
-  localizations: []
+  ifdGuid: 3u2EajxE96mBTSdUnSn8qA
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcElectricCurrentMeasure
+    measureType: ''
+    unitType: ELECTRICCURRENTUNIT
 - name: MaximumCurrent
-  ifdGuid: f809a0f1f331409484559a97649b68e4
-  definition: 'The maximum allowed current that a device is certified to handle. '
-  localizations: []
+  definition: The maximum allowed current that a device is certified to handle.
+  ifdGuid: 3u2Q3nyp50b8HLcfTacsZa
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcElectricCurrentMeasure
+    measureType: ''
+    unitType: ELECTRICCURRENTUNIT
 - name: MultipleTarriff
-  ifdGuid: 6ff49680ac24477d89ef26336b9f921e
   definition: Indicates whether meter has built-in support for multiple tarriffs (variable energy cost rates).
-  localizations: []
+  ifdGuid: 1lz9Q0h2H7VOdl9ZDhdv8U
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcBoolean
+    measureType: ''
+    unitType: USERDEFINED

@@ -1,15 +1,29 @@
 ﻿name: Pset_SwitchingDeviceTypeKeypad
 ifcVersion:
-  version: IFC4
+  version: 4.0.0.0
   schema: IfcElectricalDomain
 ifdGuid: ''
 definition: 'A keypad is a switch supporting multiple functions.  HISTORY: Added in IFC4.'
+localizations:
+- language: en-EN
+  name: ''
+  definition: ''
+- language: de-DE
+  name: ''
+  definition: ''
+- language: fr-FR
+  name: ''
+  definition: ''
+- language: ja-JP
+  name: ''
+  definition: ''
 applicableIfcClasses:
 - name: IfcSwitchingDeviceType
   type: IfcSwitchingDeviceType/KEYPAD
 properties:
 - name: KeypadType
   definition: A list of the available types of keypad switch from which that required may be selected.
+  ifdGuid: ''
   localizations:
   - language: ja-JP
     name: キーパッドタイプ
@@ -17,3 +31,79 @@ properties:
   - language: ko-KR
     name: 키패드 유형
     definition: 선택이 필요한 키패드 스위치 목록
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertyEnumeratedValue:
+    listName: PEnum_SwitchingDeviceKeypadType
+    enumerationValues:
+    - name: BUTTONS
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Buttons
+        definition: ''
+      - language: de-DE
+        name: Buttons
+        definition: ''
+      - language: fr-FR
+        name: Buttons
+        definition: ''
+      - language: ja-JP
+        name: Buttons
+        definition: ''
+    - name: TOUCHSCREEN
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Touchscreen
+        definition: ''
+      - language: de-DE
+        name: Touchscreen
+        definition: ''
+      - language: fr-FR
+        name: Touchscreen
+        definition: ''
+      - language: ja-JP
+        name: Touchscreen
+        definition: ''
+    - name: OTHER
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Other
+        definition: ''
+      - language: de-DE
+        name: Other
+        definition: ''
+      - language: fr-FR
+        name: Other
+        definition: ''
+      - language: ja-JP
+        name: Other
+        definition: ''
+    - name: UNKNOWN
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Unknown
+        definition: ''
+      - language: de-DE
+        name: Unknown
+        definition: ''
+      - language: fr-FR
+        name: Unknown
+        definition: ''
+      - language: ja-JP
+        name: Unknown
+        definition: ''

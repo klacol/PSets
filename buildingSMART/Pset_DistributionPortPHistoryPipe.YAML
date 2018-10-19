@@ -1,30 +1,88 @@
 ﻿name: Pset_DistributionPortPHistoryPipe
 ifcVersion:
-  version: IFC4
+  version: 4.0.0.0
 ifdGuid: ''
 definition: Log of substance usage attached to an instance of IfcPerformanceHistory having an assigned IfcDistributionPort of type PIPE.
+localizations:
+- language: en-EN
+  name: ''
+  definition: ''
+- language: de-DE
+  name: ''
+  definition: ''
+- language: fr-FR
+  name: ''
+  definition: ''
+- language: ja-JP
+  name: ''
+  definition: ''
 applicableIfcClasses:
 - name: IfcDistributionPort/GAS
   type: IfcDistributionPort/GAS
 properties:
 - name: Temperature
-  ifdGuid: 36d77e7919364513b229f61c7632a638
   definition: ConsoleAppYamlTest.PropertyType
+  ifdGuid: 0srtvv6JP54x8fzXnsCgOu
   localizations:
   - language: ja-JP
     name: 温度
     definition: 燃料の温度。
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertyReferenceValue:
+    refType: IfcTimeSeries
+    url: http://buildingsmart-tech.org
+    guid: ''
+    libraryName: Industry Foundation Classes by buildingSMART International
+    sectionref: Core Schema
 - name: Pressure
-  ifdGuid: d31964c0ab4f444aa3a526a72084e705
   definition: ConsoleAppYamlTest.PropertyType
+  ifdGuid: 3J6MJ0gqz4IgEb9gSWXES5
   localizations:
   - language: ja-JP
     name: 圧力
     definition: 燃料の圧力。
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertyReferenceValue:
+    refType: IfcTimeSeries
+    url: http://buildingsmart-tech.org
+    guid: ''
+    libraryName: Industry Foundation Classes by buildingSMART International
+    sectionref: Core Schema
 - name: Flowrate
-  ifdGuid: 7a3f6bee58104037a997d1c2cbd68a4d
   definition: ConsoleAppYamlTest.PropertyType
+  ifdGuid: 1wFslkM110DwcNqSBBrefD
   localizations:
   - language: ja-JP
     name: 流量
     definition: 燃料の流速。
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertyReferenceValue:
+    refType: IfcTimeSeries
+    url: http://buildingsmart-tech.org
+    guid: ''
+    libraryName: Industry Foundation Classes by buildingSMART International
+    sectionref: Core Schema

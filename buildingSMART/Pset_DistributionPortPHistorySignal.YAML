@@ -1,15 +1,29 @@
 ﻿name: Pset_DistributionPortPHistorySignal
 ifcVersion:
-  version: IFC4
+  version: 4.0.0.0
   schema: IfcSharedBldgServiceElements
 ifdGuid: ''
 definition: Log of signal activity attached to an instance of IfcPerformanceHistory having an assigned IfcDistributionPort of type SIGNAL.
+localizations:
+- language: en-EN
+  name: ''
+  definition: ''
+- language: de-DE
+  name: ''
+  definition: ''
+- language: fr-FR
+  name: ''
+  definition: ''
+- language: ja-JP
+  name: ''
+  definition: ''
 applicableIfcClasses:
 - name: IfcPerformanceHistory
   type: IfcDistributionPort/SIGNAL[PerformanceHistory]
 properties:
 - name: Signal
   definition: Log of signal value.
+  ifdGuid: ''
   localizations:
   - language: ja-JP
     name: 信号
@@ -17,3 +31,18 @@ properties:
   - language: ko-KR
     name: 신호
     definition: 신호값의 로그
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertyReferenceValue:
+    refType: IfcTimeSeries
+    url: http://buildingsmart-tech.org
+    guid: ''
+    libraryName: Industry Foundation Classes by buildingSMART International
+    sectionref: Core Schema

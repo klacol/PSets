@@ -1,9 +1,22 @@
 ﻿name: Pset_DiscreteAccessoryLadderTrussConnector
 ifcVersion:
-  version: IFC4
+  version: 4.0.0.0
   schema: IfcSharedComponentElements
 ifdGuid: ''
 definition: Shape properties specific to connecting accessories in truss form with straight cross-bars in ladder shape.
+localizations:
+- language: en-EN
+  name: ''
+  definition: ''
+- language: de-DE
+  name: ''
+  definition: ''
+- language: fr-FR
+  name: ''
+  definition: ''
+- language: ja-JP
+  name: ''
+  definition: ''
 applicableIfcClasses:
 - name: IfcDiscreteAccessory
   type: IfcDiscreteAccessory/Ladder truss connector
@@ -11,8 +24,8 @@ applicableIfcClasses:
   type: IfcDiscreteAccessory/Ladder truss connector
 properties:
 - name: LadderTrussHeight
-  ifdGuid: 3c0366645fbd4186bab6b1cc5140e524
   definition: The overall height of the truss connector.
+  ifdGuid: 0y0sPaNxr1XhgsiSnHGEKa
   localizations:
   - language: ja-JP
     name: 全体高さ
@@ -20,9 +33,22 @@ properties:
   - language: ko-KR
     name: 전체 높이
     definition: 트러스 연결 부재의 전체 높이
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPositiveLengthMeasure
+    measureType: ''
+    unitType: LENGTHUNIT
 - name: LadderTrussLength
-  ifdGuid: 2f965728dff54d49b44e57cb67853708
   definition: The overall length of the truss connector.
+  ifdGuid: 0lbbSet$LDIRHELyjdXJS8
   localizations:
   - language: ja-JP
     name: 全体長さ
@@ -30,9 +56,22 @@ properties:
   - language: ko-KR
     name: 전체길이
     definition: 트러스 연결 부재의 전체 길이
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPositiveLengthMeasure
+    measureType: ''
+    unitType: LENGTHUNIT
 - name: LadderTrussCrossBarSpacing
-  ifdGuid: 5b06664509964a2a918c7309f7fcf192
   definition: The spacing between the straight cross-bars.
+  ifdGuid: 1R1cP52PPAAf6CSmdt$F6I
   localizations:
   - language: ja-JP
     name: クロスバー間隔
@@ -40,9 +79,22 @@ properties:
   - language: ko-KR
     name: 크로스바 간격
     definition: 똑바른 크로스바 간격
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPositiveLengthMeasure
+    measureType: ''
+    unitType: LENGTHUNIT
 - name: LadderTrussBaseBarDiameter
-  ifdGuid: 901a89834df7497fb412679c3760436f
   definition: The nominal diameter of the base bar.
+  ifdGuid: 2G6ec3JVT9VxGIPvmtO4Dl
   localizations:
   - language: ja-JP
     name: ベースバー径
@@ -50,9 +102,22 @@ properties:
   - language: ko-KR
     name: 기반 막대 지름
     definition: 기반 막대의 공칭 지름
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPositiveLengthMeasure
+    measureType: ''
+    unitType: LENGTHUNIT
 - name: LadderTrussSecondaryBarDiameter
-  ifdGuid: 0bf8b2486e244142a01fda3899b62e90
   definition: The nominal diameter of the secondary bar.
+  ifdGuid: 0B_B98RYH1Gg0VsZYPjYwG
   localizations:
   - language: ja-JP
     name: 二次バー径
@@ -60,9 +125,22 @@ properties:
   - language: ko-KR
     name: 보조막대 지름
     definition: 보조 막대의 공칭 지름
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPositiveLengthMeasure
+    measureType: ''
+    unitType: LENGTHUNIT
 - name: LadderTrussCrossBarDiameter
-  ifdGuid: 035b8896990245d3b17482cd1881d990
   definition: The nominal diameter of the straight cross-bars.
+  ifdGuid: 03MuYMcG95qx5qWiqOWTcG
   localizations:
   - language: ja-JP
     name: クロスバー径
@@ -70,3 +148,16 @@ properties:
   - language: ko-KR
     name: 크로스바 지름
     definition: 똑바른 크로스바 공칭 지름
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPositiveLengthMeasure
+    measureType: ''
+    unitType: LENGTHUNIT

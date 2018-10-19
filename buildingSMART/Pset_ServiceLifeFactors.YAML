@@ -1,37 +1,169 @@
 ﻿name: Pset_ServiceLifeFactors
 ifcVersion:
-  version: IFC4
+  version: 4.0.0.0
 ifdGuid: ''
 definition: Captures various factors that impact the expected service life of elements within the system or zone.
+localizations:
+- language: en-EN
+  name: ''
+  definition: ''
+- language: de-DE
+  name: ''
+  definition: ''
+- language: fr-FR
+  name: ''
+  definition: ''
+- language: ja-JP
+  name: ''
+  definition: ''
 applicableIfcClasses:
 - name: IfcSystem
   type: IfcSystem
 properties:
 - name: QualityOfComponents
-  ifdGuid: d5f5278715be42a0b539cf3f060054e3
   definition: ConsoleAppYamlTest.PropertyType
-  localizations: []
+  ifdGuid: 3LzIU75Rv2eBKvppy605JZ
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertyBoundedValue:
+    unitType: ConsoleAppYamlTest.UnitType
+    LowerBoundValue: ''
+    UpperBoundValue: ''
+    typeName: TypePropertyBoundedValue
 - name: DesignLevel
-  ifdGuid: 8d77f8cb925b4cfdbea48301f42c89a0
   definition: ConsoleAppYamlTest.PropertyType
-  localizations: []
+  ifdGuid: 2DT$ZBabjC$RwaWm7qB8cW
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertyBoundedValue:
+    unitType: ConsoleAppYamlTest.UnitType
+    LowerBoundValue: ''
+    UpperBoundValue: ''
+    typeName: TypePropertyBoundedValue
 - name: WorkExecutionLevel
-  ifdGuid: ac78d9e0d39b43f4af2c7b7596d60667
   definition: ConsoleAppYamlTest.PropertyType
-  localizations: []
+  ifdGuid: 2iUDdWqvj3zAyiUtMMrWPd
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertyBoundedValue:
+    unitType: ConsoleAppYamlTest.UnitType
+    LowerBoundValue: ''
+    UpperBoundValue: ''
+    typeName: TypePropertyBoundedValue
 - name: IndoorEnvironment
-  ifdGuid: ab27c286d027498e962abd4fa0cab9a8
   definition: ConsoleAppYamlTest.PropertyType
-  localizations: []
+  ifdGuid: 2h9yA6q2T9ZfOglK_Wohce
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertyBoundedValue:
+    unitType: ConsoleAppYamlTest.UnitType
+    LowerBoundValue: ''
+    UpperBoundValue: ''
+    typeName: TypePropertyBoundedValue
 - name: OutdoorEnvironment
-  ifdGuid: 9988ab22befe45c9ab3c94972c61bd90
   definition: ConsoleAppYamlTest.PropertyType
-  localizations: []
+  ifdGuid: 2PYAiYllv5oQiyb9SiORsG
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertyBoundedValue:
+    unitType: ConsoleAppYamlTest.UnitType
+    LowerBoundValue: ''
+    UpperBoundValue: ''
+    typeName: TypePropertyBoundedValue
 - name: InUseConditions
-  ifdGuid: 37ac936a1b0a42bfa3c0f4998cca50e4
   definition: ConsoleAppYamlTest.PropertyType
-  localizations: []
+  ifdGuid: 0th9Dg6mf2lwF0z9cCob3a
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertyBoundedValue:
+    unitType: ConsoleAppYamlTest.UnitType
+    LowerBoundValue: ''
+    UpperBoundValue: ''
+    typeName: TypePropertyBoundedValue
 - name: MaintenanceLevel
-  ifdGuid: 97e75274042544a89cb65b8a94766d30
   definition: ConsoleAppYamlTest.PropertyType
-  localizations: []
+  ifdGuid: 2Nvr9q12L4g9osMugKTcqm
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertyBoundedValue:
+    unitType: ConsoleAppYamlTest.UnitType
+    LowerBoundValue: ''
+    UpperBoundValue: ''
+    typeName: TypePropertyBoundedValue

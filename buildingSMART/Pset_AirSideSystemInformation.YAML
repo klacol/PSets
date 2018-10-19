@@ -1,9 +1,22 @@
 ﻿name: Pset_AirSideSystemInformation
 ifcVersion:
-  version: IFC4
+  version: 4.0.0.0
   schema: IfcSharedBldgServiceElements
 ifdGuid: ''
 definition: 'Attributes that apply to an air side HVAC system. HISTORY: New property set in IFC Release 1.0.'
+localizations:
+- language: en-EN
+  name: ''
+  definition: ''
+- language: de-DE
+  name: ''
+  definition: ''
+- language: fr-FR
+  name: ''
+  definition: ''
+- language: ja-JP
+  name: ''
+  definition: ''
 applicableIfcClasses:
 - name: IfcSpatialStructureElement
   type: IfcSpace,IfcZone,IfcSpatialZone
@@ -11,8 +24,8 @@ applicableIfcClasses:
   type: IfcSpace,IfcZone,IfcSpatialZone
 properties:
 - name: Name
-  ifdGuid: 3583f98378e444c1ac6dea5e3a34d11b
   definition: The name of the air side system.
+  ifdGuid: 0rW$c3UEH4mQnjwbuwDD4R
   localizations:
   - language: ja-JP
     name: 名前
@@ -20,9 +33,22 @@ properties:
   - language: ko-KR
     name: 이름
     definition: 공조 방식의 명칭
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcLabel
+    measureType: ''
+    unitType: USERDEFINED
 - name: Description
-  ifdGuid: 7fd5bc1290574f828d949a678a16c577
   definition: The description of the air side system.
+  ifdGuid: 1$rRmIa5TFWesKccUA5iLt
   localizations:
   - language: ja-JP
     name: 説明
@@ -30,13 +56,249 @@ properties:
   - language: ko-KR
     name: 설명
     definition: 공조 방식 설명
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcLabel
+    measureType: ''
+    unitType: USERDEFINED
 - name: AirSideSystemType
-  ifdGuid: 8a42977fdc624f1d85896fa768ec25af
-  definition: 'This enumeration specifies the basic types of possible air side systems (e.g., Constant Volume, Variable Volume, etc.). '
-  localizations: []
+  definition: This enumeration specifies the basic types of possible air side systems (e.g., Constant Volume, Variable Volume, etc.).
+  ifdGuid: 2AGfT$t69F7OM9RwTex2Ml
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertyEnumeratedValue:
+    listName: PEnum_AirSideSystemType
+    enumerationValues:
+    - name: CONSTANTVOLUME
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Constantvolume
+        definition: ''
+      - language: de-DE
+        name: Constantvolume
+        definition: ''
+      - language: fr-FR
+        name: Constantvolume
+        definition: ''
+      - language: ja-JP
+        name: Constantvolume
+        definition: ''
+    - name: CONSTANTVOLUMESINGLEZONE
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Constantvolumesinglezone
+        definition: ''
+      - language: de-DE
+        name: Constantvolumesinglezone
+        definition: ''
+      - language: fr-FR
+        name: Constantvolumesinglezone
+        definition: ''
+      - language: ja-JP
+        name: Constantvolumesinglezone
+        definition: ''
+    - name: CONSTANTVOLUMEMULTIPLEZONEREHEAT
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Constantvolumemultiplezonereheat
+        definition: ''
+      - language: de-DE
+        name: Constantvolumemultiplezonereheat
+        definition: ''
+      - language: fr-FR
+        name: Constantvolumemultiplezonereheat
+        definition: ''
+      - language: ja-JP
+        name: Constantvolumemultiplezonereheat
+        definition: ''
+    - name: CONSTANTVOLUMEBYPASS
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Constantvolumebypass
+        definition: ''
+      - language: de-DE
+        name: Constantvolumebypass
+        definition: ''
+      - language: fr-FR
+        name: Constantvolumebypass
+        definition: ''
+      - language: ja-JP
+        name: Constantvolumebypass
+        definition: ''
+    - name: VARIABLEAIRVOLUME
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Variableairvolume
+        definition: ''
+      - language: de-DE
+        name: Variableairvolume
+        definition: ''
+      - language: fr-FR
+        name: Variableairvolume
+        definition: ''
+      - language: ja-JP
+        name: Variableairvolume
+        definition: ''
+    - name: VARIABLEAIRVOLUMEREHEAT
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Variableairvolumereheat
+        definition: ''
+      - language: de-DE
+        name: Variableairvolumereheat
+        definition: ''
+      - language: fr-FR
+        name: Variableairvolumereheat
+        definition: ''
+      - language: ja-JP
+        name: Variableairvolumereheat
+        definition: ''
+    - name: VARIABLEAIRVOLUMEINDUCTION
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Variableairvolumeinduction
+        definition: ''
+      - language: de-DE
+        name: Variableairvolumeinduction
+        definition: ''
+      - language: fr-FR
+        name: Variableairvolumeinduction
+        definition: ''
+      - language: ja-JP
+        name: Variableairvolumeinduction
+        definition: ''
+    - name: VARIABLEAIRVOLUMEFANPOWERED
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Variableairvolumefanpowered
+        definition: ''
+      - language: de-DE
+        name: Variableairvolumefanpowered
+        definition: ''
+      - language: fr-FR
+        name: Variableairvolumefanpowered
+        definition: ''
+      - language: ja-JP
+        name: Variableairvolumefanpowered
+        definition: ''
+    - name: VARIABLEAIRVOLUMEDUALCONDUIT
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Variableairvolumedualconduit
+        definition: ''
+      - language: de-DE
+        name: Variableairvolumedualconduit
+        definition: ''
+      - language: fr-FR
+        name: Variableairvolumedualconduit
+        definition: ''
+      - language: ja-JP
+        name: Variableairvolumedualconduit
+        definition: ''
+    - name: VARIABLEAIRVOLUMEVARIABLEDIFFUSERS
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Variableairvolumevariablediffusers
+        definition: ''
+      - language: de-DE
+        name: Variableairvolumevariablediffusers
+        definition: ''
+      - language: fr-FR
+        name: Variableairvolumevariablediffusers
+        definition: ''
+      - language: ja-JP
+        name: Variableairvolumevariablediffusers
+        definition: ''
+    - name: VARIABLEAIRVOLUMEVARIABLETEMPERATURE
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Variableairvolumevariabletemperature
+        definition: ''
+      - language: de-DE
+        name: Variableairvolumevariabletemperature
+        definition: ''
+      - language: fr-FR
+        name: Variableairvolumevariabletemperature
+        definition: ''
+      - language: ja-JP
+        name: Variableairvolumevariabletemperature
+        definition: ''
+    - name: OTHER
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Other
+        definition: ''
+      - language: de-DE
+        name: Other
+        definition: ''
+      - language: fr-FR
+        name: Other
+        definition: ''
+      - language: ja-JP
+        name: Other
+        definition: ''
+    - name: UNKNOWN
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Unknown
+        definition: ''
+      - language: de-DE
+        name: Unknown
+        definition: ''
+      - language: fr-FR
+        name: Unknown
+        definition: ''
+      - language: ja-JP
+        name: Unknown
+        definition: ''
 - name: AirSideSystemDistributionType
-  ifdGuid: f8130ec8570d4cdda844b2b5c1488c22
-  definition: 'This enumeration defines the basic types of air side systems (e.g., SingleDuct, DualDuct, Multizone, etc.). '
+  definition: This enumeration defines the basic types of air side systems (e.g., SingleDuct, DualDuct, Multizone, etc.).
+  ifdGuid: 3u4mx8LmrCtQX4ihN1I8mY
   localizations:
   - language: ja-JP
     name: 搬送方式
@@ -44,9 +306,101 @@ properties:
   - language: ko-KR
     name: 반송방식
     definition: 기본적인 공조 방식 (단일 덕트, 이중 덕트, 멀티존 등)
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertyEnumeratedValue:
+    listName: PEnum_AirSideSystemDistributionType
+    enumerationValues:
+    - name: SINGLEDUCT
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Singleduct
+        definition: ''
+      - language: de-DE
+        name: Singleduct
+        definition: ''
+      - language: fr-FR
+        name: Singleduct
+        definition: ''
+      - language: ja-JP
+        name: Singleduct
+        definition: ''
+    - name: DUALDUCT
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Dualduct
+        definition: ''
+      - language: de-DE
+        name: Dualduct
+        definition: ''
+      - language: fr-FR
+        name: Dualduct
+        definition: ''
+      - language: ja-JP
+        name: Dualduct
+        definition: ''
+    - name: MULTIZONE
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Multizone
+        definition: ''
+      - language: de-DE
+        name: Multizone
+        definition: ''
+      - language: fr-FR
+        name: Multizone
+        definition: ''
+      - language: ja-JP
+        name: Multizone
+        definition: ''
+    - name: OTHER
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Other
+        definition: ''
+      - language: de-DE
+        name: Other
+        definition: ''
+      - language: fr-FR
+        name: Other
+        definition: ''
+      - language: ja-JP
+        name: Other
+        definition: ''
+    - name: UNKNOWN
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Unknown
+        definition: ''
+      - language: de-DE
+        name: Unknown
+        definition: ''
+      - language: fr-FR
+        name: Unknown
+        definition: ''
+      - language: ja-JP
+        name: Unknown
+        definition: ''
 - name: TotalAirflow
-  ifdGuid: 846cacb6e65543798a4ce3cd101d5ab3
-  definition: 'The total design supply air flowrate required for the system for either heating or cooling conditions, whichever is greater. '
+  definition: The total design supply air flowrate required for the system for either heating or cooling conditions, whichever is greater.
+  ifdGuid: 24RAosvbL3UOfCuyqG7Lgp
   localizations:
   - language: ja-JP
     name: 給気量
@@ -54,9 +408,22 @@ properties:
   - language: ko-KR
     name: 급기량
     definition: 난방, 냉방 조건 중 하나 큰 조건에서 요구되는 설계 급기 량
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcVolumetricFlowRateMeasure
+    measureType: ''
+    unitType: VOLUMETRICFLOWRATEUNIT
 - name: EnergyGainTotal
-  ifdGuid: d2fe115a77bb45bea4a7ea6f48e93277
-  definition: 'The total amount of energy gains for the spaces served by the system during the peak cooling conditions, plus any system-level total energy gains. '
+  definition: The total amount of energy gains for the spaces served by the system during the peak cooling conditions, plus any system-level total energy gains.
+  ifdGuid: 3I$X5QTxj5lgIdwcz8wJ9t
   localizations:
   - language: ja-JP
     name: 総熱取得
@@ -64,9 +431,22 @@ properties:
   - language: ko-KR
     name: 총 열 검색
     definition: 거실 최대 냉방 부하 및 공조 시스템 (장비 등) 재열 부하에 의한 최대 열부하.
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPowerMeasure
+    measureType: ''
+    unitType: POWERUNIT
 - name: AirflowSensible
-  ifdGuid: d3d6be21e1b2497b8b383df8b7c89c22
-  definition: 'The air flowrate required to satisfy the sensible peak loads. '
+  definition: The air flowrate required to satisfy the sensible peak loads.
+  ifdGuid: 3JrhuXuR99UuiuFVYto9mY
   localizations:
   - language: ja-JP
     name: 顕熱空調給気量
@@ -74,9 +454,22 @@ properties:
   - language: ko-KR
     name: 현열 공조 급기 량
     definition: 최대 잠열 부하에 대한 급기 량
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcVolumetricFlowRateMeasure
+    measureType: ''
+    unitType: VOLUMETRICFLOWRATEUNIT
 - name: EnergyGainSensible
-  ifdGuid: b5b34879a53a48719a53b5d0c267d328
-  definition: 'The sum of total energy gains for the spaces served by the system during the peak cooling conditions, plus any system-level sensible energy gains. '
+  definition: The sum of total energy gains for the spaces served by the system during the peak cooling conditions, plus any system-level sensible energy gains.
+  ifdGuid: 2riqXvfJf8SPfJjT32PzCe
   localizations:
   - language: ja-JP
     name: 顕熱空調負荷
@@ -84,9 +477,22 @@ properties:
   - language: ko-KR
     name: 현열 공조 부하
     definition: 최대 각 거실 최대 냉방 부하 및 공조 시스템의 현열 부하에 의한 최대 현열 부하
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPowerMeasure
+    measureType: ''
+    unitType: POWERUNIT
 - name: EnergyLoss
-  ifdGuid: df2c9cb86026458db84f6b706c742b9f
-  definition: 'The sum of energy losses for the spaces served by the system during the peak heating conditions. '
+  definition: The sum of energy losses for the spaces served by the system during the peak heating conditions.
+  ifdGuid: 3VB9ouO2P5ZRXFQt1iT2kV
   localizations:
   - language: ja-JP
     name: 熱（エネルギー）ロス
@@ -94,9 +500,22 @@ properties:
   - language: ko-KR
     name: 열(에너지)로스
     definition: 최대 공조 시스템 최대 난방 부하를 제공할 수있는 열 손실
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPowerMeasure
+    measureType: ''
+    unitType: POWERUNIT
 - name: LightingDiversity
-  ifdGuid: b4732088f2d541989b937cdae629d24a
-  definition: 'Lighting diversity. '
+  definition: Lighting diversity.
+  ifdGuid: 2qSo28yjL1c9kJVDhcAT9A
   localizations:
   - language: ja-JP
     name: 照明負荷係数
@@ -104,9 +523,22 @@ properties:
   - language: ko-KR
     name: 조명부하계수
     definition: 조명 부하 계수
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPositiveRatioMeasure
+    measureType: ''
+    unitType: USERDEFINED
 - name: InfiltrationDiversitySummer
-  ifdGuid: f1f9556e64b943d69f573c1c562e421b
-  definition: 'Diversity factor for Summer infiltration. '
+  definition: Diversity factor for Summer infiltration.
+  ifdGuid: 3n_LLkPBb3rfzNF1nMBa8R
   localizations:
   - language: ja-JP
     name: 夏期すき間換気率
@@ -114,9 +546,22 @@ properties:
   - language: ko-KR
     name: 여름틈새 환기 비율
     definition: 여름 틈새 환기 비율
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPositiveRatioMeasure
+    measureType: ''
+    unitType: USERDEFINED
 - name: InfiltrationDiversityWinter
-  ifdGuid: 069f3ad2a3c24a8b841580a699b6b158
-  definition: 'Diversity factor for Winter infiltration. '
+  definition: Diversity factor for Winter infiltration.
+  ifdGuid: 06dphIey9AYuGLWAQPjh5O
   localizations:
   - language: ja-JP
     name: 冬期すき間換気率
@@ -124,9 +569,22 @@ properties:
   - language: ko-KR
     name: 겨울철 틈새 환기 비율
     definition: 겨울철 틈새 환기 비율
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPositiveRatioMeasure
+    measureType: ''
+    unitType: USERDEFINED
 - name: ApplianceDiversity
-  ifdGuid: 08c6dc715e234ab28809fe45475d813e
-  definition: 'Diversity of appliance load. '
+  definition: Diversity of appliance load.
+  ifdGuid: 08njnnNYDAieW9$aL7NO4_
   localizations:
   - language: ja-JP
     name: 機器の負荷率
@@ -134,9 +592,22 @@ properties:
   - language: ko-KR
     name: 기기의 부하율
     definition: 기기의 부하율
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPositiveRatioMeasure
+    measureType: ''
+    unitType: USERDEFINED
 - name: LoadSafetyFactor
-  ifdGuid: 43bec43b25a344cc8001e39d8220969c
-  definition: 'Load safety factor. '
+  definition: Load safety factor.
+  ifdGuid: 13liGx9QD4p801uvs289QS
   localizations:
   - language: ja-JP
     name: 負荷の安全率
@@ -144,9 +615,22 @@ properties:
   - language: ko-KR
     name: 부하의 안전율
     definition: 공조 부하 계산을위한 안전율 (할증 계수)
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPositiveRatioMeasure
+    measureType: ''
+    unitType: USERDEFINED
 - name: HeatingTemperatureDelta
-  ifdGuid: ba33874c30434856952f75c6e4070e28
   definition: Heating temperature difference for calculating space air flow rates.
+  ifdGuid: 2wCuTCC4D8LfKlTSRa1mue
   localizations:
   - language: ja-JP
     name: 暖房時送風温度差
@@ -154,9 +638,22 @@ properties:
   - language: ko-KR
     name: 난방시 돌풍 온도차
     definition: 에어컨 송풍 량 계산을위한 난방 급기 온도차
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcThermodynamicTemperatureMeasure
+    measureType: ''
+    unitType: THERMODYNAMICTEMPERATUREUNIT
 - name: CoolingTemperatureDelta
-  ifdGuid: 8e5692c721c74f4780f9b7897cce4eee
   definition: Cooling temperature difference for calculating space air flow rates.
+  ifdGuid: 2ELfB78STFHu3vjubypaxk
   localizations:
   - language: ja-JP
     name: 冷房時送風温度差
@@ -164,9 +661,22 @@ properties:
   - language: ko-KR
     name: 냉방시 돌풍 온도차
     definition: 에어컨 송풍 량 계산을위한 냉방 급기 온도차
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcThermodynamicTemperatureMeasure
+    measureType: ''
+    unitType: THERMODYNAMICTEMPERATUREUNIT
 - name: Ventilation
-  ifdGuid: fbca24ab4f774edf8d64db0c828ddd28
-  definition: 'Required outside air ventilation. '
+  definition: Required outside air ventilation.
+  ifdGuid: 3xoYIhJtTEturasmo2ZTqe
   localizations:
   - language: ja-JP
     name: 外気量
@@ -174,9 +684,22 @@ properties:
   - language: ko-KR
     name: 외기량
     definition: 요청한 외기 량
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcVolumetricFlowRateMeasure
+    measureType: ''
+    unitType: VOLUMETRICFLOWRATEUNIT
 - name: FanPower
-  ifdGuid: 02eafd8fea1e4b57be409d62273ec755
-  definition: 'Fan motor loads contributing to the cooling load. '
+  definition: Fan motor loads contributing to the cooling load.
+  ifdGuid: 02wlsFwXvBLxv0dM8dFiTL
   localizations:
   - language: ja-JP
     name: 送風機電力消費量
@@ -184,3 +707,16 @@ properties:
   - language: ko-KR
     name: 송풍기 소비 전력
     definition: 송풍기 모터의 열 취득
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPowerMeasure
+    measureType: ''
+    unitType: POWERUNIT

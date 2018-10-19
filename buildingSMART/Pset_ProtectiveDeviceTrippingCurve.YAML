@@ -1,16 +1,29 @@
 ﻿name: Pset_ProtectiveDeviceTrippingCurve
 ifcVersion:
-  version: IFC4
+  version: 4.0.0.0
   schema: IfcElectricalDomain
 ifdGuid: ''
 definition: Tripping curves are applied to thermal, thermal magnetic or MCB_RCD tripping units (i.e. tripping units having type property sets for thermal, thermal magnetic or MCB_RCD tripping defined). They are not applied to electronic tripping units.
+localizations:
+- language: en-EN
+  name: ''
+  definition: ''
+- language: de-DE
+  name: ''
+  definition: ''
+- language: fr-FR
+  name: ''
+  definition: ''
+- language: ja-JP
+  name: ''
+  definition: ''
 applicableIfcClasses:
 - name: IfcProtectiveDeviceTrippingUnitType
   type: IfcProtectiveDeviceType
 properties:
 - name: TrippingCurveType
-  ifdGuid: eb0138a9fedf4e879120a260e4d4293d
   definition: The type of tripping curve that is represented by the property set.
+  ifdGuid: 3h0JYf$jzEXv4Wec3ar2az
   localizations:
   - language: ja-JP
     name: 動作特性曲線のタイプ
@@ -18,9 +31,85 @@ properties:
   - language: ko-KR
     name: 동작 특성 곡선의 유형
     definition: 동작 특성 곡선의 유형을 지정합니다.
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertyEnumeratedValue:
+    listName: PEnum_TrippingCurveType
+    enumerationValues:
+    - name: UPPER
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Upper
+        definition: ''
+      - language: de-DE
+        name: Upper
+        definition: ''
+      - language: fr-FR
+        name: Upper
+        definition: ''
+      - language: ja-JP
+        name: Upper
+        definition: ''
+    - name: LOWER
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Lower
+        definition: ''
+      - language: de-DE
+        name: Lower
+        definition: ''
+      - language: fr-FR
+        name: Lower
+        definition: ''
+      - language: ja-JP
+        name: Lower
+        definition: ''
+    - name: OTHER
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Other
+        definition: ''
+      - language: de-DE
+        name: Other
+        definition: ''
+      - language: fr-FR
+        name: Other
+        definition: ''
+      - language: ja-JP
+        name: Other
+        definition: ''
+    - name: UNKNOWN
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Unknown
+        definition: ''
+      - language: de-DE
+        name: Unknown
+        definition: ''
+      - language: fr-FR
+        name: Unknown
+        definition: ''
+      - language: ja-JP
+        name: Unknown
+        definition: ''
 - name: TrippingCurve
-  ifdGuid: 284776e6804b48e1b60a495e52bab949
   definition: 'A curve that establishes the release time of a tripping unit when a particular prospective current is applied.  Note that the tripping curve is defined within a Cartesian coordinate system and this fact must be asserted within the property set: (1) Defining value is the Prospective Current which is a list of minimum 2 and maximum 16 numbers providing the currents in [x In] for points in the current/time log/log coordinate space. The curve is drawn as a straight line between two consecutive points.(2) Defined value is a list of minimum 2 and maximum 16 numbers providing the release_time in [s] for points in the current/time log/log coordinate space. The curve is drawn as a straight line between two consecutive points. Note that a defined interpolation.'
+  ifdGuid: 0eHtRcW4j8uROAILvIkhb9
   localizations:
   - language: ja-JP
     name: 動作特性曲線
@@ -28,3 +117,22 @@ properties:
   - language: ko-KR
     name: 동작 특성 곡선
     definition: (1) 전류 / 시간 위치 [x In에서 나타나는 2 ~ 16 예상되는 전류 값을 정의한다. (2) 정의된 값은 전류 / 시간 위치 [s]로 표시되는 2 ~ 16 예상되는 방전 시간.
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertyTableValue:
+    Expression: '-'
+    DefiningValue:
+      dataType: IfcElectricCurrentMeasure
+      measureType: ''
+      unitType: ELECTRICCURRENTUNIT
+    DefinedValue:
+      dataType: IfcTimeMeasure
+      measureType: ''
+      unitType: ELECTRICCURRENTUNIT

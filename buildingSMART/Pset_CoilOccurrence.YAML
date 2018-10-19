@@ -1,16 +1,43 @@
 ﻿name: Pset_CoilOccurrence
 ifcVersion:
-  version: IFC4
+  version: 4.0.0.0
   schema: IfcHvacDomain
 ifdGuid: ''
 definition: Coil occurrence attributes attached to an instance of IfcCoil.
+localizations:
+- language: en-EN
+  name: ''
+  definition: ''
+- language: de-DE
+  name: ''
+  definition: ''
+- language: fr-FR
+  name: ''
+  definition: ''
+- language: ja-JP
+  name: ''
+  definition: ''
 applicableIfcClasses:
 - name: IfcCoil
   type: IfcCoil
 properties:
 - name: HasSoundAttenuation
   definition: TRUE if the coil has sound attenuation, FALSE if it does not.
+  ifdGuid: ''
   localizations:
   - language: fr-FR
     name: PossedeCorrectionAcoustique
     definition: VRAI si la batterie possède une correction acoustique, FAUX si ce n'est pas le cas.
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcBoolean
+    measureType: ''
+    unitType: USERDEFINED

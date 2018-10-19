@@ -1,24 +1,67 @@
 ﻿name: Pset_PipeSegmentPHistory
 ifcVersion:
-  version: IFC4
+  version: 4.0.0.0
   schema: IfcHvacDomain
 ifdGuid: ''
 definition: Pipe segment performance history common attributes.
+localizations:
+- language: en-EN
+  name: ''
+  definition: ''
+- language: de-DE
+  name: ''
+  definition: ''
+- language: fr-FR
+  name: ''
+  definition: ''
+- language: ja-JP
+  name: ''
+  definition: ''
 applicableIfcClasses:
 - name: IfcPerformanceHistory
   type: IfcPipeSegment
 properties:
 - name: LeakageCurve
-  ifdGuid: 4c3fe4f5a4604813b6ac3722ad26ab17
   definition: Leakage per unit length curve versus working pressure.
+  ifdGuid: 1CF_Jrf6184xQiDoAj9giN
   localizations:
   - language: ja-JP
     name: 漏洩曲線
     definition: 配管圧力に対する単位あたり流出量曲線
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertyReferenceValue:
+    refType: IfcTimeSeries
+    url: http://buildingsmart-tech.org
+    guid: ''
+    libraryName: Industry Foundation Classes by buildingSMART International
+    sectionref: Core Schema
 - name: FluidFlowLeakage
-  ifdGuid: 3f7a6d51448846ae9c8f46d50da42014
   definition: Volumetric leakage flow rate.
+  ifdGuid: 0$UcrHH8X6hfoFHjKDf20K
   localizations:
   - language: ja-JP
     name: 流体漏洩量
     definition: 漏洩量
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertyReferenceValue:
+    refType: IfcTimeSeries
+    url: http://buildingsmart-tech.org
+    guid: ''
+    libraryName: Industry Foundation Classes by buildingSMART International
+    sectionref: Core Schema

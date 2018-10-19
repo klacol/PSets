@@ -1,54 +1,564 @@
 ﻿name: Pset_FilterTypeAirParticleFilter
 ifcVersion:
-  version: IFC4
+  version: 4.0.0.0
   schema: IfcHvacDomain
 ifdGuid: ''
 definition: Air particle filter type attributes.
+localizations:
+- language: en-EN
+  name: ''
+  definition: ''
+- language: de-DE
+  name: ''
+  definition: ''
+- language: fr-FR
+  name: ''
+  definition: ''
+- language: ja-JP
+  name: ''
+  definition: ''
 applicableIfcClasses:
 - name: IfcFilterType
   type: IfcFilterType/AIRPARTICLEFILTER
 properties:
 - name: AirParticleFilterType
-  ifdGuid: 43118174e87045c1a2f9575b1a4141ea
   definition: 'A panel dry type extended surface filter is a dry-type air filter with random fiber mats or blankets in the forms of pockets, V-shaped or radial pleats, and include the following:CoarseFilter: Filter with a efficiency lower than 30% for atmosphere dust-spot.CoarseMetalScreen: Filter made of metal screen.CoarseCellFoams: Filter made of cell foams.CoarseSpunGlass: Filter made of spun glass.MediumFilter: Filter with an efficiency between 30-98% for atmosphere dust-spot.MediumElectretFilter: Filter with fine electret synthetic fibers.MediumNaturalFiberFilter: Filter with natural fibers.HEPAFilter: High efficiency particulate air filter.ULPAFilter: Ultra low penetration air filter.MembraneFilters: Filter made of membrane for certain pore diameters in flat sheet and pleated form.A renewable media with a moving curtain viscous filter are random-fiber media coated with viscous substance in roll form or curtain where fresh media is fed across the face of the filter and the dirty media is rewound onto a roll at the bottom or to into a reservoir:RollForm: Viscous filter used in roll form.AdhesiveReservoir: Viscous filter used in moving curtain form.A renewable moving curtain dry media filter is a random-fiber dry media of relatively high porosity used in moving-curtain(roll) filters.An electrical filter uses electrostatic precipitation to remove and collect particulate contaminants.'
-  localizations: []
+  ifdGuid: 134O5qw715mQBvLriQGK7g
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertyEnumeratedValue:
+    listName: PEnum_FilterAirParticleFilterType
+    enumerationValues:
+    - name: COARSEMETALSCREEN
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Coarsemetalscreen
+        definition: ''
+      - language: de-DE
+        name: Coarsemetalscreen
+        definition: ''
+      - language: fr-FR
+        name: Coarsemetalscreen
+        definition: ''
+      - language: ja-JP
+        name: Coarsemetalscreen
+        definition: ''
+    - name: COARSECELLFOAMS
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Coarsecellfoams
+        definition: ''
+      - language: de-DE
+        name: Coarsecellfoams
+        definition: ''
+      - language: fr-FR
+        name: Coarsecellfoams
+        definition: ''
+      - language: ja-JP
+        name: Coarsecellfoams
+        definition: ''
+    - name: COARSESPUNGLASS
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Coarsespunglass
+        definition: ''
+      - language: de-DE
+        name: Coarsespunglass
+        definition: ''
+      - language: fr-FR
+        name: Coarsespunglass
+        definition: ''
+      - language: ja-JP
+        name: Coarsespunglass
+        definition: ''
+    - name: MEDIUMELECTRETFILTER
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Mediumelectretfilter
+        definition: ''
+      - language: de-DE
+        name: Mediumelectretfilter
+        definition: ''
+      - language: fr-FR
+        name: Mediumelectretfilter
+        definition: ''
+      - language: ja-JP
+        name: Mediumelectretfilter
+        definition: ''
+    - name: MEDIUMNATURALFIBERFILTER
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Mediumnaturalfiberfilter
+        definition: ''
+      - language: de-DE
+        name: Mediumnaturalfiberfilter
+        definition: ''
+      - language: fr-FR
+        name: Mediumnaturalfiberfilter
+        definition: ''
+      - language: ja-JP
+        name: Mediumnaturalfiberfilter
+        definition: ''
+    - name: HEPAFILTER
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Hepafilter
+        definition: ''
+      - language: de-DE
+        name: Hepafilter
+        definition: ''
+      - language: fr-FR
+        name: Hepafilter
+        definition: ''
+      - language: ja-JP
+        name: Hepafilter
+        definition: ''
+    - name: ULPAFILTER
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Ulpafilter
+        definition: ''
+      - language: de-DE
+        name: Ulpafilter
+        definition: ''
+      - language: fr-FR
+        name: Ulpafilter
+        definition: ''
+      - language: ja-JP
+        name: Ulpafilter
+        definition: ''
+    - name: MEMBRANEFILTERS
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Membranefilters
+        definition: ''
+      - language: de-DE
+        name: Membranefilters
+        definition: ''
+      - language: fr-FR
+        name: Membranefilters
+        definition: ''
+      - language: ja-JP
+        name: Membranefilters
+        definition: ''
+    - name: RENEWABLEMOVINGCURTIANDRYMEDIAFILTER
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Renewablemovingcurtiandrymediafilter
+        definition: ''
+      - language: de-DE
+        name: Renewablemovingcurtiandrymediafilter
+        definition: ''
+      - language: fr-FR
+        name: Renewablemovingcurtiandrymediafilter
+        definition: ''
+      - language: ja-JP
+        name: Renewablemovingcurtiandrymediafilter
+        definition: ''
+    - name: ELECTRICALFILTER
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Electricalfilter
+        definition: ''
+      - language: de-DE
+        name: Electricalfilter
+        definition: ''
+      - language: fr-FR
+        name: Electricalfilter
+        definition: ''
+      - language: ja-JP
+        name: Electricalfilter
+        definition: ''
+    - name: ROLLFORM
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Rollform
+        definition: ''
+      - language: de-DE
+        name: Rollform
+        definition: ''
+      - language: fr-FR
+        name: Rollform
+        definition: ''
+      - language: ja-JP
+        name: Rollform
+        definition: ''
+    - name: ADHESIVERESERVOIR
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Adhesivereservoir
+        definition: ''
+      - language: de-DE
+        name: Adhesivereservoir
+        definition: ''
+      - language: fr-FR
+        name: Adhesivereservoir
+        definition: ''
+      - language: ja-JP
+        name: Adhesivereservoir
+        definition: ''
+    - name: OTHER
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Other
+        definition: ''
+      - language: de-DE
+        name: Other
+        definition: ''
+      - language: fr-FR
+        name: Other
+        definition: ''
+      - language: ja-JP
+        name: Other
+        definition: ''
+    - name: UNKNOWN
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Unknown
+        definition: ''
+      - language: de-DE
+        name: Unknown
+        definition: ''
+      - language: fr-FR
+        name: Unknown
+        definition: ''
+      - language: ja-JP
+        name: Unknown
+        definition: ''
 - name: FrameMaterial
-  ifdGuid: a3e8a6ca79b2439693bf23c32842c4c0
   definition: Filter frame material.
-  localizations: []
+  ifdGuid: 2ZwARAUR93bfE$8yCeGiJ0
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertyReferenceValue:
+    url: http://buildingsmart-tech.org
+    guid: ''
+    libraryName: Industry Foundation Classes by buildingSMART International
+    sectionref: Core Schema
 - name: SeparationType
-  ifdGuid: 4021fdfb10204e00809b6d665b5bee84
   definition: Air particulate filter media separation type.
-  localizations: []
+  ifdGuid: 108Vtx421E082RRMPRM_w4
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertyEnumeratedValue:
+    listName: PEnum_FilterAirParticleFilterSeparationType
+    enumerationValues:
+    - name: BAG
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Bag
+        definition: ''
+      - language: de-DE
+        name: Bag
+        definition: ''
+      - language: fr-FR
+        name: Bag
+        definition: ''
+      - language: ja-JP
+        name: Bag
+        definition: ''
+    - name: PLEAT
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Pleat
+        definition: ''
+      - language: de-DE
+        name: Pleat
+        definition: ''
+      - language: fr-FR
+        name: Pleat
+        definition: ''
+      - language: ja-JP
+        name: Pleat
+        definition: ''
+    - name: TREADSEPARATION
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Treadseparation
+        definition: ''
+      - language: de-DE
+        name: Treadseparation
+        definition: ''
+      - language: fr-FR
+        name: Treadseparation
+        definition: ''
+      - language: ja-JP
+        name: Treadseparation
+        definition: ''
+    - name: OTHER
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Other
+        definition: ''
+      - language: de-DE
+        name: Other
+        definition: ''
+      - language: fr-FR
+        name: Other
+        definition: ''
+      - language: ja-JP
+        name: Other
+        definition: ''
+    - name: UNKNOWN
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Unknown
+        definition: ''
+      - language: de-DE
+        name: Unknown
+        definition: ''
+      - language: fr-FR
+        name: Unknown
+        definition: ''
+      - language: ja-JP
+        name: Unknown
+        definition: ''
 - name: DustHoldingCapacity
-  ifdGuid: bac1ff8a3fea489a95dd3f814d90557f
   definition: Maximum filter dust holding capacity.
-  localizations: []
+  ifdGuid: 2wmV_AF_f8cfNTFu5Da5L$
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcMassMeasure
+    measureType: ''
+    unitType: MASSUNIT
 - name: FaceSurfaceArea
-  ifdGuid: 2b21db5bed5a4b40b57e1087f715f894
   definition: Face area of filter frame.
-  localizations: []
+  ifdGuid: 0h8TjRxLfBGBL_48Vt5VYK
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcAreaMeasure
+    measureType: ''
+    unitType: AREAUNIT
 - name: MediaExtendedArea
-  ifdGuid: 8fe36cbb1e624ac981922fd7a668f135
   definition: Total extended media area.
-  localizations: []
+  ifdGuid: 2Fusox7c9AoO6IBzUcQF4r
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcAreaMeasure
+    measureType: ''
+    unitType: AREAUNIT
 - name: NominalCountedEfficiency
-  ifdGuid: 6cfc010a4c93433688ccb9937cf5c454
   definition: Nominal filter efficiency based the particle count concentration before and after the filter against particles with a certain size distribution.
-  localizations: []
+  ifdGuid: 1i$04AJ9D3DeZCkPDyzSHK
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcReal
+    measureType: ''
+    unitType: USERDEFINED
 - name: NominalWeightedEfficiency
-  ifdGuid: ac18c1e930e446268f499efdf03eed92
   definition: Nominal filter efficiency based the particle weight concentration before and after the filter against particles with a certain size distribution.
-  localizations: []
+  ifdGuid: 2i6C7fCEH69ez9dltmFksI
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcReal
+    measureType: ''
+    unitType: USERDEFINED
 - name: PressureDropCurve
-  ifdGuid: 9dabc222c1ff43ada30da5b686fd0d45
   definition: Under certain dust holding weight, DelPressure = f (fluidflowRate)
-  localizations: []
+  ifdGuid: 2Tgy8YmVz3hQCDfRQ6$Gr5
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertyTableValue:
+    Expression: DelPressure = f (fluidflowRate)
+    DefiningValue:
+      dataType: IfcVolumetricFlowRateMeasure
+      measureType: ''
+      unitType: PRESSUREUNIT
+    DefinedValue:
+      dataType: IfcPressureMeasure
+      measureType: ''
+      unitType: PRESSUREUNIT
 - name: CountedEfficiencyCurve
-  ifdGuid: 2c139c308a2c41478d7a15c4976a9b7e
   definition: Counted efficiency curve as a function of dust holding weight, efficiency = f (dust holding weight).
-  localizations: []
+  ifdGuid: 0i4vmmYYn1Hurw5SINQfj_
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertyTableValue:
+    Expression: efficiency = f (dust holding weight)
+    DefiningValue:
+      dataType: IfcMassMeasure
+      measureType: ''
+      unitType: USERDEFINED
+    DefinedValue:
+      dataType: IfcReal
+      measureType: ''
+      unitType: USERDEFINED
 - name: WeightedEfficiencyCurve
-  ifdGuid: 5328c97da53140fcb1478498d64d8e2a
   definition: Weighted efficiency curve as a function of dust holding weight, efficiency = f (dust holding weight).
-  localizations: []
+  ifdGuid: 1JACbzfJ50$B57X9ZMJOug
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertyTableValue:
+    Expression: efficiency = f (dust holding weight)
+    DefiningValue:
+      dataType: IfcMassMeasure
+      measureType: ''
+      unitType: USERDEFINED
+    DefinedValue:
+      dataType: IfcReal
+      measureType: ''
+      unitType: USERDEFINED

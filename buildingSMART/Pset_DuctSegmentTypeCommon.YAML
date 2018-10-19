@@ -1,85 +1,419 @@
 ﻿name: Pset_DuctSegmentTypeCommon
 ifcVersion:
-  version: IFC4
+  version: 4.0.0.0
   schema: IfcHvacDomain
 ifdGuid: ''
 definition: Duct segment type common attributes.
+localizations:
+- language: en-EN
+  name: ''
+  definition: ''
+- language: de-DE
+  name: ''
+  definition: ''
+- language: fr-FR
+  name: ''
+  definition: ''
+- language: ja-JP
+  name: ''
+  definition: ''
 applicableIfcClasses:
 - name: IfcDuctSegmentType
   type: IfcDuctSegmentType
 properties:
 - name: Reference
   definition: Reference ID for this specified type in this project (e.g. type 'A-1').
+  ifdGuid: ''
   localizations:
   - language: ja-JP
     name: 参照記号
     definition: このプロジェクトにおける参照記号(例：A-1)。分類コードではなく内部で使用されるプロジェクトタイプとして使用されるもの。
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcIdentifier
+    measureType: ''
+    unitType: USERDEFINED
 - name: Status
-  definition: 'Status of the element, predominately used in renovation or retrofitting projects. The status can be assigned to as "New" - element designed as new addition, "Existing" - element exists and remains, "Demolish" - element existed but is to be demolished,  "Temporary" - element will exists only temporary (like a temporary support structure). '
+  definition: Status of the element, predominately used in renovation or retrofitting projects. The status can be assigned to as "New" - element designed as new addition, "Existing" - element exists and remains, "Demolish" - element existed but is to be demolished,  "Temporary" - element will exists only temporary (like a temporary support structure).
+  ifdGuid: ''
   localizations:
   - language: ja-JP
     name: 状態
     definition: 要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertyEnumeratedValue:
+    listName: PEnum_Status
+    enumerationValues:
+    - name: NEW
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: New
+        definition: ''
+      - language: de-DE
+        name: New
+        definition: ''
+      - language: fr-FR
+        name: New
+        definition: ''
+      - language: ja-JP
+        name: New
+        definition: ''
+    - name: EXISTING
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Existing
+        definition: ''
+      - language: de-DE
+        name: Existing
+        definition: ''
+      - language: fr-FR
+        name: Existing
+        definition: ''
+      - language: ja-JP
+        name: Existing
+        definition: ''
+    - name: DEMOLISH
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Demolish
+        definition: ''
+      - language: de-DE
+        name: Demolish
+        definition: ''
+      - language: fr-FR
+        name: Demolish
+        definition: ''
+      - language: ja-JP
+        name: Demolish
+        definition: ''
+    - name: TEMPORARY
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Temporary
+        definition: ''
+      - language: de-DE
+        name: Temporary
+        definition: ''
+      - language: fr-FR
+        name: Temporary
+        definition: ''
+      - language: ja-JP
+        name: Temporary
+        definition: ''
+    - name: OTHER
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Other
+        definition: ''
+      - language: de-DE
+        name: Other
+        definition: ''
+      - language: fr-FR
+        name: Other
+        definition: ''
+      - language: ja-JP
+        name: Other
+        definition: ''
+    - name: UNKNOWN
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Unknown
+        definition: ''
+      - language: de-DE
+        name: Unknown
+        definition: ''
+      - language: fr-FR
+        name: Unknown
+        definition: ''
+      - language: ja-JP
+        name: Unknown
+        definition: ''
 - name: Shape
-  ifdGuid: 6c151f3122ba4173b787f507ec833731
   definition: Cross sectional shape. Note that this shape is uniform throughout the length of the segment. For nonuniform shapes, a transition fitting should be used instead.
+  ifdGuid: 1i5Hyn8hf1SxU7zGViWpSn
   localizations:
   - language: ja-JP
     name: 形状
     definition: 断面形状：この形状は直管を通じて一定である。変形する形状のためには、かわりに変形継手が使用される。（フラットオーバル、角型、丸型　他）
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertyEnumeratedValue:
+    listName: PEnum_DuctSegmentShape
+    enumerationValues:
+    - name: FLATOVAL
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Flatoval
+        definition: ''
+      - language: de-DE
+        name: Flatoval
+        definition: ''
+      - language: fr-FR
+        name: Flatoval
+        definition: ''
+      - language: ja-JP
+        name: Flatoval
+        definition: ''
+    - name: RECTANGULAR
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Rectangular
+        definition: ''
+      - language: de-DE
+        name: Rectangular
+        definition: ''
+      - language: fr-FR
+        name: Rectangular
+        definition: ''
+      - language: ja-JP
+        name: Rectangular
+        definition: ''
+    - name: ROUND
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Round
+        definition: ''
+      - language: de-DE
+        name: Round
+        definition: ''
+      - language: fr-FR
+        name: Round
+        definition: ''
+      - language: ja-JP
+        name: Round
+        definition: ''
+    - name: OTHER
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Other
+        definition: ''
+      - language: de-DE
+        name: Other
+        definition: ''
+      - language: fr-FR
+        name: Other
+        definition: ''
+      - language: ja-JP
+        name: Other
+        definition: ''
+    - name: UNKNOWN
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Unknown
+        definition: ''
+      - language: de-DE
+        name: Unknown
+        definition: ''
+      - language: fr-FR
+        name: Unknown
+        definition: ''
+      - language: ja-JP
+        name: Unknown
+        definition: ''
 - name: WorkingPressure
-  ifdGuid: a79c507467524a2e84b15d68d1263918
   definition: Pressure classification as defined by the authority having jurisdiction (e.g., SMACNA, etc.).
+  ifdGuid: 2dd51qPr9ABeInNMZH9ZaO
   localizations:
   - language: ja-JP
     name: 圧力クラス
     definition: 管轄権を持つ当局（SMACNAなど）によって定義された圧力分類
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPressureMeasure
+    measureType: ''
+    unitType: PRESSUREUNIT
 - name: PressureRange
-  ifdGuid: 2e818da53cef40eb901fd7a11215ff11
   definition: Allowable maximum and minimum working pressure (relative to ambient pressure).
+  ifdGuid: 0kWOsbFEz0wv0Vrw4I5VyH
   localizations:
   - language: ja-JP
     name: 圧力範囲
     definition: 許容最大・最小動作圧力（周辺圧力との相対値）
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertyBoundedValue:
+    unitType: ConsoleAppYamlTest.UnitType
+    LowerBoundValue: 0
+    UpperBoundValue: '?'
+    typeName: TypePropertyBoundedValue
 - name: TemperatureRange
-  ifdGuid: 7937970704c445868d7a75612bcc33cf
   definition: Allowable maximum and minimum temperature.
+  ifdGuid: 1vDvS71CH5XerwTM4hp3FF
   localizations:
   - language: ja-JP
     name: 温度範囲
     definition: 許容最高・最低温度
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertyBoundedValue:
+    unitType: ConsoleAppYamlTest.UnitType
+    LowerBoundValue: 0
+    UpperBoundValue: '?'
+    typeName: TypePropertyBoundedValue
 - name: LongitudinalSeam
-  ifdGuid: d3f0d2256e8445fd8f67b78885d03b61
   definition: The type of seam to be used along the longitudinal axis of the duct segment.
+  ifdGuid: 3JyD8bReH5$OzdjuY5q3jX
   localizations:
   - language: ja-JP
     name: ハゼ
     definition: ハゼの種類は、ダクト直管の縦方向に使用するハゼの種類
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcText
+    measureType: ''
+    unitType: USERDEFINED
 - name: NominalDiameterOrWidth
-  ifdGuid: 9ddf3482156c4804b469780e24a8f27f
   definition: The nominal diameter or width of the duct segment.
+  ifdGuid: 2TtpI25Mn81BHfU0uagF9$
   localizations:
   - language: ja-JP
     name: 呼び径・巾
     definition: ダクト直管の呼び径またはダクト巾
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPositiveLengthMeasure
+    measureType: ''
+    unitType: LENGTHUNIT
 - name: NominalHeight
-  ifdGuid: a8acd52e6fc84e7eae89317206641642
   definition: The nominal height of the duct segment.
+  ifdGuid: 2ehDKkRyXEVgw9CN86P1P2
   localizations:
   - language: ja-JP
     name: 呼び高さ
     definition: ダクト直管の高さ
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPositiveLengthMeasure
+    measureType: ''
+    unitType: LENGTHUNIT
 - name: Reinforcement
-  ifdGuid: 409cdc2820874f8ea5ac993edb629e3a
   definition: The type of reinforcement, if any, used for the duct segment.
+  ifdGuid: 10dDme88TFZgMicJxROfuw
   localizations:
   - language: ja-JP
     name: 補強
     definition: ダクト直管に何か使用されている場合の補強種類
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcLabel
+    measureType: ''
+    unitType: USERDEFINED
 - name: ReinforcementSpacing
-  ifdGuid: 8b1ef2a545d24c89842a9d6599c54a5b
   definition: The spacing between reinforcing elements.
+  ifdGuid: 2B7lAbHT9CYOGgdMMPnKfR
   localizations:
   - language: ja-JP
     name: 補強間隔
     definition: 補強要素間の距離
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPositiveLengthMeasure
+    measureType: ''
+    unitType: LENGTHUNIT

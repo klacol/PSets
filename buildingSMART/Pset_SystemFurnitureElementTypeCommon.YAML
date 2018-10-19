@@ -1,30 +1,123 @@
 ﻿name: Pset_SystemFurnitureElementTypeCommon
 ifcVersion:
-  version: IFC4
+  version: 4.0.0.0
   schema: IfcSharedFacilitiesElements
 ifdGuid: ''
 definition: 'Common properties for all systems furniture (I.e. modular furniture) element types (e.g. vertical panels, work surfaces, and storage). HISTORY: First issued in IFC Release R1.5. Renamed from Pset_FurnitureElementCommon'
+localizations:
+- language: en-EN
+  name: ''
+  definition: ''
+- language: de-DE
+  name: ''
+  definition: ''
+- language: fr-FR
+  name: ''
+  definition: ''
+- language: ja-JP
+  name: ''
+  definition: ''
 applicableIfcClasses:
 - name: IfcSystemFurnitureElementType
   type: IfcSystemFurnitureElementType
 properties:
 - name: IsUsed
-  ifdGuid: 039288eeaa4f4746b9371963283fd9ca
   definition: Indicates whether the element is being used in a workstation (= TRUE) or not.(= FALSE).
-  localizations: []
+  ifdGuid: 03aeZkgaz7Hhat6MCeFzdA
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcBoolean
+    measureType: ''
+    unitType: USERDEFINED
 - name: GroupCode
-  ifdGuid: 2d4cd722c2154524976e52ba44038f74
   definition: e.g. panels, worksurfaces, storage, etc.
-  localizations: []
+  ifdGuid: 0jJDSYmXL599TkKhf40uzq
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcIdentifier
+    measureType: ''
+    unitType: USERDEFINED
 - name: NominalWidth
-  ifdGuid: 4a5c2841d3b24252a400ec44ae75564b
   definition: The nominal width of the system furniture elements of this type. The size information is provided in addition to the shape representation and the geometric parameters used within. In cases of inconsistency between the geometric parameters and the size properties, provided in the attached property set, the geometric parameters take precedence.
-  localizations: []
+  ifdGuid: 1AN2X1qx92KgG0x4IkTLPB
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPositiveLengthMeasure
+    measureType: ''
+    unitType: LENGTHUNIT
 - name: NominalHeight
-  ifdGuid: 80cb9076649d4f9a9258f202b8496ca5
   definition: The nominal height of the system furniture elements of this type. The size information is provided in addition to the shape representation and the geometric parameters used within. In cases of inconsistency between the geometric parameters and the size properties, provided in the attached property set, the geometric parameters take precedence.
-  localizations: []
+  ifdGuid: 20ov1sP9rFcf9OyWAuIMob
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPositiveLengthMeasure
+    measureType: ''
+    unitType: LENGTHUNIT
 - name: Finishing
-  ifdGuid: 265a20657715476c849f3aff36747f4a
   definition: The finishing applied to system furniture elements of this type e.g. walnut, fabric.
-  localizations: []
+  ifdGuid: 0cMY1bTnL7R8IVElysT7zA
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcLabel
+    measureType: ''
+    unitType: USERDEFINED

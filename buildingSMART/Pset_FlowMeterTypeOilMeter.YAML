@@ -1,18 +1,63 @@
 ﻿name: Pset_FlowMeterTypeOilMeter
 ifcVersion:
-  version: IFC4
+  version: 4.0.0.0
   schema: IfcHvacDomain
 ifdGuid: ''
 definition: Device that measures, indicates and sometimes records, the volume of oil that passes through it without interrupting the flow.
+localizations:
+- language: en-EN
+  name: ''
+  definition: ''
+- language: de-DE
+  name: ''
+  definition: ''
+- language: fr-FR
+  name: ''
+  definition: ''
+- language: ja-JP
+  name: ''
+  definition: ''
 applicableIfcClasses:
 - name: IfcFlowMeterType
   type: IfcFlowMeterType/OILMETER
 properties:
 - name: ConnectionSize
-  ifdGuid: 26cb62d1f7df4606a50a60d394c94348
   definition: Defines the size of inlet and outlet pipe connections to the meter.
-  localizations: []
+  ifdGuid: 0cosBHzzz61gKAODEKoKD8
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPositiveLengthMeasure
+    measureType: ''
+    unitType: LENGTHUNIT
 - name: MaximumFlowRate
-  ifdGuid: 0afad6a2e4884b55bfa2f6856aacd409
   definition: Maximum rate of flow which the meter is expected to pass.
-  localizations: []
+  ifdGuid: 0A_jQYv8XBLR_YzeLghDG9
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcVolumetricFlowRateMeasure
+    measureType: ''
+    unitType: VOLUMETRICFLOWRATEUNIT

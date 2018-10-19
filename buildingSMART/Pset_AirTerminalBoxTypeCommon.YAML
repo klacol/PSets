@@ -1,15 +1,29 @@
 ﻿name: Pset_AirTerminalBoxTypeCommon
 ifcVersion:
-  version: IFC4
+  version: 4.0.0.0
   schema: IfcHvacDomain
 ifdGuid: ''
 definition: Air terminal box type common attributes.
+localizations:
+- language: en-EN
+  name: ''
+  definition: ''
+- language: de-DE
+  name: ''
+  definition: ''
+- language: fr-FR
+  name: ''
+  definition: ''
+- language: ja-JP
+  name: ''
+  definition: ''
 applicableIfcClasses:
 - name: IfcAirTerminalBoxType
   type: IfcAirTerminalBoxType
 properties:
 - name: Reference
-  definition: "Reference ID for this specified type in this project (e.g. type 'A-1'), provided, if there is no classification reference to a recognized classification system used. "
+  definition: Reference ID for this specified type in this project (e.g. type 'A-1'), provided, if there is no classification reference to a recognized classification system used.
+  ifdGuid: ''
   localizations:
   - language: fr-FR
     name: Référence
@@ -17,8 +31,19 @@ properties:
   - language: ja-JP
     name: 参照記号
     definition: このプロジェクトにおける参照記号(例：A-1)。分類コードではなく内部で使用されるプロジェクトタイプとして使用されるもの。
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcIdentifier
+    measureType: ''
+    unitType: USERDEFINED
 - name: Status
-  definition: 'Status of the element, predominately used in renovation or retrofitting projects. The status can be assigned to as "New" - element designed as new addition, "Existing" - element exists and remains, "Demolish" - element existed but is to be demolished,  "Temporary" - element will exists only temporary (like a temporary support structure). '
+  definition: Status of the element, predominately used in renovation or retrofitting projects. The status can be assigned to as "New" - element designed as new addition, "Existing" - element exists and remains, "Demolish" - element existed but is to be demolished,  "Temporary" - element will exists only temporary (like a temporary support structure).
+  ifdGuid: ''
   localizations:
   - language: fr-FR
     name: Etat
@@ -26,9 +51,114 @@ properties:
   - language: ja-JP
     name: 状態
     definition: 要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  typePropertyEnumeratedValue:
+    listName: PEnum_Status
+    enumerationValues:
+    - name: NEW
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: New
+        definition: ''
+      - language: de-DE
+        name: New
+        definition: ''
+      - language: fr-FR
+        name: New
+        definition: ''
+      - language: ja-JP
+        name: New
+        definition: ''
+    - name: EXISTING
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Existing
+        definition: ''
+      - language: de-DE
+        name: Existing
+        definition: ''
+      - language: fr-FR
+        name: Existing
+        definition: ''
+      - language: ja-JP
+        name: Existing
+        definition: ''
+    - name: DEMOLISH
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Demolish
+        definition: ''
+      - language: de-DE
+        name: Demolish
+        definition: ''
+      - language: fr-FR
+        name: Demolish
+        definition: ''
+      - language: ja-JP
+        name: Demolish
+        definition: ''
+    - name: TEMPORARY
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Temporary
+        definition: ''
+      - language: de-DE
+        name: Temporary
+        definition: ''
+      - language: fr-FR
+        name: Temporary
+        definition: ''
+      - language: ja-JP
+        name: Temporary
+        definition: ''
+    - name: OTHER
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Other
+        definition: ''
+      - language: de-DE
+        name: Other
+        definition: ''
+      - language: fr-FR
+        name: Other
+        definition: ''
+      - language: ja-JP
+        name: Other
+        definition: ''
+    - name: UNKNOWN
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Unknown
+        definition: ''
+      - language: de-DE
+        name: Unknown
+        definition: ''
+      - language: fr-FR
+        name: Unknown
+        definition: ''
+      - language: ja-JP
+        name: Unknown
+        definition: ''
 - name: AirflowRateRange
-  ifdGuid: 926b218f436f4491aff0f9200058b70d
   definition: Range of airflow that can be delivered.
+  ifdGuid: 2IQo6FGsz4aQ$m_I00MBSD
   localizations:
   - language: fr-FR
     name: Domaine de débit d'air
@@ -36,9 +166,20 @@ properties:
   - language: ja-JP
     name: 風量範囲
     definition: 送風できる風量の範囲
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  typePropertyBoundedValue:
+    unitType: ConsoleAppYamlTest.UnitType
+    LowerBoundValue: 0
+    UpperBoundValue: '?'
+    typeName: TypePropertyBoundedValue
 - name: AirPressureRange
-  ifdGuid: 75ae026f8f754d3f9b7e373dde7bb0b3
   definition: Allowable air static pressure range at the entrance of the air terminal box.
+  ifdGuid: 1rhW9lZtLDFvj_DptUUx2p
   localizations:
   - language: fr-FR
     name: Plage de pression d'air
@@ -46,9 +187,20 @@ properties:
   - language: ja-JP
     name: 空気圧範囲
     definition: ターミナル入り口での許容静圧範囲
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  typePropertyBoundedValue:
+    unitType: ConsoleAppYamlTest.UnitType
+    LowerBoundValue: 0
+    UpperBoundValue: '?'
+    typeName: TypePropertyBoundedValue
 - name: NominalAirFlowRate
-  ifdGuid: 1a03ca0837fa45349f2b8ed9129d5b49
   definition: Nominal airflow rate.
+  ifdGuid: 0Q0ye8D$f5D9yhZjaIdLj9
   localizations:
   - language: fr-FR
     name: Débit d'air nominal
@@ -56,9 +208,19 @@ properties:
   - language: ja-JP
     name: 設計風量範囲
     definition: 設計風量範囲
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcVolumetricFlowRateMeasure
+    measureType: ''
+    unitType: VOLUMETRICFLOWRATEUNIT
 - name: ArrangementType
-  ifdGuid: 05fa5dbbb9a84de29ff03c9ab93b2313
   definition: 'Terminal box arrangement.SingleDuct: Terminal box receives warm or cold air from a single air supply duct.DualDuct: Terminal box receives warm and cold air from separate air supply ducts.'
+  ifdGuid: 05_bsxkQXDuf$mF9gvEoCJ
   localizations:
   - language: fr-FR
     name: Type de configuration
@@ -66,9 +228,82 @@ properties:
   - language: ja-JP
     name: ターミナル形式
     definition: ターミナルボックスの形式。単一ダクト：単一のダクトから、温風または冷風を受け取るデュアルダクト：温風、冷風を分離されたダクトから受け取る
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  typePropertyEnumeratedValue:
+    listName: PEnum_AirTerminalBoxArrangementType
+    enumerationValues:
+    - name: SINGLEDUCT
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Singleduct
+        definition: ''
+      - language: de-DE
+        name: Singleduct
+        definition: ''
+      - language: fr-FR
+        name: Singleduct
+        definition: ''
+      - language: ja-JP
+        name: Singleduct
+        definition: ''
+    - name: DUALDUCT
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Dualduct
+        definition: ''
+      - language: de-DE
+        name: Dualduct
+        definition: ''
+      - language: fr-FR
+        name: Dualduct
+        definition: ''
+      - language: ja-JP
+        name: Dualduct
+        definition: ''
+    - name: OTHER
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Other
+        definition: ''
+      - language: de-DE
+        name: Other
+        definition: ''
+      - language: fr-FR
+        name: Other
+        definition: ''
+      - language: ja-JP
+        name: Other
+        definition: ''
+    - name: UNKNOWN
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Unknown
+        definition: ''
+      - language: de-DE
+        name: Unknown
+        definition: ''
+      - language: fr-FR
+        name: Unknown
+        definition: ''
+      - language: ja-JP
+        name: Unknown
+        definition: ''
 - name: ReheatType
-  ifdGuid: a1c75efd7ffa43b69cefe3560a26e11e
   definition: Terminal box reheat type.
+  ifdGuid: 2XnrxzV$f3jfplurOA9k4U
   localizations:
   - language: fr-FR
     name: Type de réchauffage
@@ -76,9 +311,130 @@ properties:
   - language: ja-JP
     name: 再熱形式
     definition: ターミナルの再熱方式（電気、水コイル、蒸気コイル、ガス加熱．．．）
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  typePropertyEnumeratedValue:
+    listName: PEnum_AirTerminalBoxReheatType
+    enumerationValues:
+    - name: ELECTRICALREHEAT
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Electricalreheat
+        definition: ''
+      - language: de-DE
+        name: Electricalreheat
+        definition: ''
+      - language: fr-FR
+        name: Electricalreheat
+        definition: ''
+      - language: ja-JP
+        name: Electricalreheat
+        definition: ''
+    - name: WATERCOILREHEAT
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Watercoilreheat
+        definition: ''
+      - language: de-DE
+        name: Watercoilreheat
+        definition: ''
+      - language: fr-FR
+        name: Watercoilreheat
+        definition: ''
+      - language: ja-JP
+        name: Watercoilreheat
+        definition: ''
+    - name: STEAMCOILREHEAT
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Steamcoilreheat
+        definition: ''
+      - language: de-DE
+        name: Steamcoilreheat
+        definition: ''
+      - language: fr-FR
+        name: Steamcoilreheat
+        definition: ''
+      - language: ja-JP
+        name: Steamcoilreheat
+        definition: ''
+    - name: GASREHEAT
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Gasreheat
+        definition: ''
+      - language: de-DE
+        name: Gasreheat
+        definition: ''
+      - language: fr-FR
+        name: Gasreheat
+        definition: ''
+      - language: ja-JP
+        name: Gasreheat
+        definition: ''
+    - name: NONE
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: None
+        definition: ''
+      - language: de-DE
+        name: None
+        definition: ''
+      - language: fr-FR
+        name: None
+        definition: ''
+      - language: ja-JP
+        name: None
+        definition: ''
+    - name: OTHER
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Other
+        definition: ''
+      - language: de-DE
+        name: Other
+        definition: ''
+      - language: fr-FR
+        name: Other
+        definition: ''
+      - language: ja-JP
+        name: Other
+        definition: ''
+    - name: UNKNOWN
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Unknown
+        definition: ''
+      - language: de-DE
+        name: Unknown
+        definition: ''
+      - language: fr-FR
+        name: Unknown
+        definition: ''
+      - language: ja-JP
+        name: Unknown
+        definition: ''
 - name: HasSoundAttenuator
-  ifdGuid: 95b237bc3de74ae8817ed210b023ce96
   definition: Terminal box has a sound attenuator.
+  ifdGuid: 2LiZUyFUTAw85_qX2m8ywM
   localizations:
   - language: fr-FR
     name: Possède correction acoustique
@@ -86,9 +442,19 @@ properties:
   - language: ja-JP
     name: 消音有無
     definition: ターミナルに消音があるか否か　（あればTRUE)
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcBoolean
+    measureType: ''
+    unitType: USERDEFINED
 - name: HasReturnAir
-  ifdGuid: e1eef52588f4443681946f20bec19a10
   definition: Terminal box has return air mixed with supply air from duct work.
+  ifdGuid: 3XxlKbYFH4De6KRo2_mPeG
   localizations:
   - language: fr-FR
     name: Possède air  repris
@@ -96,9 +462,19 @@ properties:
   - language: ja-JP
     name: 還気有無
     definition: ターミナルで還気を混合しているか否か（していればTRUE)
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcBoolean
+    measureType: ''
+    unitType: USERDEFINED
 - name: HasFan
-  ifdGuid: b1dad999d71140feb811b408d5a68415
   definition: Terminal box has a fan inside (fan powered box).
+  ifdGuid: 2nsjcPrn50$hWHj0ZLfeGL
   localizations:
   - language: fr-FR
     name: Possède ventilateur
@@ -106,9 +482,19 @@ properties:
   - language: ja-JP
     name: 送風機有無
     definition: 内部に送風機を持つ時にTRUE
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcBoolean
+    measureType: ''
+    unitType: USERDEFINED
 - name: NominalInletAirPressure
-  ifdGuid: beeaa378317f412397731160bdd48eba
   definition: Nominal airflow inlet static pressure.
+  ifdGuid: 2_wgDuCNz18vTp4M2zr8ww
   localizations:
   - language: fr-FR
     name: Pression nominale à l'entrée d'air
@@ -116,9 +502,19 @@ properties:
   - language: ja-JP
     name: 設計入口空気圧
     definition: 入口静圧の設計値
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPressureMeasure
+    measureType: ''
+    unitType: PRESSUREUNIT
 - name: NominalDamperDiameter
-  ifdGuid: 4456fbbf9c8e4f0d955d18afa99b6e05
   definition: Nominal damper diameter.
+  ifdGuid: 14Llk$d8vF3PLT6A_fcsu5
   localizations:
   - language: fr-FR
     name: Diamètre nominal clapet
@@ -126,9 +522,19 @@ properties:
   - language: ja-JP
     name: 設計ダンパ直径
     definition: ダンパ直径の設計値
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPositiveLengthMeasure
+    measureType: ''
+    unitType: LENGTHUNIT
 - name: HousingThickness
-  ifdGuid: 35a671ac4a814dd8b065a4cbc8706957
   definition: Air terminal box housing material thickness.
+  ifdGuid: 0rfd6iIe5DsB1bfCl8S6bN
   localizations:
   - language: fr-FR
     name: Epaisseur de l'enveloppe
@@ -136,9 +542,19 @@ properties:
   - language: ja-JP
     name: ハウジング板厚
     definition: ターミナルのハウジング材の板厚
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcLengthMeasure
+    measureType: ''
+    unitType: LENGTHUNIT
 - name: OperationTemperatureRange
-  ifdGuid: c2ed6df8f0c246a8bcdb435e5e15cf97
   definition: Allowable operational range of the ambient air temperature.
+  ifdGuid: 32xMtuyC96gBpRGrvU5S_N
   localizations:
   - language: fr-FR
     name: Plage de température d'exploitation
@@ -146,9 +562,20 @@ properties:
   - language: ja-JP
     name: 動作温度範囲
     definition: 許容周囲温度範囲
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  typePropertyBoundedValue:
+    unitType: ConsoleAppYamlTest.UnitType
+    LowerBoundValue: 0
+    UpperBoundValue: '?'
+    typeName: TypePropertyBoundedValue
 - name: ReturnAirFractionRange
-  ifdGuid: 71820d2754d44facaaa3a305c0f48c51
   definition: Allowable return air fraction range as a fraction of discharge airflow.
+  ifdGuid: 1nWWqdLDHFhAgZemN0z8nH
   localizations:
   - language: fr-FR
     name: Plage pour la fraction d'air repris
@@ -156,3 +583,14 @@ properties:
   - language: ja-JP
     name: 還気風量比
     definition: 送風量の一部としての許容還気風量
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  typePropertyBoundedValue:
+    unitType: ConsoleAppYamlTest.UnitType
+    LowerBoundValue: 0
+    UpperBoundValue: '?'
+    typeName: TypePropertyBoundedValue

@@ -1,18 +1,63 @@
 ﻿name: Pset_FurnitureTypeTable
 ifcVersion:
-  version: IFC4
+  version: 4.0.0.0
   schema: IfcSharedFacilitiesElements
 ifdGuid: ''
 definition: 'HISTORY: First issued in IFC Release R1.5. Renamed from Pset_Table'
+localizations:
+- language: en-EN
+  name: ''
+  definition: ''
+- language: de-DE
+  name: ''
+  definition: ''
+- language: fr-FR
+  name: ''
+  definition: ''
+- language: ja-JP
+  name: ''
+  definition: ''
 applicableIfcClasses:
 - name: IfcFurnitureType
   type: IfcFurnitureType/TABLE
 properties:
 - name: WorksurfaceArea
-  ifdGuid: 7043fc08d61945a3b299f1152723a113
   definition: The value of the work surface area of the desk..
-  localizations: []
+  ifdGuid: 1mG$m8rXb5exAPyHKd8w4J
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcAreaMeasure
+    measureType: ''
+    unitType: AREAUNIT
 - name: NumberOfChairs
-  ifdGuid: 83a36fcf53334be2a17f218504df5351
   definition: Maximum number of chairs that can fit with the table for normal use.
-  localizations: []
+  ifdGuid: 23es$FKpDBug5$8OK4trDH
+  localizations:
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcInteger
+    measureType: ''
+    unitType: USERDEFINED

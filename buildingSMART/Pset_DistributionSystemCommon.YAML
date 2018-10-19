@@ -1,15 +1,29 @@
 ﻿name: Pset_DistributionSystemCommon
 ifcVersion:
-  version: IFC4
+  version: 4.0.0.0
   schema: IfcSharedBldgServiceElements
 ifdGuid: ''
 definition: Distribution system occurrence attributes attached to an instance of IfcDistributionSystem.
+localizations:
+- language: en-EN
+  name: ''
+  definition: ''
+- language: de-DE
+  name: ''
+  definition: ''
+- language: fr-FR
+  name: ''
+  definition: ''
+- language: ja-JP
+  name: ''
+  definition: ''
 applicableIfcClasses:
 - name: IfcDistributionSystem
   type: IfcDistributionSystem
 properties:
 - name: Reference
-  definition: "Reference ID for this specific instance of a distribution system, or sub-system (e.g. 'WWS/VS1', which indicates the system to be WWS, subsystems VSI/400). The reference values depend on the local code of practice. "
+  definition: Reference ID for this specific instance of a distribution system, or sub-system (e.g. 'WWS/VS1', which indicates the system to be WWS, subsystems VSI/400). The reference values depend on the local code of practice.
+  ifdGuid: ''
   localizations:
   - language: ja-JP
     name: 参照記号
@@ -17,3 +31,16 @@ properties:
   - language: ko-KR
     name: 참조기호
     definition: "공조 시스템 혹은 서브 시스템의 참조 ID (예 : 'WWS/VS1'는 WWS 계통의 VSI/400 하위 계통). ID는 해당 지역 기술 기준보다 결정된다."
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcIdentifier
+    measureType: ''
+    unitType: USERDEFINED

@@ -1,9 +1,22 @@
 ﻿name: Pset_RampFlightCommon
 ifcVersion:
-  version: IFC4
+  version: 4.0.0.0
   schema: IfcSharedBldgElements
 ifdGuid: ''
 definition: Properties common to the definition of all occurrences of IfcRampFlight.
+localizations:
+- language: en-EN
+  name: ''
+  definition: ''
+- language: de-DE
+  name: ''
+  definition: ''
+- language: fr-FR
+  name: ''
+  definition: ''
+- language: ja-JP
+  name: ''
+  definition: ''
 applicableIfcClasses:
 - name: IfcRampFlight
   type: IfcRampFlightType
@@ -11,8 +24,8 @@ applicableIfcClasses:
   type: IfcRampFlightType
 properties:
 - name: Reference
-  ifdGuid: aa1a56302cdf424f944b4face3e62e2d
   definition: Reference ID for this specified type in this project (e.g. type 'A-1'), Also referred to as "construction type". It should be provided as an alternative to the name of the "object type", if the software does not support object types.
+  ifdGuid: 2g6bOmBDz2JvHBJwpZvYuj
   localizations:
   - language: de-DE
     name: Bauteiltyp
@@ -26,8 +39,16 @@ properties:
   - language: zh-CN
     name: 参考号
     definition: 若未采用已知的分类系统，则该属性为该项目中该类型构件的参考编号（例如，类型A-1）。
+  - language: en-EN
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcIdentifier
+    measureType: ''
+    unitType: USERDEFINED
 - name: Status
   definition: Status of the element, predominately used in renovation or retrofitting projects. The status can be assigned to as "New" - element designed as new addition, "Existing" - element exists and remains, "Demolish" - element existed but is to be demolished,  "Temporary" - element will exists only temporary (like a temporary support structure).
+  ifdGuid: ''
   localizations:
   - language: de-DE
     name: Status
@@ -38,9 +59,111 @@ properties:
   - language: ja-JP
     name: 状態
     definition: 要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
+  - language: en-EN
+    name: ''
+    definition: ''
+  typePropertyEnumeratedValue:
+    listName: PEnum_ElementStatus
+    enumerationValues:
+    - name: NEW
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: New
+        definition: ''
+      - language: de-DE
+        name: New
+        definition: ''
+      - language: fr-FR
+        name: New
+        definition: ''
+      - language: ja-JP
+        name: New
+        definition: ''
+    - name: EXISTING
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Existing
+        definition: ''
+      - language: de-DE
+        name: Existing
+        definition: ''
+      - language: fr-FR
+        name: Existing
+        definition: ''
+      - language: ja-JP
+        name: Existing
+        definition: ''
+    - name: DEMOLISH
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Demolish
+        definition: ''
+      - language: de-DE
+        name: Demolish
+        definition: ''
+      - language: fr-FR
+        name: Demolish
+        definition: ''
+      - language: ja-JP
+        name: Demolish
+        definition: ''
+    - name: TEMPORARY
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Temporary
+        definition: ''
+      - language: de-DE
+        name: Temporary
+        definition: ''
+      - language: fr-FR
+        name: Temporary
+        definition: ''
+      - language: ja-JP
+        name: Temporary
+        definition: ''
+    - name: OTHER
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Other
+        definition: ''
+      - language: de-DE
+        name: Other
+        definition: ''
+      - language: fr-FR
+        name: Other
+        definition: ''
+      - language: ja-JP
+        name: Other
+        definition: ''
+    - name: UNKNOWN
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Unknown
+        definition: ''
+      - language: de-DE
+        name: Unknown
+        definition: ''
+      - language: fr-FR
+        name: Unknown
+        definition: ''
+      - language: ja-JP
+        name: Unknown
+        definition: ''
 - name: Headroom
-  ifdGuid: a0ccbd4c39854c50a86d2fa09d713d7c
-  definition: 'Actual headroom clearance for the passageway according to the current design. The shape information is provided in addition to the shape representation and the geometric parameters used within. In cases of inconsistency between the geometric parameters and the shape properties, provided in the attached property, the geometric parameters take precedence. '
+  definition: Actual headroom clearance for the passageway according to the current design. The shape information is provided in addition to the shape representation and the geometric parameters used within. In cases of inconsistency between the geometric parameters and the shape properties, provided in the attached property, the geometric parameters take precedence.
+  ifdGuid: 2WpBrCEOLCKAXjBw2TSJry
   localizations:
   - language: de-DE
     name: Durchgangshöhe
@@ -54,9 +177,16 @@ properties:
   - language: zh-CN
     name: 净空
     definition: 当前设计方案确定的通道实际净空高度。该属性所提供的形状信息是对内部形状描述和几何参数的补充。如果几何参数与该属性所提供的形状属性不符，应以几何参数为准。
+  - language: en-EN
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPositiveLengthMeasure
+    measureType: ''
+    unitType: LENGTHUNIT
 - name: ClearWidth
-  ifdGuid: 969555c7efe14ecfbb8c73cac8cdff79
-  definition: 'Actual clear width measured as the clear space for accessibility and egress; it is a measured distance betwen the two handrails or the wall and a handrail on a ramp.The shape information is provided in addition to the shape representation and the geometric parameters used within. In cases of inconsistency between the geometric parameters and the shape properties, provided in the attached property, the geometric parameters take precedence. '
+  definition: Actual clear width measured as the clear space for accessibility and egress; it is a measured distance betwen the two handrails or the wall and a handrail on a ramp.The shape information is provided in addition to the shape representation and the geometric parameters used within. In cases of inconsistency between the geometric parameters and the shape properties, provided in the attached property, the geometric parameters take precedence.
+  ifdGuid: 2MbLN7x_5EpxkCSyh8pVzv
   localizations:
   - language: de-DE
     name: Lichte Breite
@@ -70,9 +200,16 @@ properties:
   - language: zh-CN
     name: 净宽
     definition: 通道入口和出口实际测量的净宽度，以两侧扶手之间或墙与坡道扶手之间的距离为准。该属性所提供的形状信息是对内部形状描述和几何参数的补充。如果几何参数与该属性所提供的形状属性不符，应以几何参数为准。
+  - language: en-EN
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPositiveLengthMeasure
+    measureType: ''
+    unitType: LENGTHUNIT
 - name: Slope
-  ifdGuid: 5a57421f633a4fc8bbdcba9f9db7ac8e
-  definition: 'Sloping angle of the object  - relative to horizontal (0.0 degrees). Actual maximum slope for the passageway according to the current design.The shape information is provided in addition to the shape representation and the geometric parameters used within. In cases of inconsistency between the geometric parameters and the shape properties, provided in the attached property, the geometric parameters take precedence. '
+  definition: Sloping angle of the object  - relative to horizontal (0.0 degrees). Actual maximum slope for the passageway according to the current design.The shape information is provided in addition to the shape representation and the geometric parameters used within. In cases of inconsistency between the geometric parameters and the shape properties, provided in the attached property, the geometric parameters take precedence.
+  ifdGuid: 1QLq8VOpfFoBlSkf_TjwoE
   localizations:
   - language: de-DE
     name: Neigung
@@ -86,9 +223,16 @@ properties:
   - language: zh-CN
     name: 坡度
     definition: 构件相对于水平（0.0度）方向的实际坡度角。当前设计方案确定的通道的最大坡度。该属性所提供的形状信息是对内部形状描述和几何参数的补充。如果几何参数与该属性所提供的形状属性不符，应以几何参数为准。
+  - language: en-EN
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPlaneAngleMeasure
+    measureType: ''
+    unitType: PLANEANGLEUNIT
 - name: CounterSlope
-  ifdGuid: 68efc4592b834c6c8fd88c97bc651d86
   definition: 'Sloping angle of the object, measured perpendicular to the slope  - relative to horizontal (0.0 degrees). Actual maximum slope for the passageway measured perpendicular to the direction of travel according to the current design. The shape information is provided in addition to the shape representation and the geometric parameters used within. In cases of inconsistency between the geometric parameters and the shape properties, provided in the attached property, the geometric parameters take precedence. Note: new property in IFC4.'
+  ifdGuid: 1exyHPAuDCR8$OZ9UyPHs6
   localizations:
   - language: de-DE
     name: Gegenneigung
@@ -102,3 +246,10 @@ properties:
   - language: zh-CN
     name: 反向坡度
     definition: 构件的垂线相对于水平（0.0度）方向的坡度角。当前设计方案确定的通道行走方向的垂线方向的最大坡度。该属性所提供的形状信息是对内部形状描述和几何参数的补充。如果几何参数与该属性所提供的形状属性不符，应以几何参数为准。
+  - language: en-EN
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPlaneAngleMeasure
+    measureType: ''
+    unitType: PLANEANGLEUNIT

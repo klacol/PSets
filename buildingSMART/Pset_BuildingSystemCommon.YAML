@@ -1,15 +1,28 @@
 ﻿name: Pset_BuildingSystemCommon
 ifcVersion:
-  version: IFC4
+  version: 4.0.0.0
 ifdGuid: ''
 definition: Properties common to the definition of building systems.
+localizations:
+- language: en-EN
+  name: ''
+  definition: ''
+- language: de-DE
+  name: ''
+  definition: ''
+- language: fr-FR
+  name: ''
+  definition: ''
+- language: ja-JP
+  name: ''
+  definition: ''
 applicableIfcClasses:
 - name: IfcBuildingSystem
   type: IfcBuildingSystem
 properties:
 - name: Reference
-  ifdGuid: b13aaa80d1c511e1800000215ad4efdf
   definition: ConsoleAppYamlTest.PropertyType
+  ifdGuid: 2nEgg0qSKHuO00025QrE$V
   localizations:
   - language: de-DE
     name: Kennzeichen
@@ -20,3 +33,13 @@ properties:
   - language: zh-CN
     name: 参考号
     definition: 该项目中该特定建筑系统实例的参考编号（例如，“TRA/EL1”）。该属性值由当地编码规范决定。
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcIdentifier
+    measureType: ''
+    unitType: USERDEFINED

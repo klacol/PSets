@@ -1,15 +1,29 @@
 ﻿name: Pset_DistributionPortTypeControl
 ifcVersion:
-  version: IFC4
+  version: 4.0.0.0
   schema: IfcSharedBldgServiceElements
 ifdGuid: ''
 definition: Control port occurrence attributes attached to an instance of IfcDistributionPort.
+localizations:
+- language: en-EN
+  name: ''
+  definition: ''
+- language: de-DE
+  name: ''
+  definition: ''
+- language: fr-FR
+  name: ''
+  definition: ''
+- language: ja-JP
+  name: ''
+  definition: ''
 applicableIfcClasses:
 - name: IfcDistributionPort
   type: IfcDistributionPort/CONTROL
 properties:
 - name: ConnectionType
   definition: 'The physical port connection:Coaxial: Coaxial connector.DSub: D-Subminature connector.Infrared: Infrared light.RJ: Registered Jack.Radio: Radio waves (wireless).USB: Universal Serial Bus.'
+  ifdGuid: ''
   localizations:
   - language: ja-JP
     name: 接続タイプ
@@ -17,8 +31,149 @@ properties:
   - language: ko-KR
     name: 연결유형
     definition: 'Coaxial : 동축 커넥터 DSub : D-Sub 커넥터 Infrared : 적외선 RJ : 등록된 잭. Radio : 무선 USB : USB.'
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertyEnumeratedValue:
+    listName: PEnum_DistributionPortControlType
+    enumerationValues:
+    - name: COAXIAL
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Coaxial
+        definition: ''
+      - language: de-DE
+        name: Coaxial
+        definition: ''
+      - language: fr-FR
+        name: Coaxial
+        definition: ''
+      - language: ja-JP
+        name: Coaxial
+        definition: ''
+    - name: DSUB
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Dsub
+        definition: ''
+      - language: de-DE
+        name: Dsub
+        definition: ''
+      - language: fr-FR
+        name: Dsub
+        definition: ''
+      - language: ja-JP
+        name: Dsub
+        definition: ''
+    - name: INFRARED
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Infrared
+        definition: ''
+      - language: de-DE
+        name: Infrared
+        definition: ''
+      - language: fr-FR
+        name: Infrared
+        definition: ''
+      - language: ja-JP
+        name: Infrared
+        definition: ''
+    - name: RJ
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Rj
+        definition: ''
+      - language: de-DE
+        name: Rj
+        definition: ''
+      - language: fr-FR
+        name: Rj
+        definition: ''
+      - language: ja-JP
+        name: Rj
+        definition: ''
+    - name: RADIO
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Radio
+        definition: ''
+      - language: de-DE
+        name: Radio
+        definition: ''
+      - language: fr-FR
+        name: Radio
+        definition: ''
+      - language: ja-JP
+        name: Radio
+        definition: ''
+    - name: USB
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Usb
+        definition: ''
+      - language: de-DE
+        name: Usb
+        definition: ''
+      - language: fr-FR
+        name: Usb
+        definition: ''
+      - language: ja-JP
+        name: Usb
+        definition: ''
+    - name: OTHER
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Other
+        definition: ''
+      - language: de-DE
+        name: Other
+        definition: ''
+      - language: fr-FR
+        name: Other
+        definition: ''
+      - language: ja-JP
+        name: Other
+        definition: ''
+    - name: UNKNOWN
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Unknown
+        definition: ''
+      - language: de-DE
+        name: Unknown
+        definition: ''
+      - language: fr-FR
+        name: Unknown
+        definition: ''
+      - language: ja-JP
+        name: Unknown
+        definition: ''
 - name: ConnectionSubtype
   definition: 'The physical port connection subtype that further qualifies the ConnectionType.  The following values are recommended:DSub: DA15, DB25, DC37, DD50, DE9, DE15 Radio: IEEE802.11g, IEEE802.11nRJ: 4P4C, 6P2C, 8P8C USB: A, B, MiniA, MiniB, MicroA, MicroB'
+  ifdGuid: ''
   localizations:
   - language: ja-JP
     name: 接続サブタイプ
@@ -26,8 +181,22 @@ properties:
   - language: ko-KR
     name: 연결 서브타입
     definition: 'Coaxial : 동축 커넥터 DSub : D-Sub 커넥터 Infrared : 적외선 RJ : 등록된 잭. Radio : 무선 USB : USB. " "DSub : DA15, DB25, DC37, DD50, DE9, DE15 Radio : IEEE802.11g, IEEE802.11n RJ : 4P4C, 6P2C, 8P8C USB : A, B, MiniA, MiniB, MicroA, MicroB'
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcLabel
+    measureType: ''
+    unitType: USERDEFINED
 - name: ConnectionGender
   definition: The physical connection gender.
+  ifdGuid: ''
   localizations:
   - language: ja-JP
     name: 接続ジェンダー
@@ -35,8 +204,85 @@ properties:
   - language: ko-KR
     name: 연결젠더
     definition: ''
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertyEnumeratedValue:
+    listName: PEnum_DistributionPortGender
+    enumerationValues:
+    - name: MALE
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Male
+        definition: ''
+      - language: de-DE
+        name: Male
+        definition: ''
+      - language: fr-FR
+        name: Male
+        definition: ''
+      - language: ja-JP
+        name: Male
+        definition: ''
+    - name: FEMALE
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Female
+        definition: ''
+      - language: de-DE
+        name: Female
+        definition: ''
+      - language: fr-FR
+        name: Female
+        definition: ''
+      - language: ja-JP
+        name: Female
+        definition: ''
+    - name: OTHER
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Other
+        definition: ''
+      - language: de-DE
+        name: Other
+        definition: ''
+      - language: fr-FR
+        name: Other
+        definition: ''
+      - language: ja-JP
+        name: Other
+        definition: ''
+    - name: UNKNOWN
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: en-EN
+        name: Unknown
+        definition: ''
+      - language: de-DE
+        name: Unknown
+        definition: ''
+      - language: fr-FR
+        name: Unknown
+        definition: ''
+      - language: ja-JP
+        name: Unknown
+        definition: ''
 - name: Frequency
   definition: Electromagnetic frequency, if applicable.
+  ifdGuid: ''
   localizations:
   - language: ja-JP
     name: 周波数
@@ -44,8 +290,23 @@ properties:
   - language: ko-KR
     name: 주파수
     definition: 전자파의 주파수
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertyBoundedValue:
+    unitType: ConsoleAppYamlTest.UnitType
+    LowerBoundValue: '?'
+    UpperBoundValue: '?'
+    typeName: TypePropertyBoundedValue
 - name: DataSpeed
   definition: Data transmission in bits per second.
+  ifdGuid: ''
   localizations:
   - language: ja-JP
     name: データ転送速度
@@ -53,8 +314,23 @@ properties:
   - language: ko-KR
     name: 데이터 전송속도
     definition: 초당 전송 비트수
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertyBoundedValue:
+    unitType: ConsoleAppYamlTest.UnitType
+    LowerBoundValue: '?'
+    UpperBoundValue: '?'
+    typeName: TypePropertyBoundedValue
 - name: Protocols
   definition: 'Identifies the protocols used as defined by the Open System Interconnection (OSI) Basic Reference Model (ISO 7498).  Layers include: 1. Physical; 2. DataLink; 3. Network; 4. Transport; 5. Session; 6. Presentation; 7. Application.  Example: 3:IP, 4:TCP, 5:HTTP'
+  ifdGuid: ''
   localizations:
   - language: ja-JP
     name: プロトコル
@@ -62,3 +338,22 @@ properties:
   - language: ko-KR
     name: 프로토콜
     definition: '개방형 시스템 상호 연결을위한 기본 프로토콜  Layers include : 1. 실제 2. 데이터 연결; 3. 네트워크; 4. 수송; 5 세션; 6 프레 젠 테이션; 7. 적용됩니다. 예 : 3 IP, 4 : TCP 5 : HTTP'
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertyTableValue:
+    Expression: ' -'
+    DefiningValue:
+      dataType: IfcInteger
+      measureType: ''
+      unitType: USERDEFINED
+    DefinedValue:
+      dataType: IfcLabel
+      measureType: ''
+      unitType: USERDEFINED

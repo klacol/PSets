@@ -1,31 +1,84 @@
 ﻿name: Pset_SensorTypeGasSensor
 ifcVersion:
-  version: IFC4
+  version: 4.0.0.0
   schema: IfcBuildingControlsDomain
 ifdGuid: ''
 definition: 'A device that senses or detects gas. HISTORY: Changed in IFC4. Gas detected made into enumeration, set point concentration and coverage area added. Range, accuracy and time constant deleted.'
+localizations:
+- language: en-EN
+  name: ''
+  definition: ''
+- language: de-DE
+  name: ''
+  definition: ''
+- language: fr-FR
+  name: ''
+  definition: ''
+- language: ja-JP
+  name: ''
+  definition: ''
 applicableIfcClasses:
 - name: IfcSensorType
   type: IfcSensorType/GASSENSOR
 properties:
 - name: GasDetected
-  ifdGuid: aeb403c6b8b546fc98ea56660e1f2d9f
   definition: Identification of the gas that is being detected, according to chemical formula.  For example, carbon monoxide is 'CO', carbon dioxide is 'CO2', oxygen is 'O2'.
+  ifdGuid: 2kj0F6kBL6$9ZgLcOE7osV
   localizations:
   - language: ja-JP
     name: 対象ガス
     definition: 検出されているガスの識別。
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcLabel
+    measureType: ''
+    unitType: USERDEFINED
 - name: SetPointConcentration
-  ifdGuid: 1fe7e53fd60e4aceb7c9ed0d8fe681be
   definition: The gas concentration value to be sensed. Use IfcPropertyBoundedValue.SetPointValue to set the set point value.
+  ifdGuid: 0Vv_K$rWvAphV9xGsFve6_
   localizations:
   - language: ja-JP
     name: ガス濃度設定値
     definition: 感知されるガス濃度。セットポイント値を置くために、IfcPropertyBoundedValue.SetPointValueを使用する。
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertyBoundedValue:
+    unitType: ConsoleAppYamlTest.UnitType
+    LowerBoundValue: 0
+    UpperBoundValue: '?'
+    typeName: TypePropertyBoundedValue
 - name: CoverageArea
-  ifdGuid: 5a1e6a783f884e9387e8bb40fdfdd174
   definition: The floor area that is covered by the sensor (typically measured as a circle whose center is at the location of the sensor).
+  ifdGuid: 1Q7cfuFuXEauVekq3z$T5q
   localizations:
   - language: ja-JP
     name: 測定範囲
     definition: センサでカバーされている床面積。(通常、センターがセンサの位置にある円として測定される)
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcAreaMeasure
+    measureType: ''
+    unitType: AREAUNIT
