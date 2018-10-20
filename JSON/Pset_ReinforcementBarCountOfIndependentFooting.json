@@ -1,0 +1,301 @@
+﻿{
+  "name": "Pset_ReinforcementBarCountOfIndependentFooting",
+  "ifcVersion": {
+    "version": "4.0.0.0",
+    "schema": "IfcStructuralElementsDomain"
+  },
+  "ifdGuid": "",
+  "definition": "Reinforcement Concrete parameter [ST-2]: The amount number information of reinforcement  bar with the independent footing. The X and Y direction are based on the local coordinate system of building storey. The X and Y direction of the reinforcement bar are parallel to the X and Y axis of the IfcBuildingStorey's local coordinate system, respectively.",
+  "localizations": [
+    {
+      "language": "de-DE",
+      "name": "",
+      "definition": ""
+    },
+    {
+      "language": "en-EN",
+      "name": "",
+      "definition": ""
+    },
+    {
+      "language": "es-ES",
+      "name": "",
+      "definition": ""
+    },
+    {
+      "language": "fr-FR",
+      "name": "",
+      "definition": ""
+    },
+    {
+      "language": "ja-JP",
+      "name": "",
+      "definition": ""
+    },
+    {
+      "language": "ru-RU",
+      "name": "",
+      "definition": ""
+    }
+  ],
+  "applicableIfcClasses": [
+    {
+      "name": "IfcFooting",
+      "type": "IfcFootingType"
+    }
+  ],
+  "properties": [
+    {
+      "name": "Description",
+      "definition": "Description of the reinforcement.",
+      "ifdGuid": "0T1MRmRS18tfHqh_G9sGR4",
+      "localizations": [
+        {
+          "language": "ja-JP",
+          "name": "説明",
+          "definition": "鉄筋の説明。"
+        },
+        {
+          "language": "de-DE",
+          "name": "",
+          "definition": ""
+        },
+        {
+          "language": "en-EN",
+          "name": "",
+          "definition": ""
+        },
+        {
+          "language": "es-ES",
+          "name": "",
+          "definition": ""
+        },
+        {
+          "language": "fr-FR",
+          "name": "",
+          "definition": ""
+        },
+        {
+          "language": "ru-RU",
+          "name": "",
+          "definition": ""
+        }
+      ],
+      "typePropertySingleValue": {
+        "dataType": "IfcText",
+        "measureType": "",
+        "unitType": "USERDEFINED"
+      }
+    },
+    {
+      "name": "Reference",
+      "definition": "A descriptive label for the general reinforcement type.",
+      "ifdGuid": "03d28r4ijCxfayaOtvFTJc",
+      "localizations": [
+        {
+          "language": "ja-JP",
+          "name": "参照記号",
+          "definition": "一般的な鉄筋タイプの説明ラベル。"
+        },
+        {
+          "language": "de-DE",
+          "name": "",
+          "definition": ""
+        },
+        {
+          "language": "en-EN",
+          "name": "",
+          "definition": ""
+        },
+        {
+          "language": "es-ES",
+          "name": "",
+          "definition": ""
+        },
+        {
+          "language": "fr-FR",
+          "name": "",
+          "definition": ""
+        },
+        {
+          "language": "ru-RU",
+          "name": "",
+          "definition": ""
+        }
+      ],
+      "typePropertySingleValue": {
+        "dataType": "IfcLabel",
+        "measureType": "",
+        "unitType": "USERDEFINED"
+      }
+    },
+    {
+      "name": "XDirectionLowerBarCount",
+      "definition": "The number of bars with X direction lower bar.",
+      "ifdGuid": "2FTj1bAn90Ge$tiDTF9K0g",
+      "localizations": [
+        {
+          "language": "ja-JP",
+          "name": "X方向下端筋本数",
+          "definition": "X方向の下端筋本数。"
+        },
+        {
+          "language": "de-DE",
+          "name": "",
+          "definition": ""
+        },
+        {
+          "language": "en-EN",
+          "name": "",
+          "definition": ""
+        },
+        {
+          "language": "es-ES",
+          "name": "",
+          "definition": ""
+        },
+        {
+          "language": "fr-FR",
+          "name": "",
+          "definition": ""
+        },
+        {
+          "language": "ru-RU",
+          "name": "",
+          "definition": ""
+        }
+      ],
+      "typePropertySingleValue": {
+        "dataType": "IfcInteger",
+        "measureType": "",
+        "unitType": "USERDEFINED"
+      }
+    },
+    {
+      "name": "YDirectionLowerBarCount",
+      "definition": "The number of bars with Y direction lower bar.",
+      "ifdGuid": "0MqXM96v1CAv63nfdpoRYX",
+      "localizations": [
+        {
+          "language": "ja-JP",
+          "name": "Y方向下端筋本数",
+          "definition": "Y方向の下端筋本数。"
+        },
+        {
+          "language": "de-DE",
+          "name": "",
+          "definition": ""
+        },
+        {
+          "language": "en-EN",
+          "name": "",
+          "definition": ""
+        },
+        {
+          "language": "es-ES",
+          "name": "",
+          "definition": ""
+        },
+        {
+          "language": "fr-FR",
+          "name": "",
+          "definition": ""
+        },
+        {
+          "language": "ru-RU",
+          "name": "",
+          "definition": ""
+        }
+      ],
+      "typePropertySingleValue": {
+        "dataType": "IfcInteger",
+        "measureType": "",
+        "unitType": "USERDEFINED"
+      }
+    },
+    {
+      "name": "XDirectionUpperBarCount",
+      "definition": "The number of bars with X direction upper bar.",
+      "ifdGuid": "3H9zvQxzTBrxKaMWx$BGZB",
+      "localizations": [
+        {
+          "language": "ja-JP",
+          "name": "X方向上端筋本数",
+          "definition": "X方向の上端筋本数。"
+        },
+        {
+          "language": "de-DE",
+          "name": "",
+          "definition": ""
+        },
+        {
+          "language": "en-EN",
+          "name": "",
+          "definition": ""
+        },
+        {
+          "language": "es-ES",
+          "name": "",
+          "definition": ""
+        },
+        {
+          "language": "fr-FR",
+          "name": "",
+          "definition": ""
+        },
+        {
+          "language": "ru-RU",
+          "name": "",
+          "definition": ""
+        }
+      ],
+      "typePropertySingleValue": {
+        "dataType": "IfcInteger",
+        "measureType": "",
+        "unitType": "USERDEFINED"
+      }
+    },
+    {
+      "name": "YDirectionUpperBarCount",
+      "definition": "The number of bars with Y direction upper bar.",
+      "ifdGuid": "0jKAPsZQD9qwkcFGreN33Q",
+      "localizations": [
+        {
+          "language": "ja-JP",
+          "name": "Y方向上端筋本数",
+          "definition": "Y方向の上端筋本数。"
+        },
+        {
+          "language": "de-DE",
+          "name": "",
+          "definition": ""
+        },
+        {
+          "language": "en-EN",
+          "name": "",
+          "definition": ""
+        },
+        {
+          "language": "es-ES",
+          "name": "",
+          "definition": ""
+        },
+        {
+          "language": "fr-FR",
+          "name": "",
+          "definition": ""
+        },
+        {
+          "language": "ru-RU",
+          "name": "",
+          "definition": ""
+        }
+      ],
+      "typePropertySingleValue": {
+        "dataType": "IfcInteger",
+        "measureType": "",
+        "unitType": "USERDEFINED"
+      }
+    }
+  ]
+}

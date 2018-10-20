@@ -1,0 +1,190 @@
+﻿{
+  "name": "Pset_DistributionChamberElementTypeSump",
+  "ifcVersion": {
+    "version": "4.0.0.0",
+    "schema": "IfcSharedBldgServiceElements"
+  },
+  "ifdGuid": "",
+  "definition": "Recess or small chamber into which liquid is drained to facilitate its removal.",
+  "localizations": [
+    {
+      "language": "de-DE",
+      "name": "",
+      "definition": ""
+    },
+    {
+      "language": "en-EN",
+      "name": "",
+      "definition": ""
+    },
+    {
+      "language": "es-ES",
+      "name": "",
+      "definition": ""
+    },
+    {
+      "language": "fr-FR",
+      "name": "",
+      "definition": ""
+    },
+    {
+      "language": "ja-JP",
+      "name": "",
+      "definition": ""
+    },
+    {
+      "language": "ru-RU",
+      "name": "",
+      "definition": ""
+    }
+  ],
+  "applicableIfcClasses": [
+    {
+      "name": "IfcDistributionChamberElementType",
+      "type": "IfcDistributionChamberElementType/SUMP"
+    }
+  ],
+  "properties": [
+    {
+      "name": "Length",
+      "definition": "The length of the sump.",
+      "ifdGuid": "3bQRmjIvb42ul5hyfQ2KGe",
+      "localizations": [
+        {
+          "language": "ja-JP",
+          "name": "長さ",
+          "definition": "排水チャンバーの長さ。"
+        },
+        {
+          "language": "ko-KR",
+          "name": "길이",
+          "definition": "배수 챔버의 길이"
+        },
+        {
+          "language": "de-DE",
+          "name": "",
+          "definition": ""
+        },
+        {
+          "language": "en-EN",
+          "name": "",
+          "definition": ""
+        },
+        {
+          "language": "es-ES",
+          "name": "",
+          "definition": ""
+        },
+        {
+          "language": "fr-FR",
+          "name": "",
+          "definition": ""
+        },
+        {
+          "language": "ru-RU",
+          "name": "",
+          "definition": ""
+        }
+      ],
+      "typePropertySingleValue": {
+        "dataType": "IfcPositiveLengthMeasure",
+        "measureType": "",
+        "unitType": "LENGTHUNIT"
+      }
+    },
+    {
+      "name": "Width",
+      "definition": "The width of the sump.",
+      "ifdGuid": "0p78VlFrb6vP5gKMmk87IW",
+      "localizations": [
+        {
+          "language": "ja-JP",
+          "name": "幅",
+          "definition": "排水チャンバーの幅。"
+        },
+        {
+          "language": "ko-KR",
+          "name": "폭",
+          "definition": "배수 챔버의 폭"
+        },
+        {
+          "language": "de-DE",
+          "name": "",
+          "definition": ""
+        },
+        {
+          "language": "en-EN",
+          "name": "",
+          "definition": ""
+        },
+        {
+          "language": "es-ES",
+          "name": "",
+          "definition": ""
+        },
+        {
+          "language": "fr-FR",
+          "name": "",
+          "definition": ""
+        },
+        {
+          "language": "ru-RU",
+          "name": "",
+          "definition": ""
+        }
+      ],
+      "typePropertySingleValue": {
+        "dataType": "IfcPositiveLengthMeasure",
+        "measureType": "",
+        "unitType": "LENGTHUNIT"
+      }
+    },
+    {
+      "name": "InvertLevel",
+      "definition": "The lowest point in the cross section of the sump.",
+      "ifdGuid": "12mj4QLWjBn9rn4REDxn09",
+      "localizations": [
+        {
+          "language": "ja-JP",
+          "name": "最大深さ（？）",
+          "definition": "断面の最も低い部分の深さ（地面から）。"
+        },
+        {
+          "language": "ko-KR",
+          "name": "최대 깊이",
+          "definition": "단면의 가장 낮은 부분의 깊이 (지상에서)"
+        },
+        {
+          "language": "de-DE",
+          "name": "",
+          "definition": ""
+        },
+        {
+          "language": "en-EN",
+          "name": "",
+          "definition": ""
+        },
+        {
+          "language": "es-ES",
+          "name": "",
+          "definition": ""
+        },
+        {
+          "language": "fr-FR",
+          "name": "",
+          "definition": ""
+        },
+        {
+          "language": "ru-RU",
+          "name": "",
+          "definition": ""
+        }
+      ],
+      "typePropertySingleValue": {
+        "dataType": "IfcPositiveLengthMeasure",
+        "measureType": "",
+        "unitType": "LENGTHUNIT"
+      }
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+﻿{
+  "name": "Pset_PipeSegmentTypeCulvert",
+  "ifcVersion": {
+    "version": "4.0.0.0",
+    "schema": "IfcHvacDomain"
+  },
+  "ifdGuid": "",
+  "definition": "Covered channel or large pipe that forms a watercourse below ground level, usually under a road or railway (BS6100).",
+  "localizations": [
+    {
+      "language": "de-DE",
+      "name": "",
+      "definition": ""
+    },
+    {
+      "language": "en-EN",
+      "name": "",
+      "definition": ""
+    },
+    {
+      "language": "es-ES",
+      "name": "",
+      "definition": ""
+    },
+    {
+      "language": "fr-FR",
+      "name": "",
+      "definition": ""
+    },
+    {
+      "language": "ja-JP",
+      "name": "",
+      "definition": ""
+    },
+    {
+      "language": "ru-RU",
+      "name": "",
+      "definition": ""
+    }
+  ],
+  "applicableIfcClasses": [
+    {
+      "name": "IfcPipeSegmentType",
+      "type": "IfcPipeSegmentType/CULVERT"
+    }
+  ],
+  "properties": [
+    {
+      "name": "InternalWidth",
+      "definition": "The internal width of the culvert.",
+      "ifdGuid": "",
+      "localizations": [
+        {
+          "language": "ja-JP",
+          "name": "内幅",
+          "definition": "暗渠管の内幅"
+        },
+        {
+          "language": "de-DE",
+          "name": "",
+          "definition": ""
+        },
+        {
+          "language": "en-EN",
+          "name": "",
+          "definition": ""
+        },
+        {
+          "language": "es-ES",
+          "name": "",
+          "definition": ""
+        },
+        {
+          "language": "fr-FR",
+          "name": "",
+          "definition": ""
+        },
+        {
+          "language": "ru-RU",
+          "name": "",
+          "definition": ""
+        }
+      ],
+      "typePropertySingleValue": {
+        "dataType": "IfcLengthMeasure",
+        "measureType": "",
+        "unitType": "LENGTHUNIT"
+      }
+    },
+    {
+      "name": "ClearDepth",
+      "definition": "The clear depth of the culvert.",
+      "ifdGuid": "",
+      "localizations": [
+        {
+          "language": "ja-JP",
+          "name": "許容深さ",
+          "definition": "暗渠管の許容(安全)深さ"
+        },
+        {
+          "language": "de-DE",
+          "name": "",
+          "definition": ""
+        },
+        {
+          "language": "en-EN",
+          "name": "",
+          "definition": ""
+        },
+        {
+          "language": "es-ES",
+          "name": "",
+          "definition": ""
+        },
+        {
+          "language": "fr-FR",
+          "name": "",
+          "definition": ""
+        },
+        {
+          "language": "ru-RU",
+          "name": "",
+          "definition": ""
+        }
+      ],
+      "typePropertySingleValue": {
+        "dataType": "IfcLengthMeasure",
+        "measureType": "",
+        "unitType": "LENGTHUNIT"
+      }
+    }
+  ]
+}

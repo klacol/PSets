@@ -1,0 +1,194 @@
+﻿{
+  "name": "Pset_DiscreteAccessoryStandardFixingPlate",
+  "ifcVersion": {
+    "version": "4.0.0.0",
+    "schema": "IfcSharedComponentElements"
+  },
+  "ifdGuid": "",
+  "definition": "Properties specific to standard fixing plates.",
+  "localizations": [
+    {
+      "language": "de-DE",
+      "name": "",
+      "definition": ""
+    },
+    {
+      "language": "en-EN",
+      "name": "",
+      "definition": ""
+    },
+    {
+      "language": "es-ES",
+      "name": "",
+      "definition": ""
+    },
+    {
+      "language": "fr-FR",
+      "name": "",
+      "definition": ""
+    },
+    {
+      "language": "ja-JP",
+      "name": "",
+      "definition": ""
+    },
+    {
+      "language": "ru-RU",
+      "name": "",
+      "definition": ""
+    }
+  ],
+  "applicableIfcClasses": [
+    {
+      "name": "IfcDiscreteAccessory",
+      "type": "IfcDiscreteAccessory/Standard fixing plate"
+    },
+    {
+      "name": "IfcDiscreteAccessoryType",
+      "type": "IfcDiscreteAccessory/Standard fixing plate"
+    }
+  ],
+  "properties": [
+    {
+      "name": "StandardFixingPlateWidth",
+      "definition": "The width of the standard fixing plate.",
+      "ifdGuid": "3TxdXJr2H169fProBcLkA1",
+      "localizations": [
+        {
+          "language": "ja-JP",
+          "name": "幅",
+          "definition": "標準的な固定プレートの幅。"
+        },
+        {
+          "language": "ko-KR",
+          "name": "폭",
+          "definition": "표준 고정 플레이트의 폭"
+        },
+        {
+          "language": "de-DE",
+          "name": "",
+          "definition": ""
+        },
+        {
+          "language": "en-EN",
+          "name": "",
+          "definition": ""
+        },
+        {
+          "language": "es-ES",
+          "name": "",
+          "definition": ""
+        },
+        {
+          "language": "fr-FR",
+          "name": "",
+          "definition": ""
+        },
+        {
+          "language": "ru-RU",
+          "name": "",
+          "definition": ""
+        }
+      ],
+      "typePropertySingleValue": {
+        "dataType": "IfcPositiveLengthMeasure",
+        "measureType": "",
+        "unitType": "LENGTHUNIT"
+      }
+    },
+    {
+      "name": "StandardFixingPlateDepth",
+      "definition": "The depth of the standard fixing plate.",
+      "ifdGuid": "1G9KJ$2CHFsQhWS6YeVBe0",
+      "localizations": [
+        {
+          "language": "ja-JP",
+          "name": "成",
+          "definition": "標準的な固定プレートの成。"
+        },
+        {
+          "language": "ko-KR",
+          "name": "구성",
+          "definition": "표준 고정 플레이트 구성"
+        },
+        {
+          "language": "de-DE",
+          "name": "",
+          "definition": ""
+        },
+        {
+          "language": "en-EN",
+          "name": "",
+          "definition": ""
+        },
+        {
+          "language": "es-ES",
+          "name": "",
+          "definition": ""
+        },
+        {
+          "language": "fr-FR",
+          "name": "",
+          "definition": ""
+        },
+        {
+          "language": "ru-RU",
+          "name": "",
+          "definition": ""
+        }
+      ],
+      "typePropertySingleValue": {
+        "dataType": "IfcPositiveLengthMeasure",
+        "measureType": "",
+        "unitType": "LENGTHUNIT"
+      }
+    },
+    {
+      "name": "StandardFixingPlateThickness",
+      "definition": "The thickness of the standard fixing plate.",
+      "ifdGuid": "0bMqCvXgT6OR8TZryCg42w",
+      "localizations": [
+        {
+          "language": "ja-JP",
+          "name": "板厚",
+          "definition": "標準的な固定プレートの板厚。"
+        },
+        {
+          "language": "ko-KR",
+          "name": "두께",
+          "definition": "표준 고정 플레이트의 두께"
+        },
+        {
+          "language": "de-DE",
+          "name": "",
+          "definition": ""
+        },
+        {
+          "language": "en-EN",
+          "name": "",
+          "definition": ""
+        },
+        {
+          "language": "es-ES",
+          "name": "",
+          "definition": ""
+        },
+        {
+          "language": "fr-FR",
+          "name": "",
+          "definition": ""
+        },
+        {
+          "language": "ru-RU",
+          "name": "",
+          "definition": ""
+        }
+      ],
+      "typePropertySingleValue": {
+        "dataType": "IfcPositiveLengthMeasure",
+        "measureType": "",
+        "unitType": "LENGTHUNIT"
+      }
+    }
+  ]
+}
