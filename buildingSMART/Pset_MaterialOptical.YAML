@@ -1,203 +1,227 @@
-﻿name: Pset_MaterialOptical
+﻿name: 'Pset_MaterialOptical'
 ifcVersion:
-  version: 4.0.0.0
-  schema: IfcMaterialResource
+  version: '4.0.0.0'
+  schema: 'IfcMaterialResource'
 ifdGuid: ''
-definition: A set of optical properties of materials.
+definition: 'A set of optical properties of materials.'
 localizations:
-- language: en-EN
+- language: 'de-DE'
   name: ''
   definition: ''
-- language: de-DE
+- language: 'en-EN'
   name: ''
   definition: ''
-- language: fr-FR
+- language: 'es-ES'
   name: ''
   definition: ''
-- language: ja-JP
+- language: 'fr-FR'
+  name: ''
+  definition: ''
+- language: 'ja-JP'
+  name: ''
+  definition: ''
+- language: 'ru-RU'
   name: ''
   definition: ''
 applicableIfcClasses:
 - name: IfcMaterial
   type: IfcMaterial
 properties:
-- name: VisibleTransmittance
-  definition: Transmittance at normal incidence (visible). Defines the fraction of the visible spectrum of solar radiation that passes through per unit area, perpendicular to the surface.
+- name: 'VisibleTransmittance'
+  definition: 'Transmittance at normal incidence (visible). Defines the fraction of the visible spectrum of solar radiation that passes through per unit area, perpendicular to the surface.'
   ifdGuid: ''
   localizations:
-  - language: en-EN
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  - language: ja-JP
+  - language: 'fr-FR'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcPositiveRatioMeasure
-    measureType: ''
-    unitType: USERDEFINED
-- name: SolarTransmittance
-  definition: Transmittance at normal incidence (solar). Defines the fraction of solar radiation that passes through per unit area, perpendicular to the surface.
+  - language: 'ja-JP'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'SolarTransmittance'
+  definition: 'Transmittance at normal incidence (solar). Defines the fraction of solar radiation that passes through per unit area, perpendicular to the surface.'
   ifdGuid: ''
   localizations:
-  - language: en-EN
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  - language: ja-JP
+  - language: 'fr-FR'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcPositiveRatioMeasure
-    measureType: ''
-    unitType: USERDEFINED
-- name: ThermalIrTransmittance
-  definition: Thermal IR transmittance at normal incidence. Defines the fraction of thermal energy that passes through per unit area, perpendicular to the surface.
+  - language: 'ja-JP'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'ThermalIrTransmittance'
+  definition: 'Thermal IR transmittance at normal incidence. Defines the fraction of thermal energy that passes through per unit area, perpendicular to the surface.'
   ifdGuid: ''
   localizations:
-  - language: en-EN
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  - language: ja-JP
+  - language: 'fr-FR'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcPositiveRatioMeasure
-    measureType: ''
-    unitType: USERDEFINED
-- name: ThermalIrEmissivityBack
+  - language: 'ja-JP'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'ThermalIrEmissivityBack'
   definition: 'Thermal IR emissivity: back side. Defines the fraction of thermal energy emitted per unit area to "blackbody" at the same temperature, through the "back" side of the material.'
   ifdGuid: ''
   localizations:
-  - language: en-EN
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  - language: ja-JP
+  - language: 'fr-FR'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcPositiveRatioMeasure
-    measureType: ''
-    unitType: USERDEFINED
-- name: ThermalIrEmissivityFront
+  - language: 'ja-JP'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'ThermalIrEmissivityFront'
   definition: 'Thermal IR emissivity: front side. Defines the fraction of thermal energy emitted per unit area to "blackbody" at the same temperature, through the "front" side of the material.'
   ifdGuid: ''
   localizations:
-  - language: en-EN
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  - language: ja-JP
+  - language: 'fr-FR'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcPositiveRatioMeasure
-    measureType: ''
-    unitType: USERDEFINED
-- name: VisibleReflectanceBack
+  - language: 'ja-JP'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'VisibleReflectanceBack'
   definition: 'Reflectance at normal incidence (visible): back side. Defines the fraction of the solar ray in the visible spectrum that is reflected and not transmitted when the ray passes from one medium into another, at the "back" side of the other material, perpendicular to the surface. Dependent on material and surface characteristics.'
   ifdGuid: ''
   localizations:
-  - language: en-EN
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  - language: ja-JP
+  - language: 'fr-FR'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcPositiveRatioMeasure
-    measureType: ''
-    unitType: USERDEFINED
-- name: VisibleReflectanceFront
+  - language: 'ja-JP'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'VisibleReflectanceFront'
   definition: 'Reflectance at normal incidence (visible): front side. Defines the fraction of the solar ray in the visible spectrum that is reflected and not transmitted when the ray passes from one medium into another, at the "front" side of the other material, perpendicular to the surface. Dependent on material and surface characteristics.'
   ifdGuid: ''
   localizations:
-  - language: en-EN
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  - language: ja-JP
+  - language: 'fr-FR'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcPositiveRatioMeasure
-    measureType: ''
-    unitType: USERDEFINED
-- name: SolarReflectanceBack
+  - language: 'ja-JP'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'SolarReflectanceBack'
   definition: 'Reflectance at normal incidence (solar): back side. Defines the fraction of the solar ray that is reflected and not transmitted when the ray passes from one medium into another, at the "back" side of the other material, perpendicular to the surface. Dependent on material and surface characteristics.'
   ifdGuid: ''
   localizations:
-  - language: en-EN
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  - language: ja-JP
+  - language: 'fr-FR'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcPositiveRatioMeasure
-    measureType: ''
-    unitType: USERDEFINED
-- name: SolarReflectanceFront
+  - language: 'ja-JP'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'SolarReflectanceFront'
   definition: 'Reflectance at normal incidence (solar): front side. Defines the fraction of the solar ray that is reflected and not transmitted when the ray passes from one medium into another, at the "front" side of the other material, perpendicular to the surface. Dependent on material and surface characteristics.'
   ifdGuid: ''
   localizations:
-  - language: en-EN
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  - language: ja-JP
+  - language: 'fr-FR'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcPositiveRatioMeasure
-    measureType: ''
-    unitType: USERDEFINED
+  - language: 'ja-JP'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''

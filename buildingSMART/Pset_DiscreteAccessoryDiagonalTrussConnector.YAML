@@ -1,20 +1,26 @@
-﻿name: Pset_DiscreteAccessoryDiagonalTrussConnector
+﻿name: 'Pset_DiscreteAccessoryDiagonalTrussConnector'
 ifcVersion:
-  version: 4.0.0.0
-  schema: IfcSharedComponentElements
+  version: '4.0.0.0'
+  schema: 'IfcSharedComponentElements'
 ifdGuid: ''
-definition: Shape properties specific to connecting accessories in truss form with diagonal cross-bars.
+definition: 'Shape properties specific to connecting accessories in truss form with diagonal cross-bars.'
 localizations:
-- language: en-EN
+- language: 'de-DE'
   name: ''
   definition: ''
-- language: de-DE
+- language: 'en-EN'
   name: ''
   definition: ''
-- language: fr-FR
+- language: 'es-ES'
   name: ''
   definition: ''
-- language: ja-JP
+- language: 'fr-FR'
+  name: ''
+  definition: ''
+- language: 'ja-JP'
+  name: ''
+  definition: ''
+- language: 'ru-RU'
   name: ''
   definition: ''
 applicableIfcClasses:
@@ -23,141 +29,153 @@ applicableIfcClasses:
 - name: IfcDiscreteAccessoryType
   type: IfcDiscreteAccessory/Diagonal truss connector
 properties:
-- name: DiagonalTrussHeight
-  definition: The overall height of the truss connector.
+- name: 'DiagonalTrussHeight'
+  definition: 'The overall height of the truss connector.'
   ifdGuid: 36X9BU4Qr7EfEvqi0WIW4e
   localizations:
-  - language: ja-JP
-    name: 全体高さ
-    definition: トラス接続部材の全体の高さ。
-  - language: ko-KR
-    name: 전체 높이
-    definition: 트러스 연결 부재의 전체 높이
-  - language: en-EN
+  - language: 'ja-JP'
+    name: '全体高さ'
+    definition: 'トラス接続部材の全体の高さ。'
+  - language: 'ko-KR'
+    name: '전체 높이'
+    definition: '트러스 연결 부재의 전체 높이'
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcPositiveLengthMeasure
-    measureType: ''
-    unitType: LENGTHUNIT
-- name: DiagonalTrussLength
-  definition: The overall length of the truss connector.
+  - language: 'fr-FR'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'DiagonalTrussLength'
+  definition: 'The overall length of the truss connector.'
   ifdGuid: 3obppWKZrAHRjCewXiBARR
   localizations:
-  - language: ja-JP
-    name: 全体長さ
-    definition: トラス接続部材の全体の長さ。
-  - language: ko-KR
-    name: 전체 길이
-    definition: 트러스 연결 부재의 전체 길이
-  - language: en-EN
+  - language: 'ja-JP'
+    name: '全体長さ'
+    definition: 'トラス接続部材の全体の長さ。'
+  - language: 'ko-KR'
+    name: '전체 길이'
+    definition: '트러스 연결 부재의 전체 길이'
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcPositiveLengthMeasure
-    measureType: ''
-    unitType: LENGTHUNIT
-- name: DiagonalTrussCrossBarSpacing
-  definition: The spacing between diagonal cross-bar sections.
+  - language: 'fr-FR'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'DiagonalTrussCrossBarSpacing'
+  definition: 'The spacing between diagonal cross-bar sections.'
   ifdGuid: 3ZXvGsSvDBDg69_nmbE30j
   localizations:
-  - language: ja-JP
-    name: クロスバー間隔
-    definition: 斜めのクロスバーの間隔。
-  - language: ko-KR
-    name: 크로스바 간격
-    definition: 대각선 크로스바 간격
-  - language: en-EN
+  - language: 'ja-JP'
+    name: 'クロスバー間隔'
+    definition: '斜めのクロスバーの間隔。'
+  - language: 'ko-KR'
+    name: '크로스바 간격'
+    definition: '대각선 크로스바 간격'
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcPositiveLengthMeasure
-    measureType: ''
-    unitType: LENGTHUNIT
-- name: DiagonalTrussBaseBarDiameter
-  definition: The nominal diameter of the base bar.
+  - language: 'fr-FR'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'DiagonalTrussBaseBarDiameter'
+  definition: 'The nominal diameter of the base bar.'
   ifdGuid: 2ZNabvXl9DiewbIjSHd4A_
   localizations:
-  - language: ja-JP
-    name: ベースバー径
-    definition: ベースバーの公称直径。
-  - language: ko-KR
-    name: 기반 막대 지름
-    definition: 기반 막대의 공칭 지름
-  - language: en-EN
+  - language: 'ja-JP'
+    name: 'ベースバー径'
+    definition: 'ベースバーの公称直径。'
+  - language: 'ko-KR'
+    name: '기반 막대 지름'
+    definition: '기반 막대의 공칭 지름'
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcPositiveLengthMeasure
-    measureType: ''
-    unitType: LENGTHUNIT
-- name: DiagonalTrussSecondaryBarDiameter
-  definition: The nominal diameter of the secondary bar.
+  - language: 'fr-FR'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'DiagonalTrussSecondaryBarDiameter'
+  definition: 'The nominal diameter of the secondary bar.'
   ifdGuid: 1CeKDsrLL1SR9Ig7hh84OG
   localizations:
-  - language: ja-JP
-    name: 二次バー径
-    definition: 二次バーの公称直径。
-  - language: ko-KR
-    name: 보조 막대 지름
-    definition: 보조 막대의 공칭 지름
-  - language: en-EN
+  - language: 'ja-JP'
+    name: '二次バー径'
+    definition: '二次バーの公称直径。'
+  - language: 'ko-KR'
+    name: '보조 막대 지름'
+    definition: '보조 막대의 공칭 지름'
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcPositiveLengthMeasure
-    measureType: ''
-    unitType: LENGTHUNIT
-- name: DiagonalTrussCrossBarDiameter
-  definition: The nominal diameter of the diagonal cross-bars.
+  - language: 'fr-FR'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'DiagonalTrussCrossBarDiameter'
+  definition: 'The nominal diameter of the diagonal cross-bars.'
   ifdGuid: 2oziF6Hm5BfARTGmtbykql
   localizations:
-  - language: ja-JP
-    name: クロスバー径
-    definition: 斜めクロスバーの公称直径。
-  - language: ko-KR
-    name: 크로스바 지름
-    definition: 대각선 크로스바 공칭 지름
-  - language: en-EN
+  - language: 'ja-JP'
+    name: 'クロスバー径'
+    definition: '斜めクロスバーの公称直径。'
+  - language: 'ko-KR'
+    name: '크로스바 지름'
+    definition: '대각선 크로스바 공칭 지름'
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcPositiveLengthMeasure
-    measureType: ''
-    unitType: LENGTHUNIT
+  - language: 'fr-FR'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''

@@ -1,103 +1,117 @@
-﻿name: Pset_BuildingUseAdjacent
+﻿name: 'Pset_BuildingUseAdjacent'
 ifcVersion:
-  version: 4.0.0.0
-  schema: IfcProductExtension
+  version: '4.0.0.0'
+  schema: 'IfcProductExtension'
 ifdGuid: ''
-definition: Provides information on adjacent buildings and their uses to enable their impact on the building of interest to be determined. Note that for each instance of the property set used, where there is an existence of risk, there will be an instance of the property set Pset_Risk (q.v).
+definition: 'Provides information on adjacent buildings and their uses to enable their impact on the building of interest to be determined. Note that for each instance of the property set used, where there is an existence of risk, there will be an instance of the property set Pset_Risk (q.v).'
 localizations:
-- language: en-EN
+- language: 'de-DE'
   name: ''
   definition: ''
-- language: de-DE
+- language: 'en-EN'
   name: ''
   definition: ''
-- language: fr-FR
+- language: 'es-ES'
   name: ''
   definition: ''
-- language: ja-JP
+- language: 'fr-FR'
+  name: ''
+  definition: ''
+- language: 'ja-JP'
+  name: ''
+  definition: ''
+- language: 'ru-RU'
   name: ''
   definition: ''
 applicableIfcClasses:
 - name: IfcBuilding
   type: IfcBuilding
 properties:
-- name: MarketCategory
-  definition: Category of use e.g. residential, commercial, recreation etc.
+- name: 'MarketCategory'
+  definition: 'Category of use e.g. residential, commercial, recreation etc.'
   ifdGuid: 3ol9aat0H57hAvRmtVHlhJ
   localizations:
-  - language: fr-FR
-    name: Catégorie usage
-    definition: Catégorie d'usage (résidentiel, commercial, loisir,…)
-  - language: en-EN
+  - language: 'fr-FR'
+    name: 'Catégorie usage'
+    definition: 'Catégorie d''usage (résidentiel, commercial, loisir,…)'
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: ja-JP
+  - language: 'es-ES'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcLabel
-    measureType: ''
-    unitType: USERDEFINED
-- name: MarketSubCategory
-  definition: Subset of category of use e.g. multi-family, 2 bedroom, low rise.
+  - language: 'ja-JP'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'MarketSubCategory'
+  definition: 'Subset of category of use e.g. multi-family, 2 bedroom, low rise.'
   ifdGuid: 0ztOSok_vEzRmWulxcMkEL
   localizations:
-  - language: fr-FR
-    name: Sous catégorie usage
-    definition: Sous catégorie d'usage.
-  - language: en-EN
+  - language: 'fr-FR'
+    name: 'Sous catégorie usage'
+    definition: 'Sous catégorie d''usage.'
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: ja-JP
+  - language: 'es-ES'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcLabel
-    measureType: ''
-    unitType: USERDEFINED
-- name: PlanningControlStatus
-  definition: Label of zoning category or class, or planning control category for the site or facility.
+  - language: 'ja-JP'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'PlanningControlStatus'
+  definition: 'Label of zoning category or class, or planning control category for the site or facility.'
   ifdGuid: 1cx7YZYy97XeflfA0lRpEv
   localizations:
-  - language: fr-FR
-    name: Etat Planning Contrôle
-    definition: Catégorie de zone ou classe, ou catégorie relativement à un planning de contrôle pour le site ou l'ensemble immobilier.
-  - language: en-EN
+  - language: 'fr-FR'
+    name: 'Etat Planning Contrôle'
+    definition: 'Catégorie de zone ou classe, ou catégorie relativement à un planning de contrôle pour le site ou l''ensemble immobilier.'
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: ja-JP
+  - language: 'es-ES'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcLabel
-    measureType: ''
-    unitType: USERDEFINED
-- name: NarrativeText
-  definition: Added information relating to the adjacent building use that is not appropriate to the general descriptive text associated with an entity through the inherited IfcRoot.Description.
+  - language: 'ja-JP'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'NarrativeText'
+  definition: 'Added information relating to the adjacent building use that is not appropriate to the general descriptive text associated with an entity through the inherited IfcRoot.Description.'
   ifdGuid: 0LnvISjaPD4AGSjIkpz9L1
   localizations:
-  - language: fr-FR
-    name: Texte libre sur voisinage
-    definition: Information sur l'usage des bâtiments voisins
-  - language: en-EN
+  - language: 'fr-FR'
+    name: 'Texte libre sur voisinage'
+    definition: 'Information sur l''usage des bâtiments voisins'
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: ja-JP
+  - language: 'es-ES'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcText
-    measureType: ''
-    unitType: USERDEFINED
+  - language: 'ja-JP'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''

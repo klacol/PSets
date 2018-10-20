@@ -1,278 +1,117 @@
-﻿name: Pset_CooledBeamTypeActive
+﻿name: 'Pset_CooledBeamTypeActive'
 ifcVersion:
-  version: 4.0.0.0
-  schema: IfcHvacDomain
+  version: '4.0.0.0'
+  schema: 'IfcHvacDomain'
 ifdGuid: ''
-definition: Active (ventilated) cooled beam common attributes.
+definition: 'Active (ventilated) cooled beam common attributes.'
 localizations:
-- language: en-EN
+- language: 'de-DE'
   name: ''
   definition: ''
-- language: de-DE
+- language: 'en-EN'
   name: ''
   definition: ''
-- language: fr-FR
+- language: 'es-ES'
   name: ''
   definition: ''
-- language: ja-JP
+- language: 'fr-FR'
+  name: ''
+  definition: ''
+- language: 'ja-JP'
+  name: ''
+  definition: ''
+- language: 'ru-RU'
   name: ''
   definition: ''
 applicableIfcClasses:
 - name: IfcCooledBeamType
   type: IfcCooledBeamType/ACTIVE
 properties:
-- name: AirFlowConfiguration
-  definition: Air flow configuration type of cooled beam.
+- name: 'AirFlowConfiguration'
+  definition: 'Air flow configuration type of cooled beam.'
   ifdGuid: 2AJ82SuEvDkxcoWFnm2$hx
   localizations:
-  - language: en-EN
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  - language: ja-JP
+  - language: 'fr-FR'
     name: ''
     definition: ''
-  typePropertyEnumeratedValue:
-    listName: PEnum_CooledBeamActiveAirFlowConfigurationType
-    enumerationValues:
-    - name: BIDIRECTIONAL
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Bidirectional
-        definition: ''
-      - language: de-DE
-        name: Bidirectional
-        definition: ''
-      - language: fr-FR
-        name: Bidirectional
-        definition: ''
-      - language: ja-JP
-        name: Bidirectional
-        definition: ''
-    - name: UNIDIRECTIONALRIGHT
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Unidirectionalright
-        definition: ''
-      - language: de-DE
-        name: Unidirectionalright
-        definition: ''
-      - language: fr-FR
-        name: Unidirectionalright
-        definition: ''
-      - language: ja-JP
-        name: Unidirectionalright
-        definition: ''
-    - name: UNIDIRECTIONALLEFT
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Unidirectionalleft
-        definition: ''
-      - language: de-DE
-        name: Unidirectionalleft
-        definition: ''
-      - language: fr-FR
-        name: Unidirectionalleft
-        definition: ''
-      - language: ja-JP
-        name: Unidirectionalleft
-        definition: ''
-    - name: OTHER
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Other
-        definition: ''
-      - language: de-DE
-        name: Other
-        definition: ''
-      - language: fr-FR
-        name: Other
-        definition: ''
-      - language: ja-JP
-        name: Other
-        definition: ''
-    - name: UNKNOWN
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Unknown
-        definition: ''
-      - language: de-DE
-        name: Unknown
-        definition: ''
-      - language: fr-FR
-        name: Unknown
-        definition: ''
-      - language: ja-JP
-        name: Unknown
-        definition: ''
-- name: AirflowRateRange
-  definition: Possible range of airflow that can be delivered.
+  - language: 'ja-JP'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'AirflowRateRange'
+  definition: 'Possible range of airflow that can be delivered.'
   ifdGuid: 1JQ7WlYbb7l9e7w4jWV8tR
   localizations:
-  - language: en-EN
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  - language: ja-JP
+  - language: 'fr-FR'
     name: ''
     definition: ''
-  typePropertyBoundedValue:
-    unitType: ConsoleAppYamlTest.UnitType
-    LowerBoundValue: 0
-    UpperBoundValue: '?'
-    typeName: TypePropertyBoundedValue
-- name: SupplyAirConnectionType
-  definition: The manner in which the pipe connection is made to the cooled beam.
+  - language: 'ja-JP'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'SupplyAirConnectionType'
+  definition: 'The manner in which the pipe connection is made to the cooled beam.'
   ifdGuid: 1IZXw46rLDCg8Na1MHmHZf
   localizations:
-  - language: en-EN
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  - language: ja-JP
+  - language: 'fr-FR'
     name: ''
     definition: ''
-  typePropertyEnumeratedValue:
-    listName: PEnum_CooledBeamSupplyAirConnectionType
-    enumerationValues:
-    - name: STRAIGHT
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Straight
-        definition: ''
-      - language: de-DE
-        name: Straight
-        definition: ''
-      - language: fr-FR
-        name: Straight
-        definition: ''
-      - language: ja-JP
-        name: Straight
-        definition: ''
-    - name: RIGHT
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Right
-        definition: ''
-      - language: de-DE
-        name: Right
-        definition: ''
-      - language: fr-FR
-        name: Right
-        definition: ''
-      - language: ja-JP
-        name: Right
-        definition: ''
-    - name: LEFT
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Left
-        definition: ''
-      - language: de-DE
-        name: Left
-        definition: ''
-      - language: fr-FR
-        name: Left
-        definition: ''
-      - language: ja-JP
-        name: Left
-        definition: ''
-    - name: TOP
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Top
-        definition: ''
-      - language: de-DE
-        name: Top
-        definition: ''
-      - language: fr-FR
-        name: Top
-        definition: ''
-      - language: ja-JP
-        name: Top
-        definition: ''
-    - name: OTHER
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Other
-        definition: ''
-      - language: de-DE
-        name: Other
-        definition: ''
-      - language: fr-FR
-        name: Other
-        definition: ''
-      - language: ja-JP
-        name: Other
-        definition: ''
-    - name: UNKNOWN
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Unknown
-        definition: ''
-      - language: de-DE
-        name: Unknown
-        definition: ''
-      - language: fr-FR
-        name: Unknown
-        definition: ''
-      - language: ja-JP
-        name: Unknown
-        definition: ''
-- name: ConnectionSize
-  definition: Duct connection diameter.
+  - language: 'ja-JP'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'ConnectionSize'
+  definition: 'Duct connection diameter.'
   ifdGuid: 3Hjkk1uj1BZ8BAlhyVdM3r
   localizations:
-  - language: en-EN
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  - language: ja-JP
+  - language: 'fr-FR'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcLengthMeasure
-    measureType: ''
-    unitType: LENGTHUNIT
+  - language: 'ja-JP'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''

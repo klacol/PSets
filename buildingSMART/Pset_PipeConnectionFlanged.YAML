@@ -1,183 +1,205 @@
-﻿name: Pset_PipeConnectionFlanged
+﻿name: 'Pset_PipeConnectionFlanged'
 ifcVersion:
-  version: 4.0.0.0
-  schema: IfcHvacDomain
+  version: '4.0.0.0'
+  schema: 'IfcHvacDomain'
 ifdGuid: ''
-definition: This property set is used to define the specifics of a flanged pipe connection used between occurrences of pipe segments and fittings.
+definition: 'This property set is used to define the specifics of a flanged pipe connection used between occurrences of pipe segments and fittings.'
 localizations:
-- language: en-EN
+- language: 'de-DE'
   name: ''
   definition: ''
-- language: de-DE
+- language: 'en-EN'
   name: ''
   definition: ''
-- language: fr-FR
+- language: 'es-ES'
   name: ''
   definition: ''
-- language: ja-JP
+- language: 'fr-FR'
+  name: ''
+  definition: ''
+- language: 'ja-JP'
+  name: ''
+  definition: ''
+- language: 'ru-RU'
   name: ''
   definition: ''
 applicableIfcClasses:
 - name: IfcPipeSegment
   type: IfcPipeSegment
 properties:
-- name: FlangeTable
-  definition: Designation of the standard table to which the flange conforms.
+- name: 'FlangeTable'
+  definition: 'Designation of the standard table to which the flange conforms.'
   ifdGuid: 0u5q$e4_1FuwZoiRY1xWWL
   localizations:
-  - language: ja-JP
-    name: フランジ基準
-    definition: フランジ形状の名称基準
-  - language: en-EN
+  - language: 'ja-JP'
+    name: 'フランジ基準'
+    definition: 'フランジ形状の名称基準'
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcLabel
-    measureType: ''
-    unitType: USERDEFINED
-- name: FlangeStandard
-  definition: Designation of the standard describing the flange table.
+  - language: 'fr-FR'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'FlangeStandard'
+  definition: 'Designation of the standard describing the flange table.'
   ifdGuid: 01ezdYQgD0L987s7NICx7B
   localizations:
-  - language: ja-JP
-    name: フランジ規格
-    definition: フランジ規格を記述している基準
-  - language: en-EN
+  - language: 'ja-JP'
+    name: 'フランジ規格'
+    definition: 'フランジ規格を記述している基準'
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcLabel
-    measureType: ''
-    unitType: USERDEFINED
-- name: BoreSize
-  definition: The nominal bore of the pipe flange.
+  - language: 'fr-FR'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'BoreSize'
+  definition: 'The nominal bore of the pipe flange.'
   ifdGuid: 0XPZY9xMfBJw8RKX2956QA
   localizations:
-  - language: ja-JP
-    name: フランジの内径のサイズ
-    definition: フランジの呼び径
-  - language: en-EN
+  - language: 'ja-JP'
+    name: 'フランジの内径のサイズ'
+    definition: 'フランジの呼び径'
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcPositiveLengthMeasure
-    measureType: ''
-    unitType: LENGTHUNIT
-- name: FlangeDiameter
-  definition: Overall diameter of the flange.
+  - language: 'fr-FR'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'FlangeDiameter'
+  definition: 'Overall diameter of the flange.'
   ifdGuid: 0F4Ui$nLD7OBBgjE0faE76
   localizations:
-  - language: ja-JP
-    name: フランジの直径
-    definition: フランジの全直径
-  - language: en-EN
+  - language: 'ja-JP'
+    name: 'フランジの直径'
+    definition: 'フランジの全直径'
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcPositiveLengthMeasure
-    measureType: ''
-    unitType: LENGTHUNIT
-- name: FlangeThickness
-  definition: Thickness of the material from which the pipe bend is constructed.
+  - language: 'fr-FR'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'FlangeThickness'
+  definition: 'Thickness of the material from which the pipe bend is constructed.'
   ifdGuid: 3$jBISV6v4$w_axzt9TQHh
   localizations:
-  - language: ja-JP
-    name: フランジの厚さ
-    definition: パイプをつなぐ材料の厚み
-  - language: en-EN
+  - language: 'ja-JP'
+    name: 'フランジの厚さ'
+    definition: 'パイプをつなぐ材料の厚み'
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcPositiveLengthMeasure
-    measureType: ''
-    unitType: LENGTHUNIT
-- name: NumberOfBoltholes
-  definition: Number of boltholes in the flange.
+  - language: 'fr-FR'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'NumberOfBoltholes'
+  definition: 'Number of boltholes in the flange.'
   ifdGuid: 1AsaQ38Yr98eKryr_jGv$L
   localizations:
-  - language: ja-JP
-    name: ボルト穴の数
-    definition: フランジにあるボルト穴の数
-  - language: en-EN
+  - language: 'ja-JP'
+    name: 'ボルト穴の数'
+    definition: 'フランジにあるボルト穴の数'
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcInteger
-    measureType: ''
-    unitType: USERDEFINED
-- name: BoltSize
-  definition: Size of the bolts securing the flange.
+  - language: 'fr-FR'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'BoltSize'
+  definition: 'Size of the bolts securing the flange.'
   ifdGuid: 04akGjqKvALuOyjKgRQtxN
   localizations:
-  - language: ja-JP
-    name: ボルトの大きさ
-    definition: フランジを締めるボルトの大きさ
-  - language: en-EN
+  - language: 'ja-JP'
+    name: 'ボルトの大きさ'
+    definition: 'フランジを締めるボルトの大きさ'
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcPositiveLengthMeasure
-    measureType: ''
-    unitType: LENGTHUNIT
-- name: BoltholePitch
-  definition: Diameter of the circle along which the boltholes are placed.
+  - language: 'fr-FR'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'BoltholePitch'
+  definition: 'Diameter of the circle along which the boltholes are placed.'
   ifdGuid: 0Msy6o3cH1SeWcIon38i5_
   localizations:
-  - language: ja-JP
-    name: ボルト穴ピッチ
-    definition: ボルト穴がある円の直径
-  - language: en-EN
+  - language: 'ja-JP'
+    name: 'ボルト穴ピッチ'
+    definition: 'ボルト穴がある円の直径'
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcPositiveLengthMeasure
-    measureType: ''
-    unitType: LENGTHUNIT
+  - language: 'fr-FR'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''

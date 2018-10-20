@@ -1,178 +1,95 @@
-﻿name: Pset_SpaceHeaterTypeRadiator
+﻿name: 'Pset_SpaceHeaterTypeRadiator'
 ifcVersion:
-  version: 4.0.0.0
-  schema: IfcHvacDomain
+  version: '4.0.0.0'
+  schema: 'IfcHvacDomain'
 ifdGuid: ''
-definition: Space heater type radiator attributes.
+definition: 'Space heater type radiator attributes.'
 localizations:
-- language: en-EN
+- language: 'de-DE'
   name: ''
   definition: ''
-- language: de-DE
+- language: 'en-EN'
   name: ''
   definition: ''
-- language: fr-FR
+- language: 'es-ES'
   name: ''
   definition: ''
-- language: ja-JP
+- language: 'fr-FR'
+  name: ''
+  definition: ''
+- language: 'ja-JP'
+  name: ''
+  definition: ''
+- language: 'ru-RU'
   name: ''
   definition: ''
 applicableIfcClasses:
 - name: IfcSpaceHeaterType
   type: IfcSpaceHeaterType/RADIATOR
 properties:
-- name: RadiatorType
-  definition: Indicates the type of radiator.
+- name: 'RadiatorType'
+  definition: 'Indicates the type of radiator.'
   ifdGuid: ''
   localizations:
-  - language: ja-JP
-    name: ラジエータータイプ
-    definition: ラジエーターの種類
-  - language: en-EN
+  - language: 'ja-JP'
+    name: 'ラジエータータイプ'
+    definition: 'ラジエーターの種類'
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  typePropertyEnumeratedValue:
-    listName: PEnum_SpaceHeaterRadiatorType
-    enumerationValues:
-    - name: FINNEDTUBE
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Finnedtube
-        definition: ''
-      - language: de-DE
-        name: Finnedtube
-        definition: ''
-      - language: fr-FR
-        name: Finnedtube
-        definition: ''
-      - language: ja-JP
-        name: Finnedtube
-        definition: ''
-    - name: PANEL
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Panel
-        definition: ''
-      - language: de-DE
-        name: Panel
-        definition: ''
-      - language: fr-FR
-        name: Panel
-        definition: ''
-      - language: ja-JP
-        name: Panel
-        definition: ''
-    - name: SECTIONAL
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Sectional
-        definition: ''
-      - language: de-DE
-        name: Sectional
-        definition: ''
-      - language: fr-FR
-        name: Sectional
-        definition: ''
-      - language: ja-JP
-        name: Sectional
-        definition: ''
-    - name: TUBULAR
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Tubular
-        definition: ''
-      - language: de-DE
-        name: Tubular
-        definition: ''
-      - language: fr-FR
-        name: Tubular
-        definition: ''
-      - language: ja-JP
-        name: Tubular
-        definition: ''
-    - name: OTHER
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Other
-        definition: ''
-      - language: de-DE
-        name: Other
-        definition: ''
-      - language: fr-FR
-        name: Other
-        definition: ''
-      - language: ja-JP
-        name: Other
-        definition: ''
-    - name: UNKNOWN
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Unknown
-        definition: ''
-      - language: de-DE
-        name: Unknown
-        definition: ''
-      - language: fr-FR
-        name: Unknown
-        definition: ''
-      - language: ja-JP
-        name: Unknown
-        definition: ''
-- name: TubingLength
-  definition: Water tube length inside the component.
+  - language: 'fr-FR'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'TubingLength'
+  definition: 'Water tube length inside the component.'
   ifdGuid: ''
   localizations:
-  - language: ja-JP
-    name: チューブの長さ
-    definition: 構成要素における水管の長さ
-  - language: en-EN
+  - language: 'ja-JP'
+    name: 'チューブの長さ'
+    definition: '構成要素における水管の長さ'
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcPositiveLengthMeasure
-    measureType: ''
-    unitType: USERDEFINED
-- name: WaterContent
-  definition: Weight of water content within the heater.
+  - language: 'fr-FR'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'WaterContent'
+  definition: 'Weight of water content within the heater.'
   ifdGuid: ''
   localizations:
-  - language: ja-JP
-    name: 水含量
-    definition: ヒーター内部の水分の重み
-  - language: en-EN
+  - language: 'ja-JP'
+    name: '水含量'
+    definition: 'ヒーター内部の水分の重み'
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcMassMeasure
-    measureType: ''
-    unitType: USERDEFINED
+  - language: 'fr-FR'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''

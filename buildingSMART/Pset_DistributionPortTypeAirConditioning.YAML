@@ -1,463 +1,227 @@
-﻿name: Pset_DistributionPortTypeAirConditioning
+﻿name: 'Pset_DistributionPortTypeAirConditioning'
 ifcVersion:
-  version: 4.0.0.0
-  schema: IfcSharedBldgServiceElements
+  version: '4.0.0.0'
+  schema: 'IfcSharedBldgServiceElements'
 ifdGuid: ''
-definition: Duct port occurrence attributes attached to an instance of IfcDistributionPort.
+definition: 'Duct port occurrence attributes attached to an instance of IfcDistributionPort.'
 localizations:
-- language: en-EN
+- language: 'de-DE'
   name: ''
   definition: ''
-- language: de-DE
+- language: 'en-EN'
   name: ''
   definition: ''
-- language: fr-FR
+- language: 'es-ES'
   name: ''
   definition: ''
-- language: ja-JP
+- language: 'fr-FR'
+  name: ''
+  definition: ''
+- language: 'ja-JP'
+  name: ''
+  definition: ''
+- language: 'ru-RU'
   name: ''
   definition: ''
 applicableIfcClasses:
 - name: IfcDistributionPort
   type: IfcDistributionPort/AIRCONDITIONING
 properties:
-- name: ConnectionType
+- name: 'ConnectionType'
   definition: 'The end-style treatment of the duct port:BEADEDSLEEVE: Beaded Sleeve. COMPRESSION: Compression. CRIMP: Crimp. DRAWBAND: Drawband. DRIVESLIP: Drive slip. FLANGED: Flanged. OUTSIDESLEEVE: Outside Sleeve. SLIPON: Slipon. SOLDERED: Soldered. SSLIP: S-Slip. STANDINGSEAM: Standing seam. SWEDGE: Swedge. WELDED: Welded. OTHER: Another type of end-style has been applied.NONE: No end-style has been applied.'
   ifdGuid: ''
   localizations:
-  - language: en-EN
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  - language: ja-JP
+  - language: 'fr-FR'
     name: ''
     definition: ''
-  typePropertyEnumeratedValue:
-    listName: PEnum_DuctConnectionType
-    enumerationValues:
-    - name: BEADEDSLEEVE
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Beadedsleeve
-        definition: ''
-      - language: de-DE
-        name: Beadedsleeve
-        definition: ''
-      - language: fr-FR
-        name: Beadedsleeve
-        definition: ''
-      - language: ja-JP
-        name: Beadedsleeve
-        definition: ''
-    - name: COMPRESSION
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Compression
-        definition: ''
-      - language: de-DE
-        name: Compression
-        definition: ''
-      - language: fr-FR
-        name: Compression
-        definition: ''
-      - language: ja-JP
-        name: Compression
-        definition: ''
-    - name: CRIMP
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Crimp
-        definition: ''
-      - language: de-DE
-        name: Crimp
-        definition: ''
-      - language: fr-FR
-        name: Crimp
-        definition: ''
-      - language: ja-JP
-        name: Crimp
-        definition: ''
-    - name: DRAWBAND
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Drawband
-        definition: ''
-      - language: de-DE
-        name: Drawband
-        definition: ''
-      - language: fr-FR
-        name: Drawband
-        definition: ''
-      - language: ja-JP
-        name: Drawband
-        definition: ''
-    - name: DRIVESLIP
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Driveslip
-        definition: ''
-      - language: de-DE
-        name: Driveslip
-        definition: ''
-      - language: fr-FR
-        name: Driveslip
-        definition: ''
-      - language: ja-JP
-        name: Driveslip
-        definition: ''
-    - name: FLANGED
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Flanged
-        definition: ''
-      - language: de-DE
-        name: Flanged
-        definition: ''
-      - language: fr-FR
-        name: Flanged
-        definition: ''
-      - language: ja-JP
-        name: Flanged
-        definition: ''
-    - name: OUTSIDESLEEVE
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Outsidesleeve
-        definition: ''
-      - language: de-DE
-        name: Outsidesleeve
-        definition: ''
-      - language: fr-FR
-        name: Outsidesleeve
-        definition: ''
-      - language: ja-JP
-        name: Outsidesleeve
-        definition: ''
-    - name: SLIPON
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Slipon
-        definition: ''
-      - language: de-DE
-        name: Slipon
-        definition: ''
-      - language: fr-FR
-        name: Slipon
-        definition: ''
-      - language: ja-JP
-        name: Slipon
-        definition: ''
-    - name: SOLDERED
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Soldered
-        definition: ''
-      - language: de-DE
-        name: Soldered
-        definition: ''
-      - language: fr-FR
-        name: Soldered
-        definition: ''
-      - language: ja-JP
-        name: Soldered
-        definition: ''
-    - name: SSLIP
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Sslip
-        definition: ''
-      - language: de-DE
-        name: Sslip
-        definition: ''
-      - language: fr-FR
-        name: Sslip
-        definition: ''
-      - language: ja-JP
-        name: Sslip
-        definition: ''
-    - name: STANDINGSEAM
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Standingseam
-        definition: ''
-      - language: de-DE
-        name: Standingseam
-        definition: ''
-      - language: fr-FR
-        name: Standingseam
-        definition: ''
-      - language: ja-JP
-        name: Standingseam
-        definition: ''
-    - name: SWEDGE
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Swedge
-        definition: ''
-      - language: de-DE
-        name: Swedge
-        definition: ''
-      - language: fr-FR
-        name: Swedge
-        definition: ''
-      - language: ja-JP
-        name: Swedge
-        definition: ''
-    - name: WELDED
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Welded
-        definition: ''
-      - language: de-DE
-        name: Welded
-        definition: ''
-      - language: fr-FR
-        name: Welded
-        definition: ''
-      - language: ja-JP
-        name: Welded
-        definition: ''
-    - name: NONE
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: None
-        definition: ''
-      - language: de-DE
-        name: None
-        definition: ''
-      - language: fr-FR
-        name: None
-        definition: ''
-      - language: ja-JP
-        name: None
-        definition: ''
-    - name: OTHER
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Other
-        definition: ''
-      - language: de-DE
-        name: Other
-        definition: ''
-      - language: fr-FR
-        name: Other
-        definition: ''
-      - language: ja-JP
-        name: Other
-        definition: ''
-    - name: UNKNOWN
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Unknown
-        definition: ''
-      - language: de-DE
-        name: Unknown
-        definition: ''
-      - language: fr-FR
-        name: Unknown
-        definition: ''
-      - language: ja-JP
-        name: Unknown
-        definition: ''
-- name: ConnectionSubType
-  definition: The physical port connection subtype that further qualifies the ConnectionType.
+  - language: 'ja-JP'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'ConnectionSubType'
+  definition: 'The physical port connection subtype that further qualifies the ConnectionType.'
   ifdGuid: ''
   localizations:
-  - language: en-EN
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  - language: ja-JP
+  - language: 'fr-FR'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcLabel
-    measureType: ''
-    unitType: USERDEFINED
-- name: NominalWidth
-  definition: The nominal width or diameter of the duct connection.
+  - language: 'ja-JP'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'NominalWidth'
+  definition: 'The nominal width or diameter of the duct connection.'
   ifdGuid: ''
   localizations:
-  - language: en-EN
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  - language: ja-JP
+  - language: 'fr-FR'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcPositiveLengthMeasure
-    measureType: ''
-    unitType: USERDEFINED
-- name: NominalHeight
-  definition: The nominal height of the duct connection.
+  - language: 'ja-JP'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'NominalHeight'
+  definition: 'The nominal height of the duct connection.'
   ifdGuid: ''
   localizations:
-  - language: en-EN
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  - language: ja-JP
+  - language: 'fr-FR'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcPositiveLengthMeasure
-    measureType: ''
-    unitType: USERDEFINED
-- name: DryBulbTemperature
-  definition: Dry bulb temperature of the air.
+  - language: 'ja-JP'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'DryBulbTemperature'
+  definition: 'Dry bulb temperature of the air.'
   ifdGuid: ''
   localizations:
-  - language: en-EN
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  - language: ja-JP
+  - language: 'fr-FR'
     name: ''
     definition: ''
-  typePropertyBoundedValue:
-    unitType: ConsoleAppYamlTest.UnitType
-    LowerBoundValue: '?'
-    UpperBoundValue: '?'
-    typeName: TypePropertyBoundedValue
-- name: WetBulbTemperature
-  definition: Wet bulb temperature of the air.
+  - language: 'ja-JP'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'WetBulbTemperature'
+  definition: 'Wet bulb temperature of the air.'
   ifdGuid: ''
   localizations:
-  - language: en-EN
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  - language: ja-JP
+  - language: 'fr-FR'
     name: ''
     definition: ''
-  typePropertyBoundedValue:
-    unitType: ConsoleAppYamlTest.UnitType
-    LowerBoundValue: '?'
-    UpperBoundValue: '?'
-    typeName: TypePropertyBoundedValue
-- name: VolumetricFlowRate
-  definition: The volumetric flow rate of the fluid.
+  - language: 'ja-JP'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'VolumetricFlowRate'
+  definition: 'The volumetric flow rate of the fluid.'
   ifdGuid: ''
   localizations:
-  - language: en-EN
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  - language: ja-JP
+  - language: 'fr-FR'
     name: ''
     definition: ''
-  typePropertyBoundedValue:
-    unitType: ConsoleAppYamlTest.UnitType
-    LowerBoundValue: '?'
-    UpperBoundValue: '?'
-    typeName: TypePropertyBoundedValue
-- name: Velocity
-  definition: The velocity of the fluid.
+  - language: 'ja-JP'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'Velocity'
+  definition: 'The velocity of the fluid.'
   ifdGuid: ''
   localizations:
-  - language: en-EN
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  - language: ja-JP
+  - language: 'fr-FR'
     name: ''
     definition: ''
-  typePropertyBoundedValue:
-    unitType: ConsoleAppYamlTest.UnitType
-    LowerBoundValue: '?'
-    UpperBoundValue: '?'
-    typeName: TypePropertyBoundedValue
-- name: Pressure
-  definition: The pressure of the fluid.
+  - language: 'ja-JP'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'Pressure'
+  definition: 'The pressure of the fluid.'
   ifdGuid: ''
   localizations:
-  - language: en-EN
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  - language: ja-JP
+  - language: 'fr-FR'
     name: ''
     definition: ''
-  typePropertyBoundedValue:
-    unitType: ConsoleAppYamlTest.UnitType
-    LowerBoundValue: '?'
-    UpperBoundValue: '?'
-    typeName: TypePropertyBoundedValue
+  - language: 'ja-JP'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''

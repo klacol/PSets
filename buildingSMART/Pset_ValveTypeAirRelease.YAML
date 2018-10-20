@@ -1,43 +1,51 @@
-﻿name: Pset_ValveTypeAirRelease
+﻿name: 'Pset_ValveTypeAirRelease'
 ifcVersion:
-  version: 4.0.0.0
-  schema: IfcHvacDomain
+  version: '4.0.0.0'
+  schema: 'IfcHvacDomain'
 ifdGuid: ''
-definition: Valve used to release air from a pipe or fitting. Note that an air release valve is constrained to have a single port pattern
+definition: 'Valve used to release air from a pipe or fitting. Note that an air release valve is constrained to have a single port pattern'
 localizations:
-- language: en-EN
+- language: 'de-DE'
   name: ''
   definition: ''
-- language: de-DE
+- language: 'en-EN'
   name: ''
   definition: ''
-- language: fr-FR
+- language: 'es-ES'
   name: ''
   definition: ''
-- language: ja-JP
+- language: 'fr-FR'
+  name: ''
+  definition: ''
+- language: 'ja-JP'
+  name: ''
+  definition: ''
+- language: 'ru-RU'
   name: ''
   definition: ''
 applicableIfcClasses:
 - name: IfcValveType
   type: IfcValveType/AIRRELEASE
 properties:
-- name: IsAutomatic
-  definition: Indication of whether the valve is automatically operated (TRUE) or manually operated (FALSE).
+- name: 'IsAutomatic'
+  definition: 'Indication of whether the valve is automatically operated (TRUE) or manually operated (FALSE).'
   ifdGuid: 2rdOF2S29969_39RfvIzDO
   localizations:
-  - language: ja-JP
-    name: 自動
-    definition: 弁が自動(TRUE)で操作されるか手動(FALSE)で操作されるかの表示
-  - language: en-EN
+  - language: 'ja-JP'
+    name: '自動'
+    definition: '弁が自動(TRUE)で操作されるか手動(FALSE)で操作されるかの表示'
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcBoolean
-    measureType: ''
-    unitType: USERDEFINED
+  - language: 'fr-FR'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''

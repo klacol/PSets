@@ -1,93 +1,104 @@
-﻿name: Pset_SensorTypeHeatSensor
+﻿name: 'Pset_SensorTypeHeatSensor'
 ifcVersion:
-  version: 4.0.0.0
-  schema: IfcBuildingControlsDomain
+  version: '4.0.0.0'
+  schema: 'IfcBuildingControlsDomain'
 ifdGuid: ''
 definition: 'A device that senses or detects heat. HISTORY: In IFC4, incorporates Fire Sensor. HeatSensorSetPoint changed to SetPointTemperature'
 localizations:
-- language: en-EN
+- language: 'de-DE'
   name: ''
   definition: ''
-- language: de-DE
+- language: 'en-EN'
   name: ''
   definition: ''
-- language: fr-FR
+- language: 'es-ES'
   name: ''
   definition: ''
-- language: ja-JP
+- language: 'fr-FR'
+  name: ''
+  definition: ''
+- language: 'ja-JP'
+  name: ''
+  definition: ''
+- language: 'ru-RU'
   name: ''
   definition: ''
 applicableIfcClasses:
 - name: IfcSensorType
   type: IfcSensorType/HEATSENSOR
 properties:
-- name: CoverageArea
-  definition: The area that is covered by the sensor (typically measured as a circle whose center is at the location of the sensor).
+- name: 'CoverageArea'
+  definition: 'The area that is covered by the sensor (typically measured as a circle whose center is at the location of the sensor).'
   ifdGuid: 0yYywhPxH9v9NvMCrovdWP
   localizations:
-  - language: ja-JP
-    name: 測定範囲
-    definition: センサでカバーされている範囲。(通常、センターがセンサの位置にある円として測定される)
-  - language: ko-KR
-    name: 측정 범위
-    definition: 센서 커버하는 범위. (일반적으로 센터 센서의 위치에있는 원형으로 측정되는)
-  - language: en-EN
+  - language: 'ja-JP'
+    name: '測定範囲'
+    definition: 'センサでカバーされている範囲。(通常、センターがセンサの位置にある円として測定される)'
+  - language: 'ko-KR'
+    name: '측정 범위'
+    definition: '센서 커버하는 범위. (일반적으로 센터 센서의 위치에있는 원형으로 측정되는)'
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcAreaMeasure
-    measureType: ''
-    unitType: AREAUNIT
-- name: SetPointTemperature
-  definition: The temperature value to be sensed. Use IfcPropertyBoundedValue.SetPointValue to set the set point value.
+  - language: 'fr-FR'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'SetPointTemperature'
+  definition: 'The temperature value to be sensed. Use IfcPropertyBoundedValue.SetPointValue to set the set point value.'
   ifdGuid: 3IIdjQnln8evytrTw4jlyU
   localizations:
-  - language: ja-JP
-    name: 温度設定値
-    definition: 感知される温度。セットポイント値を置くために、IfcPropertyBoundedValue.SetPointValueを使用する。
-  - language: ko-KR
-    name: 온도 설정
-    definition: 감지되는 온도. 세트 포인트 값을 넣으려면, IfcPropertyBoundedValue.SetPointValue를 사용하십시오.
-  - language: en-EN
+  - language: 'ja-JP'
+    name: '温度設定値'
+    definition: '感知される温度。セットポイント値を置くために、IfcPropertyBoundedValue.SetPointValueを使用する。'
+  - language: 'ko-KR'
+    name: '온도 설정'
+    definition: '감지되는 온도. 세트 포인트 값을 넣으려면, IfcPropertyBoundedValue.SetPointValue를 사용하십시오.'
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  typePropertyBoundedValue:
-    unitType: ConsoleAppYamlTest.UnitType
-    LowerBoundValue: '?'
-    UpperBoundValue: '?'
-    typeName: TypePropertyBoundedValue
-- name: RateOfTemperatureRise
-  definition: The rate of temperature rise that is to be sensed as being hazardous.
+  - language: 'fr-FR'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'RateOfTemperatureRise'
+  definition: 'The rate of temperature rise that is to be sensed as being hazardous.'
   ifdGuid: 0PrrLhYbbAEOtxI_xP8cKB
   localizations:
-  - language: ja-JP
-    name: 温度上昇率
-    definition: 危険であるとして感じられることになっている温度上昇率。
-  - language: ko-KR
-    name: 온도 상승률
-    definition: 위험 것으로 느껴지게하는 온도 상승률.
-  - language: en-EN
+  - language: 'ja-JP'
+    name: '温度上昇率'
+    definition: '危険であるとして感じられることになっている温度上昇率。'
+  - language: 'ko-KR'
+    name: '온도 상승률'
+    definition: '위험 것으로 느껴지게하는 온도 상승률.'
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcTemperatureRateOfChangeMeasure
-    measureType: ''
-    unitType: TEMPERATURERATEOFCHANGEUNIT
+  - language: 'fr-FR'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''

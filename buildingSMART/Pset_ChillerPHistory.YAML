@@ -1,89 +1,95 @@
-﻿name: Pset_ChillerPHistory
+﻿name: 'Pset_ChillerPHistory'
 ifcVersion:
-  version: 4.0.0.0
-  schema: IfcHvacDomain
+  version: '4.0.0.0'
+  schema: 'IfcHvacDomain'
 ifdGuid: ''
-definition: Chiller performance history attributes.
+definition: 'Chiller performance history attributes.'
 localizations:
-- language: en-EN
+- language: 'de-DE'
   name: ''
   definition: ''
-- language: de-DE
+- language: 'en-EN'
   name: ''
   definition: ''
-- language: fr-FR
+- language: 'es-ES'
   name: ''
   definition: ''
-- language: ja-JP
+- language: 'fr-FR'
+  name: ''
+  definition: ''
+- language: 'ja-JP'
+  name: ''
+  definition: ''
+- language: 'ru-RU'
   name: ''
   definition: ''
 applicableIfcClasses:
 - name: IfcPerformanceHistory
   type: IfcChiller[PerformanceHistory]
 properties:
-- name: Capacity
-  definition: The product of the  ideal capacity and the overall volumetric efficiency of the compressor.
+- name: 'Capacity'
+  definition: 'The product of the  ideal capacity and the overall volumetric efficiency of the compressor.'
   ifdGuid: 14w0cu9H5BIR3wJho85O8v
   localizations:
-  - language: fr-FR
-    name: Puissance
-    definition: Le produit de la puissance optimale par le rendement global du compresseur.
-  - language: en-EN
+  - language: 'fr-FR'
+    name: 'Puissance'
+    definition: 'Le produit de la puissance optimale par le rendement global du compresseur.'
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: ja-JP
+  - language: 'es-ES'
     name: ''
     definition: ''
-  typePropertyReferenceValue:
-    refType: IfcTimeSeries
-    url: http://buildingsmart-tech.org
-    guid: ''
-    libraryName: Industry Foundation Classes by buildingSMART International
-    sectionref: Core Schema
-- name: EnergyEfficiencyRatio
-  definition: The Energy efficiency ratio (EER) is the ratio of net cooling capacity to the total input rate of electric power applied.  By definition, the units are BTU/hour per Watt.The input electric power may be obtained from Pset_DistributionPortPHistoryElectrical.RealPower on the 'Power' port of the IfcChiller.
+  - language: 'ja-JP'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'EnergyEfficiencyRatio'
+  definition: 'The Energy efficiency ratio (EER) is the ratio of net cooling capacity to the total input rate of electric power applied.  By definition, the units are BTU/hour per Watt.The input electric power may be obtained from Pset_DistributionPortPHistoryElectrical.RealPower on the ''Power'' port of the IfcChiller.'
   ifdGuid: 0R7KcN_PLF8QUqLm5ho6WT
   localizations:
-  - language: fr-FR
-    name: CoefficientEfficacitéEnergétique
-    definition: L'EER ou Energy Efficiency Ratio est le coefficient d'efficacité frigorifique, rapport entre entre l'énergie utile frigorifique divisée parénergie absorbée au compresseur.Par définition, l'unité est le BTU/hour par Watt.La puissance électrique fournie peut être obtenue depuis Pset_DistributionPortHistoryElectrical.RealPower sur le port "Power"  du IfcChiller.
-  - language: en-EN
+  - language: 'fr-FR'
+    name: 'CoefficientEfficacitéEnergétique'
+    definition: 'L''EER ou Energy Efficiency Ratio est le coefficient d''efficacité frigorifique, rapport entre entre l''énergie utile frigorifique divisée parénergie absorbée au compresseur.Par définition, l''unité est le BTU/hour par Watt.La puissance électrique fournie peut être obtenue depuis Pset_DistributionPortHistoryElectrical.RealPower sur le port "Power"  du IfcChiller.'
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: ja-JP
+  - language: 'es-ES'
     name: ''
     definition: ''
-  typePropertyReferenceValue:
-    refType: IfcTimeSeries
-    url: http://buildingsmart-tech.org
-    guid: ''
-    libraryName: Industry Foundation Classes by buildingSMART International
-    sectionref: Core Schema
-- name: CoefficientOfPerformance
-  definition: The Coefficient of performance (COP) is the ratio of heat removed to energy input. The energy input may be obtained by multiplying Pset_DistributionPortPHistoryGas.FlowRate on the 'Fuel' port of the IfcChiller by Pset_MaterialFuel.LowerHeatingValue.  The IfcDistributionPort for fuel has an associated IfcMaterial with fuel properties and is assigned to an IfcPerformanceHistory object nested within this IfcPerformanceHistory object.
+  - language: 'ja-JP'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'CoefficientOfPerformance'
+  definition: 'The Coefficient of performance (COP) is the ratio of heat removed to energy input. The energy input may be obtained by multiplying Pset_DistributionPortPHistoryGas.FlowRate on the ''Fuel'' port of the IfcChiller by Pset_MaterialFuel.LowerHeatingValue.  The IfcDistributionPort for fuel has an associated IfcMaterial with fuel properties and is assigned to an IfcPerformanceHistory object nested within this IfcPerformanceHistory object.'
   ifdGuid: 136nqyPgH0kBcdTFfbQ0$e
   localizations:
-  - language: fr-FR
-    name: CoefficientDePerformance
-    definition: Le coefficient de performance (COP) est le rapport entre l'énergie calorifique fournie sur l'énergie abosrbée.L'énergie fournie peut être obtenue en multipliant Pset_DistributionPortHistoryGas.flowRate depuis le port du IfcChiller par Pset_MaterialFuel.LowerHeatingValue.Le IfcDistributionPort pour combustible est associé à IfcMaterial pour les propriétés du combustible et est atrribué à l'objet IfcPerformanceHistory situé à l'intérieur même de cet objet IfcPerformanceHistory.
-  - language: en-EN
+  - language: 'fr-FR'
+    name: 'CoefficientDePerformance'
+    definition: 'Le coefficient de performance (COP) est le rapport entre l''énergie calorifique fournie sur l''énergie abosrbée.L''énergie fournie peut être obtenue en multipliant Pset_DistributionPortHistoryGas.flowRate depuis le port du IfcChiller par Pset_MaterialFuel.LowerHeatingValue.Le IfcDistributionPort pour combustible est associé à IfcMaterial pour les propriétés du combustible et est atrribué à l''objet IfcPerformanceHistory situé à l''intérieur même de cet objet IfcPerformanceHistory.'
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: ja-JP
+  - language: 'es-ES'
     name: ''
     definition: ''
-  typePropertyReferenceValue:
-    refType: IfcTimeSeries
-    url: http://buildingsmart-tech.org
-    guid: ''
-    libraryName: Industry Foundation Classes by buildingSMART International
-    sectionref: Core Schema
+  - language: 'ja-JP'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''

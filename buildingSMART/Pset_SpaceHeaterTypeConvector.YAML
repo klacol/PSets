@@ -1,106 +1,51 @@
-﻿name: Pset_SpaceHeaterTypeConvector
+﻿name: 'Pset_SpaceHeaterTypeConvector'
 ifcVersion:
-  version: 4.0.0.0
-  schema: IfcHvacDomain
+  version: '4.0.0.0'
+  schema: 'IfcHvacDomain'
 ifdGuid: ''
-definition: Space heater type convector attributes.
+definition: 'Space heater type convector attributes.'
 localizations:
-- language: en-EN
+- language: 'de-DE'
   name: ''
   definition: ''
-- language: de-DE
+- language: 'en-EN'
   name: ''
   definition: ''
-- language: fr-FR
+- language: 'es-ES'
   name: ''
   definition: ''
-- language: ja-JP
+- language: 'fr-FR'
+  name: ''
+  definition: ''
+- language: 'ja-JP'
+  name: ''
+  definition: ''
+- language: 'ru-RU'
   name: ''
   definition: ''
 applicableIfcClasses:
 - name: IfcSpaceHeaterType
   type: IfcSpaceHeaterType/CONVECTOR
 properties:
-- name: ConvectorType
-  definition: Indicates the type of convector, whether forced air (mechanically driven) or natural (gravity).
+- name: 'ConvectorType'
+  definition: 'Indicates the type of convector, whether forced air (mechanically driven) or natural (gravity).'
   ifdGuid: ''
   localizations:
-  - language: ja-JP
-    name: 対流タイプ
-    definition: 強制空気(機械的に運転される)か自然な(重力)であることにかかわらず対流式暖房器のタイプを示します。
-  - language: en-EN
+  - language: 'ja-JP'
+    name: '対流タイプ'
+    definition: '強制空気(機械的に運転される)か自然な(重力)であることにかかわらず対流式暖房器のタイプを示します。'
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  typePropertyEnumeratedValue:
-    listName: PEnum_SpaceHeaterConvectorType
-    enumerationValues:
-    - name: FORCED
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Forced
-        definition: ''
-      - language: de-DE
-        name: Forced
-        definition: ''
-      - language: fr-FR
-        name: Forced
-        definition: ''
-      - language: ja-JP
-        name: Forced
-        definition: ''
-    - name: NATURAL
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Natural
-        definition: ''
-      - language: de-DE
-        name: Natural
-        definition: ''
-      - language: fr-FR
-        name: Natural
-        definition: ''
-      - language: ja-JP
-        name: Natural
-        definition: ''
-    - name: OTHER
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Other
-        definition: ''
-      - language: de-DE
-        name: Other
-        definition: ''
-      - language: fr-FR
-        name: Other
-        definition: ''
-      - language: ja-JP
-        name: Other
-        definition: ''
-    - name: UNKNOWN
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Unknown
-        definition: ''
-      - language: de-DE
-        name: Unknown
-        definition: ''
-      - language: fr-FR
-        name: Unknown
-        definition: ''
-      - language: ja-JP
-        name: Unknown
-        definition: ''
+  - language: 'fr-FR'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''

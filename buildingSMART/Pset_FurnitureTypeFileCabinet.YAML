@@ -1,43 +1,51 @@
-﻿name: Pset_FurnitureTypeFileCabinet
+﻿name: 'Pset_FurnitureTypeFileCabinet'
 ifcVersion:
-  version: 4.0.0.0
-  schema: IfcSharedFacilitiesElements
+  version: '4.0.0.0'
+  schema: 'IfcSharedFacilitiesElements'
 ifdGuid: ''
 definition: 'A set of specific properties for furniture type file cabinet HISTORY: First issued in IFC Release R1.5. Renamed from Pset_FileCabinet'
 localizations:
-- language: en-EN
+- language: 'de-DE'
   name: ''
   definition: ''
-- language: de-DE
+- language: 'en-EN'
   name: ''
   definition: ''
-- language: fr-FR
+- language: 'es-ES'
   name: ''
   definition: ''
-- language: ja-JP
+- language: 'fr-FR'
+  name: ''
+  definition: ''
+- language: 'ja-JP'
+  name: ''
+  definition: ''
+- language: 'ru-RU'
   name: ''
   definition: ''
 applicableIfcClasses:
 - name: IfcFurnitureType
   type: IfcFurnitureType/FILECABINET
 properties:
-- name: WithLock
-  definition: Indicates whether the file cabinet is lockable (= TRUE) or not (= FALSE).
+- name: 'WithLock'
+  definition: 'Indicates whether the file cabinet is lockable (= TRUE) or not (= FALSE).'
   ifdGuid: 3pOmq1Ykz0mfIaZkWzb9qh
   localizations:
-  - language: en-EN
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  - language: ja-JP
+  - language: 'fr-FR'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcBoolean
-    measureType: ''
-    unitType: USERDEFINED
+  - language: 'ja-JP'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''

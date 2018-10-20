@@ -1,83 +1,95 @@
-﻿name: Pset_MaterialCommon
+﻿name: 'Pset_MaterialCommon'
 ifcVersion:
-  version: 4.0.0.0
-  schema: IfcMaterialResource
+  version: '4.0.0.0'
+  schema: 'IfcMaterialResource'
 ifdGuid: ''
-definition: A set of general material properties.
+definition: 'A set of general material properties.'
 localizations:
-- language: en-EN
+- language: 'de-DE'
   name: ''
   definition: ''
-- language: de-DE
+- language: 'en-EN'
   name: ''
   definition: ''
-- language: fr-FR
+- language: 'es-ES'
   name: ''
   definition: ''
-- language: ja-JP
+- language: 'fr-FR'
+  name: ''
+  definition: ''
+- language: 'ja-JP'
+  name: ''
+  definition: ''
+- language: 'ru-RU'
   name: ''
   definition: ''
 applicableIfcClasses:
 - name: IfcMaterial
   type: IfcMaterial
 properties:
-- name: MolecularWeight
-  definition: Molecular weight of material (typically gas).
+- name: 'MolecularWeight'
+  definition: 'Molecular weight of material (typically gas).'
   ifdGuid: ''
   localizations:
-  - language: en-EN
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  - language: ja-JP
+  - language: 'fr-FR'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcMolecularWeightMeasure
-    measureType: ''
-    unitType: USERDEFINED
-- name: Porosity
-  definition: The void fraction of the total volume occupied by material (Vbr - Vnet)/Vbr.
+  - language: 'ja-JP'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'Porosity'
+  definition: 'The void fraction of the total volume occupied by material (Vbr - Vnet)/Vbr.'
   ifdGuid: ''
   localizations:
-  - language: en-EN
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  - language: ja-JP
+  - language: 'fr-FR'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcNormalisedRatioMeasure
-    measureType: ''
-    unitType: USERDEFINED
-- name: MassDensity
-  definition: Material mass density.
+  - language: 'ja-JP'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'MassDensity'
+  definition: 'Material mass density.'
   ifdGuid: ''
   localizations:
-  - language: en-EN
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  - language: ja-JP
+  - language: 'fr-FR'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcMassDensityMeasure
-    measureType: ''
-    unitType: USERDEFINED
+  - language: 'ja-JP'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''

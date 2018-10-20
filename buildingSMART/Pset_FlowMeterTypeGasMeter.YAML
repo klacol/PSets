@@ -1,198 +1,117 @@
-﻿name: Pset_FlowMeterTypeGasMeter
+﻿name: 'Pset_FlowMeterTypeGasMeter'
 ifcVersion:
-  version: 4.0.0.0
-  schema: IfcHvacDomain
+  version: '4.0.0.0'
+  schema: 'IfcHvacDomain'
 ifdGuid: ''
-definition: Device that measures, indicates and sometimes records, the volume of gas that passes through it without interrupting the flow.
+definition: 'Device that measures, indicates and sometimes records, the volume of gas that passes through it without interrupting the flow.'
 localizations:
-- language: en-EN
+- language: 'de-DE'
   name: ''
   definition: ''
-- language: de-DE
+- language: 'en-EN'
   name: ''
   definition: ''
-- language: fr-FR
+- language: 'es-ES'
   name: ''
   definition: ''
-- language: ja-JP
+- language: 'fr-FR'
+  name: ''
+  definition: ''
+- language: 'ja-JP'
+  name: ''
+  definition: ''
+- language: 'ru-RU'
   name: ''
   definition: ''
 applicableIfcClasses:
 - name: IfcFlowMeterType
   type: IfcFlowMeterType/GASMETER
 properties:
-- name: GasType
-  definition: Defines the types of gas that may be specified.
+- name: 'GasType'
+  definition: 'Defines the types of gas that may be specified.'
   ifdGuid: 0IyM5eh5z59uJc$Qm5cH9$
   localizations:
-  - language: en-EN
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  - language: ja-JP
+  - language: 'fr-FR'
     name: ''
     definition: ''
-  typePropertyEnumeratedValue:
-    listName: PEnum_GasType
-    enumerationValues:
-    - name: COMMERCIALBUTANE
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Commercialbutane
-        definition: ''
-      - language: de-DE
-        name: Commercialbutane
-        definition: ''
-      - language: fr-FR
-        name: Commercialbutane
-        definition: ''
-      - language: ja-JP
-        name: Commercialbutane
-        definition: ''
-    - name: COMMERCIALPROPANE
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Commercialpropane
-        definition: ''
-      - language: de-DE
-        name: Commercialpropane
-        definition: ''
-      - language: fr-FR
-        name: Commercialpropane
-        definition: ''
-      - language: ja-JP
-        name: Commercialpropane
-        definition: ''
-    - name: LIQUEFIEDPETROLEUMGAS
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Liquefiedpetroleumgas
-        definition: ''
-      - language: de-DE
-        name: Liquefiedpetroleumgas
-        definition: ''
-      - language: fr-FR
-        name: Liquefiedpetroleumgas
-        definition: ''
-      - language: ja-JP
-        name: Liquefiedpetroleumgas
-        definition: ''
-    - name: NATURALGAS
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Naturalgas
-        definition: ''
-      - language: de-DE
-        name: Naturalgas
-        definition: ''
-      - language: fr-FR
-        name: Naturalgas
-        definition: ''
-      - language: ja-JP
-        name: Naturalgas
-        definition: ''
-    - name: OTHER
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Other
-        definition: ''
-      - language: de-DE
-        name: Other
-        definition: ''
-      - language: fr-FR
-        name: Other
-        definition: ''
-      - language: ja-JP
-        name: Other
-        definition: ''
-    - name: UNKNOWN
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Unknown
-        definition: ''
-      - language: de-DE
-        name: Unknown
-        definition: ''
-      - language: fr-FR
-        name: Unknown
-        definition: ''
-      - language: ja-JP
-        name: Unknown
-        definition: ''
-- name: ConnectionSize
-  definition: Defines the size of inlet and outlet pipe connections to the meter.
+  - language: 'ja-JP'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'ConnectionSize'
+  definition: 'Defines the size of inlet and outlet pipe connections to the meter.'
   ifdGuid: 1vmEplZQzBdfgQsH6lsLSr
   localizations:
-  - language: en-EN
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  - language: ja-JP
+  - language: 'fr-FR'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcPositiveLengthMeasure
-    measureType: ''
-    unitType: LENGTHUNIT
-- name: MaximumFlowRate
-  definition: Maximum rate of flow which the meter is expected to pass.
+  - language: 'ja-JP'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'MaximumFlowRate'
+  definition: 'Maximum rate of flow which the meter is expected to pass.'
   ifdGuid: 2urgAyPJb9PuJ6__wIvg0g
   localizations:
-  - language: en-EN
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  - language: ja-JP
+  - language: 'fr-FR'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcVolumetricFlowRateMeasure
-    measureType: ''
-    unitType: VOLUMETRICFLOWRATEUNIT
-- name: MaximumPressureLoss
-  definition: Pressure loss expected across the meter under conditions of maximum flow.
+  - language: 'ja-JP'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'MaximumPressureLoss'
+  definition: 'Pressure loss expected across the meter under conditions of maximum flow.'
   ifdGuid: 2NhvdVY3T3v8njXZTqLmTA
   localizations:
-  - language: en-EN
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  - language: ja-JP
+  - language: 'fr-FR'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcPressureMeasure
-    measureType: ''
-    unitType: PRESSUREUNIT
+  - language: 'ja-JP'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''

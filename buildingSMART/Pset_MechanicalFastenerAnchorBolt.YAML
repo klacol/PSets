@@ -1,115 +1,129 @@
-﻿name: Pset_MechanicalFastenerAnchorBolt
+﻿name: 'Pset_MechanicalFastenerAnchorBolt'
 ifcVersion:
-  version: 4.0.0.0
-  schema: IfcSharedComponentElements
+  version: '4.0.0.0'
+  schema: 'IfcSharedComponentElements'
 ifdGuid: ''
-definition: Properties common to different types of anchor bolts.
+definition: 'Properties common to different types of anchor bolts.'
 localizations:
-- language: en-EN
+- language: 'de-DE'
   name: ''
   definition: ''
-- language: de-DE
+- language: 'en-EN'
   name: ''
   definition: ''
-- language: fr-FR
+- language: 'es-ES'
   name: ''
   definition: ''
-- language: ja-JP
+- language: 'fr-FR'
+  name: ''
+  definition: ''
+- language: 'ja-JP'
+  name: ''
+  definition: ''
+- language: 'ru-RU'
   name: ''
   definition: ''
 applicableIfcClasses:
 - name: IfcMechanicalFastener
   type: IfcMechanicalFastener/ANCHORBOLT
 properties:
-- name: AnchorBoltLength
-  definition: The length of the anchor bolt.
+- name: 'AnchorBoltLength'
+  definition: 'The length of the anchor bolt.'
   ifdGuid: ''
   localizations:
-  - language: ja-JP
-    name: 長さ
-    definition: アンカーボルトの長さ。
-  - language: ko-KR
-    name: 길이
-    definition: 앵커 볼트의 길이
-  - language: en-EN
+  - language: 'ja-JP'
+    name: '長さ'
+    definition: 'アンカーボルトの長さ。'
+  - language: 'ko-KR'
+    name: '길이'
+    definition: '앵커 볼트의 길이'
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcPositiveLengthMeasure
-    measureType: ''
-    unitType: LENGTHUNIT
-- name: AnchorBoltDiameter
-  definition: The nominal diameter of the anchor bolt bar(s).
+  - language: 'fr-FR'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'AnchorBoltDiameter'
+  definition: 'The nominal diameter of the anchor bolt bar(s).'
   ifdGuid: ''
   localizations:
-  - language: ja-JP
-    name: 直径
-    definition: アンカーボルトの直径。
-  - language: ko-KR
-    name: 지름
-    definition: 앵커 볼트의 공칭 직경
-  - language: en-EN
+  - language: 'ja-JP'
+    name: '直径'
+    definition: 'アンカーボルトの直径。'
+  - language: 'ko-KR'
+    name: '지름'
+    definition: '앵커 볼트의 공칭 직경'
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcPositiveLengthMeasure
-    measureType: ''
-    unitType: LENGTHUNIT
-- name: AnchorBoltThreadLength
-  definition: The length of the threaded part of the anchor bolt.
+  - language: 'fr-FR'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'AnchorBoltThreadLength'
+  definition: 'The length of the threaded part of the anchor bolt.'
   ifdGuid: ''
   localizations:
-  - language: ko-KR
-    name: 나사부 길이
-    definition: 앵커 볼트의 나사 부분의 길이
-  - language: en-EN
+  - language: 'ko-KR'
+    name: '나사부 길이'
+    definition: '앵커 볼트의 나사 부분의 길이'
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  - language: ja-JP
+  - language: 'fr-FR'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcPositiveLengthMeasure
-    measureType: ''
-    unitType: LENGTHUNIT
-- name: AnchorBoltProtrusionLength
-  definition: The length of the protruding part of the anchor bolt.
+  - language: 'ja-JP'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'AnchorBoltProtrusionLength'
+  definition: 'The length of the protruding part of the anchor bolt.'
   ifdGuid: ''
   localizations:
-  - language: ko-KR
-    name: 돌출부 길이
-    definition: 앵커 볼트의 돌출 부분의 길이
-  - language: en-EN
+  - language: 'ko-KR'
+    name: '돌출부 길이'
+    definition: '앵커 볼트의 돌출 부분의 길이'
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  - language: ja-JP
+  - language: 'fr-FR'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcPositiveLengthMeasure
-    measureType: ''
-    unitType: LENGTHUNIT
+  - language: 'ja-JP'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''

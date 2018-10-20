@@ -1,45 +1,51 @@
-﻿name: Pset_CommunicationsAppliancePHistory
+﻿name: 'Pset_CommunicationsAppliancePHistory'
 ifcVersion:
-  version: 4.0.0.0
-  schema: IfcElectricalDomain
+  version: '4.0.0.0'
+  schema: 'IfcElectricalDomain'
 ifdGuid: ''
 definition: 'Captures realtime information for communications devices, such as for server farm energy usage.  HISTORY: Added in IFC4.'
 localizations:
-- language: en-EN
+- language: 'de-DE'
   name: ''
   definition: ''
-- language: de-DE
+- language: 'en-EN'
   name: ''
   definition: ''
-- language: fr-FR
+- language: 'es-ES'
   name: ''
   definition: ''
-- language: ja-JP
+- language: 'fr-FR'
+  name: ''
+  definition: ''
+- language: 'ja-JP'
+  name: ''
+  definition: ''
+- language: 'ru-RU'
   name: ''
   definition: ''
 applicableIfcClasses:
 - name: IfcPerformanceHistory
   type: IfcCommunicationsApplianceType
 properties:
-- name: PowerState
-  definition: Indicates the power state of the device where True is on and False is off.
+- name: 'PowerState'
+  definition: 'Indicates the power state of the device where True is on and False is off.'
   ifdGuid: ''
   localizations:
-  - language: en-EN
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  - language: ja-JP
+  - language: 'fr-FR'
     name: ''
     definition: ''
-  typePropertyReferenceValue:
-    refType: IfcTimeSeries
-    url: http://buildingsmart-tech.org
-    guid: ''
-    libraryName: Industry Foundation Classes by buildingSMART International
-    sectionref: Core Schema
+  - language: 'ja-JP'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''

@@ -1,212 +1,79 @@
-﻿name: Pset_SensorTypeWindSensor
+﻿name: 'Pset_SensorTypeWindSensor'
 ifcVersion:
-  version: 4.0.0.0
-  schema: IfcBuildingControlsDomain
+  version: '4.0.0.0'
+  schema: 'IfcBuildingControlsDomain'
 ifdGuid: ''
 definition: 'A device that senses or detects wind speed and direction. HISTORY: Added in IFC4.'
 localizations:
-- language: en-EN
+- language: 'de-DE'
   name: ''
   definition: ''
-- language: de-DE
+- language: 'en-EN'
   name: ''
   definition: ''
-- language: fr-FR
+- language: 'es-ES'
   name: ''
   definition: ''
-- language: ja-JP
+- language: 'fr-FR'
+  name: ''
+  definition: ''
+- language: 'ja-JP'
+  name: ''
+  definition: ''
+- language: 'ru-RU'
   name: ''
   definition: ''
 applicableIfcClasses:
 - name: IfcSensorType
   type: IfcSensorType/WINDSENSOR
 properties:
-- name: WindSensorType
-  definition: Enumeration that Identifies the types of wind sensors that can be specified.
+- name: 'WindSensorType'
+  definition: 'Enumeration that Identifies the types of wind sensors that can be specified.'
   ifdGuid: ''
   localizations:
-  - language: ja-JP
-    name: 風センサータイプ
-    definition: 明示された風センサーのタイプを識別する一覧。
-  - language: ko-KR
-    name: 바람 센서 타입
-    definition: 명시된 바람 센서 유형을 식별하는 목록.
-  - language: en-EN
+  - language: 'ja-JP'
+    name: '風センサータイプ'
+    definition: '明示された風センサーのタイプを識別する一覧。'
+  - language: 'ko-KR'
+    name: '바람 센서 타입'
+    definition: '명시된 바람 센서 유형을 식별하는 목록.'
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  typePropertyEnumeratedValue:
-    listName: PEnum_WindSensorType
-    enumerationValues:
-    - name: CUP
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Cup
-        definition: ''
-      - language: de-DE
-        name: Cup
-        definition: ''
-      - language: fr-FR
-        name: Cup
-        definition: ''
-      - language: ja-JP
-        name: Cup
-        definition: ''
-    - name: WINDMILL
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Windmill
-        definition: ''
-      - language: de-DE
-        name: Windmill
-        definition: ''
-      - language: fr-FR
-        name: Windmill
-        definition: ''
-      - language: ja-JP
-        name: Windmill
-        definition: ''
-    - name: HOTWIRE
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Hotwire
-        definition: ''
-      - language: de-DE
-        name: Hotwire
-        definition: ''
-      - language: fr-FR
-        name: Hotwire
-        definition: ''
-      - language: ja-JP
-        name: Hotwire
-        definition: ''
-    - name: LASERDOPPLER
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Laserdoppler
-        definition: ''
-      - language: de-DE
-        name: Laserdoppler
-        definition: ''
-      - language: fr-FR
-        name: Laserdoppler
-        definition: ''
-      - language: ja-JP
-        name: Laserdoppler
-        definition: ''
-    - name: SONIC
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Sonic
-        definition: ''
-      - language: de-DE
-        name: Sonic
-        definition: ''
-      - language: fr-FR
-        name: Sonic
-        definition: ''
-      - language: ja-JP
-        name: Sonic
-        definition: ''
-    - name: PLATE
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Plate
-        definition: ''
-      - language: de-DE
-        name: Plate
-        definition: ''
-      - language: fr-FR
-        name: Plate
-        definition: ''
-      - language: ja-JP
-        name: Plate
-        definition: ''
-    - name: TUBE
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Tube
-        definition: ''
-      - language: de-DE
-        name: Tube
-        definition: ''
-      - language: fr-FR
-        name: Tube
-        definition: ''
-      - language: ja-JP
-        name: Tube
-        definition: ''
-    - name: OTHER
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Other
-        definition: ''
-      - language: de-DE
-        name: Other
-        definition: ''
-      - language: fr-FR
-        name: Other
-        definition: ''
-      - language: ja-JP
-        name: Other
-        definition: ''
-    - name: UNKNOWN
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Unknown
-        definition: ''
-      - language: de-DE
-        name: Unknown
-        definition: ''
-      - language: fr-FR
-        name: Unknown
-        definition: ''
-      - language: ja-JP
-        name: Unknown
-        definition: ''
-- name: SetPointSpeed
-  definition: The wind speed value to be sensed. Use IfcPropertyBoundedValue.SetPointValue to set the set point value.
+  - language: 'fr-FR'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'SetPointSpeed'
+  definition: 'The wind speed value to be sensed. Use IfcPropertyBoundedValue.SetPointValue to set the set point value.'
   ifdGuid: ''
   localizations:
-  - language: ja-JP
-    name: 風速設定値
-    definition: 感知される風速。セットポイント値を置くために、IfcPropertyBoundedValue.SetPointValueを使用する。
-  - language: ko-KR
-    name: 풍속 설정
-    definition: 감지되는 바람. 세트 포인트 값을 넣으려면, IfcPropertyBoundedValue.SetPointValue를 사용하십시오.
-  - language: en-EN
+  - language: 'ja-JP'
+    name: '風速設定値'
+    definition: '感知される風速。セットポイント値を置くために、IfcPropertyBoundedValue.SetPointValueを使用する。'
+  - language: 'ko-KR'
+    name: '풍속 설정'
+    definition: '감지되는 바람. 세트 포인트 값을 넣으려면, IfcPropertyBoundedValue.SetPointValue를 사용하십시오.'
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcLinearVelocityMeasure
-    measureType: ''
-    unitType: USERDEFINED
+  - language: 'fr-FR'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''

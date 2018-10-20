@@ -1,89 +1,95 @@
-﻿name: Pset_FilterPHistory
+﻿name: 'Pset_FilterPHistory'
 ifcVersion:
-  version: 4.0.0.0
-  schema: IfcHvacDomain
+  version: '4.0.0.0'
+  schema: 'IfcHvacDomain'
 ifdGuid: ''
-definition: Filter performance history attributes.
+definition: 'Filter performance history attributes.'
 localizations:
-- language: en-EN
+- language: 'de-DE'
   name: ''
   definition: ''
-- language: de-DE
+- language: 'en-EN'
   name: ''
   definition: ''
-- language: fr-FR
+- language: 'es-ES'
   name: ''
   definition: ''
-- language: ja-JP
+- language: 'fr-FR'
+  name: ''
+  definition: ''
+- language: 'ja-JP'
+  name: ''
+  definition: ''
+- language: 'ru-RU'
   name: ''
   definition: ''
 applicableIfcClasses:
 - name: IfcPerformanceHistory
   type: IfcFilter
 properties:
-- name: CountedEfficiency
-  definition: Filter efficiency based the particle counts concentration before and after filter against particles with certain size distribution.
+- name: 'CountedEfficiency'
+  definition: 'Filter efficiency based the particle counts concentration before and after filter against particles with certain size distribution.'
   ifdGuid: 2wT_inaQLENBfwOPpVTTy2
   localizations:
-  - language: en-EN
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  - language: ja-JP
+  - language: 'fr-FR'
     name: ''
     definition: ''
-  typePropertyReferenceValue:
-    refType: IfcTimeSeries
-    url: http://buildingsmart-tech.org
-    guid: ''
-    libraryName: Industry Foundation Classes by buildingSMART International
-    sectionref: Core Schema
-- name: WeightedEfficiency
-  definition: Filter efficiency based the particle weight concentration before and after filter against particles with certain size distribution.
+  - language: 'ja-JP'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'WeightedEfficiency'
+  definition: 'Filter efficiency based the particle weight concentration before and after filter against particles with certain size distribution.'
   ifdGuid: 1t0ugVthf9LwEoaPSZvqUI
   localizations:
-  - language: en-EN
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  - language: ja-JP
+  - language: 'fr-FR'
     name: ''
     definition: ''
-  typePropertyReferenceValue:
-    refType: IfcTimeSeries
-    url: http://buildingsmart-tech.org
-    guid: ''
-    libraryName: Industry Foundation Classes by buildingSMART International
-    sectionref: Core Schema
-- name: ParticleMassHolding
-  definition: Mass of particle holding in the filter.
+  - language: 'ja-JP'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'ParticleMassHolding'
+  definition: 'Mass of particle holding in the filter.'
   ifdGuid: 0f56Adr3D5SOoEyDPFsxGX
   localizations:
-  - language: en-EN
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  - language: ja-JP
+  - language: 'fr-FR'
     name: ''
     definition: ''
-  typePropertyReferenceValue:
-    refType: IfcTimeSeries
-    url: http://buildingsmart-tech.org
-    guid: ''
-    libraryName: Industry Foundation Classes by buildingSMART International
-    sectionref: Core Schema
+  - language: 'ja-JP'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''

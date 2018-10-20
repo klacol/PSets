@@ -1,356 +1,271 @@
-﻿name: Pset_ChillerTypeCommon
+﻿name: 'Pset_ChillerTypeCommon'
 ifcVersion:
-  version: 4.0.0.0
-  schema: IfcHvacDomain
+  version: '4.0.0.0'
+  schema: 'IfcHvacDomain'
 ifdGuid: ''
-definition: Chiller type common attributes.
+definition: 'Chiller type common attributes.'
 localizations:
-- language: en-EN
+- language: 'de-DE'
   name: ''
   definition: ''
-- language: de-DE
+- language: 'en-EN'
   name: ''
   definition: ''
-- language: fr-FR
+- language: 'es-ES'
   name: ''
   definition: ''
-- language: ja-JP
+- language: 'fr-FR'
+  name: ''
+  definition: ''
+- language: 'ja-JP'
+  name: ''
+  definition: ''
+- language: 'ru-RU'
   name: ''
   definition: ''
 applicableIfcClasses:
 - name: IfcChillerType
   type: IfcChillerType
 properties:
-- name: Reference
-  definition: Reference ID for this specified type in this project (e.g. type 'A-1'), provided, if there is no classification reference to a recognized classification system used.
+- name: 'Reference'
+  definition: 'Reference ID for this specified type in this project (e.g. type ''A-1''), provided, if there is no classification reference to a recognized classification system used.'
   ifdGuid: ''
   localizations:
-  - language: fr-FR
-    name: Référence
-    definition: Identification de référence pour ce type spécifique à ce projet, c'est-à-dire type'A-1', fourni à partir du moment où, s'il n'y a pas de référence de classification par rapport à un système de classification reconnu et en usage.
-  - language: ja-JP
-    name: 参照記号
-    definition: このプロジェクトにおける参照記号(例：A-1)。分類コードではなく内部で使用されるプロジェクトタイプとして使用されるもの。
-  - language: en-EN
+  - language: 'fr-FR'
+    name: 'Référence'
+    definition: 'Identification de référence pour ce type spécifique à ce projet, c''est-à-dire type''A-1'', fourni à partir du moment où, s''il n''y a pas de référence de classification par rapport à un système de classification reconnu et en usage.'
+  - language: 'ja-JP'
+    name: '参照記号'
+    definition: 'このプロジェクトにおける参照記号(例：A-1)。分類コードではなく内部で使用されるプロジェクトタイプとして使用されるもの。'
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcIdentifier
-    measureType: ''
-    unitType: USERDEFINED
-- name: Status
-  definition: Status of the element, predominately used in renovation or retrofitting projects. The status can be assigned to as "New" - element designed as new addition, "Existing" - element exists and remains, "Demolish" - element existed but is to be demolished,  "Temporary" - element will exists only temporary (like a temporary support structure).
+  - language: 'es-ES'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'Status'
+  definition: 'Status of the element, predominately used in renovation or retrofitting projects. The status can be assigned to as "New" - element designed as new addition, "Existing" - element exists and remains, "Demolish" - element existed but is to be demolished,  "Temporary" - element will exists only temporary (like a temporary support structure).'
   ifdGuid: ''
   localizations:
-  - language: fr-FR
-    name: Etat
-    definition: Etat de l'élément, utilisé avant tout pour les projets de rénovation et réaménagement. L'état assigné peut être "Nouveau" - l'élément prévu pour du neuf, "Existant" - l'élément existait et est maintenu, "Démoli" - l'élément existait mais doit être démoli/supprimé, "Provisoire" - l'élément existera à titre provisoire seulement (comme un support structurel par exemple).
-  - language: ja-JP
-    name: 状態
-    definition: 要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
-  - language: en-EN
+  - language: 'fr-FR'
+    name: 'Etat'
+    definition: 'Etat de l''élément, utilisé avant tout pour les projets de rénovation et réaménagement. L''état assigné peut être "Nouveau" - l''élément prévu pour du neuf, "Existant" - l''élément existait et est maintenu, "Démoli" - l''élément existait mais doit être démoli/supprimé, "Provisoire" - l''élément existera à titre provisoire seulement (comme un support structurel par exemple).'
+  - language: 'ja-JP'
+    name: '状態'
+    definition: '要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。'
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  typePropertyEnumeratedValue:
-    listName: PEnum_Status
-    enumerationValues:
-    - name: NEW
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: New
-        definition: ''
-      - language: de-DE
-        name: New
-        definition: ''
-      - language: fr-FR
-        name: New
-        definition: ''
-      - language: ja-JP
-        name: New
-        definition: ''
-    - name: EXISTING
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Existing
-        definition: ''
-      - language: de-DE
-        name: Existing
-        definition: ''
-      - language: fr-FR
-        name: Existing
-        definition: ''
-      - language: ja-JP
-        name: Existing
-        definition: ''
-    - name: DEMOLISH
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Demolish
-        definition: ''
-      - language: de-DE
-        name: Demolish
-        definition: ''
-      - language: fr-FR
-        name: Demolish
-        definition: ''
-      - language: ja-JP
-        name: Demolish
-        definition: ''
-    - name: TEMPORARY
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Temporary
-        definition: ''
-      - language: de-DE
-        name: Temporary
-        definition: ''
-      - language: fr-FR
-        name: Temporary
-        definition: ''
-      - language: ja-JP
-        name: Temporary
-        definition: ''
-    - name: OTHER
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Other
-        definition: ''
-      - language: de-DE
-        name: Other
-        definition: ''
-      - language: fr-FR
-        name: Other
-        definition: ''
-      - language: ja-JP
-        name: Other
-        definition: ''
-    - name: UNKNOWN
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Unknown
-        definition: ''
-      - language: de-DE
-        name: Unknown
-        definition: ''
-      - language: fr-FR
-        name: Unknown
-        definition: ''
-      - language: ja-JP
-        name: Unknown
-        definition: ''
-- name: NominalCapacity
-  definition: Nominal cooling capacity of chiller at standardized conditions as defined by the agency having jurisdiction.
+  - language: 'es-ES'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'NominalCapacity'
+  definition: 'Nominal cooling capacity of chiller at standardized conditions as defined by the agency having jurisdiction.'
   ifdGuid: 2psIvjwkj2dRbU9fIpCwvg
   localizations:
-  - language: fr-FR
-    name: PuissanceNominale
-    definition: Puissance froid nominale du groupe froid aux conditions standardisées telles que définies par l'organisation faisant autorité.
-  - language: en-EN
+  - language: 'fr-FR'
+    name: 'PuissanceNominale'
+    definition: 'Puissance froid nominale du groupe froid aux conditions standardisées telles que définies par l''organisation faisant autorité.'
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: ja-JP
+  - language: 'es-ES'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcPowerMeasure
-    measureType: ''
-    unitType: POWERUNIT
-- name: NominalEfficiency
-  definition: Nominal chiller efficiency under nominal conditions.
+  - language: 'ja-JP'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'NominalEfficiency'
+  definition: 'Nominal chiller efficiency under nominal conditions.'
   ifdGuid: 0ybLpOsJXEqhlQiguY9$SZ
   localizations:
-  - language: fr-FR
-    name: EfficacitéNominale
-    definition: Efficactié nominale du groupe froid sous les conditions nominales.
-  - language: en-EN
+  - language: 'fr-FR'
+    name: 'EfficacitéNominale'
+    definition: 'Efficactié nominale du groupe froid sous les conditions nominales.'
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: ja-JP
+  - language: 'es-ES'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcPositiveRatioMeasure
-    measureType: ''
-    unitType: USERDEFINED
-- name: NominalCondensingTemperature
-  definition: Chiller condensing temperature.
+  - language: 'ja-JP'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'NominalCondensingTemperature'
+  definition: 'Chiller condensing temperature.'
   ifdGuid: 1aNIKJIxDF09oVBATQsTOC
   localizations:
-  - language: fr-FR
-    name: TemperatureCondensationNominale
-    definition: Température de condensation du groupe froid.
-  - language: en-EN
+  - language: 'fr-FR'
+    name: 'TemperatureCondensationNominale'
+    definition: 'Température de condensation du groupe froid.'
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: ja-JP
+  - language: 'es-ES'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcThermodynamicTemperatureMeasure
-    measureType: ''
-    unitType: THERMODYNAMICTEMPERATUREUNIT
-- name: NominalEvaporatingTemperature
-  definition: Chiller evaporating temperature.
+  - language: 'ja-JP'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'NominalEvaporatingTemperature'
+  definition: 'Chiller evaporating temperature.'
   ifdGuid: 38HZTepX15EP33Nr6g51Sl
   localizations:
-  - language: fr-FR
-    name: TempératureEvaporationNominale
-    definition: Température d'évaporation du groupe froid.
-  - language: en-EN
+  - language: 'fr-FR'
+    name: 'TempératureEvaporationNominale'
+    definition: 'Température d''évaporation du groupe froid.'
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: ja-JP
+  - language: 'es-ES'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcThermodynamicTemperatureMeasure
-    measureType: ''
-    unitType: THERMODYNAMICTEMPERATUREUNIT
-- name: NominalHeatRejectionRate
-  definition: Sum of the refrigeration effect and the heat equivalent of the power input to the compressor.
+  - language: 'ja-JP'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'NominalHeatRejectionRate'
+  definition: 'Sum of the refrigeration effect and the heat equivalent of the power input to the compressor.'
   ifdGuid: 3uEzXM8Z1F5e_GlsY78nOI
   localizations:
-  - language: fr-FR
-    name: CoefficientEvacuationNominaleChaleur
-    definition: Somme de l'effet de réfrigération et de la chaleur équivalente à la puisssance absorbée par le compresseur.
-  - language: en-EN
+  - language: 'fr-FR'
+    name: 'CoefficientEvacuationNominaleChaleur'
+    definition: 'Somme de l''effet de réfrigération et de la chaleur équivalente à la puisssance absorbée par le compresseur.'
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: ja-JP
+  - language: 'es-ES'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcPowerMeasure
-    measureType: ''
-    unitType: POWERUNIT
-- name: NominalPowerConsumption
-  definition: Nominal total power consumption.
+  - language: 'ja-JP'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'NominalPowerConsumption'
+  definition: 'Nominal total power consumption.'
   ifdGuid: 091c5yH3PFcA7QACw13FSl
   localizations:
-  - language: fr-FR
-    name: ConsommationPuissanceNominale
-    definition: Puissance de consommation totale nominale.
-  - language: en-EN
+  - language: 'fr-FR'
+    name: 'ConsommationPuissanceNominale'
+    definition: 'Puissance de consommation totale nominale.'
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: ja-JP
+  - language: 'es-ES'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcPowerMeasure
-    measureType: ''
-    unitType: POWERUNIT
-- name: CapacityCurve
+  - language: 'ja-JP'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'CapacityCurve'
   definition: 'Chiller cooling capacity is a function of condensing temperature and evaporating temperature, data is in table form, Capacity = f (TempCon, TempEvp), capacity = a1+b1*Tei+c1*Tei^2+d1*Tci+e1*Tci^2+f1*Tei*Tci. This table uses multiple input variables; to represent, both DefiningValues and DefinedValues lists are null and IfcTable is attached using IfcPropertyConstraintRelationship and IfcMetric.  Columns are specified in the following order: 1.IfcPowerMeasure:Capacity2.IfcThermodynamicTemperatureMeasure:CondensingTemperature3.IfcThermodynamicTemperatureMeasure:EvaporatingTemperature'
   ifdGuid: ''
   localizations:
-  - language: fr-FR
-    name: CourbePuissance
-    definition: "Puissance frigoifique du groupe froid qui est une fonction de la température de condensation et de la température d'évaporation, les informations sont sous la forme d'un tableau, Puissance = f(TempCon,TempEvp), puissance = a1+b1*Tei+c1*Tei^2+d1*Tci+e1*Tci^2+f1*Tei*Tci.Ce tableau utilises plusieurs entrées variables; pour la  représenter, DefiningValues et DefinedValues sont pour les deux nulles et IfcTable est attachée en utilisant IfcPropertyConstraintRelationship et IfcMetric. Les colonnes sont indiquées dans l'ordre suivant:1. IfcPowerMeasure: Capacity2. IfcThermodynamicTemperatureMeasure: CondensingTemperature3. IfcThermodynamicTemperatureMeasure: EvaporatingTemperature"
-  - language: en-EN
+  - language: 'fr-FR'
+    name: 'CourbePuissance'
+    definition: 'Puissance frigoifique du groupe froid qui est une fonction de la température de condensation et de la température d''évaporation, les informations sont sous la forme d''un tableau, Puissance = f(TempCon,TempEvp), puissance = a1+b1*Tei+c1*Tei^2+d1*Tci+e1*Tci^2+f1*Tei*Tci.Ce tableau utilises plusieurs entrées variables; pour la  représenter, DefiningValues et DefinedValues sont pour les deux nulles et IfcTable est attachée en utilisant IfcPropertyConstraintRelationship et IfcMetric. Les colonnes sont indiquées dans l''ordre suivant:1. IfcPowerMeasure: Capacity2. IfcThermodynamicTemperatureMeasure: CondensingTemperature3. IfcThermodynamicTemperatureMeasure: EvaporatingTemperature'
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: ja-JP
+  - language: 'es-ES'
     name: ''
     definition: ''
-  typePropertyTableValue:
-    Expression: ' - '
-    DefiningValue:
-      dataType: IfcThermodynamicTemperatureMeasure
-      measureType: ''
-      unitType: USERDEFINED
-    DefinedValue:
-      dataType: IfcPowerMeasure
-      measureType: ''
-      unitType: USERDEFINED
-- name: CoefficientOfPerformanceCurve
+  - language: 'ja-JP'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'CoefficientOfPerformanceCurve'
   definition: 'Chiller coefficient of performance (COP) is function of condensing temperature and evaporating temperature, data is in table form, COP= f (TempCon, TempEvp), COP = a2+b2*Tei+c2*Tei^2+d2*Tci+e2*Tci^2+f2*Tei*Tci. This table uses multiple input variables; to represent, both DefiningValues and DefinedValues lists are null and IfcTable is attached using IfcPropertyConstraintRelationship and IfcMetric.  Columns are specified in the following order: 1.IfcPositiveRatioMeasure:CoefficientOfPerformance2.IfcThermodynamicTemperatureMeasure:CondensingTemperature3.IfcThermodynamicTemperatureMeasure:EvaporatingTemperature'
   ifdGuid: ''
   localizations:
-  - language: fr-FR
-    name: CourbeCOP
-    definition: "Coefficient de Performance (COP) du groupe froid qui est une fonction de la température de condensation et de la température d'évaporation, les informations sont sous la forme d'un tableau, COP = f(TempCon,TempEvp), COP = a2+b1*Tei+c2*Tei^2+d2*Tci+e2*Tci^2+f2*Tei*Tci.Ce tableau utilises plusieurs entrées variables; pour la  représenter, DefiningValues et DefinedValues sont pour les deux nulles et IfcTable est attachée en utilisant IfcPropertyConstraintRelationship et IfcMetric. Les colonnes sont indiquées dans l'ordre suivant:1. IfcPowerMeasureCapacity2. IfcThermodynamicTemperatureMeasure: CondensingTemperature3. IfcThermodynamicTemperatureMeasure: EvaporatingTemperature"
-  - language: en-EN
+  - language: 'fr-FR'
+    name: 'CourbeCOP'
+    definition: 'Coefficient de Performance (COP) du groupe froid qui est une fonction de la température de condensation et de la température d''évaporation, les informations sont sous la forme d''un tableau, COP = f(TempCon,TempEvp), COP = a2+b1*Tei+c2*Tei^2+d2*Tci+e2*Tci^2+f2*Tei*Tci.Ce tableau utilises plusieurs entrées variables; pour la  représenter, DefiningValues et DefinedValues sont pour les deux nulles et IfcTable est attachée en utilisant IfcPropertyConstraintRelationship et IfcMetric. Les colonnes sont indiquées dans l''ordre suivant:1. IfcPowerMeasureCapacity2. IfcThermodynamicTemperatureMeasure: CondensingTemperature3. IfcThermodynamicTemperatureMeasure: EvaporatingTemperature'
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: ja-JP
+  - language: 'es-ES'
     name: ''
     definition: ''
-  typePropertyTableValue:
-    Expression: ' - '
-    DefiningValue:
-      dataType: IfcThermodynamicTemperatureMeasure
-      measureType: ''
-      unitType: USERDEFINED
-    DefinedValue:
-      dataType: IfcReal
-      measureType: ''
-      unitType: USERDEFINED
-- name: FullLoadRatioCurve
-  definition: Ratio of actual power to full load power as a quadratic function of part load, at certain condensing and evaporating temperature, FracFullLoadPower = f ( PartLoadRatio).
+  - language: 'ja-JP'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'FullLoadRatioCurve'
+  definition: 'Ratio of actual power to full load power as a quadratic function of part load, at certain condensing and evaporating temperature, FracFullLoadPower = f ( PartLoadRatio).'
   ifdGuid: ''
   localizations:
-  - language: fr-FR
-    name: CourbeFonctionnementPleineCharge
-    definition: Rapport entre la puissance instantanée et la puissance à pleine charge comme fonction quadratique de charge partielle, pour une certaine température de condensation et une température d'évaporation, FracFullLoadPower= f (CoefficientChargePartielle)
-  - language: en-EN
+  - language: 'fr-FR'
+    name: 'CourbeFonctionnementPleineCharge'
+    definition: 'Rapport entre la puissance instantanée et la puissance à pleine charge comme fonction quadratique de charge partielle, pour une certaine température de condensation et une température d''évaporation, FracFullLoadPower= f (CoefficientChargePartielle)'
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: ja-JP
+  - language: 'es-ES'
     name: ''
     definition: ''
-  typePropertyTableValue:
-    Expression: ' - '
-    DefiningValue:
-      dataType: IfcPositiveRatioMeasure
-      measureType: ''
-      unitType: USERDEFINED
-    DefinedValue:
-      dataType: IfcNormalisedRatioMeasure
-      measureType: ''
-      unitType: USERDEFINED
+  - language: 'ja-JP'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''

@@ -1,109 +1,54 @@
-﻿name: Pset_ProtectiveDeviceTypeVaristor
+﻿name: 'Pset_ProtectiveDeviceTypeVaristor'
 ifcVersion:
-  version: 4.0.0.0
-  schema: IfcElectricalDomain
+  version: '4.0.0.0'
+  schema: 'IfcElectricalDomain'
 ifdGuid: ''
-definition: A high voltage surge protection device.
+definition: 'A high voltage surge protection device.'
 localizations:
-- language: en-EN
+- language: 'de-DE'
   name: ''
   definition: ''
-- language: de-DE
+- language: 'en-EN'
   name: ''
   definition: ''
-- language: fr-FR
+- language: 'es-ES'
   name: ''
   definition: ''
-- language: ja-JP
+- language: 'fr-FR'
+  name: ''
+  definition: ''
+- language: 'ja-JP'
+  name: ''
+  definition: ''
+- language: 'ru-RU'
   name: ''
   definition: ''
 applicableIfcClasses:
 - name: IfcProtectiveDeviceType
   type: IfcProtectiveDeviceType/VARISTOR
 properties:
-- name: VaristorType
-  definition: A list of the available types of varistor  from which that required may be selected.
+- name: 'VaristorType'
+  definition: 'A list of the available types of varistor  from which that required may be selected.'
   ifdGuid: 2pNgHdCWr44Rp_vpGn8vrt
   localizations:
-  - language: ja-JP
-    name: 保護タイプ
-    definition: 選択が必要となる、バリスターの一覧リスト。
-  - language: ko-KR
-    name: 보호 종류
-    definition: 선택된 varistor(소자)의 유용한 유형목록
-  - language: en-EN
+  - language: 'ja-JP'
+    name: '保護タイプ'
+    definition: '選択が必要となる、バリスターの一覧リスト。'
+  - language: 'ko-KR'
+    name: '보호 종류'
+    definition: '선택된 varistor(소자)의 유용한 유형목록'
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  typePropertyEnumeratedValue:
-    listName: PEnum_VaristorType
-    enumerationValues:
-    - name: METALOXIDE
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Metaloxide
-        definition: ''
-      - language: de-DE
-        name: Metaloxide
-        definition: ''
-      - language: fr-FR
-        name: Metaloxide
-        definition: ''
-      - language: ja-JP
-        name: Metaloxide
-        definition: ''
-    - name: ZINCOXIDE
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Zincoxide
-        definition: ''
-      - language: de-DE
-        name: Zincoxide
-        definition: ''
-      - language: fr-FR
-        name: Zincoxide
-        definition: ''
-      - language: ja-JP
-        name: Zincoxide
-        definition: ''
-    - name: OTHER
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Other
-        definition: ''
-      - language: de-DE
-        name: Other
-        definition: ''
-      - language: fr-FR
-        name: Other
-        definition: ''
-      - language: ja-JP
-        name: Other
-        definition: ''
-    - name: UNKNOWN
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Unknown
-        definition: ''
-      - language: de-DE
-        name: Unknown
-        definition: ''
-      - language: fr-FR
-        name: Unknown
-        definition: ''
-      - language: ja-JP
-        name: Unknown
-        definition: ''
+  - language: 'fr-FR'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''

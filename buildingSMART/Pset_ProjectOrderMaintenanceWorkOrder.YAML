@@ -1,436 +1,205 @@
-﻿name: Pset_ProjectOrderMaintenanceWorkOrder
+﻿name: 'Pset_ProjectOrderMaintenanceWorkOrder'
 ifcVersion:
-  version: 4.0.0.0
-  schema: IfcSharedMgmtElements
+  version: '4.0.0.0'
+  schema: 'IfcSharedMgmtElements'
 ifdGuid: ''
-definition: A MaintenanceWorkOrder is a detailed description of maintenance work that is to be performed. Note that the Scheduled Frequency property of the maintenance work order is used when the order is required as an instance of a scheduled work order.
+definition: 'A MaintenanceWorkOrder is a detailed description of maintenance work that is to be performed. Note that the Scheduled Frequency property of the maintenance work order is used when the order is required as an instance of a scheduled work order.'
 localizations:
-- language: en-EN
+- language: 'de-DE'
   name: ''
   definition: ''
-- language: de-DE
+- language: 'en-EN'
   name: ''
   definition: ''
-- language: fr-FR
+- language: 'es-ES'
   name: ''
   definition: ''
-- language: ja-JP
+- language: 'fr-FR'
+  name: ''
+  definition: ''
+- language: 'ja-JP'
+  name: ''
+  definition: ''
+- language: 'ru-RU'
   name: ''
   definition: ''
 applicableIfcClasses:
 - name: IfcProjectOrder
   type: IfcProjectOrder/MAINTENANCEWORKORDER
 properties:
-- name: ProductDescription
-  definition: A textual description of the products that require the work.
+- name: 'ProductDescription'
+  definition: 'A textual description of the products that require the work.'
   ifdGuid: 0ojTZYfO97t9K7AwgtRHH8
   localizations:
-  - language: en-EN
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  - language: ja-JP
+  - language: 'fr-FR'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcText
-    measureType: ''
-    unitType: USERDEFINED
-- name: WorkTypeRequested
-  definition: Work type requested in circumstances where there are categorizations of types of work task. It could be used to identify a remedial task, minor work task, electrical task etc.
+  - language: 'ja-JP'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'WorkTypeRequested'
+  definition: 'Work type requested in circumstances where there are categorizations of types of work task. It could be used to identify a remedial task, minor work task, electrical task etc.'
   ifdGuid: 1rIU1SyC5D3xaOVvl99Hkq
   localizations:
-  - language: en-EN
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  - language: ja-JP
+  - language: 'fr-FR'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcText
-    measureType: ''
-    unitType: USERDEFINED
-- name: ContractualType
-  definition: The contractual type of the work.
+  - language: 'ja-JP'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'ContractualType'
+  definition: 'The contractual type of the work.'
   ifdGuid: 23hAy4Hfz8wfWIc9LhDr2J
   localizations:
-  - language: en-EN
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  - language: ja-JP
+  - language: 'fr-FR'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcText
-    measureType: ''
-    unitType: USERDEFINED
-- name: IfNotAccomplished
-  definition: Comments if the job is not accomplished.
+  - language: 'ja-JP'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'IfNotAccomplished'
+  definition: 'Comments if the job is not accomplished.'
   ifdGuid: 3FF6vTMVnFZftD05s56vpg
   localizations:
-  - language: en-EN
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  - language: ja-JP
+  - language: 'fr-FR'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcText
-    measureType: ''
-    unitType: USERDEFINED
-- name: MaintenaceType
+  - language: 'ja-JP'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'MaintenaceType'
   definition: 'Identifies the predefined types of maintenance that can be done from which the type that generates the maintenance work order may be set where:ConditionBased: generated as a result of the condition of an asset or artefact being less than a determined value.Corrective: generated as a result of an immediate and urgent need for maintenance action.PlannedCorrective: generated as a result of immediate corrective action being needed but with sufficient time available for the work order to be included in maintenance planning.Scheduled: generated as a result of a fixed, periodic maintenance requirement.'
   ifdGuid: 3pAR8ldz976fOGo0sNoETl
   localizations:
-  - language: en-EN
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  - language: ja-JP
+  - language: 'fr-FR'
     name: ''
     definition: ''
-  typePropertyEnumeratedValue:
-    listName: PEnum_MaintenanceType
-    enumerationValues:
-    - name: CONDITIONBASED
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Conditionbased
-        definition: ''
-      - language: de-DE
-        name: Conditionbased
-        definition: ''
-      - language: fr-FR
-        name: Conditionbased
-        definition: ''
-      - language: ja-JP
-        name: Conditionbased
-        definition: ''
-    - name: CORRECTIVE
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Corrective
-        definition: ''
-      - language: de-DE
-        name: Corrective
-        definition: ''
-      - language: fr-FR
-        name: Corrective
-        definition: ''
-      - language: ja-JP
-        name: Corrective
-        definition: ''
-    - name: PLANNEDCORRECTIVE
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Plannedcorrective
-        definition: ''
-      - language: de-DE
-        name: Plannedcorrective
-        definition: ''
-      - language: fr-FR
-        name: Plannedcorrective
-        definition: ''
-      - language: ja-JP
-        name: Plannedcorrective
-        definition: ''
-    - name: SCHEDULED
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Scheduled
-        definition: ''
-      - language: de-DE
-        name: Scheduled
-        definition: ''
-      - language: fr-FR
-        name: Scheduled
-        definition: ''
-      - language: ja-JP
-        name: Scheduled
-        definition: ''
-    - name: OTHER
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Other
-        definition: ''
-      - language: de-DE
-        name: Other
-        definition: ''
-      - language: fr-FR
-        name: Other
-        definition: ''
-      - language: ja-JP
-        name: Other
-        definition: ''
-    - name: UNKNOWN
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Unknown
-        definition: ''
-      - language: de-DE
-        name: Unknown
-        definition: ''
-      - language: fr-FR
-        name: Unknown
-        definition: ''
-      - language: ja-JP
-        name: Unknown
-        definition: ''
-- name: FaultPriorityType
+  - language: 'ja-JP'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'FaultPriorityType'
   definition: 'Identifies the predefined types of priority that can be assigned from which the type may be set where:High: action is required urgently.Medium: action can occur within a reasonable period of time.Low: action can occur when convenient.'
   ifdGuid: 3N_2T$xRL3KODTvLCExoBS
   localizations:
-  - language: en-EN
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  - language: ja-JP
+  - language: 'fr-FR'
     name: ''
     definition: ''
-  typePropertyEnumeratedValue:
-    listName: PEnum_PriorityType
-    enumerationValues:
-    - name: HIGH
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: High
-        definition: ''
-      - language: de-DE
-        name: High
-        definition: ''
-      - language: fr-FR
-        name: High
-        definition: ''
-      - language: ja-JP
-        name: High
-        definition: ''
-    - name: MEDIUM
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Medium
-        definition: ''
-      - language: de-DE
-        name: Medium
-        definition: ''
-      - language: fr-FR
-        name: Medium
-        definition: ''
-      - language: ja-JP
-        name: Medium
-        definition: ''
-    - name: LOW
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Low
-        definition: ''
-      - language: de-DE
-        name: Low
-        definition: ''
-      - language: fr-FR
-        name: Low
-        definition: ''
-      - language: ja-JP
-        name: Low
-        definition: ''
-    - name: OTHER
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Other
-        definition: ''
-      - language: de-DE
-        name: Other
-        definition: ''
-      - language: fr-FR
-        name: Other
-        definition: ''
-      - language: ja-JP
-        name: Other
-        definition: ''
-    - name: UNKNOWN
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Unknown
-        definition: ''
-      - language: de-DE
-        name: Unknown
-        definition: ''
-      - language: fr-FR
-        name: Unknown
-        definition: ''
-      - language: ja-JP
-        name: Unknown
-        definition: ''
-- name: LocationPriorityType
+  - language: 'ja-JP'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'LocationPriorityType'
   definition: 'Identifies the predefined types of priority that can be assigned from which the type may be set where:High: action is required urgently.Medium: action can occur within a reasonable period of time.Low: action can occur when convenient.'
   ifdGuid: 2Bn9bV7ur58x$TlxdX4lJD
   localizations:
-  - language: en-EN
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  - language: ja-JP
+  - language: 'fr-FR'
     name: ''
     definition: ''
-  typePropertyEnumeratedValue:
-    listName: PEnum_PriorityType
-    enumerationValues:
-    - name: HIGH
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: High
-        definition: ''
-      - language: de-DE
-        name: High
-        definition: ''
-      - language: fr-FR
-        name: High
-        definition: ''
-      - language: ja-JP
-        name: High
-        definition: ''
-    - name: MEDIUM
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Medium
-        definition: ''
-      - language: de-DE
-        name: Medium
-        definition: ''
-      - language: fr-FR
-        name: Medium
-        definition: ''
-      - language: ja-JP
-        name: Medium
-        definition: ''
-    - name: LOW
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Low
-        definition: ''
-      - language: de-DE
-        name: Low
-        definition: ''
-      - language: fr-FR
-        name: Low
-        definition: ''
-      - language: ja-JP
-        name: Low
-        definition: ''
-    - name: OTHER
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Other
-        definition: ''
-      - language: de-DE
-        name: Other
-        definition: ''
-      - language: fr-FR
-        name: Other
-        definition: ''
-      - language: ja-JP
-        name: Other
-        definition: ''
-    - name: UNKNOWN
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Unknown
-        definition: ''
-      - language: de-DE
-        name: Unknown
-        definition: ''
-      - language: fr-FR
-        name: Unknown
-        definition: ''
-      - language: ja-JP
-        name: Unknown
-        definition: ''
-- name: ScheduledFrequency
-  definition: The period of time between expected instantiations of a work order that may have been predefined.
+  - language: 'ja-JP'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'ScheduledFrequency'
+  definition: 'The period of time between expected instantiations of a work order that may have been predefined.'
   ifdGuid: 3UGmwxrKz6rA70BANLLjnB
   localizations:
-  - language: en-EN
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  - language: ja-JP
+  - language: 'fr-FR'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcTimeMeasure
-    measureType: ''
-    unitType: TIMEUNIT
+  - language: 'ja-JP'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''

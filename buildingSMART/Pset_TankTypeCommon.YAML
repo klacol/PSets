@@ -1,862 +1,359 @@
-﻿name: Pset_TankTypeCommon
+﻿name: 'Pset_TankTypeCommon'
 ifcVersion:
-  version: 4.0.0.0
-  schema: IfcHvacDomain
+  version: '4.0.0.0'
+  schema: 'IfcHvacDomain'
 ifdGuid: ''
-definition: Common attributes of a tank type.
+definition: 'Common attributes of a tank type.'
 localizations:
-- language: en-EN
+- language: 'de-DE'
   name: ''
   definition: ''
-- language: de-DE
+- language: 'en-EN'
   name: ''
   definition: ''
-- language: fr-FR
+- language: 'es-ES'
   name: ''
   definition: ''
-- language: ja-JP
+- language: 'fr-FR'
+  name: ''
+  definition: ''
+- language: 'ja-JP'
+  name: ''
+  definition: ''
+- language: 'ru-RU'
   name: ''
   definition: ''
 applicableIfcClasses:
 - name: IfcTankType
   type: IfcTankType
 properties:
-- name: Reference
-  definition: Reference ID for this specified type in this project (e.g. type 'A-1').
+- name: 'Reference'
+  definition: 'Reference ID for this specified type in this project (e.g. type ''A-1'').'
   ifdGuid: ''
   localizations:
-  - language: ja-JP
-    name: 参照記号
-    definition: このプロジェクトにおける参照記号(例：A-1)。分類コードではなく内部で使用されるプロジェクトタイプとして使用されるもの。
-  - language: en-EN
+  - language: 'ja-JP'
+    name: '参照記号'
+    definition: 'このプロジェクトにおける参照記号(例：A-1)。分類コードではなく内部で使用されるプロジェクトタイプとして使用されるもの。'
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcIdentifier
-    measureType: ''
-    unitType: USERDEFINED
-- name: Status
-  definition: Status of the element, predominately used in renovation or retrofitting projects. The status can be assigned to as "New" - element designed as new addition, "Existing" - element exists and remains, "Demolish" - element existed but is to be demolished,  "Temporary" - element will exists only temporary (like a temporary support structure).
+  - language: 'fr-FR'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'Status'
+  definition: 'Status of the element, predominately used in renovation or retrofitting projects. The status can be assigned to as "New" - element designed as new addition, "Existing" - element exists and remains, "Demolish" - element existed but is to be demolished,  "Temporary" - element will exists only temporary (like a temporary support structure).'
   ifdGuid: ''
   localizations:
-  - language: ja-JP
-    name: 状態
-    definition: 要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
-  - language: en-EN
+  - language: 'ja-JP'
+    name: '状態'
+    definition: '要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。'
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  typePropertyEnumeratedValue:
-    listName: PEnum_Status
-    enumerationValues:
-    - name: NEW
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: New
-        definition: ''
-      - language: de-DE
-        name: New
-        definition: ''
-      - language: fr-FR
-        name: New
-        definition: ''
-      - language: ja-JP
-        name: New
-        definition: ''
-    - name: EXISTING
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Existing
-        definition: ''
-      - language: de-DE
-        name: Existing
-        definition: ''
-      - language: fr-FR
-        name: Existing
-        definition: ''
-      - language: ja-JP
-        name: Existing
-        definition: ''
-    - name: DEMOLISH
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Demolish
-        definition: ''
-      - language: de-DE
-        name: Demolish
-        definition: ''
-      - language: fr-FR
-        name: Demolish
-        definition: ''
-      - language: ja-JP
-        name: Demolish
-        definition: ''
-    - name: TEMPORARY
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Temporary
-        definition: ''
-      - language: de-DE
-        name: Temporary
-        definition: ''
-      - language: fr-FR
-        name: Temporary
-        definition: ''
-      - language: ja-JP
-        name: Temporary
-        definition: ''
-    - name: OTHER
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Other
-        definition: ''
-      - language: de-DE
-        name: Other
-        definition: ''
-      - language: fr-FR
-        name: Other
-        definition: ''
-      - language: ja-JP
-        name: Other
-        definition: ''
-    - name: UNKNOWN
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Unknown
-        definition: ''
-      - language: de-DE
-        name: Unknown
-        definition: ''
-      - language: fr-FR
-        name: Unknown
-        definition: ''
-      - language: ja-JP
-        name: Unknown
-        definition: ''
-- name: AccessType
-  definition: Defines the types of access (or cover) to a tank that may be specified.Note that covers are generally specified for rectangular tanks. For cylindrical tanks, access will normally be via a manhole.
+  - language: 'fr-FR'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'AccessType'
+  definition: 'Defines the types of access (or cover) to a tank that may be specified.Note that covers are generally specified for rectangular tanks. For cylindrical tanks, access will normally be via a manhole.'
   ifdGuid: 0ddhOXtkr04vaR_39qNvt3
   localizations:
-  - language: ja-JP
-    name: 点検タイプ
-    definition: タンクの点検口（又はカバー)のタイプの定義は明示される。カバーは一般的に矩形タンクについて明示されていることに注意。円筒形タンクの点検は通常のマンホールを通る
-  - language: en-EN
+  - language: 'ja-JP'
+    name: '点検タイプ'
+    definition: 'タンクの点検口（又はカバー)のタイプの定義は明示される。カバーは一般的に矩形タンクについて明示されていることに注意。円筒形タンクの点検は通常のマンホールを通る'
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  typePropertyEnumeratedValue:
-    listName: PEnum_TankAccessType
-    enumerationValues:
-    - name: NONE
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: None
-        definition: ''
-      - language: de-DE
-        name: None
-        definition: ''
-      - language: fr-FR
-        name: None
-        definition: ''
-      - language: ja-JP
-        name: None
-        definition: ''
-    - name: LOOSECOVER
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Loosecover
-        definition: ''
-      - language: de-DE
-        name: Loosecover
-        definition: ''
-      - language: fr-FR
-        name: Loosecover
-        definition: ''
-      - language: ja-JP
-        name: Loosecover
-        definition: ''
-    - name: MANHOLE
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Manhole
-        definition: ''
-      - language: de-DE
-        name: Manhole
-        definition: ''
-      - language: fr-FR
-        name: Manhole
-        definition: ''
-      - language: ja-JP
-        name: Manhole
-        definition: ''
-    - name: SECUREDCOVER
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Securedcover
-        definition: ''
-      - language: de-DE
-        name: Securedcover
-        definition: ''
-      - language: fr-FR
-        name: Securedcover
-        definition: ''
-      - language: ja-JP
-        name: Securedcover
-        definition: ''
-    - name: SECUREDCOVERWITHMANHOLE
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Securedcoverwithmanhole
-        definition: ''
-      - language: de-DE
-        name: Securedcoverwithmanhole
-        definition: ''
-      - language: fr-FR
-        name: Securedcoverwithmanhole
-        definition: ''
-      - language: ja-JP
-        name: Securedcoverwithmanhole
-        definition: ''
-    - name: OTHER
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Other
-        definition: ''
-      - language: de-DE
-        name: Other
-        definition: ''
-      - language: fr-FR
-        name: Other
-        definition: ''
-      - language: ja-JP
-        name: Other
-        definition: ''
-    - name: UNKNOWN
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Unknown
-        definition: ''
-      - language: de-DE
-        name: Unknown
-        definition: ''
-      - language: fr-FR
-        name: Unknown
-        definition: ''
-      - language: ja-JP
-        name: Unknown
-        definition: ''
-- name: StorageType
-  definition: Defines the general material category intended to be stored.
+  - language: 'fr-FR'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'StorageType'
+  definition: 'Defines the general material category intended to be stored.'
   ifdGuid: ''
   localizations:
-  - language: ja-JP
-    name: 貯蔵タイプ
-    definition: 一般的な材料種別が格納される
-  - language: en-EN
+  - language: 'ja-JP'
+    name: '貯蔵タイプ'
+    definition: '一般的な材料種別が格納される'
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  typePropertyEnumeratedValue:
-    listName: PEnum_TankStorageType
-    enumerationValues:
-    - name: ICE
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Ice
-        definition: ''
-      - language: de-DE
-        name: Ice
-        definition: ''
-      - language: fr-FR
-        name: Ice
-        definition: ''
-      - language: ja-JP
-        name: Ice
-        definition: ''
-    - name: WATER
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Water
-        definition: ''
-      - language: de-DE
-        name: Water
-        definition: ''
-      - language: fr-FR
-        name: Water
-        definition: ''
-      - language: ja-JP
-        name: Water
-        definition: ''
-    - name: RAINWATER
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Rainwater
-        definition: ''
-      - language: de-DE
-        name: Rainwater
-        definition: ''
-      - language: fr-FR
-        name: Rainwater
-        definition: ''
-      - language: ja-JP
-        name: Rainwater
-        definition: ''
-    - name: WASTEWATER
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Wastewater
-        definition: ''
-      - language: de-DE
-        name: Wastewater
-        definition: ''
-      - language: fr-FR
-        name: Wastewater
-        definition: ''
-      - language: ja-JP
-        name: Wastewater
-        definition: ''
-    - name: POTABLEWATER
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Potablewater
-        definition: ''
-      - language: de-DE
-        name: Potablewater
-        definition: ''
-      - language: fr-FR
-        name: Potablewater
-        definition: ''
-      - language: ja-JP
-        name: Potablewater
-        definition: ''
-    - name: FUEL
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Fuel
-        definition: ''
-      - language: de-DE
-        name: Fuel
-        definition: ''
-      - language: fr-FR
-        name: Fuel
-        definition: ''
-      - language: ja-JP
-        name: Fuel
-        definition: ''
-    - name: OIL
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Oil
-        definition: ''
-      - language: de-DE
-        name: Oil
-        definition: ''
-      - language: fr-FR
-        name: Oil
-        definition: ''
-      - language: ja-JP
-        name: Oil
-        definition: ''
-    - name: OTHER
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Other
-        definition: ''
-      - language: de-DE
-        name: Other
-        definition: ''
-      - language: fr-FR
-        name: Other
-        definition: ''
-      - language: ja-JP
-        name: Other
-        definition: ''
-    - name: UNKNOWN
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Unknown
-        definition: ''
-      - language: de-DE
-        name: Unknown
-        definition: ''
-      - language: fr-FR
-        name: Unknown
-        definition: ''
-      - language: ja-JP
-        name: Unknown
-        definition: ''
-- name: NominalLengthOrDiameter
-  definition: The nominal length or, in the case of a vertical cylindrical tank, the nominal diameter of the tank.
+  - language: 'fr-FR'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'NominalLengthOrDiameter'
+  definition: 'The nominal length or, in the case of a vertical cylindrical tank, the nominal diameter of the tank.'
   ifdGuid: 2eWVxKALjFTBxZwnoistFV
   localizations:
-  - language: ja-JP
-    name: 公称長さ又は直径
-    definition: 公称長さ又は垂直円筒形タンクの場合、タンクの公称直径
-  - language: en-EN
+  - language: 'ja-JP'
+    name: '公称長さ又は直径'
+    definition: '公称長さ又は垂直円筒形タンクの場合、タンクの公称直径'
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcPositiveLengthMeasure
-    measureType: ''
-    unitType: LENGTHUNIT
-- name: NominalWidthOrDiameter
+  - language: 'fr-FR'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'NominalWidthOrDiameter'
   definition: 'The nominal width or, in the case of a horizontal cylindrical tank, the nominal diameter of the tank.Note: Not required for a vertical cylindrical tank.'
   ifdGuid: 1U2gPh59z58e$zEp73FoXp
   localizations:
-  - language: ja-JP
-    name: 公称幅又は直径
-    definition: 公称幅又は水平円筒形タンクの場合、タンクの公称直径　　　　　注：垂直円筒形タンクに対しては必須ではない
-  - language: en-EN
+  - language: 'ja-JP'
+    name: '公称幅又は直径'
+    definition: '公称幅又は水平円筒形タンクの場合、タンクの公称直径　　　　　注：垂直円筒形タンクに対しては必須ではない'
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcPositiveLengthMeasure
-    measureType: ''
-    unitType: LENGTHUNIT
-- name: NominalDepth
+  - language: 'fr-FR'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'NominalDepth'
   definition: 'The nominal depth of the tank.Note: Not required for a horizontal cylindrical tank.'
   ifdGuid: 1bkQORpKv03fXNn8q0O09v
   localizations:
-  - language: ja-JP
-    name: 公称深さ
-    definition: タンクの公称深さ　　注：水平円筒形タンクに対しては必須ではない
-  - language: en-EN
+  - language: 'ja-JP'
+    name: '公称深さ'
+    definition: 'タンクの公称深さ　　注：水平円筒形タンクに対しては必須ではない'
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcPositiveLengthMeasure
-    measureType: ''
-    unitType: LENGTHUNIT
-- name: NominalCapacity
-  definition: The total nominal or design volumetric capacity of the tank.
+  - language: 'fr-FR'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'NominalCapacity'
+  definition: 'The total nominal or design volumetric capacity of the tank.'
   ifdGuid: 3IbXqopEHBAf$g5W91NC8F
   localizations:
-  - language: ja-JP
-    name: 公称容量
-    definition: タンクの総公称又は設計容量
-  - language: en-EN
+  - language: 'ja-JP'
+    name: '公称容量'
+    definition: 'タンクの総公称又は設計容量'
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcVolumeMeasure
-    measureType: ''
-    unitType: VOLUMEUNIT
-- name: EffectiveCapacity
-  definition: The total effective or actual volumetric capacity of the tank.
+  - language: 'fr-FR'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'EffectiveCapacity'
+  definition: 'The total effective or actual volumetric capacity of the tank.'
   ifdGuid: 2Gqd5X8Br76v1v_kD_rFa9
   localizations:
-  - language: ja-JP
-    name: 有効容量
-    definition: タンクの総有効又は実容量
-  - language: en-EN
+  - language: 'ja-JP'
+    name: '有効容量'
+    definition: 'タンクの総有効又は実容量'
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcVolumeMeasure
-    measureType: ''
-    unitType: VOLUMEUNIT
-- name: OperatingWeight
-  definition: Operating weight of the tank including all of its contents.
+  - language: 'fr-FR'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'OperatingWeight'
+  definition: 'Operating weight of the tank including all of its contents.'
   ifdGuid: 1MC7tXmgf5hQ4J4LtM1VLP
   localizations:
-  - language: ja-JP
-    name: 運転重量
-    definition: 中身全部を含んだタンクの運転重量
-  - language: en-EN
+  - language: 'ja-JP'
+    name: '運転重量'
+    definition: '中身全部を含んだタンクの運転重量'
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcMassMeasure
-    measureType: ''
-    unitType: MASSUNIT
-- name: PatternType
-  definition: Defines the types of pattern (or shape of a tank that may be specified.
+  - language: 'fr-FR'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'PatternType'
+  definition: 'Defines the types of pattern (or shape of a tank that may be specified.'
   ifdGuid: 0NZGJd74T3U9FmEhB6yOSb
   localizations:
-  - language: ja-JP
-    name: パターンタイプ
-    definition: 定義　パターンのタイプ（又はタンクの形状)が明示される
-  - language: en-EN
+  - language: 'ja-JP'
+    name: 'パターンタイプ'
+    definition: '定義　パターンのタイプ（又はタンクの形状)が明示される'
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  typePropertyEnumeratedValue:
-    listName: PEnum_TankPatternType
-    enumerationValues:
-    - name: HORIZONTALCYLINDER
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Horizontalcylinder
-        definition: ''
-      - language: de-DE
-        name: Horizontalcylinder
-        definition: ''
-      - language: fr-FR
-        name: Horizontalcylinder
-        definition: ''
-      - language: ja-JP
-        name: Horizontalcylinder
-        definition: ''
-    - name: VERTICALCYLINDER
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Verticalcylinder
-        definition: ''
-      - language: de-DE
-        name: Verticalcylinder
-        definition: ''
-      - language: fr-FR
-        name: Verticalcylinder
-        definition: ''
-      - language: ja-JP
-        name: Verticalcylinder
-        definition: ''
-    - name: RECTANGULAR
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Rectangular
-        definition: ''
-      - language: de-DE
-        name: Rectangular
-        definition: ''
-      - language: fr-FR
-        name: Rectangular
-        definition: ''
-      - language: ja-JP
-        name: Rectangular
-        definition: ''
-    - name: OTHER
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Other
-        definition: ''
-      - language: de-DE
-        name: Other
-        definition: ''
-      - language: fr-FR
-        name: Other
-        definition: ''
-      - language: ja-JP
-        name: Other
-        definition: ''
-    - name: UNKNOWN
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Unknown
-        definition: ''
-      - language: de-DE
-        name: Unknown
-        definition: ''
-      - language: fr-FR
-        name: Unknown
-        definition: ''
-      - language: ja-JP
-        name: Unknown
-        definition: ''
-- name: EndShapeType
-  definition: Defines the types of end shapes that can be used for preformed tanks. The convention for reading these enumerated values is that for a vertical cylinder, the first value is the base and the second is the top; for a horizontal cylinder, the order of reading should be left to right. For a speherical tank, the value UNSET should be used.
+  - language: 'fr-FR'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'EndShapeType'
+  definition: 'Defines the types of end shapes that can be used for preformed tanks. The convention for reading these enumerated values is that for a vertical cylinder, the first value is the base and the second is the top; for a horizontal cylinder, the order of reading should be left to right. For a speherical tank, the value UNSET should be used.'
   ifdGuid: 0FeVxJrXj4pRaRAJk9Net0
   localizations:
-  - language: ja-JP
-    name: 末端形状タイプ
-    definition: 定義　予めタンクに使用することができる端形状の種類を示す。これらの列挙された値を読み取るための規則は、垂直円筒に関しては、最初の値はベースです、そして、2番目は先端です。水平円筒に関しては、値は左から右に読む必要があります。球形タンクの場合、値はUNSETを使用する必要があります。
-  - language: en-EN
+  - language: 'ja-JP'
+    name: '末端形状タイプ'
+    definition: '定義　予めタンクに使用することができる端形状の種類を示す。これらの列挙された値を読み取るための規則は、垂直円筒に関しては、最初の値はベースです、そして、2番目は先端です。水平円筒に関しては、値は左から右に読む必要があります。球形タンクの場合、値はUNSETを使用する必要があります。'
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  typePropertyEnumeratedValue:
-    listName: PEnum_EndShapeType
-    enumerationValues:
-    - name: CONCAVECONVEX
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Concaveconvex
-        definition: ''
-      - language: de-DE
-        name: Concaveconvex
-        definition: ''
-      - language: fr-FR
-        name: Concaveconvex
-        definition: ''
-      - language: ja-JP
-        name: Concaveconvex
-        definition: ''
-    - name: FLATCONVEX
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Flatconvex
-        definition: ''
-      - language: de-DE
-        name: Flatconvex
-        definition: ''
-      - language: fr-FR
-        name: Flatconvex
-        definition: ''
-      - language: ja-JP
-        name: Flatconvex
-        definition: ''
-    - name: CONVEXCONVEX
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Convexconvex
-        definition: ''
-      - language: de-DE
-        name: Convexconvex
-        definition: ''
-      - language: fr-FR
-        name: Convexconvex
-        definition: ''
-      - language: ja-JP
-        name: Convexconvex
-        definition: ''
-    - name: CONCAVEFLAT
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Concaveflat
-        definition: ''
-      - language: de-DE
-        name: Concaveflat
-        definition: ''
-      - language: fr-FR
-        name: Concaveflat
-        definition: ''
-      - language: ja-JP
-        name: Concaveflat
-        definition: ''
-    - name: FLATFLAT
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Flatflat
-        definition: ''
-      - language: de-DE
-        name: Flatflat
-        definition: ''
-      - language: fr-FR
-        name: Flatflat
-        definition: ''
-      - language: ja-JP
-        name: Flatflat
-        definition: ''
-    - name: OTHER
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Other
-        definition: ''
-      - language: de-DE
-        name: Other
-        definition: ''
-      - language: fr-FR
-        name: Other
-        definition: ''
-      - language: ja-JP
-        name: Other
-        definition: ''
-    - name: UNKNOWN
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Unknown
-        definition: ''
-      - language: de-DE
-        name: Unknown
-        definition: ''
-      - language: fr-FR
-        name: Unknown
-        definition: ''
-      - language: ja-JP
-        name: Unknown
-        definition: ''
-- name: FirstCurvatureRadius
-  definition: FirstCurvatureRadius should be defined as the base or left side radius of curvature value.
+  - language: 'fr-FR'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'FirstCurvatureRadius'
+  definition: 'FirstCurvatureRadius should be defined as the base or left side radius of curvature value.'
   ifdGuid: 2XU54mVkjCvwAHSdhVKoHt
   localizations:
-  - language: ja-JP
-    name: 最初の曲率半径
-    definition: 最初の曲率半径は、基本又は曲率の値の左側の半径として定義する必要があります。
-  - language: en-EN
+  - language: 'ja-JP'
+    name: '最初の曲率半径'
+    definition: '最初の曲率半径は、基本又は曲率の値の左側の半径として定義する必要があります。'
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcPositiveLengthMeasure
-    measureType: ''
-    unitType: LENGTHUNIT
-- name: SecondCurvatureRadius
-  definition: SecondCurvatureRadius should be defined as the top or right side radius of curvature value.
+  - language: 'fr-FR'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'SecondCurvatureRadius'
+  definition: 'SecondCurvatureRadius should be defined as the top or right side radius of curvature value.'
   ifdGuid: 0N9IMuy1D35BcntHUhe_K6
   localizations:
-  - language: ja-JP
-    name: 2番目の曲率半径
-    definition: 2番目の曲率半径は、曲率の値の先頭又は右側の半径として定義する必要があります。
-  - language: en-EN
+  - language: 'ja-JP'
+    name: '2番目の曲率半径'
+    definition: '2番目の曲率半径は、曲率の値の先頭又は右側の半径として定義する必要があります。'
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcPositiveLengthMeasure
-    measureType: ''
-    unitType: LENGTHUNIT
-- name: NumberOfSections
+  - language: 'fr-FR'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'NumberOfSections'
   definition: 'Number of sections used in the construction of the tank. Default is 1.Note: All sections assumed to be the same size.'
   ifdGuid: 0BiTjU1BfABRWaYB_Wn6Xq
   localizations:
-  - language: ja-JP
-    name: セクションの数
-    definition: タンクの製作に使用されているセクションの数　既定は1つ　　注：全てのセクションは同サイズと考える
-  - language: en-EN
+  - language: 'ja-JP'
+    name: 'セクションの数'
+    definition: 'タンクの製作に使用されているセクションの数　既定は1つ　　注：全てのセクションは同サイズと考える'
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcInteger
-    measureType: ''
-    unitType: INTEGERCOUNTRATEUNIT
+  - language: 'fr-FR'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''

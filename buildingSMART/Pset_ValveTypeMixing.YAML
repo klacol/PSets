@@ -1,142 +1,73 @@
-﻿name: Pset_ValveTypeMixing
+﻿name: 'Pset_ValveTypeMixing'
 ifcVersion:
-  version: 4.0.0.0
-  schema: IfcHvacDomain
+  version: '4.0.0.0'
+  schema: 'IfcHvacDomain'
 ifdGuid: ''
-definition: A valve where typically the temperature of the outlet is determined by mixing hot and cold water inlet flows.
+definition: 'A valve where typically the temperature of the outlet is determined by mixing hot and cold water inlet flows.'
 localizations:
-- language: en-EN
+- language: 'de-DE'
   name: ''
   definition: ''
-- language: de-DE
+- language: 'en-EN'
   name: ''
   definition: ''
-- language: fr-FR
+- language: 'es-ES'
   name: ''
   definition: ''
-- language: ja-JP
+- language: 'fr-FR'
+  name: ''
+  definition: ''
+- language: 'ja-JP'
+  name: ''
+  definition: ''
+- language: 'ru-RU'
   name: ''
   definition: ''
 applicableIfcClasses:
 - name: IfcValveType
   type: IfcValveType/MIXING
 properties:
-- name: MixerControl
-  definition: Defines the form of control of the mixing valve.
+- name: 'MixerControl'
+  definition: 'Defines the form of control of the mixing valve.'
   ifdGuid: 0aok2wgoXFsg0oljnnIzg9
   localizations:
-  - language: ja-JP
-    name: 混合制御
-    definition: 混合弁の制御形式の定義
-  - language: en-EN
+  - language: 'ja-JP'
+    name: '混合制御'
+    definition: '混合弁の制御形式の定義'
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  typePropertyEnumeratedValue:
-    listName: PEnum_MixingValveControl
-    enumerationValues:
-    - name: MANUAL
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Manual
-        definition: ''
-      - language: de-DE
-        name: Manual
-        definition: ''
-      - language: fr-FR
-        name: Manual
-        definition: ''
-      - language: ja-JP
-        name: Manual
-        definition: ''
-    - name: PREDEFINED
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Predefined
-        definition: ''
-      - language: de-DE
-        name: Predefined
-        definition: ''
-      - language: fr-FR
-        name: Predefined
-        definition: ''
-      - language: ja-JP
-        name: Predefined
-        definition: ''
-    - name: THERMOSTATIC
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Thermostatic
-        definition: ''
-      - language: de-DE
-        name: Thermostatic
-        definition: ''
-      - language: fr-FR
-        name: Thermostatic
-        definition: ''
-      - language: ja-JP
-        name: Thermostatic
-        definition: ''
-    - name: OTHER
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Other
-        definition: ''
-      - language: de-DE
-        name: Other
-        definition: ''
-      - language: fr-FR
-        name: Other
-        definition: ''
-      - language: ja-JP
-        name: Other
-        definition: ''
-    - name: UNKNOWN
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Unknown
-        definition: ''
-      - language: de-DE
-        name: Unknown
-        definition: ''
-      - language: fr-FR
-        name: Unknown
-        definition: ''
-      - language: ja-JP
-        name: Unknown
-        definition: ''
-- name: OutletConnectionSize
-  definition: The size of the pipework connection from the mixing valve.
+  - language: 'fr-FR'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'OutletConnectionSize'
+  definition: 'The size of the pipework connection from the mixing valve.'
   ifdGuid: 0tysabk3j0cuE4F85TpZfs
   localizations:
-  - language: ja-JP
-    name: 出力側接続口径
-    definition: 混合弁の配管接続サイズ
-  - language: en-EN
+  - language: 'ja-JP'
+    name: '出力側接続口径'
+    definition: '混合弁の配管接続サイズ'
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcPositiveLengthMeasure
-    measureType: ''
-    unitType: LENGTHUNIT
+  - language: 'fr-FR'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''

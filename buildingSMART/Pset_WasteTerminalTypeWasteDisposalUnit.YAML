@@ -1,83 +1,95 @@
-﻿name: Pset_WasteTerminalTypeWasteDisposalUnit
+﻿name: 'Pset_WasteTerminalTypeWasteDisposalUnit'
 ifcVersion:
-  version: 4.0.0.0
-  schema: IfcPlumbingFireProtectionDomain
+  version: '4.0.0.0'
+  schema: 'IfcPlumbingFireProtectionDomain'
 ifdGuid: ''
-definition: Electrically operated device that reduces kitchen or other waste into fragments small enough to be flushed into a drainage system.
+definition: 'Electrically operated device that reduces kitchen or other waste into fragments small enough to be flushed into a drainage system.'
 localizations:
-- language: en-EN
+- language: 'de-DE'
   name: ''
   definition: ''
-- language: de-DE
+- language: 'en-EN'
   name: ''
   definition: ''
-- language: fr-FR
+- language: 'es-ES'
   name: ''
   definition: ''
-- language: ja-JP
+- language: 'fr-FR'
+  name: ''
+  definition: ''
+- language: 'ja-JP'
+  name: ''
+  definition: ''
+- language: 'ru-RU'
   name: ''
   definition: ''
 applicableIfcClasses:
 - name: IfcWasteTerminalType
   type: IfcWasteTerminalType/WASTEDISPOSALUNIT
 properties:
-- name: DrainConnectionSize
-  definition: Size of the drain connection inlet to the waste disposal unit.
+- name: 'DrainConnectionSize'
+  definition: 'Size of the drain connection inlet to the waste disposal unit.'
   ifdGuid: 0lLYTSw$DAOARgQIOa9t3r
   localizations:
-  - language: ja-JP
-    name: 配管接続口サイズ
-    definition: ゴミ処理装置の吸入口配管接続口サイズ。
-  - language: en-EN
+  - language: 'ja-JP'
+    name: '配管接続口サイズ'
+    definition: 'ゴミ処理装置の吸入口配管接続口サイズ。'
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcPositiveLengthMeasure
-    measureType: ''
-    unitType: LENGTHUNIT
-- name: OutletConnectionSize
-  definition: Size of the outlet connection from the waste disposal unit.
+  - language: 'fr-FR'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'OutletConnectionSize'
+  definition: 'Size of the outlet connection from the waste disposal unit.'
   ifdGuid: 3xtpDlxb92A8fQs1da4iM5
   localizations:
-  - language: ja-JP
-    name: 排出口接続口サイズ
-    definition: ゴミ処理装置の排出口接続口サイズ。
-  - language: en-EN
+  - language: 'ja-JP'
+    name: '排出口接続口サイズ'
+    definition: 'ゴミ処理装置の排出口接続口サイズ。'
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcPositiveLengthMeasure
-    measureType: ''
-    unitType: LENGTHUNIT
-- name: NominalDepth
-  definition: Nominal or quoted depth of the object measured from the inlet drain connection to the base of the unit.
+  - language: 'fr-FR'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'NominalDepth'
+  definition: 'Nominal or quoted depth of the object measured from the inlet drain connection to the base of the unit.'
   ifdGuid: 1LbQLHzPPAvgkuDLYobd4A
   localizations:
-  - language: ja-JP
-    name: 深さ
-    definition: 装置の基礎に配管吸入口から測定した深さ。
-  - language: en-EN
+  - language: 'ja-JP'
+    name: '深さ'
+    definition: '装置の基礎に配管吸入口から測定した深さ。'
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcPositiveLengthMeasure
-    measureType: ''
-    unitType: LENGTHUNIT
+  - language: 'fr-FR'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''

@@ -1,69 +1,79 @@
-﻿name: Pset_ActuatorTypeHydraulicActuator
+﻿name: 'Pset_ActuatorTypeHydraulicActuator'
 ifcVersion:
-  version: 4.0.0.0
-  schema: IfcBuildingControlsDomain
+  version: '4.0.0.0'
+  schema: 'IfcBuildingControlsDomain'
 ifdGuid: ''
-definition: A device that hydraulically actuates a control element.
+definition: 'A device that hydraulically actuates a control element.'
 localizations:
-- language: en-EN
+- language: 'de-DE'
   name: ''
   definition: ''
-- language: de-DE
+- language: 'en-EN'
   name: ''
   definition: ''
-- language: fr-FR
+- language: 'es-ES'
   name: ''
   definition: ''
-- language: ja-JP
+- language: 'fr-FR'
+  name: ''
+  definition: ''
+- language: 'ja-JP'
+  name: ''
+  definition: ''
+- language: 'ru-RU'
   name: ''
   definition: ''
 applicableIfcClasses:
 - name: IfcActuatorType
   type: IfcActuatorType/HYDRAULICACTUATOR
 properties:
-- name: InputPressure
-  definition: Maximum design pressure for the actuator.
+- name: 'InputPressure'
+  definition: 'Maximum design pressure for the actuator.'
   ifdGuid: 0XwAeaVDD4w9tzyKP2P7kX
   localizations:
-  - language: ja-JP
-    name: 入力圧力
-    definition: アクチュエータへの最大設計圧力。
-  - language: ko-KR
-    name: 입력 압력
-    definition: 액츄에이터의 최대 설계 압력
-  - language: en-EN
+  - language: 'ja-JP'
+    name: '入力圧力'
+    definition: 'アクチュエータへの最大設計圧力。'
+  - language: 'ko-KR'
+    name: '입력 압력'
+    definition: '액츄에이터의 최대 설계 압력'
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcPressureMeasure
-    measureType: ''
-    unitType: PRESSUREUNIT
-- name: InputFlowrate
-  definition: Maximum hydraulic flowrate requirement.
+  - language: 'fr-FR'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'InputFlowrate'
+  definition: 'Maximum hydraulic flowrate requirement.'
   ifdGuid: 0Fab2TiAn0Sg3dBslxEH6N
   localizations:
-  - language: ja-JP
-    name: 入力流量
-    definition: 最大流量。
-  - language: ko-KR
-    name: 입력 유량
-    definition: 최대 유량
-  - language: en-EN
+  - language: 'ja-JP'
+    name: '入力流量'
+    definition: '最大流量。'
+  - language: 'ko-KR'
+    name: '입력 유량'
+    definition: '최대 유량'
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcVolumetricFlowRateMeasure
-    measureType: ''
-    unitType: VOLUMETRICFLOWRATEUNIT
+  - language: 'fr-FR'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''

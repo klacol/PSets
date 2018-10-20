@@ -1,127 +1,73 @@
-﻿name: Pset_DamperTypeControlDamper
+﻿name: 'Pset_DamperTypeControlDamper'
 ifcVersion:
-  version: 4.0.0.0
-  schema: IfcHvacDomain
+  version: '4.0.0.0'
+  schema: 'IfcHvacDomain'
 ifdGuid: ''
-definition: Control damper type attributes.Pset renamed from Pset_DamperTypeControl to Pset_DamperTypeControlDamper in IFC2x2 Pset Addendum.
+definition: 'Control damper type attributes.Pset renamed from Pset_DamperTypeControl to Pset_DamperTypeControlDamper in IFC2x2 Pset Addendum.'
 localizations:
-- language: en-EN
+- language: 'de-DE'
   name: ''
   definition: ''
-- language: de-DE
+- language: 'en-EN'
   name: ''
   definition: ''
-- language: fr-FR
+- language: 'es-ES'
   name: ''
   definition: ''
-- language: ja-JP
+- language: 'fr-FR'
+  name: ''
+  definition: ''
+- language: 'ja-JP'
+  name: ''
+  definition: ''
+- language: 'ru-RU'
   name: ''
   definition: ''
 applicableIfcClasses:
 - name: IfcDamperType
   type: IfcDamperType/CONTROLDAMPER
 properties:
-- name: TorqueRange
+- name: 'TorqueRange'
   definition: 'Torque range: minimum operational torque to maximum allowable torque.'
   ifdGuid: 2ygXEen4j2dPLmIvcNQqd6
   localizations:
-  - language: en-EN
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  - language: ja-JP
+  - language: 'fr-FR'
     name: ''
     definition: ''
-  typePropertyBoundedValue:
-    unitType: ConsoleAppYamlTest.UnitType
-    LowerBoundValue: 0
-    UpperBoundValue: '?'
-    typeName: TypePropertyBoundedValue
-- name: ControlDamperOperation
-  definition: The inherent characteristic of the control damper operation.
+  - language: 'ja-JP'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'ControlDamperOperation'
+  definition: 'The inherent characteristic of the control damper operation.'
   ifdGuid: 3mFZ6V47X4kPbkT5zzZUvI
   localizations:
-  - language: en-EN
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  - language: ja-JP
+  - language: 'fr-FR'
     name: ''
     definition: ''
-  typePropertyEnumeratedValue:
-    listName: PEnum_ControlDamperOperation
-    enumerationValues:
-    - name: LINEAR
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Linear
-        definition: ''
-      - language: de-DE
-        name: Linear
-        definition: ''
-      - language: fr-FR
-        name: Linear
-        definition: ''
-      - language: ja-JP
-        name: Linear
-        definition: ''
-    - name: EXPONENTIAL
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Exponential
-        definition: ''
-      - language: de-DE
-        name: Exponential
-        definition: ''
-      - language: fr-FR
-        name: Exponential
-        definition: ''
-      - language: ja-JP
-        name: Exponential
-        definition: ''
-    - name: OTHER
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Other
-        definition: ''
-      - language: de-DE
-        name: Other
-        definition: ''
-      - language: fr-FR
-        name: Other
-        definition: ''
-      - language: ja-JP
-        name: Other
-        definition: ''
-    - name: UNKNOWN
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Unknown
-        definition: ''
-      - language: de-DE
-        name: Unknown
-        definition: ''
-      - language: fr-FR
-        name: Unknown
-        definition: ''
-      - language: ja-JP
-        name: Unknown
-        definition: ''
+  - language: 'ja-JP'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''

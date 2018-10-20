@@ -1,111 +1,117 @@
-﻿name: Pset_AudioVisualAppliancePHistory
+﻿name: 'Pset_AudioVisualAppliancePHistory'
 ifcVersion:
-  version: 4.0.0.0
-  schema: IfcElectricalDomain
+  version: '4.0.0.0'
+  schema: 'IfcElectricalDomain'
 ifdGuid: ''
 definition: 'Captures realtime information for audio-video devices, such as for security camera footage and retail information displays.  HISTORY: Added in IFC4.'
 localizations:
-- language: en-EN
+- language: 'de-DE'
   name: ''
   definition: ''
-- language: de-DE
+- language: 'en-EN'
   name: ''
   definition: ''
-- language: fr-FR
+- language: 'es-ES'
   name: ''
   definition: ''
-- language: ja-JP
+- language: 'fr-FR'
+  name: ''
+  definition: ''
+- language: 'ja-JP'
+  name: ''
+  definition: ''
+- language: 'ru-RU'
   name: ''
   definition: ''
 applicableIfcClasses:
 - name: IfcPerformanceHistory
   type: IfcAudioVisualApplianceType
 properties:
-- name: PowerState
-  definition: Indicates the power state of the device where True is on and False is off.
+- name: 'PowerState'
+  definition: 'Indicates the power state of the device where True is on and False is off.'
   ifdGuid: ''
   localizations:
-  - language: ja-JP
-    name: 電源状態
-    definition: 機器の電源オンオフの時間ごとの状態を示す。
-  - language: en-EN
+  - language: 'ja-JP'
+    name: '電源状態'
+    definition: '機器の電源オンオフの時間ごとの状態を示す。'
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  typePropertyReferenceValue:
-    refType: IfcTimeSeries
-    url: http://buildingsmart-tech.org
-    guid: ''
-    libraryName: Industry Foundation Classes by buildingSMART International
-    sectionref: Core Schema
-- name: MediaSource
-  definition: Indicates the media source where the identifier corresponds to an entry within the table of available media sources on Pset_AudioVisualApplianceTypeCommon.MediaSource.
+  - language: 'fr-FR'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'MediaSource'
+  definition: 'Indicates the media source where the identifier corresponds to an entry within the table of available media sources on Pset_AudioVisualApplianceTypeCommon.MediaSource.'
   ifdGuid: ''
   localizations:
-  - language: en-EN
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  - language: ja-JP
+  - language: 'fr-FR'
     name: ''
     definition: ''
-  typePropertyReferenceValue:
-    refType: IfcTimeSeries
-    url: http://buildingsmart-tech.org
-    guid: ''
-    libraryName: Industry Foundation Classes by buildingSMART International
-    sectionref: Core Schema
-- name: MediaContent
-  definition: Indicates the media content storage location, such as URLs to camera footage within particular time periods.
+  - language: 'ja-JP'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'MediaContent'
+  definition: 'Indicates the media content storage location, such as URLs to camera footage within particular time periods.'
   ifdGuid: ''
   localizations:
-  - language: en-EN
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  - language: ja-JP
+  - language: 'fr-FR'
     name: ''
     definition: ''
-  typePropertyReferenceValue:
-    refType: IfcTimeSeries
-    url: http://buildingsmart-tech.org
-    guid: ''
-    libraryName: Industry Foundation Classes by buildingSMART International
-    sectionref: Core Schema
-- name: AudioVolume
-  definition: Indicates the audio volume level where the integer level corresponds to an entry or interpolation within Pset_AudioVisualApplianceTypeCommon.AudioVolume.
+  - language: 'ja-JP'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'AudioVolume'
+  definition: 'Indicates the audio volume level where the integer level corresponds to an entry or interpolation within Pset_AudioVisualApplianceTypeCommon.AudioVolume.'
   ifdGuid: ''
   localizations:
-  - language: en-EN
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  - language: ja-JP
+  - language: 'fr-FR'
     name: ''
     definition: ''
-  typePropertyReferenceValue:
-    refType: IfcTimeSeries
-    url: http://buildingsmart-tech.org
-    guid: ''
-    libraryName: Industry Foundation Classes by buildingSMART International
-    sectionref: Core Schema
+  - language: 'ja-JP'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''

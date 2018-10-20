@@ -1,199 +1,205 @@
-﻿name: Pset_ConstructionResource
+﻿name: 'Pset_ConstructionResource'
 ifcVersion:
-  version: 4.0.0.0
-  schema: IfcConstructionMgmtDomain
+  version: '4.0.0.0'
+  schema: 'IfcConstructionMgmtDomain'
 ifdGuid: ''
-definition: Properties for tracking resource usage over time.
+definition: 'Properties for tracking resource usage over time.'
 localizations:
-- language: en-EN
+- language: 'de-DE'
   name: ''
   definition: ''
-- language: de-DE
+- language: 'en-EN'
   name: ''
   definition: ''
-- language: fr-FR
+- language: 'es-ES'
   name: ''
   definition: ''
-- language: ja-JP
+- language: 'fr-FR'
+  name: ''
+  definition: ''
+- language: 'ja-JP'
+  name: ''
+  definition: ''
+- language: 'ru-RU'
   name: ''
   definition: ''
 applicableIfcClasses:
 - name: IfcConstructionResource
   type: IfcConstructionResource
 properties:
-- name: ScheduleWork
-  definition: The scheduled work on behalf of the resource allocation.
+- name: 'ScheduleWork'
+  definition: 'The scheduled work on behalf of the resource allocation.'
   ifdGuid: ''
   localizations:
-  - language: ja-JP
-    name: 予定作業時間
-    definition: 資源配分のための予定された作業。
-  - language: en-EN
+  - language: 'ja-JP'
+    name: '予定作業時間'
+    definition: '資源配分のための予定された作業。'
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  typePropertyReferenceValue:
-    refType: IfcTimeSeries
-    url: http://buildingsmart-tech.org
-    guid: ''
-    libraryName: Industry Foundation Classes by buildingSMART International
-    sectionref: Core Schema
-- name: ActualWork
-  definition: The actual work on behalf of the resource allocation.
+  - language: 'fr-FR'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'ActualWork'
+  definition: 'The actual work on behalf of the resource allocation.'
   ifdGuid: ''
   localizations:
-  - language: ja-JP
-    name: 実績作業時間
-    definition: 資源配分のための実績の作業。
-  - language: en-EN
+  - language: 'ja-JP'
+    name: '実績作業時間'
+    definition: '資源配分のための実績の作業。'
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  typePropertyReferenceValue:
-    refType: IfcTimeSeries
-    url: http://buildingsmart-tech.org
-    guid: ''
-    libraryName: Industry Foundation Classes by buildingSMART International
-    sectionref: Core Schema
-- name: RemainingWork
-  definition: The remaining work on behalf of the resource allocation.
+  - language: 'fr-FR'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'RemainingWork'
+  definition: 'The remaining work on behalf of the resource allocation.'
   ifdGuid: ''
   localizations:
-  - language: ja-JP
-    name: 残存作業時間
-    definition: 資源配分のための残存している作業。
-  - language: en-EN
+  - language: 'ja-JP'
+    name: '残存作業時間'
+    definition: '資源配分のための残存している作業。'
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  typePropertyReferenceValue:
-    refType: IfcTimeSeries
-    url: http://buildingsmart-tech.org
-    guid: ''
-    libraryName: Industry Foundation Classes by buildingSMART International
-    sectionref: Core Schema
-- name: ScheduleCost
-  definition: The budgeted cost on behalf of the resource allocation.
+  - language: 'fr-FR'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'ScheduleCost'
+  definition: 'The budgeted cost on behalf of the resource allocation.'
   ifdGuid: ''
   localizations:
-  - language: ja-JP
-    name: 予定コスト
-    definition: 資源配分のための予定されているコスト。
-  - language: en-EN
+  - language: 'ja-JP'
+    name: '予定コスト'
+    definition: '資源配分のための予定されているコスト。'
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  typePropertyReferenceValue:
-    refType: IfcTimeSeries
-    url: http://buildingsmart-tech.org
-    guid: ''
-    libraryName: Industry Foundation Classes by buildingSMART International
-    sectionref: Core Schema
-- name: ActualCost
-  definition: The actual cost on behalf of the resource allocation.
+  - language: 'fr-FR'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'ActualCost'
+  definition: 'The actual cost on behalf of the resource allocation.'
   ifdGuid: ''
   localizations:
-  - language: ja-JP
-    name: 実績コスト
-    definition: 資源配分のための実績のコスト。
-  - language: en-EN
+  - language: 'ja-JP'
+    name: '実績コスト'
+    definition: '資源配分のための実績のコスト。'
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  typePropertyReferenceValue:
-    refType: IfcTimeSeries
-    url: http://buildingsmart-tech.org
-    guid: ''
-    libraryName: Industry Foundation Classes by buildingSMART International
-    sectionref: Core Schema
-- name: RemainingCost
-  definition: The remaining cost on behalf of the resource allocation.
+  - language: 'fr-FR'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'RemainingCost'
+  definition: 'The remaining cost on behalf of the resource allocation.'
   ifdGuid: ''
   localizations:
-  - language: ja-JP
-    name: 残存コスト
-    definition: 資源配分のための残存しているコスト。
-  - language: en-EN
+  - language: 'ja-JP'
+    name: '残存コスト'
+    definition: '資源配分のための残存しているコスト。'
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  typePropertyReferenceValue:
-    refType: IfcTimeSeries
-    url: http://buildingsmart-tech.org
-    guid: ''
-    libraryName: Industry Foundation Classes by buildingSMART International
-    sectionref: Core Schema
-- name: ScheduleCompletion
-  definition: The scheduled completion percentage of the allocation.
+  - language: 'fr-FR'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'ScheduleCompletion'
+  definition: 'The scheduled completion percentage of the allocation.'
   ifdGuid: ''
   localizations:
-  - language: ja-JP
-    name: 予定完了率
-    definition: 予定された完了率。
-  - language: en-EN
+  - language: 'ja-JP'
+    name: '予定完了率'
+    definition: '予定された完了率。'
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  typePropertyReferenceValue:
-    refType: IfcTimeSeries
-    url: http://buildingsmart-tech.org
-    guid: ''
-    libraryName: Industry Foundation Classes by buildingSMART International
-    sectionref: Core Schema
-- name: ActualCompletion
-  definition: The actual completion percentage of the allocation.
+  - language: 'fr-FR'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'ActualCompletion'
+  definition: 'The actual completion percentage of the allocation.'
   ifdGuid: ''
   localizations:
-  - language: ja-JP
-    name: 実績完了率
-    definition: 実績の完了率。
-  - language: en-EN
+  - language: 'ja-JP'
+    name: '実績完了率'
+    definition: '実績の完了率。'
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  typePropertyReferenceValue:
-    refType: IfcTimeSeries
-    url: http://buildingsmart-tech.org
-    guid: ''
-    libraryName: Industry Foundation Classes by buildingSMART International
-    sectionref: Core Schema
+  - language: 'fr-FR'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''

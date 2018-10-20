@@ -1,559 +1,251 @@
-﻿name: Pset_JunctionBoxTypeCommon
+﻿name: 'Pset_JunctionBoxTypeCommon'
 ifcVersion:
-  version: 4.0.0.0
-  schema: IfcElectricalDomain
+  version: '4.0.0.0'
+  schema: 'IfcElectricalDomain'
 ifdGuid: ''
 definition: 'A junction box is an enclosure within which cables are connected.History: New in IFC4'
 localizations:
-- language: en-EN
+- language: 'de-DE'
   name: ''
   definition: ''
-- language: de-DE
+- language: 'en-EN'
   name: ''
   definition: ''
-- language: fr-FR
+- language: 'es-ES'
   name: ''
   definition: ''
-- language: ja-JP
+- language: 'fr-FR'
+  name: ''
+  definition: ''
+- language: 'ja-JP'
+  name: ''
+  definition: ''
+- language: 'ru-RU'
   name: ''
   definition: ''
 applicableIfcClasses:
 - name: IfcJunctionBoxType
   type: IfcJunctionBoxType
 properties:
-- name: Reference
-  definition: Reference ID for this specified type in this project (e.g. type 'A-1'), provided, if there is no classification reference to a recognized classification system used.
+- name: 'Reference'
+  definition: 'Reference ID for this specified type in this project (e.g. type ''A-1''), provided, if there is no classification reference to a recognized classification system used.'
   ifdGuid: ''
   localizations:
-  - language: ja-JP
-    name: 参照
-    definition: 当該プロジェクトで定義する形式の参照ID（例：A-1)、承認された分類に存在しないときに使用される。
-  - language: ko-KR
-    name: 참조
+  - language: 'ja-JP'
+    name: '参照'
+    definition: '当該プロジェクトで定義する形式の参照ID（例：A-1)、承認された分類に存在しないときに使用される。'
+  - language: 'ko-KR'
+    name: '참조'
     definition: '해당 프로젝트에 정의된 형식의 참조 ID (예 : A-1) 승인된 분류에 존재하지 않을 때 사용된다.'
-  - language: en-EN
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcIdentifier
-    measureType: ''
-    unitType: USERDEFINED
-- name: Status
-  definition: Status of the element, predominately used in renovation or retrofitting projects. The status can be assigned to as "New" - element designed as new addition, "Existing" - element exists and remains, "Demolish" - element existed but is to be demolished,  "Temporary" - element will exists only temporary (like a temporary support structure).
+  - language: 'fr-FR'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'Status'
+  definition: 'Status of the element, predominately used in renovation or retrofitting projects. The status can be assigned to as "New" - element designed as new addition, "Existing" - element exists and remains, "Demolish" - element existed but is to be demolished,  "Temporary" - element will exists only temporary (like a temporary support structure).'
   ifdGuid: ''
   localizations:
-  - language: ja-JP
-    name: 状態
-    definition: 要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。
-  - language: en-EN
+  - language: 'ja-JP'
+    name: '状態'
+    definition: '要素（主にリノベーションまたは改修プロジェクトにおいて）の状態。 状態は、「新規(New)」－新しく追加される要素。「既存」－要素は存在し、かつ残りもの。「破壊」－要素は存在したが、廃棄されるもの。「一時的」－一時的に存在する要素（一時的にサポートしている構造のようなもの）。'
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  typePropertyEnumeratedValue:
-    listName: PEnum_Status
-    enumerationValues:
-    - name: NEW
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: New
-        definition: ''
-      - language: de-DE
-        name: New
-        definition: ''
-      - language: fr-FR
-        name: New
-        definition: ''
-      - language: ja-JP
-        name: New
-        definition: ''
-    - name: EXISTING
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Existing
-        definition: ''
-      - language: de-DE
-        name: Existing
-        definition: ''
-      - language: fr-FR
-        name: Existing
-        definition: ''
-      - language: ja-JP
-        name: Existing
-        definition: ''
-    - name: DEMOLISH
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Demolish
-        definition: ''
-      - language: de-DE
-        name: Demolish
-        definition: ''
-      - language: fr-FR
-        name: Demolish
-        definition: ''
-      - language: ja-JP
-        name: Demolish
-        definition: ''
-    - name: TEMPORARY
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Temporary
-        definition: ''
-      - language: de-DE
-        name: Temporary
-        definition: ''
-      - language: fr-FR
-        name: Temporary
-        definition: ''
-      - language: ja-JP
-        name: Temporary
-        definition: ''
-    - name: OTHER
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Other
-        definition: ''
-      - language: de-DE
-        name: Other
-        definition: ''
-      - language: fr-FR
-        name: Other
-        definition: ''
-      - language: ja-JP
-        name: Other
-        definition: ''
-    - name: UNKNOWN
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Unknown
-        definition: ''
-      - language: de-DE
-        name: Unknown
-        definition: ''
-      - language: fr-FR
-        name: Unknown
-        definition: ''
-      - language: ja-JP
-        name: Unknown
-        definition: ''
-- name: NumberOfGangs
-  definition: Number of slots available for switches/outlets (most commonly 1, 2, 3, or 4).
+  - language: 'fr-FR'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'NumberOfGangs'
+  definition: 'Number of slots available for switches/outlets (most commonly 1, 2, 3, or 4).'
   ifdGuid: 07P1xCGU54XgyqXJh9cOnN
   localizations:
-  - language: ja-JP
-    name: 分岐の数
-    definition: スロットスイッチ/コンセント（最も一般的に1、2、3、または4）で使用可能な数。
-  - language: ko-KR
-    name: 분기의 수
-    definition: 슬롯 스위치 / 콘센트 (가장 일반적으로 1,2,3 또는 4)에서 사용할 수있는 수.
-  - language: en-EN
+  - language: 'ja-JP'
+    name: '分岐の数'
+    definition: 'スロットスイッチ/コンセント（最も一般的に1、2、3、または4）で使用可能な数。'
+  - language: 'ko-KR'
+    name: '분기의 수'
+    definition: '슬롯 스위치 / 콘센트 (가장 일반적으로 1,2,3 또는 4)에서 사용할 수있는 수.'
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcInteger
-    measureType: ''
-    unitType: USERDEFINED
-- name: ClearDepth
-  definition: Clear unobstructed depth available for cable inclusion within the junction box.
+  - language: 'fr-FR'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'ClearDepth'
+  definition: 'Clear unobstructed depth available for cable inclusion within the junction box.'
   ifdGuid: 3wbunmp8v6tQoz2$j7SqDv
   localizations:
-  - language: ja-JP
-    name: 明確な深さ
-    definition: ジヤンクションボックスにケーブルを収められる深さ。
-  - language: ko-KR
-    name: 명확한 깊이
-    definition: 지얀 섹션 상자에 케이블을 거둘 깊이.
-  - language: en-EN
+  - language: 'ja-JP'
+    name: '明確な深さ'
+    definition: 'ジヤンクションボックスにケーブルを収められる深さ。'
+  - language: 'ko-KR'
+    name: '명확한 깊이'
+    definition: '지얀 섹션 상자에 케이블을 거둘 깊이.'
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcPositiveLengthMeasure
-    measureType: ''
-    unitType: LENGTHUNIT
-- name: ShapeType
-  definition: Shape of the junction box.
+  - language: 'fr-FR'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'ShapeType'
+  definition: 'Shape of the junction box.'
   ifdGuid: 3BT6cA9Rn5QwnrvAh3wor0
   localizations:
-  - language: ja-JP
-    name: 形状
-    definition: ジヤンクションボックスの形状。
-  - language: ko-KR
-    name: 형상
-    definition: 지얀 섹션 상자 모양.
-  - language: en-EN
+  - language: 'ja-JP'
+    name: '形状'
+    definition: 'ジヤンクションボックスの形状。'
+  - language: 'ko-KR'
+    name: '형상'
+    definition: '지얀 섹션 상자 모양.'
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  typePropertyEnumeratedValue:
-    listName: PEnum_JunctionBoxShapeType
-    enumerationValues:
-    - name: RECTANGULAR
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Rectangular
-        definition: ''
-      - language: de-DE
-        name: Rectangular
-        definition: ''
-      - language: fr-FR
-        name: Rectangular
-        definition: ''
-      - language: ja-JP
-        name: Rectangular
-        definition: ''
-    - name: ROUND
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Round
-        definition: ''
-      - language: de-DE
-        name: Round
-        definition: ''
-      - language: fr-FR
-        name: Round
-        definition: ''
-      - language: ja-JP
-        name: Round
-        definition: ''
-    - name: SLOT
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Slot
-        definition: ''
-      - language: de-DE
-        name: Slot
-        definition: ''
-      - language: fr-FR
-        name: Slot
-        definition: ''
-      - language: ja-JP
-        name: Slot
-        definition: ''
-    - name: OTHER
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Other
-        definition: ''
-      - language: de-DE
-        name: Other
-        definition: ''
-      - language: fr-FR
-        name: Other
-        definition: ''
-      - language: ja-JP
-        name: Other
-        definition: ''
-    - name: UNKNOWN
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Unknown
-        definition: ''
-      - language: de-DE
-        name: Unknown
-        definition: ''
-      - language: fr-FR
-        name: Unknown
-        definition: ''
-      - language: ja-JP
-        name: Unknown
-        definition: ''
-- name: PlacingType
-  definition: Location at which the type of junction box can be located.
+  - language: 'fr-FR'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'PlacingType'
+  definition: 'Location at which the type of junction box can be located.'
   ifdGuid: 28NG40R8r3ixVZy4J9U5eJ
   localizations:
-  - language: ja-JP
-    name: 位置
-    definition: ジヤンクションボックスの配置場所。
-  - language: ko-KR
-    name: 위치
-    definition: 지얀 섹션 보트 상자 설치 방법.
-  - language: en-EN
+  - language: 'ja-JP'
+    name: '位置'
+    definition: 'ジヤンクションボックスの配置場所。'
+  - language: 'ko-KR'
+    name: '위치'
+    definition: '지얀 섹션 보트 상자 설치 방법.'
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  typePropertyEnumeratedValue:
-    listName: PEnum_JunctionBoxPlacingType
-    enumerationValues:
-    - name: CEILING
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Ceiling
-        definition: ''
-      - language: de-DE
-        name: Ceiling
-        definition: ''
-      - language: fr-FR
-        name: Ceiling
-        definition: ''
-      - language: ja-JP
-        name: Ceiling
-        definition: ''
-    - name: FLOOR
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Floor
-        definition: ''
-      - language: de-DE
-        name: Floor
-        definition: ''
-      - language: fr-FR
-        name: Floor
-        definition: ''
-      - language: ja-JP
-        name: Floor
-        definition: ''
-    - name: WALL
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Wall
-        definition: ''
-      - language: de-DE
-        name: Wall
-        definition: ''
-      - language: fr-FR
-        name: Wall
-        definition: ''
-      - language: ja-JP
-        name: Wall
-        definition: ''
-    - name: OTHER
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Other
-        definition: ''
-      - language: de-DE
-        name: Other
-        definition: ''
-      - language: fr-FR
-        name: Other
-        definition: ''
-      - language: ja-JP
-        name: Other
-        definition: ''
-    - name: UNKNOWN
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Unknown
-        definition: ''
-      - language: de-DE
-        name: Unknown
-        definition: ''
-      - language: fr-FR
-        name: Unknown
-        definition: ''
-      - language: ja-JP
-        name: Unknown
-        definition: ''
-- name: MountingType
-  definition: Method of mounting to be adopted for the type of junction box.
+  - language: 'fr-FR'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'MountingType'
+  definition: 'Method of mounting to be adopted for the type of junction box.'
   ifdGuid: 1yZGLyIN96cQXWzOJPL7ng
   localizations:
-  - language: ja-JP
-    name: 取り付け
-    definition: ジヤンクションボツクスの取り付け方法。
-  - language: ko-KR
-    name: 설치
-    definition: 지얀 섹션 보트 상자 설치 방법.
-  - language: en-EN
+  - language: 'ja-JP'
+    name: '取り付け'
+    definition: 'ジヤンクションボツクスの取り付け方法。'
+  - language: 'ko-KR'
+    name: '설치'
+    definition: '지얀 섹션 보트 상자 설치 방법.'
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  typePropertyEnumeratedValue:
-    listName: PEnum_JunctionBoxMountingType
-    enumerationValues:
-    - name: FACENAIL
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Facenail
-        definition: ''
-      - language: de-DE
-        name: Facenail
-        definition: ''
-      - language: fr-FR
-        name: Facenail
-        definition: ''
-      - language: ja-JP
-        name: Facenail
-        definition: ''
-    - name: SIDENAIL
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Sidenail
-        definition: ''
-      - language: de-DE
-        name: Sidenail
-        definition: ''
-      - language: fr-FR
-        name: Sidenail
-        definition: ''
-      - language: ja-JP
-        name: Sidenail
-        definition: ''
-    - name: CUT_IN
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Cut_in
-        definition: ''
-      - language: de-DE
-        name: Cut_in
-        definition: ''
-      - language: fr-FR
-        name: Cut_in
-        definition: ''
-      - language: ja-JP
-        name: Cut_in
-        definition: ''
-    - name: OTHER
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Other
-        definition: ''
-      - language: de-DE
-        name: Other
-        definition: ''
-      - language: fr-FR
-        name: Other
-        definition: ''
-      - language: ja-JP
-        name: Other
-        definition: ''
-    - name: UNKNOWN
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Unknown
-        definition: ''
-      - language: de-DE
-        name: Unknown
-        definition: ''
-      - language: fr-FR
-        name: Unknown
-        definition: ''
-      - language: ja-JP
-        name: Unknown
-        definition: ''
-- name: IsExternal
-  definition: Indication of whether the junction box type is allowed for exposure to outdoor elements (set TRUE where external exposure is allowed).
+  - language: 'fr-FR'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'IsExternal'
+  definition: 'Indication of whether the junction box type is allowed for exposure to outdoor elements (set TRUE where external exposure is allowed).'
   ifdGuid: 3flUkKDuz0Pw7BHfIlflQq
   localizations:
-  - language: ja-JP
-    name: 外部露出
-    definition: ジャンクションボックスが外部露出の許可がされているかどうかを表示（外部露出が許可されている場合は設定）。
-  - language: ko-KR
-    name: 외부노출
-    definition: 정션 박스 외부 노출의 허가가되어 있는지 여부를 표시 (외부 노출이 허용되는 경우 설정).
-  - language: en-EN
+  - language: 'ja-JP'
+    name: '外部露出'
+    definition: 'ジャンクションボックスが外部露出の許可がされているかどうかを表示（外部露出が許可されている場合は設定）。'
+  - language: 'ko-KR'
+    name: '외부노출'
+    definition: '정션 박스 외부 노출의 허가가되어 있는지 여부를 표시 (외부 노출이 허용되는 경우 설정).'
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcBoolean
-    measureType: ''
-    unitType: USERDEFINED
-- name: IP_Code
-  definition: IEC 60529 (1989) Classification of degrees of protection provided by enclosures (IP Code).
+  - language: 'fr-FR'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'IP_Code'
+  definition: 'IEC 60529 (1989) Classification of degrees of protection provided by enclosures (IP Code).'
   ifdGuid: 12pJrn_yH978AkSxKk_feC
   localizations:
-  - language: ja-JP
-    name: 機密性エンクロージャ等級
-    definition: エンクロージャによる国際保護等級（IPコード）。
-  - language: ko-KR
-    name: 기밀성 인클로저 등급
-    definition: 인클로저에 의한 국제 보호 등급 (IP 코드).
-  - language: en-EN
+  - language: 'ja-JP'
+    name: '機密性エンクロージャ等級'
+    definition: 'エンクロージャによる国際保護等級（IPコード）。'
+  - language: 'ko-KR'
+    name: '기밀성 인클로저 등급'
+    definition: '인클로저에 의한 국제 보호 등급 (IP 코드).'
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcLabel
-    measureType: ''
-    unitType: USERDEFINED
+  - language: 'fr-FR'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''

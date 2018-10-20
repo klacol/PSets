@@ -1,272 +1,95 @@
-﻿name: Pset_Asset
+﻿name: 'Pset_Asset'
 ifcVersion:
-  version: 4.0.0.0
-  schema: IfcSharedFacilitiesElements
+  version: '4.0.0.0'
+  schema: 'IfcSharedFacilitiesElements'
 ifdGuid: ''
-definition: An asset is a uniquely identifiable element which has a financial value and against which maintenance actions are recorded.
+definition: 'An asset is a uniquely identifiable element which has a financial value and against which maintenance actions are recorded.'
 localizations:
-- language: en-EN
+- language: 'de-DE'
   name: ''
   definition: ''
-- language: de-DE
+- language: 'en-EN'
   name: ''
   definition: ''
-- language: fr-FR
+- language: 'es-ES'
   name: ''
   definition: ''
-- language: ja-JP
+- language: 'fr-FR'
+  name: ''
+  definition: ''
+- language: 'ja-JP'
+  name: ''
+  definition: ''
+- language: 'ru-RU'
   name: ''
   definition: ''
 applicableIfcClasses:
 - name: IfcAsset
   type: IfcAsset
 properties:
-- name: AssetAccountingType
-  definition: Identifies the predefined types of risk from which the type required may be set.
+- name: 'AssetAccountingType'
+  definition: 'Identifies the predefined types of risk from which the type required may be set.'
   ifdGuid: 0A1HTNrUb6dOYtmpOb9oVc
   localizations:
-  - language: ja-JP
-    name: 資産会計種別
-    definition: 会計の定義済み種別。
-  - language: en-EN
+  - language: 'ja-JP'
+    name: '資産会計種別'
+    definition: '会計の定義済み種別。'
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  typePropertyEnumeratedValue:
-    listName: PEnum_AssetAccountingType
-    enumerationValues:
-    - name: FIXED
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Fixed
-        definition: ''
-      - language: de-DE
-        name: Fixed
-        definition: ''
-      - language: fr-FR
-        name: Fixed
-        definition: ''
-      - language: ja-JP
-        name: Fixed
-        definition: ''
-    - name: NONFIXED
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Nonfixed
-        definition: ''
-      - language: de-DE
-        name: Nonfixed
-        definition: ''
-      - language: fr-FR
-        name: Nonfixed
-        definition: ''
-      - language: ja-JP
-        name: Nonfixed
-        definition: ''
-    - name: OTHER
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Other
-        definition: ''
-      - language: de-DE
-        name: Other
-        definition: ''
-      - language: fr-FR
-        name: Other
-        definition: ''
-      - language: ja-JP
-        name: Other
-        definition: ''
-    - name: UNKNOWN
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Unknown
-        definition: ''
-      - language: de-DE
-        name: Unknown
-        definition: ''
-      - language: fr-FR
-        name: Unknown
-        definition: ''
-      - language: ja-JP
-        name: Unknown
-        definition: ''
-- name: AssetTaxType
-  definition: Identifies the predefined types of taxation group from which the type required may be set.
+  - language: 'fr-FR'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'AssetTaxType'
+  definition: 'Identifies the predefined types of taxation group from which the type required may be set.'
   ifdGuid: 1WIn1m_z5Aa9ZsW4GaXyyv
   localizations:
-  - language: ja-JP
-    name: 資産税種別
-    definition: 税の定義済み種別。
-  - language: en-EN
+  - language: 'ja-JP'
+    name: '資産税種別'
+    definition: '税の定義済み種別。'
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  typePropertyEnumeratedValue:
-    listName: PEnum_AssetTaxType
-    enumerationValues:
-    - name: CAPITALISED
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Capitalised
-        definition: ''
-      - language: de-DE
-        name: Capitalised
-        definition: ''
-      - language: fr-FR
-        name: Capitalised
-        definition: ''
-      - language: ja-JP
-        name: Capitalised
-        definition: ''
-    - name: EXPENSED
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Expensed
-        definition: ''
-      - language: de-DE
-        name: Expensed
-        definition: ''
-      - language: fr-FR
-        name: Expensed
-        definition: ''
-      - language: ja-JP
-        name: Expensed
-        definition: ''
-    - name: OTHER
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Other
-        definition: ''
-      - language: de-DE
-        name: Other
-        definition: ''
-      - language: fr-FR
-        name: Other
-        definition: ''
-      - language: ja-JP
-        name: Other
-        definition: ''
-    - name: UNKNOWN
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Unknown
-        definition: ''
-      - language: de-DE
-        name: Unknown
-        definition: ''
-      - language: fr-FR
-        name: Unknown
-        definition: ''
-      - language: ja-JP
-        name: Unknown
-        definition: ''
-- name: AssetInsuranceType
-  definition: Identifies the predefined types of insurance rating from which the type required may be set.
+  - language: 'fr-FR'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'AssetInsuranceType'
+  definition: 'Identifies the predefined types of insurance rating from which the type required may be set.'
   ifdGuid: 1yyYH1qKzAYvXflDLq2PRj
   localizations:
-  - language: ja-JP
-    name: 資産保険種別
-    definition: 保険の定義済み種別。
-  - language: en-EN
+  - language: 'ja-JP'
+    name: '資産保険種別'
+    definition: '保険の定義済み種別。'
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  typePropertyEnumeratedValue:
-    listName: PEnum_AssetInsuranceType
-    enumerationValues:
-    - name: PERSONAL
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Personal
-        definition: ''
-      - language: de-DE
-        name: Personal
-        definition: ''
-      - language: fr-FR
-        name: Personal
-        definition: ''
-      - language: ja-JP
-        name: Personal
-        definition: ''
-    - name: REAL
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Real
-        definition: ''
-      - language: de-DE
-        name: Real
-        definition: ''
-      - language: fr-FR
-        name: Real
-        definition: ''
-      - language: ja-JP
-        name: Real
-        definition: ''
-    - name: OTHER
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Other
-        definition: ''
-      - language: de-DE
-        name: Other
-        definition: ''
-      - language: fr-FR
-        name: Other
-        definition: ''
-      - language: ja-JP
-        name: Other
-        definition: ''
-    - name: UNKNOWN
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Unknown
-        definition: ''
-      - language: de-DE
-        name: Unknown
-        definition: ''
-      - language: fr-FR
-        name: Unknown
-        definition: ''
-      - language: ja-JP
-        name: Unknown
-        definition: ''
+  - language: 'fr-FR'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''

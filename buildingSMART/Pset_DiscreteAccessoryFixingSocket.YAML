@@ -1,20 +1,26 @@
-﻿name: Pset_DiscreteAccessoryFixingSocket
+﻿name: 'Pset_DiscreteAccessoryFixingSocket'
 ifcVersion:
-  version: 4.0.0.0
-  schema: IfcSharedComponentElements
+  version: '4.0.0.0'
+  schema: 'IfcSharedComponentElements'
 ifdGuid: ''
-definition: Properties common to fixing sockets.
+definition: 'Properties common to fixing sockets.'
 localizations:
-- language: en-EN
+- language: 'de-DE'
   name: ''
   definition: ''
-- language: de-DE
+- language: 'en-EN'
   name: ''
   definition: ''
-- language: fr-FR
+- language: 'es-ES'
   name: ''
   definition: ''
-- language: ja-JP
+- language: 'fr-FR'
+  name: ''
+  definition: ''
+- language: 'ja-JP'
+  name: ''
+  definition: ''
+- language: 'ru-RU'
   name: ''
   definition: ''
 applicableIfcClasses:
@@ -23,97 +29,103 @@ applicableIfcClasses:
 - name: IfcDiscreteAccessoryType
   type: IfcDiscreteAccessory/Fixing socket
 properties:
-- name: FixingSocketTypeReference
-  definition: Type reference for the fixing socket according to local standards.
+- name: 'FixingSocketTypeReference'
+  definition: 'Type reference for the fixing socket according to local standards.'
   ifdGuid: 1KIQQNApXE8PgFf1VxQ65K
   localizations:
-  - language: ja-JP
-    name: 参照基準
-    definition: 固定ソケットが参照するローカル標準。
-  - language: ko-KR
-    name: 참조 기준
-    definition: 고정 소켓이 참조하는 로컬 표준
-  - language: en-EN
+  - language: 'ja-JP'
+    name: '参照基準'
+    definition: '固定ソケットが参照するローカル標準。'
+  - language: 'ko-KR'
+    name: '참조 기준'
+    definition: '고정 소켓이 참조하는 로컬 표준'
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  typePropertyReferenceValue:
-    refType: IfcExternalReference
-    url: http://buildingsmart-tech.org
-    guid: ''
-    libraryName: Industry Foundation Classes by buildingSMART International
-    sectionref: Core Schema
-- name: FixingSocketHeight
-  definition: The overall height of the fixing socket.
+  - language: 'fr-FR'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'FixingSocketHeight'
+  definition: 'The overall height of the fixing socket.'
   ifdGuid: 1R19SmjFr0LfxfBwrGYBoE
   localizations:
-  - language: ja-JP
-    name: 全体長さ
-    definition: 固定ソケットの全体長さ。
-  - language: ko-KR
-    name: 전체 길이
-    definition: 고정 소켓의 전체 길이
-  - language: en-EN
+  - language: 'ja-JP'
+    name: '全体長さ'
+    definition: '固定ソケットの全体長さ。'
+  - language: 'ko-KR'
+    name: '전체 길이'
+    definition: '고정 소켓의 전체 길이'
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcPositiveLengthMeasure
-    measureType: ''
-    unitType: LENGTHUNIT
-- name: FixingSocketThreadDiameter
-  definition: The nominal diameter of the thread.
+  - language: 'fr-FR'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'FixingSocketThreadDiameter'
+  definition: 'The nominal diameter of the thread.'
   ifdGuid: 2fmibAhF12_B5aqxouLFJO
   localizations:
-  - language: ja-JP
-    name: 公称径
-    definition: 線の公称直径。
-  - language: ko-KR
-    name: 공칭 지름
-    definition: 고정 소켓의 전체 길이
-  - language: en-EN
+  - language: 'ja-JP'
+    name: '公称径'
+    definition: '線の公称直径。'
+  - language: 'ko-KR'
+    name: '공칭 지름'
+    definition: '고정 소켓의 전체 길이'
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcPositiveLengthMeasure
-    measureType: ''
-    unitType: LENGTHUNIT
-- name: FixingSocketThreadLength
-  definition: The length of the threaded part of the fixing socket.
+  - language: 'fr-FR'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'FixingSocketThreadLength'
+  definition: 'The length of the threaded part of the fixing socket.'
   ifdGuid: 3cbfaerVjA7vD$LA$dYeGJ
   localizations:
-  - language: ja-JP
-    name: ねじ部長さ
-    definition: 固定ソケットの全体長さねじ部の長さ。
-  - language: ko-KR
-    name: 나사부 길이
-    definition: 고정 소켓의 전체 길이 나사부의 길이
-  - language: en-EN
+  - language: 'ja-JP'
+    name: 'ねじ部長さ'
+    definition: '固定ソケットの全体長さねじ部の長さ。'
+  - language: 'ko-KR'
+    name: '나사부 길이'
+    definition: '고정 소켓의 전체 길이 나사부의 길이'
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcPositiveLengthMeasure
-    measureType: ''
-    unitType: LENGTHUNIT
+  - language: 'fr-FR'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''

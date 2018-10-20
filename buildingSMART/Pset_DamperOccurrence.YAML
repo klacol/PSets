@@ -1,106 +1,51 @@
-﻿name: Pset_DamperOccurrence
+﻿name: 'Pset_DamperOccurrence'
 ifcVersion:
-  version: 4.0.0.0
-  schema: IfcHvacDomain
+  version: '4.0.0.0'
+  schema: 'IfcHvacDomain'
 ifdGuid: ''
-definition: Damper occurrence attributes attached to an instance of IfcDamper
+definition: 'Damper occurrence attributes attached to an instance of IfcDamper'
 localizations:
-- language: en-EN
+- language: 'de-DE'
   name: ''
   definition: ''
-- language: de-DE
+- language: 'en-EN'
   name: ''
   definition: ''
-- language: fr-FR
+- language: 'es-ES'
   name: ''
   definition: ''
-- language: ja-JP
+- language: 'fr-FR'
+  name: ''
+  definition: ''
+- language: 'ja-JP'
+  name: ''
+  definition: ''
+- language: 'ru-RU'
   name: ''
   definition: ''
 applicableIfcClasses:
 - name: IfcDamper
   type: IfcDamper
 properties:
-- name: SizingMethod
+- name: 'SizingMethod'
   definition: 'Identifies whether the damper is sized nominally or with exact measurements:NOMINAL: Nominal sizing method. EXACT: Exact sizing method.'
   ifdGuid: ''
   localizations:
-  - language: en-EN
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  - language: ja-JP
+  - language: 'fr-FR'
     name: ''
     definition: ''
-  typePropertyEnumeratedValue:
-    listName: PEnum_DamperSizingMethod
-    enumerationValues:
-    - name: NOMINAL
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Nominal
-        definition: ''
-      - language: de-DE
-        name: Nominal
-        definition: ''
-      - language: fr-FR
-        name: Nominal
-        definition: ''
-      - language: ja-JP
-        name: Nominal
-        definition: ''
-    - name: EXACT
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Exact
-        definition: ''
-      - language: de-DE
-        name: Exact
-        definition: ''
-      - language: fr-FR
-        name: Exact
-        definition: ''
-      - language: ja-JP
-        name: Exact
-        definition: ''
-    - name: OTHER
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Other
-        definition: ''
-      - language: de-DE
-        name: Other
-        definition: ''
-      - language: fr-FR
-        name: Other
-        definition: ''
-      - language: ja-JP
-        name: Other
-        definition: ''
-    - name: UNKNOWN
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Unknown
-        definition: ''
-      - language: de-DE
-        name: Unknown
-        definition: ''
-      - language: fr-FR
-        name: Unknown
-        definition: ''
-      - language: ja-JP
-        name: Unknown
-        definition: ''
+  - language: 'ja-JP'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''

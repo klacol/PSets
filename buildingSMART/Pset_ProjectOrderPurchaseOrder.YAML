@@ -1,63 +1,73 @@
-﻿name: Pset_ProjectOrderPurchaseOrder
+﻿name: 'Pset_ProjectOrderPurchaseOrder'
 ifcVersion:
-  version: 4.0.0.0
-  schema: IfcSharedMgmtElements
+  version: '4.0.0.0'
+  schema: 'IfcSharedMgmtElements'
 ifdGuid: ''
-definition: Defines the requirements for purchase orders in a project.
+definition: 'Defines the requirements for purchase orders in a project.'
 localizations:
-- language: en-EN
+- language: 'de-DE'
   name: ''
   definition: ''
-- language: de-DE
+- language: 'en-EN'
   name: ''
   definition: ''
-- language: fr-FR
+- language: 'es-ES'
   name: ''
   definition: ''
-- language: ja-JP
+- language: 'fr-FR'
+  name: ''
+  definition: ''
+- language: 'ja-JP'
+  name: ''
+  definition: ''
+- language: 'ru-RU'
   name: ''
   definition: ''
 applicableIfcClasses:
 - name: IfcProjectOrder
   type: IfcProjectOrder/PURCHASEORDER
 properties:
-- name: IsFOB
-  definition: Indication of whether contents of the purchase order are delivered 'Free on Board' (= True) or not (= False).
+- name: 'IsFOB'
+  definition: 'Indication of whether contents of the purchase order are delivered ''Free on Board'' (= True) or not (= False).'
   ifdGuid: 1EIH_RFhv0aRYDLCAaEjq4
   localizations:
-  - language: en-EN
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  - language: ja-JP
+  - language: 'fr-FR'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcBoolean
-    measureType: ''
-    unitType: USERDEFINED
-- name: ShipMethod
-  definition: Method of shipping that will be used for goods or services.
+  - language: 'ja-JP'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'ShipMethod'
+  definition: 'Method of shipping that will be used for goods or services.'
   ifdGuid: 09Je3yOOT6cvoegIREeivN
   localizations:
-  - language: en-EN
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  - language: ja-JP
+  - language: 'fr-FR'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcText
-    measureType: ''
-    unitType: USERDEFINED
+  - language: 'ja-JP'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''

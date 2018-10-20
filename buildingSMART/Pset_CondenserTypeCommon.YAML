@@ -1,347 +1,227 @@
-﻿name: Pset_CondenserTypeCommon
+﻿name: 'Pset_CondenserTypeCommon'
 ifcVersion:
-  version: 4.0.0.0
-  schema: IfcHvacDomain
+  version: '4.0.0.0'
+  schema: 'IfcHvacDomain'
 ifdGuid: ''
-definition: Condenser type common attributes.
+definition: 'Condenser type common attributes.'
 localizations:
-- language: en-EN
+- language: 'de-DE'
   name: ''
   definition: ''
-- language: de-DE
+- language: 'en-EN'
   name: ''
   definition: ''
-- language: fr-FR
+- language: 'es-ES'
   name: ''
   definition: ''
-- language: ja-JP
+- language: 'fr-FR'
+  name: ''
+  definition: ''
+- language: 'ja-JP'
+  name: ''
+  definition: ''
+- language: 'ru-RU'
   name: ''
   definition: ''
 applicableIfcClasses:
 - name: IfcCondenserType
   type: IfcCondenserType
 properties:
-- name: Reference
-  definition: Reference ID for this specified type in this project (e.g. type 'A-1'), provided, if there is no classification reference to a recognized classification system used.
+- name: 'Reference'
+  definition: 'Reference ID for this specified type in this project (e.g. type ''A-1''), provided, if there is no classification reference to a recognized classification system used.'
   ifdGuid: ''
   localizations:
-  - language: ja-JP
-    name: 参照記号
-    definition: このプロジェクトにおける参照記号(例：A-1)。分類コードではなく内部で使用されるプロジェクトタイプとして使用されるもの。
-  - language: en-EN
+  - language: 'ja-JP'
+    name: '参照記号'
+    definition: 'このプロジェクトにおける参照記号(例：A-1)。分類コードではなく内部で使用されるプロジェクトタイプとして使用されるもの。'
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcIdentifier
-    measureType: ''
-    unitType: USERDEFINED
-- name: RefrigerantClass
+  - language: 'fr-FR'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'RefrigerantClass'
   definition: 'Refrigerant class used by the condenser.CFC: Chlorofluorocarbons.HCFC: Hydrochlorofluorocarbons.HFC: Hydrofluorocarbons.'
   ifdGuid: 0HiQnDepb19BYe4HjrU8TL
   localizations:
-  - language: en-EN
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  - language: ja-JP
+  - language: 'fr-FR'
     name: ''
     definition: ''
-  typePropertyEnumeratedValue:
-    listName: PEnum_RefrigerantClass
-    enumerationValues:
-    - name: CFC
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Cfc
-        definition: ''
-      - language: de-DE
-        name: Cfc
-        definition: ''
-      - language: fr-FR
-        name: Cfc
-        definition: ''
-      - language: ja-JP
-        name: Cfc
-        definition: ''
-    - name: HCFC
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Hcfc
-        definition: ''
-      - language: de-DE
-        name: Hcfc
-        definition: ''
-      - language: fr-FR
-        name: Hcfc
-        definition: ''
-      - language: ja-JP
-        name: Hcfc
-        definition: ''
-    - name: HFC
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Hfc
-        definition: ''
-      - language: de-DE
-        name: Hfc
-        definition: ''
-      - language: fr-FR
-        name: Hfc
-        definition: ''
-      - language: ja-JP
-        name: Hfc
-        definition: ''
-    - name: HYDROCARBONS
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Hydrocarbons
-        definition: ''
-      - language: de-DE
-        name: Hydrocarbons
-        definition: ''
-      - language: fr-FR
-        name: Hydrocarbons
-        definition: ''
-      - language: ja-JP
-        name: Hydrocarbons
-        definition: ''
-    - name: AMMONIA
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Ammonia
-        definition: ''
-      - language: de-DE
-        name: Ammonia
-        definition: ''
-      - language: fr-FR
-        name: Ammonia
-        definition: ''
-      - language: ja-JP
-        name: Ammonia
-        definition: ''
-    - name: CO2
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Co2
-        definition: ''
-      - language: de-DE
-        name: Co2
-        definition: ''
-      - language: fr-FR
-        name: Co2
-        definition: ''
-      - language: ja-JP
-        name: Co2
-        definition: ''
-    - name: H2O
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: H2o
-        definition: ''
-      - language: de-DE
-        name: H2o
-        definition: ''
-      - language: fr-FR
-        name: H2o
-        definition: ''
-      - language: ja-JP
-        name: H2o
-        definition: ''
-    - name: OTHER
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Other
-        definition: ''
-      - language: de-DE
-        name: Other
-        definition: ''
-      - language: fr-FR
-        name: Other
-        definition: ''
-      - language: ja-JP
-        name: Other
-        definition: ''
-    - name: UNKNOWN
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Unknown
-        definition: ''
-      - language: de-DE
-        name: Unknown
-        definition: ''
-      - language: fr-FR
-        name: Unknown
-        definition: ''
-      - language: ja-JP
-        name: Unknown
-        definition: ''
-- name: RefrigerantMaterial
-  definition: The refrigerant material used for heat transfer purposes.
+  - language: 'ja-JP'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'RefrigerantMaterial'
+  definition: 'The refrigerant material used for heat transfer purposes.'
   ifdGuid: ''
   localizations:
-  - language: en-EN
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  - language: ja-JP
+  - language: 'fr-FR'
     name: ''
     definition: ''
-  typePropertyReferenceValue:
-    url: http://buildingsmart-tech.org
-    guid: ''
-    libraryName: Industry Foundation Classes by buildingSMART International
-    sectionref: Core Schema
-- name: ExternalSurfaceArea
-  definition: External surface area (both primary and secondary area).
+  - language: 'ja-JP'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'ExternalSurfaceArea'
+  definition: 'External surface area (both primary and secondary area).'
   ifdGuid: 17du$GaV9ADxBiEiTEkjGL
   localizations:
-  - language: en-EN
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  - language: ja-JP
+  - language: 'fr-FR'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcAreaMeasure
-    measureType: ''
-    unitType: AREAUNIT
-- name: InternalSurfaceArea
-  definition: Internal surface area.
+  - language: 'ja-JP'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'InternalSurfaceArea'
+  definition: 'Internal surface area.'
   ifdGuid: 1$E4VtAxr7kes1zZW3qFn1
   localizations:
-  - language: en-EN
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  - language: ja-JP
+  - language: 'fr-FR'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcAreaMeasure
-    measureType: ''
-    unitType: AREAUNIT
-- name: InternalRefrigerantVolume
-  definition: Internal volume of condenser (refrigerant side).
+  - language: 'ja-JP'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'InternalRefrigerantVolume'
+  definition: 'Internal volume of condenser (refrigerant side).'
   ifdGuid: 2_QtDXz$z0vgHv7bXOHfwS
   localizations:
-  - language: en-EN
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  - language: ja-JP
+  - language: 'fr-FR'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcVolumeMeasure
-    measureType: ''
-    unitType: VOLUMEUNIT
-- name: InternalWaterVolume
-  definition: Internal volume of condenser (water side).
+  - language: 'ja-JP'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'InternalWaterVolume'
+  definition: 'Internal volume of condenser (water side).'
   ifdGuid: 2FQi_AL797ARQPr0ff9Owi
   localizations:
-  - language: en-EN
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  - language: ja-JP
+  - language: 'fr-FR'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcVolumeMeasure
-    measureType: ''
-    unitType: VOLUMEUNIT
-- name: NominalHeatTransferArea
-  definition: Nominal heat transfer surface area associated with nominal overall heat transfer coefficient.
+  - language: 'ja-JP'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'NominalHeatTransferArea'
+  definition: 'Nominal heat transfer surface area associated with nominal overall heat transfer coefficient.'
   ifdGuid: 0dFnDjjz97$9amrVVUWbHt
   localizations:
-  - language: en-EN
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  - language: ja-JP
+  - language: 'fr-FR'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcAreaMeasure
-    measureType: ''
-    unitType: AREAUNIT
-- name: NominalHeatTransferCoefficient
-  definition: Nominal overall heat transfer coefficient associated with nominal heat transfer area.
+  - language: 'ja-JP'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'NominalHeatTransferCoefficient'
+  definition: 'Nominal overall heat transfer coefficient associated with nominal heat transfer area.'
   ifdGuid: 1IvvmGVeX7uBvCjn9V8E0o
   localizations:
-  - language: en-EN
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  - language: ja-JP
+  - language: 'fr-FR'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcThermalTransmittanceMeasure
-    measureType: ''
-    unitType: THERMALTRANSMITTANCEUNIT
+  - language: 'ja-JP'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''

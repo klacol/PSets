@@ -1,67 +1,73 @@
-﻿name: Pset_HumidifierPHistory
+﻿name: 'Pset_HumidifierPHistory'
 ifcVersion:
-  version: 4.0.0.0
-  schema: IfcHvacDomain
+  version: '4.0.0.0'
+  schema: 'IfcHvacDomain'
 ifdGuid: ''
 definition: 'Humidifier performance history attributes.Sound attribute deleted in IFC2x2 Pset Addendum: Use IfcSoundProperties instead.'
 localizations:
-- language: en-EN
+- language: 'de-DE'
   name: ''
   definition: ''
-- language: de-DE
+- language: 'en-EN'
   name: ''
   definition: ''
-- language: fr-FR
+- language: 'es-ES'
   name: ''
   definition: ''
-- language: ja-JP
+- language: 'fr-FR'
+  name: ''
+  definition: ''
+- language: 'ja-JP'
+  name: ''
+  definition: ''
+- language: 'ru-RU'
   name: ''
   definition: ''
 applicableIfcClasses:
 - name: IfcPerformanceHistory
   type: IfcHumidifier
 properties:
-- name: AtmosphericPressure
-  definition: Ambient atmospheric pressure.
+- name: 'AtmosphericPressure'
+  definition: 'Ambient atmospheric pressure.'
   ifdGuid: 0L4DCZ3Wb99AoB01_ua0r3
   localizations:
-  - language: ja-JP
-    name: 標準大気圧（外気圧）
-    definition: 標準大気圧(外気圧）
-  - language: en-EN
+  - language: 'ja-JP'
+    name: '標準大気圧（外気圧）'
+    definition: '標準大気圧(外気圧）'
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  typePropertyReferenceValue:
-    refType: IfcTimeSeries
-    url: http://buildingsmart-tech.org
-    guid: ''
-    libraryName: Industry Foundation Classes by buildingSMART International
-    sectionref: Core Schema
-- name: SaturationEfficiency
+  - language: 'fr-FR'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'SaturationEfficiency'
   definition: 'Saturation efficiency: Ratio of leaving air absolute humidity to the maximum absolute humidity.'
   ifdGuid: 3I0isy8Z56YQZkK$8ldYKU
   localizations:
-  - language: ja-JP
-    name: 飽和比率
-    definition: 飽和比率：最大絶対湿度に対する現在の絶対湿度の割合
-  - language: en-EN
+  - language: 'ja-JP'
+    name: '飽和比率'
+    definition: '飽和比率：最大絶対湿度に対する現在の絶対湿度の割合'
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  typePropertyReferenceValue:
-    refType: IfcTimeSeries
-    url: http://buildingsmart-tech.org
-    guid: ''
-    libraryName: Industry Foundation Classes by buildingSMART International
-    sectionref: Core Schema
+  - language: 'fr-FR'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''

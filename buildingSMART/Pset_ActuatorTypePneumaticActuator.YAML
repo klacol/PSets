@@ -1,69 +1,79 @@
-﻿name: Pset_ActuatorTypePneumaticActuator
+﻿name: 'Pset_ActuatorTypePneumaticActuator'
 ifcVersion:
-  version: 4.0.0.0
-  schema: IfcBuildingControlsDomain
+  version: '4.0.0.0'
+  schema: 'IfcBuildingControlsDomain'
 ifdGuid: ''
-definition: A device that pneumatically actuates a control element
+definition: 'A device that pneumatically actuates a control element'
 localizations:
-- language: en-EN
+- language: 'de-DE'
   name: ''
   definition: ''
-- language: de-DE
+- language: 'en-EN'
   name: ''
   definition: ''
-- language: fr-FR
+- language: 'es-ES'
   name: ''
   definition: ''
-- language: ja-JP
+- language: 'fr-FR'
+  name: ''
+  definition: ''
+- language: 'ja-JP'
+  name: ''
+  definition: ''
+- language: 'ru-RU'
   name: ''
   definition: ''
 applicableIfcClasses:
 - name: IfcActuatorType
   type: IfcActuatorType/PNEUMATICACTUATOR
 properties:
-- name: InputPressure
-  definition: Maximum input control air pressure requirement.
+- name: 'InputPressure'
+  definition: 'Maximum input control air pressure requirement.'
   ifdGuid: 3HFqSlQS5D9gUX1aEHoAF5
   localizations:
-  - language: ja-JP
-    name: 入力圧力
-    definition: 最大制御空気圧。
-  - language: ko-KR
-    name: 입력 압력
-    definition: 최대 제어 공압
-  - language: en-EN
+  - language: 'ja-JP'
+    name: '入力圧力'
+    definition: '最大制御空気圧。'
+  - language: 'ko-KR'
+    name: '입력 압력'
+    definition: '최대 제어 공압'
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcPressureMeasure
-    measureType: ''
-    unitType: PRESSUREUNIT
-- name: InputFlowrate
-  definition: Maximum input control air flowrate requirement.
+  - language: 'fr-FR'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'InputFlowrate'
+  definition: 'Maximum input control air flowrate requirement.'
   ifdGuid: 1MeS5HUlD5iP1q6TeAjkfF
   localizations:
-  - language: ja-JP
-    name: 入力流量
-    definition: 最大制御空気流量。
-  - language: ko-KR
-    name: 입력 유량
-    definition: 최대 제어 공기 유량
-  - language: en-EN
+  - language: 'ja-JP'
+    name: '入力流量'
+    definition: '最大制御空気流量。'
+  - language: 'ko-KR'
+    name: '입력 유량'
+    definition: '최대 제어 공기 유량'
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcVolumetricFlowRateMeasure
-    measureType: ''
-    unitType: VOLUMETRICFLOWRATEUNIT
+  - language: 'fr-FR'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''

@@ -1,83 +1,95 @@
-﻿name: Pset_FlowMeterTypeEnergyMeter
+﻿name: 'Pset_FlowMeterTypeEnergyMeter'
 ifcVersion:
-  version: 4.0.0.0
-  schema: IfcHvacDomain
+  version: '4.0.0.0'
+  schema: 'IfcHvacDomain'
 ifdGuid: ''
-definition: Device that measures, indicates and sometimes records, the energy usage in a system.
+definition: 'Device that measures, indicates and sometimes records, the energy usage in a system.'
 localizations:
-- language: en-EN
+- language: 'de-DE'
   name: ''
   definition: ''
-- language: de-DE
+- language: 'en-EN'
   name: ''
   definition: ''
-- language: fr-FR
+- language: 'es-ES'
   name: ''
   definition: ''
-- language: ja-JP
+- language: 'fr-FR'
+  name: ''
+  definition: ''
+- language: 'ja-JP'
+  name: ''
+  definition: ''
+- language: 'ru-RU'
   name: ''
   definition: ''
 applicableIfcClasses:
 - name: IfcFlowMeterType
   type: IfcFlowMeterType/ENERGYMETER
 properties:
-- name: NominalCurrent
-  definition: The nominal current that is designed to be measured.
+- name: 'NominalCurrent'
+  definition: 'The nominal current that is designed to be measured.'
   ifdGuid: 3u2EajxE96mBTSdUnSn8qA
   localizations:
-  - language: en-EN
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  - language: ja-JP
+  - language: 'fr-FR'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcElectricCurrentMeasure
-    measureType: ''
-    unitType: ELECTRICCURRENTUNIT
-- name: MaximumCurrent
-  definition: The maximum allowed current that a device is certified to handle.
+  - language: 'ja-JP'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'MaximumCurrent'
+  definition: 'The maximum allowed current that a device is certified to handle.'
   ifdGuid: 3u2Q3nyp50b8HLcfTacsZa
   localizations:
-  - language: en-EN
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  - language: ja-JP
+  - language: 'fr-FR'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcElectricCurrentMeasure
-    measureType: ''
-    unitType: ELECTRICCURRENTUNIT
-- name: MultipleTarriff
-  definition: Indicates whether meter has built-in support for multiple tarriffs (variable energy cost rates).
+  - language: 'ja-JP'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'MultipleTarriff'
+  definition: 'Indicates whether meter has built-in support for multiple tarriffs (variable energy cost rates).'
   ifdGuid: 1lz9Q0h2H7VOdl9ZDhdv8U
   localizations:
-  - language: en-EN
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  - language: ja-JP
+  - language: 'fr-FR'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcBoolean
-    measureType: ''
-    unitType: USERDEFINED
+  - language: 'ja-JP'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''

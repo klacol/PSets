@@ -1,269 +1,73 @@
-﻿name: Pset_AirTerminalOccurrence
+﻿name: 'Pset_AirTerminalOccurrence'
 ifcVersion:
-  version: 4.0.0.0
-  schema: IfcHvacDomain
+  version: '4.0.0.0'
+  schema: 'IfcHvacDomain'
 ifdGuid: ''
-definition: Air terminal occurrence attributes attached to an instance of IfcAirTerminal.
+definition: 'Air terminal occurrence attributes attached to an instance of IfcAirTerminal.'
 localizations:
-- language: en-EN
+- language: 'de-DE'
   name: ''
   definition: ''
-- language: de-DE
+- language: 'en-EN'
   name: ''
   definition: ''
-- language: fr-FR
+- language: 'es-ES'
   name: ''
   definition: ''
-- language: ja-JP
+- language: 'fr-FR'
+  name: ''
+  definition: ''
+- language: 'ja-JP'
+  name: ''
+  definition: ''
+- language: 'ru-RU'
   name: ''
   definition: ''
 applicableIfcClasses:
 - name: IfcAirTerminal
   type: IfcAirTerminal
 properties:
-- name: AirflowType
-  definition: Enumeration defining the functional type of air flow through the terminal.
+- name: 'AirflowType'
+  definition: 'Enumeration defining the functional type of air flow through the terminal.'
   ifdGuid: ''
   localizations:
-  - language: fr-FR
-    name: Type de débit d'air
-    definition: Enumération définissant le type fonctionnel de débit à travers le terminal
-  - language: ja-JP
-    name: エアフロータイプ
-    definition: ターミナルを通過する気流の機能タイプ（給気、還気、排気他）
-  - language: en-EN
+  - language: 'fr-FR'
+    name: 'Type de débit d''air'
+    definition: 'Enumération définissant le type fonctionnel de débit à travers le terminal'
+  - language: 'ja-JP'
+    name: 'エアフロータイプ'
+    definition: 'ターミナルを通過する気流の機能タイプ（給気、還気、排気他）'
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  typePropertyEnumeratedValue:
-    listName: PEnum_AirTerminalAirflowType
-    enumerationValues:
-    - name: SUPPLYAIR
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Supplyair
-        definition: ''
-      - language: de-DE
-        name: Supplyair
-        definition: ''
-      - language: fr-FR
-        name: Supplyair
-        definition: ''
-      - language: ja-JP
-        name: Supplyair
-        definition: ''
-    - name: RETURNAIR
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Returnair
-        definition: ''
-      - language: de-DE
-        name: Returnair
-        definition: ''
-      - language: fr-FR
-        name: Returnair
-        definition: ''
-      - language: ja-JP
-        name: Returnair
-        definition: ''
-    - name: EXHAUSTAIR
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Exhaustair
-        definition: ''
-      - language: de-DE
-        name: Exhaustair
-        definition: ''
-      - language: fr-FR
-        name: Exhaustair
-        definition: ''
-      - language: ja-JP
-        name: Exhaustair
-        definition: ''
-    - name: OTHER
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Other
-        definition: ''
-      - language: de-DE
-        name: Other
-        definition: ''
-      - language: fr-FR
-        name: Other
-        definition: ''
-      - language: ja-JP
-        name: Other
-        definition: ''
-    - name: UNKNOWN
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Unknown
-        definition: ''
-      - language: de-DE
-        name: Unknown
-        definition: ''
-      - language: fr-FR
-        name: Unknown
-        definition: ''
-      - language: ja-JP
-        name: Unknown
-        definition: ''
-- name: Location
-  definition: Location  (a single type of diffuser can be used for multiple locations); high means close to ceiling.
+  - language: 'es-ES'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'Location'
+  definition: 'Location  (a single type of diffuser can be used for multiple locations); high means close to ceiling.'
   ifdGuid: ''
   localizations:
-  - language: fr-FR
-    name: Emplacement
-    definition: Emplacement (un seul type de diffuseur peut être utilisé pour des emplaments multiples); Haut signifie proche du plafond.
-  - language: ja-JP
-    name: 位置
-    definition: 制気口の取り付け位置（壁面高所・低部、天井ぺり、天井中央、床、床下他）
-  - language: en-EN
+  - language: 'fr-FR'
+    name: 'Emplacement'
+    definition: 'Emplacement (un seul type de diffuseur peut être utilisé pour des emplaments multiples); Haut signifie proche du plafond.'
+  - language: 'ja-JP'
+    name: '位置'
+    definition: '制気口の取り付け位置（壁面高所・低部、天井ぺり、天井中央、床、床下他）'
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  typePropertyEnumeratedValue:
-    listName: PEnum_AirTerminalLocation
-    enumerationValues:
-    - name: SIDEWALLHIGH
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Sidewallhigh
-        definition: ''
-      - language: de-DE
-        name: Sidewallhigh
-        definition: ''
-      - language: fr-FR
-        name: Sidewallhigh
-        definition: ''
-      - language: ja-JP
-        name: Sidewallhigh
-        definition: ''
-    - name: SIDEWALLLOW
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Sidewalllow
-        definition: ''
-      - language: de-DE
-        name: Sidewalllow
-        definition: ''
-      - language: fr-FR
-        name: Sidewalllow
-        definition: ''
-      - language: ja-JP
-        name: Sidewalllow
-        definition: ''
-    - name: CEILINGPERIMETER
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Ceilingperimeter
-        definition: ''
-      - language: de-DE
-        name: Ceilingperimeter
-        definition: ''
-      - language: fr-FR
-        name: Ceilingperimeter
-        definition: ''
-      - language: ja-JP
-        name: Ceilingperimeter
-        definition: ''
-    - name: CEILINGINTERIOR
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Ceilinginterior
-        definition: ''
-      - language: de-DE
-        name: Ceilinginterior
-        definition: ''
-      - language: fr-FR
-        name: Ceilinginterior
-        definition: ''
-      - language: ja-JP
-        name: Ceilinginterior
-        definition: ''
-    - name: FLOOR
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Floor
-        definition: ''
-      - language: de-DE
-        name: Floor
-        definition: ''
-      - language: fr-FR
-        name: Floor
-        definition: ''
-      - language: ja-JP
-        name: Floor
-        definition: ''
-    - name: SILL
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Sill
-        definition: ''
-      - language: de-DE
-        name: Sill
-        definition: ''
-      - language: fr-FR
-        name: Sill
-        definition: ''
-      - language: ja-JP
-        name: Sill
-        definition: ''
-    - name: OTHER
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Other
-        definition: ''
-      - language: de-DE
-        name: Other
-        definition: ''
-      - language: fr-FR
-        name: Other
-        definition: ''
-      - language: ja-JP
-        name: Other
-        definition: ''
-    - name: UNKNOWN
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Unknown
-        definition: ''
-      - language: de-DE
-        name: Unknown
-        definition: ''
-      - language: fr-FR
-        name: Unknown
-        definition: ''
-      - language: ja-JP
-        name: Unknown
-        definition: ''
+  - language: 'es-ES'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''

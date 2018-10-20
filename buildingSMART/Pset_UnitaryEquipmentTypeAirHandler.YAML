@@ -1,209 +1,95 @@
-﻿name: Pset_UnitaryEquipmentTypeAirHandler
+﻿name: 'Pset_UnitaryEquipmentTypeAirHandler'
 ifcVersion:
-  version: 4.0.0.0
-  schema: IfcHvacDomain
+  version: '4.0.0.0'
+  schema: 'IfcHvacDomain'
 ifdGuid: ''
-definition: Air handler unitary equipment type attributes.Note that these attributes were formerly Pset_AirHandler prior to IFC2x2.
+definition: 'Air handler unitary equipment type attributes.Note that these attributes were formerly Pset_AirHandler prior to IFC2x2.'
 localizations:
-- language: en-EN
+- language: 'de-DE'
   name: ''
   definition: ''
-- language: de-DE
+- language: 'en-EN'
   name: ''
   definition: ''
-- language: fr-FR
+- language: 'es-ES'
   name: ''
   definition: ''
-- language: ja-JP
+- language: 'fr-FR'
+  name: ''
+  definition: ''
+- language: 'ja-JP'
+  name: ''
+  definition: ''
+- language: 'ru-RU'
   name: ''
   definition: ''
 applicableIfcClasses:
 - name: IfcUnitaryEquipmentType
   type: IfcUnitaryEquipmentType/AIRHANDLER
 properties:
-- name: AirHandlerConstruction
-  definition: Enumeration defining how the air handler might be fabricated.
+- name: 'AirHandlerConstruction'
+  definition: 'Enumeration defining how the air handler might be fabricated.'
   ifdGuid: 2rnj3PaF19yw8NHhLxg6if
   localizations:
-  - language: ja-JP
-    name: 空調機製造
-    definition: 空調機の組立方法の定義の列挙
-  - language: en-EN
+  - language: 'ja-JP'
+    name: '空調機製造'
+    definition: '空調機の組立方法の定義の列挙'
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  typePropertyEnumeratedValue:
-    listName: PEnum_AirHandlerConstruction
-    enumerationValues:
-    - name: MANUFACTUREDITEM
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Manufactureditem
-        definition: ''
-      - language: de-DE
-        name: Manufactureditem
-        definition: ''
-      - language: fr-FR
-        name: Manufactureditem
-        definition: ''
-      - language: ja-JP
-        name: Manufactureditem
-        definition: ''
-    - name: CONSTRUCTEDONSITE
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Constructedonsite
-        definition: ''
-      - language: de-DE
-        name: Constructedonsite
-        definition: ''
-      - language: fr-FR
-        name: Constructedonsite
-        definition: ''
-      - language: ja-JP
-        name: Constructedonsite
-        definition: ''
-    - name: OTHER
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Other
-        definition: ''
-      - language: de-DE
-        name: Other
-        definition: ''
-      - language: fr-FR
-        name: Other
-        definition: ''
-      - language: ja-JP
-        name: Other
-        definition: ''
-    - name: UNKNOWN
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Unknown
-        definition: ''
-      - language: de-DE
-        name: Unknown
-        definition: ''
-      - language: fr-FR
-        name: Unknown
-        definition: ''
-      - language: ja-JP
-        name: Unknown
-        definition: ''
-- name: AirHandlerFanCoilArrangement
-  definition: Enumeration defining the arrangement of the supply air fan and the cooling coil.
+  - language: 'fr-FR'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'AirHandlerFanCoilArrangement'
+  definition: 'Enumeration defining the arrangement of the supply air fan and the cooling coil.'
   ifdGuid: 0L08spsCb4JAjeD6rmwJWY
   localizations:
-  - language: ja-JP
-    name: 空調機ファン・コイル配列
-    definition: 給気ファンと冷却コイルの配置の定義列挙
-  - language: en-EN
+  - language: 'ja-JP'
+    name: '空調機ファン・コイル配列'
+    definition: '給気ファンと冷却コイルの配置の定義列挙'
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  typePropertyEnumeratedValue:
-    listName: PEnum_AirHandlerFanCoilArrangement
-    enumerationValues:
-    - name: BLOWTHROUGH
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Blowthrough
-        definition: ''
-      - language: de-DE
-        name: Blowthrough
-        definition: ''
-      - language: fr-FR
-        name: Blowthrough
-        definition: ''
-      - language: ja-JP
-        name: Blowthrough
-        definition: ''
-    - name: DRAWTHROUGH
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Drawthrough
-        definition: ''
-      - language: de-DE
-        name: Drawthrough
-        definition: ''
-      - language: fr-FR
-        name: Drawthrough
-        definition: ''
-      - language: ja-JP
-        name: Drawthrough
-        definition: ''
-    - name: OTHER
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Other
-        definition: ''
-      - language: de-DE
-        name: Other
-        definition: ''
-      - language: fr-FR
-        name: Other
-        definition: ''
-      - language: ja-JP
-        name: Other
-        definition: ''
-    - name: UNKNOWN
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Unknown
-        definition: ''
-      - language: de-DE
-        name: Unknown
-        definition: ''
-      - language: fr-FR
-        name: Unknown
-        definition: ''
-      - language: ja-JP
-        name: Unknown
-        definition: ''
-- name: DualDeck
-  definition: Does the AirHandler have a dual deck? TRUE = Yes, FALSE = No.
+  - language: 'fr-FR'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'DualDeck'
+  definition: 'Does the AirHandler have a dual deck? TRUE = Yes, FALSE = No.'
   ifdGuid: 3VBOsvUbv3yQhPRXUpL9ww
   localizations:
-  - language: ja-JP
-    name: 2層
-    definition: 空調機は2層になっているかTRUE=はい、FALSE=Iいいえ
-  - language: en-EN
+  - language: 'ja-JP'
+    name: '2層'
+    definition: '空調機は2層になっているかTRUE=はい、FALSE=Iいいえ'
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcBoolean
-    measureType: ''
-    unitType: USERDEFINED
+  - language: 'fr-FR'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''

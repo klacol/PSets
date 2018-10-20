@@ -1,202 +1,139 @@
-﻿name: Pset_ManufacturerOccurrence
+﻿name: 'Pset_ManufacturerOccurrence'
 ifcVersion:
-  version: 4.0.0.0
-  schema: IfcSharedFacilitiesElements
+  version: '4.0.0.0'
+  schema: 'IfcSharedFacilitiesElements'
 ifdGuid: ''
 definition: 'Defines properties of individual instances of manufactured products that may be given by the manufacturer.HISTORY: IFC4: AssemblyPlace property added. This property does not need to be asserted if Pset_ManufacturerTypeInformation is allocated to the type and the AssemblyPlace property is asserted there.'
 localizations:
-- language: en-EN
+- language: 'de-DE'
   name: ''
   definition: ''
-- language: de-DE
+- language: 'en-EN'
   name: ''
   definition: ''
-- language: fr-FR
+- language: 'es-ES'
   name: ''
   definition: ''
-- language: ja-JP
+- language: 'fr-FR'
+  name: ''
+  definition: ''
+- language: 'ja-JP'
+  name: ''
+  definition: ''
+- language: 'ru-RU'
   name: ''
   definition: ''
 applicableIfcClasses:
 - name: IfcElement
   type: IfcElement
 properties:
-- name: AcquisitionDate
-  definition: The date that the manufactured item was purchased.
+- name: 'AcquisitionDate'
+  definition: 'The date that the manufactured item was purchased.'
   ifdGuid: 1kuiqjs9jF4OooDPym4BZ2
   localizations:
-  - language: en-EN
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  - language: ja-JP
+  - language: 'fr-FR'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcDate
-    measureType: ''
-    unitType: USERDEFINED
-- name: BarCode
-  definition: The identity of the bar code given to an occurrence of the product.
+  - language: 'ja-JP'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'BarCode'
+  definition: 'The identity of the bar code given to an occurrence of the product.'
   ifdGuid: 0$YZIN9PX8OBg$nGTzfFYC
   localizations:
-  - language: en-EN
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  - language: ja-JP
+  - language: 'fr-FR'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcIdentifier
-    measureType: ''
-    unitType: USERDEFINED
-- name: SerialNumber
-  definition: The serial number assigned to an occurrence of a product.
+  - language: 'ja-JP'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'SerialNumber'
+  definition: 'The serial number assigned to an occurrence of a product.'
   ifdGuid: 2wUVJJe1f1VvooLWIRNcJH
   localizations:
-  - language: en-EN
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  - language: ja-JP
+  - language: 'fr-FR'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcIdentifier
-    measureType: ''
-    unitType: USERDEFINED
-- name: BatchReference
-  definition: The identity of the batch reference from which an occurrence of a product is taken.
+  - language: 'ja-JP'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'BatchReference'
+  definition: 'The identity of the batch reference from which an occurrence of a product is taken.'
   ifdGuid: 0ziR8SKAz15xrEGyCGIgg0
   localizations:
-  - language: en-EN
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  - language: ja-JP
+  - language: 'fr-FR'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcIdentifier
-    measureType: ''
-    unitType: USERDEFINED
-- name: AssemblyPlace
-  definition: Enumeration defining where the assembly is intended to take place, either in a factory, other offsite location or on the building site.
+  - language: 'ja-JP'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'AssemblyPlace'
+  definition: 'Enumeration defining where the assembly is intended to take place, either in a factory, other offsite location or on the building site.'
   ifdGuid: 1NX2H7g_5E0etLgpsdZ7LC
   localizations:
-  - language: en-EN
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  - language: ja-JP
+  - language: 'fr-FR'
     name: ''
     definition: ''
-  typePropertyEnumeratedValue:
-    listName: PEnum_AssemblyPlace
-    enumerationValues:
-    - name: FACTORY
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Factory
-        definition: ''
-      - language: de-DE
-        name: Factory
-        definition: ''
-      - language: fr-FR
-        name: Factory
-        definition: ''
-      - language: ja-JP
-        name: Factory
-        definition: ''
-    - name: OFFSITE
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Offsite
-        definition: ''
-      - language: de-DE
-        name: Offsite
-        definition: ''
-      - language: fr-FR
-        name: Offsite
-        definition: ''
-      - language: ja-JP
-        name: Offsite
-        definition: ''
-    - name: SITE
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Site
-        definition: ''
-      - language: de-DE
-        name: Site
-        definition: ''
-      - language: fr-FR
-        name: Site
-        definition: ''
-      - language: ja-JP
-        name: Site
-        definition: ''
-    - name: OTHER
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Other
-        definition: ''
-      - language: de-DE
-        name: Other
-        definition: ''
-      - language: fr-FR
-        name: Other
-        definition: ''
-      - language: ja-JP
-        name: Other
-        definition: ''
-    - name: UNKNOWN
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Unknown
-        definition: ''
-      - language: de-DE
-        name: Unknown
-        definition: ''
-      - language: fr-FR
-        name: Unknown
-        definition: ''
-      - language: ja-JP
-        name: Unknown
-        definition: ''
+  - language: 'ja-JP'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''

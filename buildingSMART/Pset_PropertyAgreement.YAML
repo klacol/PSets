@@ -1,342 +1,293 @@
-﻿name: Pset_PropertyAgreement
+﻿name: 'Pset_PropertyAgreement'
 ifcVersion:
-  version: 4.0.0.0
-  schema: IfcSharedFacilitiesElements
+  version: '4.0.0.0'
+  schema: 'IfcSharedFacilitiesElements'
 ifdGuid: ''
-definition: A property agreement is an agreement that enables the occupation of a property for a period of time.The objective is to capture the information within an  agreement that is relevant to a facilities manager. Design and construction information associated with the property is not considered. A property agreement may be applied to an instance of IfcSpatialStructureElement including to compositions defined through the IfcSpatialStructureElement.Element.CompositionEnum.Note that the associated actors are captured by the IfcOccupant class.
+definition: 'A property agreement is an agreement that enables the occupation of a property for a period of time.The objective is to capture the information within an  agreement that is relevant to a facilities manager. Design and construction information associated with the property is not considered. A property agreement may be applied to an instance of IfcSpatialStructureElement including to compositions defined through the IfcSpatialStructureElement.Element.CompositionEnum.Note that the associated actors are captured by the IfcOccupant class.'
 localizations:
-- language: en-EN
+- language: 'de-DE'
   name: ''
   definition: ''
-- language: de-DE
+- language: 'en-EN'
   name: ''
   definition: ''
-- language: fr-FR
+- language: 'es-ES'
   name: ''
   definition: ''
-- language: ja-JP
+- language: 'fr-FR'
+  name: ''
+  definition: ''
+- language: 'ja-JP'
+  name: ''
+  definition: ''
+- language: 'ru-RU'
   name: ''
   definition: ''
 applicableIfcClasses:
 - name: IfcSpatialStructureElement
   type: IfcSpatialStructureElement
 properties:
-- name: AgreementType
-  definition: Identifies the predefined types of property agreement from which the type required may be set.
+- name: 'AgreementType'
+  definition: 'Identifies the predefined types of property agreement from which the type required may be set.'
   ifdGuid: 07i1plP1j74AfT_VaZiULq
   localizations:
-  - language: en-EN
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  - language: ja-JP
+  - language: 'fr-FR'
     name: ''
     definition: ''
-  typePropertyEnumeratedValue:
-    listName: PEnum_PropertyAgreementType
-    enumerationValues:
-    - name: ASSIGNMENT
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Assignment
-        definition: ''
-      - language: de-DE
-        name: Assignment
-        definition: ''
-      - language: fr-FR
-        name: Assignment
-        definition: ''
-      - language: ja-JP
-        name: Assignment
-        definition: ''
-    - name: LEASE
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Lease
-        definition: ''
-      - language: de-DE
-        name: Lease
-        definition: ''
-      - language: fr-FR
-        name: Lease
-        definition: ''
-      - language: ja-JP
-        name: Lease
-        definition: ''
-    - name: TENANT
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Tenant
-        definition: ''
-      - language: de-DE
-        name: Tenant
-        definition: ''
-      - language: fr-FR
-        name: Tenant
-        definition: ''
-      - language: ja-JP
-        name: Tenant
-        definition: ''
-    - name: OTHER
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Other
-        definition: ''
-      - language: de-DE
-        name: Other
-        definition: ''
-      - language: fr-FR
-        name: Other
-        definition: ''
-      - language: ja-JP
-        name: Other
-        definition: ''
-    - name: UNKNOWN
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Unknown
-        definition: ''
-      - language: de-DE
-        name: Unknown
-        definition: ''
-      - language: fr-FR
-        name: Unknown
-        definition: ''
-      - language: ja-JP
-        name: Unknown
-        definition: ''
-- name: Identifier
-  definition: The identifier assigned to the agreement for the purposes of tracking.
+  - language: 'ja-JP'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'Identifier'
+  definition: 'The identifier assigned to the agreement for the purposes of tracking.'
   ifdGuid: 3ZK8R6xvH5QeZiFLT9Ngh6
   localizations:
-  - language: en-EN
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  - language: ja-JP
+  - language: 'fr-FR'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcIdentifier
-    measureType: ''
-    unitType: USERDEFINED
-- name: Version
-  definition: The version number of the agreement that is identified.
+  - language: 'ja-JP'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'Version'
+  definition: 'The version number of the agreement that is identified.'
   ifdGuid: 3RfsW_hqz7n9A42XLOpHN1
   localizations:
-  - language: en-EN
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  - language: ja-JP
+  - language: 'fr-FR'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcLabel
-    measureType: ''
-    unitType: USERDEFINED
-- name: VersionDate
-  definition: The date on which the version of the agreement became applicable.
+  - language: 'ja-JP'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'VersionDate'
+  definition: 'The date on which the version of the agreement became applicable.'
   ifdGuid: 3QdoHp_LrFAe2ABufKZFRB
   localizations:
-  - language: en-EN
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  - language: ja-JP
+  - language: 'fr-FR'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcDate
-    measureType: ''
-    unitType: USERDEFINED
-- name: PropertyName
-  definition: Addressing details of the property as stated within the agreement.
+  - language: 'ja-JP'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'PropertyName'
+  definition: 'Addressing details of the property as stated within the agreement.'
   ifdGuid: 2itlh25u93hQITG0Se1SRB
   localizations:
-  - language: en-EN
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  - language: ja-JP
+  - language: 'fr-FR'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcLabel
-    measureType: ''
-    unitType: USERDEFINED
-- name: CommencementDate
-  definition: Date on which the agreement commences.
+  - language: 'ja-JP'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'CommencementDate'
+  definition: 'Date on which the agreement commences.'
   ifdGuid: 2eu$7Kv6nB8udUxtZ9Xwst
   localizations:
-  - language: en-EN
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  - language: ja-JP
+  - language: 'fr-FR'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcDate
-    measureType: ''
-    unitType: USERDEFINED
-- name: TerminationDate
-  definition: Date on which the agreement terminates.
+  - language: 'ja-JP'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'TerminationDate'
+  definition: 'Date on which the agreement terminates.'
   ifdGuid: 0$zWmo_4934xjS97EQXZG3
   localizations:
-  - language: en-EN
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  - language: ja-JP
+  - language: 'fr-FR'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcDate
-    measureType: ''
-    unitType: USERDEFINED
-- name: Duration
-  definition: The period of time for the lease.
+  - language: 'ja-JP'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'Duration'
+  definition: 'The period of time for the lease.'
   ifdGuid: 0nZfVeg91DsArsKLyAOOr5
   localizations:
-  - language: en-EN
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  - language: ja-JP
+  - language: 'fr-FR'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcDuration
-    measureType: ''
-    unitType: USERDEFINED
-- name: Options
-  definition: A statement of the options available in the agreement.
+  - language: 'ja-JP'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'Options'
+  definition: 'A statement of the options available in the agreement.'
   ifdGuid: 3_3ydOKm10rAFy4tjqiC$F
   localizations:
-  - language: en-EN
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  - language: ja-JP
+  - language: 'fr-FR'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcText
-    measureType: ''
-    unitType: USERDEFINED
-- name: ConditionCommencement
-  definition: Condition of property provided on commencement of the agreement e.g. cold shell, warm lit shell, broom clean, turn-key.
+  - language: 'ja-JP'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'ConditionCommencement'
+  definition: 'Condition of property provided on commencement of the agreement e.g. cold shell, warm lit shell, broom clean, turn-key.'
   ifdGuid: 1osmeUCffFMQi6nqrL8l$v
   localizations:
-  - language: en-EN
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  - language: ja-JP
+  - language: 'fr-FR'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcText
-    measureType: ''
-    unitType: USERDEFINED
-- name: Restrictions
-  definition: Restrictions that may be placed by a  competent authority.
+  - language: 'ja-JP'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'Restrictions'
+  definition: 'Restrictions that may be placed by a  competent authority.'
   ifdGuid: 2NpxvCk5fDGPWK4RmHf0Ut
   localizations:
-  - language: en-EN
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  - language: ja-JP
+  - language: 'fr-FR'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcText
-    measureType: ''
-    unitType: USERDEFINED
-- name: ConditionTermination
-  definition: Condition of property required on termination of the agreement e.g. cold shell, warm lit shell, broom clean, turn-key.
+  - language: 'ja-JP'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'ConditionTermination'
+  definition: 'Condition of property required on termination of the agreement e.g. cold shell, warm lit shell, broom clean, turn-key.'
   ifdGuid: 0Khyq6v4z60OMDG4DH4Zmj
   localizations:
-  - language: en-EN
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: fr-FR
+  - language: 'es-ES'
     name: ''
     definition: ''
-  - language: ja-JP
+  - language: 'fr-FR'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcText
-    measureType: ''
-    unitType: USERDEFINED
+  - language: 'ja-JP'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''

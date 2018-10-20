@@ -1,194 +1,95 @@
-﻿name: Pset_AnnotationSurveyArea
+﻿name: 'Pset_AnnotationSurveyArea'
 ifcVersion:
-  version: 4.0.0.0
-  schema: IfcProductExtension
+  version: '4.0.0.0'
+  schema: 'IfcProductExtension'
 ifdGuid: ''
-definition: Specifies particular properties of survey methods to be assigned to survey point set or resulting surface patches
+definition: 'Specifies particular properties of survey methods to be assigned to survey point set or resulting surface patches'
 localizations:
-- language: en-EN
+- language: 'de-DE'
   name: ''
   definition: ''
-- language: de-DE
+- language: 'en-EN'
   name: ''
   definition: ''
-- language: fr-FR
+- language: 'es-ES'
   name: ''
   definition: ''
-- language: ja-JP
+- language: 'fr-FR'
+  name: ''
+  definition: ''
+- language: 'ja-JP'
+  name: ''
+  definition: ''
+- language: 'ru-RU'
   name: ''
   definition: ''
 applicableIfcClasses:
 - name: IfcAnnotation
   type: IfcAnnotation/SurveyArea
 properties:
-- name: AcquisitionMethod
-  definition: The means by which survey data was acquired.
+- name: 'AcquisitionMethod'
+  definition: 'The means by which survey data was acquired.'
   ifdGuid: 1EncG9XCTEghvNj8o8wAsr
   localizations:
-  - language: fr-FR
-    name: Méthode d'acquisition
-    definition: La méthode utilisée pour effectuer le relevé.
-  - language: en-EN
+  - language: 'fr-FR'
+    name: 'Méthode d''acquisition'
+    definition: 'La méthode utilisée pour effectuer le relevé.'
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: ja-JP
+  - language: 'es-ES'
     name: ''
     definition: ''
-  typePropertyEnumeratedValue:
-    listName: PEnum_AcquisitionMethod
-    enumerationValues:
-    - name: GPS
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Gps
-        definition: ''
-      - language: de-DE
-        name: Gps
-        definition: ''
-      - language: fr-FR
-        name: Gps
-        definition: ''
-      - language: ja-JP
-        name: Gps
-        definition: ''
-    - name: LASERSCAN_AIRBORNE
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Laserscan_airborne
-        definition: ''
-      - language: de-DE
-        name: Laserscan_airborne
-        definition: ''
-      - language: fr-FR
-        name: Laserscan_airborne
-        definition: ''
-      - language: ja-JP
-        name: Laserscan_airborne
-        definition: ''
-    - name: LASERSCAN_GROUND
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Laserscan_ground
-        definition: ''
-      - language: de-DE
-        name: Laserscan_ground
-        definition: ''
-      - language: fr-FR
-        name: Laserscan_ground
-        definition: ''
-      - language: ja-JP
-        name: Laserscan_ground
-        definition: ''
-    - name: SONAR
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Sonar
-        definition: ''
-      - language: de-DE
-        name: Sonar
-        definition: ''
-      - language: fr-FR
-        name: Sonar
-        definition: ''
-      - language: ja-JP
-        name: Sonar
-        definition: ''
-    - name: THEODOLITE
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Theodolite
-        definition: ''
-      - language: de-DE
-        name: Theodolite
-        definition: ''
-      - language: fr-FR
-        name: Theodolite
-        definition: ''
-      - language: ja-JP
-        name: Theodolite
-        definition: ''
-    - name: OTHER
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Other
-        definition: ''
-      - language: de-DE
-        name: Other
-        definition: ''
-      - language: fr-FR
-        name: Other
-        definition: ''
-      - language: ja-JP
-        name: Other
-        definition: ''
-    - name: UNKNOWN
-      definition: ''
-      ifdGuid: ''
-      localizations:
-      - language: en-EN
-        name: Unknown
-        definition: ''
-      - language: de-DE
-        name: Unknown
-        definition: ''
-      - language: fr-FR
-        name: Unknown
-        definition: ''
-      - language: ja-JP
-        name: Unknown
-        definition: ''
-- name: AccuracyQualityObtained
-  definition: A measure of the accuracy quality of survey points as obtained expressed in percentage terms.
+  - language: 'ja-JP'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'AccuracyQualityObtained'
+  definition: 'A measure of the accuracy quality of survey points as obtained expressed in percentage terms.'
   ifdGuid: 31tzNDNAnFX8pZkkdslvo_
   localizations:
-  - language: fr-FR
-    name: Précision obtenue
-    definition: Mesure de la précision obtenue des points de relevé, exprimée en pourcentage.
-  - language: en-EN
+  - language: 'fr-FR'
+    name: 'Précision obtenue'
+    definition: 'Mesure de la précision obtenue des points de relevé, exprimée en pourcentage.'
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: ja-JP
+  - language: 'es-ES'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcRatioMeasure
-    measureType: ''
-    unitType: USERDEFINED
-- name: AccuracyQualityExpected
-  definition: A measure of the accuracy quality of survey points as expected expressed in percentage terms.
+  - language: 'ja-JP'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
+- name: 'AccuracyQualityExpected'
+  definition: 'A measure of the accuracy quality of survey points as expected expressed in percentage terms.'
   ifdGuid: 2mtErpiVD4Sx$ZaWFh3NWD
   localizations:
-  - language: fr-FR
-    name: Précision attendue
-    definition: Mesure de la précision attendue des points de relevé, exprimée en pourcentage.
-  - language: en-EN
+  - language: 'fr-FR'
+    name: 'Précision attendue'
+    definition: 'Mesure de la précision attendue des points de relevé, exprimée en pourcentage.'
+  - language: 'de-DE'
     name: ''
     definition: ''
-  - language: de-DE
+  - language: 'en-EN'
     name: ''
     definition: ''
-  - language: ja-JP
+  - language: 'es-ES'
     name: ''
     definition: ''
-  typePropertySingleValue:
-    dataType: IfcRatioMeasure
-    measureType: ''
-    unitType: USERDEFINED
+  - language: 'ja-JP'
+    name: ''
+    definition: ''
+  - language: 'ru-RU'
+    name: ''
+    definition: ''
