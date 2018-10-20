@@ -77,7 +77,7 @@ namespace PSet2YamlConverter
                 propertySet.properties = LoadProperties(pSet.PropertyDefs);
                 propertySet = Utils.PrepareTexts(propertySet);
                 string targetFileYaml = sourceFile.Replace("xml", "YAML").Replace(sourceFolderXml, targetFolderYaml);
-                string targetFileJson = sourceFile.Replace("xml", "JSON").Replace(sourceFolderXml, targetFolderJson);
+                string targetFileJson = sourceFile.Replace("xml", "json").Replace(sourceFolderXml, targetFolderJson);
                 Console.WriteLine($"   Writing {targetFileYaml.Replace(targetFolderYaml + @"\", string.Empty)}");
                 Console.WriteLine($"   Writing {targetFileJson.Replace(targetFolderJson + @"\", string.Empty)}");
 
