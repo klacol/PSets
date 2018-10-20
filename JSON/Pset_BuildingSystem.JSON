@@ -1,0 +1,91 @@
+﻿{
+  "name": "Pset_BuildingSystemCommon",
+  "ifcVersion": {
+    "version": "4.0.0.0",
+    "schema": "IfcSharedBldgElements"
+  },
+  "ifdGuid": "",
+  "definition": "Properties common to the definition of building systems.",
+  "localizations": [
+    {
+      "language": "de-DE",
+      "name": "",
+      "definition": ""
+    },
+    {
+      "language": "en-EN",
+      "name": "",
+      "definition": ""
+    },
+    {
+      "language": "es-ES",
+      "name": "",
+      "definition": ""
+    },
+    {
+      "language": "fr-FR",
+      "name": "",
+      "definition": ""
+    },
+    {
+      "language": "ja-JP",
+      "name": "",
+      "definition": ""
+    },
+    {
+      "language": "ru-RU",
+      "name": "",
+      "definition": ""
+    }
+  ],
+  "applicableIfcClasses": [
+    {
+      "name": "IfcBuildingSystem",
+      "type": "IfcBuildingSystem"
+    }
+  ],
+  "properties": [
+    {
+      "name": "Reference",
+      "definition": "Reference ID for this specified instance of building system in this project (e.g. 'TRA/EL1'), The reference values depend on the local code of practice.",
+      "ifdGuid": "",
+      "localizations": [
+        {
+          "language": "de-DE",
+          "name": "",
+          "definition": ""
+        },
+        {
+          "language": "en-EN",
+          "name": "",
+          "definition": ""
+        },
+        {
+          "language": "es-ES",
+          "name": "",
+          "definition": ""
+        },
+        {
+          "language": "fr-FR",
+          "name": "",
+          "definition": ""
+        },
+        {
+          "language": "ja-JP",
+          "name": "",
+          "definition": ""
+        },
+        {
+          "language": "ru-RU",
+          "name": "",
+          "definition": ""
+        }
+      ],
+      "typePropertySingleValue": {
+        "dataType": "IfcIdentifier",
+        "measureType": "",
+        "unitType": "USERDEFINED"
+      }
+    }
+  ]
+}

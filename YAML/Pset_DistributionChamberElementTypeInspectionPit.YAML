@@ -1,0 +1,116 @@
+﻿name: 'Pset_DistributionChamberElementTypeInspectionPit'
+ifcVersion:
+  version: 4.0.0.0
+  schema: IfcSharedBldgServiceElements
+ifdGuid: ''
+definition: 'Recess or chamber formed to permit access for inspection of substructure and services (definition modified from BS6100 221 4128).'
+localizations:
+- language: de-DE
+  name: ''
+  definition: ''
+- language: en-EN
+  name: ''
+  definition: ''
+- language: es-ES
+  name: ''
+  definition: ''
+- language: fr-FR
+  name: ''
+  definition: ''
+- language: ja-JP
+  name: ''
+  definition: ''
+- language: ru-RU
+  name: ''
+  definition: ''
+applicableIfcClasses:
+- name: IfcDistributionChamberElementType
+  type: IfcDistributionChamberElementType/INSPECTIONPIT
+properties:
+- name: Length
+  definition: The length of the pit.
+  ifdGuid: 1g5pZ31SfFBQKi69yieWgW
+  localizations:
+  - language: ja-JP
+    name: '長さ'
+    definition: 'ピット長さ。'
+  - language: ko-KR
+    name: '길이'
+    definition: '피트 길이'
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: es-ES
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ru-RU
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPositiveLengthMeasure
+    measureType: ''
+    unitType: LENGTHUNIT
+- name: Width
+  definition: The width of the pit.
+  ifdGuid: 0geYUs6uDCFvipp_2qMiSN
+  localizations:
+  - language: ja-JP
+    name: '幅'
+    definition: 'ピット幅。'
+  - language: ko-KR
+    name: '폭'
+    definition: '피트 폭'
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: es-ES
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ru-RU
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPositiveLengthMeasure
+    measureType: ''
+    unitType: LENGTHUNIT
+- name: Depth
+  definition: The depth of the pit.
+  ifdGuid: 2HOuA7DwzBVhRyweGYFokL
+  localizations:
+  - language: ja-JP
+    name: '深さ'
+    definition: 'ピット深さ。'
+  - language: ko-KR
+    name: '깊이'
+    definition: '구덩이 깊이'
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: es-ES
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ru-RU
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPositiveLengthMeasure
+    measureType: ''
+    unitType: LENGTHUNIT

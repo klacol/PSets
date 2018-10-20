@@ -1,0 +1,313 @@
+﻿{
+  "name": "Pset_SpaceThermalPHistory",
+  "ifcVersion": {
+    "version": "4.0.0.0",
+    "schema": "IfcHvacDomain"
+  },
+  "ifdGuid": "",
+  "definition": "Thermal and air flow conditions of a space or zone. HISTORY: New property set in IFC 2x2.",
+  "localizations": [
+    {
+      "language": "de-DE",
+      "name": "",
+      "definition": ""
+    },
+    {
+      "language": "en-EN",
+      "name": "",
+      "definition": ""
+    },
+    {
+      "language": "es-ES",
+      "name": "",
+      "definition": ""
+    },
+    {
+      "language": "fr-FR",
+      "name": "",
+      "definition": ""
+    },
+    {
+      "language": "ja-JP",
+      "name": "",
+      "definition": ""
+    },
+    {
+      "language": "ru-RU",
+      "name": "",
+      "definition": ""
+    }
+  ],
+  "applicableIfcClasses": [
+    {
+      "name": "IfcPerformanceHistory",
+      "type": "IfcSpace"
+    }
+  ],
+  "properties": [
+    {
+      "name": "CoolingAirFlowRate",
+      "definition": "Cooling air flow rate in the space.",
+      "ifdGuid": "2_yt979P15wx_1f9Sz9gbL",
+      "localizations": [
+        {
+          "language": "ja-JP",
+          "name": "冷却空気流量",
+          "definition": "室内の冷却空気流量"
+        },
+        {
+          "language": "de-DE",
+          "name": "",
+          "definition": ""
+        },
+        {
+          "language": "en-EN",
+          "name": "",
+          "definition": ""
+        },
+        {
+          "language": "es-ES",
+          "name": "",
+          "definition": ""
+        },
+        {
+          "language": "fr-FR",
+          "name": "",
+          "definition": ""
+        },
+        {
+          "language": "ru-RU",
+          "name": "",
+          "definition": ""
+        }
+      ],
+      "typePropertyReferenceValue": {
+        "refType": "IfcTimeSeries",
+        "url": "http://buildingsmart-tech.org",
+        "guid": "",
+        "libraryName": "Industry Foundation Classes by buildingSMART International",
+        "sectionref": "Core Schema"
+      }
+    },
+    {
+      "name": "HeatingAirFlowRate",
+      "definition": "Heating air flow rate in the space.",
+      "ifdGuid": "1q_iXfvrfA6gfOtHv4vjXI",
+      "localizations": [
+        {
+          "language": "ja-JP",
+          "name": "暖房空気流量",
+          "definition": "室内の暖房空気流量"
+        },
+        {
+          "language": "de-DE",
+          "name": "",
+          "definition": ""
+        },
+        {
+          "language": "en-EN",
+          "name": "",
+          "definition": ""
+        },
+        {
+          "language": "es-ES",
+          "name": "",
+          "definition": ""
+        },
+        {
+          "language": "fr-FR",
+          "name": "",
+          "definition": ""
+        },
+        {
+          "language": "ru-RU",
+          "name": "",
+          "definition": ""
+        }
+      ],
+      "typePropertyReferenceValue": {
+        "refType": "IfcTimeSeries",
+        "url": "http://buildingsmart-tech.org",
+        "guid": "",
+        "libraryName": "Industry Foundation Classes by buildingSMART International",
+        "sectionref": "Core Schema"
+      }
+    },
+    {
+      "name": "VentilationAirFlowRate",
+      "definition": "Ventilation air flow rate in the space.",
+      "ifdGuid": "2eWMKwGXH9iRDykFgk6lQz",
+      "localizations": [
+        {
+          "language": "ja-JP",
+          "name": "換気気流速度",
+          "definition": "室内の換気空気流量"
+        },
+        {
+          "language": "de-DE",
+          "name": "",
+          "definition": ""
+        },
+        {
+          "language": "en-EN",
+          "name": "",
+          "definition": ""
+        },
+        {
+          "language": "es-ES",
+          "name": "",
+          "definition": ""
+        },
+        {
+          "language": "fr-FR",
+          "name": "",
+          "definition": ""
+        },
+        {
+          "language": "ru-RU",
+          "name": "",
+          "definition": ""
+        }
+      ],
+      "typePropertyReferenceValue": {
+        "refType": "IfcTimeSeries",
+        "url": "http://buildingsmart-tech.org",
+        "guid": "",
+        "libraryName": "Industry Foundation Classes by buildingSMART International",
+        "sectionref": "Core Schema"
+      }
+    },
+    {
+      "name": "ExhaustAirFlowRate",
+      "definition": "Exhaust air flow rate in the space.",
+      "ifdGuid": "0bLsO$Y9n7_gUGJWnBhp2s",
+      "localizations": [
+        {
+          "language": "ja-JP",
+          "name": "排気空気流量",
+          "definition": "室内の排気流量"
+        },
+        {
+          "language": "de-DE",
+          "name": "",
+          "definition": ""
+        },
+        {
+          "language": "en-EN",
+          "name": "",
+          "definition": ""
+        },
+        {
+          "language": "es-ES",
+          "name": "",
+          "definition": ""
+        },
+        {
+          "language": "fr-FR",
+          "name": "",
+          "definition": ""
+        },
+        {
+          "language": "ru-RU",
+          "name": "",
+          "definition": ""
+        }
+      ],
+      "typePropertyReferenceValue": {
+        "refType": "IfcTimeSeries",
+        "url": "http://buildingsmart-tech.org",
+        "guid": "",
+        "libraryName": "Industry Foundation Classes by buildingSMART International",
+        "sectionref": "Core Schema"
+      }
+    },
+    {
+      "name": "SpaceTemperature",
+      "definition": "Temperature of the space.",
+      "ifdGuid": "3k5OaIPYnDjuw1lSZ8jeUo",
+      "localizations": [
+        {
+          "language": "ja-JP",
+          "name": "室内温度",
+          "definition": "室内の温度"
+        },
+        {
+          "language": "de-DE",
+          "name": "",
+          "definition": ""
+        },
+        {
+          "language": "en-EN",
+          "name": "",
+          "definition": ""
+        },
+        {
+          "language": "es-ES",
+          "name": "",
+          "definition": ""
+        },
+        {
+          "language": "fr-FR",
+          "name": "",
+          "definition": ""
+        },
+        {
+          "language": "ru-RU",
+          "name": "",
+          "definition": ""
+        }
+      ],
+      "typePropertyReferenceValue": {
+        "refType": "IfcTimeSeries",
+        "url": "http://buildingsmart-tech.org",
+        "guid": "",
+        "libraryName": "Industry Foundation Classes by buildingSMART International",
+        "sectionref": "Core Schema"
+      }
+    },
+    {
+      "name": "SpaceRelativeHumidity",
+      "definition": "The relative humidity of the space.",
+      "ifdGuid": "1bvz9GiWH2tu_9gGiaN9AF",
+      "localizations": [
+        {
+          "language": "ja-JP",
+          "name": "室内相対湿度",
+          "definition": "室内の相対湿度"
+        },
+        {
+          "language": "de-DE",
+          "name": "",
+          "definition": ""
+        },
+        {
+          "language": "en-EN",
+          "name": "",
+          "definition": ""
+        },
+        {
+          "language": "es-ES",
+          "name": "",
+          "definition": ""
+        },
+        {
+          "language": "fr-FR",
+          "name": "",
+          "definition": ""
+        },
+        {
+          "language": "ru-RU",
+          "name": "",
+          "definition": ""
+        }
+      ],
+      "typePropertyReferenceValue": {
+        "refType": "IfcTimeSeries",
+        "url": "http://buildingsmart-tech.org",
+        "guid": "",
+        "libraryName": "Industry Foundation Classes by buildingSMART International",
+        "sectionref": "Core Schema"
+      }
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+﻿name: 'Pset_UtilityConsumptionPHistory'
+ifcVersion:
+  version: 4.0.0.0
+  schema: IfcSharedBldgServiceElements
+ifdGuid: ''
+definition: 'Consumption of utility resources, typically applied to the IfcBuilding instance, used to identify how much was consumed on I.e., a monthly basis.'
+localizations:
+- language: de-DE
+  name: ''
+  definition: ''
+- language: en-EN
+  name: ''
+  definition: ''
+- language: es-ES
+  name: ''
+  definition: ''
+- language: fr-FR
+  name: ''
+  definition: ''
+- language: ja-JP
+  name: ''
+  definition: ''
+- language: ru-RU
+  name: ''
+  definition: ''
+applicableIfcClasses:
+- name: IfcBuilding
+  type: IfcBuilding[PerformanceHistory]
+properties:
+- name: Heat
+  definition: The amount of heat energy consumed during the period specified in the time series.
+  ifdGuid: ''
+  localizations:
+  - language: ko-KR
+    name: '열 소비량'
+    definition: '특정 기간 동안의 열 소비.'
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: es-ES
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  - language: ru-RU
+    name: ''
+    definition: ''
+  typePropertyReferenceValue:
+    refType: IfcTimeSeries
+    url: http://buildingsmart-tech.org
+    guid: ''
+    libraryName: Industry Foundation Classes by buildingSMART International
+    sectionref: Core Schema
+- name: Electricity
+  definition: The amount of electricity consumed during the period specified in the time series.
+  ifdGuid: ''
+  localizations:
+  - language: ko-KR
+    name: '전력 소비량'
+    definition: '특정 기간 동안의 전력 소비.'
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: es-ES
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  - language: ru-RU
+    name: ''
+    definition: ''
+  typePropertyReferenceValue:
+    refType: IfcTimeSeries
+    url: http://buildingsmart-tech.org
+    guid: ''
+    libraryName: Industry Foundation Classes by buildingSMART International
+    sectionref: Core Schema
+- name: Water
+  definition: The amount of water consumed during the period specified in the time series.
+  ifdGuid: ''
+  localizations:
+  - language: ko-KR
+    name: '물소비'
+    definition: '특정 기간 동안 물 소비.'
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: es-ES
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  - language: ru-RU
+    name: ''
+    definition: ''
+  typePropertyReferenceValue:
+    refType: IfcTimeSeries
+    url: http://buildingsmart-tech.org
+    guid: ''
+    libraryName: Industry Foundation Classes by buildingSMART International
+    sectionref: Core Schema
+- name: Fuel
+  definition: The amount of fuel consumed during the period specified in the time series.
+  ifdGuid: ''
+  localizations:
+  - language: ko-KR
+    name: '연료 소비량'
+    definition: '특정 기간 동안의 연료 소비.'
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: es-ES
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  - language: ru-RU
+    name: ''
+    definition: ''
+  typePropertyReferenceValue:
+    refType: IfcTimeSeries
+    url: http://buildingsmart-tech.org
+    guid: ''
+    libraryName: Industry Foundation Classes by buildingSMART International
+    sectionref: Core Schema
+- name: Steam
+  definition: The amount of steam consumed during the period specified in the time series.
+  ifdGuid: ''
+  localizations:
+  - language: ko-KR
+    name: '증기소비량'
+    definition: '특정 기간 동안 증기 소비.'
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: es-ES
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  - language: ru-RU
+    name: ''
+    definition: ''
+  typePropertyReferenceValue:
+    refType: IfcTimeSeries
+    url: http://buildingsmart-tech.org
+    guid: ''
+    libraryName: Industry Foundation Classes by buildingSMART International
+    sectionref: Core Schema

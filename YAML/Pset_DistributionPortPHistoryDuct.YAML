@@ -1,0 +1,224 @@
+﻿name: 'Pset_DistributionPortPHistoryDuct'
+ifcVersion:
+  version: 4.0.0.0
+ifdGuid: ''
+definition: 'Fluid flow performance history attached to an instance of IfcPerformanceHistory assigned to IfcDistributionPort.  This replaces the deprecated IfcFluidFlowProperties for performance values.'
+localizations:
+- language: de-DE
+  name: ''
+  definition: ''
+- language: en-EN
+  name: ''
+  definition: ''
+- language: es-ES
+  name: ''
+  definition: ''
+- language: fr-FR
+  name: ''
+  definition: ''
+- language: ja-JP
+  name: ''
+  definition: ''
+- language: ru-RU
+  name: ''
+  definition: ''
+applicableIfcClasses:
+- name: IfcDistributionPort/AIRCONDITIONING
+  type: IfcDistributionPort/AIRCONDITIONING
+properties:
+- name: Temperature
+  definition: PSet2YamlConverter.PropertyType
+  ifdGuid: 3Bw5L2Vz5DeAATs0TdVhIf
+  localizations:
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: es-ES
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  - language: ru-RU
+    name: ''
+    definition: ''
+  typePropertyReferenceValue:
+    refType: IfcTimeSeries
+    url: http://buildingsmart-tech.org
+    guid: ''
+    libraryName: Industry Foundation Classes by buildingSMART International
+    sectionref: Core Schema
+- name: WetBulbTemperature
+  definition: PSet2YamlConverter.PropertyType
+  ifdGuid: 30J$B7lK58sesE0tH79del
+  localizations:
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: es-ES
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  - language: ru-RU
+    name: ''
+    definition: ''
+  typePropertyReferenceValue:
+    refType: IfcTimeSeries
+    url: http://buildingsmart-tech.org
+    guid: ''
+    libraryName: Industry Foundation Classes by buildingSMART International
+    sectionref: Core Schema
+- name: VolumetricFlowRate
+  definition: PSet2YamlConverter.PropertyType
+  ifdGuid: 1_ZeVmL9X3mAEUYAm$5rnk
+  localizations:
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: es-ES
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  - language: ru-RU
+    name: ''
+    definition: ''
+  typePropertyReferenceValue:
+    refType: IfcTimeSeries
+    url: http://buildingsmart-tech.org
+    guid: ''
+    libraryName: Industry Foundation Classes by buildingSMART International
+    sectionref: Core Schema
+- name: MassFlowRate
+  definition: PSet2YamlConverter.PropertyType
+  ifdGuid: 2_Ce9CHon4wAjnpmQnq8Z9
+  localizations:
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: es-ES
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  - language: ru-RU
+    name: ''
+    definition: ''
+  typePropertyReferenceValue:
+    refType: IfcTimeSeries
+    url: http://buildingsmart-tech.org
+    guid: ''
+    libraryName: Industry Foundation Classes by buildingSMART International
+    sectionref: Core Schema
+- name: FlowCondition
+  definition: PSet2YamlConverter.PropertyType
+  ifdGuid: 0vwzjJx0fC_vmMqxa_ItdJ
+  localizations:
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: es-ES
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  - language: ru-RU
+    name: ''
+    definition: ''
+  typePropertyReferenceValue:
+    refType: IfcTimeSeries
+    url: http://buildingsmart-tech.org
+    guid: ''
+    libraryName: Industry Foundation Classes by buildingSMART International
+    sectionref: Core Schema
+- name: Velocity
+  definition: PSet2YamlConverter.PropertyType
+  ifdGuid: 20kOv3DPrDmhnl7ZnOP9ZX
+  localizations:
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: es-ES
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  - language: ru-RU
+    name: ''
+    definition: ''
+  typePropertyReferenceValue:
+    refType: IfcTimeSeries
+    url: http://buildingsmart-tech.org
+    guid: ''
+    libraryName: Industry Foundation Classes by buildingSMART International
+    sectionref: Core Schema
+- name: Pressure
+  definition: PSet2YamlConverter.PropertyType
+  ifdGuid: 21I6029$T09OOx3TehMZSk
+  localizations:
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: es-ES
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  - language: ru-RU
+    name: ''
+    definition: ''
+  typePropertyReferenceValue:
+    refType: IfcTimeSeries
+    url: http://buildingsmart-tech.org
+    guid: ''
+    libraryName: Industry Foundation Classes by buildingSMART International
+    sectionref: Core Schema

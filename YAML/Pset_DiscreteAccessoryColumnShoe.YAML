@@ -1,0 +1,205 @@
+﻿name: 'Pset_DiscreteAccessoryColumnShoe'
+ifcVersion:
+  version: 4.0.0.0
+  schema: IfcSharedComponentElements
+ifdGuid: ''
+definition: 'Shape properties common to column shoes.'
+localizations:
+- language: de-DE
+  name: ''
+  definition: ''
+- language: en-EN
+  name: ''
+  definition: ''
+- language: es-ES
+  name: ''
+  definition: ''
+- language: fr-FR
+  name: ''
+  definition: ''
+- language: ja-JP
+  name: ''
+  definition: ''
+- language: ru-RU
+  name: ''
+  definition: ''
+applicableIfcClasses:
+- name: IfcDiscreteAccessory
+  type: IfcDiscreteAccessory/SHOE
+- name: IfcDiscreteAccessoryType
+  type: IfcDiscreteAccessory/SHOE
+properties:
+- name: ColumnShoeBasePlateThickness
+  definition: The thickness of the column shoe base plate.
+  ifdGuid: 1aZFi1cNX4XQbBsRkP4u_e
+  localizations:
+  - language: ja-JP
+    name: 'ベースプレート厚'
+    definition: '柱脚ベースプレートの板厚。'
+  - language: ko-KR
+    name: '베이스 플레이트 두께'
+    definition: '기둥 다리베이스 플레이트의 두께'
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: es-ES
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ru-RU
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPositiveLengthMeasure
+    measureType: ''
+    unitType: LENGTHUNIT
+- name: ColumnShoeBasePlateWidth
+  definition: The width of the column shoe base plate.
+  ifdGuid: 2bgJ5ReDf9zOofHfF2$nqN
+  localizations:
+  - language: ja-JP
+    name: 'ベースプレート幅'
+    definition: '柱脚ベースプレートの幅。'
+  - language: ko-KR
+    name: '베이스 플레이트 폭'
+    definition: '기둥 다리 받침판 폭'
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: es-ES
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ru-RU
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPositiveLengthMeasure
+    measureType: ''
+    unitType: LENGTHUNIT
+- name: ColumnShoeBasePlateDepth
+  definition: The depth of the column shoe base plate.
+  ifdGuid: 3thTvHYy52a9Vaml3Qxlnf
+  localizations:
+  - language: ja-JP
+    name: 'ベースプレート成'
+    definition: '柱脚ベースプレートの成。'
+  - language: ko-KR
+    name: '베이스 플레이트 구성'
+    definition: '기둥 다리 받침판 구성'
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: es-ES
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ru-RU
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPositiveLengthMeasure
+    measureType: ''
+    unitType: LENGTHUNIT
+- name: ColumnShoeCasingHeight
+  definition: The height of the column shoe casing.
+  ifdGuid: 1rSkO37vj8qg3aRPQi9TzC
+  localizations:
+  - language: ja-JP
+    name: 'ケーシング厚'
+    definition: '柱脚ケーシングの板厚。'
+  - language: ko-KR
+    name: '케이스 두께'
+    definition: '기둥 다리 케이스의 두께'
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: es-ES
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ru-RU
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPositiveLengthMeasure
+    measureType: ''
+    unitType: LENGTHUNIT
+- name: ColumnShoeCasingWidth
+  definition: The width of the column shoe casing.
+  ifdGuid: 3Nd1ZGbsPCEuwrZvH721up
+  localizations:
+  - language: ja-JP
+    name: 'ケーシング幅'
+    definition: '柱脚ケーシングの幅。'
+  - language: ko-KR
+    name: '케이스 폭'
+    definition: '기둥 다리 케이스의 폭'
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: es-ES
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ru-RU
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPositiveLengthMeasure
+    measureType: ''
+    unitType: LENGTHUNIT
+- name: ColumnShoeCasingDepth
+  definition: The depth of the column shoe casing.
+  ifdGuid: 3VfkH7ON50ZRwZKb$vYujq
+  localizations:
+  - language: ja-JP
+    name: 'ケーシング成'
+    definition: '柱脚ケーシングの成。'
+  - language: ko-KR
+    name: '케이스 구성'
+    definition: '기둥 다리 케이스의 구성'
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: es-ES
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ru-RU
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPositiveLengthMeasure
+    measureType: ''
+    unitType: LENGTHUNIT

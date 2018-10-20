@@ -1,0 +1,443 @@
+﻿name: 'Pset_FlowMeterTypeWaterMeter'
+ifcVersion:
+  version: 4.0.0.0
+  schema: IfcHvacDomain
+ifdGuid: ''
+definition: 'Device that measures, indicates and sometimes records, the volume of water that passes through it without interrupting the flow.'
+localizations:
+- language: de-DE
+  name: ''
+  definition: ''
+- language: en-EN
+  name: ''
+  definition: ''
+- language: es-ES
+  name: ''
+  definition: ''
+- language: fr-FR
+  name: ''
+  definition: ''
+- language: ja-JP
+  name: ''
+  definition: ''
+- language: ru-RU
+  name: ''
+  definition: ''
+applicableIfcClasses:
+- name: IfcFlowMeterType
+  type: IfcFlowMeterType/WATERMETER
+properties:
+- name: Type
+  definition: Defines the allowed values for selection of the flow meter operation type.
+  ifdGuid: 2q$4skVWf3pRy8QjNvbrFp
+  localizations:
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: es-ES
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  - language: ru-RU
+    name: ''
+    definition: ''
+  typePropertyEnumeratedValue:
+    listName: PEnum_WaterMeterType
+    enumerationValues:
+    - name: COMPOUND
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: de-DE
+        name: 'Compound'
+        definition: ''
+      - language: en-EN
+        name: 'Compound'
+        definition: ''
+      - language: es-ES
+        name: 'Compound'
+        definition: ''
+      - language: fr-FR
+        name: 'Compound'
+        definition: ''
+      - language: ja-JP
+        name: 'Compound'
+        definition: ''
+      - language: ru-RU
+        name: 'Compound'
+        definition: ''
+    - name: INFERENTIAL
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: de-DE
+        name: 'Inferential'
+        definition: ''
+      - language: en-EN
+        name: 'Inferential'
+        definition: ''
+      - language: es-ES
+        name: 'Inferential'
+        definition: ''
+      - language: fr-FR
+        name: 'Inferential'
+        definition: ''
+      - language: ja-JP
+        name: 'Inferential'
+        definition: ''
+      - language: ru-RU
+        name: 'Inferential'
+        definition: ''
+    - name: PISTON
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: de-DE
+        name: 'Piston'
+        definition: ''
+      - language: en-EN
+        name: 'Piston'
+        definition: ''
+      - language: es-ES
+        name: 'Piston'
+        definition: ''
+      - language: fr-FR
+        name: 'Piston'
+        definition: ''
+      - language: ja-JP
+        name: 'Piston'
+        definition: ''
+      - language: ru-RU
+        name: 'Piston'
+        definition: ''
+    - name: OTHER
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: de-DE
+        name: 'Other'
+        definition: ''
+      - language: en-EN
+        name: 'Other'
+        definition: ''
+      - language: es-ES
+        name: 'Other'
+        definition: ''
+      - language: fr-FR
+        name: 'Other'
+        definition: ''
+      - language: ja-JP
+        name: 'Other'
+        definition: ''
+      - language: ru-RU
+        name: 'Other'
+        definition: ''
+    - name: UNKNOWN
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: de-DE
+        name: 'Unknown'
+        definition: ''
+      - language: en-EN
+        name: 'Unknown'
+        definition: ''
+      - language: es-ES
+        name: 'Unknown'
+        definition: ''
+      - language: fr-FR
+        name: 'Unknown'
+        definition: ''
+      - language: ja-JP
+        name: 'Unknown'
+        definition: ''
+      - language: ru-RU
+        name: 'Unknown'
+        definition: ''
+- name: ConnectionSize
+  definition: Defines the size of inlet and outlet pipe connections to the meter.
+  ifdGuid: 2pRomY4JH3Uwvt6HwixSq1
+  localizations:
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: es-ES
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  - language: ru-RU
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPositiveLengthMeasure
+    measureType: ''
+    unitType: LENGTHUNIT
+- name: MaximumFlowRate
+  definition: Maximum rate of flow which the meter is expected to pass.
+  ifdGuid: 2mOE0CTaj96RKaBX9cJ1VF
+  localizations:
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: es-ES
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  - language: ru-RU
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcVolumetricFlowRateMeasure
+    measureType: ''
+    unitType: VOLUMETRICFLOWRATEUNIT
+- name: MaximumPressureLoss
+  definition: Pressure loss expected across the meter under conditions of maximum flow.
+  ifdGuid: 3qpwmTrB5D8uUJ6r5pJ4GY
+  localizations:
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: es-ES
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  - language: ru-RU
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPressureMeasure
+    measureType: ''
+    unitType: PRESSUREUNIT
+- name: BackflowPreventerType
+  definition: Identifies the type of backflow preventer installed to prevent the backflow of contaminated or polluted water from an irrigation/reticulation system to a potable water supply.
+  ifdGuid: 289nceqTrAaQsSbTTntYn3
+  localizations:
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: es-ES
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  - language: ru-RU
+    name: ''
+    definition: ''
+  typePropertyEnumeratedValue:
+    listName: PEnum_BackflowPreventerType
+    enumerationValues:
+    - name: NONE
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: de-DE
+        name: 'None'
+        definition: ''
+      - language: en-EN
+        name: 'None'
+        definition: ''
+      - language: es-ES
+        name: 'None'
+        definition: ''
+      - language: fr-FR
+        name: 'None'
+        definition: ''
+      - language: ja-JP
+        name: 'None'
+        definition: ''
+      - language: ru-RU
+        name: 'None'
+        definition: ''
+    - name: ATMOSPHERICVACUUMBREAKER
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: de-DE
+        name: 'Atmosphericvacuumbreaker'
+        definition: ''
+      - language: en-EN
+        name: 'Atmosphericvacuumbreaker'
+        definition: ''
+      - language: es-ES
+        name: 'Atmosphericvacuumbreaker'
+        definition: ''
+      - language: fr-FR
+        name: 'Atmosphericvacuumbreaker'
+        definition: ''
+      - language: ja-JP
+        name: 'Atmosphericvacuumbreaker'
+        definition: ''
+      - language: ru-RU
+        name: 'Atmosphericvacuumbreaker'
+        definition: ''
+    - name: ANTISIPHONVALVE
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: de-DE
+        name: 'Antisiphonvalve'
+        definition: ''
+      - language: en-EN
+        name: 'Antisiphonvalve'
+        definition: ''
+      - language: es-ES
+        name: 'Antisiphonvalve'
+        definition: ''
+      - language: fr-FR
+        name: 'Antisiphonvalve'
+        definition: ''
+      - language: ja-JP
+        name: 'Antisiphonvalve'
+        definition: ''
+      - language: ru-RU
+        name: 'Antisiphonvalve'
+        definition: ''
+    - name: DOUBLECHECKBACKFLOWPREVENTER
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: de-DE
+        name: 'Doublecheckbackflowpreventer'
+        definition: ''
+      - language: en-EN
+        name: 'Doublecheckbackflowpreventer'
+        definition: ''
+      - language: es-ES
+        name: 'Doublecheckbackflowpreventer'
+        definition: ''
+      - language: fr-FR
+        name: 'Doublecheckbackflowpreventer'
+        definition: ''
+      - language: ja-JP
+        name: 'Doublecheckbackflowpreventer'
+        definition: ''
+      - language: ru-RU
+        name: 'Doublecheckbackflowpreventer'
+        definition: ''
+    - name: PRESSUREVACUUMBREAKER
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: de-DE
+        name: 'Pressurevacuumbreaker'
+        definition: ''
+      - language: en-EN
+        name: 'Pressurevacuumbreaker'
+        definition: ''
+      - language: es-ES
+        name: 'Pressurevacuumbreaker'
+        definition: ''
+      - language: fr-FR
+        name: 'Pressurevacuumbreaker'
+        definition: ''
+      - language: ja-JP
+        name: 'Pressurevacuumbreaker'
+        definition: ''
+      - language: ru-RU
+        name: 'Pressurevacuumbreaker'
+        definition: ''
+    - name: REDUCEDPRESSUREBACKFLOWPREVENTER
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: de-DE
+        name: 'Reducedpressurebackflowpreventer'
+        definition: ''
+      - language: en-EN
+        name: 'Reducedpressurebackflowpreventer'
+        definition: ''
+      - language: es-ES
+        name: 'Reducedpressurebackflowpreventer'
+        definition: ''
+      - language: fr-FR
+        name: 'Reducedpressurebackflowpreventer'
+        definition: ''
+      - language: ja-JP
+        name: 'Reducedpressurebackflowpreventer'
+        definition: ''
+      - language: ru-RU
+        name: 'Reducedpressurebackflowpreventer'
+        definition: ''
+    - name: OTHER
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: de-DE
+        name: 'Other'
+        definition: ''
+      - language: en-EN
+        name: 'Other'
+        definition: ''
+      - language: es-ES
+        name: 'Other'
+        definition: ''
+      - language: fr-FR
+        name: 'Other'
+        definition: ''
+      - language: ja-JP
+        name: 'Other'
+        definition: ''
+      - language: ru-RU
+        name: 'Other'
+        definition: ''
+    - name: UNKNOWN
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: de-DE
+        name: 'Unknown'
+        definition: ''
+      - language: en-EN
+        name: 'Unknown'
+        definition: ''
+      - language: es-ES
+        name: 'Unknown'
+        definition: ''
+      - language: fr-FR
+        name: 'Unknown'
+        definition: ''
+      - language: ja-JP
+        name: 'Unknown'
+        definition: ''
+      - language: ru-RU
+        name: 'Unknown'
+        definition: ''

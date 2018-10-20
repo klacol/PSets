@@ -71,5 +71,19 @@ namespace PSet2YamlConverter
             }
 
         }
+        public static PSD_IFC5.PropertySet PrepareTexts(PSD_IFC5.PropertySet propertySet)
+        {
+            propertySet.definition = Utils.CleanUp(propertySet.definition);
+            foreach (var prop in propertySet.properties)
+            {
+                prop.definition = Utils.CleanUp(prop.definition);
+                foreach (var lang in prop.localizations)
+                {
+                    lang.definition = Utils.CleanUp(lang.definition);
+                }
+            }
+
+            return propertySet;
+        }
     }
 }

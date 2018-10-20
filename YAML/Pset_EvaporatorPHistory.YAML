@@ -1,0 +1,337 @@
+﻿name: 'Pset_EvaporatorPHistory'
+ifcVersion:
+  version: 4.0.0.0
+  schema: IfcHvacDomain
+ifdGuid: ''
+definition: 'Evaporator performance history attributes.'
+localizations:
+- language: de-DE
+  name: ''
+  definition: ''
+- language: en-EN
+  name: ''
+  definition: ''
+- language: es-ES
+  name: ''
+  definition: ''
+- language: fr-FR
+  name: ''
+  definition: ''
+- language: ja-JP
+  name: ''
+  definition: ''
+- language: ru-RU
+  name: ''
+  definition: ''
+applicableIfcClasses:
+- name: IfcPerformanceHistory
+  type: IfcEvaporator[PerformanceHistory]
+properties:
+- name: HeatRejectionRate
+  definition: Sum of the refrigeration effect and the heat equivalent of the power input to the compressor.
+  ifdGuid: 2qRKEhiEL2$PDr34TIW4PT
+  localizations:
+  - language: ja-JP
+    name: '排熱量'
+    definition: '冷凍効果と圧縮機への電源入力の相当熱量の合計'
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: es-ES
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ru-RU
+    name: ''
+    definition: ''
+  typePropertyReferenceValue:
+    refType: IfcTimeSeries
+    url: http://buildingsmart-tech.org
+    guid: ''
+    libraryName: Industry Foundation Classes by buildingSMART International
+    sectionref: Core Schema
+- name: ExteriorHeatTransferCoefficient
+  definition: Exterior heat transfer coefficient associated with exterior surface area.
+  ifdGuid: 2WkH85$OX7kuhcpCA0ewPb
+  localizations:
+  - language: ja-JP
+    name: '外表面熱交換係数'
+    definition: '外表面に関連づけられた外表面熱交換係数'
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: es-ES
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ru-RU
+    name: ''
+    definition: ''
+  typePropertyReferenceValue:
+    refType: IfcTimeSeries
+    url: http://buildingsmart-tech.org
+    guid: ''
+    libraryName: Industry Foundation Classes by buildingSMART International
+    sectionref: Core Schema
+- name: InteriorHeatTransferCoefficient
+  definition: Interior heat transfer coefficient associated with interior surface area.
+  ifdGuid: 3G0pG3NN59XQkk3yvSQiqf
+  localizations:
+  - language: ja-JP
+    name: '内面熱交換係数'
+    definition: '内面に関連づけられた内面熱交換係数'
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: es-ES
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ru-RU
+    name: ''
+    definition: ''
+  typePropertyReferenceValue:
+    refType: IfcTimeSeries
+    url: http://buildingsmart-tech.org
+    guid: ''
+    libraryName: Industry Foundation Classes by buildingSMART International
+    sectionref: Core Schema
+- name: RefrigerantFoulingResistance
+  definition: Fouling resistance on the refrigerant side.
+  ifdGuid: ''
+  localizations:
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: es-ES
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  - language: ru-RU
+    name: ''
+    definition: ''
+  typePropertyReferenceValue:
+    refType: IfcTimeSeries
+    url: http://buildingsmart-tech.org
+    guid: ''
+    libraryName: Industry Foundation Classes by buildingSMART International
+    sectionref: Core Schema
+- name: EvaporatingTemperature
+  definition: Refrigerant evaporating temperature.
+  ifdGuid: 0vb$qQszH1Lxi7j1fRsLYR
+  localizations:
+  - language: ja-JP
+    name: '蒸発温度'
+    definition: '蒸発温度'
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: es-ES
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ru-RU
+    name: ''
+    definition: ''
+  typePropertyReferenceValue:
+    refType: IfcTimeSeries
+    url: http://buildingsmart-tech.org
+    guid: ''
+    libraryName: Industry Foundation Classes by buildingSMART International
+    sectionref: Core Schema
+- name: LogarithmicMeanTemperatureDifference
+  definition: Logarithmic mean temperature difference between refrigerant and water or air.
+  ifdGuid: 3NERePqjL3Gxeke5ctIxAH
+  localizations:
+  - language: ja-JP
+    name: '対数平均温度差'
+    definition: '冷媒と水または空気の対数平均温度差'
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: es-ES
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ru-RU
+    name: ''
+    definition: ''
+  typePropertyReferenceValue:
+    refType: IfcTimeSeries
+    url: http://buildingsmart-tech.org
+    guid: ''
+    libraryName: Industry Foundation Classes by buildingSMART International
+    sectionref: Core Schema
+- name: UAcurves
+  definition: UV = f (VExterior, VInterior), UV as a function of interior and exterior fluid flow velocity at the entrance.
+  ifdGuid: 0SRb_W0vD1iQWly$pBmoSK
+  localizations:
+  - language: ja-JP
+    name: 'UA曲線'
+    definition: 'UV=ｆ（V外面、V内面）、UVは、入り口での内面・外面流体速度の関数'
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: es-ES
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ru-RU
+    name: ''
+    definition: ''
+  typePropertyReferenceValue:
+    refType: IfcTimeSeries
+    url: http://buildingsmart-tech.org
+    guid: ''
+    libraryName: Industry Foundation Classes by buildingSMART International
+    sectionref: Core Schema
+- name: CompressorEvaporatorHeatGain
+  definition: Heat gain between the evaporator outlet and the compressor inlet.
+  ifdGuid: 1IVan5b1bEcR$D0j3z$PCb
+  localizations:
+  - language: ja-JP
+    name: '圧縮機・蒸発器熱取得'
+    definition: '蒸発器出口と圧縮機入口間の熱取得'
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: es-ES
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ru-RU
+    name: ''
+    definition: ''
+  typePropertyReferenceValue:
+    refType: IfcTimeSeries
+    url: http://buildingsmart-tech.org
+    guid: ''
+    libraryName: Industry Foundation Classes by buildingSMART International
+    sectionref: Core Schema
+- name: CompressorEvaporatorPressureDrop
+  definition: Pressure drop between the evaporator outlet and the compressor inlet.
+  ifdGuid: 1_uLac62TB_QWj6j8EIuEp
+  localizations:
+  - language: ja-JP
+    name: '圧縮機・蒸発器圧力降下'
+    definition: '蒸発器出口と圧縮機入口間の圧力降下'
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: es-ES
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ru-RU
+    name: ''
+    definition: ''
+  typePropertyReferenceValue:
+    refType: IfcTimeSeries
+    url: http://buildingsmart-tech.org
+    guid: ''
+    libraryName: Industry Foundation Classes by buildingSMART International
+    sectionref: Core Schema
+- name: EvaporatorMeanVoidFraction
+  definition: Mean void fraction in evaporator.
+  ifdGuid: 1NV42RzQjBSBzotbwZ7qQ$
+  localizations:
+  - language: ja-JP
+    name: '蒸発器平均空隙率'
+    definition: '蒸発器の平均の空隙率'
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: es-ES
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ru-RU
+    name: ''
+    definition: ''
+  typePropertyReferenceValue:
+    refType: IfcTimeSeries
+    url: http://buildingsmart-tech.org
+    guid: ''
+    libraryName: Industry Foundation Classes by buildingSMART International
+    sectionref: Core Schema
+- name: WaterFoulingResistance
+  definition: Fouling resistance on water/air side.
+  ifdGuid: 1PNOS1Hj53helDN64p1Aw$
+  localizations:
+  - language: ja-JP
+    name: '水側汚れ抵抗'
+    definition: '水／空気面の汚れ抵抗'
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: es-ES
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ru-RU
+    name: ''
+    definition: ''
+  typePropertyReferenceValue:
+    refType: IfcTimeSeries
+    url: http://buildingsmart-tech.org
+    guid: ''
+    libraryName: Industry Foundation Classes by buildingSMART International
+    sectionref: Core Schema

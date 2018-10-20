@@ -1,0 +1,133 @@
+﻿name: 'Pset_MaterialThermal'
+ifcVersion:
+  version: 4.0.0.0
+  schema: IfcMaterialResource
+ifdGuid: ''
+definition: 'A set of thermal material properties.'
+localizations:
+- language: de-DE
+  name: ''
+  definition: ''
+- language: en-EN
+  name: ''
+  definition: ''
+- language: es-ES
+  name: ''
+  definition: ''
+- language: fr-FR
+  name: ''
+  definition: ''
+- language: ja-JP
+  name: ''
+  definition: ''
+- language: ru-RU
+  name: ''
+  definition: ''
+applicableIfcClasses:
+- name: IfcMaterial
+  type: IfcMaterial
+properties:
+- name: SpecificHeatCapacity
+  definition: 'Defines the specific heat of the material: heat energy absorbed per temperature unit.'
+  ifdGuid: ''
+  localizations:
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: es-ES
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  - language: ru-RU
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcSpecificHeatCapacityMeasure
+    measureType: ''
+    unitType: USERDEFINED
+- name: BoilingPoint
+  definition: The boiling point of the material (fluid).
+  ifdGuid: ''
+  localizations:
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: es-ES
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  - language: ru-RU
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcThermodynamicTemperatureMeasure
+    measureType: ''
+    unitType: USERDEFINED
+- name: FreezingPoint
+  definition: The freezing point of the material (fluid).
+  ifdGuid: ''
+  localizations:
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: es-ES
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  - language: ru-RU
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcThermodynamicTemperatureMeasure
+    measureType: ''
+    unitType: USERDEFINED
+- name: ThermalConductivity
+  definition: The rate at which thermal energy is transmitted through the material.
+  ifdGuid: ''
+  localizations:
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: es-ES
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  - language: ru-RU
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcThermalConductivityMeasure
+    measureType: ''
+    unitType: USERDEFINED

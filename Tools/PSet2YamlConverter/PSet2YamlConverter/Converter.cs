@@ -7,6 +7,8 @@ using System.Threading.Tasks;
 using YamlDotNet.Core;
 using YamlDotNet.Serialization;
 using YamlDotNet.Serialization.NamingConventions;
+using PSD_IFC5;
+using Newtonsoft.Json;
 
 namespace PSet2YamlConverter
 {
@@ -22,16 +24,16 @@ namespace PSet2YamlConverter
                 "ru-RU"
             };
  
-        public Converter(string sourceFolder,string targetFolder)
+        public Converter(string sourceFolderXml,string targetFolderYaml, string targetFolderJson)
         {
             string propertySetVersionList = string.Empty;
             string propertySetTemplateList = string.Empty;
             string propertyTypeList = string.Empty;
             string propertyUnitList = string.Empty;
 
-            foreach (string sourceFile in Directory.EnumerateFiles(sourceFolder, "PSet*.xml").OrderBy(x => x).ToList())//.Where(x=>x.Contains("Pset_SpaceThermalRequirements")))
+            foreach (string sourceFile in Directory.EnumerateFiles(sourceFolderXml, "PSet*.xml").OrderBy(x => x).ToList())//.Where(x=>x.Contains("Pset_SpaceThermalRequirements")))
             {
-                Console.WriteLine($"Opening {sourceFile.Replace(sourceFolder + @"\", string.Empty)}");
+                Console.WriteLine($"Opening {sourceFile.Replace(sourceFolderXml + @"\", string.Empty)}");
                 PropertySetDef pSet = PropertySetDef.LoadFromFile(sourceFile);
 
                 if (!propertySetVersionList.Contains(pSet.IfcVersion.version))
@@ -73,26 +75,41 @@ namespace PSet2YamlConverter
                         });
 
                 propertySet.properties = LoadProperties(pSet.PropertyDefs);
+                propertySet = Utils.PrepareTexts(propertySet);
+                string targetFileYaml = sourceFile.Replace("xml", "YAML").Replace(sourceFolderXml, targetFolderYaml);
+                string targetFileJson = sourceFile.Replace("xml", "JSON").Replace(sourceFolderXml, targetFolderJson);
+                Console.WriteLine($"   Writing {targetFileYaml.Replace(targetFolderYaml + @"\", string.Empty)}");
+                Console.WriteLine($"   Writing {targetFileJson.Replace(targetFolderJson + @"\", string.Empty)}");
 
-                propertySet.PrepareTexts();
-                string targetFile = sourceFile.Replace("xml", "YAML").Replace(sourceFolder, targetFolder);
-                Console.WriteLine($"   Writing {targetFile.Replace(targetFolder + @"\", string.Empty)}");
+                var ScalarStyleSingleQuoted = new YamlMemberAttribute()
+                {
+                    ScalarStyle = ScalarStyle.SingleQuoted
+                };
 
                 var yamlSerializer = new SerializerBuilder()
-                    .WithNamingConvention(new CamelCaseNamingConvention())
-                    .JsonCompatible()
+                    //.WithNamingConvention(new CamelCaseNamingConvention())
+                    .WithAttributeOverride<PropertySet>(nc => nc.name, ScalarStyleSingleQuoted)
+                    .WithAttributeOverride<PropertySet>(nc => nc.definition, ScalarStyleSingleQuoted)
+                    .WithAttributeOverride<Localization>(nc => nc.name, ScalarStyleSingleQuoted)
+                    .WithAttributeOverride<Localization>(nc => nc.definition, ScalarStyleSingleQuoted)
                     .Build();
 
-                var serializer = new SerializerBuilder().Build();
-                string yaml = serializer.Serialize(propertySet);
-                File.WriteAllText(targetFile, yaml, Encoding.UTF8);
+                string yamlContent = yamlSerializer.Serialize(propertySet);
+                File.WriteAllText(targetFileYaml, yamlContent, Encoding.UTF8);
                 Console.WriteLine("   The PSet was saved as YAML file");
+
+                JsonSerializerSettings jsonSerializerSettings = new JsonSerializerSettings();
+                jsonSerializerSettings.Converters.Add(new Newtonsoft.Json.Converters.StringEnumConverter());
+                jsonSerializerSettings.NullValueHandling = NullValueHandling.Ignore;
+                string jsonContent = JsonConvert.SerializeObject(propertySet,Formatting.Indented, jsonSerializerSettings);
+                File.WriteAllText(targetFileJson, jsonContent, Encoding.UTF8);
+                Console.WriteLine("   The PSet was saved as JSON file");
 
                 var yamlDeserializer = new DeserializerBuilder()
                     .Build();
                 try
                 {
-                    propertySet = yamlDeserializer.Deserialize<PropertySet>(new StringReader(File.ReadAllText(targetFile)));
+                    propertySet = yamlDeserializer.Deserialize<PropertySet>(new StringReader(File.ReadAllText(targetFileYaml)));
                     Console.WriteLine("   The YAML file is valid");
                 }
                 catch (Exception ex)
@@ -130,7 +147,7 @@ namespace PSet2YamlConverter
                 PropertyTypeTypePropertySingleValue psetSingleValue = null;
                 PropertyTypeTypePropertyTableValue psetTableValue = null;
 
-                string valueTypeAsString = psetValueType.Item.ToString().Replace("ConsoleAppYamlTest.", "");
+                string valueTypeAsString = psetValueType.Item.ToString().Replace("PSet2YamlConverter.", "");
 
                 Property property = new Property()
                 {

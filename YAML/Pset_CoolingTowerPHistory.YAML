@@ -1,0 +1,169 @@
+﻿name: 'Pset_CoolingTowerPHistory'
+ifcVersion:
+  version: 4.0.0.0
+  schema: IfcHvacDomain
+ifdGuid: ''
+definition: 'Cooling tower performance history attributes.'
+localizations:
+- language: de-DE
+  name: ''
+  definition: ''
+- language: en-EN
+  name: ''
+  definition: ''
+- language: es-ES
+  name: ''
+  definition: ''
+- language: fr-FR
+  name: ''
+  definition: ''
+- language: ja-JP
+  name: ''
+  definition: ''
+- language: ru-RU
+  name: ''
+  definition: ''
+applicableIfcClasses:
+- name: IfcPerformanceHistory
+  type: IfcCoolingTower[PerformanceHistory]
+properties:
+- name: Capacity
+  definition: Cooling tower capacity in terms of heat transfer rate of the cooling tower between air stream and water stream.
+  ifdGuid: 1f1XhU9eX0KhW6aEtXGxbA
+  localizations:
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: es-ES
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  - language: ru-RU
+    name: ''
+    definition: ''
+  typePropertyReferenceValue:
+    refType: IfcTimeSeries
+    url: http://buildingsmart-tech.org
+    guid: ''
+    libraryName: Industry Foundation Classes by buildingSMART International
+    sectionref: Core Schema
+- name: HeatTransferCoefficient
+  definition: Heat transfer coefficient-area product.
+  ifdGuid: 2$BPS7npz80Q5Sk820MPzU
+  localizations:
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: es-ES
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  - language: ru-RU
+    name: ''
+    definition: ''
+  typePropertyReferenceValue:
+    refType: IfcTimeSeries
+    url: http://buildingsmart-tech.org
+    guid: ''
+    libraryName: Industry Foundation Classes by buildingSMART International
+    sectionref: Core Schema
+- name: SumpHeaterPower
+  definition: Electrical heat power of sump heater.
+  ifdGuid: 1CpqZm5xr5evYuk$11a$GX
+  localizations:
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: es-ES
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  - language: ru-RU
+    name: ''
+    definition: ''
+  typePropertyReferenceValue:
+    refType: IfcTimeSeries
+    url: http://buildingsmart-tech.org
+    guid: ''
+    libraryName: Industry Foundation Classes by buildingSMART International
+    sectionref: Core Schema
+- name: UACurve
+  definition: UA value as a  function of fan speed at certain water flow rate, UA = f ( fan speed).
+  ifdGuid: 3an6kOYpnAR8BTTXT3lOtf
+  localizations:
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: es-ES
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  - language: ru-RU
+    name: ''
+    definition: ''
+  typePropertyReferenceValue:
+    refType: IfcTimeSeries
+    url: http://buildingsmart-tech.org
+    guid: ''
+    libraryName: Industry Foundation Classes by buildingSMART International
+    sectionref: Core Schema
+- name: Performance
+  definition: Water temperature change as a function of wet-bulb temperature, water entering temperature, water flow rate, air flow rate, Tdiff = f ( Twet-bulb, Twater,in, mwater, mair).
+  ifdGuid: 1Bhkaz5p9FDvlL4icOHT7N
+  localizations:
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: es-ES
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  - language: ru-RU
+    name: ''
+    definition: ''
+  typePropertyReferenceValue:
+    refType: IfcTimeSeries
+    url: http://buildingsmart-tech.org
+    guid: ''
+    libraryName: Industry Foundation Classes by buildingSMART International
+    sectionref: Core Schema

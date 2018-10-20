@@ -1,0 +1,291 @@
+﻿{
+  "name": "Pset_ActuatorTypeElectricActuator",
+  "ifcVersion": {
+    "version": "4.0.0.0",
+    "schema": "IfcBuildingControlsDomain"
+  },
+  "ifdGuid": "",
+  "definition": "A device that electrically actuates a control element.",
+  "localizations": [
+    {
+      "language": "de-DE",
+      "name": "",
+      "definition": ""
+    },
+    {
+      "language": "en-EN",
+      "name": "",
+      "definition": ""
+    },
+    {
+      "language": "es-ES",
+      "name": "",
+      "definition": ""
+    },
+    {
+      "language": "fr-FR",
+      "name": "",
+      "definition": ""
+    },
+    {
+      "language": "ja-JP",
+      "name": "",
+      "definition": ""
+    },
+    {
+      "language": "ru-RU",
+      "name": "",
+      "definition": ""
+    }
+  ],
+  "applicableIfcClasses": [
+    {
+      "name": "IfcActuatorType",
+      "type": "IfcActuatorType/ELECTRICACTUATOR"
+    }
+  ],
+  "properties": [
+    {
+      "name": "ActuatorInputPower",
+      "definition": "Maximum input power requirement.",
+      "ifdGuid": "2Ma8ZxCEv86eyeM35NQZ4C",
+      "localizations": [
+        {
+          "language": "ja-JP",
+          "name": "入力電力",
+          "definition": "最大入力電力。"
+        },
+        {
+          "language": "ko-KR",
+          "name": "입력 전력",
+          "definition": "최대 입력 전력"
+        },
+        {
+          "language": "de-DE",
+          "name": "",
+          "definition": ""
+        },
+        {
+          "language": "en-EN",
+          "name": "",
+          "definition": ""
+        },
+        {
+          "language": "es-ES",
+          "name": "",
+          "definition": ""
+        },
+        {
+          "language": "fr-FR",
+          "name": "",
+          "definition": ""
+        },
+        {
+          "language": "ru-RU",
+          "name": "",
+          "definition": ""
+        }
+      ],
+      "typePropertySingleValue": {
+        "dataType": "IfcPowerMeasure",
+        "measureType": "",
+        "unitType": "POWERUNIT"
+      }
+    },
+    {
+      "name": "ElectricActuatorType",
+      "definition": "Enumeration that identifies electric actuator as defined by its operational principle.",
+      "ifdGuid": "3pRoIboh17Oh4_BF0_Hlqe",
+      "localizations": [
+        {
+          "language": "ja-JP",
+          "name": "電気式アクチュエータタイプ",
+          "definition": "作動原理によって定義された電気式アクチュエータを識別する一覧。"
+        },
+        {
+          "language": "ko-KR",
+          "name": "전기식 액추에이터 유형",
+          "definition": "작동 원리에 의해 정의된 전기식 액츄에이터를 식별하는 목록"
+        },
+        {
+          "language": "de-DE",
+          "name": "",
+          "definition": ""
+        },
+        {
+          "language": "en-EN",
+          "name": "",
+          "definition": ""
+        },
+        {
+          "language": "es-ES",
+          "name": "",
+          "definition": ""
+        },
+        {
+          "language": "fr-FR",
+          "name": "",
+          "definition": ""
+        },
+        {
+          "language": "ru-RU",
+          "name": "",
+          "definition": ""
+        }
+      ],
+      "typePropertyEnumeratedValue": {
+        "listName": "PEnum_ElectricActuatorType",
+        "enumerationValues": [
+          {
+            "name": "MOTORDRIVE",
+            "definition": "",
+            "ifdGuid": "",
+            "localizations": [
+              {
+                "language": "de-DE",
+                "name": "Motordrive",
+                "definition": ""
+              },
+              {
+                "language": "en-EN",
+                "name": "Motordrive",
+                "definition": ""
+              },
+              {
+                "language": "es-ES",
+                "name": "Motordrive",
+                "definition": ""
+              },
+              {
+                "language": "fr-FR",
+                "name": "Motordrive",
+                "definition": ""
+              },
+              {
+                "language": "ja-JP",
+                "name": "Motordrive",
+                "definition": ""
+              },
+              {
+                "language": "ru-RU",
+                "name": "Motordrive",
+                "definition": ""
+              }
+            ]
+          },
+          {
+            "name": "MAGNETIC",
+            "definition": "",
+            "ifdGuid": "",
+            "localizations": [
+              {
+                "language": "de-DE",
+                "name": "Magnetic",
+                "definition": ""
+              },
+              {
+                "language": "en-EN",
+                "name": "Magnetic",
+                "definition": ""
+              },
+              {
+                "language": "es-ES",
+                "name": "Magnetic",
+                "definition": ""
+              },
+              {
+                "language": "fr-FR",
+                "name": "Magnetic",
+                "definition": ""
+              },
+              {
+                "language": "ja-JP",
+                "name": "Magnetic",
+                "definition": ""
+              },
+              {
+                "language": "ru-RU",
+                "name": "Magnetic",
+                "definition": ""
+              }
+            ]
+          },
+          {
+            "name": "OTHER",
+            "definition": "",
+            "ifdGuid": "",
+            "localizations": [
+              {
+                "language": "de-DE",
+                "name": "Other",
+                "definition": ""
+              },
+              {
+                "language": "en-EN",
+                "name": "Other",
+                "definition": ""
+              },
+              {
+                "language": "es-ES",
+                "name": "Other",
+                "definition": ""
+              },
+              {
+                "language": "fr-FR",
+                "name": "Other",
+                "definition": ""
+              },
+              {
+                "language": "ja-JP",
+                "name": "Other",
+                "definition": ""
+              },
+              {
+                "language": "ru-RU",
+                "name": "Other",
+                "definition": ""
+              }
+            ]
+          },
+          {
+            "name": "UNKNOWN",
+            "definition": "",
+            "ifdGuid": "",
+            "localizations": [
+              {
+                "language": "de-DE",
+                "name": "Unknown",
+                "definition": ""
+              },
+              {
+                "language": "en-EN",
+                "name": "Unknown",
+                "definition": ""
+              },
+              {
+                "language": "es-ES",
+                "name": "Unknown",
+                "definition": ""
+              },
+              {
+                "language": "fr-FR",
+                "name": "Unknown",
+                "definition": ""
+              },
+              {
+                "language": "ja-JP",
+                "name": "Unknown",
+                "definition": ""
+              },
+              {
+                "language": "ru-RU",
+                "name": "Unknown",
+                "definition": ""
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

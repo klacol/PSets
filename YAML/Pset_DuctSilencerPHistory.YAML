@@ -1,0 +1,85 @@
+﻿name: 'Pset_DuctSilencerPHistory'
+ifcVersion:
+  version: 4.0.0.0
+  schema: IfcHvacDomain
+ifdGuid: ''
+definition: 'Duct silencer performance history common attributes.'
+localizations:
+- language: de-DE
+  name: ''
+  definition: ''
+- language: en-EN
+  name: ''
+  definition: ''
+- language: es-ES
+  name: ''
+  definition: ''
+- language: fr-FR
+  name: ''
+  definition: ''
+- language: ja-JP
+  name: ''
+  definition: ''
+- language: ru-RU
+  name: ''
+  definition: ''
+applicableIfcClasses:
+- name: IfcPerformanceHistory
+  type: IfcDuctSilencer[PerformanceHistory]
+properties:
+- name: AirFlowRate
+  definition: Volumetric air flow rate.
+  ifdGuid: 0vG_lSldH1dO2bLcnaX6v4
+  localizations:
+  - language: ja-JP
+    name: '風量'
+    definition: '体積風量'
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: es-ES
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ru-RU
+    name: ''
+    definition: ''
+  typePropertyReferenceValue:
+    refType: IfcTimeSeries
+    url: http://buildingsmart-tech.org
+    guid: ''
+    libraryName: Industry Foundation Classes by buildingSMART International
+    sectionref: Core Schema
+- name: AirPressureDropCurve
+  definition: Air pressure drop as a function of air flow rate.
+  ifdGuid: 1Mku9z8hL9nwNoYhruKlYk
+  localizations:
+  - language: ja-JP
+    name: '圧力降下曲線'
+    definition: '風量の関数としての空気圧力降下'
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: es-ES
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ru-RU
+    name: ''
+    definition: ''
+  typePropertyReferenceValue:
+    refType: IfcTimeSeries
+    url: http://buildingsmart-tech.org
+    guid: ''
+    libraryName: Industry Foundation Classes by buildingSMART International
+    sectionref: Core Schema

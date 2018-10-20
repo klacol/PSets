@@ -1,0 +1,169 @@
+﻿name: 'Pset_EvaporativeCoolerPHistory'
+ifcVersion:
+  version: 4.0.0.0
+  schema: IfcHvacDomain
+ifdGuid: ''
+definition: 'Evaporative cooler performance history attributes.'
+localizations:
+- language: de-DE
+  name: ''
+  definition: ''
+- language: en-EN
+  name: ''
+  definition: ''
+- language: es-ES
+  name: ''
+  definition: ''
+- language: fr-FR
+  name: ''
+  definition: ''
+- language: ja-JP
+  name: ''
+  definition: ''
+- language: ru-RU
+  name: ''
+  definition: ''
+applicableIfcClasses:
+- name: IfcPerformanceHistory
+  type: IfcEvaporativeCooler[PerformanceHistory]
+properties:
+- name: WaterSumpTemperature
+  definition: Water sump temperature.
+  ifdGuid: 0e9OtBkFTCvxXWOk1KnQy3
+  localizations:
+  - language: ja-JP
+    name: '液温度'
+    definition: '液温度　（水溜り温度）'
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: es-ES
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ru-RU
+    name: ''
+    definition: ''
+  typePropertyReferenceValue:
+    refType: IfcTimeSeries
+    url: http://buildingsmart-tech.org
+    guid: ''
+    libraryName: Industry Foundation Classes by buildingSMART International
+    sectionref: Core Schema
+- name: Effectiveness
+  definition: Ratio of the change in dry bulb temperature of the (primary) air stream to the difference between the entering dry bulb temperature of the (primary) air and the wet-bulb temperature of the (secondary) air.
+  ifdGuid: 2qOE8Hid944gb3tV$IbVUJ
+  localizations:
+  - language: ja-JP
+    name: '効率'
+    definition: '（一次）空気の入力乾球温度と（二次）空気の湿球温度の差に対する（一次）空気の流れの乾球温度の変化の割合。'
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: es-ES
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ru-RU
+    name: ''
+    definition: ''
+  typePropertyReferenceValue:
+    refType: IfcTimeSeries
+    url: http://buildingsmart-tech.org
+    guid: ''
+    libraryName: Industry Foundation Classes by buildingSMART International
+    sectionref: Core Schema
+- name: SensibleHeatTransferRate
+  definition: Sensible heat transfer rate to primary air flow.
+  ifdGuid: 0S0mO3Z9nEQAJX4YyF4PG6
+  localizations:
+  - language: ja-JP
+    name: '顕熱交換量'
+    definition: '一次空気流の顕熱交換量'
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: es-ES
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ru-RU
+    name: ''
+    definition: ''
+  typePropertyReferenceValue:
+    refType: IfcTimeSeries
+    url: http://buildingsmart-tech.org
+    guid: ''
+    libraryName: Industry Foundation Classes by buildingSMART International
+    sectionref: Core Schema
+- name: LatentHeatTransferRate
+  definition: Latent heat transfer rate to primary air flow.
+  ifdGuid: 0gHAfdob1EzgfBgrtRToXP
+  localizations:
+  - language: ja-JP
+    name: '潜熱交換量'
+    definition: '一次空気流の潜熱交換量'
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: es-ES
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ru-RU
+    name: ''
+    definition: ''
+  typePropertyReferenceValue:
+    refType: IfcTimeSeries
+    url: http://buildingsmart-tech.org
+    guid: ''
+    libraryName: Industry Foundation Classes by buildingSMART International
+    sectionref: Core Schema
+- name: TotalHeatTransferRate
+  definition: Total heat transfer rate to primary air flow.
+  ifdGuid: 3tkMzzOizF1ReuB3P8WIHz
+  localizations:
+  - language: ja-JP
+    name: '全熱交換量'
+    definition: '一次空気流の全熱交換量'
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: es-ES
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ru-RU
+    name: ''
+    definition: ''
+  typePropertyReferenceValue:
+    refType: IfcTimeSeries
+    url: http://buildingsmart-tech.org
+    guid: ''
+    libraryName: Industry Foundation Classes by buildingSMART International
+    sectionref: Core Schema

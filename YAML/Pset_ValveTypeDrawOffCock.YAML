@@ -1,0 +1,55 @@
+﻿name: 'Pset_ValveTypeDrawOffCock'
+ifcVersion:
+  version: 4.0.0.0
+  schema: IfcHvacDomain
+ifdGuid: ''
+definition: 'A small diameter valve, used to drain water from a cistern or water filled system.'
+localizations:
+- language: de-DE
+  name: ''
+  definition: ''
+- language: en-EN
+  name: ''
+  definition: ''
+- language: es-ES
+  name: ''
+  definition: ''
+- language: fr-FR
+  name: ''
+  definition: ''
+- language: ja-JP
+  name: ''
+  definition: ''
+- language: ru-RU
+  name: ''
+  definition: ''
+applicableIfcClasses:
+- name: IfcValveType
+  type: IfcValveType/DRAWOFFCOCK
+properties:
+- name: HasHoseUnion
+  definition: Indicates whether the drawoff cock is fitted with a hose union connection (= TRUE) or not (= FALSE).
+  ifdGuid: 3Je6XevHrFmfYP4jRC_tFE
+  localizations:
+  - language: ja-JP
+    name: 'ホースユニオン付き'
+    definition: '排水コックにホースユニオン継手が付いているかの表示．付き(= TRUE)無し (= FALSE)'
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: es-ES
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ru-RU
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcBoolean
+    measureType: ''
+    unitType: USERDEFINED

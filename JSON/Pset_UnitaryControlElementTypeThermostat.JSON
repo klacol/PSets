@@ -1,0 +1,93 @@
+﻿{
+  "name": "Pset_UnitaryControlElementTypeThermostat",
+  "ifcVersion": {
+    "version": "4.0.0.0",
+    "schema": "IfcBuildingControlsDomain"
+  },
+  "ifdGuid": "",
+  "definition": "Unitary control element type thermostat attributes.  HISTORY: Added in IFC4.",
+  "localizations": [
+    {
+      "language": "de-DE",
+      "name": "",
+      "definition": ""
+    },
+    {
+      "language": "en-EN",
+      "name": "",
+      "definition": ""
+    },
+    {
+      "language": "es-ES",
+      "name": "",
+      "definition": ""
+    },
+    {
+      "language": "fr-FR",
+      "name": "",
+      "definition": ""
+    },
+    {
+      "language": "ja-JP",
+      "name": "",
+      "definition": ""
+    },
+    {
+      "language": "ru-RU",
+      "name": "",
+      "definition": ""
+    }
+  ],
+  "applicableIfcClasses": [
+    {
+      "name": "IfcUnitaryControlElementType",
+      "type": "IfcUnitaryControlElementType/THERMOSTAT"
+    }
+  ],
+  "properties": [
+    {
+      "name": "TemperatureSetPoint",
+      "definition": "The temperature setpoint range and default setpoint.",
+      "ifdGuid": "",
+      "localizations": [
+        {
+          "language": "de-DE",
+          "name": "",
+          "definition": ""
+        },
+        {
+          "language": "en-EN",
+          "name": "",
+          "definition": ""
+        },
+        {
+          "language": "es-ES",
+          "name": "",
+          "definition": ""
+        },
+        {
+          "language": "fr-FR",
+          "name": "",
+          "definition": ""
+        },
+        {
+          "language": "ja-JP",
+          "name": "",
+          "definition": ""
+        },
+        {
+          "language": "ru-RU",
+          "name": "",
+          "definition": ""
+        }
+      ],
+      "typePropertyBoundedValue": {
+        "dataType": "IfcAmountOfSubstanceMeasure",
+        "unitType": "PSet2YamlConverter.UnitType",
+        "LowerBoundValue": "0",
+        "UpperBoundValue": "?",
+        "typeName": "TypePropertyBoundedValue"
+      }
+    }
+  ]
+}

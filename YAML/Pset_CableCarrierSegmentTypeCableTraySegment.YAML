@@ -1,0 +1,116 @@
+﻿name: 'Pset_CableCarrierSegmentTypeCableTraySegment'
+ifcVersion:
+  version: 4.0.0.0
+  schema: IfcElectricalDomain
+ifdGuid: ''
+definition: 'An (typically) open carrier segment onto which cables are laid. HISTORY: IFC4 - NominalLength deleted. To be handled as a quantity measure'
+localizations:
+- language: de-DE
+  name: ''
+  definition: ''
+- language: en-EN
+  name: ''
+  definition: ''
+- language: es-ES
+  name: ''
+  definition: ''
+- language: fr-FR
+  name: ''
+  definition: ''
+- language: ja-JP
+  name: ''
+  definition: ''
+- language: ru-RU
+  name: ''
+  definition: ''
+applicableIfcClasses:
+- name: IfcCableCarrierSegmentType
+  type: IfcCableCarrierSegmentType/CABLETRAYSEGMENT
+properties:
+- name: NominalWidth
+  definition: The nominal width of the segment.
+  ifdGuid: 37PGopLAP2WhmvMJKoDr5C
+  localizations:
+  - language: ja-JP
+    name: '公称幅'
+    definition: '呼び幅寸法。'
+  - language: ko-KR
+    name: '공칭 폭'
+    definition: '폭 치수'
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: es-ES
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ru-RU
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPositiveLengthMeasure
+    measureType: ''
+    unitType: LENGTHUNIT
+- name: NominalHeight
+  definition: The nominal height of the segment.
+  ifdGuid: 3nAdsJdB97bw5ZXTq21CK3
+  localizations:
+  - language: ja-JP
+    name: '公称高'
+    definition: '呼び高寸法。'
+  - language: ko-KR
+    name: '공칭 높이'
+    definition: '고 치수'
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: es-ES
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ru-RU
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPositiveLengthMeasure
+    measureType: ''
+    unitType: LENGTHUNIT
+- name: HasCover
+  definition: Indication of whether the cable tray has a cover (=TRUE) or not (= FALSE). By default, this value should be set to FALSE..
+  ifdGuid: 3P4Vo$wz10$v0Q0NmZKwwH
+  localizations:
+  - language: ja-JP
+    name: 'カバー'
+    definition: 'カバー付かどうか。'
+  - language: ko-KR
+    name: '커버'
+    definition: '커버 유무'
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: es-ES
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ru-RU
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcBoolean
+    measureType: ''
+    unitType: USERDEFINED

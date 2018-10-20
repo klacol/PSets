@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28010.2046
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PSet2YamlConverter", "PSet2YamlConverter\PSet2YamlConverter.csproj", "{65C5E05F-2D65-4D60-B40F-E93D694068B5}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PSD_IFC5", "PSD_IFC5\PSD_IFC5.csproj", "{37D76463-AE2F-4086-BAE2-1E1A87212E9E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{65C5E05F-2D65-4D60-B40F-E93D694068B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{65C5E05F-2D65-4D60-B40F-E93D694068B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{65C5E05F-2D65-4D60-B40F-E93D694068B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37D76463-AE2F-4086-BAE2-1E1A87212E9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37D76463-AE2F-4086-BAE2-1E1A87212E9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37D76463-AE2F-4086-BAE2-1E1A87212E9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37D76463-AE2F-4086-BAE2-1E1A87212E9E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

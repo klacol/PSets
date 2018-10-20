@@ -1,0 +1,324 @@
+﻿name: 'Pset_ReinforcementBarPitchOfColumn'
+ifcVersion:
+  version: 4.0.0.0
+  schema: IfcStructuralElementsDomain
+ifdGuid: ''
+definition: 'The pitch length information of reinforcement  bar with the column. The X and Y direction are based on the local coordinate system of building storey. The X and Y direction of the reinforcement bar are parallel to the X and Y axis of the IfcBuildingStorey''s local coordinate system, respectively.'
+localizations:
+- language: de-DE
+  name: ''
+  definition: ''
+- language: en-EN
+  name: ''
+  definition: ''
+- language: es-ES
+  name: ''
+  definition: ''
+- language: fr-FR
+  name: ''
+  definition: ''
+- language: ja-JP
+  name: ''
+  definition: ''
+- language: ru-RU
+  name: ''
+  definition: ''
+applicableIfcClasses:
+- name: IfcColumn
+  type: IfcColumnType
+properties:
+- name: Description
+  definition: Description of the reinforcement.
+  ifdGuid: 0rq9BBzuT8JxNbULbZslbn
+  localizations:
+  - language: ja-JP
+    name: '説明'
+    definition: '鉄筋の説明。'
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: es-ES
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ru-RU
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcText
+    measureType: ''
+    unitType: USERDEFINED
+- name: Reference
+  definition: A descriptive label for the general reinforcement type.
+  ifdGuid: 2Xf0ZcCSr29wgyzttt0gt7
+  localizations:
+  - language: ja-JP
+    name: '参照記号'
+    definition: '一般的な鉄筋タイプの説明ラベル。（例えば、柱の柱頭・柱脚で帯筋や巾止筋の間隔・本数が異なる場合に、"Top","Bottom"を記述する）'
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: es-ES
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ru-RU
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcLabel
+    measureType: ''
+    unitType: USERDEFINED
+- name: ReinforcementBarType
+  definition: Defines the type of the reinforcement bar.
+  ifdGuid: 2sB7re6DjEI9nd$fFFS2hL
+  localizations:
+  - language: ja-JP
+    name: '補強筋タイプ'
+    definition: '補強筋タイプの定義。'
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: es-ES
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ru-RU
+    name: ''
+    definition: ''
+  typePropertyEnumeratedValue:
+    listName: PEnum_ReinforcementBarType
+    enumerationValues:
+    - name: RING
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: de-DE
+        name: 'Ring'
+        definition: ''
+      - language: en-EN
+        name: 'Ring'
+        definition: ''
+      - language: es-ES
+        name: 'Ring'
+        definition: ''
+      - language: fr-FR
+        name: 'Ring'
+        definition: ''
+      - language: ja-JP
+        name: 'Ring'
+        definition: ''
+      - language: ru-RU
+        name: 'Ring'
+        definition: ''
+    - name: SPIRAL
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: de-DE
+        name: 'Spiral'
+        definition: ''
+      - language: en-EN
+        name: 'Spiral'
+        definition: ''
+      - language: es-ES
+        name: 'Spiral'
+        definition: ''
+      - language: fr-FR
+        name: 'Spiral'
+        definition: ''
+      - language: ja-JP
+        name: 'Spiral'
+        definition: ''
+      - language: ru-RU
+        name: 'Spiral'
+        definition: ''
+    - name: OTHER
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: de-DE
+        name: 'Other'
+        definition: ''
+      - language: en-EN
+        name: 'Other'
+        definition: ''
+      - language: es-ES
+        name: 'Other'
+        definition: ''
+      - language: fr-FR
+        name: 'Other'
+        definition: ''
+      - language: ja-JP
+        name: 'Other'
+        definition: ''
+      - language: ru-RU
+        name: 'Other'
+        definition: ''
+    - name: UNKNOWN
+      definition: ''
+      ifdGuid: ''
+      localizations:
+      - language: de-DE
+        name: 'Unknown'
+        definition: ''
+      - language: en-EN
+        name: 'Unknown'
+        definition: ''
+      - language: es-ES
+        name: 'Unknown'
+        definition: ''
+      - language: fr-FR
+        name: 'Unknown'
+        definition: ''
+      - language: ja-JP
+        name: 'Unknown'
+        definition: ''
+      - language: ru-RU
+        name: 'Unknown'
+        definition: ''
+- name: HoopBarPitch
+  definition: The pitch length of the hoop bar.
+  ifdGuid: 37UCh8zhT3gxcmbDow3JWa
+  localizations:
+  - language: ja-JP
+    name: '帯筋間隔'
+    definition: '帯筋の間隔。'
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: es-ES
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ru-RU
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPositiveLengthMeasure
+    measureType: ''
+    unitType: LENGTHUNIT
+- name: XDirectionTieHoopBarPitch
+  definition: The X direction pitch length of the tie hoop.
+  ifdGuid: 2z3DK5kVnEjAS19eKvhE80
+  localizations:
+  - language: ja-JP
+    name: 'Ｘ方向巾止め筋間隔'
+    definition: 'Ｘ方向巾止筋の間隔。'
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: es-ES
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ru-RU
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPositiveLengthMeasure
+    measureType: ''
+    unitType: LENGTHUNIT
+- name: XDirectionTieHoopCount
+  definition: The number of bars with X direction tie hoop bars.
+  ifdGuid: 1_KFwlC3fFLxakzlorqa7I
+  localizations:
+  - language: ja-JP
+    name: 'Ｘ方向巾止め筋本数'
+    definition: 'Ｘ方向巾止筋の本数。'
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: es-ES
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ru-RU
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcInteger
+    measureType: ''
+    unitType: USERDEFINED
+- name: YDirectionTieHoopBarPitch
+  definition: The Y direction pitch length of the tie hoop.
+  ifdGuid: 2l7YHJ$in8vwL0fZlNXqvi
+  localizations:
+  - language: ja-JP
+    name: 'Y方向巾止め筋間隔'
+    definition: 'Y方向巾止筋の間隔。'
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: es-ES
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ru-RU
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcPositiveLengthMeasure
+    measureType: ''
+    unitType: LENGTHUNIT
+- name: YDirectionTieHoopCount
+  definition: The number of bars with Y direction tie hoop bars.
+  ifdGuid: 37g_fEuV5DcuGTWr9oX_C6
+  localizations:
+  - language: ja-JP
+    name: 'Y方向巾止め筋本数'
+    definition: 'Y方向巾止筋の本数。'
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: es-ES
+    name: ''
+    definition: ''
+  - language: fr-FR
+    name: ''
+    definition: ''
+  - language: ru-RU
+    name: ''
+    definition: ''
+  typePropertySingleValue:
+    dataType: IfcInteger
+    measureType: ''
+    unitType: USERDEFINED

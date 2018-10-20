@@ -1,0 +1,421 @@
+﻿name: 'Pset_CompressorPHistory'
+ifcVersion:
+  version: 4.0.0.0
+  schema: IfcHvacDomain
+ifdGuid: ''
+definition: 'Compressor performance history attributes.'
+localizations:
+- language: de-DE
+  name: ''
+  definition: ''
+- language: en-EN
+  name: ''
+  definition: ''
+- language: es-ES
+  name: ''
+  definition: ''
+- language: fr-FR
+  name: ''
+  definition: ''
+- language: ja-JP
+  name: ''
+  definition: ''
+- language: ru-RU
+  name: ''
+  definition: ''
+applicableIfcClasses:
+- name: IfcPerformanceHistory
+  type: IfcCompressor[PerformanceHistory]
+properties:
+- name: CompressorCapacity
+  definition: The product of the  ideal capacity and the overall volumetric efficiency of the compressor.
+  ifdGuid: 3wTLpn07z7fPqYwLhegxIm
+  localizations:
+  - language: fr-FR
+    name: 'PuissanceCompresseur'
+    definition: 'Le produit de la puissance optimale par le rendement global du compresseur.'
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: es-ES
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  - language: ru-RU
+    name: ''
+    definition: ''
+  typePropertyReferenceValue:
+    refType: IfcTimeSeries
+    url: http://buildingsmart-tech.org
+    guid: ''
+    libraryName: Industry Foundation Classes by buildingSMART International
+    sectionref: Core Schema
+- name: EnergyEfficiencyRatio
+  definition: Energy efficiency ratio (EER).
+  ifdGuid: 1t1ik8khbDNuh_WUX31VNc
+  localizations:
+  - language: fr-FR
+    name: 'CoefficientEfficacitéThermique'
+    definition: 'EER, coefficient d''efficacité Thermique'
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: es-ES
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  - language: ru-RU
+    name: ''
+    definition: ''
+  typePropertyReferenceValue:
+    refType: IfcTimeSeries
+    url: http://buildingsmart-tech.org
+    guid: ''
+    libraryName: Industry Foundation Classes by buildingSMART International
+    sectionref: Core Schema
+- name: CoefficientOfPerformance
+  definition: Coefficient of performance (COP).
+  ifdGuid: 2xwfgqGfb2ufM8alvQfYbQ
+  localizations:
+  - language: fr-FR
+    name: 'CoefficientPerformance'
+    definition: 'Coefficient de performance (COP).'
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: es-ES
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  - language: ru-RU
+    name: ''
+    definition: ''
+  typePropertyReferenceValue:
+    refType: IfcTimeSeries
+    url: http://buildingsmart-tech.org
+    guid: ''
+    libraryName: Industry Foundation Classes by buildingSMART International
+    sectionref: Core Schema
+- name: VolumetricEfficiency
+  definition: Ratio of the actual volume of gas entering the compressor to the theoretical displacement of the compressor.
+  ifdGuid: 0biExZ1FLD5RPE$LfT7zS3
+  localizations:
+  - language: fr-FR
+    name: 'RendementVolumétrique'
+    definition: 'Rapport entre le volume effectif de gaz rentrant dans le compresseur et le volume déplacé théorique du compresseur.'
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: es-ES
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  - language: ru-RU
+    name: ''
+    definition: ''
+  typePropertyReferenceValue:
+    refType: IfcTimeSeries
+    url: http://buildingsmart-tech.org
+    guid: ''
+    libraryName: Industry Foundation Classes by buildingSMART International
+    sectionref: Core Schema
+- name: CompressionEfficiency
+  definition: Ratio of the work required for isentropic compression of the gas to the work delivered to the gas within the compression volume (as obtained by measurement).
+  ifdGuid: 1Dbi8v5JP0b8sustPUo2XI
+  localizations:
+  - language: fr-FR
+    name: 'RendementCompression'
+    definition: 'Rapport entre le travail requis pour une compression isentropique du gaz et le travail fourni au gaz dans le volume comprimé (telq qu''obtenu par mesure).'
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: es-ES
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  - language: ru-RU
+    name: ''
+    definition: ''
+  typePropertyReferenceValue:
+    refType: IfcTimeSeries
+    url: http://buildingsmart-tech.org
+    guid: ''
+    libraryName: Industry Foundation Classes by buildingSMART International
+    sectionref: Core Schema
+- name: MechanicalEfficiency
+  definition: Ratio of the work (as measured) delivered to the gas to the work input to the compressor shaft.
+  ifdGuid: 1I3V7vKH9BTfpkXzcKlZnX
+  localizations:
+  - language: fr-FR
+    name: 'RendementMécanique'
+    definition: 'Rapport entre le travail fourni (tel que mesuré) au gaz et le travail fourni à l''arbre du compresseur.'
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: es-ES
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  - language: ru-RU
+    name: ''
+    definition: ''
+  typePropertyReferenceValue:
+    refType: IfcTimeSeries
+    url: http://buildingsmart-tech.org
+    guid: ''
+    libraryName: Industry Foundation Classes by buildingSMART International
+    sectionref: Core Schema
+- name: IsentropicEfficiency
+  definition: Ratio of the work required for isentropic compression of the gas to work input to the compressor shaft.
+  ifdGuid: 2zPXjRXkLAkhgn$cZcCTF0
+  localizations:
+  - language: fr-FR
+    name: 'RendementIsentropique'
+    definition: 'Rapport entre le travail requis pour une compression isentropique du gaz et le travail fourni à l''arbre du compresseur.'
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: es-ES
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  - language: ru-RU
+    name: ''
+    definition: ''
+  typePropertyReferenceValue:
+    refType: IfcTimeSeries
+    url: http://buildingsmart-tech.org
+    guid: ''
+    libraryName: Industry Foundation Classes by buildingSMART International
+    sectionref: Core Schema
+- name: CompressorTotalEfficiency
+  definition: Ratio of the thermal cooling capacity to electrical input.
+  ifdGuid: 04qBS6SgX9fOJM0mnNnHmw
+  localizations:
+  - language: fr-FR
+    name: 'RendementGlobalIsentropique'
+    definition: 'Rapport entre la puissance frigorifique et l''énergie électrique absorbée.'
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: es-ES
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  - language: ru-RU
+    name: ''
+    definition: ''
+  typePropertyReferenceValue:
+    refType: IfcTimeSeries
+    url: http://buildingsmart-tech.org
+    guid: ''
+    libraryName: Industry Foundation Classes by buildingSMART International
+    sectionref: Core Schema
+- name: ShaftPower
+  definition: The actual shaft power input to the compressor.
+  ifdGuid: 0ehPsyddDBuOYDcvJBHOic
+  localizations:
+  - language: fr-FR
+    name: 'PuissanceArbre'
+    definition: 'La puissance mécanique appliquée au niveau de l''arbre du compresseur.'
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: es-ES
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  - language: ru-RU
+    name: ''
+    definition: ''
+  typePropertyReferenceValue:
+    refType: IfcTimeSeries
+    url: http://buildingsmart-tech.org
+    guid: ''
+    libraryName: Industry Foundation Classes by buildingSMART International
+    sectionref: Core Schema
+- name: InputPower
+  definition: Input power to the compressor motor.
+  ifdGuid: 27EjMV48n4rwQR3CI0XT41
+  localizations:
+  - language: fr-FR
+    name: 'PuissanceEntréeMoteur'
+    definition: 'Puissance fournie au moteur du compresseur.'
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: es-ES
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  - language: ru-RU
+    name: ''
+    definition: ''
+  typePropertyReferenceValue:
+    refType: IfcTimeSeries
+    url: http://buildingsmart-tech.org
+    guid: ''
+    libraryName: Industry Foundation Classes by buildingSMART International
+    sectionref: Core Schema
+- name: LubricantPumpHeatGain
+  definition: Lubricant pump heat gain.
+  ifdGuid: 0FNTwFvKvFyuwW_js7ncIu
+  localizations:
+  - language: fr-FR
+    name: 'GainThermiqueLubrifiantPompe'
+    definition: 'Gain thermique par lubrification de la pompe à chaleur.'
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: es-ES
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  - language: ru-RU
+    name: ''
+    definition: ''
+  typePropertyReferenceValue:
+    refType: IfcTimeSeries
+    url: http://buildingsmart-tech.org
+    guid: ''
+    libraryName: Industry Foundation Classes by buildingSMART International
+    sectionref: Core Schema
+- name: FrictionHeatGain
+  definition: Friction heat gain.
+  ifdGuid: 2p8PQlI9X7Zf2sljCvdqmi
+  localizations:
+  - language: fr-FR
+    name: 'GainThermiqueFriction'
+    definition: 'Gain thermique par friction.'
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: es-ES
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  - language: ru-RU
+    name: ''
+    definition: ''
+  typePropertyReferenceValue:
+    refType: IfcTimeSeries
+    url: http://buildingsmart-tech.org
+    guid: ''
+    libraryName: Industry Foundation Classes by buildingSMART International
+    sectionref: Core Schema
+- name: CompressorTotalHeatGain
+  definition: Compressor total heat gain.
+  ifdGuid: 23ch$afq162Qd2N6xCsQax
+  localizations:
+  - language: fr-FR
+    name: 'GainThermiqueTotalCompresseur'
+    definition: 'Gain thermique total au niveau du compresseur.'
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: es-ES
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  - language: ru-RU
+    name: ''
+    definition: ''
+  typePropertyReferenceValue:
+    refType: IfcTimeSeries
+    url: http://buildingsmart-tech.org
+    guid: ''
+    libraryName: Industry Foundation Classes by buildingSMART International
+    sectionref: Core Schema
+- name: FullLoadRatio
+  definition: Ratio of actual power to full load power as a quadratic function of part load, at certain condensing and evaporating temperature, FracFullLoadPower = f ( PartLoadRatio).
+  ifdGuid: ''
+  localizations:
+  - language: fr-FR
+    name: 'CoefficientChargeTotale'
+    definition: 'Rapport entre puissance actuelle sur la puissance à pleine charge, comme fonction quadratique de la charge partielle, à une température de condensation et une température d''évaporation donnée, FracFullLoadPower = f (RapportChargePartielle).'
+  - language: de-DE
+    name: ''
+    definition: ''
+  - language: en-EN
+    name: ''
+    definition: ''
+  - language: es-ES
+    name: ''
+    definition: ''
+  - language: ja-JP
+    name: ''
+    definition: ''
+  - language: ru-RU
+    name: ''
+    definition: ''
+  typePropertyReferenceValue:
+    refType: IfcTimeSeries
+    url: http://buildingsmart-tech.org
+    guid: ''
+    libraryName: Industry Foundation Classes by buildingSMART International
+    sectionref: Core Schema

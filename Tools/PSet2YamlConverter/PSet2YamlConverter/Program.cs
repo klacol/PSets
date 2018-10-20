@@ -18,12 +18,14 @@ namespace PSet2YamlConverter
             Console.WriteLine($"A tool by the community of buildingSMART International");
             Console.WriteLine($"The home of PSet Manager is https://github.com/buildingsmart/bSDD");
 
-            string sourceFolder = args[0];
-            string targetFolder = args[1];
-            Console.WriteLine($"Converting the PSets from this source folder: {sourceFolder}");
-            Console.WriteLine($"Into YAML files in this target folder: {targetFolder}");
+            string sourceFolderXml = args[0];
+            string targetFolderYaml = args[1];
+            string targetFolderJson = args[2];
+            Console.WriteLine($"Converting the PSets from this source folder: {sourceFolderXml}");
+            Console.WriteLine($"Into YAML files in this target folder: {targetFolderYaml}");
+            Console.WriteLine($"Into JSON files in this target folder: {targetFolderJson}");
 
-            Converter converter = new Converter(sourceFolder, targetFolder);
+            Converter converter = new Converter(sourceFolderXml, targetFolderYaml, targetFolderJson);
 
             Console.WriteLine($"Successfully finished - Be happy with your Open BIM");
         }
