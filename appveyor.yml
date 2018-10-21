@@ -32,4 +32,5 @@ on_finish:
   - git config --global user.email "klaus.aengenvoort@etask.de"
   - git config --global user.name "klacol"
   - git commit . -m "Transformed PSets to YAML and JSON format"
-  - git push
+  - git status
+  - git push origin master
