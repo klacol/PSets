@@ -1,7 +1,7 @@
 [![Build status](https://ci.appveyor.com/api/projects/status/bg4xece75xits9yq/branch/master?svg=true)](https://ci.appveyor.com/project/klacol/psets/branch/master)
 
 
-# PSets
+# PSets - Property Set Extension of the IFC schema
 
 Just for testing, Do not use. This is an repo, where I test, how the PSets could be presentend and maintainted with Git/GitHub. Nothing official.
 
