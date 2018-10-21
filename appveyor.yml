@@ -25,12 +25,17 @@ artifacts:
 environment:
   access_token:
     secure: sNVOMaQLV0mfLGZL9mXDXZvRvhHjX+WYON1/WokLH7w2fev2upMCuElyw07vW1w0
+  gh_email:
+    secure: V/J9RJx75dwkZ3GYcz6HxOuHhgRjronD6QpRkF5O+so=
+  gh_username: 
+    secure: WYN/eo4TYe5gfE1sRt2Ugw==
+  
 on_finish:
   - ps: '& "C:\projects\psets\Tools\ConvertAndPublishPSets.ps1"'
   - git config --global credential.helper store
   - ps: Add-Content "$HOME\.git-credentials" "https://$($env:access_token):x-oauth-basic@github.com`n"
-  - git config --global user.email "klaus.aengenvoort@etask.de"
-  - git config --global user.name "klacol"
-  - git commit . -m "Transformed PSets to YAML and JSON format"
+  - git config --global user.email "$($env:gh_email)"
+  - git config --global user.name "$($env:gh_username)"
   - git status
+  - git commit . -m "Transformed PSets to YAML and JSON format"
   - git push origin master
