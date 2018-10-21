@@ -31,5 +31,5 @@ on_finish:
   - ps: Add-Content "$HOME\.git-credentials" "https://$($env:access_token):x-oauth-basic@github.com`n"
   - git config --global user.email "klaus.aengenvoort@etask.de"
   - git config --global user.name "klacol"
-  - git commit -m "Transformed PSets to YAML and JSON format"
+  - git commit . -am "Transformed PSets to YAML and JSON format"
   - git push
