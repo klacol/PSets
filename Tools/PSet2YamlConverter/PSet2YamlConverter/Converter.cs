@@ -159,18 +159,24 @@ namespace PSet2YamlConverter
                     definition = psetProperty.Items[2].ToString()
                 };
 
-                if (CheckGuidWithBsdd(property.ifdGuid) == false)
-                {
+                if (property.ifdGuid.Length == 0)
+                { 
                     Console.ForegroundColor = ConsoleColor.Red;
-                    Console.WriteLine($"      The GUID {property.ifdGuid} for {property.name} is not resolved by http://bsdd.buildingsmart.org!");
+                    Console.WriteLine($"      ERROR: The GUID for {property.name} is missing in PSet!");
                     Console.ResetColor();
                 }
-                else
-                {
-                    Console.ForegroundColor = ConsoleColor.Green;
-                    Console.WriteLine($"      The GUID {property.ifdGuid} for {property.name} is properly resolved by http://bsdd.buildingsmart.org!");
-                    Console.ResetColor();
-                }
+                else if (CheckGuidWithBsdd(property.ifdGuid) == false)
+                        {
+                            Console.ForegroundColor = ConsoleColor.Red;
+                            Console.WriteLine($"      ERROR: The GUID {property.ifdGuid} for {property.name} is not resolved by http://bsdd.buildingsmart.org!");
+                            Console.ResetColor();
+                        }
+                        else
+                        {
+                            Console.ForegroundColor = ConsoleColor.Green;
+                            Console.WriteLine($"      OK: The GUID {property.ifdGuid} for {property.name} is properly resolved by http://bsdd.buildingsmart.org!");
+                            Console.ResetColor();
+                        }
 
                 property.localizations = new List<Localization>();
                 PropertyDefNameAliases nameAliases;
