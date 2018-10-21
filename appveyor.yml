@@ -1,0 +1,26 @@
+#---------------------------------------#
+#  Build the PSet2YamlConverter.exe     #
+#---------------------------------------#
+version: 1.0.{build}
+image: Visual Studio 2017
+configuration: Release
+assembly_info:
+  patch: true
+  file: '**\AssemblyInfo.*'
+  assembly_version: '{version}'
+  assembly_file_version: '{version}'
+  assembly_informational_version: '{version}'
+before_build:
+  - nuget restore "Tools\PSet2YamlConverter\PSet2YamlConverter.sln"
+build:
+  project: "Tools\PSet2YamlConverter\PSet2YamlConverter.sln"
+  verbosity: minimal
+artifacts:
+- path: Tools\PSet2YamlConverter\PSet2YamlConverter\bin\$(configuration)
+  name: PSet2YamlConverter
+  
+#---------------------------------------#
+#    Run the PSet2YamlConverter.exe     #
+#---------------------------------------#
+on_finish:
+  - ps: '& "C:\projects\psets\Tools\ConvertAndPublishPSets.ps1"'
