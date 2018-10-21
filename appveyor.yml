@@ -39,6 +39,5 @@ on_finish:
   - git config core.autocrlf true
   - git status
   - git commit . -m "Transformed PSets to YAML and JSON format"
-  - git remote add origin https://github.com/klacol/PSets
   - git remote -v
   - git push origin master
