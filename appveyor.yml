@@ -13,7 +13,7 @@ assembly_info:
 before_build:
   - nuget restore "Tools\PSet2YamlConverter\PSet2YamlConverter.sln"
 build:
-  project: "Tools\PSet2YamlConverter.sln"
+  project: Tools\PSet2YamlConverter.sln
   verbosity: minimal
 artifacts:
 - path: Tools\PSet2YamlConverter\PSet2YamlConverter\bin\$(configuration)
