@@ -22,5 +22,14 @@ artifacts:
 #---------------------------------------#
 #    Run the PSet2YamlConverter.exe     #
 #---------------------------------------#
+environment:
+  access_token:
+    secure: sNVOMaQLV0mfLGZL9mXDXZvRvhHjX+WYON1/WokLH7w2fev2upMCuElyw07vW1w0
 on_finish:
   - ps: '& "C:\projects\psets\Tools\ConvertAndPublishPSets.ps1"'
+  - git config --global credential.helper store
+  - ps: Add-Content "$HOME\.git-credentials" "https://$($env:access_token):x-oauth-basic@github.com`n"
+  - git config --global user.email "klaus.aengenvoort@etask.de"
+  - git config --global user.name "klacol"
+  - git commit -m "Transformed PSets to YAML and JSON format"
+  - git push
