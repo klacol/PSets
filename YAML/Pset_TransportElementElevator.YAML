@@ -6,7 +6,7 @@ ifdGuid: ''
 definition: 'Properties common to the definition of all occurrences of IfcTransportElement with the predefined type ="ELEVATOR"'
 localizations:
 - language: de-DE
-  name: ''
+  name: 'Gemeinsame Eigenschaften bei der Definition aller Vorkommen von IfcTransportElement mit dem vordefinierten Typ ="ELEVATOR".'
   definition: ''
 - language: en-EN
   name: ''
