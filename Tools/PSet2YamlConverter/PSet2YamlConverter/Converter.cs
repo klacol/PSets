@@ -11,6 +11,8 @@ using PSD_IFC5;
 using Newtonsoft.Json;
 using System.Net;
 using System.Xml.Serialization;
+using bsDD.NET;
+using bsDD.NET.Model.Objects;
 
 namespace PSet2YamlConverter
 {
@@ -27,11 +29,15 @@ namespace PSet2YamlConverter
             };
 
         private bool CheckBSDD = false;
-
+        private Bsdd _bsdd;  
 
         public Converter(string sourceFolderXml,string targetFolderYaml, string targetFolderJson, bool checkBSDD = false)
         {
+            Console.OutputEncoding = System.Text.Encoding.UTF8;
+
             CheckBSDD = checkBSDD;
+            _bsdd = new Bsdd();
+
             string propertySetVersionList = string.Empty;
             string propertySetTemplateList = string.Empty;
             string propertyTypeList = string.Empty;
@@ -39,9 +45,26 @@ namespace PSet2YamlConverter
 
             foreach (string sourceFile in Directory.EnumerateFiles(sourceFolderXml, "PSet*.xml").OrderBy(x => x).ToList())//.Where(x=>x.Contains("Pset_ConstructionResource")))
             {
-                Console.WriteLine($"Opening {sourceFile.Replace(sourceFolderXml + @"\", string.Empty)}");
-                PropertySetDef pSet = PropertySetDef.LoadFromFile(sourceFile);
 
+                PropertySetDef pSet = PropertySetDef.LoadFromFile(sourceFile);
+                Console.WriteLine("--------------------------------------------------");
+                Console.WriteLine($"Checking PSet {pSet.Name}");
+                Console.WriteLine($"Opened PSet-File {sourceFile.Replace(sourceFolderXml + @"\", string.Empty)}");
+                IfdConceptList ifdConceptList = _bsdd.SearchNests(pSet.Name);
+                if (ifdConceptList == null)
+                {
+                    Console.WriteLine($"Could not find the PSet in bSDD");
+                }
+                else
+                {
+                    IfdConcept bsddPSet = ifdConceptList.IfdConcept.FirstOrDefault();
+                    Console.WriteLine($"Loaded PSet from bSDD");
+                    Console.WriteLine($"Guid:        {bsddPSet.Guid}");
+                    Console.WriteLine($"Status:      {bsddPSet.Status}");
+                    Console.WriteLine($"VersionDate: {bsddPSet.VersionDate}");
+                }
+
+                    
                 if (!propertySetVersionList.Contains(pSet.IfcVersion.version))
                     propertySetVersionList += pSet.IfcVersion.version + ",";
                 if (!propertySetTemplateList.Contains(pSet.templatetype.ToString()))
@@ -81,7 +104,8 @@ namespace PSet2YamlConverter
                             definition = string.Empty
                         });
 
-                propertySet.properties = LoadProperties(pSet.PropertyDefs);
+                Console.WriteLine($"Now checking the properties within the PSet");
+                propertySet.properties = LoadProperties(pSet, pSet.PropertyDefs);
                 propertySet = Utils.PrepareTexts(propertySet);
 
                 string targetFileYaml = sourceFile.Replace("xml", "YAML").Replace(sourceFolderXml, targetFolderYaml);
@@ -104,21 +128,21 @@ namespace PSet2YamlConverter
 
                 string yamlContent = yamlSerializer.Serialize(propertySet);
                 File.WriteAllText(targetFileYaml, yamlContent, Encoding.UTF8);
-                Console.WriteLine("   The PSet was saved as YAML file");
+                Console.WriteLine("The PSet was saved as YAML file");
 
                 JsonSerializerSettings jsonSerializerSettings = new JsonSerializerSettings();
                 jsonSerializerSettings.Converters.Add(new Newtonsoft.Json.Converters.StringEnumConverter());
                 jsonSerializerSettings.NullValueHandling = NullValueHandling.Ignore;
                 string jsonContent = JsonConvert.SerializeObject(propertySet,Formatting.Indented, jsonSerializerSettings);
                 File.WriteAllText(targetFileJson, jsonContent, Encoding.UTF8);
-                Console.WriteLine("   The PSet was saved as JSON file");
+                Console.WriteLine("The PSet was saved as JSON file");
 
                 var yamlDeserializer = new DeserializerBuilder()
                     .Build();
                 try
                 {
                     propertySet = yamlDeserializer.Deserialize<PropertySet>(new StringReader(File.ReadAllText(targetFileYaml)));
-                    Console.WriteLine("   The YAML file is valid");
+                    Console.WriteLine("The YAML file is valid");
                 }
                 catch (Exception ex)
                 {
@@ -132,12 +156,12 @@ namespace PSet2YamlConverter
             Console.WriteLine($"Used Units: {propertyUnitList}");
         }
 
-        private List<Property> LoadProperties(List<PropertyDef> PropertyDefs)
+        private List<Property> LoadProperties(PropertySetDef pset, List<PropertyDef> PropertyDefs)
         {
             List<Property> properties = new List<Property>();
             foreach (PropertyDef psetProperty in PropertyDefs)
             {
-                //
+                Console.WriteLine("      .................");
                 int itemNumber = 0;
                 foreach (var item in psetProperty.Items)
                 {
@@ -166,7 +190,7 @@ namespace PSet2YamlConverter
                     legacyGuidAsIfcGlobalId = Utils.GuidConverterToIfcGuid(psetProperty.ifdguid),
                     definition = psetProperty.Items[2].ToString()
                 };
-
+                Console.WriteLine($"      Name: {property.name}");
                 if (CheckBSDD)
                 if (property.legacyGuidAsIfcGlobalId.Length == 0)
                 { 
@@ -174,19 +198,41 @@ namespace PSet2YamlConverter
                     Console.WriteLine($"      ERROR: The GUID for {property.name} is missing in PSet!");
                     Console.ResetColor();
                 }
-                else if (CheckGuidWithBsdd(property.legacyGuidAsIfcGlobalId) == false)
+                if (CheckGuidWithBsdd(property.legacyGuidAsIfcGlobalId) == false)
+                {
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine($"      ERROR: The GUID {property.legacyGuidAsIfcGlobalId} for {property.name} is not resolved by http://bsdd.buildingsmart.org");
+                    Console.ResetColor();
+
+
+                    IfdConceptList ifdConceptList = _bsdd.SearchProperties(pset.Name + "." + property.name);
+                    if (ifdConceptList == null)
+                    {
+                        Console.WriteLine($"      Could not find the Property in bSDD");
+                    }
+                    else
+                    {
+                        IfdConcept bsddProperty = ifdConceptList.IfdConcept.FirstOrDefault();
+                        Console.WriteLine($"      Loaded Property from bSDD");
+                        Console.WriteLine($"      Guid:        {bsddProperty.Guid}");
+                        Console.WriteLine($"      Status:      {bsddProperty.Status}");
+                        Console.WriteLine($"      VersionDate: {bsddProperty.VersionDate}");
+                        foreach (var item in bsddProperty.FullNames)
                         {
-                            Console.ForegroundColor = ConsoleColor.Red;
-                            Console.WriteLine($"      ERROR: The GUID {property.legacyGuidAsIfcGlobalId} for {property.name} is not resolved by http://bsdd.buildingsmart.org");
-                            Console.ResetColor();
+                            int l = item.Language.LanguageCode.Length;
+                            string tab = new string(' ', 10 - l);
+                            Console.WriteLine($"      Name {item.Language.LanguageCode}:{tab}{item.Name}", Encoding.UTF8);
                         }
-                        else
-                        {
-                            Console.ForegroundColor = ConsoleColor.Green;
-                            Console.WriteLine($"      OK: The GUID {property.legacyGuidAsIfcGlobalId} for {property.name} is properly resolved by http://bsdd.buildingsmart.org");
-                            property.ifdGuid = property.legacyGuidAsIfcGlobalId;
-                            Console.ResetColor();
-                        }
+                        Console.WriteLine($"      The GUID in the PSet file shall be changed {property.legacyGuidAsIfcGlobalId} => {bsddProperty.Guid}");
+                    }
+                }
+                else
+                {
+                    Console.ForegroundColor = ConsoleColor.Green;
+                    Console.WriteLine($"      OK: The GUID {property.legacyGuidAsIfcGlobalId} for {property.name} is properly resolved by http://bsdd.buildingsmart.org");
+                    property.ifdGuid = property.legacyGuidAsIfcGlobalId;
+                    Console.ResetColor();
+                }
 
                 property.localizations = new List<Localization>();
                 PropertyDefNameAliases nameAliases;
@@ -237,7 +283,7 @@ namespace PSet2YamlConverter
                         psetComplexProperty = (PropertyTypeTypeComplexProperty)psetValueType.Item;
                         property.typeComplexProperty = new TypeComplexProperty();
                         property.typeComplexProperty.name = psetComplexProperty.name ?? string.Empty;
-                        property.typeComplexProperty.subProperties = LoadProperties(psetComplexProperty.PropertyDef); //Recursiv loading
+                        property.typeComplexProperty.subProperties = LoadProperties(pset,psetComplexProperty.PropertyDef); //Recursiv loading
                         break;
                     case "PropertyTypeTypePropertyEnumeratedValue":
                         psetEnumeratedValue = (PropertyTypeTypePropertyEnumeratedValue)psetValueType.Item;
