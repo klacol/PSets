@@ -3,6 +3,7 @@ ifcVersion:
   version: 4.0.0.0
   schema: IfcHvacDomain
 ifdGuid: ''
+legacyGuid: ''
 definition: 'Cooling tower performance history attributes.'
 localizations:
 - language: de-DE
@@ -30,6 +31,7 @@ properties:
 - name: Capacity
   definition: Cooling tower capacity in terms of heat transfer rate of the cooling tower between air stream and water stream.
   ifdGuid: 1f1XhU9eX0KhW6aEtXGxbA
+  legacyGuid: 1f1XhU9eX0KhW6aEtXGxbA
   localizations:
   - language: de-DE
     name: ''
@@ -55,9 +57,12 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: HeatTransferCoefficient
   definition: Heat transfer coefficient-area product.
   ifdGuid: 2$BPS7npz80Q5Sk820MPzU
+  legacyGuid: 2$BPS7npz80Q5Sk820MPzU
   localizations:
   - language: de-DE
     name: ''
@@ -83,9 +88,12 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: SumpHeaterPower
   definition: Electrical heat power of sump heater.
   ifdGuid: 1CpqZm5xr5evYuk$11a$GX
+  legacyGuid: 1CpqZm5xr5evYuk$11a$GX
   localizations:
   - language: de-DE
     name: ''
@@ -111,9 +119,12 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: UACurve
   definition: UA value as a  function of fan speed at certain water flow rate, UA = f ( fan speed).
   ifdGuid: 3an6kOYpnAR8BTTXT3lOtf
+  legacyGuid: 3an6kOYpnAR8BTTXT3lOtf
   localizations:
   - language: de-DE
     name: ''
@@ -139,9 +150,12 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: Performance
   definition: Water temperature change as a function of wet-bulb temperature, water entering temperature, water flow rate, air flow rate, Tdiff = f ( Twet-bulb, Twater,in, mwater, mair).
   ifdGuid: 1Bhkaz5p9FDvlL4icOHT7N
+  legacyGuid: 1Bhkaz5p9FDvlL4icOHT7N
   localizations:
   - language: de-DE
     name: ''
@@ -167,3 +181,5 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

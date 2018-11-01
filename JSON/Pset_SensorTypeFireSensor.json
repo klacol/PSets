@@ -5,6 +5,7 @@
     "schema": "IfcBuildingControlsDomain"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "A device that senses or detects the presence of fire.",
   "localizations": [
     {
@@ -49,6 +50,7 @@
       "name": "FireSensorSetPoint",
       "definition": "The temperature value to be sensed to indicate the presence of fire.",
       "ifdGuid": "0g4bE6k9r3Ve92eGz7FXUX",
+      "legacyGuid": "0g4bE6k9r3Ve92eGz7FXUX",
       "localizations": [
         {
           "language": "ja-JP",
@@ -90,12 +92,16 @@
         "dataType": "IfcThermodynamicTemperatureMeasure",
         "measureType": "",
         "unitType": "THERMODYNAMICTEMPERATUREUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "AccuracyOfFireSensor",
       "definition": "The accuracy of the sensor.",
       "ifdGuid": "2S2Yc_aWf1fxV6H1V0tpk7",
+      "legacyGuid": "2S2Yc_aWf1fxV6H1V0tpk7",
       "localizations": [
         {
           "language": "ja-JP",
@@ -137,12 +143,16 @@
         "dataType": "IfcThermodynamicTemperatureMeasure",
         "measureType": "",
         "unitType": "THERMODYNAMICTEMPERATUREUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "TimeConstant",
       "definition": "The time constant of the sensor.",
       "ifdGuid": "1HyyQTERzCaB6V4Mj8RqN3",
+      "legacyGuid": "1HyyQTERzCaB6V4Mj8RqN3",
       "localizations": [
         {
           "language": "ja-JP",
@@ -184,6 +194,9 @@
         "dataType": "IfcTimeMeasure",
         "measureType": "",
         "unitType": "TIMEUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

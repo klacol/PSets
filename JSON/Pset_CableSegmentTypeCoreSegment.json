@@ -5,6 +5,7 @@
     "schema": "IfcElectricalDomain"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "An assembly comprising a conductor with its own insulation (and screens if any)",
   "localizations": [
     {
@@ -48,7 +49,9 @@
     {
       "name": "OverallDiameter",
       "definition": "The overall diameter of a core (maximun space used).",
-      "ifdGuid": "1Wy2TFnrDBJOq$bpCYTlFm",
+      "ifdGuid": "",
+      "legacyGuid": "60f0274fc7534b4d8d3f97332276f3f0",
+      "legacyGuidAsIfcGlobalId": "1Wy2TFnrDBJOq$bpCYTlFm",
       "localizations": [
         {
           "language": "ja-JP",
@@ -90,12 +93,17 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "RatedVoltage",
       "definition": "The range of allowed voltage that a device is certified to handle. The upper bound of this value is the maximum.",
-      "ifdGuid": "2mwxJq0rD1Iw6D5re3y0u_",
+      "ifdGuid": "",
+      "legacyGuid": "b0ebb4f40353414ba18d175a03f00e3e",
+      "legacyGuidAsIfcGlobalId": "2mwxJq0rD1Iw6D5re3y0u_",
       "localizations": [
         {
           "language": "ja-JP",
@@ -139,12 +147,17 @@
         "LowerBoundValue": "?",
         "UpperBoundValue": "?",
         "typeName": "TypePropertyBoundedValue"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "RatedTemperature",
       "definition": "The range of allowed temerature that a device is certified to handle. The upper bound of this value is the maximum.",
-      "ifdGuid": "0wZd6eHQr84Pt2rnVuPpS7",
+      "ifdGuid": "",
+      "legacyGuid": "3a8e71a845ad48119dc2d717f8673707",
+      "legacyGuidAsIfcGlobalId": "0wZd6eHQr84Pt2rnVuPpS7",
       "localizations": [
         {
           "language": "ja-JP",
@@ -188,12 +201,17 @@
         "LowerBoundValue": "?",
         "UpperBoundValue": "?",
         "typeName": "TypePropertyBoundedValue"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "ScreenDiameter",
       "definition": "The diameter of the screen around a core segment (if present).",
-      "ifdGuid": "2$eWuyCSvB5gN1ubIgpJ$6",
+      "ifdGuid": "",
+      "legacyGuid": "bfa20e3c31ce4b16a5c1e254aacd3fc6",
+      "legacyGuidAsIfcGlobalId": "2$eWuyCSvB5gN1ubIgpJ$6",
       "localizations": [
         {
           "language": "ja-JP",
@@ -235,12 +253,17 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "CoreIdentifier",
       "definition": "The core identification used  Identifiers may be used such as by color (Black, Brown, Grey) or by number (1, 2, 3) or by IEC phase reference (L1, L2, L3) etc.",
-      "ifdGuid": "0Nykqf_AvA$uH1FttdfALb",
+      "ifdGuid": "",
+      "legacyGuid": "17f2ed29f8ae4aff84413f7de7a4a565",
+      "legacyGuidAsIfcGlobalId": "0Nykqf_AvA$uH1FttdfALb",
       "localizations": [
         {
           "language": "ja-JP",
@@ -282,12 +305,17 @@
         "dataType": "IfcIdentifier",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "SheathColors",
       "definition": "Colour of the core (derived from IEC 60757). Note that the combined color 'GreenAndYellow' shall be used only as Protective Earth (PE) conductors according to the requirements of IEC 60446.",
-      "ifdGuid": "3NfmzEK4bA0fXvcZHhRgDP",
+      "ifdGuid": "",
+      "legacyGuid": "d7a70f4e50494a0298799a346b6ea359",
+      "legacyGuidAsIfcGlobalId": "3NfmzEK4bA0fXvcZHhRgDP",
       "localizations": [
         {
           "language": "ja-JP",
@@ -958,12 +986,17 @@
             ]
           }
         ]
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "Weight",
       "definition": "Weight of core kg/km.",
-      "ifdGuid": "035urODgj4evUTdGP8HU50",
+      "ifdGuid": "",
+      "legacyGuid": "03178d5836ab44a3979d9d064845e140",
+      "legacyGuidAsIfcGlobalId": "035urODgj4evUTdGP8HU50",
       "localizations": [
         {
           "language": "ja-JP",
@@ -1005,12 +1038,17 @@
         "dataType": "IfcMassMeasure",
         "measureType": "",
         "unitType": "MASSUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "SelfExtinguishing60332_1",
       "definition": "Self Extinguishing cable/core according to IEC 60332.1.",
-      "ifdGuid": "2cN5gq2rv4fgJdVB$comaJ",
+      "ifdGuid": "",
+      "legacyGuid": "a65c5ab40b5e44a6a4e77cbfe6cb0913",
+      "legacyGuidAsIfcGlobalId": "2cN5gq2rv4fgJdVB$comaJ",
       "localizations": [
         {
           "language": "ja-JP",
@@ -1052,12 +1090,17 @@
         "dataType": "IfcBoolean",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "SelfExtinguishing60332_3",
       "definition": "Self Extinguishing cable/core according to IEC 60332.3.",
-      "ifdGuid": "1LrEeB8h16Vfy4JQ$W3MeS",
+      "ifdGuid": "",
+      "legacyGuid": "55d4ea0b22b0467e9f044dafe00d6a1c",
+      "legacyGuidAsIfcGlobalId": "1LrEeB8h16Vfy4JQ$W3MeS",
       "localizations": [
         {
           "language": "ja-JP",
@@ -1099,12 +1142,17 @@
         "dataType": "IfcBoolean",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "HalogenProof",
       "definition": "Produces small amount of smoke and irritating deaerator/gas.",
-      "ifdGuid": "0dKRHBGqv0jPtmldXb8nE9",
+      "ifdGuid": "",
+      "legacyGuid": "2751b44b434e40b59df0be7865231389",
+      "legacyGuidAsIfcGlobalId": "0dKRHBGqv0jPtmldXb8nE9",
       "localizations": [
         {
           "language": "ja-JP",
@@ -1146,12 +1194,17 @@
         "dataType": "IfcBoolean",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "FunctionReliable",
       "definition": "Core maintain given properties/functions over a given (tested) time and conditions. According to (IEC) standard.",
-      "ifdGuid": "1vS8sZaEf6_fLJP43WL9Hr",
+      "ifdGuid": "",
+      "legacyGuid": "79708da390ea46fa95536440e0549475",
+      "legacyGuidAsIfcGlobalId": "1vS8sZaEf6_fLJP43WL9Hr",
       "localizations": [
         {
           "language": "ja-JP",
@@ -1193,12 +1246,17 @@
         "dataType": "IfcBoolean",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "Standard",
       "definition": "The designation of the standard applicable for the definition of the core used.",
-      "ifdGuid": "0r$3zxJ4b9xxW7Tx3gTxWX",
+      "ifdGuid": "",
+      "legacyGuid": "35fc3f7b4c4949efb80777b0ea77b821",
+      "legacyGuidAsIfcGlobalId": "0r$3zxJ4b9xxW7Tx3gTxWX",
       "localizations": [
         {
           "language": "ja-JP",
@@ -1240,6 +1298,9 @@
         "dataType": "IfcLabel",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

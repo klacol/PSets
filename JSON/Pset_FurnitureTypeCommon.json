@@ -5,6 +5,7 @@
     "schema": "IfcSharedFacilitiesElements"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "Common properties for all types of furniture such as chair, desk, table, and file cabinet. HISTORY: First issued in IFC Release R1.5. Renamed from Pset_FurnitureCommon. IFC4: 'IsBuiltIn' property added",
   "localizations": [
     {
@@ -49,6 +50,7 @@
       "name": "Description",
       "definition": "Specific description of this type of furniture.",
       "ifdGuid": "1ZfqL_0FL0g9zdTuB_yASn",
+      "legacyGuid": "1ZfqL_0FL0g9zdTuB_yASn",
       "localizations": [
         {
           "language": "de-DE",
@@ -85,12 +87,16 @@
         "dataType": "IfcText",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "Style",
       "definition": "Description of the furniture style.",
       "ifdGuid": "0G2KmD1gzCOeOW9JhLUVSB",
+      "legacyGuid": "0G2KmD1gzCOeOW9JhLUVSB",
       "localizations": [
         {
           "language": "de-DE",
@@ -127,12 +133,16 @@
         "dataType": "IfcLabel",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "NominalHeight",
       "definition": "The nominal height of the furniture of this type. The size information is provided in addition to the shape representation and the geometric parameters used within. In cases of inconsistency between the geometric parameters and the size properties, provided in the attached property set, the geometric parameters take precedence.",
       "ifdGuid": "2ZGiWDNK1FzvKAtgBrirou",
+      "legacyGuid": "2ZGiWDNK1FzvKAtgBrirou",
       "localizations": [
         {
           "language": "de-DE",
@@ -169,12 +179,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "NominalLength",
       "definition": "The nominal length of the furniture of this type. The size information is provided in addition to the shape representation and the geometric parameters used within. In cases of inconsistency between the geometric parameters and the size properties, provided in the attached property set, the geometric parameters take precedence.",
       "ifdGuid": "1kIM6nz09B$BviVc4q$zyc",
+      "legacyGuid": "1kIM6nz09B$BviVc4q$zyc",
       "localizations": [
         {
           "language": "de-DE",
@@ -211,12 +225,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "NominalDepth",
       "definition": "The nominal depth of the furniture of this type. The size information is provided in addition to the shape representation and the geometric parameters used within. In cases of inconsistency between the geometric parameters and the size properties, provided in the attached property set, the geometric parameters take precedence.",
       "ifdGuid": "0Fbdzkzkn6cPaOaQDYYaXj",
+      "legacyGuid": "0Fbdzkzkn6cPaOaQDYYaXj",
       "localizations": [
         {
           "language": "de-DE",
@@ -253,12 +271,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "MainColor",
       "definition": "The main color of the furniture of this type.",
       "ifdGuid": "3WYbIey3HCc9IDNXCOq4vF",
+      "legacyGuid": "3WYbIey3HCc9IDNXCOq4vF",
       "localizations": [
         {
           "language": "de-DE",
@@ -295,12 +317,16 @@
         "dataType": "IfcLabel",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "IsBuiltIn",
       "definition": "Indicates whether the furniture type is intended to be 'built in' i.e. physically attached to a building or facility (= TRUE) or not i.e. Loose and movable (= FALSE).",
       "ifdGuid": "0cJL8Gn6nB_gVql_PXunPV",
+      "legacyGuid": "0cJL8Gn6nB_gVql_PXunPV",
       "localizations": [
         {
           "language": "de-DE",
@@ -337,6 +363,9 @@
         "dataType": "IfcBoolean",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

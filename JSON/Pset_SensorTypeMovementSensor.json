@@ -5,6 +5,7 @@
     "schema": "IfcBuildingControlsDomain"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "A device that senses or detects movement. HISTORY: In IFC4, time constant deleted.",
   "localizations": [
     {
@@ -49,6 +50,7 @@
       "name": "MovementSensingType",
       "definition": "Enumeration that identifies the type of movement sensing mechanism.",
       "ifdGuid": "3MfGfCCenBJe8eOw77ugyS",
+      "legacyGuid": "3MfGfCCenBJe8eOw77ugyS",
       "localizations": [
         {
           "language": "de-DE",
@@ -233,12 +235,16 @@
             ]
           }
         ]
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "SetPointMovement",
       "definition": "The movement to be sensed.",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "de-DE",
@@ -277,6 +283,9 @@
         "LowerBoundValue": "0",
         "UpperBoundValue": "?",
         "typeName": "TypePropertyBoundedValue"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

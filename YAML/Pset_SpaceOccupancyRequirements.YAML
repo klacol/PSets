@@ -3,6 +3,7 @@ ifcVersion:
   version: 4.0.0.0
   schema: IfcProductExtension
 ifdGuid: ''
+legacyGuid: ''
 definition: 'Properties concerning work activities occurring or expected to occur within one or a set of similar spatial structure elements.'
 localizations:
 - language: de-DE
@@ -36,6 +37,7 @@ properties:
 - name: OccupancyType
   definition: Occupancy type for this object. It is defined according to the presiding national building code.
   ifdGuid: 1LagD9xanCxfde4hWPltoG
+  legacyGuid: 1LagD9xanCxfde4hWPltoG
   localizations:
   - language: de-DE
     name: 'Nutzungsart'
@@ -59,9 +61,12 @@ properties:
     dataType: IfcLabel
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: OccupancyNumber
   definition: Number of people required for the activity assigned to this space.
   ifdGuid: 0aFkJ0UTP73QxwoVWAxx_o
+  legacyGuid: 0aFkJ0UTP73QxwoVWAxx_o
   localizations:
   - language: de-DE
     name: 'Belegung'
@@ -85,9 +90,12 @@ properties:
     dataType: IfcCountMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: OccupancyNumberPeak
   definition: Maximal number of people required for the activity assigned to this space in peak time.
   ifdGuid: 2NYo_mSkzAof0sC_cNoyy0
+  legacyGuid: 2NYo_mSkzAof0sC_cNoyy0
   localizations:
   - language: de-DE
     name: 'Maximale Belegung'
@@ -111,9 +119,12 @@ properties:
     dataType: IfcCountMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: OccupancyTimePerDay
   definition: The amount of time during the day that the activity is required within this space.
   ifdGuid: 1NkUsFzkHESuEgwOVApFg0
+  legacyGuid: 1NkUsFzkHESuEgwOVApFg0
   localizations:
   - language: de-DE
     name: 'Belegungszeit pro Tag'
@@ -137,9 +148,12 @@ properties:
     dataType: IfcTimeMeasure
     measureType: ''
     unitType: TIMEUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: AreaPerOccupant
   definition: Design occupancy loading for this type of usage assigned to this space.
   ifdGuid: 0jbQKpPvT3pQ$4V2AfD2ml
+  legacyGuid: 0jbQKpPvT3pQ$4V2AfD2ml
   localizations:
   - language: de-DE
     name: 'Fläche pro Nutzer'
@@ -163,9 +177,12 @@ properties:
     dataType: IfcAreaMeasure
     measureType: ''
     unitType: AREAUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: MinimumHeadroom
   definition: Headroom required for the activity assigned to this space.
   ifdGuid: 0B9l9XEfH15QnrI5tlCG14
+  legacyGuid: 0B9l9XEfH15QnrI5tlCG14
   localizations:
   - language: de-DE
     name: 'Lichte Höhe'
@@ -189,9 +206,12 @@ properties:
     dataType: IfcLengthMeasure
     measureType: ''
     unitType: LENGTHUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: IsOutlookDesirable
   definition: An indication of whether the outlook is desirable (set TRUE) or not (set FALSE)
   ifdGuid: 0vm3Q_Umr8dxHKFMEiCxep
+  legacyGuid: 0vm3Q_Umr8dxHKFMEiCxep
   localizations:
   - language: de-DE
     name: 'Ausblick erwünscht'
@@ -215,3 +235,5 @@ properties:
     dataType: IfcBoolean
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

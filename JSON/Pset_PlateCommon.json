@@ -5,6 +5,7 @@
     "schema": "IfcSharedBldgElements"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "Properties common to the definition of all occurrences of IfcPlate.",
   "localizations": [
     {
@@ -57,6 +58,7 @@
       "name": "Reference",
       "definition": "Reference ID for this specified type in this project (e.g. type 'A-1'), Also referred to as \"construction type\". It should be provided as an alternative to the name of the \"object type\", if the software does not support object types.",
       "ifdGuid": "1ZkbwLjO12XuzB1OFL7mam",
+      "legacyGuid": "1ZkbwLjO12XuzB1OFL7mam",
       "localizations": [
         {
           "language": "de-DE",
@@ -98,12 +100,16 @@
         "dataType": "IfcIdentifier",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "Status",
       "definition": "Status of the element, predominately used in renovation or retrofitting projects. The status can be assigned to as \"New\" - element designed as new addition, \"Existing\" - element exists and remains, \"Demolish\" - element existed but is to be demolished,  \"Temporary\" - element will exists only temporary (like a temporary support structure).",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "de-DE",
@@ -362,12 +368,16 @@
             ]
           }
         ]
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "IsExternal",
       "definition": "Indication whether the element is designed for use in the exterior (TRUE) or not (FALSE). If (TRUE) it is an external element and faces the outside of the building.",
       "ifdGuid": "3AUAplSTDFVveKsrjNjYxA",
+      "legacyGuid": "3AUAplSTDFVveKsrjNjYxA",
       "localizations": [
         {
           "language": "de-DE",
@@ -409,12 +419,16 @@
         "dataType": "IfcBoolean",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "LoadBearing",
       "definition": "Indicates whether the object is intended to carry loads (TRUE) or not (FALSE).",
       "ifdGuid": "2s9kFjdFn5SgvxUZ6g_kA8",
+      "legacyGuid": "2s9kFjdFn5SgvxUZ6g_kA8",
       "localizations": [
         {
           "language": "de-DE",
@@ -456,12 +470,16 @@
         "dataType": "IfcBoolean",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "AcousticRating",
       "definition": "Acoustic rating for this object.It is provided according to the national building code. It indicates the sound transmission resistance of this object by an index ratio (instead of providing full sound absorbtion values).",
       "ifdGuid": "17FlND5tz03e1$v_Cr3xrT",
+      "legacyGuid": "17FlND5tz03e1$v_Cr3xrT",
       "localizations": [
         {
           "language": "de-DE",
@@ -503,12 +521,16 @@
         "dataType": "IfcLabel",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "FireRating",
       "definition": "Fire rating for this object.It is given according to the national fire safety classification.",
       "ifdGuid": "2GHdENLJj5eeuI8zBp0USR",
+      "legacyGuid": "2GHdENLJj5eeuI8zBp0USR",
       "localizations": [
         {
           "language": "de-DE",
@@ -550,12 +572,16 @@
         "dataType": "IfcLabel",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "ThermalTransmittance",
       "definition": "Thermal transmittance coefficient (U-Value) of a material.It applies to the total door construction.",
       "ifdGuid": "1D7nfbi_L3OvofaBZDgGsE",
+      "legacyGuid": "1D7nfbi_L3OvofaBZDgGsE",
       "localizations": [
         {
           "language": "de-DE",
@@ -597,6 +623,9 @@
         "dataType": "IfcThermalTransmittanceMeasure",
         "measureType": "",
         "unitType": "THERMALTRANSMITTANCEUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

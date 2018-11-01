@@ -3,6 +3,7 @@ ifcVersion:
   version: 4.0.0.0
   schema: IfcSharedFacilitiesElements
 ifdGuid: ''
+legacyGuid: ''
 definition: 'An indication of exposure to mischance, peril, menace, hazard or loss. HISTORY: Extended in IFC2x3There are various types of risk that may be encountered and there may be several instances of Pset_Risk associated in an instance of an IfcProcess.Specification of this property set incorporates the values of the Incom risk analysis matrix (satisfying AS/NZS 4360) together with additional identified requirements.'
 localizations:
 - language: de-DE
@@ -32,6 +33,7 @@ properties:
 - name: RiskType
   definition: Identifies the predefined types of risk from which the type required may be set.
   ifdGuid: 0O7zAroN14Q8An0xUuz8zm
+  legacyGuid: 0O7zAroN14Q8An0xUuz8zm
   localizations:
   - language: de-DE
     name: ''
@@ -186,9 +188,12 @@ properties:
       - language: ru-RU
         name: 'Unknown'
         definition: ''
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: NatureOfRisk
   definition: "An indication of the generic nature of the risk that might be encountered. NOTE: It is anticipated that there will be a local agreement that constrains the values that might be assigned to this property. An example might be 'Fall'  or 'Fall of grille unit' causing injury and damage to person and property."
   ifdGuid: 1FOA1IfVXB_w8fL1Vkvh8H
+  legacyGuid: 1FOA1IfVXB_w8fL1Vkvh8H
   localizations:
   - language: de-DE
     name: ''
@@ -212,9 +217,12 @@ properties:
     dataType: IfcLabel
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: SubNatureOfRisk1
   definition: "A first subsidiary value that might be assigned to designate a more specific type of risk.NOTE: Nature of risk may be identified in various ways depending upon the place where risk assessment takes place and according to local agreement. This property set allows for a generic nature of risk and up to two subsidiary natures. An example might be 'causing injury and damage'."
   ifdGuid: 1DkjyPt3bFW8n$$O3cZ$jz
+  legacyGuid: 1DkjyPt3bFW8n$$O3cZ$jz
   localizations:
   - language: de-DE
     name: ''
@@ -238,9 +246,12 @@ properties:
     dataType: IfcLabel
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: SubNatureOfRisk2
   definition: A second subsidiary value that might be assigned to designate a more specific type of risk. An example might be 'o person and property'.
   ifdGuid: 0tRtzSMLn5ggE8kPja2DRu
+  legacyGuid: 0tRtzSMLn5ggE8kPja2DRu
   localizations:
   - language: de-DE
     name: ''
@@ -264,9 +275,12 @@ properties:
     dataType: IfcLabel
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: RiskCause
   definition: A value that may be assigned to capture the cause or trigger for the risk. An example might be 'poor fixing'.
   ifdGuid: 2C$NJQAUv3FwKaKxg5XXCn
+  legacyGuid: 2C$NJQAUv3FwKaKxg5XXCn
   localizations:
   - language: de-DE
     name: ''
@@ -290,9 +304,12 @@ properties:
     dataType: IfcText
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: AssessmentOfRisk
   definition: Likelihood of risk event occurring.Note  that assessment of risk may frequently be associated with the physical location of the object for which the risk is assessed.
   ifdGuid: 0OERPb4ar2HOK09TO5zkuW
+  legacyGuid: 0OERPb4ar2HOK09TO5zkuW
   localizations:
   - language: de-DE
     name: ''
@@ -557,9 +574,12 @@ properties:
       - language: ru-RU
         name: 'Unknown'
         definition: ''
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: RiskConsequence
   definition: Indicates the level of severity of the consequences that the risk would have in case it happens.
   ifdGuid: 3JzkrP3BTFOwLYEBmfleKm
+  legacyGuid: 3JzkrP3BTFOwLYEBmfleKm
   localizations:
   - language: de-DE
     name: ''
@@ -824,9 +844,12 @@ properties:
       - language: ru-RU
         name: 'Unknown'
         definition: ''
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: RiskRating
   definition: A general rating of the risk that may be determined from a combination of the risk assessment and risk consequence.
   ifdGuid: 2bteDrKIP2ke$1HmfSR4gl
+  legacyGuid: 2bteDrKIP2ke$1HmfSR4gl
   localizations:
   - language: de-DE
     name: ''
@@ -1091,9 +1114,12 @@ properties:
       - language: ru-RU
         name: 'Unknown'
         definition: ''
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: RiskOwner
   definition: A determination of who is the owner of the risk by reference to principal roles of organizations within a project. Determination of the specific organization should be by reference to instances of IfcActorRole assigned to instances of IfcOrganization (if assigned).
   ifdGuid: 2S9iq_dlT0CvpTTKv7$LKs
+  legacyGuid: 2S9iq_dlT0CvpTTKv7$LKs
   localizations:
   - language: de-DE
     name: ''
@@ -1270,9 +1296,12 @@ properties:
       - language: ru-RU
         name: 'Unknown'
         definition: ''
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: AffectsSurroundings
   definition: Indicates wether the risk affects only to the person assigned to that task (FALSE) or if it can also affect to the people in the surroundings (TRUE).For example, the process of painting would affect all the people in the vicinity of the process.
   ifdGuid: 3IlKj5BwjBNxhDP5u9sHOq
+  legacyGuid: 3IlKj5BwjBNxhDP5u9sHOq
   localizations:
   - language: de-DE
     name: ''
@@ -1296,9 +1325,12 @@ properties:
     dataType: IfcBoolean
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: PreventiveMeassures
   definition: Identifies preventive measures to be taken to mitigate risk.
   ifdGuid: 02asR9Mq11S9uVkobqtBXb
+  legacyGuid: 02asR9Mq11S9uVkobqtBXb
   localizations:
   - language: de-DE
     name: ''
@@ -1322,3 +1354,5 @@ properties:
     dataType: IfcText
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

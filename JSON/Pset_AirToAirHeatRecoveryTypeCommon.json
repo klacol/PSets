@@ -5,6 +5,7 @@
     "schema": "IfcHvacDomain"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "Air to Air Heat Recovery type common attributes.",
   "localizations": [
     {
@@ -49,6 +50,7 @@
       "name": "Reference",
       "definition": "Reference ID for this specified type in this project (e.g. type 'A-1'), provided, if there is no classification reference to a recognized classification system used.",
       "ifdGuid": "",
+      "legacyGuidAsIfcGlobalId": "",
       "localizations": [
         {
           "language": "fr-FR",
@@ -85,12 +87,16 @@
         "dataType": "IfcIdentifier",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "Status",
       "definition": "Status of the element, predominately used in renovation or retrofitting projects. The status can be assigned to as \"New\" - element designed as new addition, \"Existing\" - element exists and remains, \"Demolish\" - element existed but is to be demolished,  \"Temporary\" - element will exists only temporary (like a temporary support structure).",
       "ifdGuid": "",
+      "legacyGuidAsIfcGlobalId": "",
       "localizations": [
         {
           "language": "fr-FR",
@@ -349,12 +355,17 @@
             ]
           }
         ]
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "HeatTransferTypeEnum",
       "definition": "Type of heat transfer between the two air streams.",
-      "ifdGuid": "21DFB57PfAN8QkoNtfpIEc",
+      "ifdGuid": "",
+      "legacyGuid": "8134f2c51d9a4a5c86aec97de9cd23a6",
+      "legacyGuidAsIfcGlobalId": "21DFB57PfAN8QkoNtfpIEc",
       "localizations": [
         {
           "language": "fr-FR",
@@ -539,12 +550,17 @@
             ]
           }
         ]
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "HasDefrost",
       "definition": "has the heat exchanger has defrost function or not.",
-      "ifdGuid": "25qRZQu$r7UPOoWErwMtU$",
+      "ifdGuid": "",
+      "legacyGuid": "85d1b8dae3fd4779963280ed7a5b77bf",
+      "legacyGuidAsIfcGlobalId": "25qRZQu$r7UPOoWErwMtU$",
       "localizations": [
         {
           "language": "fr-FR",
@@ -581,12 +597,17 @@
         "dataType": "IfcBoolean",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "OperationalTemperatureRange",
       "definition": "Allowable operation ambient air temperature range.",
-      "ifdGuid": "0d1ee5qJ18aRmfPxZO8nQV",
+      "ifdGuid": "",
+      "legacyGuid": "27068a05d1304891bc2967b8d823169f",
+      "legacyGuidAsIfcGlobalId": "0d1ee5qJ18aRmfPxZO8nQV",
       "localizations": [
         {
           "language": "fr-FR",
@@ -625,12 +646,17 @@
         "LowerBoundValue": "0",
         "UpperBoundValue": "?",
         "typeName": "TypePropertyBoundedValue"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "PrimaryAirflowRateRange",
       "definition": "possible range of primary airflow that can be delivered..",
-      "ifdGuid": "2TxJYAkTX1p9DN1NrFJACb",
+      "ifdGuid": "",
+      "legacyGuid": "9ded388ab9d841cc9357057d4f4ca325",
+      "legacyGuidAsIfcGlobalId": "2TxJYAkTX1p9DN1NrFJACb",
       "localizations": [
         {
           "language": "fr-FR",
@@ -669,12 +695,17 @@
         "LowerBoundValue": "0",
         "UpperBoundValue": "?",
         "typeName": "TypePropertyBoundedValue"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "SecondaryAirflowRateRange",
       "definition": "possible range of secondary airflow that can be delivered.",
-      "ifdGuid": "0lApkWo0H8TAP3NeJkXI19",
+      "ifdGuid": "",
+      "legacyGuid": "2f2b3ba0c8044874a6435e84ee852049",
+      "legacyGuidAsIfcGlobalId": "0lApkWo0H8TAP3NeJkXI19",
       "localizations": [
         {
           "language": "fr-FR",
@@ -713,6 +744,9 @@
         "LowerBoundValue": "0",
         "UpperBoundValue": "?",
         "typeName": "TypePropertyBoundedValue"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

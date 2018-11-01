@@ -5,6 +5,7 @@
     "schema": "IfcSharedBldgElements"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "Properties common to the definition of all occurrences of IfcMember.",
   "localizations": [
     {
@@ -57,6 +58,7 @@
       "name": "Reference",
       "definition": "Reference ID for this specified type in this project (e.g. type 'A-1'), Also referred to as \"construction type\". It should be provided as an alternative to the name of the \"object type\", if the software does not support object types.",
       "ifdGuid": "1xnMOKqqP4n86A$afzSAIt",
+      "legacyGuid": "1xnMOKqqP4n86A$afzSAIt",
       "localizations": [
         {
           "language": "de-DE",
@@ -98,12 +100,16 @@
         "dataType": "IfcIdentifier",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "Status",
       "definition": "Status of the element, predominately used in renovation or retrofitting projects. The status can be assigned to as \"New\" - element designed as new addition, \"Existing\" - element exists and remains, \"Demolish\" - element existed but is to be demolished,  \"Temporary\" - element will exists only temporary (like a temporary support structure).",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "de-DE",
@@ -362,12 +368,16 @@
             ]
           }
         ]
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "Span",
       "definition": "Clear span for this object.The shape information is provided in addition to the shape representation and the geometric parameters used within. In cases of inconsistency between the geometric parameters and the shape properties, provided in the attached property, the geometric parameters take precedence.",
       "ifdGuid": "0JT1wDNXz0CuOQ32RvYB3P",
+      "legacyGuid": "0JT1wDNXz0CuOQ32RvYB3P",
       "localizations": [
         {
           "language": "de-DE",
@@ -409,12 +419,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "Slope",
       "definition": "Slope angle - relative to horizontal (0.0 degrees).The shape information is provided in addition to the shape representation and the geometric parameters used within. In cases of inconsistency between the geometric parameters and the shape properties, provided in the attached property, the geometric parameters take precedence.",
       "ifdGuid": "0PqUHQZUT4iwarsTtLcMl7",
+      "legacyGuid": "0PqUHQZUT4iwarsTtLcMl7",
       "localizations": [
         {
           "language": "de-DE",
@@ -456,12 +470,16 @@
         "dataType": "IfcPlaneAngleMeasure",
         "measureType": "",
         "unitType": "PLANEANGLEUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "Roll",
       "definition": "Rotation against the longitudinal axis - relative to the global Z direction for all members that are non-vertical in regard to the global coordinate system (Profile direction equals global Z is Roll = 0.)The shape information is provided in addition to the shape representation and the geometric parameters used within. In cases of inconsistency between the geometric parameters and the shape properties, provided in the attached property, the geometric parameters take precedence.Note: new property in IFC4.",
       "ifdGuid": "3o7gFSSmP95xkiWAHF$n1P",
+      "legacyGuid": "3o7gFSSmP95xkiWAHF$n1P",
       "localizations": [
         {
           "language": "de-DE",
@@ -503,12 +521,16 @@
         "dataType": "IfcPlaneAngleMeasure",
         "measureType": "",
         "unitType": "PLANEANGLEUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "IsExternal",
       "definition": "Indication whether the element is designed for use in the exterior (TRUE) or not (FALSE). If (TRUE) it is an external element and faces the outside of the building.",
       "ifdGuid": "3waaFuwg9BLwXcOdGjvN4e",
+      "legacyGuid": "3waaFuwg9BLwXcOdGjvN4e",
       "localizations": [
         {
           "language": "de-DE",
@@ -550,12 +572,16 @@
         "dataType": "IfcBoolean",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "ThermalTransmittance",
       "definition": "Thermal transmittance coefficient (U-Value) of a material.Here the total thermal transmittance coefficient through the member within the direction of the thermal flow (including all materials).Note: new property in IFC4.",
       "ifdGuid": "30AtGWA1D57efVcpUaR_ln",
+      "legacyGuid": "30AtGWA1D57efVcpUaR_ln",
       "localizations": [
         {
           "language": "de-DE",
@@ -597,12 +623,16 @@
         "dataType": "IfcThermalTransmittanceMeasure",
         "measureType": "",
         "unitType": "THERMALTRANSMITTANCEUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "LoadBearing",
       "definition": "Indicates whether the object is intended to carry loads (TRUE) or not (FALSE).",
       "ifdGuid": "1BEpSZUtT9bxp8Q5f9KQol",
+      "legacyGuid": "1BEpSZUtT9bxp8Q5f9KQol",
       "localizations": [
         {
           "language": "de-DE",
@@ -644,12 +674,16 @@
         "dataType": "IfcBoolean",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "FireRating",
       "definition": "Fire rating for this object.It is given according to the national fire safety classification.",
       "ifdGuid": "3vmYNR8kv4JeAcRKi9coTH",
+      "legacyGuid": "3vmYNR8kv4JeAcRKi9coTH",
       "localizations": [
         {
           "language": "de-DE",
@@ -691,6 +725,9 @@
         "dataType": "IfcLabel",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

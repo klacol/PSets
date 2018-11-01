@@ -3,6 +3,7 @@ ifcVersion:
   version: 4.0.0.0
   schema: IfcStructuralElementsDomain
 ifdGuid: ''
+legacyGuid: ''
 definition: 'Reinforcement Concrete parameter [ST-2]: The amount number information of reinforcement  bar with the independent footing. The X and Y direction are based on the local coordinate system of building storey. The X and Y direction of the reinforcement bar are parallel to the X and Y axis of the IfcBuildingStorey''s local coordinate system, respectively.'
 localizations:
 - language: de-DE
@@ -30,6 +31,7 @@ properties:
 - name: Description
   definition: Description of the reinforcement.
   ifdGuid: 0T1MRmRS18tfHqh_G9sGR4
+  legacyGuid: 0T1MRmRS18tfHqh_G9sGR4
   localizations:
   - language: ja-JP
     name: '説明'
@@ -53,9 +55,12 @@ properties:
     dataType: IfcText
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: Reference
   definition: A descriptive label for the general reinforcement type.
   ifdGuid: 03d28r4ijCxfayaOtvFTJc
+  legacyGuid: 03d28r4ijCxfayaOtvFTJc
   localizations:
   - language: ja-JP
     name: '参照記号'
@@ -79,9 +84,12 @@ properties:
     dataType: IfcLabel
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: XDirectionLowerBarCount
   definition: The number of bars with X direction lower bar.
   ifdGuid: 2FTj1bAn90Ge$tiDTF9K0g
+  legacyGuid: 2FTj1bAn90Ge$tiDTF9K0g
   localizations:
   - language: ja-JP
     name: 'X方向下端筋本数'
@@ -105,9 +113,12 @@ properties:
     dataType: IfcInteger
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: YDirectionLowerBarCount
   definition: The number of bars with Y direction lower bar.
   ifdGuid: 0MqXM96v1CAv63nfdpoRYX
+  legacyGuid: 0MqXM96v1CAv63nfdpoRYX
   localizations:
   - language: ja-JP
     name: 'Y方向下端筋本数'
@@ -131,9 +142,12 @@ properties:
     dataType: IfcInteger
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: XDirectionUpperBarCount
   definition: The number of bars with X direction upper bar.
   ifdGuid: 3H9zvQxzTBrxKaMWx$BGZB
+  legacyGuid: 3H9zvQxzTBrxKaMWx$BGZB
   localizations:
   - language: ja-JP
     name: 'X方向上端筋本数'
@@ -157,9 +171,12 @@ properties:
     dataType: IfcInteger
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: YDirectionUpperBarCount
   definition: The number of bars with Y direction upper bar.
   ifdGuid: 0jKAPsZQD9qwkcFGreN33Q
+  legacyGuid: 0jKAPsZQD9qwkcFGreN33Q
   localizations:
   - language: ja-JP
     name: 'Y方向上端筋本数'
@@ -183,3 +200,5 @@ properties:
     dataType: IfcInteger
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

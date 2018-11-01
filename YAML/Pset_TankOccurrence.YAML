@@ -3,6 +3,7 @@ ifcVersion:
   version: 4.0.0.0
   schema: IfcHvacDomain
 ifdGuid: ''
+legacyGuid: ''
 definition: 'Properties that relate to a tank. Note that a partial tank may be considered as a compartment within a compartmentalized tank.'
 localizations:
 - language: de-DE
@@ -30,6 +31,7 @@ properties:
 - name: TankComposition
   definition: 'Defines the level of element composition where.COMPLEX: A set of elementary units aggregated together to fulfill the overall  required purpose.ELEMENT: A single elementary unit that may exist of itself or as an aggregation of partial units..PARTIAL: A partial elementary unit.'
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: ja-JP
     name: '水槽構成'
@@ -162,9 +164,12 @@ properties:
       - language: ru-RU
         name: 'Unknown'
         definition: ''
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: HasLadder
   definition: 'Indication of whether the tank is provided with a ladder (set TRUE) for access to the top. If no ladder is provided then value is set FALSE.Note: No indication is given of the type of ladder (gooseneck etc.)'
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: ja-JP
     name: '梯子有り'
@@ -188,9 +193,12 @@ properties:
     dataType: IfcBoolean
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: HasVisualIndicator
   definition: Indication of whether the tank is provided with a visual indicator (set TRUE) that shows the water level in the tank. If no visual indicator is provided then value is set FALSE.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: ja-JP
     name: '目視型表示器有り'
@@ -214,3 +222,5 @@ properties:
     dataType: IfcBoolean
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

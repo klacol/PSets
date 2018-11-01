@@ -5,6 +5,7 @@
     "schema": "IfcSharedFacilitiesElements"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "A set of specific properties for furniture type chair. HISTORY: First issued in IFC Release R1.5. Renamed from Pset_Chair",
   "localizations": [
     {
@@ -49,6 +50,7 @@
       "name": "SeatingHeight",
       "definition": "The value of seating height if the chair height is not adjustable.",
       "ifdGuid": "25jmjQM0L56AXyW8sR641g",
+      "legacyGuid": "25jmjQM0L56AXyW8sR641g",
       "localizations": [
         {
           "language": "de-DE",
@@ -85,12 +87,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "HighestSeatingHeight",
       "definition": "The value of seating height of high level if the chair height is adjustable.",
       "ifdGuid": "3b8TadxgzCIu$bt4sIBxel",
+      "legacyGuid": "3b8TadxgzCIu$bt4sIBxel",
       "localizations": [
         {
           "language": "de-DE",
@@ -127,12 +133,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "LowestSeatingHeight",
       "definition": "The value of seating height of low level if the chair height is adjustable.",
       "ifdGuid": "0cG7v5DurE4R2XZFVZYQBY",
+      "legacyGuid": "0cG7v5DurE4R2XZFVZYQBY",
       "localizations": [
         {
           "language": "de-DE",
@@ -169,6 +179,9 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

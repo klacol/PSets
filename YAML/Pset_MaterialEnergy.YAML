@@ -3,6 +3,7 @@ ifcVersion:
   version: 4.0.0.0
   schema: IfcMaterialResource
 ifdGuid: ''
+legacyGuid: ''
 definition: 'A set of extended material properties for energy calculation purposes.'
 localizations:
 - language: de-DE
@@ -30,6 +31,7 @@ properties:
 - name: ViscosityTemperatureDerivative
   definition: Viscosity temperature derivative.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: de-DE
     name: ''
@@ -53,9 +55,12 @@ properties:
     dataType: IfcReal
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: MoistureCapacityThermalGradient
   definition: Thermal gradient coefficient for moisture capacity. Based on water vapor density.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: de-DE
     name: ''
@@ -79,9 +84,12 @@ properties:
     dataType: IfcReal
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: ThermalConductivityTemperatureDerivative
   definition: Thermal conductivity temperature derivative.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: de-DE
     name: ''
@@ -105,9 +113,12 @@ properties:
     dataType: IfcReal
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: SpecificHeatTemperatureDerivative
   definition: Specific heat temperature derivative.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: de-DE
     name: ''
@@ -131,9 +142,12 @@ properties:
     dataType: IfcReal
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: VisibleRefractionIndex
   definition: Index of refraction (visible) defines the "bending" of the sola! r ray in the visible spectrum when it passes from one medium into another.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: de-DE
     name: ''
@@ -157,9 +171,12 @@ properties:
     dataType: IfcReal
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: SolarRefractionIndex
   definition: Index of refraction (solar) defines the "bending" of the solar ray when it passes from one medium into another.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: de-DE
     name: ''
@@ -183,9 +200,12 @@ properties:
     dataType: IfcReal
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: GasPressure
   definition: 'Fill pressure (e.g. for between-pane gas fills): the pressure exerted by a mass of gas confined in a constant volume.'
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: de-DE
     name: ''
@@ -209,3 +229,5 @@ properties:
     dataType: IfcPressureMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

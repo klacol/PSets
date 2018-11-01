@@ -3,6 +3,7 @@ ifcVersion:
   version: 4.0.0.0
   schema: IfcSharedBldgServiceElements
 ifdGuid: ''
+legacyGuid: ''
 definition: 'Fluid flow performance history attached to an instance of IfcPerformanceHistory assigned to IfcDistributionPort.  This replaces the deprecated IfcFluidFlowProperties for performance values.'
 localizations:
 - language: de-DE
@@ -30,6 +31,7 @@ properties:
 - name: Temperature
   definition: Temperature of the fluid. For air this value represents the dry bulb temperature.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: de-DE
     name: ''
@@ -55,9 +57,12 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: WetBulbTemperature
   definition: Wet bulb temperature of the fluid; only applicable if the fluid is air.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: de-DE
     name: ''
@@ -83,9 +88,12 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: VolumetricFlowRate
   definition: The volumetric flow rate of the fluid.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: de-DE
     name: ''
@@ -111,9 +119,12 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: MassFlowRate
   definition: The mass flow rate of the fluid.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: de-DE
     name: ''
@@ -139,9 +150,12 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: FlowCondition
   definition: Defines the flow condition as a percentage of the cross-sectional area.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: de-DE
     name: ''
@@ -167,9 +181,12 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: Velocity
   definition: The velocity of the fluid.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: de-DE
     name: ''
@@ -195,9 +212,12 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: Pressure
   definition: The pressure of the fluid.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: de-DE
     name: ''
@@ -223,3 +243,5 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

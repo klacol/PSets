@@ -5,6 +5,7 @@
     "schema": "IfcHvacDomain"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "Compressed air filter type attributes.",
   "localizations": [
     {
@@ -49,6 +50,7 @@
       "name": "CompressedAirFilterType",
       "definition": "ACTIVATEDCARBON: absorbs oil vapor and odor; PARTICLE_FILTER: used to absorb solid particles of medium size; COALESCENSE_FILTER: used to absorb fine solid, oil, and water particles, also called micro filter",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "de-DE",
@@ -270,12 +272,16 @@
             ]
           }
         ]
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "OperationPressureMax",
       "definition": "Maximum pressure under normal operating conditions.",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "de-DE",
@@ -312,12 +318,16 @@
         "dataType": "IfcPressureMeasure",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "ParticleAbsorptionCurve",
       "definition": "Ratio of particles that are removed by the filter.  Each entry describes the ratio of particles absorbed greater than equal to the specified size and less than the next specified size.  For example,  given for 3 significant particle sizes >= 0,1 micro m, >= 1 micro m, >= 5 micro m",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "de-DE",
@@ -362,12 +372,16 @@
           "measureType": "",
           "unitType": "USERDEFINED"
         }
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "AutomaticCondensateDischarge",
       "definition": "Whether or not the condensing water or oil is discharged automatically from the filter.",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "de-DE",
@@ -404,12 +418,16 @@
         "dataType": "IfcBoolean",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "CloggingIndicator",
       "definition": "Whether the filter has an indicator to display the degree of clogging of the filter.",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "de-DE",
@@ -446,6 +464,9 @@
         "dataType": "IfcBoolean",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

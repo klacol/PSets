@@ -5,6 +5,7 @@
     "schema": "IfcSharedBldgServiceElements"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "Chamber constructed on a drain, sewer or pipeline and with a removable cover, that permits visible inspection.",
   "localizations": [
     {
@@ -49,6 +50,7 @@
       "name": "ChamberLengthOrRadius",
       "definition": "Length or, in the event of the shape being circular in plan, the radius of the chamber.",
       "ifdGuid": "06C4uFPRn3kRJLEYfA5tdV",
+      "legacyGuid": "06C4uFPRn3kRJLEYfA5tdV",
       "localizations": [
         {
           "language": "ja-JP",
@@ -90,12 +92,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "ChamberWidth",
       "definition": "Width, in the event of the shape being non circular in plan.",
       "ifdGuid": "1kRjwjPPvA4RzJraAQNxzl",
+      "legacyGuid": "1kRjwjPPvA4RzJraAQNxzl",
       "localizations": [
         {
           "language": "ja-JP",
@@ -137,12 +143,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "InvertLevel",
       "definition": "Level of the lowest part of the cross section as measured from ground level.",
       "ifdGuid": "2pd4$QIxH19uMjtXKbYZeR",
+      "legacyGuid": "2pd4$QIxH19uMjtXKbYZeR",
       "localizations": [
         {
           "language": "ja-JP",
@@ -184,12 +194,16 @@
         "dataType": "IfcLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "SoffitLevel",
       "definition": "Level of the highest internal part of the cross section as measured from ground level.",
       "ifdGuid": "3zO_kHpOX2a8fZopGrpzh6",
+      "legacyGuid": "3zO_kHpOX2a8fZopGrpzh6",
       "localizations": [
         {
           "language": "ja-JP",
@@ -231,12 +245,16 @@
         "dataType": "IfcLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "WallMaterial",
       "definition": "The material from which the wall of the chamber is constructed.NOTE: It is assumed that chamber walls will be constructed of a single material.",
       "ifdGuid": "211rf$eD903v0HclsTkilp",
+      "legacyGuid": "211rf$eD903v0HclsTkilp",
       "localizations": [
         {
           "language": "ja-JP",
@@ -280,12 +298,16 @@
         "guid": "",
         "libraryName": "Industry Foundation Classes by buildingSMART International",
         "sectionref": "Core Schema"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "WallThickness",
       "definition": "The thickness of the chamber wall constructionNOTE: It is assumed that chamber walls will be constructed at a single thickness.",
       "ifdGuid": "2osYyDHxj4Ye_tWovpb9Tp",
+      "legacyGuid": "2osYyDHxj4Ye_tWovpb9Tp",
       "localizations": [
         {
           "language": "ja-JP",
@@ -327,12 +349,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "BaseMaterial",
       "definition": "The material from which the base of the chamber is constructed.NOTE: It is assumed that chamber base will be constructed of a single material.",
       "ifdGuid": "0W7IkNodnAsv9CDTpU2Nqd",
+      "legacyGuid": "0W7IkNodnAsv9CDTpU2Nqd",
       "localizations": [
         {
           "language": "ja-JP",
@@ -376,12 +402,16 @@
         "guid": "",
         "libraryName": "Industry Foundation Classes by buildingSMART International",
         "sectionref": "Core Schema"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "BaseThickness",
       "definition": "The thickness of the chamber base constructionNOTE: It is assumed that chamber base will be constructed at a single thickness.",
       "ifdGuid": "10MuQbeoz0UxCr0GFMuXwu",
+      "legacyGuid": "10MuQbeoz0UxCr0GFMuXwu",
       "localizations": [
         {
           "language": "ja-JP",
@@ -423,12 +453,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "WithBackdrop",
       "definition": "Indicates whether the chamber has a backdrop or tumbling bay (TRUE) or not (FALSE).",
       "ifdGuid": "2Dg98M$oL86gXPzlUpqBQW",
+      "legacyGuid": "2Dg98M$oL86gXPzlUpqBQW",
       "localizations": [
         {
           "language": "ja-JP",
@@ -470,12 +504,16 @@
         "dataType": "IfcBoolean",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "AccessCoverMaterial",
       "definition": "The material from which the access cover to the chamber is constructed.NOTE: It is assumed that chamber walls will be constructed of a single material.",
       "ifdGuid": "2CBZ9nWy9ATeQHI7QplQGb",
+      "legacyGuid": "2CBZ9nWy9ATeQHI7QplQGb",
       "localizations": [
         {
           "language": "ja-JP",
@@ -519,12 +557,16 @@
         "guid": "",
         "libraryName": "Industry Foundation Classes by buildingSMART International",
         "sectionref": "Core Schema"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "AccessLengthOrRadius",
       "definition": "The length of the chamber access cover or, where the plan shape of the cover is circular, the radius.",
       "ifdGuid": "07Pl2DGurEtucFPQyV9Q4i",
+      "legacyGuid": "07Pl2DGurEtucFPQyV9Q4i",
       "localizations": [
         {
           "language": "ja-JP",
@@ -566,12 +608,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "AccessWidth",
       "definition": "The width of the chamber access cover where the plan shape of the cover is not circular.",
       "ifdGuid": "2n5oGr3b10fwdsFDLEw2$3",
+      "legacyGuid": "2n5oGr3b10fwdsFDLEw2$3",
       "localizations": [
         {
           "language": "ja-JP",
@@ -613,12 +659,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "AccessCoverLoadRating",
       "definition": "The load rating of the access cover (which may be a value or an alphanumerically defined class rating).",
       "ifdGuid": "08nm5qGRnAUAHVBBkV0LWP",
+      "legacyGuid": "08nm5qGRnAUAHVBBkV0LWP",
       "localizations": [
         {
           "language": "ja-JP",
@@ -660,6 +710,9 @@
         "dataType": "IfcText",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

@@ -3,6 +3,7 @@ ifcVersion:
   version: 4.0.0.0
   schema: IfcProductExtension
 ifdGuid: ''
+legacyGuid: ''
 definition: 'Specifies parameters of a standard curve that has a single, consistent measure value.'
 localizations:
 - language: de-DE
@@ -29,7 +30,9 @@ applicableIfcClasses:
 properties:
 - name: ContourValue
   definition: Value of the elevation of the contour above or below a reference plane.
-  ifdGuid: 10Tc26u1P4VB7T$HBk4hgB
+  ifdGuid: ''
+  legacyGuid: 40766086e016447cb1ddfd12ee12ba8b
+  legacyGuidAsIfcGlobalId: 10Tc26u1P4VB7T$HBk4hgB
   localizations:
   - language: fr-FR
     name: 'ValeurContour'
@@ -56,3 +59,5 @@ properties:
     dataType: IfcLengthMeasure
     measureType: ''
     unitType: LENGTHUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

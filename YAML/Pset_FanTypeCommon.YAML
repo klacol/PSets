@@ -3,6 +3,7 @@ ifcVersion:
   version: 4.0.0.0
   schema: IfcHvacDomain
 ifdGuid: ''
+legacyGuid: ''
 definition: 'Fan type common attributes.'
 localizations:
 - language: de-DE
@@ -30,6 +31,7 @@ properties:
 - name: Reference
   definition: Reference ID for this specified type in this project (e.g. type 'A-1').
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: ja-JP
     name: '参照記号'
@@ -53,9 +55,12 @@ properties:
     dataType: IfcIdentifier
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: Status
   definition: Status of the element, predominately used in renovation or retrofitting projects. The status can be assigned to as "New" - element designed as new addition, "Existing" - element exists and remains, "Demolish" - element existed but is to be demolished,  "Temporary" - element will exists only temporary (like a temporary support structure).
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: ja-JP
     name: '状態'
@@ -210,9 +215,12 @@ properties:
       - language: ru-RU
         name: 'Unknown'
         definition: ''
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: MotorDriveType
   definition: 'Motor drive type:DIRECTDRIVE: Direct drive. BELTDRIVE: Belt drive. COUPLING: Coupling. OTHER: Other type of motor drive. UNKNOWN: Unknown motor drive type.'
   ifdGuid: 3Hb5Cj1HPCBOyHEH5FW3Cy
+  legacyGuid: 3Hb5Cj1HPCBOyHEH5FW3Cy
   localizations:
   - language: ja-JP
     name: 'モーター駆動種類'
@@ -345,9 +353,12 @@ properties:
       - language: ru-RU
         name: 'Unknown'
         definition: ''
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: CapacityControlType
   definition: 'InletVane: Control by adjusting inlet vane.VariableSpeedDrive: Control by variable speed drive. BladePitchAngle: Control by adjusting blade pitch angle.TwoSpeed: Control by switch between high and low speed.DischargeDamper: Control by modulating discharge damper.'
   ifdGuid: 129xEuF8XDCAt6f$QhPccm
+  legacyGuid: 129xEuF8XDCAt6f$QhPccm
   localizations:
   - language: ja-JP
     name: '容量制御方式'
@@ -524,9 +535,12 @@ properties:
       - language: ru-RU
         name: 'Unknown'
         definition: ''
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: OperationTemperatureRange
   definition: Allowable operation ambient air temperature range.
   ifdGuid: 2btaCFbuvBLhAPmXM$O1xq
+  legacyGuid: 2btaCFbuvBLhAPmXM$O1xq
   localizations:
   - language: ja-JP
     name: '動作温度範囲'
@@ -551,9 +565,12 @@ properties:
     LowerBoundValue: 0
     UpperBoundValue: '?'
     typeName: TypePropertyBoundedValue
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: NominalAirFlowRate
   definition: Nominal air flow rate.
   ifdGuid: 2YoAmcLl57G8OSwMNogmWk
+  legacyGuid: 2YoAmcLl57G8OSwMNogmWk
   localizations:
   - language: ja-JP
     name: '設計風量'
@@ -577,9 +594,12 @@ properties:
     dataType: IfcVolumetricFlowRateMeasure
     measureType: ''
     unitType: VOLUMETRICFLOWRATEUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: NominalTotalPressure
   definition: Nominal total pressure rise across the fan.
   ifdGuid: 2clNlP5bjAmA75pnIanQsr
+  legacyGuid: 2clNlP5bjAmA75pnIanQsr
   localizations:
   - language: ja-JP
     name: '設計全圧'
@@ -603,9 +623,12 @@ properties:
     dataType: IfcPressureMeasure
     measureType: ''
     unitType: PRESSUREUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: NominalStaticPressure
   definition: The static pressure within the air stream that the fan must overcome to insure designed circulation of air.
   ifdGuid: 1bZkCrKTzFtO8SoMwLXgfH
+  legacyGuid: 1bZkCrKTzFtO8SoMwLXgfH
   localizations:
   - language: ja-JP
     name: '設計静圧'
@@ -629,9 +652,12 @@ properties:
     dataType: IfcPressureMeasure
     measureType: ''
     unitType: PRESSUREUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: NominalRotationSpeed
   definition: Nominal fan wheel speed.
   ifdGuid: 0I0Lzx9SL5bQoZHjfppKgI
+  legacyGuid: 0I0Lzx9SL5bQoZHjfppKgI
   localizations:
   - language: ja-JP
     name: '設計回転速度'
@@ -655,9 +681,12 @@ properties:
     dataType: IfcRotationalFrequencyMeasure
     measureType: ''
     unitType: ROTATIONALFREQUENCYUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: NominalPowerRate
   definition: Nominal fan power rate.
   ifdGuid: 3ilewiyXz5dQ7TAUgF0VIu
+  legacyGuid: 3ilewiyXz5dQ7TAUgF0VIu
   localizations:
   - language: ja-JP
     name: '設計動力'
@@ -681,9 +710,12 @@ properties:
     dataType: IfcPowerMeasure
     measureType: ''
     unitType: POWERUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: OperationalCriteria
   definition: Time of operation at maximum operational ambient air temperature.
   ifdGuid: 1wM8zGbuHChgMydEwUq7IQ
+  legacyGuid: 1wM8zGbuHChgMydEwUq7IQ
   localizations:
   - language: ja-JP
     name: '動作環境'
@@ -707,9 +739,12 @@ properties:
     dataType: IfcTimeMeasure
     measureType: ''
     unitType: TIMEUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: PressureCurve
   definition: Pressure rise = f (flow rate).
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: de-DE
     name: ''
@@ -739,9 +774,12 @@ properties:
       dataType: IfcPressureMeasure
       measureType: ''
       unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: EfficiencyCurve
   definition: Fan efficiency =f (flow rate).
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: de-DE
     name: ''
@@ -771,3 +809,5 @@ properties:
       dataType: IfcNormalisedRatioMeasure
       measureType: ''
       unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

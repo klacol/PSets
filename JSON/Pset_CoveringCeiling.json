@@ -5,6 +5,7 @@
     "schema": "IfcSharedBldgElements"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "Properties common to the definition of all occurrence and type objects of covering with the predefined type set to CEILING.",
   "localizations": [
     {
@@ -53,6 +54,7 @@
       "name": "Permeability",
       "definition": "Ratio of the permeability of the ceiling.The ration can be used to indicate an open ceiling (that enables identification of whether ceiling construction should be considered as impeding distribution of sprinkler water, light etc. from installations within the ceiling area).",
       "ifdGuid": "2ynFkjyNn0swH7BEyijjpL",
+      "legacyGuid": "2ynFkjyNn0swH7BEyijjpL",
       "localizations": [
         {
           "language": "de-DE",
@@ -94,12 +96,16 @@
         "dataType": "IfcNormalisedRatioMeasure",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "TileLength",
       "definition": "Length of ceiling tiles. The size information is provided in addition to the shape representation and the geometric parameters used within. In cases of inconsistency between the geometric parameters and the size properties, provided in the attached property set, the geometric parameters take precedence.",
       "ifdGuid": "1GJPi804j9xvSH_C8V9oKV",
+      "legacyGuid": "1GJPi804j9xvSH_C8V9oKV",
       "localizations": [
         {
           "language": "de-DE",
@@ -141,12 +147,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "TileWidth",
       "definition": "Width of ceiling tiles. The size information is provided in addition to the shape representation and the geometric parameters used within. In cases of inconsistency between the geometric parameters and the size properties, provided in the attached property set, the geometric parameters take precedence.",
       "ifdGuid": "0KbjnV9un6RhWTVdnD8Ahj",
+      "legacyGuid": "0KbjnV9un6RhWTVdnD8Ahj",
       "localizations": [
         {
           "language": "de-DE",
@@ -188,6 +198,9 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

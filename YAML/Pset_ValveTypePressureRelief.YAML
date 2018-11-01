@@ -3,6 +3,7 @@ ifcVersion:
   version: 4.0.0.0
   schema: IfcHvacDomain
 ifdGuid: ''
+legacyGuid: ''
 definition: 'Spring or weight loaded valve that automatically discharges to a safe place fluid that has built up to excessive pressure in pipes or fittings.Note that a pressure relief valve is constrained to have a single port pattern.'
 localizations:
 - language: de-DE
@@ -30,6 +31,7 @@ properties:
 - name: ReliefPressure
   definition: The pressure at which the spring or weight in the valve is set to discharge fluid.
   ifdGuid: 1UoEPQ6Hr2RfL93nq$do5X
+  legacyGuid: 1UoEPQ6Hr2RfL93nq$do5X
   localizations:
   - language: ja-JP
     name: 'リリーフ圧力'
@@ -53,3 +55,5 @@ properties:
     dataType: IfcPressureMeasure
     measureType: ''
     unitType: PRESSUREUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

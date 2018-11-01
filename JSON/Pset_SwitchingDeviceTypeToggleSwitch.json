@@ -5,6 +5,7 @@
     "schema": "IfcElectricalDomain"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "A toggle switch is a switch that enables or isolates electrical power through a two position on/off action.  HISTORY: SetPoint added in IFC4.",
   "localizations": [
     {
@@ -49,6 +50,7 @@
       "name": "ToggleSwitchType",
       "definition": "A list of the available types of toggle switch from which that required may be selected.",
       "ifdGuid": "3Y8GsPhqT5gPif4K2XIqVJ",
+      "legacyGuid": "3Y8GsPhqT5gPif4K2XIqVJ",
       "localizations": [
         {
           "language": "ja-JP",
@@ -497,12 +499,16 @@
             ]
           }
         ]
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "SwitchUsage",
       "definition": "A list of the available usages for toggle switches from which that required may be selected.",
       "ifdGuid": "0npo$uzEr8x9trUChlffYv",
+      "legacyGuid": "0npo$uzEr8x9trUChlffYv",
       "localizations": [
         {
           "language": "ja-JP",
@@ -803,12 +809,16 @@
             ]
           }
         ]
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "SwitchActivation",
       "definition": "A list of the available activations for toggle switches from which that required may be selected.",
       "ifdGuid": "25kbFjaGTDMR_iU2gf5$TD",
+      "legacyGuid": "25kbFjaGTDMR_iU2gf5$TD",
       "localizations": [
         {
           "language": "ja-JP",
@@ -1183,6 +1193,9 @@
             ]
           }
         ]
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

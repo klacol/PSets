@@ -3,6 +3,7 @@ ifcVersion:
   version: 4.0.0.0
   schema: IfcPlumbingFireProtectionDomain
 ifdGuid: ''
+legacyGuid: ''
 definition: 'A water storage unit attached to a sanitary terminal that is fitted with a device, operated automatically or by the user, that discharges water to cleanse a water closet (toilet) pan, urinal or slop hopper. (BS6100 330 5008)'
 localizations:
 - language: de-DE
@@ -30,6 +31,7 @@ properties:
 - name: CisternHeight
   definition: Enumeration that identifies the height of the cistern or, if set to 'None' if the urinal has no cistern and is flushed using mains or high pressure water through a flushing valve.
   ifdGuid: 0FfcqGM7z2uwLUMgK3aHLA
+  legacyGuid: 0FfcqGM7z2uwLUMgK3aHLA
   localizations:
   - language: ja-JP
     name: '貯水タンクの高さ'
@@ -162,9 +164,12 @@ properties:
       - language: ru-RU
         name: 'Unknown'
         definition: ''
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: CisternCapacity
   definition: Volumetric capacity of the cistern
   ifdGuid: 3d7eK7Naj3OQztvVqIl63m
+  legacyGuid: 3d7eK7Naj3OQztvVqIl63m
   localizations:
   - language: ja-JP
     name: '貯水タンク容量'
@@ -188,9 +193,12 @@ properties:
     dataType: IfcVolumeMeasure
     measureType: ''
     unitType: VOLUMEUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: IsSingleFlush
   definition: Indicates whether the cistern is single flush = TRUE (i.e. the same amount of water is used for each and every flush) or dual flush = FALSE (i.e. the amount of water used for a flush may be selected by the user to be high or low depending on the waste material to be removed).
   ifdGuid: 33$I0Sdjv0E8FimuvBmO_K
+  legacyGuid: 33$I0Sdjv0E8FimuvBmO_K
   localizations:
   - language: ja-JP
     name: '単一のフラッシュ'
@@ -214,9 +222,12 @@ properties:
     dataType: IfcBoolean
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: FlushType
   definition: 'The property enumeration Pset_FlushTypeEnum defines the types of flushing mechanism that may be specified for cisterns and sanitary terminals where:-Lever: 	Flushing is achieved by twisting a lever that causes a predetermined flow of water to be passed from a cistern to the sanitary terminal.Pull: 	Flushing is achieved by pulling a handle or knob vertically upwards that causes a predetermined flow of water to be passed from a cistern to the sanitary terminal.Push: 	Flushing is achieved by pushing a button or plate that causes a predetermined flow of water to be passed from a cistern to the sanitary terminal.Sensor: Flush is activated through an automatic sensing mechanism.'
   ifdGuid: 28QcYaxkjCZA9$FlGc0Vqq
+  legacyGuid: 28QcYaxkjCZA9$FlGc0Vqq
   localizations:
   - language: ja-JP
     name: 'タイプフラッシュ'
@@ -371,9 +382,12 @@ properties:
       - language: ru-RU
         name: 'Unknown'
         definition: ''
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: FlushRate
   definition: The minimum and maximum volume of water used at each flush. Where a single flush is used, the value of upper bound and lower bound should be equal. For a dual flush toilet, the lower bound should be used for the lesser flush rate and the upper bound for the greater flush rate. Where flush is achieved using mains pressure water through a flush valve, the value of upper and lower bound should be equal and should be the same as the flush rate property of the flush valve (see relevant valve property set). Alternatively, in this case, do not assert the flush rate property; refer to the flush rate of the flush valve.
   ifdGuid: 3VMYuP2xf43A5Ts8ZxhaxC
+  legacyGuid: 3VMYuP2xf43A5Ts8ZxhaxC
   localizations:
   - language: ja-JP
     name: 'フラッシュレート'
@@ -398,9 +412,12 @@ properties:
     LowerBoundValue: '?'
     UpperBoundValue: '?'
     typeName: TypePropertyBoundedValue
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: IsAutomaticFlush
   definition: Boolean value that determines if the cistern is flushed automatically either after each use or periodically (TRUE) or whether manual flushing is required (FALSE).
   ifdGuid: 3WYOdYF_f42Pq$E94l71AS
+  legacyGuid: 3WYOdYF_f42Pq$E94l71AS
   localizations:
   - language: ja-JP
     name: '自動フラッシュか'
@@ -424,9 +441,12 @@ properties:
     dataType: IfcBoolean
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: CisternColor
   definition: Color of the object.
   ifdGuid: 3_Sl1Di3fAD92ScqaRYZzj
+  legacyGuid: 3_Sl1Di3fAD92ScqaRYZzj
   localizations:
   - language: ja-JP
     name: '貯水タンクカラー'
@@ -450,3 +470,5 @@ properties:
     dataType: IfcText
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

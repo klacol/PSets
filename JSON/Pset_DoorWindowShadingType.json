@@ -5,6 +5,7 @@
     "schema": "IfcSharedBldgElements"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "Properties common to the definition of the shading component of occurrences of IfcDoor and IfcWindow, used for static (simplified) shading calculations.",
   "localizations": [
     {
@@ -77,6 +78,7 @@
       "name": "ShadingCoefficient",
       "definition": "Reduction of the Solar Heat Gain Coefficient (SHGC) value (equal to the g-value in Europe) of the glazing by applying a shading device. Commonly known as Fc (or previously z-Value). The total Radiation Transmittance g<total> = g * Fc. The reduction coefficient is given as a unitless value between 0 and 1; the lower the shading coefficient (SC) the less solar heat it transmits.",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "de-DE",
@@ -118,12 +120,16 @@
         "dataType": "IfcNormalisedRatioMeasure",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "ExternalShadingCoefficient",
       "definition": "Radiation transmission coefficient of the outside shading device. It is a value without unit.",
       "ifdGuid": "2RiBHumdbFV9gO7cAgaygi",
+      "legacyGuid": "2RiBHumdbFV9gO7cAgaygi",
       "localizations": [
         {
           "language": "de-DE",
@@ -165,12 +171,16 @@
         "dataType": "IfcPositiveRatioMeasure",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "InternalShadingCoefficient",
       "definition": "Radiation transmission coefficient of the inside shading device, symbol \"b-value\". It is a value without unit.",
       "ifdGuid": "3GLfVijNT8ovpt_m9GxZ4m",
+      "legacyGuid": "3GLfVijNT8ovpt_m9GxZ4m",
       "localizations": [
         {
           "language": "de-DE",
@@ -212,12 +222,16 @@
         "dataType": "IfcPositiveRatioMeasure",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "InsetShadingCoefficient",
       "definition": "Radiation transmission coefficient of the shading device inside the glazing, symbol \"b-value\". It is a value without unit.",
       "ifdGuid": "16fGJJgED6PhaHiRoPc8zU",
+      "legacyGuid": "16fGJJgED6PhaHiRoPc8zU",
       "localizations": [
         {
           "language": "de-DE",
@@ -259,6 +273,9 @@
         "dataType": "IfcPositiveRatioMeasure",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

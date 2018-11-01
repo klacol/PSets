@@ -5,6 +5,7 @@
     "schema": "IfcHvacDomain"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "Duct fitting performance history common attributes.",
   "localizations": [
     {
@@ -49,6 +50,7 @@
       "name": "LossCoefficient",
       "definition": "Dimensionless loss coefficient used for calculating fluid resistance representing the ratio of total pressure loss to velocity pressure at a referenced cross-section.",
       "ifdGuid": "2rBc4ICWXAWPGXBUQfBgCt",
+      "legacyGuid": "2rBc4ICWXAWPGXBUQfBgCt",
       "localizations": [
         {
           "language": "ja-JP",
@@ -87,12 +89,16 @@
         "guid": "",
         "libraryName": "Industry Foundation Classes by buildingSMART International",
         "sectionref": "Core Schema"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "AtmosphericPressure",
       "definition": "Ambient atmospheric pressure.",
       "ifdGuid": "2sZdCE4355QuGTLmtF9_G9",
+      "legacyGuid": "2sZdCE4355QuGTLmtF9_G9",
       "localizations": [
         {
           "language": "ja-JP",
@@ -131,12 +137,16 @@
         "guid": "",
         "libraryName": "Industry Foundation Classes by buildingSMART International",
         "sectionref": "Core Schema"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "AirFlowLeakage",
       "definition": "Volumetric leakage flow rate.",
       "ifdGuid": "3vVqd26OX1DhIdva_7sbO_",
+      "legacyGuid": "3vVqd26OX1DhIdva_7sbO_",
       "localizations": [
         {
           "language": "ja-JP",
@@ -175,6 +185,9 @@
         "guid": "",
         "libraryName": "Industry Foundation Classes by buildingSMART International",
         "sectionref": "Core Schema"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

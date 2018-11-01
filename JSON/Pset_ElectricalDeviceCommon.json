@@ -4,6 +4,7 @@
     "version": "4.0.0.0"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "A collection of properties that are commonly used by electrical device types.",
   "localizations": [
     {
@@ -48,6 +49,7 @@
       "name": "RatedCurrent",
       "definition": "PSet2YamlConverter.PropertyType",
       "ifdGuid": "1uJPqXHDH0jRCEAj47O9L8",
+      "legacyGuid": "1uJPqXHDH0jRCEAj47O9L8",
       "localizations": [
         {
           "language": "de-DE",
@@ -86,12 +88,16 @@
         "LowerBoundValue": "",
         "UpperBoundValue": "",
         "typeName": "TypePropertyBoundedValue"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "RatedVoltage",
       "definition": "PSet2YamlConverter.PropertyType",
       "ifdGuid": "2YuL_rvIv9uxXdCK0Vu7_6",
+      "legacyGuid": "2YuL_rvIv9uxXdCK0Vu7_6",
       "localizations": [
         {
           "language": "de-DE",
@@ -130,12 +136,16 @@
         "LowerBoundValue": "",
         "UpperBoundValue": "",
         "typeName": "TypePropertyBoundedValue"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "NominalFrequencyRange",
       "definition": "PSet2YamlConverter.PropertyType",
       "ifdGuid": "3scdbKLST8Ge9QL74TErgy",
+      "legacyGuid": "3scdbKLST8Ge9QL74TErgy",
       "localizations": [
         {
           "language": "de-DE",
@@ -174,12 +184,16 @@
         "LowerBoundValue": "",
         "UpperBoundValue": "",
         "typeName": "TypePropertyBoundedValue"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "PowerFactor",
       "definition": "PSet2YamlConverter.PropertyType",
       "ifdGuid": "3FKZGrWnL47wR1V9jblsAW",
+      "legacyGuid": "3FKZGrWnL47wR1V9jblsAW",
       "localizations": [
         {
           "language": "de-DE",
@@ -216,12 +230,16 @@
         "dataType": "IfcNormalisedRatioMeasure",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "ConductorFunction",
       "definition": "PSet2YamlConverter.PropertyType",
       "ifdGuid": "3vDX0hr89BVhc9fLSUDJTm",
+      "legacyGuid": "3vDX0hr89BVhc9fLSUDJTm",
       "localizations": [
         {
           "language": "de-DE",
@@ -369,12 +387,16 @@
             ]
           }
         ]
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "NumberOfPoles",
       "definition": "PSet2YamlConverter.PropertyType",
       "ifdGuid": "1BMno0qTyHuO00025QrE$V",
+      "legacyGuid": "1BMno0qTyHuO00025QrE$V",
       "localizations": [
         {
           "language": "de-DE",
@@ -411,12 +433,16 @@
         "dataType": "IfcInteger",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "HasProtectiveEarth",
       "definition": "PSet2YamlConverter.PropertyType",
       "ifdGuid": "1Gk6S0qTyHuO00025QrE$V",
+      "legacyGuid": "1Gk6S0qTyHuO00025QrE$V",
       "localizations": [
         {
           "language": "de-DE",
@@ -453,12 +479,16 @@
         "dataType": "IfcBoolean",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "IP_Code",
       "definition": "PSet2YamlConverter.PropertyType",
       "ifdGuid": "1MhaW0qTyHuO00025QrE$V",
+      "legacyGuid": "1MhaW0qTyHuO00025QrE$V",
       "localizations": [
         {
           "language": "de-DE",
@@ -495,12 +525,16 @@
         "dataType": "IfcLabel",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "InsulationStandardClass",
       "definition": "PSet2YamlConverter.PropertyType",
       "ifdGuid": "1TFB_0qTyHuO00025QrE$V",
+      "legacyGuid": "1TFB_0qTyHuO00025QrE$V",
       "localizations": [
         {
           "language": "de-DE",
@@ -796,6 +830,9 @@
             ]
           }
         ]
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

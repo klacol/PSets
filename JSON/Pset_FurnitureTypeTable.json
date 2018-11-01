@@ -5,6 +5,7 @@
     "schema": "IfcSharedFacilitiesElements"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "HISTORY: First issued in IFC Release R1.5. Renamed from Pset_Table",
   "localizations": [
     {
@@ -49,6 +50,7 @@
       "name": "WorksurfaceArea",
       "definition": "The value of the work surface area of the desk..",
       "ifdGuid": "1mG$m8rXb5exAPyHKd8w4J",
+      "legacyGuid": "1mG$m8rXb5exAPyHKd8w4J",
       "localizations": [
         {
           "language": "de-DE",
@@ -85,12 +87,16 @@
         "dataType": "IfcAreaMeasure",
         "measureType": "",
         "unitType": "AREAUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "NumberOfChairs",
       "definition": "Maximum number of chairs that can fit with the table for normal use.",
       "ifdGuid": "23es$FKpDBug5$8OK4trDH",
+      "legacyGuid": "23es$FKpDBug5$8OK4trDH",
       "localizations": [
         {
           "language": "de-DE",
@@ -127,6 +133,9 @@
         "dataType": "IfcInteger",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

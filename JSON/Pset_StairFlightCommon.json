@@ -5,6 +5,7 @@
     "schema": "IfcSharedBldgElements"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "Properties common to the definition of all occurrences of IfcStairFlight.",
   "localizations": [
     {
@@ -53,6 +54,7 @@
       "name": "Reference",
       "definition": "Reference ID for this specified type in this project (e.g. type 'A-1'), Also referred to as \"construction type\". It should be provided as an alternative to the name of the \"object type\", if the software does not support object types.",
       "ifdGuid": "1ABAYdMFPA58iUyGWLMPnp",
+      "legacyGuid": "1ABAYdMFPA58iUyGWLMPnp",
       "localizations": [
         {
           "language": "de-DE",
@@ -94,12 +96,16 @@
         "dataType": "IfcIdentifier",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "Status",
       "definition": "Status of the element, predominately used in renovation or retrofitting projects. The status can be assigned to as \"New\" - element designed as new addition, \"Existing\" - element exists and remains, \"Demolish\" - element existed but is to be demolished,  \"Temporary\" - element will exists only temporary (like a temporary support structure).",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "de-DE",
@@ -358,12 +364,16 @@
             ]
           }
         ]
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "NumberOfRiser",
       "definition": "Total number of the risers included in the stair flight.",
       "ifdGuid": "2aXirGNbvBbxq9c3R4hABH",
+      "legacyGuid": "2aXirGNbvBbxq9c3R4hABH",
       "localizations": [
         {
           "language": "de-DE",
@@ -405,12 +415,16 @@
         "dataType": "IfcCountMeasure",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "NumberOfTreads",
       "definition": "Total number of treads included in the stair flight.",
       "ifdGuid": "2xxfAV6xTAbxFaEaew8jdq",
+      "legacyGuid": "2xxfAV6xTAbxFaEaew8jdq",
       "localizations": [
         {
           "language": "de-DE",
@@ -452,12 +466,16 @@
         "dataType": "IfcCountMeasure",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "RiserHeight",
       "definition": "Vertical distance from tread to tread. The riser height is supposed to be equal for all steps of a stair or stair flight.",
       "ifdGuid": "2nVVBFydb7l9wEAKD5pr1Z",
+      "legacyGuid": "2nVVBFydb7l9wEAKD5pr1Z",
       "localizations": [
         {
           "language": "de-DE",
@@ -499,12 +517,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "TreadLength",
       "definition": "Horizontal distance from the front of the thread to the front of the next tread. The tread length is supposed to be equal for all steps of the stair or stair flight at the walking line.",
       "ifdGuid": "1TpJ9RpL100xmqR9SuquR6",
+      "legacyGuid": "1TpJ9RpL100xmqR9SuquR6",
       "localizations": [
         {
           "language": "de-DE",
@@ -546,12 +568,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "NosingLength",
       "definition": "Horizontal distance from the front of the tread to the riser underneath. It is the overhang of the tread.",
       "ifdGuid": "13Bp7A6HjFUB2KbrwQcr8L",
+      "legacyGuid": "13Bp7A6HjFUB2KbrwQcr8L",
       "localizations": [
         {
           "language": "de-DE",
@@ -593,12 +619,16 @@
         "dataType": "IfcLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "WalkingLineOffset",
       "definition": "Offset of the walking line from the inner side of the flight. Note: the walking line may have a own shape representation (in case of inconsistencies, the value derived from the shape representation shall take precedence).",
       "ifdGuid": "1AVsOPT2X7zv4v3QgKxZbj",
+      "legacyGuid": "1AVsOPT2X7zv4v3QgKxZbj",
       "localizations": [
         {
           "language": "de-DE",
@@ -640,12 +670,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "TreadLengthAtOffset",
       "definition": "Length of treads at a given offset.Walking line position is given by the 'WalkingLineOffset'. The resulting value should normally be identical with TreadLength, it may be given in addition, if the walking line offset for building code calculations is different from that used in design.",
       "ifdGuid": "3GbU5KIofCH9bJ0myezAl3",
+      "legacyGuid": "3GbU5KIofCH9bJ0myezAl3",
       "localizations": [
         {
           "language": "de-DE",
@@ -687,12 +721,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "TreadLengthAtInnerSide",
       "definition": "Minimum length of treads at the inner side of the winder. Only relevant in case of winding flights, for straight flights it is identical with IfcStairFlight.TreadLength. It is a pre-calculated value, in case of inconsistencies, the value derived from the shape representation shall take precedence.",
       "ifdGuid": "3t7Z4WuND04BvXrA2japJZ",
+      "legacyGuid": "3t7Z4WuND04BvXrA2japJZ",
       "localizations": [
         {
           "language": "de-DE",
@@ -734,12 +772,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "Headroom",
       "definition": "Actual headroom clearance for the passageway according to the current design. The shape information is provided in addition to the shape representation and the geometric parameters used within. In cases of inconsistency between the geometric parameters and the shape properties, provided in the attached property, the geometric parameters take precedence.",
       "ifdGuid": "1GBtnRS$f2Y9z$ArBcUbag",
+      "legacyGuid": "1GBtnRS$f2Y9z$ArBcUbag",
       "localizations": [
         {
           "language": "de-DE",
@@ -781,12 +823,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "WaistThickness",
       "definition": "Minimum thickness of the stair flight, measured perpendicular to the slope of the flight to the inner corner of riser and tread. It is a pre-calculated value, in case of inconsistencies, the value derived from the shape representation shall take precedence.",
       "ifdGuid": "29kwt_MvP0RRi26GsuZh1z",
+      "legacyGuid": "29kwt_MvP0RRi26GsuZh1z",
       "localizations": [
         {
           "language": "de-DE",
@@ -828,6 +874,9 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

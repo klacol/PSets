@@ -5,6 +5,7 @@
     "schema": "IfcHvacDomain"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "Boiler type common attributes.SoundLevel attribute deleted in IFC2x2 Pset Addendum: Use IfcSoundProperties instead. PrimaryEnergySource and AuxiliaryEnergySource attributes deleted in IFC2x2 Pset Addendum: Use IfcEnergyProperties, IfcFuelProperties, etc. instead.",
   "localizations": [
     {
@@ -49,6 +50,7 @@
       "name": "Reference",
       "definition": "Reference ID for this specified type in this project (e.g. type 'A-1'), provided, if there is no classification reference to a recognized classification system used.",
       "ifdGuid": "",
+      "legacyGuidAsIfcGlobalId": "",
       "localizations": [
         {
           "language": "fr-FR",
@@ -85,12 +87,16 @@
         "dataType": "IfcIdentifier",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "Status",
       "definition": "Status of the element, predominately used in renovation or retrofitting projects. The status can be assigned to as \"New\" - element designed as new addition, \"Existing\" - element exists and remains, \"Demolish\" - element existed but is to be demolished,  \"Temporary\" - element will exists only temporary (like a temporary support structure).",
       "ifdGuid": "",
+      "legacyGuidAsIfcGlobalId": "",
       "localizations": [
         {
           "language": "fr-FR",
@@ -349,12 +355,17 @@
             ]
           }
         ]
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "PressureRating",
       "definition": "Nominal pressure rating of the boiler as rated by the agency having jurisdiction.",
-      "ifdGuid": "3eqg3nmPnBqAHby6iYgKF6",
+      "ifdGuid": "",
+      "legacyGuid": "e8d2a0f1c19c4bd0a465f06b22a943c6",
+      "legacyGuidAsIfcGlobalId": "3eqg3nmPnBqAHby6iYgKF6",
       "localizations": [
         {
           "language": "fr-FR",
@@ -391,12 +402,17 @@
         "dataType": "IfcPressureMeasure",
         "measureType": "",
         "unitType": "PRESSUREUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "OperatingMode",
       "definition": "Identifies the operating mode of the boiler.",
-      "ifdGuid": "2gWrKnkkj3BufsZgxxon62",
+      "ifdGuid": "",
+      "legacyGuid": "aa835531baeb432f8a768eaefbcb1182",
+      "legacyGuidAsIfcGlobalId": "2gWrKnkkj3BufsZgxxon62",
       "localizations": [
         {
           "language": "fr-FR",
@@ -618,12 +634,17 @@
             ]
           }
         ]
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "HeatTransferSurfaceArea",
       "definition": "Total heat transfer area of the vessel.",
-      "ifdGuid": "0cQ3SdjDP8Ex5XSnjj91v_",
+      "ifdGuid": "",
+      "legacyGuid": "26683727b4d6483bb161731b6d241e7e",
+      "legacyGuidAsIfcGlobalId": "0cQ3SdjDP8Ex5XSnjj91v_",
       "localizations": [
         {
           "language": "fr-FR",
@@ -660,12 +681,17 @@
         "dataType": "IfcAreaMeasure",
         "measureType": "",
         "unitType": "AREAUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "NominalPartLoadRatio",
       "definition": "Allowable part load ratio range.",
-      "ifdGuid": "2bDn6VA3n2_Bk1GkkgB9jr",
+      "ifdGuid": "",
+      "legacyGuid": "a537119f283c42f8bb8142ebaa2c9b75",
+      "legacyGuidAsIfcGlobalId": "2bDn6VA3n2_Bk1GkkgB9jr",
       "localizations": [
         {
           "language": "fr-FR",
@@ -704,12 +730,17 @@
         "LowerBoundValue": "0",
         "UpperBoundValue": "?",
         "typeName": "TypePropertyBoundedValue"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "WaterInletTemperatureRange",
       "definition": "Allowable water inlet temperature range.",
-      "ifdGuid": "1QXAWEveXEKfPOkIKjlpFa",
+      "ifdGuid": "",
+      "legacyGuid": "5a84a80ee6884e529658b9252dbf33e4",
+      "legacyGuidAsIfcGlobalId": "1QXAWEveXEKfPOkIKjlpFa",
       "localizations": [
         {
           "language": "fr-FR",
@@ -748,12 +779,17 @@
         "LowerBoundValue": "0",
         "UpperBoundValue": "?",
         "typeName": "TypePropertyBoundedValue"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "WaterStorageCapacity",
       "definition": "Water storage capacity.",
-      "ifdGuid": "2azpbNazT9yOb6LuG_t8B4",
+      "ifdGuid": "",
+      "legacyGuid": "a4f7395793d749f1894657843edc82c4",
+      "legacyGuidAsIfcGlobalId": "2azpbNazT9yOb6LuG_t8B4",
       "localizations": [
         {
           "language": "fr-FR",
@@ -790,12 +826,17 @@
         "dataType": "IfcVolumeMeasure",
         "measureType": "",
         "unitType": "VOLUMEUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "IsWaterStorageHeater",
       "definition": "This is used to identify if the boiler has storage capacity (TRUE). If FALSE, then there is no storage capacity built into the boiler, such as an instantaneous hot water heater.",
-      "ifdGuid": "2NOeHZsxr3A8UtVWe$Ahiv",
+      "ifdGuid": "",
+      "legacyGuid": "97628463dbbd432887b77e0a3f2abb39",
+      "legacyGuidAsIfcGlobalId": "2NOeHZsxr3A8UtVWe$Ahiv",
       "localizations": [
         {
           "language": "fr-FR",
@@ -832,12 +873,17 @@
         "dataType": "IfcBoolean",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "PartialLoadEfficiencyCurves",
       "definition": "Boiler efficiency as a function of the partial load factor; E = f (partialLaodfactor).",
-      "ifdGuid": "2W9q$cp2T5vhsbKdCYZb$4",
+      "ifdGuid": "",
+      "legacyGuid": "a0274fe6cc2745e6bda55273228e5fc4",
+      "legacyGuidAsIfcGlobalId": "2W9q$cp2T5vhsbKdCYZb$4",
       "localizations": [
         {
           "language": "fr-FR",
@@ -882,12 +928,17 @@
           "measureType": "",
           "unitType": "USERDEFINED"
         }
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "OutletTemperatureRange",
       "definition": "Allowable outlet temperature of either the water or the steam.",
-      "ifdGuid": "1OZHD610T9PxqaGu$WExQu",
+      "ifdGuid": "",
+      "legacyGuid": "588d134604074967bd24438fe03bb6b8",
+      "legacyGuidAsIfcGlobalId": "1OZHD610T9PxqaGu$WExQu",
       "localizations": [
         {
           "language": "fr-FR",
@@ -926,12 +977,17 @@
         "LowerBoundValue": "0",
         "UpperBoundValue": "?",
         "typeName": "TypePropertyBoundedValue"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "NominalEnergyConsumption",
       "definition": "Nominal fuel consumption rate required to produce the total boiler heat output.",
-      "ifdGuid": "3__pLoYGjDpRxb04Mo4KcP",
+      "ifdGuid": "",
+      "legacyGuid": "fefb3572890b4dcdbee50045b2114999",
+      "legacyGuidAsIfcGlobalId": "3__pLoYGjDpRxb04Mo4KcP",
       "localizations": [
         {
           "language": "fr-FR",
@@ -968,12 +1024,16 @@
         "dataType": "IfcPowerMeasure",
         "measureType": "",
         "unitType": "POWERUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "EnergySource",
       "definition": "Enumeration defining the energy source or fuel cumbusted to generate heat.",
       "ifdGuid": "",
+      "legacyGuidAsIfcGlobalId": "",
       "localizations": [
         {
           "language": "fr-FR",
@@ -1454,6 +1514,9 @@
             ]
           }
         ]
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

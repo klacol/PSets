@@ -3,6 +3,7 @@ ifcVersion:
   version: 4.0.0.0
   schema: IfcElectricalDomain
 ifdGuid: ''
+legacyGuid: ''
 definition: 'Defines a particular type of engine that is a machine for converting electrical energy into mechanical energy. Note that in cases where a close coupled or monobloc pump or close coupled fan is being driven by the motor, the motor may itself be considered to be directly part of the pump or fan. In this case , motor information may need to be specified directly at the pump or fan and not througfh separate motor/motor connection entities. NOTE: StartingTime and TeTime added at IFC4'
 localizations:
 - language: de-DE
@@ -34,6 +35,7 @@ properties:
 - name: Reference
   definition: Reference ID for this specified type in this project (e.g. type 'A-1'), provided, if there is no classification reference to a recognized classification system used.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: ja-JP
     name: '参照'
@@ -60,9 +62,12 @@ properties:
     dataType: IfcIdentifier
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: Status
   definition: Status of the element, predominately used in renovation or retrofitting projects. The status can be assigned to as "New" - element designed as new addition, "Existing" - element exists and remains, "Demolish" - element existed but is to be demolished,  "Temporary" - element will exists only temporary (like a temporary support structure).
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: ja-JP
     name: '状態'
@@ -217,9 +222,12 @@ properties:
       - language: ru-RU
         name: 'Unknown'
         definition: ''
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: MaximumPowerOutput
   definition: The maximum output power rating of the engine.
   ifdGuid: 0qXZOEos56LubrhrOd8ThM
+  legacyGuid: 0qXZOEos56LubrhrOd8ThM
   localizations:
   - language: ja-JP
     name: '最大出力'
@@ -246,9 +254,12 @@ properties:
     dataType: IfcPowerMeasure
     measureType: ''
     unitType: POWERUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: ElectricMotorEfficiency
   definition: The ratio of output capacity to intake capacity.
   ifdGuid: 0Ampa1RfX7LRlh4yK616uY
+  legacyGuid: 0Ampa1RfX7LRlh4yK616uY
   localizations:
   - language: ja-JP
     name: '出力効率'
@@ -275,9 +286,12 @@ properties:
     dataType: IfcPositiveRatioMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: StartCurrentFactor
   definition: IEC. Start current factor defines how large the peak starting current will become on the engine. StartCurrentFactor is multiplied to NominalCurrent and to give the start current.
   ifdGuid: 3IQjKkNH9ElOpjH2Vv56Ur
+  legacyGuid: 3IQjKkNH9ElOpjH2Vv56Ur
   localizations:
   - language: ja-JP
     name: '始動電流係数'
@@ -304,9 +318,12 @@ properties:
     dataType: IfcReal
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: StartingTime
   definition: The time (in s) needed for the motor to reach its rated speed with its driven equipment attached, starting from standstill and at the nominal voltage applied at its terminals.
   ifdGuid: 2C5$yf4xz6oOuDAQmB4dQu
+  legacyGuid: 2C5$yf4xz6oOuDAQmB4dQu
   localizations:
   - language: ja-JP
     name: '始動時間'
@@ -333,9 +350,12 @@ properties:
     dataType: IfcTimeMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: TeTime
   definition: The maximum time (in s) at which the motor could run with locked rotor when the motor is used in an EX-environment. The time indicates that a protective device should trip before this time when the starting current of the motor is slowing through the device.
   ifdGuid: 2fCNFnZ2zAGvngNuGuzYDX
+  legacyGuid: 2fCNFnZ2zAGvngNuGuzYDX
   localizations:
   - language: ja-JP
     name: '最大時間'
@@ -362,9 +382,12 @@ properties:
     dataType: IfcTimeMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: LockedRotorCurrent
   definition: Input current when a motor armature is energized but not rotating.
   ifdGuid: 2rZzlvasT7GB41LmQ0926R
+  legacyGuid: 2rZzlvasT7GB41LmQ0926R
   localizations:
   - language: ja-JP
     name: '拘束ロータ電流'
@@ -391,9 +414,12 @@ properties:
     dataType: IfcElectricCurrentMeasure
     measureType: ''
     unitType: ELECTRICCURRENTUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: MotorEnclosureType
   definition: A list of the available types of motor enclosure from which that required may be selected.
   ifdGuid: 2vEDa4pXrEQvtGKr09V8z9
+  legacyGuid: 2vEDa4pXrEQvtGKr09V8z9
   localizations:
   - language: ja-JP
     name: 'モーター保護構造'
@@ -551,9 +577,12 @@ properties:
       - language: ru-RU
         name: 'Unknown'
         definition: ''
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: FrameSize
   definition: Designation of the frame size according to the named range of frame sizes designated at the place of use or according to a given standard.
   ifdGuid: 3NhCG_9Fb7UOeZcBoXAWyn
+  legacyGuid: 3NhCG_9Fb7UOeZcBoXAWyn
   localizations:
   - language: ja-JP
     name: 'フレームサイズ'
@@ -580,9 +609,12 @@ properties:
     dataType: IfcLabel
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: IsGuarded
   definition: Indication of whether the motor enclosure is guarded (= TRUE) or not (= FALSE).
   ifdGuid: 1SpFvqOWzCOerDMayxa5Pm
+  legacyGuid: 1SpFvqOWzCOerDMayxa5Pm
   localizations:
   - language: ja-JP
     name: '保護'
@@ -609,9 +641,12 @@ properties:
     dataType: IfcBoolean
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: HasPartWinding
   definition: Indication of whether the motor is single speed, i.e. has a single winding (= FALSE) or multi-speed i.e.has part winding (= TRUE) .
   ifdGuid: 2GptIrLJ98JP4BcoVFjwO_
+  legacyGuid: 2GptIrLJ98JP4BcoVFjwO_
   localizations:
   - language: ja-JP
     name: '巻線　'
@@ -638,3 +673,5 @@ properties:
     dataType: IfcBoolean
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

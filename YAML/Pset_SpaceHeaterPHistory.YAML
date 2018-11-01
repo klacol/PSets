@@ -3,6 +3,7 @@ ifcVersion:
   version: 4.0.0.0
   schema: IfcHvacDomain
 ifdGuid: ''
+legacyGuid: ''
 definition: 'Space heater performance history common attributes.'
 localizations:
 - language: de-DE
@@ -30,6 +31,7 @@ properties:
 - name: FractionRadiantHeatTransfer
   definition: Fraction of the total heat transfer rate as the radiant heat transfer.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: ja-JP
     name: '放射熱移動フラクション'
@@ -55,9 +57,12 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: FractionConvectiveHeatTransfer
   definition: Fraction of the total heat transfer rate as the convective heat transfer.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: ja-JP
     name: '対流熱移動フラクション'
@@ -83,9 +88,12 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: Effectiveness
   definition: Ratio of the real heat transfer rate to the maximum possible heat transfer rate.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: ja-JP
     name: '効率'
@@ -111,9 +119,12 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: SurfaceTemperature
   definition: Average surface temperature of the component.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: ja-JP
     name: '表面温度'
@@ -139,9 +150,12 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: SpaceAirTemperature
   definition: Dry bulb temperature in the space.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: ja-JP
     name: '室温'
@@ -167,9 +181,12 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: SpaceMeanRadiantTemperature
   definition: Mean radiant temperature in the space.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: ja-JP
     name: '室平均放射温度'
@@ -195,9 +212,12 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: AuxiliaryEnergySourceConsumption
   definition: Auxiliary energy source consumption.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: ja-JP
     name: '補助エネルギー源使用量'
@@ -223,9 +243,12 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: UACurve
   definition: UA curve as function of ambient temperature and surface temperature; UA = f (Tambient, Tsurface)
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: ja-JP
     name: 'UA曲線'
@@ -251,9 +274,12 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: OutputCapacityCurve
   definition: Partial output capacity curve (as a function of water temperature); Q = f (Twater).
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: ja-JP
     name: '部分的アウトプット能力曲線'
@@ -279,9 +305,12 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: AirResistanceCurve
   definition: Air resistance curve (w/ fan only); Pressure = f ( flow rate).
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: ja-JP
     name: '空気抵抗曲線'
@@ -307,9 +336,12 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: Exponent
   definition: Characteristic exponent, slope of log(heat output) vs log (surface temperature minus environmental temperature).
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: ja-JP
     name: '指数'
@@ -335,9 +367,12 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: HeatOutputRate
   definition: Overall heat transfer rate.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: ja-JP
     name: '熱出力比'
@@ -363,3 +398,5 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

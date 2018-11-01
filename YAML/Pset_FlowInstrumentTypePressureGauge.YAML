@@ -3,6 +3,7 @@ ifcVersion:
   version: 4.0.0.0
   schema: IfcBuildingControlsDomain
 ifdGuid: ''
+legacyGuid: ''
 definition: 'A device that reads and displays a pressure value at a point or the pressure difference between two points.'
 localizations:
 - language: de-DE
@@ -30,6 +31,7 @@ properties:
 - name: PressureGaugeType
   definition: Identifies the means by which pressure is displayed.
   ifdGuid: 3qD4We6DL9i8bTDBrAbTS_
+  legacyGuid: 3qD4We6DL9i8bTDBrAbTS_
   localizations:
   - language: ja-JP
     name: '圧力計タイプ'
@@ -165,9 +167,12 @@ properties:
       - language: ru-RU
         name: 'Unknown'
         definition: ''
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: DisplaySize
   definition: The physical size of the display. For a dial pressure gauge it will be the diameter of the dial.
   ifdGuid: 09az2clwT3Ax1Ech2l6Xr0
+  legacyGuid: 09az2clwT3Ax1Ech2l6Xr0
   localizations:
   - language: ja-JP
     name: '表示サイズ'
@@ -194,3 +199,5 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: LENGTHUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

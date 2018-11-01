@@ -3,6 +3,7 @@ ifcVersion:
   version: 4.0.0.0
   schema: IfcElectricalDomain
 ifdGuid: ''
+legacyGuid: ''
 definition: 'A junction box is an enclosure within which cables are connected.History: New in IFC4'
 localizations:
 - language: de-DE
@@ -30,6 +31,7 @@ properties:
 - name: Reference
   definition: Reference ID for this specified type in this project (e.g. type 'A-1'), provided, if there is no classification reference to a recognized classification system used.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: ja-JP
     name: '参照'
@@ -56,9 +58,12 @@ properties:
     dataType: IfcIdentifier
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: Status
   definition: Status of the element, predominately used in renovation or retrofitting projects. The status can be assigned to as "New" - element designed as new addition, "Existing" - element exists and remains, "Demolish" - element existed but is to be demolished,  "Temporary" - element will exists only temporary (like a temporary support structure).
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: ja-JP
     name: '状態'
@@ -213,9 +218,12 @@ properties:
       - language: ru-RU
         name: 'Unknown'
         definition: ''
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: NumberOfGangs
   definition: Number of slots available for switches/outlets (most commonly 1, 2, 3, or 4).
   ifdGuid: 07P1xCGU54XgyqXJh9cOnN
+  legacyGuid: 07P1xCGU54XgyqXJh9cOnN
   localizations:
   - language: ja-JP
     name: '分岐の数'
@@ -242,9 +250,12 @@ properties:
     dataType: IfcInteger
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: ClearDepth
   definition: Clear unobstructed depth available for cable inclusion within the junction box.
   ifdGuid: 3wbunmp8v6tQoz2$j7SqDv
+  legacyGuid: 3wbunmp8v6tQoz2$j7SqDv
   localizations:
   - language: ja-JP
     name: '明確な深さ'
@@ -271,9 +282,12 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: LENGTHUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: ShapeType
   definition: Shape of the junction box.
   ifdGuid: 3BT6cA9Rn5QwnrvAh3wor0
+  legacyGuid: 3BT6cA9Rn5QwnrvAh3wor0
   localizations:
   - language: ja-JP
     name: '形状'
@@ -409,9 +423,12 @@ properties:
       - language: ru-RU
         name: 'Unknown'
         definition: ''
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: PlacingType
   definition: Location at which the type of junction box can be located.
   ifdGuid: 28NG40R8r3ixVZy4J9U5eJ
+  legacyGuid: 28NG40R8r3ixVZy4J9U5eJ
   localizations:
   - language: ja-JP
     name: '位置'
@@ -547,9 +564,12 @@ properties:
       - language: ru-RU
         name: 'Unknown'
         definition: ''
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: MountingType
   definition: Method of mounting to be adopted for the type of junction box.
   ifdGuid: 1yZGLyIN96cQXWzOJPL7ng
+  legacyGuid: 1yZGLyIN96cQXWzOJPL7ng
   localizations:
   - language: ja-JP
     name: '取り付け'
@@ -685,9 +705,12 @@ properties:
       - language: ru-RU
         name: 'Unknown'
         definition: ''
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: IsExternal
   definition: Indication of whether the junction box type is allowed for exposure to outdoor elements (set TRUE where external exposure is allowed).
   ifdGuid: 3flUkKDuz0Pw7BHfIlflQq
+  legacyGuid: 3flUkKDuz0Pw7BHfIlflQq
   localizations:
   - language: ja-JP
     name: '外部露出'
@@ -714,9 +737,12 @@ properties:
     dataType: IfcBoolean
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: IP_Code
   definition: IEC 60529 (1989) Classification of degrees of protection provided by enclosures (IP Code).
   ifdGuid: 12pJrn_yH978AkSxKk_feC
+  legacyGuid: 12pJrn_yH978AkSxKk_feC
   localizations:
   - language: ja-JP
     name: '機密性エンクロージャ等級'
@@ -743,3 +769,5 @@ properties:
     dataType: IfcLabel
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

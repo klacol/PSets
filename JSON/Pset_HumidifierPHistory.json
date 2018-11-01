@@ -5,6 +5,7 @@
     "schema": "IfcHvacDomain"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "Humidifier performance history attributes.Sound attribute deleted in IFC2x2 Pset Addendum: Use IfcSoundProperties instead.",
   "localizations": [
     {
@@ -49,6 +50,7 @@
       "name": "AtmosphericPressure",
       "definition": "Ambient atmospheric pressure.",
       "ifdGuid": "0L4DCZ3Wb99AoB01_ua0r3",
+      "legacyGuid": "0L4DCZ3Wb99AoB01_ua0r3",
       "localizations": [
         {
           "language": "ja-JP",
@@ -87,12 +89,16 @@
         "guid": "",
         "libraryName": "Industry Foundation Classes by buildingSMART International",
         "sectionref": "Core Schema"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "SaturationEfficiency",
       "definition": "Saturation efficiency: Ratio of leaving air absolute humidity to the maximum absolute humidity.",
       "ifdGuid": "3I0isy8Z56YQZkK$8ldYKU",
+      "legacyGuid": "3I0isy8Z56YQZkK$8ldYKU",
       "localizations": [
         {
           "language": "ja-JP",
@@ -131,6 +137,9 @@
         "guid": "",
         "libraryName": "Industry Foundation Classes by buildingSMART International",
         "sectionref": "Core Schema"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

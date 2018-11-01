@@ -3,6 +3,7 @@ ifcVersion:
   version: 4.0.0.0
   schema: IfcHvacDomain
 ifdGuid: ''
+legacyGuid: ''
 definition: 'Filter performance history attributes.'
 localizations:
 - language: de-DE
@@ -30,6 +31,7 @@ properties:
 - name: CountedEfficiency
   definition: Filter efficiency based the particle counts concentration before and after filter against particles with certain size distribution.
   ifdGuid: 2wT_inaQLENBfwOPpVTTy2
+  legacyGuid: 2wT_inaQLENBfwOPpVTTy2
   localizations:
   - language: de-DE
     name: ''
@@ -55,9 +57,12 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: WeightedEfficiency
   definition: Filter efficiency based the particle weight concentration before and after filter against particles with certain size distribution.
   ifdGuid: 1t0ugVthf9LwEoaPSZvqUI
+  legacyGuid: 1t0ugVthf9LwEoaPSZvqUI
   localizations:
   - language: de-DE
     name: ''
@@ -83,9 +88,12 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: ParticleMassHolding
   definition: Mass of particle holding in the filter.
   ifdGuid: 0f56Adr3D5SOoEyDPFsxGX
+  legacyGuid: 0f56Adr3D5SOoEyDPFsxGX
   localizations:
   - language: de-DE
     name: ''
@@ -111,3 +119,5 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

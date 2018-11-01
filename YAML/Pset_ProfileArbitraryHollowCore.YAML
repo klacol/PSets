@@ -3,6 +3,7 @@ ifcVersion:
   version: 4.0.0.0
   schema: IfcProfileResource
 ifdGuid: ''
+legacyGuid: ''
 definition: 'This is a collection of geometric properties of hollow core section profiles of precast concrete elements, to be used in conjunction with IfcArbitraryProfileDefWithVoids when profile designation alone does not fulfill the information requirements.  In all cases, the cores are symmetrically distributed on either side of the plank center line, irrespective of whether the number of cores is odd or even. For planks with a center core with different geometry to that of the other cores, provide the property CenterCoreSpacing. When the number of cores is even, no Center Core properties shall be asserted.Key chamfers and draft chamfer are all 45 degree chamfers.The CoreTopRadius and CoreBaseRadius parameters can be derived and are therefore not listed in the property set. They are shown to define that the curves are arcs. The parameters for the center core are the same as above, but with the prefix "Center".'
 localizations:
 - language: de-DE
@@ -30,6 +31,7 @@ properties:
 - name: OverallWidth
   definition: Overall width of the profile.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: de-DE
     name: ''
@@ -53,9 +55,12 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: OverallDepth
   definition: Overall depth of the profile.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: de-DE
     name: ''
@@ -79,9 +84,12 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: EdgeDraft
   definition: Edge draft of the profile.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: de-DE
     name: ''
@@ -105,9 +113,12 @@ properties:
     dataType: IfcNonNegativeLengthMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: DraftBaseOffset
   definition: Draft base offset of the profile.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: de-DE
     name: ''
@@ -131,9 +142,12 @@ properties:
     dataType: IfcNonNegativeLengthMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: DraftSideOffset
   definition: Draft side offset of the profile.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: de-DE
     name: ''
@@ -157,9 +171,12 @@ properties:
     dataType: IfcNonNegativeLengthMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: BaseChamfer
   definition: Base chamfer of the profile.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: de-DE
     name: ''
@@ -183,9 +200,12 @@ properties:
     dataType: IfcNonNegativeLengthMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: KeyDepth
   definition: Key depth of the profile.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: de-DE
     name: ''
@@ -209,9 +229,12 @@ properties:
     dataType: IfcNonNegativeLengthMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: KeyHeight
   definition: Key height of the profile.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: de-DE
     name: ''
@@ -235,9 +258,12 @@ properties:
     dataType: IfcNonNegativeLengthMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: KeyOffset
   definition: Key offset of the profile.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: de-DE
     name: ''
@@ -261,9 +287,12 @@ properties:
     dataType: IfcNonNegativeLengthMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: BottomCover
   definition: Bottom cover of the profile.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: de-DE
     name: ''
@@ -287,9 +316,12 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: CoreSpacing
   definition: Core spacing of the profile.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: de-DE
     name: ''
@@ -313,9 +345,12 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: CoreBaseHeight
   definition: Core base height of the profile.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: de-DE
     name: ''
@@ -339,9 +374,12 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: CoreMiddleHeight
   definition: Core middle height of the profile.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: de-DE
     name: ''
@@ -365,9 +403,12 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: CoreTopHeight
   definition: Core top height of the profile.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: de-DE
     name: ''
@@ -391,9 +432,12 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: CoreBaseWidth
   definition: Core base width of the profile.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: de-DE
     name: ''
@@ -417,9 +461,12 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: CoreTopWidth
   definition: Core top width of the profile.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: de-DE
     name: ''
@@ -443,9 +490,12 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: CenterCoreSpacing
   definition: Center core spacing of the profile.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: de-DE
     name: ''
@@ -469,9 +519,12 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: CenterCoreBaseHeight
   definition: Center core base height of the profile.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: de-DE
     name: ''
@@ -495,9 +548,12 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: CenterCoreMiddleHeight
   definition: Center core middle height of the profile.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: de-DE
     name: ''
@@ -521,9 +577,12 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: CenterCoreTopHeight
   definition: Center core top height of the profile.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: de-DE
     name: ''
@@ -547,9 +606,12 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: CenterCoreBaseWidth
   definition: Center core base width of the profile.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: de-DE
     name: ''
@@ -573,9 +635,12 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: CenterCoreTopWidth
   definition: Center core top width of the profile.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: de-DE
     name: ''
@@ -599,9 +664,12 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: NumberOfCores
   definition: Number of cores.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: de-DE
     name: ''
@@ -625,3 +693,5 @@ properties:
     dataType: IfcCountMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

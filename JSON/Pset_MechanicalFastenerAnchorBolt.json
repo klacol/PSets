@@ -5,6 +5,7 @@
     "schema": "IfcSharedComponentElements"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "Properties common to different types of anchor bolts.",
   "localizations": [
     {
@@ -49,6 +50,7 @@
       "name": "AnchorBoltLength",
       "definition": "The length of the anchor bolt.",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "ja-JP",
@@ -90,12 +92,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "AnchorBoltDiameter",
       "definition": "The nominal diameter of the anchor bolt bar(s).",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "ja-JP",
@@ -137,12 +143,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "AnchorBoltThreadLength",
       "definition": "The length of the threaded part of the anchor bolt.",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "ko-KR",
@@ -184,12 +194,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "AnchorBoltProtrusionLength",
       "definition": "The length of the protruding part of the anchor bolt.",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "ko-KR",
@@ -231,6 +245,9 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

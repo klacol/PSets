@@ -3,6 +3,7 @@ ifcVersion:
   version: 4.0.0.0
   schema: IfcSharedMgmtElements
 ifdGuid: ''
+legacyGuid: ''
 definition: 'A change order is an instruction to make a change to a product or work being undertake. Note that the change order status is defined in the same way as a work order status since a change order implies a work requirement.'
 localizations:
 - language: de-DE
@@ -30,6 +31,7 @@ properties:
 - name: ReasonForChange
   definition: A description of the problem for why a change is needed.
   ifdGuid: 03jtHj8WP8MRD9gqf9UsZt
+  legacyGuid: 03jtHj8WP8MRD9gqf9UsZt
   localizations:
   - language: ja-JP
     name: '変更理由'
@@ -53,9 +55,12 @@ properties:
     dataType: IfcText
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: BudgetSource
   definition: The budget source requested.
   ifdGuid: 0qxDPsaBr3$RMHVFggXXV$
+  legacyGuid: 0qxDPsaBr3$RMHVFggXXV$
   localizations:
   - language: ja-JP
     name: '予算源'
@@ -79,3 +84,5 @@ properties:
     dataType: IfcText
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

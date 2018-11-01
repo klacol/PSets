@@ -5,6 +5,7 @@
     "schema": "IfcHvacDomain"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "Evaporative cooler type common attributes.Sound attribute deleted in IFC2x2 Pset Addendum: Use IfcSoundProperties instead. WaterRequirement attribute unit type modified in IFC2x2 Pset Addendum.",
   "localizations": [
     {
@@ -49,6 +50,7 @@
       "name": "Reference",
       "definition": "Reference ID for this specified type in this project (e.g. type 'A-1').",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "ja-JP",
@@ -85,12 +87,16 @@
         "dataType": "IfcIdentifier",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "Status",
       "definition": "Status of the element, predominately used in renovation or retrofitting projects. The status can be assigned to as \"New\" - element designed as new addition, \"Existing\" - element exists and remains, \"Demolish\" - element existed but is to be demolished,  \"Temporary\" - element will exists only temporary (like a temporary support structure).",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "ja-JP",
@@ -349,12 +355,16 @@
             ]
           }
         ]
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "FlowArrangement",
       "definition": "CounterFlow: Air and water flow enter in different directions.CrossFlow: Air and water flow are perpendicular.ParallelFlow: Air and water flow enter in same directions.",
       "ifdGuid": "1f6_4ifpb81R5abzEsUvwM",
+      "legacyGuid": "1f6_4ifpb81R5abzEsUvwM",
       "localizations": [
         {
           "language": "ja-JP",
@@ -576,12 +586,16 @@
             ]
           }
         ]
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "HeatExchangeArea",
       "definition": "Heat exchange area.",
       "ifdGuid": "0g8GRVdsn8l8v8RmBYTEGR",
+      "legacyGuid": "0g8GRVdsn8l8v8RmBYTEGR",
       "localizations": [
         {
           "language": "ja-JP",
@@ -618,12 +632,16 @@
         "dataType": "IfcAreaMeasure",
         "measureType": "",
         "unitType": "AREAUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "OperationTemperatureRange",
       "definition": "Allowable operation ambient air temperature range.",
       "ifdGuid": "0YXzf5c5nDHwJwJypbCfjz",
+      "legacyGuid": "0YXzf5c5nDHwJwJypbCfjz",
       "localizations": [
         {
           "language": "ja-JP",
@@ -662,12 +680,16 @@
         "LowerBoundValue": "0",
         "UpperBoundValue": "?",
         "typeName": "TypePropertyBoundedValue"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "WaterRequirement",
       "definition": "Make-up water requirement.",
       "ifdGuid": "1_r7GYj_D2Yg5vXR0RZWd1",
+      "legacyGuid": "1_r7GYj_D2Yg5vXR0RZWd1",
       "localizations": [
         {
           "language": "ja-JP",
@@ -704,12 +726,16 @@
         "dataType": "IfcVolumetricFlowRateMeasure",
         "measureType": "",
         "unitType": "VOLUMETRICFLOWRATEUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "EffectivenessTable",
       "definition": "Total heat transfer effectiveness curve as a function of the primary air flow rate.",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "de-DE",
@@ -754,12 +780,16 @@
           "measureType": "",
           "unitType": "USERDEFINED"
         }
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "AirPressureDropCurve",
       "definition": "Air pressure drop as function of air flow rate.",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "de-DE",
@@ -804,12 +834,16 @@
           "measureType": "",
           "unitType": "USERDEFINED"
         }
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "WaterPressDropCurve",
       "definition": "Water pressure drop as function of water flow rate.",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "de-DE",
@@ -854,6 +888,9 @@
           "measureType": "",
           "unitType": "USERDEFINED"
         }
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

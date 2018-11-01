@@ -5,6 +5,7 @@
     "schema": "IfcHvacDomain"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "A small diameter valve, with a free outlet, from which water is drawn.",
   "localizations": [
     {
@@ -49,6 +50,7 @@
       "name": "FaucetType",
       "definition": "Defines the range of faucet types that may be specified where:Bib:\t Faucet with a horizontal inlet and a nozzle that discharges downwards.Globe:\t Faucet fitted through the end of a bath, with a horizontal inlet, a partially spherical body and a vertical nozzle.Diverter: \tCombination faucet assembly with a valve to enable the flow of mixed water to be transferred to a showerhead.DividedFlowCombination:\t Combination faucet assembly in which hot and cold water are kept separate until emerging from a common nozzle.Pillar:\t Faucet that has a vertical inlet and a nozzle that discharges downwards.SingleOutletCombination =\t Combination faucet assembly in which hot and cold water mix before emerging from a common nozzle.Spray:\t Faucet with a spray outlet.SprayMixing:\t Spray faucet connected to hot and cold water supplies that delivers water at a temperature determined during use.",
       "ifdGuid": "3a_X3MwInDmBLLi2R$ZNBN",
+      "legacyGuid": "3a_X3MwInDmBLLi2R$ZNBN",
       "localizations": [
         {
           "language": "ja-JP",
@@ -455,12 +457,16 @@
             ]
           }
         ]
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "FaucetOperation",
       "definition": "Defines the range of ways in which a faucet can be operated that may be specified where:CeramicDisc: Quick action faucet with a ceramic seal to open or close the orifice.LeverHandle: Quick action faucet that is operated by a lever handle.NonConcussiveSelfClosing:\t Self closing faucet that does not induce surge pressure.QuarterTurn: Quick action faucet that can be fully opened or shut by turning the operating mechanism through 90 degrees.QuickAction: Faucet that can be opened or closed fully with a single small movement of the operating mechanism.ScrewDown: Faucet in which a plate or disc is moved, by the rotation of a screwed spindle, to close or open the orifice.SelfClosing: Faucet that is opened by pressure of the top of an operating spindle and is closed under the action of a spring or weight when the pressure is released.TimedSelfClosing: \tSelf closing faucet that discharges for a predetermined period of time.",
       "ifdGuid": "08qy9Y9Q1CvPzqoQDTapNR",
+      "legacyGuid": "08qy9Y9Q1CvPzqoQDTapNR",
       "localizations": [
         {
           "language": "ja-JP",
@@ -867,12 +873,16 @@
             ]
           }
         ]
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "FaucetFunction",
       "definition": "Defines the operating temperature of a faucet that may be specified.",
       "ifdGuid": "1Xhmg8d5r4UfiSEUh$nz5p",
+      "legacyGuid": "1Xhmg8d5r4UfiSEUh$nz5p",
       "localizations": [
         {
           "language": "ja-JP",
@@ -1094,12 +1104,16 @@
             ]
           }
         ]
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "Finish",
       "definition": "Description of the finish applied to the faucet.",
       "ifdGuid": "0M5pwx4oXFLv2OqOPM9jeh",
+      "legacyGuid": "0M5pwx4oXFLv2OqOPM9jeh",
       "localizations": [
         {
           "language": "ja-JP",
@@ -1136,12 +1150,16 @@
         "dataType": "IfcText",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "FaucetTopDescription",
       "definition": "Description of the operating mechanism/top of the faucet.",
       "ifdGuid": "14j_WNKbPElO5Tf6ZabpeQ",
+      "legacyGuid": "14j_WNKbPElO5Tf6ZabpeQ",
       "localizations": [
         {
           "language": "ja-JP",
@@ -1178,6 +1196,9 @@
         "dataType": "IfcText",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

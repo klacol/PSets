@@ -5,6 +5,7 @@
     "schema": "IfcHvacDomain"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "Duct segment performance history common attributes.",
   "localizations": [
     {
@@ -49,6 +50,7 @@
       "name": "LossCoefficient",
       "definition": "Dimensionless loss coefficient used for calculating fluid resistance representing the ratio of total pressure loss to velocity pressure at a referenced cross-section.",
       "ifdGuid": "1crbg5E352nBfkQpuyCfKY",
+      "legacyGuid": "1crbg5E352nBfkQpuyCfKY",
       "localizations": [
         {
           "language": "ja-JP",
@@ -87,12 +89,16 @@
         "guid": "",
         "libraryName": "Industry Foundation Classes by buildingSMART International",
         "sectionref": "Core Schema"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "AtmosphericPressure",
       "definition": "Ambient atmospheric pressure.",
       "ifdGuid": "3xnEbj5Qz3NP_4HvMFgXxg",
+      "legacyGuid": "3xnEbj5Qz3NP_4HvMFgXxg",
       "localizations": [
         {
           "language": "ja-JP",
@@ -131,12 +137,16 @@
         "guid": "",
         "libraryName": "Industry Foundation Classes by buildingSMART International",
         "sectionref": "Core Schema"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "LeakageCurve",
       "definition": "Leakage per unit length curve versus working pressure. If a scalar is expressed then it represents LeakageClass which is flowrate per unit area at a specified pressure rating (e.g., ASHRAE Fundamentals 2001 34.16.).",
       "ifdGuid": "2W3xu4khDBuAWRnkP9XKno",
+      "legacyGuid": "2W3xu4khDBuAWRnkP9XKno",
       "localizations": [
         {
           "language": "ja-JP",
@@ -175,12 +185,16 @@
         "guid": "",
         "libraryName": "Industry Foundation Classes by buildingSMART International",
         "sectionref": "Core Schema"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "FluidFlowLeakage",
       "definition": "Volumetric leakage flow rate.",
       "ifdGuid": "13SJLT53rEYRsV_stxhA_u",
+      "legacyGuid": "13SJLT53rEYRsV_stxhA_u",
       "localizations": [
         {
           "language": "ja-JP",
@@ -219,6 +233,9 @@
         "guid": "",
         "libraryName": "Industry Foundation Classes by buildingSMART International",
         "sectionref": "Core Schema"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

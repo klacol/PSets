@@ -3,6 +3,7 @@ ifcVersion:
   version: 4.0.0.0
   schema: IfcBuildingControlsDomain
 ifdGuid: ''
+legacyGuid: ''
 definition: 'Properties for Discrete Digital Control (DDC) or programmable logic controllers.  HISTORY: Added in IFC4.'
 localizations:
 - language: de-DE
@@ -30,6 +31,7 @@ properties:
 - name: ControlType
   definition: 'The type of discrete digital controller: PRIMARY: Controller has built-in communication interface for PC connection, may manage secondary controllers.SECONDARY: Controller communicates with primary controller and its own managed devices.'
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: de-DE
     name: ''
@@ -140,9 +142,12 @@ properties:
       - language: ru-RU
         name: 'Unknown'
         definition: ''
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: FirmwareVersion
   definition: Indicates version of device firmware according to device manufacturer.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: ko-KR
     name: '펌웨어 버전'
@@ -169,9 +174,12 @@ properties:
     dataType: IfcLabel
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: SoftwareVersion
   definition: Indicates version of application software according to systems integrator.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: ko-KR
     name: '소프트웨어 버전'
@@ -198,9 +206,12 @@ properties:
     dataType: IfcLabel
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: Application
   definition: Indicates application of controller.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: de-DE
     name: ''
@@ -663,3 +674,5 @@ properties:
       - language: ru-RU
         name: 'Unknown'
         definition: ''
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

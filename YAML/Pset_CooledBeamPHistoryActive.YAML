@@ -3,6 +3,7 @@ ifcVersion:
   version: 4.0.0.0
   schema: IfcHvacDomain
 ifdGuid: ''
+legacyGuid: ''
 definition: 'Performance history attributes for an active cooled beam.'
 localizations:
 - language: de-DE
@@ -30,6 +31,7 @@ properties:
 - name: AirFlowRate
   definition: Air flow rate.
   ifdGuid: 2GoUPb1e5Bx9$vnBQc_J5K
+  legacyGuid: 2GoUPb1e5Bx9$vnBQc_J5K
   localizations:
   - language: de-DE
     name: ''
@@ -55,9 +57,12 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: Throw
   definition: Distance cooled beam throws the air.
   ifdGuid: 2QN98Snsf9yQj0yo98QqKy
+  legacyGuid: 2QN98Snsf9yQj0yo98QqKy
   localizations:
   - language: de-DE
     name: ''
@@ -83,9 +88,12 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: AirPressureDropCurves
   definition: Air pressure drop as function of air flow rate.
   ifdGuid: 0StdX$MjD1_PdSgzrIlGWa
+  legacyGuid: 0StdX$MjD1_PdSgzrIlGWa
   localizations:
   - language: de-DE
     name: ''
@@ -111,3 +119,5 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

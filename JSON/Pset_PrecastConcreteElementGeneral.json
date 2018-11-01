@@ -5,6 +5,7 @@
     "schema": "IfcStructuralElementsDomain"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "Production and manufacturing related properties common to different types of precast concrete elements. The Pset can be used by a number of subtypes of IfcBuildingElement. If the precast concrete element is a sandwich wall panel each structural layer or shell represented by an IfcBuildingElementPart may be attached to a separate Pset of this type, if needed. Some of the properties apply only for specific types of precast concrete elements.",
   "localizations": [
     {
@@ -49,6 +50,7 @@
       "name": "TypeDesignator",
       "definition": "Type designator for the precast concrete element. The content depends on local standards. For instance in Finland it usually a one-letter acronym, e.g. P=Column, K=reinforced concrete beam,etc.",
       "ifdGuid": "2UnmMEYoH218klmCjsrASc",
+      "legacyGuid": "2UnmMEYoH218klmCjsrASc",
       "localizations": [
         {
           "language": "ja-JP",
@@ -85,12 +87,16 @@
         "dataType": "IfcLabel",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "CornerChamfer",
       "definition": "The chamfer in the corners of the precast element. The chamfer is presumed to be equal in both directions.",
       "ifdGuid": "0O1AKS14jC3Q0Kkcr0dS4t",
+      "legacyGuid": "0O1AKS14jC3Q0Kkcr0dS4t",
       "localizations": [
         {
           "language": "ja-JP",
@@ -127,12 +133,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "ManufacturingToleranceClass",
       "definition": "Classification designation of the manufacturing tolerances according to local standards.",
       "ifdGuid": "0F2TjjHZn9wO0QgaWApRFz",
+      "legacyGuid": "0F2TjjHZn9wO0QgaWApRFz",
       "localizations": [
         {
           "language": "ja-JP",
@@ -169,12 +179,16 @@
         "dataType": "IfcLabel",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "FormStrippingStrength",
       "definition": "The minimum required compressive strength of the concrete at form stripping time.",
       "ifdGuid": "19$Q9xnK16JOzIsAkAHGns",
+      "legacyGuid": "19$Q9xnK16JOzIsAkAHGns",
       "localizations": [
         {
           "language": "ja-JP",
@@ -211,12 +225,16 @@
         "dataType": "IfcPressureMeasure",
         "measureType": "",
         "unitType": "PRESSUREUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "LiftingStrength",
       "definition": "The minimum required compressive strength of the concrete when the concrete element is lifted.",
       "ifdGuid": "3FF8onqRnDsellPTppGKgJ",
+      "legacyGuid": "3FF8onqRnDsellPTppGKgJ",
       "localizations": [
         {
           "language": "ja-JP",
@@ -253,12 +271,16 @@
         "dataType": "IfcPressureMeasure",
         "measureType": "",
         "unitType": "PRESSUREUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "ReleaseStrength",
       "definition": "The minimum required compressive strength of the concrete when the tendon stress is released. This property applies to prestressed concrete elements only.",
       "ifdGuid": "3YMvnqEML1xwSvDtw86QRJ",
+      "legacyGuid": "3YMvnqEML1xwSvDtw86QRJ",
       "localizations": [
         {
           "language": "ja-JP",
@@ -295,12 +317,16 @@
         "dataType": "IfcPressureMeasure",
         "measureType": "",
         "unitType": "PRESSUREUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "MinimumAllowableSupportLength",
       "definition": "The minimum allowable support length.",
       "ifdGuid": "36r5iN3HT7ZBjOlRq9hLGR",
+      "legacyGuid": "36r5iN3HT7ZBjOlRq9hLGR",
       "localizations": [
         {
           "language": "ja-JP",
@@ -337,12 +363,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "InitialTension",
       "definition": "The initial stress of the tendon. This property applies to prestressed concrete elements only.",
       "ifdGuid": "1bv4W2rjP2kOOtlpvRzuTz",
+      "legacyGuid": "1bv4W2rjP2kOOtlpvRzuTz",
       "localizations": [
         {
           "language": "ja-JP",
@@ -379,12 +409,16 @@
         "dataType": "IfcPressureMeasure",
         "measureType": "",
         "unitType": "PRESSUREUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "TendonRelaxation",
       "definition": "The maximum allowable relaxation of the tendon (usually expressed as %/1000 h).This property applies to prestressed concrete elements only.",
       "ifdGuid": "379KU7Ts590Px5O9VaUeFy",
+      "legacyGuid": "379KU7Ts590Px5O9VaUeFy",
       "localizations": [
         {
           "language": "ja-JP",
@@ -421,12 +455,16 @@
         "dataType": "IfcPositiveRatioMeasure",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "TransportationStrength",
       "definition": "The minimum required compressive strength of the concrete required for transportation.",
       "ifdGuid": "2nVCUbSg9B89UrOXYHDK5R",
+      "legacyGuid": "2nVCUbSg9B89UrOXYHDK5R",
       "localizations": [
         {
           "language": "ja-JP",
@@ -463,12 +501,16 @@
         "dataType": "IfcPressureMeasure",
         "measureType": "",
         "unitType": "PRESSUREUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "SupportDuringTransportDescription",
       "definition": "Textual description of how the concrete element is supported during transportation.",
       "ifdGuid": "1PaKlyKO9BQ8EnpTj9LgqK",
+      "legacyGuid": "1PaKlyKO9BQ8EnpTj9LgqK",
       "localizations": [
         {
           "language": "ja-JP",
@@ -505,12 +547,16 @@
         "dataType": "IfcText",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "SupportDuringTransportDocReference",
       "definition": "Reference to an external document defining how the concrete element is supported during transportation.",
       "ifdGuid": "15pYFVqhPDFRmXi5oTc1Ft",
+      "legacyGuid": "15pYFVqhPDFRmXi5oTc1Ft",
       "localizations": [
         {
           "language": "ja-JP",
@@ -549,12 +595,16 @@
         "guid": "",
         "libraryName": "Industry Foundation Classes by buildingSMART International",
         "sectionref": "Core Schema"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "HollowCorePlugging",
       "definition": "A descriptive label for how the hollow core ends are treated: they may be left open, closed with a plug, or sealed with cast concrete. Values would be, for example: 'Unplugged', 'Plugged', 'SealedWithConcrete'. This property applies to  hollow core slabs only.",
       "ifdGuid": "3Wx2$W4QX8xw_uZWLVWB5b",
+      "legacyGuid": "3Wx2$W4QX8xw_uZWLVWB5b",
       "localizations": [
         {
           "language": "ja-JP",
@@ -591,12 +641,16 @@
         "dataType": "IfcLabel",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "CamberAtMidspan",
       "definition": "The camber deflection, measured from the midpoint of a cambered face of a piece to the midpoint of the chord joining the ends of the same face, as shown in the figure below, divided by the original (nominal) straight length of the face of the piece.",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "de-DE",
@@ -633,12 +687,16 @@
         "dataType": "IfcRatioMeasure",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "BatterAtStart",
       "definition": "The angle, in radians, by which the formwork at the starting face of a piece is to be rotated from the vertical in order to compensate for the rotation of the face that will occur once the piece is stripped from its form, inducing camber due to eccentric prestressing.",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "de-DE",
@@ -675,12 +733,16 @@
         "dataType": "IfcPlaneAngleMeasure",
         "measureType": "",
         "unitType": "PLANEANGLEUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "BatterAtEnd",
       "definition": "The angle, in radians, by which the formwork at the ending face of a piece is to be rotated from the vertical in order to compensate for the rotation of the face that will occur once the piece is stripped from its form, inducing camber due to eccentric prestressing.",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "de-DE",
@@ -717,12 +779,16 @@
         "dataType": "IfcPlaneAngleMeasure",
         "measureType": "",
         "unitType": "PLANEANGLEUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "Twisting",
       "definition": "The angle, in radians, through which the end face of a precast piece is rotated with respect to its starting face, along its longitudinal axis, as a result of non-aligned supports. This measure is also termed the ‘warping’ angle.",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "de-DE",
@@ -759,12 +825,16 @@
         "dataType": "IfcPlaneAngleMeasure",
         "measureType": "",
         "unitType": "PLANEANGLEUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "Shortening",
       "definition": "The ratio of the distance by which a precast piece is shortened after release from its form (due to compression induced by prestressing) to its original (nominal) length.",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "de-DE",
@@ -801,12 +871,16 @@
         "dataType": "IfcRatioMeasure",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "PieceMark",
       "definition": "Defines a unique piece for production purposes. All pieces with the same piece mark value are identical and interchangeable. The piece mark may be composed of sub-parts that have specific locally defined meaning (e.g. B-1A may denote a beam, of generic type ‘1’ and specific shape ‘A’).",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "de-DE",
@@ -843,12 +917,16 @@
         "dataType": "IfcLabel",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "DesignLocationNumber",
       "definition": "Defines a unique location within a structure, the ‘slot’ for which the piece was designed.",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "de-DE",
@@ -885,6 +963,9 @@
         "dataType": "IfcLabel",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

@@ -5,6 +5,7 @@
     "schema": "IfcHvacDomain"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "Device that measures, indicates and sometimes records, the volume of water that passes through it without interrupting the flow.",
   "localizations": [
     {
@@ -49,6 +50,7 @@
       "name": "Type",
       "definition": "Defines the allowed values for selection of the flow meter operation type.",
       "ifdGuid": "2q$4skVWf3pRy8QjNvbrFp",
+      "legacyGuid": "2q$4skVWf3pRy8QjNvbrFp",
       "localizations": [
         {
           "language": "de-DE",
@@ -270,12 +272,16 @@
             ]
           }
         ]
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "ConnectionSize",
       "definition": "Defines the size of inlet and outlet pipe connections to the meter.",
       "ifdGuid": "2pRomY4JH3Uwvt6HwixSq1",
+      "legacyGuid": "2pRomY4JH3Uwvt6HwixSq1",
       "localizations": [
         {
           "language": "de-DE",
@@ -312,12 +318,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "MaximumFlowRate",
       "definition": "Maximum rate of flow which the meter is expected to pass.",
       "ifdGuid": "2mOE0CTaj96RKaBX9cJ1VF",
+      "legacyGuid": "2mOE0CTaj96RKaBX9cJ1VF",
       "localizations": [
         {
           "language": "de-DE",
@@ -354,12 +364,16 @@
         "dataType": "IfcVolumetricFlowRateMeasure",
         "measureType": "",
         "unitType": "VOLUMETRICFLOWRATEUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "MaximumPressureLoss",
       "definition": "Pressure loss expected across the meter under conditions of maximum flow.",
       "ifdGuid": "3qpwmTrB5D8uUJ6r5pJ4GY",
+      "legacyGuid": "3qpwmTrB5D8uUJ6r5pJ4GY",
       "localizations": [
         {
           "language": "de-DE",
@@ -396,12 +410,16 @@
         "dataType": "IfcPressureMeasure",
         "measureType": "",
         "unitType": "PRESSUREUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "BackflowPreventerType",
       "definition": "Identifies the type of backflow preventer installed to prevent the backflow of contaminated or polluted water from an irrigation/reticulation system to a potable water supply.",
       "ifdGuid": "289nceqTrAaQsSbTTntYn3",
+      "legacyGuid": "289nceqTrAaQsSbTTntYn3",
       "localizations": [
         {
           "language": "de-DE",
@@ -734,6 +752,9 @@
             ]
           }
         ]
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

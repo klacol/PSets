@@ -5,6 +5,7 @@
     "schema": "IfcSharedFacilitiesElements"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "A set of specific properties for work surfaces used in workstations. HISTORY: First issued in IFC Release R1.5. Renamed from Pset_Worksurface",
   "localizations": [
     {
@@ -49,6 +50,7 @@
       "name": "UsePurpose",
       "definition": "The principal purpose for which the work surface is intended to be used e.g. writing/reading, computer, meeting, printer, reference files, etc.",
       "ifdGuid": "1hxM4gj2fB$u_UDgXoPIz7",
+      "legacyGuid": "1hxM4gj2fB$u_UDgXoPIz7",
       "localizations": [
         {
           "language": "de-DE",
@@ -85,12 +87,16 @@
         "dataType": "IfcLabel",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "SupportType",
       "definition": "Available support types from which that required may be selected.",
       "ifdGuid": "2JU9bWUS50$RlVm0BJ_qLE",
+      "legacyGuid": "2JU9bWUS50$RlVm0BJ_qLE",
       "localizations": [
         {
           "language": "de-DE",
@@ -275,12 +281,16 @@
             ]
           }
         ]
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "HangingHeight",
       "definition": "The hanging height of the worksurface.",
       "ifdGuid": "1NM1JYuhfE3ueB6w851HMV",
+      "legacyGuid": "1NM1JYuhfE3ueB6w851HMV",
       "localizations": [
         {
           "language": "de-DE",
@@ -317,12 +327,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "NominalThickness",
       "definition": "The nominal thickness of the work surface.",
       "ifdGuid": "25Pbo64Kv2vOCSjsq9uoqA",
+      "legacyGuid": "25Pbo64Kv2vOCSjsq9uoqA",
       "localizations": [
         {
           "language": "de-DE",
@@ -359,12 +373,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "ShapeDescription",
       "definition": "A description of the shape of the work surface e.g. corner square, rectangle, etc.",
       "ifdGuid": "3$x_4IjFH2bg23WicODiMT",
+      "legacyGuid": "3$x_4IjFH2bg23WicODiMT",
       "localizations": [
         {
           "language": "de-DE",
@@ -401,6 +419,9 @@
         "dataType": "IfcLabel",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

@@ -5,6 +5,7 @@
     "schema": "IfcMaterialResource"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "A set of extended material properties of fuel energy typically used within the context of building services and flow distribution systems.",
   "localizations": [
     {
@@ -49,6 +50,7 @@
       "name": "CombustionTemperature",
       "definition": "Combustion temperature of the material when air is at 298 K and 100 kPa.",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "de-DE",
@@ -85,12 +87,16 @@
         "dataType": "IfcThermodynamicTemperatureMeasure",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "CarbonContent",
       "definition": "The carbon content in the fuel. This is measured in weight of carbon per unit weight of fuel and is therefore unitless.",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "de-DE",
@@ -127,12 +133,16 @@
         "dataType": "IfcPositiveRatioMeasure",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "LowerHeatingValue",
       "definition": "Lower Heating Value is defined as the amount of energy released (MJ/kg) when a fuel is burned completely, and H2O is in vapor form in the combustion products.",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "de-DE",
@@ -169,12 +179,16 @@
         "dataType": "IfcHeatingValueMeasure",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "HigherHeatingValue",
       "definition": "Higher Heating Value is defined as the amount of energy released (MJ/kg) when a fuel is burned completely, and H2O is in liquid form in the combustion products.",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "de-DE",
@@ -211,6 +225,9 @@
         "dataType": "IfcHeatingValueMeasure",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

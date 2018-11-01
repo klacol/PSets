@@ -3,6 +3,7 @@ ifcVersion:
   version: 4.0.0.0
   schema: IfcElectricalDomain
 ifdGuid: ''
+legacyGuid: ''
 definition: 'An audio-visual receiver is a device that switches audio and/or video from multiple sources, including external sources connected from ports and internal aggregated sources.  HISTORY: Added in IFC4.'
 localizations:
 - language: de-DE
@@ -30,6 +31,7 @@ properties:
 - name: ReceiverType
   definition: Indicates the type of receiver.
   ifdGuid: ''
+  legacyGuidAsIfcGlobalId: ''
   localizations:
   - language: ja-JP
     name: '受信機形式'
@@ -143,9 +145,12 @@ properties:
       - language: ru-RU
         name: 'Unknown'
         definition: ''
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: AudioAmplification
   definition: Indicates audio amplification frequency ranges.
   ifdGuid: ''
+  legacyGuidAsIfcGlobalId: ''
   localizations:
   - language: ja-JP
     name: 'オーディオアンプ'
@@ -178,9 +183,12 @@ properties:
       dataType: IfcRatioMeasure
       measureType: ''
       unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: AudioMode
   definition: Indicates audio sound modes and corresponding labels, if applicable.
   ifdGuid: ''
+  legacyGuidAsIfcGlobalId: ''
   localizations:
   - language: ja-JP
     name: 'オーディオモード'
@@ -213,3 +221,5 @@ properties:
       dataType: IfcLabel
       measureType: ''
       unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

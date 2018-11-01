@@ -3,6 +3,7 @@ ifcVersion:
   version: 4.0.0.0
   schema: IfcProductExtension
 ifdGuid: ''
+legacyGuid: ''
 definition: 'Properties common to the definition of all occurrences of IfcSpace. Please note that several space attributes are handled directly at the IfcSpace instance, the space number (or short name) by IfcSpace.Name, the space name (or long name) by IfcSpace:LongName, and the description (or comments) by IfcSpace.Description. Actual space quantities, like space perimeter, space area and space volume are provided by IfcElementQuantity, and space classification according to national building code by IfcClassificationReference. The level above zero (relative to the building) for the slab row construction is provided by the IfcBuildingStorey.Elevation, the level above zero (relative to the building) for the floor finish is provided by the IfcSpace.ElevationWithFlooring.'
 localizations:
 - language: de-DE
@@ -30,6 +31,7 @@ properties:
 - name: Reference
   definition: Reference ID for this specified type in this project (e.g. type 'A-1'). Used to store the non-classification driven internal project type.
   ifdGuid: 3vRex1PxvA6P9$6DkCF2Vo
+  legacyGuid: 3vRex1PxvA6P9$6DkCF2Vo
   localizations:
   - language: de-DE
     name: 'Raumtyp'
@@ -56,9 +58,12 @@ properties:
     dataType: IfcIdentifier
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: IsExternal
   definition: Indication whether the element is designed for use in the exterior (TRUE) or not (FALSE). If (TRUE) it is an external element and faces the outside of the building.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: de-DE
     name: 'IstAußenraum'
@@ -82,9 +87,12 @@ properties:
     dataType: IfcBoolean
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: GrossPlannedArea
   definition: Total planned gross area for the space. Used for programming the space.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: fr-FR
     name: 'Surface programmée brute'
@@ -111,9 +119,12 @@ properties:
     dataType: IfcAreaMeasure
     measureType: ''
     unitType: AREAUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: NetPlannedArea
   definition: Total planned net area for the space. Used for programming the space.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: fr-FR
     name: 'Surface programmée nette'
@@ -140,9 +151,12 @@ properties:
     dataType: IfcAreaMeasure
     measureType: ''
     unitType: AREAUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: PubliclyAccessible
   definition: Indication whether this space (in case of e.g., a toilet) is designed to serve as a publicly accessible space, e.g., for a public toilet (TRUE) or not (FALSE).
   ifdGuid: 3cZ3zbr4bDfeXTOuEOG9ZU
+  legacyGuid: 3cZ3zbr4bDfeXTOuEOG9ZU
   localizations:
   - language: de-DE
     name: 'öffentlich zugänglich'
@@ -169,9 +183,12 @@ properties:
     dataType: IfcBoolean
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: HandicapAccessible
   definition: Indication whether this space (in case of e.g., a toilet) is designed to serve as an accessible space for handicapped people, e.g., for a public toilet (TRUE) or not (FALSE). This information is often used to declare the need for access for the disabled and for special design requirements of this space.
   ifdGuid: 1bqyVjAlv46ennpS8KFvqP
+  legacyGuid: 1bqyVjAlv46ennpS8KFvqP
   localizations:
   - language: de-DE
     name: 'behindertengerecht zugänglich'
@@ -198,3 +215,5 @@ properties:
     dataType: IfcBoolean
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

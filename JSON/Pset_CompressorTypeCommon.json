@@ -5,6 +5,7 @@
     "schema": "IfcHvacDomain"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "Compressor type common attributes.",
   "localizations": [
     {
@@ -49,6 +50,7 @@
       "name": "Reference",
       "definition": "Reference ID for this specified type in this project (e.g. type 'A-1'), provided, if there is no classification reference to a recognized classification system used.",
       "ifdGuid": "",
+      "legacyGuidAsIfcGlobalId": "",
       "localizations": [
         {
           "language": "fr-FR",
@@ -85,12 +87,16 @@
         "dataType": "IfcIdentifier",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "Status",
       "definition": "Status of the element, predominately used in renovation or retrofitting projects. The status can be assigned to as \"New\" - element designed as new addition, \"Existing\" - element exists and remains, \"Demolish\" - element existed but is to be demolished,  \"Temporary\" - element will exists only temporary (like a temporary support structure).",
       "ifdGuid": "",
+      "legacyGuidAsIfcGlobalId": "",
       "localizations": [
         {
           "language": "fr-FR",
@@ -349,12 +355,17 @@
             ]
           }
         ]
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "PowerSource",
       "definition": "Type of power driving the compressor.",
-      "ifdGuid": "3Wi7sfne9EU9yC9OBquhIj",
+      "ifdGuid": "",
+      "legacyGuid": "e0b07da9c6824e789f0c2582f4e2b4ad",
+      "legacyGuidAsIfcGlobalId": "3Wi7sfne9EU9yC9OBquhIj",
       "localizations": [
         {
           "language": "fr-FR",
@@ -576,12 +587,17 @@
             ]
           }
         ]
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "RefrigerantClass",
       "definition": "Refrigerant class used by the compressor.CFC: Chlorofluorocarbons.HCFC: Hydrochlorofluorocarbons.HFC: Hydrofluorocarbons.",
-      "ifdGuid": "1bQV7w6Tn8xwUtYhIOvee1",
+      "ifdGuid": "",
+      "legacyGuid": "6569f1fa19dc48efa7b78ab498e68a01",
+      "legacyGuidAsIfcGlobalId": "1bQV7w6Tn8xwUtYhIOvee1",
       "localizations": [
         {
           "language": "fr-FR",
@@ -951,12 +967,17 @@
             ]
           }
         ]
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "RefrigerantType",
       "definition": "Refrigerant material.",
-      "ifdGuid": "1ACuNs6rPDDPnGklmO7CkH",
+      "ifdGuid": "",
+      "legacyGuid": "4a3385f61b564d359c50bafc181ccb91",
+      "legacyGuidAsIfcGlobalId": "1ACuNs6rPDDPnGklmO7CkH",
       "localizations": [
         {
           "language": "fr-FR",
@@ -995,12 +1016,17 @@
         "guid": "",
         "libraryName": "Industry Foundation Classes by buildingSMART International",
         "sectionref": "Core Schema"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "MinimumPartLoadRatio",
       "definition": "Minimum part load ratio as a fraction of nominal capacity.",
-      "ifdGuid": "2tXOD$351FWPk3AiCMeMTP",
+      "ifdGuid": "",
+      "legacyGuid": "b785837f0c504f819b832ac316a16759",
+      "legacyGuidAsIfcGlobalId": "2tXOD$351FWPk3AiCMeMTP",
       "localizations": [
         {
           "language": "fr-FR",
@@ -1037,12 +1063,17 @@
         "dataType": "IfcPositiveRatioMeasure",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "MaximumPartLoadRatio",
       "definition": "Maximum part load ratio as a fraction of nominal capacity.",
-      "ifdGuid": "1krZLUFLLFbwrj27_XtwU4",
+      "ifdGuid": "",
+      "legacyGuid": "6ed6355e3d554f97ad6d087fa1dfa784",
+      "legacyGuidAsIfcGlobalId": "1krZLUFLLFbwrj27_XtwU4",
       "localizations": [
         {
           "language": "fr-FR",
@@ -1079,12 +1110,17 @@
         "dataType": "IfcPositiveRatioMeasure",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "CompressorSpeed",
       "definition": "Compressor speed.",
-      "ifdGuid": "2j$XEiF4r2vOx2EU8rDB2d",
+      "ifdGuid": "",
+      "legacyGuid": "adfe13ac3c4d42e58ec239e23534b0a7",
+      "legacyGuidAsIfcGlobalId": "2j$XEiF4r2vOx2EU8rDB2d",
       "localizations": [
         {
           "language": "fr-FR",
@@ -1121,12 +1157,17 @@
         "dataType": "IfcRotationalFrequencyMeasure",
         "measureType": "",
         "unitType": "ROTATIONALFREQUENCYUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "NominalCapacity",
       "definition": "Compressor nameplate capacity.",
-      "ifdGuid": "19DD5bIzjE7xVYOZQ$MNsD",
+      "ifdGuid": "",
+      "legacyGuid": "4934d1654bdb4e1fb7e26236bf597d8d",
+      "legacyGuidAsIfcGlobalId": "19DD5bIzjE7xVYOZQ$MNsD",
       "localizations": [
         {
           "language": "fr-FR",
@@ -1163,12 +1204,17 @@
         "dataType": "IfcPowerMeasure",
         "measureType": "",
         "unitType": "POWERUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "IdealCapacity",
       "definition": "Compressor capacity under ideal conditions.",
-      "ifdGuid": "2w9qjHN$H3q9UlBIS0tvGJ",
+      "ifdGuid": "",
+      "legacyGuid": "ba274b515ff443d097af2d2700df9413",
+      "legacyGuidAsIfcGlobalId": "2w9qjHN$H3q9UlBIS0tvGJ",
       "localizations": [
         {
           "language": "fr-FR",
@@ -1205,12 +1251,17 @@
         "dataType": "IfcPowerMeasure",
         "measureType": "",
         "unitType": "POWERUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "IdealShaftPower",
       "definition": "Compressor shaft power under ideal conditions.",
-      "ifdGuid": "13rTSOhKP8Uh8$CsREzLSb",
+      "ifdGuid": "",
+      "legacyGuid": "43d5d718ad46487ab23f3366cef55725",
+      "legacyGuidAsIfcGlobalId": "13rTSOhKP8Uh8$CsREzLSb",
       "localizations": [
         {
           "language": "fr-FR",
@@ -1247,12 +1298,17 @@
         "dataType": "IfcPowerMeasure",
         "measureType": "",
         "unitType": "POWERUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "HasHotGasBypass",
       "definition": "Whether or not hot gas bypass is provided for the compressor. TRUE = Yes, FALSE = No.",
-      "ifdGuid": "0tL8MJlk18Nwx74gFXUffy",
+      "ifdGuid": "",
+      "legacyGuid": "37548593bee0485faec712a3e17a9a7c",
+      "legacyGuidAsIfcGlobalId": "0tL8MJlk18Nwx74gFXUffy",
       "localizations": [
         {
           "language": "fr-FR",
@@ -1289,12 +1345,16 @@
         "dataType": "IfcBoolean",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "ImpellerDiameter",
       "definition": "Diameter of compressor impeller - used to scale performance of geometrically similar compressors.",
       "ifdGuid": "",
+      "legacyGuidAsIfcGlobalId": "",
       "localizations": [
         {
           "language": "fr-FR",
@@ -1331,6 +1391,9 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

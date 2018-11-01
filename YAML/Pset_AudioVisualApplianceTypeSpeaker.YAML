@@ -3,6 +3,7 @@ ifcVersion:
   version: 4.0.0.0
   schema: IfcElectricalDomain
 ifdGuid: ''
+legacyGuid: ''
 definition: 'An audio-visual speaker is a device that converts amplified audio signals into sound waves.  HISTORY: Added in IFC4.'
 localizations:
 - language: de-DE
@@ -30,6 +31,7 @@ properties:
 - name: SpeakerType
   definition: Indicates the type of speaker.
   ifdGuid: ''
+  legacyGuidAsIfcGlobalId: ''
   localizations:
   - language: ja-JP
     name: 'スピーカータイプ'
@@ -209,9 +211,12 @@ properties:
       - language: ru-RU
         name: 'Unknown'
         definition: ''
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: SpeakerMounting
   definition: Indicates how the speaker is designed to be mounted.
   ifdGuid: ''
+  legacyGuidAsIfcGlobalId: ''
   localizations:
   - language: ja-JP
     name: '取付可能方法'
@@ -369,9 +374,12 @@ properties:
       - language: ru-RU
         name: 'Unknown'
         definition: ''
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: SpeakerDriverSize
   definition: Indicates the number of drivers and their sizes.
   ifdGuid: ''
+  legacyGuidAsIfcGlobalId: ''
   localizations:
   - language: ja-JP
     name: 'スピーカードライバサイズ'
@@ -404,9 +412,12 @@ properties:
       dataType: IfcPositiveLengthMeasure
       measureType: ''
       unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: FrequencyResponse
   definition: Indicates the output over a specified range of frequencies.
   ifdGuid: ''
+  legacyGuidAsIfcGlobalId: ''
   localizations:
   - language: ja-JP
     name: '周波数応答'
@@ -439,9 +450,12 @@ properties:
       dataType: IfcSoundPowerMeasure
       measureType: ''
       unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: Impedence
   definition: Indicates the speaker impedence.
   ifdGuid: ''
+  legacyGuidAsIfcGlobalId: ''
   localizations:
   - language: ja-JP
     name: 'インピーダンス値'
@@ -468,3 +482,5 @@ properties:
     dataType: IfcFrequencyMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

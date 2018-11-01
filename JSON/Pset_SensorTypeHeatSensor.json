@@ -5,6 +5,7 @@
     "schema": "IfcBuildingControlsDomain"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "A device that senses or detects heat. HISTORY: In IFC4, incorporates Fire Sensor. HeatSensorSetPoint changed to SetPointTemperature",
   "localizations": [
     {
@@ -49,6 +50,7 @@
       "name": "CoverageArea",
       "definition": "The area that is covered by the sensor (typically measured as a circle whose center is at the location of the sensor).",
       "ifdGuid": "0yYywhPxH9v9NvMCrovdWP",
+      "legacyGuid": "0yYywhPxH9v9NvMCrovdWP",
       "localizations": [
         {
           "language": "ja-JP",
@@ -90,12 +92,16 @@
         "dataType": "IfcAreaMeasure",
         "measureType": "",
         "unitType": "AREAUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "SetPointTemperature",
       "definition": "The temperature value to be sensed. Use IfcPropertyBoundedValue.SetPointValue to set the set point value.",
       "ifdGuid": "3IIdjQnln8evytrTw4jlyU",
+      "legacyGuid": "3IIdjQnln8evytrTw4jlyU",
       "localizations": [
         {
           "language": "ja-JP",
@@ -139,12 +145,16 @@
         "LowerBoundValue": "?",
         "UpperBoundValue": "?",
         "typeName": "TypePropertyBoundedValue"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "RateOfTemperatureRise",
       "definition": "The rate of temperature rise that is to be sensed as being hazardous.",
       "ifdGuid": "0PrrLhYbbAEOtxI_xP8cKB",
+      "legacyGuid": "0PrrLhYbbAEOtxI_xP8cKB",
       "localizations": [
         {
           "language": "ja-JP",
@@ -186,6 +196,9 @@
         "dataType": "IfcTemperatureRateOfChangeMeasure",
         "measureType": "",
         "unitType": "TEMPERATURERATEOFCHANGEUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

@@ -5,6 +5,7 @@
     "schema": "IfcHvacDomain"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "Pump occurrence attributes attached to an instance of IfcPump.",
   "localizations": [
     {
@@ -49,6 +50,7 @@
       "name": "ImpellerDiameter",
       "definition": "Diameter of pump impeller - used to scale performance of geometrically similar pumps.",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "ja-JP",
@@ -85,12 +87,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "BaseType",
       "definition": "Defines general types of pump bases.FRAME: Frame. BASE: Base. NONE: There is no pump base, such as an inline pump. OTHER: Other type of pump base.",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "ja-JP",
@@ -312,12 +318,16 @@
             ]
           }
         ]
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "DriveConnectionType",
       "definition": "The way the pump drive mechanism is connected to the pump.DIRECTDRIVE: Direct drive. BELTDRIVE: Belt drive. COUPLING: Coupling. OTHER: Other type of drive connection.",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "ja-JP",
@@ -539,6 +549,9 @@
             ]
           }
         ]
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

@@ -3,6 +3,7 @@ ifcVersion:
   version: 4.0.0.0
   schema: IfcHvacDomain
 ifdGuid: ''
+legacyGuid: ''
 definition: 'Pipe segment occurrence attributes attached to an instance of IfcPipeSegment.'
 localizations:
 - language: de-DE
@@ -30,6 +31,7 @@ properties:
 - name: InteriorRoughnessCoefficient
   definition: The interior roughness coefficient of the pipe segment.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: ja-JP
     name: '内部粗度係数'
@@ -53,9 +55,12 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: LENGTHUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: Color
   definition: 'The color of the pipe segment.Note: This is typically used only for plastic pipe segments. However, it may be used for any pipe segments with a painted surface which is not otherwise specified as a covering.'
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: ja-JP
     name: '色'
@@ -79,9 +84,12 @@ properties:
     dataType: IfcLabel
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: Gradient
   definition: The gradient of the pipe segment.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: ja-JP
     name: '勾配'
@@ -105,9 +113,12 @@ properties:
     dataType: IfcPositiveRatioMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: InvertElevation
   definition: The invert elevation relative to the datum established for the project.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: de-DE
     name: ''
@@ -131,3 +142,5 @@ properties:
     dataType: IfcLengthMeasure
     measureType: ''
     unitType: LENGTHUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

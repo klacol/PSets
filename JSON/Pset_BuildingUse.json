@@ -5,6 +5,7 @@
     "schema": "IfcProductExtension"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "Provides information on on the real estate context of the building of interest both current and anticipated.",
   "localizations": [
     {
@@ -48,7 +49,9 @@
     {
       "name": "MarketCategory",
       "definition": "Category of use e.g. residential, commercial, recreation etc.",
-      "ifdGuid": "3BiM0aZkv5K9a431ZrFDjk",
+      "ifdGuid": "",
+      "legacyGuid": "cbb160248eee455099040c18f53cdb6e",
+      "legacyGuidAsIfcGlobalId": "3BiM0aZkv5K9a431ZrFDjk",
       "localizations": [
         {
           "language": "fr-FR",
@@ -85,12 +88,17 @@
         "dataType": "IfcLabel",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "MarketSubCategory",
       "definition": "Subset of category of use e.g. multi-family, 2 bedroom, low rise.",
-      "ifdGuid": "3vekFc8Az7gBXbfLXRN4EZ",
+      "ifdGuid": "",
+      "legacyGuid": "f9a2e3e620af47a8b865a5585b5c43a3",
+      "legacyGuidAsIfcGlobalId": "3vekFc8Az7gBXbfLXRN4EZ",
       "localizations": [
         {
           "language": "fr-FR",
@@ -127,12 +135,17 @@
         "dataType": "IfcLabel",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "PlanningControlStatus",
       "definition": "Label of zoning category or class, or planning control category for the site or facility.",
-      "ifdGuid": "0aUiiTgiTCsOiESFjUzXze",
+      "ifdGuid": "",
+      "legacyGuid": "247acb1daac74cd98b0e70fb5ef61f68",
+      "legacyGuidAsIfcGlobalId": "0aUiiTgiTCsOiESFjUzXze",
       "localizations": [
         {
           "language": "fr-FR",
@@ -169,12 +182,17 @@
         "dataType": "IfcLabel",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "NarrativeText",
       "definition": "Added information relating to the adjacent building use that is not appropriate to the general descriptive text associated with an entity through the inherited IfcRoot.Description.",
-      "ifdGuid": "1mJaY_iwT3FQbMcJ1qngyZ",
+      "ifdGuid": "",
+      "legacyGuid": "704e48beb3a7433da956993074c6af23",
+      "legacyGuidAsIfcGlobalId": "1mJaY_iwT3FQbMcJ1qngyZ",
       "localizations": [
         {
           "language": "fr-FR",
@@ -211,12 +229,17 @@
         "dataType": "IfcText",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "VacancyRateInCategoryNow",
       "definition": "Percentage of vacancy found in the particular category currently.",
-      "ifdGuid": "2uAdkXcEr9XBzt8OpA5SBY",
+      "ifdGuid": "",
+      "legacyGuid": "b82a7ba198ed4984bf77218cca15c2e2",
+      "legacyGuidAsIfcGlobalId": "2uAdkXcEr9XBzt8OpA5SBY",
       "localizations": [
         {
           "language": "fr-FR",
@@ -253,12 +276,17 @@
         "dataType": "IfcPositiveRatioMeasure",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "TenureModesAvailableNow",
       "definition": "A list of the tenure modes that are currently available expressed in terms of IfcLabel.",
-      "ifdGuid": "3DKmL1_ib9zhazYlRHEFmd",
+      "ifdGuid": "",
+      "legacyGuid": "cd530541fac949f6b93d8af6d138fc27",
+      "legacyGuidAsIfcGlobalId": "3DKmL1_ib9zhazYlRHEFmd",
       "localizations": [
         {
           "language": "fr-FR",
@@ -295,12 +323,17 @@
         "dataType": "IfcLabel",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "MarketSubCategoriesAvailableNow",
       "definition": "A list of the sub categories of property that are currently available expressed in terms of IfcLabel.",
-      "ifdGuid": "2W5mrbX095vwjCYW6n5SFc",
+      "ifdGuid": "",
+      "legacyGuid": "a0170d65840245e7ab4c8a01b115c3e6",
+      "legacyGuidAsIfcGlobalId": "2W5mrbX095vwjCYW6n5SFc",
       "localizations": [
         {
           "language": "fr-FR",
@@ -337,12 +370,17 @@
         "dataType": "IfcLabel",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "RentalRatesInCategoryNow",
       "definition": "Range of the cost rates for property currently available in the required category.",
-      "ifdGuid": "1vNxCJRFD6EAyjNY4ijmLw",
+      "ifdGuid": "",
+      "legacyGuid": "795fb3136cf34638af2d5e212cb7057a",
+      "legacyGuidAsIfcGlobalId": "1vNxCJRFD6EAyjNY4ijmLw",
       "localizations": [
         {
           "language": "fr-FR",
@@ -381,12 +419,17 @@
         "LowerBoundValue": "?",
         "UpperBoundValue": "?",
         "typeName": "TypePropertyBoundedValue"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "VacancyRateInCategoryFuture",
       "definition": "Percentage of vacancy found in the particular category expected in the future.",
-      "ifdGuid": "36zS8ffTn2suvkWQJAHYDS",
+      "ifdGuid": "",
+      "legacyGuid": "c6f5c229a5dc42db8e6e81a4ca46235c",
+      "legacyGuidAsIfcGlobalId": "36zS8ffTn2suvkWQJAHYDS",
       "localizations": [
         {
           "language": "fr-FR",
@@ -423,12 +466,17 @@
         "dataType": "IfcPositiveRatioMeasure",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "TenureModesAvailableFuture",
       "definition": "A list of the tenure modes that are expected to be available in the future expressed in terms of IfcLabel.",
-      "ifdGuid": "2yy9WDRTjDbBUT$yQP5Mkf",
+      "ifdGuid": "",
+      "legacyGuid": "bcf0980d6ddb4d94b79dffc699156ba9",
+      "legacyGuidAsIfcGlobalId": "2yy9WDRTjDbBUT$yQP5Mkf",
       "localizations": [
         {
           "language": "fr-FR",
@@ -465,12 +513,17 @@
         "dataType": "IfcLabel",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "MarketSubCategoriesAvailableFuture",
       "definition": "A list of the sub categories of property that are expected to be available in the future expressed in terms of IfcLabel.",
-      "ifdGuid": "2OdKJq66HAF88bXVofhubs",
+      "ifdGuid": "",
+      "legacyGuid": "989d44f418644a3c822585fca9af8976",
+      "legacyGuidAsIfcGlobalId": "2OdKJq66HAF88bXVofhubs",
       "localizations": [
         {
           "language": "fr-FR",
@@ -507,12 +560,17 @@
         "dataType": "IfcLabel",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "RentalRatesInCategoryFuture",
       "definition": "Range of the cost rates for property expected to be available in the future in the required category.",
-      "ifdGuid": "3zW4ytrvX5Qwg7OGiQXTbp",
+      "ifdGuid": "",
+      "legacyGuid": "fd804f37d798456baa87610b1a85d973",
+      "legacyGuidAsIfcGlobalId": "3zW4ytrvX5Qwg7OGiQXTbp",
       "localizations": [
         {
           "language": "fr-FR",
@@ -551,6 +609,9 @@
         "LowerBoundValue": "?",
         "UpperBoundValue": "?",
         "typeName": "TypePropertyBoundedValue"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

@@ -5,6 +5,7 @@
     "schema": "IfcHvacDomain"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "Duct silencer type common attributes.InsertionLoss and RegeneratedSound attributes deleted in IFC2x2 Pset Addendum: Use IfcSoundProperties instead.",
   "localizations": [
     {
@@ -49,6 +50,7 @@
       "name": "Reference",
       "definition": "Reference ID for this specified type in this project (e.g. type 'A-1'), provided, if there is no classification reference to a recognized classification system used.",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "ja-JP",
@@ -85,12 +87,16 @@
         "dataType": "IfcIdentifier",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "Status",
       "definition": "Status of the element, predominately used in renovation or retrofitting projects. The status can be assigned to as \"New\" - element designed as new addition, \"Existing\" - element exists and remains, \"Demolish\" - element existed but is to be demolished,  \"Temporary\" - element will exists only temporary (like a temporary support structure).",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "ja-JP",
@@ -349,12 +355,16 @@
             ]
           }
         ]
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "HydraulicDiameter",
       "definition": "Hydraulic diameter.",
       "ifdGuid": "3VJAEkC3T3TgoFIWBiCFcY",
+      "legacyGuid": "3VJAEkC3T3TgoFIWBiCFcY",
       "localizations": [
         {
           "language": "ja-JP",
@@ -391,12 +401,16 @@
         "dataType": "IfcLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "Length",
       "definition": "The finished length of the silencer.",
       "ifdGuid": "14AYDpOwTCfA2E7kUSPhDC",
+      "legacyGuid": "14AYDpOwTCfA2E7kUSPhDC",
       "localizations": [
         {
           "language": "ja-JP",
@@ -433,12 +447,16 @@
         "dataType": "IfcLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "Weight",
       "definition": "The weight of the silencer.",
       "ifdGuid": "0bIe0RQSzFlv0HbEdv4NLL",
+      "legacyGuid": "0bIe0RQSzFlv0HbEdv4NLL",
       "localizations": [
         {
           "language": "ja-JP",
@@ -475,12 +493,16 @@
         "dataType": "IfcMassMeasure",
         "measureType": "",
         "unitType": "MASSUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "AirFlowrateRange",
       "definition": "Possible range of airflow that can be delivered.",
       "ifdGuid": "1jxoFC0bnCUvbRpTrM_ycD",
+      "legacyGuid": "1jxoFC0bnCUvbRpTrM_ycD",
       "localizations": [
         {
           "language": "ja-JP",
@@ -519,12 +541,16 @@
         "LowerBoundValue": "0",
         "UpperBoundValue": "?",
         "typeName": "TypePropertyBoundedValue"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "WorkingPressureRange",
       "definition": "Allowable minimum and maximum  working pressure (relative to ambient pressure).",
       "ifdGuid": "3n1uWRXt9AzhtVMq_cxSbO",
+      "legacyGuid": "3n1uWRXt9AzhtVMq_cxSbO",
       "localizations": [
         {
           "language": "ja-JP",
@@ -563,12 +589,16 @@
         "LowerBoundValue": "0",
         "UpperBoundValue": "?",
         "typeName": "TypePropertyBoundedValue"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "TemperatureRange",
       "definition": "Allowable minimum and maximum temperature.",
       "ifdGuid": "3Ow2yUgSX8Pwx_pl62BuM$",
+      "legacyGuid": "3Ow2yUgSX8Pwx_pl62BuM$",
       "localizations": [
         {
           "language": "ja-JP",
@@ -607,12 +637,16 @@
         "LowerBoundValue": "0",
         "UpperBoundValue": "?",
         "typeName": "TypePropertyBoundedValue"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "HasExteriorInsulation",
       "definition": "TRUE if the silencer has exterior insulation. FALSE if it does not.",
       "ifdGuid": "2ImsgwrWn38vqnjdPHBJOW",
+      "legacyGuid": "2ImsgwrWn38vqnjdPHBJOW",
       "localizations": [
         {
           "language": "ja-JP",
@@ -649,6 +683,9 @@
         "dataType": "IfcBoolean",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

@@ -5,6 +5,7 @@
     "schema": "IfcSharedBldgServiceElements"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "Pipe port occurrence attributes attached to an instance of IfcDistributionPort.",
   "localizations": [
     {
@@ -49,6 +50,7 @@
       "name": "ConnectionType",
       "definition": "The end-style treatment of the pipe port:BRAZED: Brazed. COMPRESSION: Compression. FLANGED: Flanged. GROOVED: Grooved. OUTSIDESLEEVE: Outside Sleeve. SOLDERED: Soldered. SWEDGE: Swedge. THREADED: Threaded. WELDED: Welded. OTHER: Another type of end-style has been applied.NONE: No end-style has been applied.",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "ja-JP",
@@ -529,12 +531,16 @@
             ]
           }
         ]
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "ConnectionSubType",
       "definition": "The physical port connection subtype that further qualifies the ConnectionType.",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "ja-JP",
@@ -571,12 +577,16 @@
         "dataType": "IfcLabel",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "NominalDiameter",
       "definition": "The nominal diameter of the pipe connection.",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "ja-JP",
@@ -613,12 +623,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "InnerDiameter",
       "definition": "The actual inner diameter of the pipe.",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "ja-JP",
@@ -655,12 +669,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "OuterDiameter",
       "definition": "The actual outer diameter of the pipe.",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "ja-JP",
@@ -697,12 +715,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "Temperature",
       "definition": "Temperature of the fluid.",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "ja-JP",
@@ -741,12 +763,16 @@
         "LowerBoundValue": "?",
         "UpperBoundValue": "?",
         "typeName": "TypePropertyBoundedValue"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "VolumetricFlowRate",
       "definition": "The volumetric flow rate of the fluid.",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "ja-JP",
@@ -785,12 +811,16 @@
         "LowerBoundValue": "?",
         "UpperBoundValue": "?",
         "typeName": "TypePropertyBoundedValue"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "MassFlowRate",
       "definition": "The mass flow rate of the fluid.",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "ja-JP",
@@ -829,12 +859,16 @@
         "LowerBoundValue": "?",
         "UpperBoundValue": "?",
         "typeName": "TypePropertyBoundedValue"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "FlowCondition",
       "definition": "Defines the flow condition as a percentage of the cross-sectional area.",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "ja-JP",
@@ -873,12 +907,16 @@
         "LowerBoundValue": "?",
         "UpperBoundValue": "?",
         "typeName": "TypePropertyBoundedValue"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "Velocity",
       "definition": "The velocity of the fluid.",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "ja-JP",
@@ -917,12 +955,16 @@
         "LowerBoundValue": "?",
         "UpperBoundValue": "?",
         "typeName": "TypePropertyBoundedValue"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "Pressure",
       "definition": "The pressure of the fluid.",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "ja-JP",
@@ -961,6 +1003,9 @@
         "LowerBoundValue": "?",
         "UpperBoundValue": "?",
         "typeName": "TypePropertyBoundedValue"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

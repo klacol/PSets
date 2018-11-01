@@ -5,6 +5,7 @@
     "schema": "IfcHvacDomain"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "Device that measures, indicates and sometimes records, the volume of gas that passes through it without interrupting the flow.",
   "localizations": [
     {
@@ -49,6 +50,7 @@
       "name": "GasType",
       "definition": "Defines the types of gas that may be specified.",
       "ifdGuid": "0IyM5eh5z59uJc$Qm5cH9$",
+      "legacyGuid": "0IyM5eh5z59uJc$Qm5cH9$",
       "localizations": [
         {
           "language": "de-DE",
@@ -307,12 +309,16 @@
             ]
           }
         ]
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "ConnectionSize",
       "definition": "Defines the size of inlet and outlet pipe connections to the meter.",
       "ifdGuid": "1vmEplZQzBdfgQsH6lsLSr",
+      "legacyGuid": "1vmEplZQzBdfgQsH6lsLSr",
       "localizations": [
         {
           "language": "de-DE",
@@ -349,12 +355,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "MaximumFlowRate",
       "definition": "Maximum rate of flow which the meter is expected to pass.",
       "ifdGuid": "2urgAyPJb9PuJ6__wIvg0g",
+      "legacyGuid": "2urgAyPJb9PuJ6__wIvg0g",
       "localizations": [
         {
           "language": "de-DE",
@@ -391,12 +401,16 @@
         "dataType": "IfcVolumetricFlowRateMeasure",
         "measureType": "",
         "unitType": "VOLUMETRICFLOWRATEUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "MaximumPressureLoss",
       "definition": "Pressure loss expected across the meter under conditions of maximum flow.",
       "ifdGuid": "2NhvdVY3T3v8njXZTqLmTA",
+      "legacyGuid": "2NhvdVY3T3v8njXZTqLmTA",
       "localizations": [
         {
           "language": "de-DE",
@@ -433,6 +447,9 @@
         "dataType": "IfcPressureMeasure",
         "measureType": "",
         "unitType": "PRESSUREUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

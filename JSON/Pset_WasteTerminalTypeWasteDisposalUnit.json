@@ -5,6 +5,7 @@
     "schema": "IfcPlumbingFireProtectionDomain"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "Electrically operated device that reduces kitchen or other waste into fragments small enough to be flushed into a drainage system.",
   "localizations": [
     {
@@ -49,6 +50,7 @@
       "name": "DrainConnectionSize",
       "definition": "Size of the drain connection inlet to the waste disposal unit.",
       "ifdGuid": "0lLYTSw$DAOARgQIOa9t3r",
+      "legacyGuid": "0lLYTSw$DAOARgQIOa9t3r",
       "localizations": [
         {
           "language": "ja-JP",
@@ -85,12 +87,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "OutletConnectionSize",
       "definition": "Size of the outlet connection from the waste disposal unit.",
       "ifdGuid": "3xtpDlxb92A8fQs1da4iM5",
+      "legacyGuid": "3xtpDlxb92A8fQs1da4iM5",
       "localizations": [
         {
           "language": "ja-JP",
@@ -127,12 +133,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "NominalDepth",
       "definition": "Nominal or quoted depth of the object measured from the inlet drain connection to the base of the unit.",
       "ifdGuid": "1LbQLHzPPAvgkuDLYobd4A",
+      "legacyGuid": "1LbQLHzPPAvgkuDLYobd4A",
       "localizations": [
         {
           "language": "ja-JP",
@@ -169,6 +179,9 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

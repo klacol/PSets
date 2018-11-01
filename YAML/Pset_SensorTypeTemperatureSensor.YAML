@@ -3,6 +3,7 @@ ifcVersion:
   version: 4.0.0.0
   schema: IfcBuildingControlsDomain
 ifdGuid: ''
+legacyGuid: ''
 definition: 'A device that senses or detects temperature. HISTORY: TemperatureSensorSensorSetPoint changed to SetPointTemperature. Range, accuracy and time constant deleted.'
 localizations:
 - language: de-DE
@@ -30,6 +31,7 @@ properties:
 - name: TemperatureSensorType
   definition: Enumeration that Identifies the types of temperature sensor that can be specified.
   ifdGuid: 28bpMfUCX7POY$PlVPFuRM
+  legacyGuid: 28bpMfUCX7POY$PlVPFuRM
   localizations:
   - language: ja-JP
     name: '温度センサータイプ'
@@ -209,9 +211,12 @@ properties:
       - language: ru-RU
         name: 'Unknown'
         definition: ''
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: SetPointTemperature
   definition: The temperature value to be sensed. Use IfcPropertyBoundedValue.SetPointValue to set the set point value.
   ifdGuid: 2x54fxNvr8jRxFOM7Ou8u_
+  legacyGuid: 2x54fxNvr8jRxFOM7Ou8u_
   localizations:
   - language: ja-JP
     name: '温度設定値'
@@ -239,3 +244,5 @@ properties:
     LowerBoundValue: '?'
     UpperBoundValue: '?'
     typeName: TypePropertyBoundedValue
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

@@ -5,6 +5,7 @@
     "schema": "IfcElectricalDomain"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "An audio-visual speaker is a device that converts amplified audio signals into sound waves.  HISTORY: Added in IFC4.",
   "localizations": [
     {
@@ -49,6 +50,7 @@
       "name": "SpeakerType",
       "definition": "Indicates the type of speaker.",
       "ifdGuid": "",
+      "legacyGuidAsIfcGlobalId": "",
       "localizations": [
         {
           "language": "ja-JP",
@@ -349,12 +351,16 @@
             ]
           }
         ]
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "SpeakerMounting",
       "definition": "Indicates how the speaker is designed to be mounted.",
       "ifdGuid": "",
+      "legacyGuidAsIfcGlobalId": "",
       "localizations": [
         {
           "language": "ja-JP",
@@ -618,12 +624,16 @@
             ]
           }
         ]
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "SpeakerDriverSize",
       "definition": "Indicates the number of drivers and their sizes.",
       "ifdGuid": "",
+      "legacyGuidAsIfcGlobalId": "",
       "localizations": [
         {
           "language": "ja-JP",
@@ -673,12 +683,16 @@
           "measureType": "",
           "unitType": "USERDEFINED"
         }
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "FrequencyResponse",
       "definition": "Indicates the output over a specified range of frequencies.",
       "ifdGuid": "",
+      "legacyGuidAsIfcGlobalId": "",
       "localizations": [
         {
           "language": "ja-JP",
@@ -728,12 +742,16 @@
           "measureType": "",
           "unitType": "USERDEFINED"
         }
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "Impedence",
       "definition": "Indicates the speaker impedence.",
       "ifdGuid": "",
+      "legacyGuidAsIfcGlobalId": "",
       "localizations": [
         {
           "language": "ja-JP",
@@ -775,6 +793,9 @@
         "dataType": "IfcFrequencyMeasure",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

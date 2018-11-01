@@ -3,6 +3,7 @@ ifcVersion:
   version: 4.0.0.0
   schema: IfcHvacDomain
 ifdGuid: ''
+legacyGuid: ''
 definition: 'Covered channel or large pipe that forms a watercourse below ground level, usually under a road or railway (BS6100).'
 localizations:
 - language: de-DE
@@ -30,6 +31,7 @@ properties:
 - name: InternalWidth
   definition: The internal width of the culvert.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: ja-JP
     name: '内幅'
@@ -53,9 +55,12 @@ properties:
     dataType: IfcLengthMeasure
     measureType: ''
     unitType: LENGTHUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: ClearDepth
   definition: The clear depth of the culvert.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: ja-JP
     name: '許容深さ'
@@ -79,3 +84,5 @@ properties:
     dataType: IfcLengthMeasure
     measureType: ''
     unitType: LENGTHUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

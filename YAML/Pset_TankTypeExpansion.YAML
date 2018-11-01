@@ -3,6 +3,7 @@ ifcVersion:
   version: 4.0.0.0
   schema: IfcHvacDomain
 ifdGuid: ''
+legacyGuid: ''
 definition: 'Common attributes of an expansion type tank.'
 localizations:
 - language: de-DE
@@ -30,6 +31,7 @@ properties:
 - name: ChargePressure
   definition: Nominal or design operating pressure of the tank.
   ifdGuid: 22Uu1WRBb8Uw3OUDkc$mHu
+  legacyGuid: 22Uu1WRBb8Uw3OUDkc$mHu
   localizations:
   - language: ja-JP
     name: '加圧力'
@@ -53,9 +55,12 @@ properties:
     dataType: IfcPressureMeasure
     measureType: ''
     unitType: PRESSUREUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: PressureRegulatorSetting
   definition: Pressure that is automatically maintained in the tank.
   ifdGuid: 16DHREDyX1r8NY83wbNO2Z
+  legacyGuid: 16DHREDyX1r8NY83wbNO2Z
   localizations:
   - language: ja-JP
     name: '圧力調整設定'
@@ -79,9 +84,12 @@ properties:
     dataType: IfcPressureMeasure
     measureType: ''
     unitType: PRESSUREUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: ReliefValveSetting
   definition: Pressure at which the relief valve activates.
   ifdGuid: 3ehmr80FrAsAV7B5iDfmZN
+  legacyGuid: 3ehmr80FrAsAV7B5iDfmZN
   localizations:
   - language: ja-JP
     name: '安全弁設定'
@@ -105,3 +113,5 @@ properties:
     dataType: IfcPressureMeasure
     measureType: ''
     unitType: PRESSUREUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

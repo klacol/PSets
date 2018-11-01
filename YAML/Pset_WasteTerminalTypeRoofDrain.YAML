@@ -3,6 +3,7 @@ ifcVersion:
   version: 4.0.0.0
   schema: IfcPlumbingFireProtectionDomain
 ifdGuid: ''
+legacyGuid: ''
 definition: 'Pipe fitting, set into the roof, that collects rainwater for discharge into the rainwater system.'
 localizations:
 - language: de-DE
@@ -30,6 +31,7 @@ properties:
 - name: NominalBodyLength
   definition: Nominal or quoted length measured along the x-axis in the local coordinate system or the radius (in the case of a circular shape in plan) of the drain.
   ifdGuid: 0dCrYW0ZP8ZOpLMzkCVBRN
+  legacyGuid: 0dCrYW0ZP8ZOpLMzkCVBRN
   localizations:
   - language: ja-JP
     name: '呼称躯体長'
@@ -53,9 +55,12 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: LENGTHUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: NominalBodyWidth
   definition: Nominal or quoted length measured along the y-axis in the local coordinate system of the drain.
   ifdGuid: 2izFF_ijH4femu4f58A_FE
+  legacyGuid: 2izFF_ijH4femu4f58A_FE
   localizations:
   - language: ja-JP
     name: '呼称躯体幅'
@@ -79,9 +84,12 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: LENGTHUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: NominalBodyDepth
   definition: Nominal or quoted length measured along the z-axis in the local coordinate system of the drain.
   ifdGuid: 32j62FYKr39hvieE5ugBCo
+  legacyGuid: 32j62FYKr39hvieE5ugBCo
   localizations:
   - language: ja-JP
     name: '呼称躯体深さ'
@@ -105,9 +113,12 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: LENGTHUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: OutletConnectionSize
   definition: Size of the outlet connection from the object.
   ifdGuid: 26GSnkwKH8axgcEwLyhK3F
+  legacyGuid: 26GSnkwKH8axgcEwLyhK3F
   localizations:
   - language: ja-JP
     name: '排気口接続口サイズ'
@@ -131,9 +142,12 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: LENGTHUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: CoverLength
   definition: The length measured along the x-axis in the local coordinate system or the radius (in the case of a circular shape in plan) of the cover of the drain.
   ifdGuid: 2cqm38lFrDCxU7t6aPv6A6
+  legacyGuid: 2cqm38lFrDCxU7t6aPv6A6
   localizations:
   - language: ja-JP
     name: 'カバーの長さ'
@@ -157,9 +171,12 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: LENGTHUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: CoverWidth
   definition: The length measured along the y-axis in the local coordinate system of the cover of the  drain.
   ifdGuid: 1VF7igqLX8hePu5BzwRfJL
+  legacyGuid: 1VF7igqLX8hePu5BzwRfJL
   localizations:
   - language: ja-JP
     name: 'カバーの幅'
@@ -183,3 +200,5 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: LENGTHUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

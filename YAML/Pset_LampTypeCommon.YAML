@@ -3,6 +3,7 @@ ifcVersion:
   version: 4.0.0.0
   schema: IfcElectricalDomain
 ifdGuid: ''
+legacyGuid: ''
 definition: 'A lamp is a component within a light fixture that is designed to emit light. History: Name changed from Pset_LampEmitterTypeCommon in IFC 2x3.'
 localizations:
 - language: de-DE
@@ -30,6 +31,7 @@ properties:
 - name: Reference
   definition: Reference ID for this specified type in this project (e.g. type 'A-1'), provided, if there is no classification reference to a recognized classification system used.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: ja-JP
     name: '参照'
@@ -56,9 +58,12 @@ properties:
     dataType: IfcIdentifier
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: Status
   definition: Status of the element, predominately used in renovation or retrofitting projects. The status can be assigned to as "New" - element designed as new addition, "Existing" - element exists and remains, "Demolish" - element existed but is to be demolished,  "Temporary" - element will exists only temporary (like a temporary support structure).
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: ja-JP
     name: '状態'
@@ -213,9 +218,12 @@ properties:
       - language: ru-RU
         name: 'Unknown'
         definition: ''
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: ContributedLuminousFlux
   definition: Luminous flux is a photometric measure of radiant flux, i.e. the volume of light emitted from a light source. Luminous flux is measured either for the interior as a whole or for a part of the interior (partial luminous flux for a solid angle). All other photometric parameters are derivatives of luminous flux. Luminous flux is measured in lumens (lm). The luminous flux is given as a nominal value for each lamp.
   ifdGuid: 0mw2oChtf6vfsZcjNktmxx
+  legacyGuid: 0mw2oChtf6vfsZcjNktmxx
   localizations:
   - language: ja-JP
     name: '光束'
@@ -242,9 +250,12 @@ properties:
     dataType: IfcLuminousFluxMeasure
     measureType: ''
     unitType: LUMINOUSFLUXUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: LightEmitterNominalPower
   definition: Light emitter nominal power.
   ifdGuid: 38lbY_Zqn1hBqApzel8JR8
+  legacyGuid: 38lbY_Zqn1hBqApzel8JR8
   localizations:
   - language: ja-JP
     name: '照明器具ワット数'
@@ -271,9 +282,12 @@ properties:
     dataType: IfcPowerMeasure
     measureType: ''
     unitType: POWERUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: LampMaintenanceFactor
   definition: Non recoverable losses of luminous flux of a lamp due to lamp depreciation; i.e. the decreasing of light output of a luminaire due to aging and dirt.
   ifdGuid: 1cpdCQTiX7rxscGgjTi51Q
+  legacyGuid: 1cpdCQTiX7rxscGgjTi51Q
   localizations:
   - language: ja-JP
     name: '保守率'
@@ -300,9 +314,12 @@ properties:
     dataType: IfcReal
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: LampBallastType
   definition: The type of ballast used to stabilise gas discharge by limiting the current during operation and to deliver the necessary striking voltage for starting. Ballasts are needed to operate Discharge Lamps such as Fluorescent, Compact Fluorescent, High-pressure Mercury, Metal Halide and High-pressure Sodium Lamps. Magnetic ballasts are chokes which limit the current passing through a lamp connected in series on the principle of self-induction. The resultant current and power are decisive for the efficient operation of the lamp. A specially designed ballast is required for every type of lamp to comply with lamp rating in terms of Luminous Flux, Color Appearance and service life. The two types of magnetic ballasts for fluorescent lamps are KVG Conventional   (EC-A series) and VVG Low-loss ballasts (EC-B series). Low-loss ballasts have a higher efficiency, which means reduced ballast losses and a lower thermal load. Electronic ballasts are used to run fluorescent lamps at high frequencies (approx. 35 - 40 kHz).
   ifdGuid: 2OjPO5fw5FAec8mnXTWeaF
+  legacyGuid: 2OjPO5fw5FAec8mnXTWeaF
   localizations:
   - language: ja-JP
     name: '安定期のタイプ'
@@ -438,9 +455,12 @@ properties:
       - language: ru-RU
         name: 'Unknown'
         definition: ''
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: LampCompensationType
   definition: Identifies the form of compensation used for power factor correction and radio suppression.
   ifdGuid: 1GSZotBVX5eudkwjUcUlON
+  legacyGuid: 1GSZotBVX5eudkwjUcUlON
   localizations:
   - language: ja-JP
     name: 'ランプ補正'
@@ -554,9 +574,12 @@ properties:
       - language: ru-RU
         name: 'Unknown'
         definition: ''
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: ColorAppearance
   definition: In both the DIN and CIE standards, artificial light sources are classified in terms of their color appearance. To the human eye they all appear to be white; the difference can only be detected by direct comparison. Visual performance is not directly affected by differences in color appearance.
   ifdGuid: 3570SQ1oX5gfSqwm6C72X7
+  legacyGuid: 3570SQ1oX5gfSqwm6C72X7
   localizations:
   - language: ja-JP
     name: '色の見え方'
@@ -583,9 +606,12 @@ properties:
     dataType: IfcLabel
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: Spectrum
   definition: The spectrum of radiation describes its composition with regard to wavelength. Light, for example, as the portion of electromagnetic radiation that is visible to the human eye, is radiation with wavelengths in the range of approx. 380 to 780 nm (1 nm = 10 m). The corresponding range of colours varies from violet to indigo, blue, green, yellow, orange, and red. These colours form a continuous spectrum, in which the various spectral sectors merge into each other.
   ifdGuid: 0ogW7mcL14O9cf82lxMeCP
+  legacyGuid: 0ogW7mcL14O9cf82lxMeCP
   localizations:
   - language: ja-JP
     name: '波長域'
@@ -618,9 +644,12 @@ properties:
       dataType: IfcNumericMeasure
       measureType: ''
       unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: ColorTemperature
   definition: The color temperature of any source of radiation is defined as the temperature (in Kelvin) of a black-body or Planckian radiator whose radiation has the same chromaticity as the source of radiation. Often the values are only approximate color temperatures as the black-body radiator cannot emit radiation of every chromaticity value. The color temperatures of the commonest artificial light sources range from less than 3000K (warm white) to 4000K (intermediate) and over 5000K (daylight).
   ifdGuid: 39sR$rMIz9xOFCPNgbTK2V
+  legacyGuid: 39sR$rMIz9xOFCPNgbTK2V
   localizations:
   - language: ja-JP
     name: '色温度'
@@ -647,9 +676,12 @@ properties:
     dataType: IfcThermodynamicTemperatureMeasure
     measureType: ''
     unitType: THERMODYNAMICTEMPERATUREUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: ColorRenderingIndex
   definition: The CRI indicates how well a light source renders eight standard colors compared to perfect reference lamp with the same color temperature. The CRI scale ranges from 1 to 100, with 100 representing perfect rendering properties.
   ifdGuid: 1MPuDZ3Qn6CvwR6Wa5aWFs
+  legacyGuid: 1MPuDZ3Qn6CvwR6Wa5aWFs
   localizations:
   - language: ja-JP
     name: '演色評価数'
@@ -676,3 +708,5 @@ properties:
     dataType: IfcInteger
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

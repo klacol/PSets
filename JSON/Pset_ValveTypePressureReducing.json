@@ -5,6 +5,7 @@
     "schema": "IfcHvacDomain"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "Valve that reduces the pressure of a fluid immediately downstream of its position in a pipeline to a preselected value or by a predetermined ratio.Note that a pressure reducing valve is constrained to have a 2 port  pattern.",
   "localizations": [
     {
@@ -49,6 +50,7 @@
       "name": "UpstreamPressure",
       "definition": "The operating pressure of the fluid upstream of the pressure reducing valve.",
       "ifdGuid": "0NnCApg6v9be8i8jBuOB6Y",
+      "legacyGuid": "0NnCApg6v9be8i8jBuOB6Y",
       "localizations": [
         {
           "language": "ja-JP",
@@ -85,12 +87,16 @@
         "dataType": "IfcPressureMeasure",
         "measureType": "",
         "unitType": "PRESSUREUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "DownstreamPressure",
       "definition": "The operating pressure of the fluid downstream of the pressure reducing valve.",
       "ifdGuid": "0dPl2NLav1l8a4ExIOAdqF",
+      "legacyGuid": "0dPl2NLav1l8a4ExIOAdqF",
       "localizations": [
         {
           "language": "ja-JP",
@@ -127,6 +133,9 @@
         "dataType": "IfcPressureMeasure",
         "measureType": "",
         "unitType": "PRESSUREUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

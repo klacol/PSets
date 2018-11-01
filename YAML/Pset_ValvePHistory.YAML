@@ -3,6 +3,7 @@ ifcVersion:
   version: 4.0.0.0
   schema: IfcHvacDomain
 ifdGuid: ''
+legacyGuid: ''
 definition: 'Valve performance history common attributes of a typical 2 port pattern type valve.'
 localizations:
 - language: de-DE
@@ -30,6 +31,7 @@ properties:
 - name: PercentageOpen
   definition: The ratio between the amount that the valve is open to the full open position of the valve.
   ifdGuid: 28VRDbpfvD6PGlO0JKW80K
+  legacyGuid: 28VRDbpfvD6PGlO0JKW80K
   localizations:
   - language: ja-JP
     name: 'パーセント開度'
@@ -55,9 +57,12 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: MeasuredFlowRate
   definition: The rate of flow of a fluid measured across the valve.
   ifdGuid: 1BtEmbU0vAZAnf6IB4G6RD
+  legacyGuid: 1BtEmbU0vAZAnf6IB4G6RD
   localizations:
   - language: ja-JP
     name: '計測流量'
@@ -83,9 +88,12 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: MeasuredPressureDrop
   definition: The actual pressure drop in the fluid measured across the valve.
   ifdGuid: 0M6m0XtZPA89OI5KM18qbF
+  legacyGuid: 0M6m0XtZPA89OI5KM18qbF
   localizations:
   - language: ja-JP
     name: '計測圧力降下'
@@ -111,3 +119,5 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

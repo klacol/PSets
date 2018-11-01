@@ -3,6 +3,7 @@ ifcVersion:
   version: 4.0.0.0
   schema: IfcMaterialResource
 ifdGuid: ''
+legacyGuid: ''
 definition: 'This is a collection of mechanical properties applicable to wood-based materials for beam-like products, especially laminated materials like glulam and LVL.Anisotropy of such materials is taken into account by different properties according to grain direction and load types.All values shall be given for a standardized service condition, a standardized load duration and a standardized reference size of the member according to local design codes.NOTE: In cases where mechanical material properties are graduated for different given reference sizes, separate instances of IfcExtendedMaterialProperties and IfcMaterial have to be used for each required graduation. Mechanically differing versions of a material are treated as different materials.References to the orientation of grain or lay-up correspond to material orientation given by geometrical or topological representation of element objects or types, especially IfcMemberType and IfcStructuralMember.'
 localizations:
 - language: de-DE
@@ -30,6 +31,7 @@ properties:
 - name: ApplicableStructuralDesignMethod
   definition: Determines whether mechanical material properties are applicable to 'ASD' = allowable stress design (working stress design), 'LSD' = limit state design, or 'LRFD' = load and resistance factor design.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: de-DE
     name: ''
@@ -53,9 +55,12 @@ properties:
     dataType: IfcLabel
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: InPlane
   definition: Mechanical properties with respect to in-plane load, i.e. bending about the strong axis; tension zone of unbalanced layups is stressed in tension.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: de-DE
     name: ''
@@ -81,6 +86,7 @@ properties:
     - name: YoungModulus
       definition: Elastic modulus, mean value, α=0°.
       ifdGuid: ''
+      legacyGuid: ''
       localizations:
       - language: de-DE
         name: ''
@@ -104,9 +110,12 @@ properties:
         dataType: IfcModulusOfElasticityMeasure
         measureType: ''
         unitType: USERDEFINED
+      status:
+        creationDate: 2018-01-01T00:00:00.0000000
     - name: YoungModulusMin
       definition: Elastic modulus, minimal value, α=0°.
       ifdGuid: ''
+      legacyGuid: ''
       localizations:
       - language: de-DE
         name: ''
@@ -130,9 +139,12 @@ properties:
         dataType: IfcModulusOfElasticityMeasure
         measureType: ''
         unitType: USERDEFINED
+      status:
+        creationDate: 2018-01-01T00:00:00.0000000
     - name: YoungModulusPerp
       definition: Elastic modulus, mean value, α=90°.
       ifdGuid: ''
+      legacyGuid: ''
       localizations:
       - language: de-DE
         name: ''
@@ -156,9 +168,12 @@ properties:
         dataType: IfcModulusOfElasticityMeasure
         measureType: ''
         unitType: USERDEFINED
+      status:
+        creationDate: 2018-01-01T00:00:00.0000000
     - name: YoungModulusPerpMin
       definition: Elastic modulus, minimal value, α=90°.
       ifdGuid: ''
+      legacyGuid: ''
       localizations:
       - language: de-DE
         name: ''
@@ -182,9 +197,12 @@ properties:
         dataType: IfcModulusOfElasticityMeasure
         measureType: ''
         unitType: USERDEFINED
+      status:
+        creationDate: 2018-01-01T00:00:00.0000000
     - name: ShearModulus
       definition: Shear modulus, mean value.
       ifdGuid: ''
+      legacyGuid: ''
       localizations:
       - language: de-DE
         name: ''
@@ -208,9 +226,12 @@ properties:
         dataType: IfcModulusOfElasticityMeasure
         measureType: ''
         unitType: USERDEFINED
+      status:
+        creationDate: 2018-01-01T00:00:00.0000000
     - name: ShearModulusMin
       definition: Shear modulus, minimal value.
       ifdGuid: ''
+      legacyGuid: ''
       localizations:
       - language: de-DE
         name: ''
@@ -234,9 +255,12 @@ properties:
         dataType: IfcModulusOfElasticityMeasure
         measureType: ''
         unitType: USERDEFINED
+      status:
+        creationDate: 2018-01-01T00:00:00.0000000
     - name: BendingStrength
       definition: Bending strength.
       ifdGuid: ''
+      legacyGuid: ''
       localizations:
       - language: de-DE
         name: ''
@@ -260,9 +284,12 @@ properties:
         dataType: IfcPressureMeasure
         measureType: ''
         unitType: USERDEFINED
+      status:
+        creationDate: 2018-01-01T00:00:00.0000000
     - name: TensileStrength
       definition: Tensile strength, α=0°.
       ifdGuid: ''
+      legacyGuid: ''
       localizations:
       - language: de-DE
         name: ''
@@ -286,9 +313,12 @@ properties:
         dataType: IfcPressureMeasure
         measureType: ''
         unitType: USERDEFINED
+      status:
+        creationDate: 2018-01-01T00:00:00.0000000
     - name: TensileStrengthPerp
       definition: Tensile strength, α=90°.
       ifdGuid: ''
+      legacyGuid: ''
       localizations:
       - language: de-DE
         name: ''
@@ -312,9 +342,12 @@ properties:
         dataType: IfcPressureMeasure
         measureType: ''
         unitType: USERDEFINED
+      status:
+        creationDate: 2018-01-01T00:00:00.0000000
     - name: CompStrength
       definition: Compressive strength, α=0°.
       ifdGuid: ''
+      legacyGuid: ''
       localizations:
       - language: de-DE
         name: ''
@@ -338,9 +371,12 @@ properties:
         dataType: IfcPressureMeasure
         measureType: ''
         unitType: USERDEFINED
+      status:
+        creationDate: 2018-01-01T00:00:00.0000000
     - name: CompStrengthPerp
       definition: Compressive strength, α=90°.
       ifdGuid: ''
+      legacyGuid: ''
       localizations:
       - language: de-DE
         name: ''
@@ -364,9 +400,12 @@ properties:
         dataType: IfcPressureMeasure
         measureType: ''
         unitType: USERDEFINED
+      status:
+        creationDate: 2018-01-01T00:00:00.0000000
     - name: RaisedCompStrengthPerp
       definition: Alternative value for compressive strength, α=90°, which may be used under material and code dependent conditions (e.g. if deformation is tolerable, or far from ends of the member); conditions should be stated in SELF\IfcProperty.Description.
       ifdGuid: ''
+      legacyGuid: ''
       localizations:
       - language: de-DE
         name: ''
@@ -390,9 +429,12 @@ properties:
         dataType: IfcPressureMeasure
         measureType: ''
         unitType: USERDEFINED
+      status:
+        creationDate: 2018-01-01T00:00:00.0000000
     - name: ShearStrength
       definition: Shear strength.
       ifdGuid: ''
+      legacyGuid: ''
       localizations:
       - language: de-DE
         name: ''
@@ -416,9 +458,12 @@ properties:
         dataType: IfcPressureMeasure
         measureType: ''
         unitType: USERDEFINED
+      status:
+        creationDate: 2018-01-01T00:00:00.0000000
     - name: TorsionalStrength
       definition: Shear strength in torsion.
       ifdGuid: ''
+      legacyGuid: ''
       localizations:
       - language: de-DE
         name: ''
@@ -442,9 +487,12 @@ properties:
         dataType: IfcPressureMeasure
         measureType: ''
         unitType: USERDEFINED
+      status:
+        creationDate: 2018-01-01T00:00:00.0000000
     - name: ReferenceDepth
       definition: Depth in bending for which the mechanical properties are valid; provided as a means to check the integrity of material assignment.
       ifdGuid: ''
+      legacyGuid: ''
       localizations:
       - language: de-DE
         name: ''
@@ -468,9 +516,12 @@ properties:
         dataType: IfcPositiveLengthMeasure
         measureType: ''
         unitType: USERDEFINED
+      status:
+        creationDate: 2018-01-01T00:00:00.0000000
     - name: InstabilityFactors
       definition: 'Defining values: slenderness ratios; defined values: either factors or divisors of the strength, depending on the design method (if <1: factors, if >1: divisors).'
       ifdGuid: ''
+      legacyGuid: ''
       localizations:
       - language: de-DE
         name: ''
@@ -500,9 +551,14 @@ properties:
           dataType: IfcPositiveRatioMeasure
           measureType: ''
           unitType: USERDEFINED
+      status:
+        creationDate: 2018-01-01T00:00:00.0000000
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: InPlaneNegative
   definition: Mechanical properties with respect to in-plane load, i.e. bending about the strong axis; compression zone of unbalanced layups is stressed in tension.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: de-DE
     name: ''
@@ -528,6 +584,7 @@ properties:
     - name: YoungModulus
       definition: Elastic modulus, mean value, α=0°.
       ifdGuid: ''
+      legacyGuid: ''
       localizations:
       - language: de-DE
         name: ''
@@ -551,9 +608,12 @@ properties:
         dataType: IfcModulusOfElasticityMeasure
         measureType: ''
         unitType: USERDEFINED
+      status:
+        creationDate: 2018-01-01T00:00:00.0000000
     - name: YoungModulusMin
       definition: Elastic modulus, minimal value, α=0°.
       ifdGuid: ''
+      legacyGuid: ''
       localizations:
       - language: de-DE
         name: ''
@@ -577,9 +637,12 @@ properties:
         dataType: IfcModulusOfElasticityMeasure
         measureType: ''
         unitType: USERDEFINED
+      status:
+        creationDate: 2018-01-01T00:00:00.0000000
     - name: YoungModulusPerp
       definition: Elastic modulus, mean value, α=90°.
       ifdGuid: ''
+      legacyGuid: ''
       localizations:
       - language: de-DE
         name: ''
@@ -603,9 +666,12 @@ properties:
         dataType: IfcModulusOfElasticityMeasure
         measureType: ''
         unitType: USERDEFINED
+      status:
+        creationDate: 2018-01-01T00:00:00.0000000
     - name: YoungModulusPerpMin
       definition: Elastic modulus, minimal value, α=90°.
       ifdGuid: ''
+      legacyGuid: ''
       localizations:
       - language: de-DE
         name: ''
@@ -629,9 +695,12 @@ properties:
         dataType: IfcModulusOfElasticityMeasure
         measureType: ''
         unitType: USERDEFINED
+      status:
+        creationDate: 2018-01-01T00:00:00.0000000
     - name: ShearModulus
       definition: Shear modulus, mean value.
       ifdGuid: ''
+      legacyGuid: ''
       localizations:
       - language: de-DE
         name: ''
@@ -655,9 +724,12 @@ properties:
         dataType: IfcModulusOfElasticityMeasure
         measureType: ''
         unitType: USERDEFINED
+      status:
+        creationDate: 2018-01-01T00:00:00.0000000
     - name: ShearModulusMin
       definition: Shear modulus, minimal value.
       ifdGuid: ''
+      legacyGuid: ''
       localizations:
       - language: de-DE
         name: ''
@@ -681,9 +753,12 @@ properties:
         dataType: IfcModulusOfElasticityMeasure
         measureType: ''
         unitType: USERDEFINED
+      status:
+        creationDate: 2018-01-01T00:00:00.0000000
     - name: BendingStrength
       definition: Bending strength.
       ifdGuid: ''
+      legacyGuid: ''
       localizations:
       - language: de-DE
         name: ''
@@ -707,9 +782,12 @@ properties:
         dataType: IfcPressureMeasure
         measureType: ''
         unitType: USERDEFINED
+      status:
+        creationDate: 2018-01-01T00:00:00.0000000
     - name: TensileStrength
       definition: Tensile strength, α=0°.
       ifdGuid: ''
+      legacyGuid: ''
       localizations:
       - language: de-DE
         name: ''
@@ -733,9 +811,12 @@ properties:
         dataType: IfcPressureMeasure
         measureType: ''
         unitType: USERDEFINED
+      status:
+        creationDate: 2018-01-01T00:00:00.0000000
     - name: TensileStrengthPerp
       definition: Tensile strength, α=90°.
       ifdGuid: ''
+      legacyGuid: ''
       localizations:
       - language: de-DE
         name: ''
@@ -759,9 +840,12 @@ properties:
         dataType: IfcPressureMeasure
         measureType: ''
         unitType: USERDEFINED
+      status:
+        creationDate: 2018-01-01T00:00:00.0000000
     - name: CompStrength
       definition: Compressive strength, α=0°.
       ifdGuid: ''
+      legacyGuid: ''
       localizations:
       - language: de-DE
         name: ''
@@ -785,9 +869,12 @@ properties:
         dataType: IfcPressureMeasure
         measureType: ''
         unitType: USERDEFINED
+      status:
+        creationDate: 2018-01-01T00:00:00.0000000
     - name: CompStrengthPerp
       definition: Compressive strength, α=90°.
       ifdGuid: ''
+      legacyGuid: ''
       localizations:
       - language: de-DE
         name: ''
@@ -811,9 +898,12 @@ properties:
         dataType: IfcPressureMeasure
         measureType: ''
         unitType: USERDEFINED
+      status:
+        creationDate: 2018-01-01T00:00:00.0000000
     - name: RaisedCompStrengthPerp
       definition: Alternative value for compressive strength, α=90°, which may be used under material and code dependent conditions (e.g. if deformation is tolerable, or far from ends of the member); conditions should be stated in SELF\IfcProperty.Description.
       ifdGuid: ''
+      legacyGuid: ''
       localizations:
       - language: de-DE
         name: ''
@@ -837,9 +927,12 @@ properties:
         dataType: IfcPressureMeasure
         measureType: ''
         unitType: USERDEFINED
+      status:
+        creationDate: 2018-01-01T00:00:00.0000000
     - name: ShearStrength
       definition: Shear strength.
       ifdGuid: ''
+      legacyGuid: ''
       localizations:
       - language: de-DE
         name: ''
@@ -863,9 +956,12 @@ properties:
         dataType: IfcPressureMeasure
         measureType: ''
         unitType: USERDEFINED
+      status:
+        creationDate: 2018-01-01T00:00:00.0000000
     - name: TorsionalStrength
       definition: Shear strength in torsion.
       ifdGuid: ''
+      legacyGuid: ''
       localizations:
       - language: de-DE
         name: ''
@@ -889,9 +985,12 @@ properties:
         dataType: IfcPressureMeasure
         measureType: ''
         unitType: USERDEFINED
+      status:
+        creationDate: 2018-01-01T00:00:00.0000000
     - name: ReferenceDepth
       definition: Depth in bending for which the mechanical properties are valid; provided as a means to check the integrity of material assignment.
       ifdGuid: ''
+      legacyGuid: ''
       localizations:
       - language: de-DE
         name: ''
@@ -915,9 +1014,12 @@ properties:
         dataType: IfcPositiveLengthMeasure
         measureType: ''
         unitType: USERDEFINED
+      status:
+        creationDate: 2018-01-01T00:00:00.0000000
     - name: InstabilityFactors
       definition: 'Defining values: slenderness ratios; defined values: either factors or divisors of the strength, depending on the design method (if <1: factors, if >1: divisors).'
       ifdGuid: ''
+      legacyGuid: ''
       localizations:
       - language: de-DE
         name: ''
@@ -947,9 +1049,14 @@ properties:
           dataType: IfcPositiveRatioMeasure
           measureType: ''
           unitType: USERDEFINED
+      status:
+        creationDate: 2018-01-01T00:00:00.0000000
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: OutOfPlane
   definition: Mechanical properties with respect to out-of-plane load, i.e. bending about the weak axis.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: de-DE
     name: ''
@@ -975,6 +1082,7 @@ properties:
     - name: YoungModulus
       definition: Elastic modulus, mean value, α=0°.
       ifdGuid: ''
+      legacyGuid: ''
       localizations:
       - language: de-DE
         name: ''
@@ -998,9 +1106,12 @@ properties:
         dataType: IfcModulusOfElasticityMeasure
         measureType: ''
         unitType: USERDEFINED
+      status:
+        creationDate: 2018-01-01T00:00:00.0000000
     - name: YoungModulusMin
       definition: Elastic modulus, minimal value, α=0°.
       ifdGuid: ''
+      legacyGuid: ''
       localizations:
       - language: de-DE
         name: ''
@@ -1024,9 +1135,12 @@ properties:
         dataType: IfcModulusOfElasticityMeasure
         measureType: ''
         unitType: USERDEFINED
+      status:
+        creationDate: 2018-01-01T00:00:00.0000000
     - name: YoungModulusPerp
       definition: Elastic modulus, mean value, α=90°.
       ifdGuid: ''
+      legacyGuid: ''
       localizations:
       - language: de-DE
         name: ''
@@ -1050,9 +1164,12 @@ properties:
         dataType: IfcModulusOfElasticityMeasure
         measureType: ''
         unitType: USERDEFINED
+      status:
+        creationDate: 2018-01-01T00:00:00.0000000
     - name: YoungModulusPerpMin
       definition: Elastic modulus, minimal value, α=90°.
       ifdGuid: ''
+      legacyGuid: ''
       localizations:
       - language: de-DE
         name: ''
@@ -1076,9 +1193,12 @@ properties:
         dataType: IfcModulusOfElasticityMeasure
         measureType: ''
         unitType: USERDEFINED
+      status:
+        creationDate: 2018-01-01T00:00:00.0000000
     - name: ShearModulus
       definition: Shear modulus, mean value.
       ifdGuid: ''
+      legacyGuid: ''
       localizations:
       - language: de-DE
         name: ''
@@ -1102,9 +1222,12 @@ properties:
         dataType: IfcModulusOfElasticityMeasure
         measureType: ''
         unitType: USERDEFINED
+      status:
+        creationDate: 2018-01-01T00:00:00.0000000
     - name: ShearModulusMin
       definition: Shear modulus, minimal value.
       ifdGuid: ''
+      legacyGuid: ''
       localizations:
       - language: de-DE
         name: ''
@@ -1128,9 +1251,12 @@ properties:
         dataType: IfcModulusOfElasticityMeasure
         measureType: ''
         unitType: USERDEFINED
+      status:
+        creationDate: 2018-01-01T00:00:00.0000000
     - name: BendingStrength
       definition: Bending strength.
       ifdGuid: ''
+      legacyGuid: ''
       localizations:
       - language: de-DE
         name: ''
@@ -1154,9 +1280,12 @@ properties:
         dataType: IfcPressureMeasure
         measureType: ''
         unitType: USERDEFINED
+      status:
+        creationDate: 2018-01-01T00:00:00.0000000
     - name: TensileStrength
       definition: Tensile strength, α=0°.
       ifdGuid: ''
+      legacyGuid: ''
       localizations:
       - language: de-DE
         name: ''
@@ -1180,9 +1309,12 @@ properties:
         dataType: IfcPressureMeasure
         measureType: ''
         unitType: USERDEFINED
+      status:
+        creationDate: 2018-01-01T00:00:00.0000000
     - name: TensileStrengthPerp
       definition: Tensile strength, α=90°.
       ifdGuid: ''
+      legacyGuid: ''
       localizations:
       - language: de-DE
         name: ''
@@ -1206,9 +1338,12 @@ properties:
         dataType: IfcPressureMeasure
         measureType: ''
         unitType: USERDEFINED
+      status:
+        creationDate: 2018-01-01T00:00:00.0000000
     - name: CompStrength
       definition: Compressive strength, α=0°.
       ifdGuid: ''
+      legacyGuid: ''
       localizations:
       - language: de-DE
         name: ''
@@ -1232,9 +1367,12 @@ properties:
         dataType: IfcPressureMeasure
         measureType: ''
         unitType: USERDEFINED
+      status:
+        creationDate: 2018-01-01T00:00:00.0000000
     - name: CompStrengthPerp
       definition: Compressive strength, α=90°.
       ifdGuid: ''
+      legacyGuid: ''
       localizations:
       - language: de-DE
         name: ''
@@ -1258,9 +1396,12 @@ properties:
         dataType: IfcPressureMeasure
         measureType: ''
         unitType: USERDEFINED
+      status:
+        creationDate: 2018-01-01T00:00:00.0000000
     - name: RaisedCompStrengthPerp
       definition: Alternative value for compressive strength, α=90°, which may be used under material and code dependent conditions (e.g. if deformation is tolerable, or far from ends of the member); conditions should be stated in SELF\IfcProperty.Description.
       ifdGuid: ''
+      legacyGuid: ''
       localizations:
       - language: de-DE
         name: ''
@@ -1284,9 +1425,12 @@ properties:
         dataType: IfcPressureMeasure
         measureType: ''
         unitType: USERDEFINED
+      status:
+        creationDate: 2018-01-01T00:00:00.0000000
     - name: ShearStrength
       definition: Shear strength.
       ifdGuid: ''
+      legacyGuid: ''
       localizations:
       - language: de-DE
         name: ''
@@ -1310,9 +1454,12 @@ properties:
         dataType: IfcPressureMeasure
         measureType: ''
         unitType: USERDEFINED
+      status:
+        creationDate: 2018-01-01T00:00:00.0000000
     - name: TorsionalStrength
       definition: Shear strength in torsion.
       ifdGuid: ''
+      legacyGuid: ''
       localizations:
       - language: de-DE
         name: ''
@@ -1336,9 +1483,12 @@ properties:
         dataType: IfcPressureMeasure
         measureType: ''
         unitType: USERDEFINED
+      status:
+        creationDate: 2018-01-01T00:00:00.0000000
     - name: ReferenceDepth
       definition: Depth in bending for which the mechanical properties are valid; provided as a means to check the integrity of material assignment.
       ifdGuid: ''
+      legacyGuid: ''
       localizations:
       - language: de-DE
         name: ''
@@ -1362,9 +1512,12 @@ properties:
         dataType: IfcPositiveLengthMeasure
         measureType: ''
         unitType: USERDEFINED
+      status:
+        creationDate: 2018-01-01T00:00:00.0000000
     - name: InstabilityFactors
       definition: 'Defining values: slenderness ratios; defined values: either factors or divisors of the strength, depending on the design method (if <1: factors, if >1: divisors).'
       ifdGuid: ''
+      legacyGuid: ''
       localizations:
       - language: de-DE
         name: ''
@@ -1394,3 +1547,7 @@ properties:
           dataType: IfcPositiveRatioMeasure
           measureType: ''
           unitType: USERDEFINED
+      status:
+        creationDate: 2018-01-01T00:00:00.0000000
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

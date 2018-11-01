@@ -5,6 +5,7 @@
     "schema": "IfcSharedComponentElements"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "Properties common to fixing sockets.",
   "localizations": [
     {
@@ -53,6 +54,7 @@
       "name": "FixingSocketTypeReference",
       "definition": "Type reference for the fixing socket according to local standards.",
       "ifdGuid": "1KIQQNApXE8PgFf1VxQ65K",
+      "legacyGuid": "1KIQQNApXE8PgFf1VxQ65K",
       "localizations": [
         {
           "language": "ja-JP",
@@ -96,12 +98,16 @@
         "guid": "",
         "libraryName": "Industry Foundation Classes by buildingSMART International",
         "sectionref": "Core Schema"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "FixingSocketHeight",
       "definition": "The overall height of the fixing socket.",
       "ifdGuid": "1R19SmjFr0LfxfBwrGYBoE",
+      "legacyGuid": "1R19SmjFr0LfxfBwrGYBoE",
       "localizations": [
         {
           "language": "ja-JP",
@@ -143,12 +149,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "FixingSocketThreadDiameter",
       "definition": "The nominal diameter of the thread.",
       "ifdGuid": "2fmibAhF12_B5aqxouLFJO",
+      "legacyGuid": "2fmibAhF12_B5aqxouLFJO",
       "localizations": [
         {
           "language": "ja-JP",
@@ -190,12 +200,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "FixingSocketThreadLength",
       "definition": "The length of the threaded part of the fixing socket.",
       "ifdGuid": "3cbfaerVjA7vD$LA$dYeGJ",
+      "legacyGuid": "3cbfaerVjA7vD$LA$dYeGJ",
       "localizations": [
         {
           "language": "ja-JP",
@@ -237,6 +251,9 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

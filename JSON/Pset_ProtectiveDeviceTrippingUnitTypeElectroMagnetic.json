@@ -5,6 +5,7 @@
     "schema": "IfcElectricalDomain"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "Information on tripping units that are electrically or magnetically tripped.",
   "localizations": [
     {
@@ -49,6 +50,7 @@
       "name": "ElectroMagneticTrippingUnitType",
       "definition": "A list of the available types of electric magnetic tripping unit  from which that required may be selected. These cover overload, none special, short circuit, motor protection and bi-metal tripping.",
       "ifdGuid": "23P8gbZa14Z9$86t$GJFQz",
+      "legacyGuid": "23P8gbZa14Z9$86t$GJFQz",
       "localizations": [
         {
           "language": "ja-JP",
@@ -349,12 +351,16 @@
             ]
           }
         ]
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "I1",
       "definition": "The (thermal) lower testing current limit in [x In], indicating that for currents lower than I1, the tripping time shall be longer than the associated tripping time, T2.",
       "ifdGuid": "36jSPM9HP1CPcwtdx9TAf1",
+      "legacyGuid": "36jSPM9HP1CPcwtdx9TAf1",
       "localizations": [
         {
           "language": "ja-JP",
@@ -396,12 +402,16 @@
         "dataType": "IfcReal",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "I2",
       "definition": "The (thermal) upper testing current limit in [x In], indicating that for currents larger than I2, the tripping time shall be shorter than the associated tripping time, T2.",
       "ifdGuid": "21mki8NKnBiQo1piKkPS$t",
+      "legacyGuid": "21mki8NKnBiQo1piKkPS$t",
       "localizations": [
         {
           "language": "ja-JP",
@@ -443,12 +453,16 @@
         "dataType": "IfcReal",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "T2",
       "definition": "The (thermal) testing time in [s] associated with the testing currents I1 and I2.",
       "ifdGuid": "2RFCTZR$zBrwVhXUNYEnkW",
+      "legacyGuid": "2RFCTZR$zBrwVhXUNYEnkW",
       "localizations": [
         {
           "language": "ja-JP",
@@ -490,12 +504,16 @@
         "dataType": "IfcTimeMeasure",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "DefinedTemperature",
       "definition": "The ambient temperature at which the thermal current/time-curve associated with this protection device is defined.",
       "ifdGuid": "1jqYQEGsP5dRHj_Yc2OAxN",
+      "legacyGuid": "1jqYQEGsP5dRHj_Yc2OAxN",
       "localizations": [
         {
           "language": "ja-JP",
@@ -537,12 +555,16 @@
         "dataType": "IfcThermodynamicTemperatureMeasure",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "TemperatureFactor",
       "definition": "The correction factor (typically measured as %/deg K) for adjusting the thermal current/time to an ambient temperature different from the value given by the defined temperature.",
       "ifdGuid": "0Y95kELdDFngI6xR4IJS7W",
+      "legacyGuid": "0Y95kELdDFngI6xR4IJS7W",
       "localizations": [
         {
           "language": "ja-JP",
@@ -584,12 +606,16 @@
         "dataType": "IfcRatioMeasure",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "I4",
       "definition": "The lower electromagnetic testing current limit in [x In], indicating that for currents lower than I4, the tripping time shall be longer than the associated tripping time, T5, i.e. the device shall not trip instantaneous.",
       "ifdGuid": "1n7u9i0R957eE9wJ7Z8ogw",
+      "legacyGuid": "1n7u9i0R957eE9wJ7Z8ogw",
       "localizations": [
         {
           "language": "ja-JP",
@@ -631,12 +657,16 @@
         "dataType": "IfcReal",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "I5",
       "definition": "The upper electromagnetic testing current limit in [x In], indicating that for currents larger than I5, the tripping time shall be shorter than or equal to the associated tripping time, T5, i.e. the device shall trip instantaneous.",
       "ifdGuid": "33vZOnXuXE7O2yv_Q87T_b",
+      "legacyGuid": "33vZOnXuXE7O2yv_Q87T_b",
       "localizations": [
         {
           "language": "ja-JP",
@@ -678,12 +708,16 @@
         "dataType": "IfcReal",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "T5",
       "definition": "The electromagnetic testing time in [s] associated with the testing currents I4 and I5, i.e. electromagnetic tripping time",
       "ifdGuid": "1XqswB4rj29QcJNqEGrVDM",
+      "legacyGuid": "1XqswB4rj29QcJNqEGrVDM",
       "localizations": [
         {
           "language": "ja-JP",
@@ -725,12 +759,16 @@
         "dataType": "IfcTimeMeasure",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "CurveDesignation",
       "definition": "The designation of the trippingcurve given by the manufacturer. For a MCB the designation should be in accordance with the designations given in IEC 60898.",
       "ifdGuid": "27WUy0DJHClxrq7e22UutC",
+      "legacyGuid": "27WUy0DJHClxrq7e22UutC",
       "localizations": [
         {
           "language": "ja-JP",
@@ -772,6 +810,9 @@
         "dataType": "IfcLabel",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

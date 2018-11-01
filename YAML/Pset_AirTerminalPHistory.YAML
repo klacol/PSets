@@ -3,6 +3,7 @@ ifcVersion:
   version: 4.0.0.0
   schema: IfcHvacDomain
 ifdGuid: ''
+legacyGuid: ''
 definition: 'Air terminal performance history common attributes.'
 localizations:
 - language: de-DE
@@ -29,7 +30,9 @@ applicableIfcClasses:
 properties:
 - name: AirFlowRate
   definition: Volumetric flow rate.
-  ifdGuid: 2DWLU58mf7ZOkjSMnaWRTK
+  ifdGuid: ''
+  legacyGuid: 8d815785230a478d8bad716c6481b754
+  legacyGuidAsIfcGlobalId: 2DWLU58mf7ZOkjSMnaWRTK
   localizations:
   - language: fr-FR
     name: 'Débit d''air'
@@ -55,9 +58,13 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: NeckAirVelocity
   definition: Air velocity at the neck.
-  ifdGuid: 3WH0vFyqzCTfwZG4gPCf9I
+  ifdGuid: ''
+  legacyGuid: e0440e4ff34f4c769ea3404a99329252
+  legacyGuidAsIfcGlobalId: 3WH0vFyqzCTfwZG4gPCf9I
   localizations:
   - language: fr-FR
     name: 'Vitesse de l''air au point le plus étroit'
@@ -83,9 +90,13 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: SupplyAirTemperatureHeating
   definition: Supply air temperature in heating mode.
-  ifdGuid: 16PbGY7GfArPOA8A2j0fa4
+  ifdGuid: ''
+  legacyGuid: 466654221d0a4ad5960a20a0ad029904
+  legacyGuidAsIfcGlobalId: 16PbGY7GfArPOA8A2j0fa4
   localizations:
   - language: fr-FR
     name: 'Température de l''air soufflé en chauffage'
@@ -111,9 +122,13 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: SupplyAirTemperatureCooling
   definition: Supply air temperature in cooling mode.
-  ifdGuid: 3G$kzcoFf3JBbRyOyhIupf
+  ifdGuid: ''
+  legacyGuid: d0feef66c8fa434cb95bf18f2b4b8ce9
+  legacyGuidAsIfcGlobalId: 3G$kzcoFf3JBbRyOyhIupf
   localizations:
   - language: fr-FR
     name: 'Température de l''air soufflé en refroidissement'
@@ -139,9 +154,13 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: PressureDrop
   definition: Drop in total pressure between inlet and outlet at nominal air-flow rate.
-  ifdGuid: 0mvJmaiNr5oOjaOft7fzw_
+  ifdGuid: ''
+  legacyGuid: 30e53c24b17d45c98b64629dc7a7debe
+  legacyGuidAsIfcGlobalId: 0mvJmaiNr5oOjaOft7fzw_
   localizations:
   - language: fr-FR
     name: 'Chute de pression'
@@ -167,9 +186,13 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: InductionRatio
   definition: Induction ratio versus distance from the diffuser and its discharge direction; induction ratio (or entrainment ratio) is the ratio of the volumetric flow rate in the jet to the volumetric flow rate at the air terminal.
-  ifdGuid: 2Tcg2d8zfABvC9GZ5zq3$z
+  ifdGuid: ''
+  legacyGuid: 9d9aa0a723da4a2f930942317dd03ffd
+  legacyGuidAsIfcGlobalId: 2Tcg2d8zfABvC9GZ5zq3$z
   localizations:
   - language: fr-FR
     name: 'Taux d''induction'
@@ -199,9 +222,13 @@ properties:
       dataType: IfcLengthMeasure
       measureType: ''
       unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: CenterlineAirVelocity
   definition: Centerline air velocity versus distance from the diffuser and temperature differential; a function of distance from diffuser and temperature difference between supply air and room air.
-  ifdGuid: 1bf2WCSU5BxPvjVz2taZ0Q
+  ifdGuid: ''
+  legacyGuid: 65a4280c71e14bed9e6d7fd0b792301a
+  legacyGuidAsIfcGlobalId: 1bf2WCSU5BxPvjVz2taZ0Q
   localizations:
   - language: fr-FR
     name: 'Vitesse de l''air en axe central de jet'
@@ -231,3 +258,5 @@ properties:
       dataType: IfcLengthMeasure
       measureType: ''
       unitType: LINEARVELOCITYUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

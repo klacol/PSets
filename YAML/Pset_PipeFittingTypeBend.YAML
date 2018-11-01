@@ -3,6 +3,7 @@ ifcVersion:
   version: 4.0.0.0
   schema: IfcHvacDomain
 ifdGuid: ''
+legacyGuid: ''
 definition: 'Pipe fitting type attributes for bend shapes.'
 localizations:
 - language: de-DE
@@ -30,6 +31,7 @@ properties:
 - name: BendAngle
   definition: The change of direction of flow.
   ifdGuid: 2YLjcnT6LAMAQWbl06aOZ6
+  legacyGuid: 2YLjcnT6LAMAQWbl06aOZ6
   localizations:
   - language: ja-JP
     name: '曲がり角度'
@@ -53,9 +55,12 @@ properties:
     dataType: IfcPositivePlaneAngleMeasure
     measureType: ''
     unitType: PLANEANGLEUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: BendRadius
   definition: The radius of bending if circular arc or zero if sharp bend.
   ifdGuid: 29bCndKRrDSOmbde27at5N
+  legacyGuid: 29bCndKRrDSOmbde27at5N
   localizations:
   - language: ja-JP
     name: '曲率半径'
@@ -79,3 +84,5 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: LENGTHUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

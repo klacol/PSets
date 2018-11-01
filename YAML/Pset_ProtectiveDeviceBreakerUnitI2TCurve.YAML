@@ -3,6 +3,7 @@ ifcVersion:
   version: 4.0.0.0
   schema: IfcElectricalDomain
 ifdGuid: ''
+legacyGuid: ''
 definition: 'A coherent set of attributes representing a curve for let-through energy of a protective device. Note - A protective device may be associated with different instances of this pSet providing information related to different  basic characteristics'
 localizations:
 - language: de-DE
@@ -30,6 +31,7 @@ properties:
 - name: VoltageLevel
   definition: The voltage levels of the protective device for which the data of the instance is valid. More than one value may be selected in the enumeration.
   ifdGuid: 3MiWoiCDvAw9vMHMxJwIhI
+  legacyGuid: 3MiWoiCDvAw9vMHMxJwIhI
   localizations:
   - language: ja-JP
     name: '電圧レベル'
@@ -231,9 +233,12 @@ properties:
       - language: ru-RU
         name: 'Unknown'
         definition: ''
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: NominalCurrent
   definition: A set of nominal currents in [A] for which the data of this instance is valid. At least one value shall be provided. Any value in the set shall not exceed the value of the UltimateRatedCurrent associated with the same breaker unit.
   ifdGuid: 2uhUNXe2b9sATOxuP8_BO_
+  legacyGuid: 2uhUNXe2b9sATOxuP8_BO_
   localizations:
   - language: ja-JP
     name: '定格電流'
@@ -260,9 +265,12 @@ properties:
     dataType: IfcElectricCurrentMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: BreakerUnitCurve
   definition: 'A curve that establishes the let through energy of a breaker unit when a particular prospective current is applied.  Note that the breaker unit curve is defined within a Cartesian coordinate system and this fact must be asserted within the property set:(1) Defining value: ProspectiveCurrent: A list of minimum 2 and maximum 16 numbers providing the currents in [A] for points in the current/I2t log/log coordinate space. The curve is drawn as a straight line between two consecutive points.(2) Defined value: LetThroughEnergy: A list of minimum 2 and maximum 16 numbers providing the let-through energy, I2t, in [A2s] for points in the current/I2t log/log coordinate space. The curve is drawn as a straight line between two consecutive points.'
   ifdGuid: 0zUu47VIf0NRiBTwQ_79DG
+  legacyGuid: 0zUu47VIf0NRiBTwQ_79DG
   localizations:
   - language: ja-JP
     name: '遮断機曲線'
@@ -295,3 +303,5 @@ properties:
       dataType: IfcReal
       measureType: ''
       unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

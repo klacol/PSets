@@ -3,6 +3,7 @@ ifcVersion:
   version: 4.0.0.0
   schema: IfcElectricalDomain
 ifdGuid: ''
+legacyGuid: ''
 definition: 'An audio-visual projector is a device that projects video to a surface.  HISTORY: Added in IFC4.'
 localizations:
 - language: de-DE
@@ -30,6 +31,7 @@ properties:
 - name: ProjectorType
   definition: Indicates the type of projector.
   ifdGuid: ''
+  legacyGuidAsIfcGlobalId: ''
   localizations:
   - language: ja-JP
     name: 'プロジェクター形式'
@@ -99,9 +101,12 @@ properties:
       - language: ru-RU
         name: 'Unknown'
         definition: ''
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: VideoResolutionWidth
   definition: Indicates the number of horizontal pixels (the largest native video resolution width).
   ifdGuid: ''
+  legacyGuidAsIfcGlobalId: ''
   localizations:
   - language: ja-JP
     name: '水平解像度'
@@ -128,9 +133,12 @@ properties:
     dataType: IfcInteger
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: VideoResolutionHeight
   definition: Indicates the number of vertical pixels (the largest native video resolution height).
   ifdGuid: ''
+  legacyGuidAsIfcGlobalId: ''
   localizations:
   - language: ja-JP
     name: '垂直解像度'
@@ -157,9 +165,12 @@ properties:
     dataType: IfcInteger
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: VideoResolutionMode
   definition: Indicates video resolution modes.
   ifdGuid: ''
+  legacyGuidAsIfcGlobalId: ''
   localizations:
   - language: ja-JP
     name: '解像度モード'
@@ -192,9 +203,12 @@ properties:
       dataType: IfcLabel
       measureType: ''
       unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: VideoScaleMode
   definition: Indicates video scaling modes.
   ifdGuid: ''
+  legacyGuidAsIfcGlobalId: ''
   localizations:
   - language: ja-JP
     name: 'ビデオスケールモード'
@@ -227,9 +241,12 @@ properties:
       dataType: IfcLabel
       measureType: ''
       unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: VideoCaptionMode
   definition: Indicates closed captioning modes.
   ifdGuid: ''
+  legacyGuidAsIfcGlobalId: ''
   localizations:
   - language: ja-JP
     name: 'ビデオキャプションモード'
@@ -262,3 +279,5 @@ properties:
       dataType: IfcLabel
       measureType: ''
       unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

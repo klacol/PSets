@@ -3,6 +3,7 @@ ifcVersion:
   version: 4.0.0.0
   schema: IfcBuildingControlsDomain
 ifdGuid: ''
+legacyGuid: ''
 definition: 'A device that senses or detects smoke. HISTORY: PressureSensorSensorSetPoint (error in previous release) changed to SetPointConcentration. Range, accuracy and time constant deleted.'
 localizations:
 - language: de-DE
@@ -30,6 +31,7 @@ properties:
 - name: CoverageArea
   definition: The floor area that is covered by the sensor (typically measured as a circle whose center is at the location of the sensor).
   ifdGuid: 1o7BkBWC139ffORRYBMGq4
+  legacyGuid: 1o7BkBWC139ffORRYBMGq4
   localizations:
   - language: ja-JP
     name: '測定範囲'
@@ -56,9 +58,12 @@ properties:
     dataType: IfcAreaMeasure
     measureType: ''
     unitType: AREAUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: SetPointConcentration
   definition: The smoke concentration value to be sensed. Use IfcPropertyBoundedValue.SetPointValue to set the set point value.
   ifdGuid: 07i0LUE9TCrxjDhp$1uR0a
+  legacyGuid: 07i0LUE9TCrxjDhp$1uR0a
   localizations:
   - language: ja-JP
     name: '煙濃度設定値'
@@ -86,9 +91,12 @@ properties:
     LowerBoundValue: '?'
     UpperBoundValue: '?'
     typeName: TypePropertyBoundedValue
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: HasBuiltInAlarm
   definition: Indicates whether the smoke sensor is included as an element within a smoke alarm/sensor unit (TRUE) or not (FALSE).
   ifdGuid: 2L1S5h12r0LuJsS$Coufks
+  legacyGuid: 2L1S5h12r0LuJsS$Coufks
   localizations:
   - language: ja-JP
     name: '煙警報器に含まれているか'
@@ -115,3 +123,5 @@ properties:
     dataType: IfcBoolean
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

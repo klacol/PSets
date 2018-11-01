@@ -3,6 +3,7 @@ ifcVersion:
   version: 4.0.0.0
   schema: IfcHvacDomain
 ifdGuid: ''
+legacyGuid: ''
 definition: 'Active (ventilated) cooled beam common attributes.'
 localizations:
 - language: de-DE
@@ -30,6 +31,7 @@ properties:
 - name: AirFlowConfiguration
   definition: Air flow configuration type of cooled beam.
   ifdGuid: 2AJ82SuEvDkxcoWFnm2$hx
+  legacyGuid: 2AJ82SuEvDkxcoWFnm2$hx
   localizations:
   - language: de-DE
     name: ''
@@ -162,9 +164,12 @@ properties:
       - language: ru-RU
         name: 'Unknown'
         definition: ''
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: AirflowRateRange
   definition: Possible range of airflow that can be delivered.
   ifdGuid: 1JQ7WlYbb7l9e7w4jWV8tR
+  legacyGuid: 1JQ7WlYbb7l9e7w4jWV8tR
   localizations:
   - language: de-DE
     name: ''
@@ -189,9 +194,12 @@ properties:
     LowerBoundValue: 0
     UpperBoundValue: '?'
     typeName: TypePropertyBoundedValue
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: SupplyAirConnectionType
   definition: The manner in which the pipe connection is made to the cooled beam.
   ifdGuid: 1IZXw46rLDCg8Na1MHmHZf
+  legacyGuid: 1IZXw46rLDCg8Na1MHmHZf
   localizations:
   - language: de-DE
     name: ''
@@ -346,9 +354,12 @@ properties:
       - language: ru-RU
         name: 'Unknown'
         definition: ''
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: ConnectionSize
   definition: Duct connection diameter.
   ifdGuid: 3Hjkk1uj1BZ8BAlhyVdM3r
+  legacyGuid: 3Hjkk1uj1BZ8BAlhyVdM3r
   localizations:
   - language: de-DE
     name: ''
@@ -372,3 +383,5 @@ properties:
     dataType: IfcLengthMeasure
     measureType: ''
     unitType: LENGTHUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

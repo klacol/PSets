@@ -5,6 +5,7 @@
     "schema": "IfcStructuralElementsDomain"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "The pitch length information of reinforcement  bar with the slab.",
   "localizations": [
     {
@@ -49,6 +50,7 @@
       "name": "Description",
       "definition": "Description of the reinforcement.",
       "ifdGuid": "3$B0XblUH0nATmJdvJQMpM",
+      "legacyGuid": "3$B0XblUH0nATmJdvJQMpM",
       "localizations": [
         {
           "language": "ja-JP",
@@ -85,12 +87,16 @@
         "dataType": "IfcText",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "Reference",
       "definition": "A descriptive label for the general reinforcement type.",
       "ifdGuid": "2OqH4N_CX4ugR5h4vhH5Yt",
+      "legacyGuid": "2OqH4N_CX4ugR5h4vhH5Yt",
       "localizations": [
         {
           "language": "ja-JP",
@@ -127,12 +133,16 @@
         "dataType": "IfcLabel",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "LongOutsideTopBarPitch",
       "definition": "The pitch length of the long outside top bar.",
       "ifdGuid": "1H_vC476v5WAviriiA1kAA",
+      "legacyGuid": "1H_vC476v5WAviriiA1kAA",
       "localizations": [
         {
           "language": "ja-JP",
@@ -169,12 +179,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "LongInsideCenterTopBarPitch",
       "definition": "The pitch length of the long inside center top bar.",
       "ifdGuid": "0pHzBasab7RB1m9H6l$UEW",
+      "legacyGuid": "0pHzBasab7RB1m9H6l$UEW",
       "localizations": [
         {
           "language": "ja-JP",
@@ -211,12 +225,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "LongInsideEndTopBarPitch",
       "definition": "The pitch length of the long inside end top bar.",
       "ifdGuid": "0Fe7Tlbu931uRY4leoh118",
+      "legacyGuid": "0Fe7Tlbu931uRY4leoh118",
       "localizations": [
         {
           "language": "ja-JP",
@@ -253,12 +271,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "ShortOutsideTopBarPitch",
       "definition": "The pitch length of the short outside top bar.",
       "ifdGuid": "04ODZrrXf06fWgvaByyxij",
+      "legacyGuid": "04ODZrrXf06fWgvaByyxij",
       "localizations": [
         {
           "language": "ja-JP",
@@ -295,12 +317,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "ShortInsideCenterTopBarPitch",
       "definition": "The pitch length of the short inside center top bar.",
       "ifdGuid": "2Dfl_2QVXC8hp94AvZujCc",
+      "legacyGuid": "2Dfl_2QVXC8hp94AvZujCc",
       "localizations": [
         {
           "language": "ja-JP",
@@ -337,12 +363,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "ShortInsideEndTopBarPitch",
       "definition": "The pitch length of the short inside end top bar.",
       "ifdGuid": "0BVhD_YZH9BxbVq9gZVQg6",
+      "legacyGuid": "0BVhD_YZH9BxbVq9gZVQg6",
       "localizations": [
         {
           "language": "ja-JP",
@@ -379,12 +409,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "LongOutsideLowerBarPitch",
       "definition": "The pitch length of the long outside lower bar.",
       "ifdGuid": "0zPYuHNvr9AAAy$1XwI9HI",
+      "legacyGuid": "0zPYuHNvr9AAAy$1XwI9HI",
       "localizations": [
         {
           "language": "ja-JP",
@@ -421,12 +455,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "LongInsideCenterLowerBarPitch",
       "definition": "The pitch length of the long inside center lower bar.",
       "ifdGuid": "1cO7AdAx9EJeWd6xV2V14B",
+      "legacyGuid": "1cO7AdAx9EJeWd6xV2V14B",
       "localizations": [
         {
           "language": "ja-JP",
@@ -463,12 +501,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "LongInsideEndLowerBarPitch",
       "definition": "The pitch length of the long inside end lower bar.",
       "ifdGuid": "2HQrOwHU91aPsF9fjWGZSk",
+      "legacyGuid": "2HQrOwHU91aPsF9fjWGZSk",
       "localizations": [
         {
           "language": "ja-JP",
@@ -505,12 +547,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "ShortOutsideLowerBarPitch",
       "definition": "The pitch length of the short outside lower bar.",
       "ifdGuid": "19i2U3kCTELB5AARVajqB5",
+      "legacyGuid": "19i2U3kCTELB5AARVajqB5",
       "localizations": [
         {
           "language": "ja-JP",
@@ -547,12 +593,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "ShortInsideCenterLowerBarPitch",
       "definition": "The pitch length of the short inside center lower bar.",
       "ifdGuid": "3wIbJsm_zBiA7i0yl7G6ye",
+      "legacyGuid": "3wIbJsm_zBiA7i0yl7G6ye",
       "localizations": [
         {
           "language": "ja-JP",
@@ -589,12 +639,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "ShortInsideEndLowerBarPitch",
       "definition": "The pitch length of the short inside end lower bar.",
       "ifdGuid": "3aZftLGIrFd93FYxwqu7YP",
+      "legacyGuid": "3aZftLGIrFd93FYxwqu7YP",
       "localizations": [
         {
           "language": "ja-JP",
@@ -631,6 +685,9 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

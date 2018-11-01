@@ -4,6 +4,7 @@
     "version": "4.0.0.0"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "Log of electrical activity attached to an instance of IfcPerformanceHistory having an assigned IfcDistributionPort of type CABLE.",
   "localizations": [
     {
@@ -48,6 +49,7 @@
       "name": "Current",
       "definition": "PSet2YamlConverter.PropertyType",
       "ifdGuid": "2VhUjrajvA8eTamaxazsiB",
+      "legacyGuid": "2VhUjrajvA8eTamaxazsiB",
       "localizations": [
         {
           "language": "ja-JP",
@@ -86,12 +88,16 @@
         "guid": "",
         "libraryName": "Industry Foundation Classes by buildingSMART International",
         "sectionref": "Core Schema"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "Voltage",
       "definition": "PSet2YamlConverter.PropertyType",
       "ifdGuid": "1lg7CDGrH2v9TIUzdU$h17",
+      "legacyGuid": "1lg7CDGrH2v9TIUzdU$h17",
       "localizations": [
         {
           "language": "ja-JP",
@@ -130,12 +136,16 @@
         "guid": "",
         "libraryName": "Industry Foundation Classes by buildingSMART International",
         "sectionref": "Core Schema"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "RealPower",
       "definition": "PSet2YamlConverter.PropertyType",
       "ifdGuid": "3xhiQ9aS5FZx39O_jb9Gyc",
+      "legacyGuid": "3xhiQ9aS5FZx39O_jb9Gyc",
       "localizations": [
         {
           "language": "ja-JP",
@@ -174,12 +184,16 @@
         "guid": "",
         "libraryName": "Industry Foundation Classes by buildingSMART International",
         "sectionref": "Core Schema"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "ReactivePower",
       "definition": "PSet2YamlConverter.PropertyType",
       "ifdGuid": "107SSt09T8QPi7FlONxs5S",
+      "legacyGuid": "107SSt09T8QPi7FlONxs5S",
       "localizations": [
         {
           "language": "ja-JP",
@@ -218,12 +232,16 @@
         "guid": "",
         "libraryName": "Industry Foundation Classes by buildingSMART International",
         "sectionref": "Core Schema"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "ApparentPower",
       "definition": "PSet2YamlConverter.PropertyType",
       "ifdGuid": "2lYNHW98j2TeNYYr2i$746",
+      "legacyGuid": "2lYNHW98j2TeNYYr2i$746",
       "localizations": [
         {
           "language": "ja-JP",
@@ -262,12 +280,16 @@
         "guid": "",
         "libraryName": "Industry Foundation Classes by buildingSMART International",
         "sectionref": "Core Schema"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "PowerFactor",
       "definition": "PSet2YamlConverter.PropertyType",
       "ifdGuid": "1Jv3lEllLAG9RzY6AaK90z",
+      "legacyGuid": "1Jv3lEllLAG9RzY6AaK90z",
       "localizations": [
         {
           "language": "ja-JP",
@@ -306,12 +328,16 @@
         "guid": "",
         "libraryName": "Industry Foundation Classes by buildingSMART International",
         "sectionref": "Core Schema"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "DataTransmitted",
       "definition": "PSet2YamlConverter.PropertyType",
       "ifdGuid": "31sBJr1t94sOktsMuxcZA2",
+      "legacyGuid": "31sBJr1t94sOktsMuxcZA2",
       "localizations": [
         {
           "language": "ja",
@@ -355,12 +381,16 @@
         "guid": "",
         "libraryName": "Industry Foundation Classes by buildingSMART International",
         "sectionref": "Core Schema"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "DataReceived",
       "definition": "PSet2YamlConverter.PropertyType",
       "ifdGuid": "3dAyrzXAv2nh7ZzfP57Hvk",
+      "legacyGuid": "3dAyrzXAv2nh7ZzfP57Hvk",
       "localizations": [
         {
           "language": "ja",
@@ -404,6 +434,9 @@
         "guid": "",
         "libraryName": "Industry Foundation Classes by buildingSMART International",
         "sectionref": "Core Schema"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

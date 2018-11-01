@@ -5,6 +5,7 @@
     "schema": "IfcMaterialResource"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "This is a collection of mechanical properties related to wood-based materials for panel-like products like plywood or OSB. The propositions given above for wood-based beam materials with respect to anisotropy, strength graduation according to element sizes (especially panel thickness) apply accordingly.",
   "localizations": [
     {
@@ -49,6 +50,7 @@
       "name": "ApplicableStructuralDesignMethod",
       "definition": "Determines whether mechanical material properties are applicable to 'ASD' = allowable stress design (working stress design), 'LSD' = limit state design, or 'LRFD' = load and resistance factor design.",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "de-DE",
@@ -85,12 +87,16 @@
         "dataType": "IfcLabel",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "InPlane",
       "definition": "Mechanical properties with respect to in-plane load, i.e. for function as a membrane.",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "de-DE",
@@ -130,6 +136,7 @@
             "name": "YoungModulusBending",
             "definition": "Defining values: α; defined values: elastic modulus in bending.",
             "ifdGuid": "",
+            "legacyGuid": "",
             "localizations": [
               {
                 "language": "de-DE",
@@ -174,12 +181,16 @@
                 "measureType": "",
                 "unitType": "USERDEFINED"
               }
+            },
+            "status": {
+              "creationDate": "2018-01-01T00:00:00"
             }
           },
           {
             "name": "YoungModulusTension",
             "definition": "Defining values: α; defined values: elastic modulus in tension.",
             "ifdGuid": "",
+            "legacyGuid": "",
             "localizations": [
               {
                 "language": "de-DE",
@@ -224,12 +235,16 @@
                 "measureType": "",
                 "unitType": "USERDEFINED"
               }
+            },
+            "status": {
+              "creationDate": "2018-01-01T00:00:00"
             }
           },
           {
             "name": "YoungModulusCompression",
             "definition": "Elastic modulus in compression.",
             "ifdGuid": "",
+            "legacyGuid": "",
             "localizations": [
               {
                 "language": "de-DE",
@@ -266,12 +281,16 @@
               "dataType": "IfcModulusOfElasticityMeasure",
               "measureType": "",
               "unitType": "USERDEFINED"
+            },
+            "status": {
+              "creationDate": "2018-01-01T00:00:00"
             }
           },
           {
             "name": "ShearModulus",
             "definition": "Shear modulus.",
             "ifdGuid": "",
+            "legacyGuid": "",
             "localizations": [
               {
                 "language": "de-DE",
@@ -308,12 +327,16 @@
               "dataType": "IfcModulusOfElasticityMeasure",
               "measureType": "",
               "unitType": "USERDEFINED"
+            },
+            "status": {
+              "creationDate": "2018-01-01T00:00:00"
             }
           },
           {
             "name": "BendingStrength",
             "definition": "Defining values: α; defined values: bending strength.",
             "ifdGuid": "",
+            "legacyGuid": "",
             "localizations": [
               {
                 "language": "de-DE",
@@ -358,12 +381,16 @@
                 "measureType": "",
                 "unitType": "USERDEFINED"
               }
+            },
+            "status": {
+              "creationDate": "2018-01-01T00:00:00"
             }
           },
           {
             "name": "CompressiveStrength",
             "definition": "Defining values: α; defined values: compressive strength.",
             "ifdGuid": "",
+            "legacyGuid": "",
             "localizations": [
               {
                 "language": "de-DE",
@@ -408,12 +435,16 @@
                 "measureType": "",
                 "unitType": "USERDEFINED"
               }
+            },
+            "status": {
+              "creationDate": "2018-01-01T00:00:00"
             }
           },
           {
             "name": "TensileStrength",
             "definition": "Defining values: α; defined values: tensile strength.",
             "ifdGuid": "",
+            "legacyGuid": "",
             "localizations": [
               {
                 "language": "de-DE",
@@ -458,12 +489,16 @@
                 "measureType": "",
                 "unitType": "USERDEFINED"
               }
+            },
+            "status": {
+              "creationDate": "2018-01-01T00:00:00"
             }
           },
           {
             "name": "ShearStrength",
             "definition": "Defining values: α; defined values: shear strength.",
             "ifdGuid": "",
+            "legacyGuid": "",
             "localizations": [
               {
                 "language": "de-DE",
@@ -508,12 +543,16 @@
                 "measureType": "",
                 "unitType": "USERDEFINED"
               }
+            },
+            "status": {
+              "creationDate": "2018-01-01T00:00:00"
             }
           },
           {
             "name": "BearingStrength",
             "definition": "Defining values: α; defined values: bearing strength of bolt holes, i.e. intrados pressure.",
             "ifdGuid": "",
+            "legacyGuid": "",
             "localizations": [
               {
                 "language": "de-DE",
@@ -558,12 +597,16 @@
                 "measureType": "",
                 "unitType": "USERDEFINED"
               }
+            },
+            "status": {
+              "creationDate": "2018-01-01T00:00:00"
             }
           },
           {
             "name": "RaisedCompressiveStrength",
             "definition": "Alternative value for compressive strength which may be used under material and code dependent conditions (e.g. if deformation is tolerable, or far from ends of the member); conditions should be stated in SELF\\IfcProperty.Description.",
             "ifdGuid": "",
+            "legacyGuid": "",
             "localizations": [
               {
                 "language": "de-DE",
@@ -600,12 +643,16 @@
               "dataType": "IfcPressureMeasure",
               "measureType": "",
               "unitType": "USERDEFINED"
+            },
+            "status": {
+              "creationDate": "2018-01-01T00:00:00"
             }
           },
           {
             "name": "ReferenceDepth",
             "definition": "Depth in bending for which the mechanical properties are valid; provided as a means to check the integrity of material assignment.",
             "ifdGuid": "",
+            "legacyGuid": "",
             "localizations": [
               {
                 "language": "de-DE",
@@ -642,15 +689,22 @@
               "dataType": "IfcPositiveLengthMeasure",
               "measureType": "",
               "unitType": "USERDEFINED"
+            },
+            "status": {
+              "creationDate": "2018-01-01T00:00:00"
             }
           }
         ]
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "OutOfPlane",
       "definition": "Mechanical properties with respect to out-of-plane load, i.e. for function as a plate; tension zone of unbalanced layups is stressed in tension.",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "de-DE",
@@ -690,6 +744,7 @@
             "name": "YoungModulusBending",
             "definition": "Defining values: α; defined values: elastic modulus in bending.",
             "ifdGuid": "",
+            "legacyGuid": "",
             "localizations": [
               {
                 "language": "de-DE",
@@ -734,12 +789,16 @@
                 "measureType": "",
                 "unitType": "USERDEFINED"
               }
+            },
+            "status": {
+              "creationDate": "2018-01-01T00:00:00"
             }
           },
           {
             "name": "YoungModulusTension",
             "definition": "Defining values: α; defined values: elastic modulus in tension.",
             "ifdGuid": "",
+            "legacyGuid": "",
             "localizations": [
               {
                 "language": "de-DE",
@@ -784,12 +843,16 @@
                 "measureType": "",
                 "unitType": "USERDEFINED"
               }
+            },
+            "status": {
+              "creationDate": "2018-01-01T00:00:00"
             }
           },
           {
             "name": "YoungModulusCompression",
             "definition": "Elastic modulus in compression.",
             "ifdGuid": "",
+            "legacyGuid": "",
             "localizations": [
               {
                 "language": "de-DE",
@@ -826,12 +889,16 @@
               "dataType": "IfcModulusOfElasticityMeasure",
               "measureType": "",
               "unitType": "USERDEFINED"
+            },
+            "status": {
+              "creationDate": "2018-01-01T00:00:00"
             }
           },
           {
             "name": "ShearModulus",
             "definition": "Shear modulus.",
             "ifdGuid": "",
+            "legacyGuid": "",
             "localizations": [
               {
                 "language": "de-DE",
@@ -868,12 +935,16 @@
               "dataType": "IfcModulusOfElasticityMeasure",
               "measureType": "",
               "unitType": "USERDEFINED"
+            },
+            "status": {
+              "creationDate": "2018-01-01T00:00:00"
             }
           },
           {
             "name": "BendingStrength",
             "definition": "Defining values: α; defined values: bending strength.",
             "ifdGuid": "",
+            "legacyGuid": "",
             "localizations": [
               {
                 "language": "de-DE",
@@ -918,12 +989,16 @@
                 "measureType": "",
                 "unitType": "USERDEFINED"
               }
+            },
+            "status": {
+              "creationDate": "2018-01-01T00:00:00"
             }
           },
           {
             "name": "CompressiveStrength",
             "definition": "Defining values: α; defined values: compressive strength.",
             "ifdGuid": "",
+            "legacyGuid": "",
             "localizations": [
               {
                 "language": "de-DE",
@@ -968,12 +1043,16 @@
                 "measureType": "",
                 "unitType": "USERDEFINED"
               }
+            },
+            "status": {
+              "creationDate": "2018-01-01T00:00:00"
             }
           },
           {
             "name": "TensileStrength",
             "definition": "Defining values: α; defined values: tensile strength.",
             "ifdGuid": "",
+            "legacyGuid": "",
             "localizations": [
               {
                 "language": "de-DE",
@@ -1018,12 +1097,16 @@
                 "measureType": "",
                 "unitType": "USERDEFINED"
               }
+            },
+            "status": {
+              "creationDate": "2018-01-01T00:00:00"
             }
           },
           {
             "name": "ShearStrength",
             "definition": "Defining values: α; defined values: shear strength.",
             "ifdGuid": "",
+            "legacyGuid": "",
             "localizations": [
               {
                 "language": "de-DE",
@@ -1068,12 +1151,16 @@
                 "measureType": "",
                 "unitType": "USERDEFINED"
               }
+            },
+            "status": {
+              "creationDate": "2018-01-01T00:00:00"
             }
           },
           {
             "name": "BearingStrength",
             "definition": "Defining values: α; defined values: bearing strength of bolt holes, i.e. intrados pressure.",
             "ifdGuid": "",
+            "legacyGuid": "",
             "localizations": [
               {
                 "language": "de-DE",
@@ -1118,12 +1205,16 @@
                 "measureType": "",
                 "unitType": "USERDEFINED"
               }
+            },
+            "status": {
+              "creationDate": "2018-01-01T00:00:00"
             }
           },
           {
             "name": "RaisedCompressiveStrength",
             "definition": "Alternative value for compressive strength which may be used under material and code dependent conditions (e.g. if deformation is tolerable, or far from ends of the member); conditions should be stated in SELF\\IfcProperty.Description.",
             "ifdGuid": "",
+            "legacyGuid": "",
             "localizations": [
               {
                 "language": "de-DE",
@@ -1160,12 +1251,16 @@
               "dataType": "IfcPressureMeasure",
               "measureType": "",
               "unitType": "USERDEFINED"
+            },
+            "status": {
+              "creationDate": "2018-01-01T00:00:00"
             }
           },
           {
             "name": "ReferenceDepth",
             "definition": "Depth in bending for which the mechanical properties are valid; provided as a means to check the integrity of material assignment.",
             "ifdGuid": "",
+            "legacyGuid": "",
             "localizations": [
               {
                 "language": "de-DE",
@@ -1202,15 +1297,22 @@
               "dataType": "IfcPositiveLengthMeasure",
               "measureType": "",
               "unitType": "USERDEFINED"
+            },
+            "status": {
+              "creationDate": "2018-01-01T00:00:00"
             }
           }
         ]
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "OutOfPlaneNegative",
       "definition": "Mechanical properties with respect to out-of-plane load i.e. for function as a plate; compression zone of unbalanced layups is stressed in tension.",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "de-DE",
@@ -1250,6 +1352,7 @@
             "name": "YoungModulusBending",
             "definition": "Defining values: α; defined values: elastic modulus in bending.",
             "ifdGuid": "",
+            "legacyGuid": "",
             "localizations": [
               {
                 "language": "de-DE",
@@ -1294,12 +1397,16 @@
                 "measureType": "",
                 "unitType": "USERDEFINED"
               }
+            },
+            "status": {
+              "creationDate": "2018-01-01T00:00:00"
             }
           },
           {
             "name": "YoungModulusTension",
             "definition": "Defining values: α; defined values: elastic modulus in tension.",
             "ifdGuid": "",
+            "legacyGuid": "",
             "localizations": [
               {
                 "language": "de-DE",
@@ -1344,12 +1451,16 @@
                 "measureType": "",
                 "unitType": "USERDEFINED"
               }
+            },
+            "status": {
+              "creationDate": "2018-01-01T00:00:00"
             }
           },
           {
             "name": "YoungModulusCompression",
             "definition": "Elastic modulus in compression.",
             "ifdGuid": "",
+            "legacyGuid": "",
             "localizations": [
               {
                 "language": "de-DE",
@@ -1386,12 +1497,16 @@
               "dataType": "IfcModulusOfElasticityMeasure",
               "measureType": "",
               "unitType": "USERDEFINED"
+            },
+            "status": {
+              "creationDate": "2018-01-01T00:00:00"
             }
           },
           {
             "name": "ShearModulus",
             "definition": "Shear modulus.",
             "ifdGuid": "",
+            "legacyGuid": "",
             "localizations": [
               {
                 "language": "de-DE",
@@ -1428,12 +1543,16 @@
               "dataType": "IfcModulusOfElasticityMeasure",
               "measureType": "",
               "unitType": "USERDEFINED"
+            },
+            "status": {
+              "creationDate": "2018-01-01T00:00:00"
             }
           },
           {
             "name": "BendingStrength",
             "definition": "Defining values: α; defined values: bending strength.",
             "ifdGuid": "",
+            "legacyGuid": "",
             "localizations": [
               {
                 "language": "de-DE",
@@ -1478,12 +1597,16 @@
                 "measureType": "",
                 "unitType": "USERDEFINED"
               }
+            },
+            "status": {
+              "creationDate": "2018-01-01T00:00:00"
             }
           },
           {
             "name": "CompressiveStrength",
             "definition": "Defining values: α; defined values: compressive strength.",
             "ifdGuid": "",
+            "legacyGuid": "",
             "localizations": [
               {
                 "language": "de-DE",
@@ -1528,12 +1651,16 @@
                 "measureType": "",
                 "unitType": "USERDEFINED"
               }
+            },
+            "status": {
+              "creationDate": "2018-01-01T00:00:00"
             }
           },
           {
             "name": "TensileStrength",
             "definition": "Defining values: α; defined values: tensile strength.",
             "ifdGuid": "",
+            "legacyGuid": "",
             "localizations": [
               {
                 "language": "de-DE",
@@ -1578,12 +1705,16 @@
                 "measureType": "",
                 "unitType": "USERDEFINED"
               }
+            },
+            "status": {
+              "creationDate": "2018-01-01T00:00:00"
             }
           },
           {
             "name": "ShearStrength",
             "definition": "Defining values: α; defined values: shear strength.",
             "ifdGuid": "",
+            "legacyGuid": "",
             "localizations": [
               {
                 "language": "de-DE",
@@ -1628,12 +1759,16 @@
                 "measureType": "",
                 "unitType": "USERDEFINED"
               }
+            },
+            "status": {
+              "creationDate": "2018-01-01T00:00:00"
             }
           },
           {
             "name": "BearingStrength",
             "definition": "Defining values: α; defined values: bearing strength of bolt holes, i.e. intrados pressure.",
             "ifdGuid": "",
+            "legacyGuid": "",
             "localizations": [
               {
                 "language": "de-DE",
@@ -1678,12 +1813,16 @@
                 "measureType": "",
                 "unitType": "USERDEFINED"
               }
+            },
+            "status": {
+              "creationDate": "2018-01-01T00:00:00"
             }
           },
           {
             "name": "RaisedCompressiveStrength",
             "definition": "Alternative value for compressive strength which may be used under material and code dependent conditions (e.g. if deformation is tolerable, or far from ends of the member); conditions should be stated in SELF\\IfcProperty.Description.",
             "ifdGuid": "",
+            "legacyGuid": "",
             "localizations": [
               {
                 "language": "de-DE",
@@ -1720,12 +1859,16 @@
               "dataType": "IfcPressureMeasure",
               "measureType": "",
               "unitType": "USERDEFINED"
+            },
+            "status": {
+              "creationDate": "2018-01-01T00:00:00"
             }
           },
           {
             "name": "ReferenceDepth",
             "definition": "Depth in bending for which the mechanical properties are valid; provided as a means to check the integrity of material assignment.",
             "ifdGuid": "",
+            "legacyGuid": "",
             "localizations": [
               {
                 "language": "de-DE",
@@ -1762,9 +1905,15 @@
               "dataType": "IfcPositiveLengthMeasure",
               "measureType": "",
               "unitType": "USERDEFINED"
+            },
+            "status": {
+              "creationDate": "2018-01-01T00:00:00"
             }
           }
         ]
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

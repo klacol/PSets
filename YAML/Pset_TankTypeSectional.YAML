@@ -3,6 +3,7 @@ ifcVersion:
   version: 4.0.0.0
   schema: IfcHvacDomain
 ifdGuid: ''
+legacyGuid: ''
 definition: 'Fixed vessel constructed from sectional parts with one or more compartments for storing a liquid.Note (1): All sectional construction tanks are considered to be rectangular by default.Note (2): Generally, it is not expected that sectional construction tanks will be used for the purposes of gas storage.Pset renamed from Pset_TankTypeSectionalTank to Pset_TankTypeSectional in IFC2x2 Pset Addendum.'
 localizations:
 - language: de-DE
@@ -30,6 +31,7 @@ properties:
 - name: NumberOfSections
   definition: 'Number of sections used in the construction of the tankNote: All sections assumed to be the same size.'
   ifdGuid: 02PTQm7xf5sRf$$UQ19P6A
+  legacyGuid: 02PTQm7xf5sRf$$UQ19P6A
   localizations:
   - language: ja-JP
     name: 'セクションの数'
@@ -53,9 +55,12 @@ properties:
     dataType: IfcInteger
     measureType: ''
     unitType: INTEGERCOUNTRATEUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: SectionLength
   definition: The length of a section used in the construction of the tank.
   ifdGuid: 0qn$dqzKfBHgLq7LYFFKbw
+  legacyGuid: 0qn$dqzKfBHgLq7LYFFKbw
   localizations:
   - language: ja-JP
     name: 'セクションの長さ'
@@ -79,9 +84,12 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: LENGTHUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: SectionWidth
   definition: The width of a section used in the construction of the tank.
   ifdGuid: 0Z8eiQzdL2kfESzFwzwe$R
+  legacyGuid: 0Z8eiQzdL2kfESzFwzwe$R
   localizations:
   - language: ja-JP
     name: 'セクションの幅'
@@ -105,3 +113,5 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: LENGTHUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

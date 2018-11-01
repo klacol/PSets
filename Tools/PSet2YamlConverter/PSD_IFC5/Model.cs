@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using YamlDotNet.Core;
 using YamlDotNet.Serialization;
 
@@ -11,6 +12,8 @@ namespace PSD_IFC5
         public IfcVersion ifcVersion { get; set; }
 
         public string ifdGuid { get; set; }
+
+        public string legacyGuid { get; set; }
 
         public string definition { get; set; }
 
@@ -46,6 +49,8 @@ namespace PSD_IFC5
         public string definition { get; set; }
 
         public string ifdGuid { get; set; }
+        public string legacyGuid { get; set; }
+        public string legacyGuidAsIfcGlobalId { get; set; }
 
         public List<Localization> localizations { get; set; }
 
@@ -62,6 +67,8 @@ namespace PSD_IFC5
         public TypePropertySingleValue typePropertySingleValue { get; set; }
 
         public TypePropertyTableValue typePropertyTableValue { get; set; }
+
+        public Status status{ get; set; }
 
     }
     public class TypeOfValue
@@ -277,5 +284,11 @@ namespace PSD_IFC5
         public string ifdGuid { get; set; }
 
         public List<Localization> localizations { get; set; }
+    }
+
+    public class Status
+    {
+        public DateTime creationDate { get; set; }
+
     }
 }

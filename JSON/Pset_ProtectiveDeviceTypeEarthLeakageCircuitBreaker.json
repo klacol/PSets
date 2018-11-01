@@ -5,6 +5,7 @@
     "schema": "IfcElectricalDomain"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "An earth failure device acts to protect people and equipment from the effects of current leakage.",
   "localizations": [
     {
@@ -49,6 +50,7 @@
       "name": "EarthFailureDeviceType",
       "definition": "A list of the available types of circuit breaker from which that required may be selected where:Standard: Device that operates without a time delay.TimeDelayed: Device that operates after a time delay.",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "ja-JP",
@@ -238,12 +240,16 @@
             ]
           }
         ]
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "Sensitivity",
       "definition": "The rated rms value of the vector sum of the instantaneous currents flowing in the main circuits of the device which causes the device to operate under specified conditions. (IEC 61008-1).",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "ja-JP",
@@ -285,6 +291,9 @@
         "dataType": "IfcElectricCurrentMeasure",
         "measureType": "",
         "unitType": "ELECTRICCURRENTUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

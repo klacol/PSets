@@ -5,6 +5,7 @@
     "schema": "IfcElectricalDomain"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "An inductive stationary device that transfers electrical energy from one circuit to another.",
   "localizations": [
     {
@@ -49,6 +50,7 @@
       "name": "Reference",
       "definition": "Reference ID for this specified type in this project (e.g. type 'A-1'), provided, if there is no classification reference to a recognized classification system used.",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "ja-JP",
@@ -90,12 +92,16 @@
         "dataType": "IfcIdentifier",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "Status",
       "definition": "Status of the element, predominately used in renovation or retrofitting projects. The status can be assigned to as \"New\" - element designed as new addition, \"Existing\" - element exists and remains, \"Demolish\" - element existed but is to be demolished,  \"Temporary\" - element will exists only temporary (like a temporary support structure).",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "ja-JP",
@@ -354,12 +360,16 @@
             ]
           }
         ]
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "PrimaryVoltage",
       "definition": "The voltage that is going to be transformed and that runs into the transformer on the primary side.",
       "ifdGuid": "2mTWu10FL0RQXwyd2kUHpS",
+      "legacyGuid": "2mTWu10FL0RQXwyd2kUHpS",
       "localizations": [
         {
           "language": "ja-JP",
@@ -401,12 +411,16 @@
         "dataType": "IfcElectricVoltageMeasure",
         "measureType": "",
         "unitType": "ELECTRICVOLTAGEUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "SecondaryVoltage",
       "definition": "The voltage that has been transformed and is running out of the transformer on the secondary side.",
       "ifdGuid": "3z_e1RZrX4JuLmZ22VP908",
+      "legacyGuid": "3z_e1RZrX4JuLmZ22VP908",
       "localizations": [
         {
           "language": "ja-JP",
@@ -448,12 +462,16 @@
         "dataType": "IfcElectricVoltageMeasure",
         "measureType": "",
         "unitType": "ELECTRICVOLTAGEUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "PrimaryCurrent",
       "definition": "The current that is going to be transformed and that runs into the transformer on the primary side.",
       "ifdGuid": "3_UaVe$2r2NgZZ9iwD5Rv8",
+      "legacyGuid": "3_UaVe$2r2NgZZ9iwD5Rv8",
       "localizations": [
         {
           "language": "ja-JP",
@@ -495,12 +513,16 @@
         "dataType": "IfcElectricCurrentMeasure",
         "measureType": "",
         "unitType": "ELECTRICCURRENTUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "SecondaryCurrent",
       "definition": "The current that has been transformed and is running out of the transformer on the secondary side.",
       "ifdGuid": "3MI_4rmZH1yPS1trD6zteA",
+      "legacyGuid": "3MI_4rmZH1yPS1trD6zteA",
       "localizations": [
         {
           "language": "ja-JP",
@@ -542,12 +564,16 @@
         "dataType": "IfcElectricCurrentMeasure",
         "measureType": "",
         "unitType": "ELECTRICCURRENTUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "PrimaryFrequency",
       "definition": "The frequency that is going to be transformed and that runs into the transformer on the primary side.",
       "ifdGuid": "0OvqpaUifDFvceZcoUEcde",
+      "legacyGuid": "0OvqpaUifDFvceZcoUEcde",
       "localizations": [
         {
           "language": "ja-JP",
@@ -589,12 +615,16 @@
         "dataType": "IfcFrequencyMeasure",
         "measureType": "",
         "unitType": "FREQUENCYUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "SecondaryFrequency",
       "definition": "The frequency that has been transformed and is running out of the transformer on the secondary side.",
       "ifdGuid": "3x71ILtUrD5RLMa08NATrM",
+      "legacyGuid": "3x71ILtUrD5RLMa08NATrM",
       "localizations": [
         {
           "language": "ja-JP",
@@ -636,12 +666,16 @@
         "dataType": "IfcFrequencyMeasure",
         "measureType": "",
         "unitType": "FREQUENCYUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "PrimaryApparentPower",
       "definition": "The power in VA (volt ampere) that has been transformed and that runs into the transformer on the primary side.",
       "ifdGuid": "0oouNVpab96ACWwt6I9IBO",
+      "legacyGuid": "0oouNVpab96ACWwt6I9IBO",
       "localizations": [
         {
           "language": "ja-JP",
@@ -683,12 +717,16 @@
         "dataType": "IfcPowerMeasure",
         "measureType": "",
         "unitType": "POWERUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "SecondaryApparentPower",
       "definition": "The power in VA (volt ampere) that has been transformed and is running out of the transformer on the secondary side.",
       "ifdGuid": "18tuJRPsfCeOe7EisF4CvJ",
+      "legacyGuid": "18tuJRPsfCeOe7EisF4CvJ",
       "localizations": [
         {
           "language": "ja-JP",
@@ -730,12 +768,16 @@
         "dataType": "IfcPowerMeasure",
         "measureType": "",
         "unitType": "POWERUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "MaximumApparentPower",
       "definition": "Maximum apparent power/capacity in VA (volt ampere).",
       "ifdGuid": "2U9jZKpir87RZoznFH2lrw",
+      "legacyGuid": "2U9jZKpir87RZoznFH2lrw",
       "localizations": [
         {
           "language": "ja-JP",
@@ -777,12 +819,16 @@
         "dataType": "IfcPowerMeasure",
         "measureType": "",
         "unitType": "POWERUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "SecondaryCurrentType",
       "definition": "A list of the secondary current types that can result from transformer output.",
       "ifdGuid": "10ZV2Elq94jxL9NCB9glkj",
+      "legacyGuid": "10ZV2Elq94jxL9NCB9glkj",
       "localizations": [
         {
           "language": "ja-JP",
@@ -972,12 +1018,16 @@
             ]
           }
         ]
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "ShortCircuitVoltage",
       "definition": "A complex number that specifies the real and imaginary parts of the short-circuit voltage at rated current of a transformer given in %.",
       "ifdGuid": "2kOFRHHwv2iuqRAZO5ZPma",
+      "legacyGuid": "2kOFRHHwv2iuqRAZO5ZPma",
       "localizations": [
         {
           "language": "ja-JP",
@@ -1019,12 +1069,16 @@
         "dataType": "IfcComplexNumber",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "RealImpedanceRatio",
       "definition": "The ratio between the real part of the zero sequence impedance and the real part of the positive impedance (i.e. real part of the short-circuit voltage) of the transformer.Used for three-phase transformer which includes a N-conductor.",
       "ifdGuid": "19p4Sd_2T5w8iBI4LUdE41",
+      "legacyGuid": "19p4Sd_2T5w8iBI4LUdE41",
       "localizations": [
         {
           "language": "ja-JP",
@@ -1066,12 +1120,16 @@
         "dataType": "IfcRatioMeasure",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "ImaginaryImpedanceRatio",
       "definition": "The ratio between the imaginary part of the zero sequence impedance and the imaginary part of the positive impedance (i.e. imaginary part of the short-circuit voltage) of the transformer.Used for three-phase transformer which includes a N-conductor.",
       "ifdGuid": "2yKlrhUOH7YekTQmQZFDqB",
+      "legacyGuid": "2yKlrhUOH7YekTQmQZFDqB",
       "localizations": [
         {
           "language": "ja-JP",
@@ -1113,12 +1171,16 @@
         "dataType": "IfcRatioMeasure",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "TransformerVectorGroup",
       "definition": "List of the possible vector groups for the transformer from which that required may be set. Values in the enumeration list follow a standard international code where the first letter  describes how the primary windings are connected,the second letter describes how the secondary windings are connected, and the numbers describe the rotation of voltages and currents from the primary to the secondary side in multiples of 30 degrees.D: means that the windings are delta-connected.Y: means that the windings are star-connected. Z: means that the windings are zig-zag connected (a special start-connected providing low reactance of the transformer); The connectivity is only relevant for three-phase transformers.",
       "ifdGuid": "2g$$O4hU5Bq9zyTROUXt2X",
+      "legacyGuid": "2g$$O4hU5Bq9zyTROUXt2X",
       "localizations": [
         {
           "language": "de-DE",
@@ -1673,12 +1735,16 @@
             ]
           }
         ]
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "IsNeutralPrimaryTerminalAvailable",
       "definition": "An indication of whether the neutral point of the primary winding is available as a terminal (=TRUE) or not (= FALSE).",
       "ifdGuid": "13$n6V0IbE9PU01brf35Yg",
+      "legacyGuid": "13$n6V0IbE9PU01brf35Yg",
       "localizations": [
         {
           "language": "ja-JP",
@@ -1720,12 +1786,16 @@
         "dataType": "IfcBoolean",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "IsNeutralSecondaryTerminalAvailable",
       "definition": "An indication of whether the neutral point of the secondary winding is available as a terminal (=TRUE) or not (= FALSE).",
       "ifdGuid": "306XSvJb51cBLj3Di9QMV5",
+      "legacyGuid": "306XSvJb51cBLj3Di9QMV5",
       "localizations": [
         {
           "language": "ja-JP",
@@ -1767,6 +1837,9 @@
         "dataType": "IfcBoolean",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

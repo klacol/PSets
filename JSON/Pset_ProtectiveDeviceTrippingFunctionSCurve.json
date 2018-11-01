@@ -5,6 +5,7 @@
     "schema": "IfcElectricalDomain"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "Tripping functions are applied to electronic tripping units (i.e. tripping units having type property sets for electronic tripping defined). They are not applied to thermal, thermal magnetic or RCD tripping units.This property set represent the short time protection (S-curve) of an electronic protection device.",
   "localizations": [
     {
@@ -49,6 +50,7 @@
       "name": "IsSelectable",
       "definition": "Indication whether the S-function can be switched off or not.",
       "ifdGuid": "3dYwbA7IbFrg4TSjUXW0t2",
+      "legacyGuid": "3dYwbA7IbFrg4TSjUXW0t2",
       "localizations": [
         {
           "language": "ja-JP",
@@ -90,12 +92,16 @@
         "dataType": "IfcBoolean",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "NominalCurrentAdjusted",
       "definition": "An indication if the tripping currents of the short time protection is related to the nominal current multiplied with the actual setting of the current adjustment, if any, of the long time protection part of the protective device, or not.",
       "ifdGuid": "0lZUCbUijBkPGcWE4NzqKz",
+      "legacyGuid": "0lZUCbUijBkPGcWE4NzqKz",
       "localizations": [
         {
           "language": "ja-JP",
@@ -137,12 +143,16 @@
         "dataType": "IfcBoolean",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "ReleaseCurrent",
       "definition": "The release current in [x In] for the initial tripping of the S-function.",
       "ifdGuid": "00G0yxBo92R9aPg3UEaSPD",
+      "legacyGuid": "00G0yxBo92R9aPg3UEaSPD",
       "localizations": [
         {
           "language": "ja-JP",
@@ -184,12 +194,16 @@
         "dataType": "IfcElectricCurrentMeasure",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "ReleaseTime",
       "definition": "The release time in [s] for the initial tripping of the relevant part. This time indicates that for current lower than the indicated release current, the tripping time will be longer than the indicated release time. The value is given as a mean value.",
       "ifdGuid": "1K99M4IzTFl9Zu8otz8I_z",
+      "legacyGuid": "1K99M4IzTFl9Zu8otz8I_z",
       "localizations": [
         {
           "language": "ja-JP",
@@ -231,12 +245,16 @@
         "dataType": "IfcTimeMeasure",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "CurrentTolerance1",
       "definition": "The tolerance for the current of time/current-curve in [%].",
       "ifdGuid": "3vRBBw7Hz1AgVc_BiOjfkV",
+      "legacyGuid": "3vRBBw7Hz1AgVc_BiOjfkV",
       "localizations": [
         {
           "language": "ja-JP",
@@ -278,12 +296,16 @@
         "dataType": "IfcPositiveRatioMeasure",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "CurrentToleranceLimit1",
       "definition": "The time limit in [s] limiting the application of CurrentTolerance1, if any. If the value is set to 0, the value of the CurrentTolerance1 is valid for the whole time/current-curve.",
       "ifdGuid": "0v1NM6nSTD7fKrbt_2f$wV",
+      "legacyGuid": "0v1NM6nSTD7fKrbt_2f$wV",
       "localizations": [
         {
           "language": "ja-JP",
@@ -325,12 +347,16 @@
         "dataType": "IfcTimeMeasure",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "CurrentTolerance2",
       "definition": "The tolerance for the current of time/current-curve in [%] valid for times above CurrentTolereanceLimit1.",
       "ifdGuid": "1EPFtBSGHABujpiItMpkJB",
+      "legacyGuid": "1EPFtBSGHABujpiItMpkJB",
       "localizations": [
         {
           "language": "ja-JP",
@@ -372,12 +398,16 @@
         "dataType": "IfcPositiveRatioMeasure",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "IsCurrentTolerancePositiveOnly",
       "definition": "Indication whether the value of  CurrentTolerance1 is provided as a positive tolereance only  or not. If not, the value is proved as a pluss/minus tolerance.",
       "ifdGuid": "399HoSzYX5SgQCFqq6YL7x",
+      "legacyGuid": "399HoSzYX5SgQCFqq6YL7x",
       "localizations": [
         {
           "language": "ja-JP",
@@ -419,12 +449,16 @@
         "dataType": "IfcBoolean",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "TimeTolerance1",
       "definition": "The tolerance for the time of time/current-curve in [%].",
       "ifdGuid": "1CcG1VD953fenCAxaETQU8",
+      "legacyGuid": "1CcG1VD953fenCAxaETQU8",
       "localizations": [
         {
           "language": "ja-JP",
@@ -466,12 +500,16 @@
         "dataType": "IfcPositiveRatioMeasure",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "TimeToleranceLimit1",
       "definition": "The current limit in [x In] limiting the application of TimeTolerance1, if any. If the value is set to 0, the value of the TimeTolerance1 is valid for the whole time/current-curve.",
       "ifdGuid": "0k4i38K1H4tvNaYiCuJ8qX",
+      "legacyGuid": "0k4i38K1H4tvNaYiCuJ8qX",
       "localizations": [
         {
           "language": "ja-JP",
@@ -513,12 +551,16 @@
         "dataType": "IfcElectricCurrentMeasure",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "TimeTolerance2",
       "definition": "The tolerance for the time of the time/current-curve in [%] valid for currents above TimeToleranceLimit1.",
       "ifdGuid": "2oIrnrkt54GAgULt1OhjR1",
+      "legacyGuid": "2oIrnrkt54GAgULt1OhjR1",
       "localizations": [
         {
           "language": "ja-JP",
@@ -560,12 +602,16 @@
         "dataType": "IfcPositiveRatioMeasure",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "IsTimeTolerancePositiveOnly",
       "definition": "Indication whether the value of  TimeTolerance1 is provided as a positive tolereance only  or not. If not, the value is proved as a pluss/minus tolerance.",
       "ifdGuid": "2e6Qkbrr9DZBCXu2QYUvO4",
+      "legacyGuid": "2e6Qkbrr9DZBCXu2QYUvO4",
       "localizations": [
         {
           "language": "ja-JP",
@@ -607,12 +653,16 @@
         "dataType": "IfcBoolean",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "ReleaseCurrentI2tStart",
       "definition": "The release current in [x In] for the start point of the I2t tripping curve of the S-function, if any.",
       "ifdGuid": "0KxhdhATTFPPBUvlXULyUF",
+      "legacyGuid": "0KxhdhATTFPPBUvlXULyUF",
       "localizations": [
         {
           "language": "ja-JP",
@@ -654,12 +704,16 @@
         "dataType": "IfcElectricCurrentMeasure",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "ReleaseTimeI2tStart",
       "definition": "The release time in [s] for the start point of the I2t tripping curve of the S-function, if any",
       "ifdGuid": "0bWWnliOPA2uqTJg0aV9Eo",
+      "legacyGuid": "0bWWnliOPA2uqTJg0aV9Eo",
       "localizations": [
         {
           "language": "ja-JP",
@@ -701,12 +755,16 @@
         "dataType": "IfcTimeMeasure",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "ReleaseCurrentI2tEnd",
       "definition": "The release current in [x In] for the end point of the I2t tripping curve of the S-function, if any. The value of ReleaseCurrentI2tEnd shall be larger than ReleaseCurrentI2tStart.",
       "ifdGuid": "1ilOYVPH9DV9wTCnQ9Xo$k",
+      "legacyGuid": "1ilOYVPH9DV9wTCnQ9Xo$k",
       "localizations": [
         {
           "language": "ja-JP",
@@ -748,12 +806,16 @@
         "dataType": "IfcElectricCurrentMeasure",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "ReleaseTimeI2tEnd",
       "definition": "The release time in [s] for the end point of the I2 tripping curve of the S-function, if any. The value of ReleaseTimeI2tEnd shall be lower than ReleaseTimeI2tStart.",
       "ifdGuid": "194QKgkPHDIRDsdTqvpct$",
+      "legacyGuid": "194QKgkPHDIRDsdTqvpct$",
       "localizations": [
         {
           "language": "ja-JP",
@@ -795,12 +857,16 @@
         "dataType": "IfcTimeMeasure",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "IsOffWhenLfunctionOn",
       "definition": "Indication whether the S-function is automatically switched off when the I-function is switched on.",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "de-DE",
@@ -837,6 +903,9 @@
         "dataType": "IfcBoolean",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

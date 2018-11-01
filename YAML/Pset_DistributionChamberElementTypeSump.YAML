@@ -3,6 +3,7 @@ ifcVersion:
   version: 4.0.0.0
   schema: IfcSharedBldgServiceElements
 ifdGuid: ''
+legacyGuid: ''
 definition: 'Recess or small chamber into which liquid is drained to facilitate its removal.'
 localizations:
 - language: de-DE
@@ -30,6 +31,7 @@ properties:
 - name: Length
   definition: The length of the sump.
   ifdGuid: 3bQRmjIvb42ul5hyfQ2KGe
+  legacyGuid: 3bQRmjIvb42ul5hyfQ2KGe
   localizations:
   - language: ja-JP
     name: '長さ'
@@ -56,9 +58,12 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: LENGTHUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: Width
   definition: The width of the sump.
   ifdGuid: 0p78VlFrb6vP5gKMmk87IW
+  legacyGuid: 0p78VlFrb6vP5gKMmk87IW
   localizations:
   - language: ja-JP
     name: '幅'
@@ -85,9 +90,12 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: LENGTHUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: InvertLevel
   definition: The lowest point in the cross section of the sump.
   ifdGuid: 12mj4QLWjBn9rn4REDxn09
+  legacyGuid: 12mj4QLWjBn9rn4REDxn09
   localizations:
   - language: ja-JP
     name: '最大深さ（？）'
@@ -114,3 +122,5 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: LENGTHUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

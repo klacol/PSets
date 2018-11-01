@@ -3,6 +3,7 @@ ifcVersion:
   version: 4.0.0.0
   schema: IfcHvacDomain
 ifdGuid: ''
+legacyGuid: ''
 definition: 'Pipe fitting type attributes for junction shapes.'
 localizations:
 - language: de-DE
@@ -30,6 +31,7 @@ properties:
 - name: JunctionType
   definition: The type of junction. TEE=3 ports, CROSS = 4 ports.
   ifdGuid: 0N077P4Zb93Pko_oVwXc8h
+  legacyGuid: 0N077P4Zb93Pko_oVwXc8h
   localizations:
   - language: ja-JP
     name: '継ぎ手タイプ'
@@ -140,9 +142,12 @@ properties:
       - language: ru-RU
         name: 'Unknown'
         definition: ''
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: JunctionLeftAngle
   definition: The change of direction of flow for the left junction.
   ifdGuid: 1_Sr9D4IPCBPoHWTjh03H1
+  legacyGuid: 1_Sr9D4IPCBPoHWTjh03H1
   localizations:
   - language: ja-JP
     name: '左継ぎ手角度'
@@ -166,9 +171,12 @@ properties:
     dataType: IfcPositivePlaneAngleMeasure
     measureType: ''
     unitType: PLANEANGLEUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: JunctionLeftRadius
   definition: The radius of bending for the left junction.
   ifdGuid: 2Ley7JJOP6GBDWKyoL8CrS
+  legacyGuid: 2Ley7JJOP6GBDWKyoL8CrS
   localizations:
   - language: ja-JP
     name: '左継ぎ手半径'
@@ -192,9 +200,12 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: LENGTHUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: JunctionRightAngle
   definition: The change of direction of flow for the right junction where 0 indicates straight segment.
   ifdGuid: 1DI8vwEMbCR9AwIVJ3_K9L
+  legacyGuid: 1DI8vwEMbCR9AwIVJ3_K9L
   localizations:
   - language: ja-JP
     name: '右継ぎ手角度'
@@ -218,9 +229,12 @@ properties:
     dataType: IfcPositivePlaneAngleMeasure
     measureType: ''
     unitType: PLANEANGLEUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: JunctionRightRadius
   definition: The radius of bending for the right junction where 0 indicates sharp bend.
   ifdGuid: 2Y4IMQpdfFqvtaDWKCzThL
+  legacyGuid: 2Y4IMQpdfFqvtaDWKCzThL
   localizations:
   - language: ja-JP
     name: '右継ぎ手半径'
@@ -244,3 +258,5 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: LENGTHUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

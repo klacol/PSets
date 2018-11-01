@@ -5,6 +5,7 @@
     "schema": "IfcSharedFacilitiesElements"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "A set of specific properties for vertical panels that assembly workstations.. HISTORY: First issued in IFC Release R1.5. Renamed from Pset_Panel",
   "localizations": [
     {
@@ -49,6 +50,7 @@
       "name": "HasOpening",
       "definition": "indicates whether the panel has an opening (= TRUE) or not (= FALSE).",
       "ifdGuid": "1Nxhu1SOHAt9sr7jBdhKFo",
+      "legacyGuid": "1Nxhu1SOHAt9sr7jBdhKFo",
       "localizations": [
         {
           "language": "de-DE",
@@ -85,12 +87,16 @@
         "dataType": "IfcBoolean",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "FurniturePanelType",
       "definition": "Available panel types from which that required may be selected.",
       "ifdGuid": "2gTNhwHbPCp8dsdoK0r7Z3",
+      "legacyGuid": "2gTNhwHbPCp8dsdoK0r7Z3",
       "localizations": [
         {
           "language": "de-DE",
@@ -497,12 +503,16 @@
             ]
           }
         ]
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "NominalThickness",
       "definition": "The nominal thickness of the panel.",
       "ifdGuid": "3Z762KxVTCmhpQHrlL0mUX",
+      "legacyGuid": "3Z762KxVTCmhpQHrlL0mUX",
       "localizations": [
         {
           "language": "de-DE",
@@ -539,6 +549,9 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

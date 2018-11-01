@@ -3,6 +3,7 @@ ifcVersion:
   version: 4.0.0.0
   schema: IfcBuildingControlsDomain
 ifdGuid: ''
+legacyGuid: ''
 definition: 'A device that senses or detects moisture. HISTORY: Added in IFC4.'
 localizations:
 - language: de-DE
@@ -30,6 +31,7 @@ properties:
 - name: SetPointMoisture
   definition: The moisture value to be sensed. Use IfcPropertyBoundedValue.SetPointValue to set the set point value.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: ja-JP
     name: '水分設定値'
@@ -57,3 +59,5 @@ properties:
     LowerBoundValue: 0
     UpperBoundValue: '?'
     typeName: TypePropertyBoundedValue
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

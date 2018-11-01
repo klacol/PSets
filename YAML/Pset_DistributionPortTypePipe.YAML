@@ -2,6 +2,7 @@
 ifcVersion:
   version: 4.0.0.0
 ifdGuid: ''
+legacyGuid: ''
 definition: 'Pipe port occurrence attributes attached to an instance of IfcDistributionPort.'
 localizations:
 - language: de-DE
@@ -29,6 +30,7 @@ properties:
 - name: ConnectionType
   definition: PSet2YamlConverter.PropertyType
   ifdGuid: 3uGgYTZiL73BYwV_npECRZ
+  legacyGuid: 3uGgYTZiL73BYwV_npECRZ
   localizations:
   - language: ja-JP
     name: '接続タイプ'
@@ -315,9 +317,12 @@ properties:
       - language: ru-RU
         name: 'Unset'
         definition: ''
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: ConnectionSubType
   definition: PSet2YamlConverter.PropertyType
   ifdGuid: 3V7JbtIxHAZPR8CmMAy3dW
+  legacyGuid: 3V7JbtIxHAZPR8CmMAy3dW
   localizations:
   - language: ja-JP
     name: '接続サブタイプ'
@@ -341,9 +346,12 @@ properties:
     dataType: IfcLabel
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: NominalDiameter
   definition: PSet2YamlConverter.PropertyType
   ifdGuid: 2idNc0CVn4uOAABCTgvTXi
+  legacyGuid: 2idNc0CVn4uOAABCTgvTXi
   localizations:
   - language: ja-JP
     name: '呼び径'
@@ -367,9 +375,12 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: InnerDiameter
   definition: PSet2YamlConverter.PropertyType
   ifdGuid: 3yqzmY$VrEe8Jo0Bw35LgZ
+  legacyGuid: 3yqzmY$VrEe8Jo0Bw35LgZ
   localizations:
   - language: ja-JP
     name: '内径'
@@ -393,9 +404,12 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: OuterDiameter
   definition: PSet2YamlConverter.PropertyType
   ifdGuid: 1D65QTyIPFEwphBQILyT$Q
+  legacyGuid: 1D65QTyIPFEwphBQILyT$Q
   localizations:
   - language: ja-JP
     name: '外径'
@@ -419,9 +433,12 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: Temperature
   definition: PSet2YamlConverter.PropertyType
   ifdGuid: 2sotI3fbrBrQnbKR204MCZ
+  legacyGuid: 2sotI3fbrBrQnbKR204MCZ
   localizations:
   - language: ja-JP
     name: '温度'
@@ -446,9 +463,12 @@ properties:
     LowerBoundValue: ''
     UpperBoundValue: ''
     typeName: TypePropertyBoundedValue
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: VolumetricFlowRate
   definition: PSet2YamlConverter.PropertyType
   ifdGuid: 2q9IxoM5X6NOGEDJdRVkrU
+  legacyGuid: 2q9IxoM5X6NOGEDJdRVkrU
   localizations:
   - language: ja-JP
     name: '体積流量'
@@ -473,9 +493,12 @@ properties:
     LowerBoundValue: ''
     UpperBoundValue: ''
     typeName: TypePropertyBoundedValue
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: MassFlowRate
   definition: PSet2YamlConverter.PropertyType
   ifdGuid: 2ZstQG09z2gOYfzMWxAUkF
+  legacyGuid: 2ZstQG09z2gOYfzMWxAUkF
   localizations:
   - language: ja-JP
     name: '質量流量'
@@ -500,9 +523,12 @@ properties:
     LowerBoundValue: ''
     UpperBoundValue: ''
     typeName: TypePropertyBoundedValue
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: FlowCondition
   definition: PSet2YamlConverter.PropertyType
   ifdGuid: 2WdoXb4UbD3vEHayBW5LaX
+  legacyGuid: 2WdoXb4UbD3vEHayBW5LaX
   localizations:
   - language: ja-JP
     name: '流動状態'
@@ -527,9 +553,12 @@ properties:
     LowerBoundValue: ''
     UpperBoundValue: ''
     typeName: TypePropertyBoundedValue
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: Velocity
   definition: PSet2YamlConverter.PropertyType
   ifdGuid: 1$hsml_zP31BE8MHPk06nA
+  legacyGuid: 1$hsml_zP31BE8MHPk06nA
   localizations:
   - language: ja-JP
     name: '速度'
@@ -554,9 +583,12 @@ properties:
     LowerBoundValue: ''
     UpperBoundValue: ''
     typeName: TypePropertyBoundedValue
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: Pressure
   definition: PSet2YamlConverter.PropertyType
   ifdGuid: 3CIho6yXrEuwXjE1K1d5gp
+  legacyGuid: 3CIho6yXrEuwXjE1K1d5gp
   localizations:
   - language: ja-JP
     name: '圧力'
@@ -581,3 +613,5 @@ properties:
     LowerBoundValue: ''
     UpperBoundValue: ''
     typeName: TypePropertyBoundedValue
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

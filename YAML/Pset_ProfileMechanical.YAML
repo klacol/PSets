@@ -3,6 +3,7 @@ ifcVersion:
   version: 4.0.0.0
   schema: IfcProfileResource
 ifdGuid: ''
+legacyGuid: ''
 definition: 'This is a collection of mechanical properties that are applicable to virtually all profile classes. Most of these properties are especially used in structural analysis.'
 localizations:
 - language: de-DE
@@ -30,6 +31,7 @@ properties:
 - name: MassPerLength
   definition: Mass per length, i.e. mass of a beam with a unit length of extrusion. For example measured in kg/m.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: de-DE
     name: ''
@@ -53,9 +55,12 @@ properties:
     dataType: IfcMassPerLengthMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: CrossSectionArea
   definition: Area of the profile. For example measured in mm2. If given, the value of the cross section area shall be greater than zero.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: de-DE
     name: ''
@@ -79,9 +84,12 @@ properties:
     dataType: IfcAreaMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: Perimeter
   definition: Perimeter of the profile for calculating the surface area. For example measured in mm.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: de-DE
     name: ''
@@ -105,9 +113,12 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: MinimumPlateThickness
   definition: This value may be needed for stress analysis and to handle buckling problems. It can also be derived from the given profile geometry or classification and therefore it is only an optional feature allowing for an explicit description. For example measured in mm.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: de-DE
     name: ''
@@ -131,9 +142,12 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: MaximumPlateThickness
   definition: This value may be needed for stress analysis and to handle buckling problems. It can also be derived from the given profile geometry or classification and therefore it is only an optional feature allowing for an explicit description. For example measured in mm.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: de-DE
     name: ''
@@ -157,9 +171,12 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: CentreOfGravityInX
   definition: Location of the profile's centre of gravity (geometric centroid), measured along xp.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: de-DE
     name: ''
@@ -183,9 +200,12 @@ properties:
     dataType: IfcLengthMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: CentreOfGravityInY
   definition: Location of the profile's centre of gravity (geometric centroid), measured along yp.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: de-DE
     name: ''
@@ -209,9 +229,12 @@ properties:
     dataType: IfcLengthMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: ShearCentreZ
   definition: Location of the profile's shear centre, measured along zs.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: de-DE
     name: ''
@@ -235,9 +258,12 @@ properties:
     dataType: IfcLengthMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: ShearCentreY
   definition: Location of the profile's shear centre, measured along ys.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: de-DE
     name: ''
@@ -261,9 +287,12 @@ properties:
     dataType: IfcLengthMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: MomentOfInertiaY
   definition: Moment of inertia about ys (second moment of area, about ys). For example measured in mm4.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: de-DE
     name: ''
@@ -287,9 +316,12 @@ properties:
     dataType: IfcMomentOfInertiaMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: MomentOfInertiaZ
   definition: Moment of inertia about zs (second moment of area, about zs). For example measured in mm4
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: de-DE
     name: ''
@@ -313,9 +345,12 @@ properties:
     dataType: IfcMomentOfInertiaMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: MomentOfInertiaYZ
   definition: Moment of inertia about ys and zs (product moment of area). For example measured in mm4.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: de-DE
     name: ''
@@ -339,9 +374,12 @@ properties:
     dataType: IfcMomentOfInertiaMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: TorsionalConstantX
   definition: Torsional constant about xs. For example measured in mm4.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: de-DE
     name: ''
@@ -365,9 +403,12 @@ properties:
     dataType: IfcMomentOfInertiaMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: WarpingConstant
   definition: Warping constant of the profile for torsional action. For example measured in mm6.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: de-DE
     name: ''
@@ -391,9 +432,12 @@ properties:
     dataType: IfcWarpingConstantMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: ShearDeformationAreaZ
   definition: Area of the profile for calculating the shear deformation due to a shear force parallel to zs. For example measured in mm². If given, the shear deformation area zs shall be non-negative.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: de-DE
     name: ''
@@ -417,9 +461,12 @@ properties:
     dataType: IfcAreaMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: ShearDeformationAreaY
   definition: Area of the profile for calculating the shear deformation due to a shear force parallel to ys. For example measured in mm². If given, the shear deformation area ys shall be non-negative.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: de-DE
     name: ''
@@ -443,9 +490,12 @@ properties:
     dataType: IfcAreaMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: MaximumSectionModulusY
   definition: Bending resistance about the ys axis at the point with maximum zs ordinate. For example measured in mm³.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: de-DE
     name: ''
@@ -469,9 +519,12 @@ properties:
     dataType: IfcSectionModulusMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: MinimumSectionModulusY
   definition: Bending resistance about the ys axis at the point with minimum zs ordinate. For example measured in mm³.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: de-DE
     name: ''
@@ -495,9 +548,12 @@ properties:
     dataType: IfcSectionModulusMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: MaximumSectionModulusZ
   definition: Bending resistance about the zs axis at the point with maximum ys ordinate. For example measured in mm³.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: de-DE
     name: ''
@@ -521,9 +577,12 @@ properties:
     dataType: IfcSectionModulusMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: MinimumSectionModulusZ
   definition: Bending resistance about the zs axis at the point with minimum ys ordinate. For example measured in mm³.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: de-DE
     name: ''
@@ -547,9 +606,12 @@ properties:
     dataType: IfcSectionModulusMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: TorsionalSectionModulus
   definition: Torsional resistance (about xs). For example measured in mm³.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: de-DE
     name: ''
@@ -573,9 +635,12 @@ properties:
     dataType: IfcSectionModulusMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: ShearAreaZ
   definition: Area of the profile for calculating the shear stress due to shear force parallel to the section analysis axis zs. For example measured in mm². If given, the shear area zs shall be non-negative.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: de-DE
     name: ''
@@ -599,9 +664,12 @@ properties:
     dataType: IfcAreaMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: ShearAreaY
   definition: Area of the profile for calculating the shear stress due to shear force parallel to the section analysis axis ys. For example measured in mm². If given, the shear area ys shall be non-negative.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: de-DE
     name: ''
@@ -625,9 +693,12 @@ properties:
     dataType: IfcAreaMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: PlasticShapeFactorY
   definition: Ratio of plastic versus elastic bending moment capacity about the section analysis axis ys. A dimensionless value.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: de-DE
     name: ''
@@ -651,9 +722,12 @@ properties:
     dataType: IfcPositiveRatioMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: PlasticShapeFactorZ
   definition: Ratio of plastic versus elastic bending moment capacity about the section analysis axis zs. A dimensionless value.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: de-DE
     name: ''
@@ -677,3 +751,5 @@ properties:
     dataType: IfcPositiveRatioMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

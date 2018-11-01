@@ -3,6 +3,7 @@ ifcVersion:
   version: 4.0.0.0
   schema: IfcHvacDomain
 ifdGuid: ''
+legacyGuid: ''
 definition: 'Cooling tower type common attributes.WaterRequirement attribute unit type modified in IFC2x2 Pset Addendum.'
 localizations:
 - language: de-DE
@@ -30,6 +31,7 @@ properties:
 - name: Reference
   definition: Reference ID for this specified type in this project (e.g. type 'A-1'), provided, if there is no classification reference to a recognized classification system used.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: ja-JP
     name: '参照記号'
@@ -53,9 +55,12 @@ properties:
     dataType: IfcIdentifier
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: Status
   definition: Status of the element, predominately used in renovation or retrofitting projects. The status can be assigned to as "New" - element designed as new addition, "Existing" - element exists and remains, "Demolish" - element existed but is to be demolished,  "Temporary" - element will exists only temporary (like a temporary support structure).
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: ja-JP
     name: '状態'
@@ -210,9 +215,12 @@ properties:
       - language: ru-RU
         name: 'Unknown'
         definition: ''
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: NominalCapacity
   definition: Nominal cooling tower capacity in terms of heat transfer rate of the cooling tower between air stream and water stream at nominal conditions.
   ifdGuid: 2LjGNaNDvDqfTS33dWOTXa
+  legacyGuid: 2LjGNaNDvDqfTS33dWOTXa
   localizations:
   - language: de-DE
     name: ''
@@ -236,9 +244,12 @@ properties:
     dataType: IfcPowerMeasure
     measureType: ''
     unitType: POWERUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: CircuitType
   definition: 'OpenCircuit: Exposes water directly to the cooling atmosphere.CloseCircuit: The fluid is separated from the atmosphere by a heat exchanger.Wet: The air stream or the heat exchange surface is evaporatively cooled.Dry: No evaporation into the air stream.DryWet: A combination of a dry tower and a wet tower.'
   ifdGuid: 1_DX$jzB5A5h2gwx40hcMh
+  legacyGuid: 1_DX$jzB5A5h2gwx40hcMh
   localizations:
   - language: de-DE
     name: ''
@@ -393,9 +404,12 @@ properties:
       - language: ru-RU
         name: 'Unknown'
         definition: ''
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: FlowArrangement
   definition: 'CounterFlow: Air and water flow enter in different directions.CrossFlow: Air and water flow are perpendicular.ParallelFlow: air and water flow enter in same directions.'
   ifdGuid: 3fB25aqez7_xDzLCk0v2nC
+  legacyGuid: 3fB25aqez7_xDzLCk0v2nC
   localizations:
   - language: de-DE
     name: ''
@@ -528,9 +542,12 @@ properties:
       - language: ru-RU
         name: 'Unknown'
         definition: ''
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: SprayType
   definition: 'SprayFilled: Water is sprayed into airflow.SplashTypeFill: water cascades over successive rows of splash bars.FilmTypeFill: water flows in a thin layer over closely spaced sheets.'
   ifdGuid: 0n82ez4R9Ce9__KYsIsn03
+  legacyGuid: 0n82ez4R9Ce9__KYsIsn03
   localizations:
   - language: de-DE
     name: ''
@@ -663,9 +680,12 @@ properties:
       - language: ru-RU
         name: 'Unknown'
         definition: ''
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: CapacityControl
   definition: 'FanCycling: Fan is cycled on and off to control duty.TwoSpeedFan: Fan is switched between low and high speed to control duty.VariableSpeedFan: Fan speed is varied to control duty.DampersControl: Dampers modulate the air flow to control duty.BypassValveControl: Bypass valve modulates the water flow to control duty.MultipleSeriesPumps: Turn on/off multiple series pump to control duty.TwoSpeedPump: Switch between high/low pump speed to control duty.VariableSpeedPump: vary pump speed to control duty.'
   ifdGuid: 3Xj2bYFjb0R9zKbtHVwU6A
+  legacyGuid: 3Xj2bYFjb0R9zKbtHVwU6A
   localizations:
   - language: de-DE
     name: ''
@@ -908,9 +928,12 @@ properties:
       - language: ru-RU
         name: 'Unknown'
         definition: ''
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: ControlStrategy
   definition: 'FixedExitingWaterTemp: The capacity is controlled to maintain a fixed exiting water temperature.WetBulbTempReset: The set-point is reset based on the wet-bulb temperature.'
   ifdGuid: 3Mfgn5Y6H2Gh2vh9eKxUs6
+  legacyGuid: 3Mfgn5Y6H2Gh2vh9eKxUs6
   localizations:
   - language: de-DE
     name: ''
@@ -1021,9 +1044,12 @@ properties:
       - language: ru-RU
         name: 'Unknown'
         definition: ''
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: NumberOfCells
   definition: Number of cells in one cooling tower unit.
   ifdGuid: 1NeL8T7f51rxBCR8LS1wiE
+  legacyGuid: 1NeL8T7f51rxBCR8LS1wiE
   localizations:
   - language: de-DE
     name: ''
@@ -1047,9 +1073,12 @@ properties:
     dataType: IfcInteger
     measureType: ''
     unitType: INTEGERCOUNTRATEUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: BasinReserveVolume
   definition: Volume between operating and overflow levels in cooling tower basin.
   ifdGuid: 0CtrMnfMfBNuyNLx8sGKNm
+  legacyGuid: 0CtrMnfMfBNuyNLx8sGKNm
   localizations:
   - language: de-DE
     name: ''
@@ -1073,9 +1102,12 @@ properties:
     dataType: IfcVolumeMeasure
     measureType: ''
     unitType: VOLUMEUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: LiftElevationDifference
   definition: Elevation difference between cooling tower sump and the top of the tower.
   ifdGuid: 3QdciBE6f5Y8AHrBvhEbhC
+  legacyGuid: 3QdciBE6f5Y8AHrBvhEbhC
   localizations:
   - language: de-DE
     name: ''
@@ -1099,9 +1131,12 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: LENGTHUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: WaterRequirement
   definition: Make-up water requirements.
   ifdGuid: 3eUdILZJPBtBTXW8h2zkp5
+  legacyGuid: 3eUdILZJPBtBTXW8h2zkp5
   localizations:
   - language: de-DE
     name: ''
@@ -1125,9 +1160,12 @@ properties:
     dataType: IfcVolumetricFlowRateMeasure
     measureType: ''
     unitType: VOLUMETRICFLOWRATEUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: OperationTemperatureRange
   definition: Allowable operation ambient air temperature range.
   ifdGuid: 1Nv7Hfccb5Kv7KdShpzg7Y
+  legacyGuid: 1Nv7Hfccb5Kv7KdShpzg7Y
   localizations:
   - language: de-DE
     name: ''
@@ -1151,9 +1189,12 @@ properties:
     dataType: IfcThermodynamicTemperatureMeasure
     measureType: ''
     unitType: THERMODYNAMICTEMPERATUREUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: AmbientDesignDryBulbTemperature
   definition: Ambient design dry bulb temperature used for selecting the cooling tower.
   ifdGuid: 3yVIzmUA52kgKZWgiaM3H8
+  legacyGuid: 3yVIzmUA52kgKZWgiaM3H8
   localizations:
   - language: de-DE
     name: ''
@@ -1177,9 +1218,12 @@ properties:
     dataType: IfcThermodynamicTemperatureMeasure
     measureType: ''
     unitType: THERMODYNAMICTEMPERATUREUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: AmbientDesignWetBulbTemperature
   definition: Ambient design wet bulb temperature used for selecting the cooling tower.
   ifdGuid: 39nwBgRqb2UQI3ujq$tG1W
+  legacyGuid: 39nwBgRqb2UQI3ujq$tG1W
   localizations:
   - language: de-DE
     name: ''
@@ -1203,3 +1247,5 @@ properties:
     dataType: IfcThermodynamicTemperatureMeasure
     measureType: ''
     unitType: THERMODYNAMICTEMPERATUREUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

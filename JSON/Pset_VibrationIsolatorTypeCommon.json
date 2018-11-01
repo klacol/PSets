@@ -5,6 +5,7 @@
     "schema": "IfcHvacDomain"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "Vibration isolator type common attributes.",
   "localizations": [
     {
@@ -49,6 +50,7 @@
       "name": "Reference",
       "definition": "Reference ID for this specified type in this project (e.g. type 'A-1').",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "ja-JP",
@@ -85,12 +87,16 @@
         "dataType": "IfcIdentifier",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "VibrationTransmissibility",
       "definition": "The vibration transmissibility percentage.",
       "ifdGuid": "2Dv5IWeyTBJBb$Rt7_SyeY",
+      "legacyGuid": "2Dv5IWeyTBJBb$Rt7_SyeY",
       "localizations": [
         {
           "language": "ja-JP",
@@ -127,12 +133,16 @@
         "dataType": "IfcPositiveRatioMeasure",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "IsolatorStaticDeflection",
       "definition": "Static deflection of the vibration isolator.",
       "ifdGuid": "1Z9IDe8TbAP9u5w$3UFgo4",
+      "legacyGuid": "1Z9IDe8TbAP9u5w$3UFgo4",
       "localizations": [
         {
           "language": "ja-JP",
@@ -169,12 +179,16 @@
         "dataType": "IfcLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "IsolatorCompressibility",
       "definition": "The compressibility of the vibration isolator.",
       "ifdGuid": "3DkJ6sM$r0RQZGFY$13NIn",
+      "legacyGuid": "3DkJ6sM$r0RQZGFY$13NIn",
       "localizations": [
         {
           "language": "ja-JP",
@@ -211,12 +225,16 @@
         "dataType": "IfcRatioMeasure",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "Height",
       "definition": "Height of the vibration isolator before tha application of load.",
       "ifdGuid": "2FI_w$BFbAruxdjjgfVLkV",
+      "legacyGuid": "2FI_w$BFbAruxdjjgfVLkV",
       "localizations": [
         {
           "language": "ja-JP",
@@ -253,12 +271,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "MaximumSupportedWeight",
       "definition": "The maximum weight that can be carried by the vibration isolator.",
       "ifdGuid": "0g6prxR0z76uUiSvsHdpdx",
+      "legacyGuid": "0g6prxR0z76uUiSvsHdpdx",
       "localizations": [
         {
           "language": "ja-JP",
@@ -295,6 +317,9 @@
         "dataType": "IfcMassMeasure",
         "measureType": "",
         "unitType": "MASSUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

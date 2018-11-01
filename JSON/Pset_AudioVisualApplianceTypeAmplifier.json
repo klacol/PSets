@@ -5,6 +5,7 @@
     "schema": "IfcElectricalDomain"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "An audio-visual amplifier is a device that renders audio from a single external source connected from a port.  HISTORY: Added in IFC4.",
   "localizations": [
     {
@@ -49,6 +50,7 @@
       "name": "AmplifierType",
       "definition": "Indicates the type of amplifier.",
       "ifdGuid": "",
+      "legacyGuidAsIfcGlobalId": "",
       "localizations": [
         {
           "language": "ja-JP",
@@ -238,12 +240,16 @@
             ]
           }
         ]
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "AudioAmplification",
       "definition": "Indicates audio amplification frequency ranges.",
       "ifdGuid": "",
+      "legacyGuidAsIfcGlobalId": "",
       "localizations": [
         {
           "language": "ja-JP",
@@ -293,12 +299,16 @@
           "measureType": "",
           "unitType": "USERDEFINED"
         }
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "AudioMode",
       "definition": "Indicates audio sound modes and corresponding labels, if applicable.",
       "ifdGuid": "",
+      "legacyGuidAsIfcGlobalId": "",
       "localizations": [
         {
           "language": "ja-JP",
@@ -348,6 +358,9 @@
           "measureType": "",
           "unitType": "USERDEFINED"
         }
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

@@ -3,6 +3,7 @@ ifcVersion:
   version: 4.0.0.0
   schema: IfcPlumbingFireProtectionDomain
 ifdGuid: ''
+legacyGuid: ''
 definition: 'Device, fitted to a pipe, through which a temporary supply of water may be provided (BS6100 330 6107)For further details on fire hydrants, see www.firehydrant.org'
 localizations:
 - language: de-DE
@@ -30,6 +31,7 @@ properties:
 - name: FireHydrantType
   definition: 'Defines the range of hydrant types from which the required type can be selected where.DryBarrel:	 A hydrant that has isolating valves fitted below ground and that may be used where the possibility of water freezing is a consideration.WetBarrel:	 A hydrant that has isolating valves fitted above ground and that may be used where there is no possibility of water freezing.'
   ifdGuid: 3PdaLQg8zD0u3zdMta6cJ8
+  legacyGuid: 3PdaLQg8zD0u3zdMta6cJ8
   localizations:
   - language: ja-JP
     name: '消火栓のタイプ'
@@ -140,9 +142,12 @@ properties:
       - language: ru-RU
         name: 'Unknown'
         definition: ''
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: PumperConnectionSize
   definition: The size of a connection to which a fire hose may be connected that is then linked to a pumping unit.
   ifdGuid: 2MCvzVqZb7cu1xrmiR8hz9
+  legacyGuid: 2MCvzVqZb7cu1xrmiR8hz9
   localizations:
   - language: ja-JP
     name: 'ポンプ接続サイズ'
@@ -166,9 +171,12 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: LENGTHUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: NumberOfHoseConnections
   definition: The number of hose connections on the hydrant (excluding the pumper connection).
   ifdGuid: 07SCbq6p95LAWBLVUsiNrm
+  legacyGuid: 07SCbq6p95LAWBLVUsiNrm
   localizations:
   - language: ja-JP
     name: 'ホースの接続の数'
@@ -192,9 +200,12 @@ properties:
     dataType: IfcInteger
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: HoseConnectionSize
   definition: The size of connections to which a hose may be connected (other than that to be linked to a pumping unit).
   ifdGuid: 2UUgm2ws19SxCvspCSy_en
+  legacyGuid: 2UUgm2ws19SxCvspCSy_en
   localizations:
   - language: ja-JP
     name: 'ホース接続サイズ'
@@ -218,9 +229,12 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: LENGTHUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: DischargeFlowRate
   definition: The volumetric rate of fluid discharge.
   ifdGuid: 1ysJ$a1jD4E8jxPHP38J$H
+  legacyGuid: 1ysJ$a1jD4E8jxPHP38J$H
   localizations:
   - language: ja-JP
     name: '放水流量'
@@ -244,9 +258,12 @@ properties:
     dataType: IfcVolumetricFlowRateMeasure
     measureType: ''
     unitType: VOLUMETRICFLOWRATEUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: FlowClass
   definition: Alphanumeric indication of the flow class of a hydrant (may be used in connection with or instead of the FlowRate property).
   ifdGuid: 3NlMiYcnL9TvI9ct0pQeut
+  legacyGuid: 3NlMiYcnL9TvI9ct0pQeut
   localizations:
   - language: ja-JP
     name: '流量クラス'
@@ -270,9 +287,12 @@ properties:
     dataType: IfcLabel
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: WaterIsPotable
   definition: Indication of whether the water flow from the hydrant is potable (set TRUE) or non potable (set FALSE).
   ifdGuid: 2gLrK6Lq9BHgCFN_Vjh8xU
+  legacyGuid: 2gLrK6Lq9BHgCFN_Vjh8xU
   localizations:
   - language: ja-JP
     name: '飲用水かどうか'
@@ -296,9 +316,12 @@ properties:
     dataType: IfcBoolean
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: PressureRating
   definition: Maximum pressure that the hydrant is manufactured to withstand.
   ifdGuid: 2csuakGpb4UfVtVM4Vjg0x
+  legacyGuid: 2csuakGpb4UfVtVM4Vjg0x
   localizations:
   - language: ja-JP
     name: '圧力'
@@ -322,9 +345,12 @@ properties:
     dataType: IfcPressureMeasure
     measureType: ''
     unitType: PRESSUREUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: BodyColor
   definition: 'Color of the body of the hydrant.Note: Consult local fire regulations for statutory colors that may be required for hydrant bodies in particular circumstances.'
   ifdGuid: 3y4t5CDfv5UBd0yn9WS$vj
+  legacyGuid: 3y4t5CDfv5UBd0yn9WS$vj
   localizations:
   - language: ja-JP
     name: '本体色'
@@ -348,9 +374,12 @@ properties:
     dataType: IfcText
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: CapColor
   definition: 'Color of the caps of the hydrant.Note: Consult local fire regulations for statutory colors that may be required for hydrant caps in particular circumstances.'
   ifdGuid: 1$2OgFBUz2xuQ2VrRFtfwL
+  legacyGuid: 1$2OgFBUz2xuQ2VrRFtfwL
   localizations:
   - language: ja-JP
     name: 'キャップ色'
@@ -374,3 +403,5 @@ properties:
     dataType: IfcText
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

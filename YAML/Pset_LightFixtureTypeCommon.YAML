@@ -3,6 +3,7 @@ ifcVersion:
   version: 4.0.0.0
   schema: IfcElectricalDomain
 ifdGuid: ''
+legacyGuid: ''
 definition: 'Common data for light fixtures.History: IFC4 - Article number and manufacturer specific information deleted. Use Pset_ManufacturerTypeInformation. ArticleNumber instead.   Load properties moved from Pset_LightFixtureTypeThermal (deleted).'
 localizations:
 - language: de-DE
@@ -30,6 +31,7 @@ properties:
 - name: Reference
   definition: Reference ID for this specified type in this project (e.g. type 'A-1'), provided, if there is no classification reference to a recognized classification system used.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: ja-JP
     name: '参照'
@@ -53,9 +55,12 @@ properties:
     dataType: IfcIdentifier
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: Status
   definition: Status of the element, predominately used in renovation or retrofitting projects. The status can be assigned to as "New" - element designed as new addition, "Existing" - element exists and remains, "Demolish" - element existed but is to be demolished,  "Temporary" - element will exists only temporary (like a temporary support structure).
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: ja-JP
     name: '状態'
@@ -210,9 +215,12 @@ properties:
       - language: ru-RU
         name: 'Unknown'
         definition: ''
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: NumberOfSources
   definition: Number of sources .
   ifdGuid: 2zD6H7LFL0hwKCC2l44Mi$
+  legacyGuid: 2zD6H7LFL0hwKCC2l44Mi$
   localizations:
   - language: ja-JP
     name: '電球数'
@@ -239,9 +247,12 @@ properties:
     dataType: IfcInteger
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: TotalWattage
   definition: Wattage on whole lightfitting device with all sources intact.
   ifdGuid: 2tZ$eLtG5FpgHn28mKQJY1
+  legacyGuid: 2tZ$eLtG5FpgHn28mKQJY1
   localizations:
   - language: ja-JP
     name: '総ワット数'
@@ -268,9 +279,12 @@ properties:
     dataType: IfcPowerMeasure
     measureType: ''
     unitType: POWERUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: LightFixtureMountingType
   definition: A list of the available types of mounting for light fixtures from which that required may be selected.
   ifdGuid: 3$r292Vhf9xPtSauPLojCg
+  legacyGuid: 3$r292Vhf9xPtSauPLojCg
   localizations:
   - language: ja-JP
     name: '照明器具取付方法'
@@ -516,9 +530,12 @@ properties:
       - language: ru-RU
         name: 'Unknown'
         definition: ''
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: LightFixturePlacingType
   definition: A list of the available types of placing specification for light fixtures from which that required may be selected.
   ifdGuid: 1BFn5$2WLCF8EHbw1mjTHB
+  legacyGuid: 1BFn5$2WLCF8EHbw1mjTHB
   localizations:
   - language: ja-JP
     name: '照明器具取付場所'
@@ -698,9 +715,12 @@ properties:
       - language: ru-RU
         name: 'Unknown'
         definition: ''
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: MaintenanceFactor
   definition: The arithmetical allowance made for depreciation of lamps and reflective equipment from their initial values due to dirt, fumes, or age.
   ifdGuid: 0526w2U9P6U8SkN5b3LU1G
+  legacyGuid: 0526w2U9P6U8SkN5b3LU1G
   localizations:
   - language: ja-JP
     name: '保守率'
@@ -727,9 +747,12 @@ properties:
     dataType: IfcReal
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: MaximumPlenumSensibleLoad
   definition: Maximum or Peak sensible thermal load contributed to the conditioned space by the light fixture.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: de-DE
     name: ''
@@ -753,9 +776,12 @@ properties:
     dataType: IfcPowerMeasure
     measureType: ''
     unitType: POWERUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: MaximumSpaceSensibleLoad
   definition: Maximum or Peak sensible thermal load contributed to return air plenum by the light fixture.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: de-DE
     name: ''
@@ -779,9 +805,12 @@ properties:
     dataType: IfcPowerMeasure
     measureType: ''
     unitType: POWERUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: SensibleLoadToRadiant
   definition: Percent of sensible thermal load to radiant heat.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: de-DE
     name: ''
@@ -805,3 +834,5 @@ properties:
     dataType: IfcPositiveRatioMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

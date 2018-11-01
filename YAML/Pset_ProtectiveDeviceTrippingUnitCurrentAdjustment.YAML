@@ -3,6 +3,7 @@ ifcVersion:
   version: 4.0.0.0
   schema: IfcElectricalDomain
 ifdGuid: ''
+legacyGuid: ''
 definition: 'A set of current adjustment values that may be applied to an electronic or thermal tripping unit type.'
 localizations:
 - language: de-DE
@@ -30,6 +31,7 @@ properties:
 - name: AdjustmentValueType
   definition: The type of adjustment value that is applied through the property set. This determines the properties that should be asserted (see below).
   ifdGuid: 2zrhWekkP4ywkn$bzMSPKZ
+  legacyGuid: 2zrhWekkP4ywkn$bzMSPKZ
   localizations:
   - language: ja-JP
     name: '調整値の型'
@@ -143,9 +145,12 @@ properties:
       - language: ru-RU
         name: 'Unknown'
         definition: ''
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: AdjustmentRange
   definition: Upper and lower current adjustment limits for an AdjustmentValueType = RANGE. Note that this property should not have a value for an  AdjustmentValueType = LIST.
   ifdGuid: 39YDbmxdrFJv_5Ki0kNu8A
+  legacyGuid: 39YDbmxdrFJv_5Ki0kNu8A
   localizations:
   - language: ja-JP
     name: '調整範囲'
@@ -173,9 +178,12 @@ properties:
     LowerBoundValue: '?'
     UpperBoundValue: '?'
     typeName: TypePropertyBoundedValue
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: AdjustmentRangeStepValue
   definition: Step value of current adjustment for an AdjustmentValueType = RANGE. Note that this property should not have a value for an  AdjustmentValueType = LIST.
   ifdGuid: 1xw0bJW8rAzOJU2v$46_Un
+  legacyGuid: 1xw0bJW8rAzOJU2v$46_Un
   localizations:
   - language: ja-JP
     name: '調整範囲のステップ値'
@@ -202,9 +210,12 @@ properties:
     dataType: IfcElectricCurrentMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: AdjustmentValues
   definition: A list of current adjustment values that may be applied to a tripping unit for an AdjustmentValueType = LIST. A minimum of 1 and a maximum of 16 adjustment values may be specified. Note that this property should not have a value for an  AdjustmentValueType = RANGE.
   ifdGuid: 3HhjZxKvfABegSk4_rEIgk
+  legacyGuid: 3HhjZxKvfABegSk4_rEIgk
   localizations:
   - language: ja-JP
     name: '調整値'
@@ -231,9 +242,12 @@ properties:
     dataType: IfcElectricCurrentMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: AdjustmentDesignation
   definition: The desgnation on the device for the adjustment.
   ifdGuid: 086lL5vZTCJPwViB7LNTcW
+  legacyGuid: 086lL5vZTCJPwViB7LNTcW
   localizations:
   - language: ja-JP
     name: '調整の指定'
@@ -260,3 +274,5 @@ properties:
     dataType: IfcLabel
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

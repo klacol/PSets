@@ -5,6 +5,7 @@
     "schema": "IfcBuildingControlsDomain"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "A device that senses or detects light. HISTORY: LightSensorSensorSetPoint changed to SetPointIlluminance. Range, accuracy and time constant deleted.",
   "localizations": [
     {
@@ -49,6 +50,7 @@
       "name": "SetPointIlluminance",
       "definition": "The illuminance value to be sensed. Use IfcPropertyBoundedValue.SetPointValue to set the set point value.",
       "ifdGuid": "0mh0U3v6TBHOXoWOWn4OZg",
+      "legacyGuid": "0mh0U3v6TBHOXoWOWn4OZg",
       "localizations": [
         {
           "language": "ja-JP",
@@ -92,6 +94,9 @@
         "LowerBoundValue": "0",
         "UpperBoundValue": "?",
         "typeName": "TypePropertyBoundedValue"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

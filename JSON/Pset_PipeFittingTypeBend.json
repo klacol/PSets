@@ -5,6 +5,7 @@
     "schema": "IfcHvacDomain"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "Pipe fitting type attributes for bend shapes.",
   "localizations": [
     {
@@ -49,6 +50,7 @@
       "name": "BendAngle",
       "definition": "The change of direction of flow.",
       "ifdGuid": "2YLjcnT6LAMAQWbl06aOZ6",
+      "legacyGuid": "2YLjcnT6LAMAQWbl06aOZ6",
       "localizations": [
         {
           "language": "ja-JP",
@@ -85,12 +87,16 @@
         "dataType": "IfcPositivePlaneAngleMeasure",
         "measureType": "",
         "unitType": "PLANEANGLEUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "BendRadius",
       "definition": "The radius of bending if circular arc or zero if sharp bend.",
       "ifdGuid": "29bCndKRrDSOmbde27at5N",
+      "legacyGuid": "29bCndKRrDSOmbde27at5N",
       "localizations": [
         {
           "language": "ja-JP",
@@ -127,6 +133,9 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

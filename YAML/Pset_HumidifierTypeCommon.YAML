@@ -3,6 +3,7 @@ ifcVersion:
   version: 4.0.0.0
   schema: IfcHvacDomain
 ifdGuid: ''
+legacyGuid: ''
 definition: 'Humidifier type common attributes.WaterProperties attribute renamed to WaterRequirement and unit type modified in IFC2x2 Pset Addendum.'
 localizations:
 - language: de-DE
@@ -30,6 +31,7 @@ properties:
 - name: Reference
   definition: Reference ID for this specified type in this project (e.g. type 'A-1').
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: ja-JP
     name: '参照記号'
@@ -53,9 +55,12 @@ properties:
     dataType: IfcIdentifier
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: Status
   definition: Status of the element, predominately used in renovation or retrofitting projects. The status can be assigned to as "New" - element designed as new addition, "Existing" - element exists and remains, "Demolish" - element existed but is to be demolished,  "Temporary" - element will exists only temporary (like a temporary support structure).
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: ja-JP
     name: '状態'
@@ -210,9 +215,12 @@ properties:
       - language: ru-RU
         name: 'Unknown'
         definition: ''
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: Application
   definition: 'Humidifier application.Fixed: Humidifier installed in a ducted flow distribution system.Portable: Humidifier is not installed in a ducted flow distribution system.'
   ifdGuid: 00T6FCGDnEjhDk8KFlGmFx
+  legacyGuid: 00T6FCGDnEjhDk8KFlGmFx
   localizations:
   - language: ja-JP
     name: '応用'
@@ -323,9 +331,12 @@ properties:
       - language: ru-RU
         name: 'Unknown'
         definition: ''
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: Weight
   definition: The weight of the humidifier.
   ifdGuid: 0OQnZ2SOvD2ugBQxBhGBV7
+  legacyGuid: 0OQnZ2SOvD2ugBQxBhGBV7
   localizations:
   - language: ja-JP
     name: '重量'
@@ -349,9 +360,12 @@ properties:
     dataType: IfcMassMeasure
     measureType: ''
     unitType: MASSUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: NominalMoistureGain
   definition: Nominal rate of water vapor added into the airstream.
   ifdGuid: 1xPxkfbL592wlUEMNTeGNd
+  legacyGuid: 1xPxkfbL592wlUEMNTeGNd
   localizations:
   - language: ja-JP
     name: '加湿量の平均'
@@ -375,9 +389,12 @@ properties:
     dataType: IfcMassFlowRateMeasure
     measureType: ''
     unitType: MASSFLOWRATEUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: NominalAirFlowRate
   definition: Nominal rate of air flow into which water vapor is added.
   ifdGuid: 2cyN6L5c55Eu4Ld62Fb_Oq
+  legacyGuid: 2cyN6L5c55Eu4Ld62Fb_Oq
   localizations:
   - language: ja-JP
     name: '気流量の平均'
@@ -401,9 +418,12 @@ properties:
     dataType: IfcVolumetricFlowRateMeasure
     measureType: ''
     unitType: VOLUMETRICFLOWRATEUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: InternalControl
   definition: Internal modulation control.
   ifdGuid: 0vGhikQnz6PwGXj3mDZUJq
+  legacyGuid: 0vGhikQnz6PwGXj3mDZUJq
   localizations:
   - language: ja-JP
     name: '内部制御'
@@ -558,9 +578,12 @@ properties:
       - language: ru-RU
         name: 'Unknown'
         definition: ''
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: WaterRequirement
   definition: Make-up water requirement.
   ifdGuid: 0QJMe6VIH5s8QW12dDU2or
+  legacyGuid: 0QJMe6VIH5s8QW12dDU2or
   localizations:
   - language: ja-JP
     name: '水必要量'
@@ -584,9 +607,12 @@ properties:
     dataType: IfcVolumetricFlowRateMeasure
     measureType: ''
     unitType: VOLUMETRICFLOWRATEUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: SaturationEfficiencyCurve
   definition: Saturation efficiency as a function of the air flow rate.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: de-DE
     name: ''
@@ -616,9 +642,12 @@ properties:
       dataType: IfcNormalisedRatioMeasure
       measureType: ''
       unitType: VOLUMETRICFLOWRATEUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: AirPressureDropCurve
   definition: Air pressure drop versus air-flow rate.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: de-DE
     name: ''
@@ -648,3 +677,5 @@ properties:
       dataType: IfcPressureMeasure
       measureType: ''
       unitType: VOLUMETRICFLOWRATEUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

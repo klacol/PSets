@@ -3,6 +3,7 @@ ifcVersion:
   version: 4.0.0.0
   schema: IfcHvacDomain
 ifdGuid: ''
+legacyGuid: ''
 definition: 'Pipe segment performance history common attributes.'
 localizations:
 - language: de-DE
@@ -30,6 +31,7 @@ properties:
 - name: LeakageCurve
   definition: Leakage per unit length curve versus working pressure.
   ifdGuid: 1CF_Jrf6184xQiDoAj9giN
+  legacyGuid: 1CF_Jrf6184xQiDoAj9giN
   localizations:
   - language: ja-JP
     name: '漏洩曲線'
@@ -55,9 +57,12 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: FluidFlowLeakage
   definition: Volumetric leakage flow rate.
   ifdGuid: 0$UcrHH8X6hfoFHjKDf20K
+  legacyGuid: 0$UcrHH8X6hfoFHjKDf20K
   localizations:
   - language: ja-JP
     name: '流体漏洩量'
@@ -83,3 +88,5 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

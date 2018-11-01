@@ -3,6 +3,7 @@ ifcVersion:
   version: 4.0.0.0
   schema: IfcSharedComponentElements
 ifdGuid: ''
+legacyGuid: ''
 definition: 'Shape properties common to wire loop joint connectors.'
 localizations:
 - language: de-DE
@@ -32,6 +33,7 @@ properties:
 - name: WireLoopBasePlateThickness
   definition: The thickness of the base plate.
   ifdGuid: 0EyLDVyLr2xujC95rGo1xj
+  legacyGuid: 0EyLDVyLr2xujC95rGo1xj
   localizations:
   - language: ja-JP
     name: 'ベースプレート厚'
@@ -58,9 +60,12 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: LENGTHUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: WireLoopBasePlateWidth
   definition: The width of the base plate.
   ifdGuid: 1NFWB1GfjCTQAoxbGekmDv
+  legacyGuid: 1NFWB1GfjCTQAoxbGekmDv
   localizations:
   - language: ja-JP
     name: 'ベースプレート幅'
@@ -87,9 +92,12 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: LENGTHUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: WireLoopBasePlateLength
   definition: The length of the base plate.
   ifdGuid: 3BWXDk0b99XQv4AC94W2iu
+  legacyGuid: 3BWXDk0b99XQv4AC94W2iu
   localizations:
   - language: ja-JP
     name: 'ベースプレート長さ'
@@ -116,9 +124,12 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: LENGTHUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: WireDiameter
   definition: The nominal diameter of the wire.
   ifdGuid: 0Ljf2cdif5jBggGbgTvaaC
+  legacyGuid: 0Ljf2cdif5jBggGbgTvaaC
   localizations:
   - language: ja-JP
     name: 'ワイヤー径'
@@ -145,9 +156,12 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: LENGTHUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: WireEmbeddingLength
   definition: The length of the part of wire which is embedded in the precast concrete element.
   ifdGuid: 2POsszB1fAYPMhyHTmNSO4
+  legacyGuid: 2POsszB1fAYPMhyHTmNSO4
   localizations:
   - language: ja-JP
     name: '埋め込み長さ'
@@ -174,9 +188,12 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: LENGTHUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: WireLoopLength
   definition: The length of the fastening loop part of the wire.
   ifdGuid: 31RA6amWbCrARN3WazaTRk
+  legacyGuid: 31RA6amWbCrARN3WazaTRk
   localizations:
   - language: ja-JP
     name: '留め具長さ'
@@ -203,3 +220,5 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: LENGTHUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

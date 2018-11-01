@@ -3,6 +3,7 @@ ifcVersion:
   version: 4.0.0.0
   schema: IfcPlumbingFireProtectionDomain
 ifdGuid: ''
+legacyGuid: ''
 definition: 'Pipe fitting, set adjacent to a sanitary terminal, that retains liquid to prevent the passage of foul air.'
 localizations:
 - language: de-DE
@@ -30,6 +31,7 @@ properties:
 - name: WasteTrapType
   definition: Identifies the predefined types of trap from which the type required may be set.
   ifdGuid: 0jxJpOf1P5Ugns_0to70hG
+  legacyGuid: 0jxJpOf1P5Ugns_0to70hG
   localizations:
   - language: ja-JP
     name: '廃棄物防臭弁種類'
@@ -184,9 +186,12 @@ properties:
       - language: ru-RU
         name: 'Unknown'
         definition: ''
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: OutletConnectionSize
   definition: Size of the outlet connection from the object.
   ifdGuid: 2OKv1Cb2DAWuSz5qm3S4_W
+  legacyGuid: 2OKv1Cb2DAWuSz5qm3S4_W
   localizations:
   - language: ja-JP
     name: '排出口接続口サイズ'
@@ -210,9 +215,12 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: LENGTHUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: InletConnectionSize
   definition: Size of the inlet connection(s), where used, of the inlet connections.Note that all inlet connections are assumed to be the same size.
   ifdGuid: 2nizSyt3zA_hdVR3wyoNk5
+  legacyGuid: 2nizSyt3zA_hdVR3wyoNk5
   localizations:
   - language: ja-JP
     name: '吸気口接続口サイズ'
@@ -236,3 +244,5 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: LENGTHUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

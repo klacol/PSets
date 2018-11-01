@@ -5,6 +5,7 @@
     "schema": "IfcPlumbingFireProtectionDomain"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "Pipe fitting, set into the floor, that retains liquid to prevent the passage of foul air.",
   "localizations": [
     {
@@ -49,6 +50,7 @@
       "name": "NominalBodyLength",
       "definition": "Nominal or quoted length measured along the x-axis in the local coordinate system or the radius (in the case of a circular shape in plan) of the chamber of the trap.",
       "ifdGuid": "2THakYiH1FHB9HRnWNDkCx",
+      "legacyGuid": "2THakYiH1FHB9HRnWNDkCx",
       "localizations": [
         {
           "language": "ja-JP",
@@ -85,12 +87,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "NominalBodyWidth",
       "definition": "Nominal or quoted length measured along the y-axis in the local coordinate system of the chamber of the trap.",
       "ifdGuid": "1v88_M40rEtBNGBt7KA2Ay",
+      "legacyGuid": "1v88_M40rEtBNGBt7KA2Ay",
       "localizations": [
         {
           "language": "ja-JP",
@@ -127,12 +133,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "NominalBodyDepth",
       "definition": "Nominal or quoted length measured along the z-axis in the local coordinate system of the chamber of the  trap.",
       "ifdGuid": "1DEhOPaMr4mgIwUIZh$03j",
+      "legacyGuid": "1DEhOPaMr4mgIwUIZh$03j",
       "localizations": [
         {
           "language": "ja-JP",
@@ -169,12 +179,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "IsForSullageWater",
       "definition": "Indicates if the purpose of the floor trap is to receive sullage water, or if that is amongst its purposes (= TRUE), or not (= FALSE). Note that if TRUE, it is expected that an upstand or kerb will be placed around the floor trap to prevent the ingress of surface water runoff; the provision of the upstand or kerb is not dealt with in this property set.",
       "ifdGuid": "0DDQMjxxT42BPb6XmH5S5L",
+      "legacyGuid": "0DDQMjxxT42BPb6XmH5S5L",
       "localizations": [
         {
           "language": "ja-JP",
@@ -211,12 +225,16 @@
         "dataType": "IfcBoolean",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "SpilloverLevel",
       "definition": "The level at which water spills out of the terminal.",
       "ifdGuid": "0ETZkHY_PD0uolWkQzncGL",
+      "legacyGuid": "0ETZkHY_PD0uolWkQzncGL",
       "localizations": [
         {
           "language": "ja-JP",
@@ -253,12 +271,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "TrapType",
       "definition": "Identifies the predefined types of waste trap used in combination with the floor trap from which the type required may be set.",
       "ifdGuid": "1JvzZzkt15mh$Sh7fQ0DUD",
+      "legacyGuid": "1JvzZzkt15mh$Sh7fQ0DUD",
       "localizations": [
         {
           "language": "ja-JP",
@@ -517,12 +539,16 @@
             ]
           }
         ]
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "HasStrainer",
       "definition": "Indicates whether the gully trap has a strainer (= TRUE) or not (= FALSE).",
       "ifdGuid": "395yDYqMP5Swz6SXxJZqW0",
+      "legacyGuid": "395yDYqMP5Swz6SXxJZqW0",
       "localizations": [
         {
           "language": "ja-JP",
@@ -559,12 +585,16 @@
         "dataType": "IfcBoolean",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "OutletConnectionSize",
       "definition": "Size of the outlet connection from the object.",
       "ifdGuid": "126aMmAQ525uGe3JnFgWvH",
+      "legacyGuid": "126aMmAQ525uGe3JnFgWvH",
       "localizations": [
         {
           "language": "ja-JP",
@@ -601,12 +631,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "InletPatternType",
       "definition": "Identifies the pattern of inlet connections to a trap.A trap may have 0,1,2,3 or 4 inlet connections and the pattern of their arrangement may vary. The enumeration makes the convention that an outlet is either vertical or is placed at the bottom (south side) of the trap (when viewed in plan). Position 1 is to the left (west), position 2 is to the top (north), position 3 is to the right (east) and position 4 is to the bottom (south).",
       "ifdGuid": "3I_wPD7x92nBGy324rxcYI",
+      "legacyGuid": "3I_wPD7x92nBGy324rxcYI",
       "localizations": [
         {
           "language": "ja-JP",
@@ -1309,12 +1343,16 @@
             ]
           }
         ]
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "InletConnectionSize",
       "definition": "Size of the inlet connection(s), where used, of the inlet connections.Note that all inlet connections are assumed to be the same size.",
       "ifdGuid": "2B0zx60Vb12Q_eZ0Peljio",
+      "legacyGuid": "2B0zx60Vb12Q_eZ0Peljio",
       "localizations": [
         {
           "language": "ja-JP",
@@ -1351,12 +1389,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "CoverLength",
       "definition": "The length measured along the x-axis in the local coordinate system or the radius (in the case of a circular shape in plan) of the cover of the trap.",
       "ifdGuid": "1vwI_O1gLDhRk8jy1azA48",
+      "legacyGuid": "1vwI_O1gLDhRk8jy1azA48",
       "localizations": [
         {
           "language": "ja-JP",
@@ -1393,12 +1435,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "CoverWidth",
       "definition": "The length measured along the y-axis in the local coordinate system of the cover of the  trap.",
       "ifdGuid": "1t3qMaS0vDdh6aJ8d_3Pa6",
+      "legacyGuid": "1t3qMaS0vDdh6aJ8d_3Pa6",
       "localizations": [
         {
           "language": "ja-JP",
@@ -1435,12 +1481,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "CoverMaterial",
       "definition": "Material from which the cover or grating is constructed.",
       "ifdGuid": "0GaSpLSYH30gfzK_8Ome7L",
+      "legacyGuid": "0GaSpLSYH30gfzK_8Ome7L",
       "localizations": [
         {
           "language": "ja-JP",
@@ -1479,6 +1529,9 @@
         "guid": "",
         "libraryName": "Industry Foundation Classes by buildingSMART International",
         "sectionref": "Core Schema"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

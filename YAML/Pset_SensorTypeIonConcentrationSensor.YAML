@@ -3,6 +3,7 @@ ifcVersion:
   version: 4.0.0.0
   schema: IfcBuildingControlsDomain
 ifdGuid: ''
+legacyGuid: ''
 definition: 'A device that senses or detects ion concentration such as water hardness. HISTORY: Added in IFC4.'
 localizations:
 - language: de-DE
@@ -30,6 +31,7 @@ properties:
 - name: SubstanceDetected
   definition: Identification of the substance that is being detected according to chemical formula.  For example, calcium carbonate is 'CaCO3'
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: ja-JP
     name: '対象物質'
@@ -56,9 +58,12 @@ properties:
     dataType: IfcLabel
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: SetPointConcentration
   definition: The ion concentration value to be sensed. Use IfcPropertyBoundedValue.SetPointValue to set the set point value.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: ja-JP
     name: 'イオン濃度設定値'
@@ -86,3 +91,5 @@ properties:
     LowerBoundValue: 0
     UpperBoundValue: '?'
     typeName: TypePropertyBoundedValue
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

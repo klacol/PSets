@@ -5,6 +5,7 @@
     "schema": "IfcHvacDomain"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "Valve that is used to isolate system components.Note that an isolating valve is constrained to have a 2 port  pattern.",
   "localizations": [
     {
@@ -49,6 +50,7 @@
       "name": "IsNormallyOpen",
       "definition": "If TRUE, the valve is normally open. If FALSE is is normally closed.",
       "ifdGuid": "3EACUznkH5ruas8wMGtTgP",
+      "legacyGuid": "3EACUznkH5ruas8wMGtTgP",
       "localizations": [
         {
           "language": "ja-JP",
@@ -85,12 +87,16 @@
         "dataType": "IfcBoolean",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "IsolatingPurpose",
       "definition": "Defines the purpose for which the isolating valve is used since the way in which the valve is identified as an isolating valve may be in the context of its use. Note that unless there is a contextual name for the isolating valve (as in the case of a Landing Valve on a rising fire main), then the value assigned shoulkd be UNSET.",
       "ifdGuid": "0xxzel27LCKOrym57NOeok",
+      "legacyGuid": "0xxzel27LCKOrym57NOeok",
       "localizations": [
         {
           "language": "ja-JP",
@@ -275,6 +281,9 @@
             ]
           }
         ]
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

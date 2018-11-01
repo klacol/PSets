@@ -3,6 +3,7 @@ ifcVersion:
   version: 4.0.0.0
   schema: IfcSharedComponentElements
 ifdGuid: ''
+legacyGuid: ''
 definition: 'Shape properties common to column shoes.'
 localizations:
 - language: de-DE
@@ -32,6 +33,7 @@ properties:
 - name: ColumnShoeBasePlateThickness
   definition: The thickness of the column shoe base plate.
   ifdGuid: 1aZFi1cNX4XQbBsRkP4u_e
+  legacyGuid: 1aZFi1cNX4XQbBsRkP4u_e
   localizations:
   - language: ja-JP
     name: 'ベースプレート厚'
@@ -58,9 +60,12 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: LENGTHUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: ColumnShoeBasePlateWidth
   definition: The width of the column shoe base plate.
   ifdGuid: 2bgJ5ReDf9zOofHfF2$nqN
+  legacyGuid: 2bgJ5ReDf9zOofHfF2$nqN
   localizations:
   - language: ja-JP
     name: 'ベースプレート幅'
@@ -87,9 +92,12 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: LENGTHUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: ColumnShoeBasePlateDepth
   definition: The depth of the column shoe base plate.
   ifdGuid: 3thTvHYy52a9Vaml3Qxlnf
+  legacyGuid: 3thTvHYy52a9Vaml3Qxlnf
   localizations:
   - language: ja-JP
     name: 'ベースプレート成'
@@ -116,9 +124,12 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: LENGTHUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: ColumnShoeCasingHeight
   definition: The height of the column shoe casing.
   ifdGuid: 1rSkO37vj8qg3aRPQi9TzC
+  legacyGuid: 1rSkO37vj8qg3aRPQi9TzC
   localizations:
   - language: ja-JP
     name: 'ケーシング厚'
@@ -145,9 +156,12 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: LENGTHUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: ColumnShoeCasingWidth
   definition: The width of the column shoe casing.
   ifdGuid: 3Nd1ZGbsPCEuwrZvH721up
+  legacyGuid: 3Nd1ZGbsPCEuwrZvH721up
   localizations:
   - language: ja-JP
     name: 'ケーシング幅'
@@ -174,9 +188,12 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: LENGTHUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: ColumnShoeCasingDepth
   definition: The depth of the column shoe casing.
   ifdGuid: 3VfkH7ON50ZRwZKb$vYujq
+  legacyGuid: 3VfkH7ON50ZRwZKb$vYujq
   localizations:
   - language: ja-JP
     name: 'ケーシング成'
@@ -203,3 +220,5 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: LENGTHUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

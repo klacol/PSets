@@ -3,6 +3,7 @@ ifcVersion:
   version: 4.0.0.0
   schema: IfcSharedBldgServiceElements
 ifdGuid: ''
+legacyGuid: ''
 definition: 'Chamber that houses a meter(s) (definition modified from BS6100 250 6224).'
 localizations:
 - language: de-DE
@@ -30,6 +31,7 @@ properties:
 - name: ChamberLengthOrRadius
   definition: Length or, in the event of the shape being circular in plan, the radius of the chamber.
   ifdGuid: 1X_gP$mp913O1qRscxcQ4C
+  legacyGuid: 1X_gP$mp913O1qRscxcQ4C
   localizations:
   - language: ja-JP
     name: 'チャンバーの長さあるいは半径'
@@ -56,9 +58,12 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: LENGTHUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: ChamberWidth
   definition: Width, in the event of the shape being non circular in plan.
   ifdGuid: 2ahsobn$LAb8gV82WrHgoN
+  legacyGuid: 2ahsobn$LAb8gV82WrHgoN
   localizations:
   - language: ja-JP
     name: 'チャンバーの幅'
@@ -85,9 +90,12 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: LENGTHUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: WallMaterial
   definition: 'The material from which the wall of the chamber is constructed.NOTE: It is assumed that chamber walls will be constructed of a single material.'
   ifdGuid: 1fvuUAi0r7d9PhYoIdBGvn
+  legacyGuid: 1fvuUAi0r7d9PhYoIdBGvn
   localizations:
   - language: ja-JP
     name: '壁の材質'
@@ -115,9 +123,12 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: WallThickness
   definition: 'The thickness of the chamber wall construction.NOTE: It is assumed that chamber walls will be constructed at a single thickness.'
   ifdGuid: 2nmGL1AGTA2uspGMbUiFsB
+  legacyGuid: 2nmGL1AGTA2uspGMbUiFsB
   localizations:
   - language: ja-JP
     name: '壁厚さ'
@@ -144,9 +155,12 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: LENGTHUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: BaseMaterial
   definition: 'The material from which the base of the chamber is constructed.NOTE: It is assumed that chamber base will be constructed of a single material.'
   ifdGuid: 0Q1Sv789vD9O5K$K7GEXd6
+  legacyGuid: 0Q1Sv789vD9O5K$K7GEXd6
   localizations:
   - language: ja-JP
     name: '床の材質'
@@ -174,9 +188,12 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: BaseThickness
   definition: 'The thickness of the chamber base construction.NOTE: It is assumed that chamber base will be constructed at a single thickness.'
   ifdGuid: 0X5civRQT4uQfQ0M1wZvSi
+  legacyGuid: 0X5civRQT4uQfQ0M1wZvSi
   localizations:
   - language: ja-JP
     name: '床の厚さ'
@@ -203,9 +220,12 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: LENGTHUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: AccessCoverMaterial
   definition: 'The material from which the access cover to the chamber is constructed.NOTE: It is assumed that chamber walls will be constructed of a single material.'
   ifdGuid: 0q2ypr6IP0vuJK84R_wuZI
+  legacyGuid: 0q2ypr6IP0vuJK84R_wuZI
   localizations:
   - language: ja-JP
     name: 'アクセス（点検）カバーの材質'
@@ -233,3 +253,5 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

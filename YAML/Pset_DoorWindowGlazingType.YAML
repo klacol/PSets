@@ -3,6 +3,7 @@ ifcVersion:
   version: 4.0.0.0
   schema: IfcSharedBldgElements
 ifdGuid: ''
+legacyGuid: ''
 definition: 'Properties common to the definition of the glazing component of occurrences of IfcDoor and IfcWindow, used for thermal and lighting calculations.'
 localizations:
 - language: de-DE
@@ -44,6 +45,7 @@ properties:
 - name: GlassLayers
   definition: Number of glass layers within the frame. E.g. "2" for double glazing.
   ifdGuid: 0Fu$VEIWjA9eQOAo_KHqpj
+  legacyGuid: 0Fu$VEIWjA9eQOAo_KHqpj
   localizations:
   - language: de-DE
     name: 'German-name-1'
@@ -70,9 +72,12 @@ properties:
     dataType: IfcCountMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: GlassThickness1
   definition: Thickness of the first (inner) glass layer.
   ifdGuid: 2YfoSXQAvCG8JOqYXcsv2t
+  legacyGuid: 2YfoSXQAvCG8JOqYXcsv2t
   localizations:
   - language: de-DE
     name: 'German-name-2'
@@ -99,9 +104,12 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: LENGTHUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: GlassThickness2
   definition: Thickness of the second (intermediate or outer) glass layer.
   ifdGuid: 1uWPnxCnTDJPg3XRF0l2IJ
+  legacyGuid: 1uWPnxCnTDJPg3XRF0l2IJ
   localizations:
   - language: de-DE
     name: 'German-name-3'
@@ -128,9 +136,12 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: LENGTHUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: GlassThickness3
   definition: Thickness of the third (outer) glass layer.
   ifdGuid: 2huVUiwLj5XPpsmpbvGfU2
+  legacyGuid: 2huVUiwLj5XPpsmpbvGfU2
   localizations:
   - language: de-DE
     name: 'German-name-4'
@@ -157,9 +168,12 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: LENGTHUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: FillGas
   definition: Name of the gas by which the gap between two glass layers is filled. It is given for information purposes only.
   ifdGuid: 1z1KYufZLFXuN2AL2xAxuB
+  legacyGuid: 1z1KYufZLFXuN2AL2xAxuB
   localizations:
   - language: de-DE
     name: 'German-name-5'
@@ -186,9 +200,12 @@ properties:
     dataType: IfcLabel
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: GlassColor
   definition: Color (tint) selection for this glazing. It is given for information purposes only.
   ifdGuid: 0tsaIYpKj3cADbYKAmeaUC
+  legacyGuid: 0tsaIYpKj3cADbYKAmeaUC
   localizations:
   - language: de-DE
     name: 'German-name-6'
@@ -215,9 +232,12 @@ properties:
     dataType: IfcLabel
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: IsTempered
   definition: Indication whether the glass is tempered (TRUE) or not (FALSE) .
   ifdGuid: 1GO97T3I53tuG7JA6r7VWY
+  legacyGuid: 1GO97T3I53tuG7JA6r7VWY
   localizations:
   - language: de-DE
     name: 'German-name-7'
@@ -244,9 +264,12 @@ properties:
     dataType: IfcBoolean
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: IsLaminated
   definition: Indication whether the glass is layered with other materials (TRUE) or not (FALSE).
   ifdGuid: 2SQx9rl2j29gkpfeCElp8v
+  legacyGuid: 2SQx9rl2j29gkpfeCElp8v
   localizations:
   - language: de-DE
     name: 'German-name-8'
@@ -273,9 +296,12 @@ properties:
     dataType: IfcBoolean
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: IsCoated
   definition: Indication whether the glass is coated with a material (TRUE) or not (FALSE).
   ifdGuid: 3wOt25hVv0eu71Al989GMz
+  legacyGuid: 3wOt25hVv0eu71Al989GMz
   localizations:
   - language: de-DE
     name: 'German-name-9'
@@ -302,9 +328,12 @@ properties:
     dataType: IfcBoolean
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: IsWired
   definition: Indication whether the glass includes a contained wire mesh to prevent break-in (TRUE) or not (FALSE)
   ifdGuid: 2RK4w__f16qe6LiI_7y_c8
+  legacyGuid: 2RK4w__f16qe6LiI_7y_c8
   localizations:
   - language: de-DE
     name: 'German-name-10'
@@ -331,9 +360,12 @@ properties:
     dataType: IfcBoolean
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: VisibleLightReflectance
   definition: Fraction of the visible light that is reflected by the glazing at normal incidence. It is a value without unit.
   ifdGuid: 2aWUICA8T0Ew5mZp0cmTk_
+  legacyGuid: 2aWUICA8T0Ew5mZp0cmTk_
   localizations:
   - language: de-DE
     name: 'Reflektionsgrad für sichtbares Licht'
@@ -360,9 +392,12 @@ properties:
     dataType: IfcNormalisedRatioMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: VisibleLightTransmittance
   definition: Fraction of the visible light that passes the glazing at normal incidence. It is a value without unit.
   ifdGuid: 3YdKAOEGX13Of14qdEBkg7
+  legacyGuid: 3YdKAOEGX13Of14qdEBkg7
   localizations:
   - language: de-DE
     name: 'Transmissionsgrad für sichtbares Licht'
@@ -389,9 +424,12 @@ properties:
     dataType: IfcNormalisedRatioMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: SolarAbsorption
   definition: (Asol) The ratio of incident solar radiation that is absorbed by a glazing system. It is the sum of the absorption distributed to the exterior (a) and to the interior (qi). Note the following equation Asol + Rsol + Tsol = 1
   ifdGuid: 3d7Xb5XvvDYAmFGZVOFFdv
+  legacyGuid: 3d7Xb5XvvDYAmFGZVOFFdv
   localizations:
   - language: de-DE
     name: 'Strahlungsabsorbtionsgrad'
@@ -418,9 +456,12 @@ properties:
     dataType: IfcNormalisedRatioMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: SolarReflectance
   definition: '(Rsol): The ratio of incident solar radiation that is reflected by a glazing system (also named ρe). Note the following equation Asol + Rsol + Tsol = 1'
   ifdGuid: 0ElfxBmr52BQnXsWBCtn2J
+  legacyGuid: 0ElfxBmr52BQnXsWBCtn2J
   localizations:
   - language: de-DE
     name: 'Strahlungsreflectionsgrad'
@@ -447,9 +488,12 @@ properties:
     dataType: IfcNormalisedRatioMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: SolarTransmittance
   definition: '(Tsol): The ratio of incident solar radiation that directly passes through a glazing system (also named τe). Note the following equation Asol + Rsol + Tsol = 1'
   ifdGuid: 3o$yCNfwn1TAYhkyyjOfly
+  legacyGuid: 3o$yCNfwn1TAYhkyyjOfly
   localizations:
   - language: de-DE
     name: 'Strahlungstransmissionsgrad'
@@ -476,9 +520,12 @@ properties:
     dataType: IfcNormalisedRatioMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: SolarHeatGainTransmittance
   definition: '(SHGC): The ratio of incident solar radiation that contributes to the heat gain of the interior, it is the solar radiation that directly passes (Tsol or τe) plus the part of the absorbed radiation that is distributed to the interior (qi). The SHGC is refered to also as g-value (g = τe + qi).'
   ifdGuid: 106PmCG7PEIguB7EvpRH9W
+  legacyGuid: 106PmCG7PEIguB7EvpRH9W
   localizations:
   - language: de-DE
     name: 'Gesamtenergiedurchlassgrad'
@@ -505,9 +552,12 @@ properties:
     dataType: IfcNormalisedRatioMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: ShadingCoefficient
   definition: '(SC): The measure of the ability of a glazing to transmit solar heat, relative to that ability for 3 mm (1/8-inch) clear, double-strength, single glass. Shading coefficient is being phased out in favor of the solar heat gain coefficient (SHGC), and is approximately equal to the SHGC multiplied by 1.15. The shading coefficient is expressed as a number without units between 0 and 1.'
   ifdGuid: 03O7v0AI9BPACCr7UZwrB1
+  legacyGuid: 03O7v0AI9BPACCr7UZwrB1
   localizations:
   - language: de-DE
     name: 'mittlere Durchlassfaktor b'
@@ -534,9 +584,12 @@ properties:
     dataType: IfcNormalisedRatioMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: ThermalTransmittanceSummer
   definition: Thermal transmittance coefficient (U-Value) of a material.Summer thermal transmittance coefficient of the glazing only, often referred to as (U-value).
   ifdGuid: 3SLFVvezbDjA$spNqLPd$v
+  legacyGuid: 3SLFVvezbDjA$spNqLPd$v
   localizations:
   - language: de-DE
     name: 'German-name-15'
@@ -563,9 +616,12 @@ properties:
     dataType: IfcThermalTransmittanceMeasure
     measureType: ''
     unitType: THERMALTRANSMITTANCEUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: ThermalTransmittanceWinter
   definition: Thermal transmittance coefficient (U-Value) of a material.Winter thermal transmittance coefficient of the glazing only, often referred to as (U-value).
   ifdGuid: 2m7wFqj2v2CgrL7rmD7nJP
+  legacyGuid: 2m7wFqj2v2CgrL7rmD7nJP
   localizations:
   - language: de-DE
     name: 'German-name-16'
@@ -592,3 +648,5 @@ properties:
     dataType: IfcThermalTransmittanceMeasure
     measureType: ''
     unitType: THERMALTRANSMITTANCEUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

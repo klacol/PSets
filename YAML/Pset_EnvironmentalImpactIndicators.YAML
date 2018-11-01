@@ -3,6 +3,7 @@ ifcVersion:
   version: 4.0.0.0
   schema: IfcProductExtension
 ifdGuid: ''
+legacyGuid: ''
 definition: 'Environmental impact indicators are related to a given “functional unit” (ISO 14040 concept). An example of functional unit is a "Double glazing window with PVC frame" and the unit to consider is "one square meter of opening elements filled by this product”.Indicators values are valid for the whole life cycle or only a specific phase (see LifeCyclePhase property). Values of all the indicators are expressed per year according to the expected service life. The first five properties capture the characteristics of the functional unit. The following properties are related to environmental indicators.There is a consensus agreement international for the five one. Last ones are not yet fully and formally agreed at the international level.'
 localizations:
 - language: de-DE
@@ -30,6 +31,7 @@ properties:
 - name: Reference
   definition: Reference ID for this specified type in this project
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: fr-FR
     name: 'Référence'
@@ -56,9 +58,12 @@ properties:
     dataType: IfcIdentifier
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: FunctionalUnitReference
   definition: Reference to a database or a classification
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: fr-FR
     name: 'Référence unité fonctionnelle'
@@ -85,9 +90,12 @@ properties:
     dataType: IfcLabel
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: Unit
   definition: The unit of the quantity the environmental indicators values are related with.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: fr-FR
     name: 'Unité'
@@ -114,9 +122,12 @@ properties:
     dataType: IfcText
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: LifeCyclePhase
   definition: The whole life cycle or only a given phase  from which environmental data are valid.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: fr-FR
     name: 'Phase cycle de vie'
@@ -670,9 +681,12 @@ properties:
       - language: ru-RU
         name: 'Unknown'
         definition: ''
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: ExpectedServiceLife
   definition: Expected service life in years.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: fr-FR
     name: 'Durée de vie typique'
@@ -699,9 +713,12 @@ properties:
     dataType: IfcTimeMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: TotalPrimaryEnergyConsumptionPerUnit
   definition: Quantity of energy used as defined in ISO21930:2007.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: fr-FR
     name: 'Consommation totale énergie primaire par unité'
@@ -728,9 +745,12 @@ properties:
     dataType: IfcEnergyMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: WaterConsumptionPerUnit
   definition: Quantity of water used.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: fr-FR
     name: 'Consommation d''eau par unité'
@@ -757,9 +777,12 @@ properties:
     dataType: IfcVolumeMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: HazardousWastePerUnit
   definition: Quantity of hazardous waste generated
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: fr-FR
     name: 'Déchets dangereux par unité'
@@ -786,9 +809,12 @@ properties:
     dataType: IfcMassMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: NonHazardousWastePerUnit
   definition: Quantity of non hazardous waste generated
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: fr-FR
     name: 'Déchets non dangereux par unité'
@@ -815,9 +841,12 @@ properties:
     dataType: IfcMassMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: ClimateChangePerUnit
   definition: Quantity of greenhouse gases emitted calculated in equivalent CO2
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: fr-FR
     name: 'Changement climatique par unité'
@@ -844,9 +873,12 @@ properties:
     dataType: IfcMassMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: AtmosphericAcidificationPerUnit
   definition: Quantity of gases responsible for the atmospheric acidification calculated in equivalent SO2
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: fr-FR
     name: 'Acidification atmospherique par unité'
@@ -873,9 +905,12 @@ properties:
     dataType: IfcMassMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: RenewableEnergyConsumptionPerUnit
   definition: Quantity of renewable energy used as defined in ISO21930:2007
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: fr-FR
     name: 'Consommation énergie renouvelable par unité'
@@ -902,9 +937,12 @@ properties:
     dataType: IfcEnergyMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: NonRenewableEnergyConsumptionPerUnit
   definition: Quantity of non-renewable energy used as defined in ISO21930:2007
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: fr-FR
     name: 'Consommation énergie non renouvelable par unité'
@@ -931,9 +969,12 @@ properties:
     dataType: IfcEnergyMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: ResourceDepletionPerUnit
   definition: Quantity of resources used calculated in equivalent antimony
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: fr-FR
     name: 'Epuisement des ressources par unité'
@@ -960,9 +1001,12 @@ properties:
     dataType: IfcMassMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: InertWastePerUnit
   definition: Quantity of inert waste generated
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: fr-FR
     name: 'Déchets inertes par unité'
@@ -989,9 +1033,12 @@ properties:
     dataType: IfcMassMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: RadioactiveWastePerUnit
   definition: Quantity of radioactive waste generated
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: fr-FR
     name: 'Déchets radioactifs par unité'
@@ -1018,9 +1065,12 @@ properties:
     dataType: IfcMassMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: StratosphericOzoneLayerDestructionPerUnit
   definition: Quantity of gases destroying the stratospheric ozone layer calculated in equivalent CFC-R11
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: fr-FR
     name: 'Destruction couche ozone stratosphérique par unité'
@@ -1047,9 +1097,12 @@ properties:
     dataType: IfcMassMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: PhotochemicalOzoneFormationPerUnit
   definition: Quantity of gases creating the photochemical ozone calculated in equivalent ethylene
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: fr-FR
     name: 'Formation ozone photochimique par unité'
@@ -1076,9 +1129,12 @@ properties:
     dataType: IfcMassMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: EutrophicationPerUnit
   definition: Quantity of eutrophicating compounds calculated in equivalent PO4
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: fr-FR
     name: 'Eutrophisation par unité'
@@ -1105,3 +1161,5 @@ properties:
     dataType: IfcMassMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

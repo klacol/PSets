@@ -3,6 +3,7 @@ ifcVersion:
   version: 4.0.0.0
   schema: IfcSharedFacilitiesElements
 ifdGuid: ''
+legacyGuid: ''
 definition: 'An asset is a uniquely identifiable element which has a financial value and against which maintenance actions are recorded.'
 localizations:
 - language: de-DE
@@ -29,7 +30,9 @@ applicableIfcClasses:
 properties:
 - name: AssetAccountingType
   definition: Identifies the predefined types of risk from which the type required may be set.
-  ifdGuid: 0A1HTNrUb6dOYtmpOb9oVc
+  ifdGuid: ''
+  legacyGuid: 0a051757d5e9469d88b7c336252727e6
+  legacyGuidAsIfcGlobalId: 0A1HTNrUb6dOYtmpOb9oVc
   localizations:
   - language: ja-JP
     name: '資産会計種別'
@@ -140,9 +143,13 @@ properties:
       - language: ru-RU
         name: 'Unknown'
         definition: ''
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: AssetTaxType
   definition: Identifies the predefined types of taxation group from which the type required may be set.
-  ifdGuid: 1WIn1m_z5Aa9ZsW4GaXyyv
+  ifdGuid: ''
+  legacyGuid: 604b1070fbd14a9098f680442487cf39
+  legacyGuidAsIfcGlobalId: 1WIn1m_z5Aa9ZsW4GaXyyv
   localizations:
   - language: ja-JP
     name: '資産税種別'
@@ -253,9 +260,13 @@ properties:
       - language: ru-RU
         name: 'Unknown'
         definition: ''
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: AssetInsuranceType
   definition: Identifies the predefined types of insurance rating from which the type required may be set.
-  ifdGuid: 1yyYH1qKzAYvXflDLq2PRj
+  ifdGuid: ''
+  legacyGuid: 7cf22441d14f4a8b9869bcd5740996ed
+  legacyGuidAsIfcGlobalId: 1yyYH1qKzAYvXflDLq2PRj
   localizations:
   - language: ja-JP
     name: '資産保険種別'
@@ -366,3 +377,5 @@ properties:
       - language: ru-RU
         name: 'Unknown'
         definition: ''
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

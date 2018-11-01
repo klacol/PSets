@@ -4,6 +4,7 @@
     "version": "4.0.0.0"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "Captures various factors that impact the expected service life of elements within the system or zone.",
   "localizations": [
     {
@@ -48,6 +49,7 @@
       "name": "QualityOfComponents",
       "definition": "PSet2YamlConverter.PropertyType",
       "ifdGuid": "3LzIU75Rv2eBKvppy605JZ",
+      "legacyGuid": "3LzIU75Rv2eBKvppy605JZ",
       "localizations": [
         {
           "language": "de-DE",
@@ -86,12 +88,16 @@
         "LowerBoundValue": "",
         "UpperBoundValue": "",
         "typeName": "TypePropertyBoundedValue"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "DesignLevel",
       "definition": "PSet2YamlConverter.PropertyType",
       "ifdGuid": "2DT$ZBabjC$RwaWm7qB8cW",
+      "legacyGuid": "2DT$ZBabjC$RwaWm7qB8cW",
       "localizations": [
         {
           "language": "de-DE",
@@ -130,12 +136,16 @@
         "LowerBoundValue": "",
         "UpperBoundValue": "",
         "typeName": "TypePropertyBoundedValue"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "WorkExecutionLevel",
       "definition": "PSet2YamlConverter.PropertyType",
       "ifdGuid": "2iUDdWqvj3zAyiUtMMrWPd",
+      "legacyGuid": "2iUDdWqvj3zAyiUtMMrWPd",
       "localizations": [
         {
           "language": "de-DE",
@@ -174,12 +184,16 @@
         "LowerBoundValue": "",
         "UpperBoundValue": "",
         "typeName": "TypePropertyBoundedValue"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "IndoorEnvironment",
       "definition": "PSet2YamlConverter.PropertyType",
       "ifdGuid": "2h9yA6q2T9ZfOglK_Wohce",
+      "legacyGuid": "2h9yA6q2T9ZfOglK_Wohce",
       "localizations": [
         {
           "language": "de-DE",
@@ -218,12 +232,16 @@
         "LowerBoundValue": "",
         "UpperBoundValue": "",
         "typeName": "TypePropertyBoundedValue"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "OutdoorEnvironment",
       "definition": "PSet2YamlConverter.PropertyType",
       "ifdGuid": "2PYAiYllv5oQiyb9SiORsG",
+      "legacyGuid": "2PYAiYllv5oQiyb9SiORsG",
       "localizations": [
         {
           "language": "de-DE",
@@ -262,12 +280,16 @@
         "LowerBoundValue": "",
         "UpperBoundValue": "",
         "typeName": "TypePropertyBoundedValue"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "InUseConditions",
       "definition": "PSet2YamlConverter.PropertyType",
       "ifdGuid": "0th9Dg6mf2lwF0z9cCob3a",
+      "legacyGuid": "0th9Dg6mf2lwF0z9cCob3a",
       "localizations": [
         {
           "language": "de-DE",
@@ -306,12 +328,16 @@
         "LowerBoundValue": "",
         "UpperBoundValue": "",
         "typeName": "TypePropertyBoundedValue"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "MaintenanceLevel",
       "definition": "PSet2YamlConverter.PropertyType",
       "ifdGuid": "2Nvr9q12L4g9osMugKTcqm",
+      "legacyGuid": "2Nvr9q12L4g9osMugKTcqm",
       "localizations": [
         {
           "language": "de-DE",
@@ -350,6 +376,9 @@
         "LowerBoundValue": "",
         "UpperBoundValue": "",
         "typeName": "TypePropertyBoundedValue"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

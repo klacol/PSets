@@ -5,6 +5,7 @@
     "schema": "IfcHvacDomain"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "A small diameter valve, used to drain water from a cistern or water filled system.",
   "localizations": [
     {
@@ -49,6 +50,7 @@
       "name": "HasHoseUnion",
       "definition": "Indicates whether the drawoff cock is fitted with a hose union connection (= TRUE) or not (= FALSE).",
       "ifdGuid": "3Je6XevHrFmfYP4jRC_tFE",
+      "legacyGuid": "3Je6XevHrFmfYP4jRC_tFE",
       "localizations": [
         {
           "language": "ja-JP",
@@ -85,6 +87,9 @@
         "dataType": "IfcBoolean",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

@@ -5,6 +5,7 @@
     "schema": "IfcHvacDomain"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "Evaporative cooler performance history attributes.",
   "localizations": [
     {
@@ -49,6 +50,7 @@
       "name": "WaterSumpTemperature",
       "definition": "Water sump temperature.",
       "ifdGuid": "0e9OtBkFTCvxXWOk1KnQy3",
+      "legacyGuid": "0e9OtBkFTCvxXWOk1KnQy3",
       "localizations": [
         {
           "language": "ja-JP",
@@ -87,12 +89,16 @@
         "guid": "",
         "libraryName": "Industry Foundation Classes by buildingSMART International",
         "sectionref": "Core Schema"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "Effectiveness",
       "definition": "Ratio of the change in dry bulb temperature of the (primary) air stream to the difference between the entering dry bulb temperature of the (primary) air and the wet-bulb temperature of the (secondary) air.",
       "ifdGuid": "2qOE8Hid944gb3tV$IbVUJ",
+      "legacyGuid": "2qOE8Hid944gb3tV$IbVUJ",
       "localizations": [
         {
           "language": "ja-JP",
@@ -131,12 +137,16 @@
         "guid": "",
         "libraryName": "Industry Foundation Classes by buildingSMART International",
         "sectionref": "Core Schema"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "SensibleHeatTransferRate",
       "definition": "Sensible heat transfer rate to primary air flow.",
       "ifdGuid": "0S0mO3Z9nEQAJX4YyF4PG6",
+      "legacyGuid": "0S0mO3Z9nEQAJX4YyF4PG6",
       "localizations": [
         {
           "language": "ja-JP",
@@ -175,12 +185,16 @@
         "guid": "",
         "libraryName": "Industry Foundation Classes by buildingSMART International",
         "sectionref": "Core Schema"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "LatentHeatTransferRate",
       "definition": "Latent heat transfer rate to primary air flow.",
       "ifdGuid": "0gHAfdob1EzgfBgrtRToXP",
+      "legacyGuid": "0gHAfdob1EzgfBgrtRToXP",
       "localizations": [
         {
           "language": "ja-JP",
@@ -219,12 +233,16 @@
         "guid": "",
         "libraryName": "Industry Foundation Classes by buildingSMART International",
         "sectionref": "Core Schema"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "TotalHeatTransferRate",
       "definition": "Total heat transfer rate to primary air flow.",
       "ifdGuid": "3tkMzzOizF1ReuB3P8WIHz",
+      "legacyGuid": "3tkMzzOizF1ReuB3P8WIHz",
       "localizations": [
         {
           "language": "ja-JP",
@@ -263,6 +281,9 @@
         "guid": "",
         "libraryName": "Industry Foundation Classes by buildingSMART International",
         "sectionref": "Core Schema"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

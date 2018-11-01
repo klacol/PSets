@@ -3,6 +3,7 @@ ifcVersion:
   version: 4.0.0.0
   schema: IfcSharedBldgServiceElements
 ifdGuid: ''
+legacyGuid: ''
 definition: 'Log of power usage attached to an instance of IfcPerformanceHistory having an assigned IfcDistributionPort of type ELECTRICAL.'
 localizations:
 - language: de-DE
@@ -30,6 +31,7 @@ properties:
 - name: Current
   definition: Log of electrical current.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: ja-JP
     name: '電流'
@@ -58,9 +60,12 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: Voltage
   definition: Log of electrical voltage.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: ja-JP
     name: '電圧'
@@ -89,9 +94,12 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: RealPower
   definition: Real power.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: ja-JP
     name: '有効電力'
@@ -120,9 +128,12 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: ReactivePower
   definition: Reactive power.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: ja-JP
     name: '無効電力'
@@ -151,9 +162,12 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: ApparentPower
   definition: Apparent power.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: ja-JP
     name: '皮相電力'
@@ -182,9 +196,12 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: PowerFactor
   definition: Power factor.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: ja-JP
     name: 'パワーファクタ'
@@ -213,3 +230,5 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

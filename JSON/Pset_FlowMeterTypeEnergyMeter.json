@@ -5,6 +5,7 @@
     "schema": "IfcHvacDomain"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "Device that measures, indicates and sometimes records, the energy usage in a system.",
   "localizations": [
     {
@@ -49,6 +50,7 @@
       "name": "NominalCurrent",
       "definition": "The nominal current that is designed to be measured.",
       "ifdGuid": "3u2EajxE96mBTSdUnSn8qA",
+      "legacyGuid": "3u2EajxE96mBTSdUnSn8qA",
       "localizations": [
         {
           "language": "de-DE",
@@ -85,12 +87,16 @@
         "dataType": "IfcElectricCurrentMeasure",
         "measureType": "",
         "unitType": "ELECTRICCURRENTUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "MaximumCurrent",
       "definition": "The maximum allowed current that a device is certified to handle.",
       "ifdGuid": "3u2Q3nyp50b8HLcfTacsZa",
+      "legacyGuid": "3u2Q3nyp50b8HLcfTacsZa",
       "localizations": [
         {
           "language": "de-DE",
@@ -127,12 +133,16 @@
         "dataType": "IfcElectricCurrentMeasure",
         "measureType": "",
         "unitType": "ELECTRICCURRENTUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "MultipleTarriff",
       "definition": "Indicates whether meter has built-in support for multiple tarriffs (variable energy cost rates).",
       "ifdGuid": "1lz9Q0h2H7VOdl9ZDhdv8U",
+      "legacyGuid": "1lz9Q0h2H7VOdl9ZDhdv8U",
       "localizations": [
         {
           "language": "de-DE",
@@ -169,6 +179,9 @@
         "dataType": "IfcBoolean",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

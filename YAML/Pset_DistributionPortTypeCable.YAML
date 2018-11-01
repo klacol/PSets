@@ -2,6 +2,7 @@
 ifcVersion:
   version: 4.0.0.0
 ifdGuid: ''
+legacyGuid: ''
 definition: 'Cable port occurrence attributes attached to an instance of IfcDistributionPort.'
 localizations:
 - language: de-DE
@@ -29,6 +30,7 @@ properties:
 - name: ConnectionType
   definition: PSet2YamlConverter.PropertyType
   ifdGuid: 0RKQL3FvDFfwK378TxjBGf
+  legacyGuid: 0RKQL3FvDFfwK378TxjBGf
   localizations:
   - language: ja-JP
     name: '接続タイプ'
@@ -403,9 +405,12 @@ properties:
       - language: ru-RU
         name: 'Unset'
         definition: ''
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: ConnectionSubtype
   definition: PSet2YamlConverter.PropertyType
   ifdGuid: 1A5cORvpX3_vdhIOgP0LY0
+  legacyGuid: 1A5cORvpX3_vdhIOgP0LY0
   localizations:
   - language: ja-JP
     name: '接続サブタイプ'
@@ -429,9 +434,12 @@ properties:
     dataType: IfcLabel
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: ConnectionGender
   definition: PSet2YamlConverter.PropertyType
   ifdGuid: 1QcnE_aj55XODZJWLi4uym
+  legacyGuid: 1QcnE_aj55XODZJWLi4uym
   localizations:
   - language: ja-JP
     name: '接続ジェンダー'
@@ -564,9 +572,12 @@ properties:
       - language: ru-RU
         name: 'Unset'
         definition: ''
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: ConductorFunction
   definition: PSet2YamlConverter.PropertyType
   ifdGuid: 03sO5GIyzFT8intkW6NLbP
+  legacyGuid: 03sO5GIyzFT8intkW6NLbP
   localizations:
   - language: ja-JP
     name: '電線種類'
@@ -787,9 +798,12 @@ properties:
       - language: ru-RU
         name: 'Unset'
         definition: ''
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: CurrentContent3rdHarmonic
   definition: PSet2YamlConverter.PropertyType
   ifdGuid: 3g_0_IvjzCAQ60XkYRwY3f
+  legacyGuid: 3g_0_IvjzCAQ60XkYRwY3f
   localizations:
   - language: ja-JP
     name: '第３高調波電流と相電流の比'
@@ -813,9 +827,12 @@ properties:
     dataType: IfcPositiveRatioMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: Current
   definition: PSet2YamlConverter.PropertyType
   ifdGuid: 1I1maXboTEcP5x$ShYx_g0
+  legacyGuid: 1I1maXboTEcP5x$ShYx_g0
   localizations:
   - language: ja-JP
     name: '電流'
@@ -840,9 +857,12 @@ properties:
     LowerBoundValue: ''
     UpperBoundValue: ''
     typeName: TypePropertyBoundedValue
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: Voltage
   definition: PSet2YamlConverter.PropertyType
   ifdGuid: 27j$QobBL4UhVjgWuhQGvz
+  legacyGuid: 27j$QobBL4UhVjgWuhQGvz
   localizations:
   - language: ja-JP
     name: '電圧'
@@ -867,9 +887,12 @@ properties:
     LowerBoundValue: ''
     UpperBoundValue: ''
     typeName: TypePropertyBoundedValue
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: Power
   definition: PSet2YamlConverter.PropertyType
   ifdGuid: 13VYb5tj10cOr5hZsTbt3R
+  legacyGuid: 13VYb5tj10cOr5hZsTbt3R
   localizations:
   - language: ja-JP
     name: '電力'
@@ -894,9 +917,12 @@ properties:
     LowerBoundValue: ''
     UpperBoundValue: ''
     typeName: TypePropertyBoundedValue
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: Protocols
   definition: PSet2YamlConverter.PropertyType
   ifdGuid: 0LajgwBXH9KgSPIIIBgr3C
+  legacyGuid: 0LajgwBXH9KgSPIIIBgr3C
   localizations:
   - language: ja
     name: 'プロトコル'
@@ -923,3 +949,5 @@ properties:
     dataType: IfcIdentifier
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

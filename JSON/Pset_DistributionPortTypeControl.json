@@ -5,6 +5,7 @@
     "schema": "IfcSharedBldgServiceElements"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "Control port occurrence attributes attached to an instance of IfcDistributionPort.",
   "localizations": [
     {
@@ -49,6 +50,7 @@
       "name": "ConnectionType",
       "definition": "The physical port connection:Coaxial: Coaxial connector.DSub: D-Subminature connector.Infrared: Infrared light.RJ: Registered Jack.Radio: Radio waves (wireless).USB: Universal Serial Bus.",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "ja-JP",
@@ -386,12 +388,16 @@
             ]
           }
         ]
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "ConnectionSubtype",
       "definition": "The physical port connection subtype that further qualifies the ConnectionType.  The following values are recommended:DSub: DA15, DB25, DC37, DD50, DE9, DE15 Radio: IEEE802.11g, IEEE802.11nRJ: 4P4C, 6P2C, 8P8C USB: A, B, MiniA, MiniB, MicroA, MicroB",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "ja-JP",
@@ -433,12 +439,16 @@
         "dataType": "IfcLabel",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "ConnectionGender",
       "definition": "The physical connection gender.",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "ja-JP",
@@ -628,12 +638,16 @@
             ]
           }
         ]
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "Frequency",
       "definition": "Electromagnetic frequency, if applicable.",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "ja-JP",
@@ -677,12 +691,16 @@
         "LowerBoundValue": "?",
         "UpperBoundValue": "?",
         "typeName": "TypePropertyBoundedValue"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "DataSpeed",
       "definition": "Data transmission in bits per second.",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "ja-JP",
@@ -726,12 +744,16 @@
         "LowerBoundValue": "?",
         "UpperBoundValue": "?",
         "typeName": "TypePropertyBoundedValue"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "Protocols",
       "definition": "Identifies the protocols used as defined by the Open System Interconnection (OSI) Basic Reference Model (ISO 7498).  Layers include: 1. Physical; 2. DataLink; 3. Network; 4. Transport; 5. Session; 6. Presentation; 7. Application.  Example: 3:IP, 4:TCP, 5:HTTP",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "ja-JP",
@@ -781,6 +803,9 @@
           "measureType": "",
           "unitType": "USERDEFINED"
         }
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

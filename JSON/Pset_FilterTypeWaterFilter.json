@@ -5,6 +5,7 @@
     "schema": "IfcHvacDomain"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "Water filter type attributes.",
   "localizations": [
     {
@@ -49,6 +50,7 @@
       "name": "WaterFilterType",
       "definition": "Further qualifies the type of water filter.  Filtration removes undissolved matter; Purification removes dissolved matter; Softening replaces dissolved matter.",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "de-DE",
@@ -344,6 +346,9 @@
             ]
           }
         ]
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

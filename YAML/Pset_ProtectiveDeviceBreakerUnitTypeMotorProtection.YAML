@@ -3,6 +3,7 @@ ifcVersion:
   version: 4.0.0.0
   schema: IfcElectricalDomain
 ifdGuid: ''
+legacyGuid: ''
 definition: 'A coherent set of attributes representing different capacities of a a motor protection device, defined in accordance with IEC 60947. Note - A protective device may be associated with different instances of this Pset.'
 localizations:
 - language: de-DE
@@ -30,6 +31,7 @@ properties:
 - name: PerformanceClasses
   definition: A set of designations of performance classes for the breaker unit for which the data of this instance is valid. A breaker unit being a motor protection device may beconstructed for different levels of breaking capacities. A maximum of 7 differentperformance classes may be provided. Examples of performance classes that may be specified include B, C, N, S, H, L, V.
   ifdGuid: 2jrYBwtwDBG8VScr7LpSaG
+  legacyGuid: 2jrYBwtwDBG8VScr7LpSaG
   localizations:
   - language: ja-JP
     name: '能力クラス'
@@ -56,9 +58,12 @@ properties:
     dataType: IfcLabel
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: VoltageLevel
   definition: The voltage levels for which the data of the instance is valid. More than one value may be selected in the enumeration.
   ifdGuid: 2HMOZ9bBr7Sv9MQIHR77im
+  legacyGuid: 2HMOZ9bBr7Sv9MQIHR77im
   localizations:
   - language: ja-JP
     name: '電圧レベル'
@@ -260,9 +265,12 @@ properties:
       - language: ru-RU
         name: 'Unknown'
         definition: ''
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: ICU60947
   definition: The ultimate breaking capacity in [A] for a circuit breaker or motor protection device tested in accordance with the IEC 60947 series.
   ifdGuid: 3qXchd5Av0X9M8tX9FE9Td
+  legacyGuid: 3qXchd5Av0X9M8tX9FE9Td
   localizations:
   - language: ja-JP
     name: 'ICU60947'
@@ -289,9 +297,12 @@ properties:
     dataType: IfcElectricCurrentMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: ICS60947
   definition: The service breaking capacity in [A] for a circuit breaker or motor protection device tested in accordance with the IEC 60947 series.
   ifdGuid: 1QUoJz0d12fw5Q6NZGjP7D
+  legacyGuid: 1QUoJz0d12fw5Q6NZGjP7D
   localizations:
   - language: ja-JP
     name: 'ICS60947'
@@ -318,9 +329,12 @@ properties:
     dataType: IfcElectricCurrentMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: ICW60947
   definition: The thermal withstand current in [A] for a circuit breaker or motor protection device tested in accordance with the IEC 60947 series. The value shall be related to 1 s.
   ifdGuid: 3zcZL85nT3SQmLrGnuuBhs
+  legacyGuid: 3zcZL85nT3SQmLrGnuuBhs
   localizations:
   - language: ja-JP
     name: 'ICW60947'
@@ -347,9 +361,12 @@ properties:
     dataType: IfcElectricCurrentMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: ICM60947
   definition: The making capacity in [A] for a circuit breaker or motor protection device tested in accordance with the IEC 60947 series.
   ifdGuid: 1gfrkok$DBZB_MtpdiV$FB
+  legacyGuid: 1gfrkok$DBZB_MtpdiV$FB
   localizations:
   - language: ja-JP
     name: 'ICM60947'
@@ -376,3 +393,5 @@ properties:
     dataType: IfcElectricCurrentMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

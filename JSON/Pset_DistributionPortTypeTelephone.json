@@ -5,6 +5,7 @@
     "schema": "IfcSharedBldgServiceElements"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "Telephone port occurrence attributes attached to an instance of IfcDistributionPort.",
   "localizations": [
     {
@@ -49,6 +50,7 @@
       "name": "ConnectionType",
       "definition": "The physical port connection:RJ: Registered Jack.",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "ja-JP",
@@ -201,12 +203,16 @@
             ]
           }
         ]
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "ConnectionSubtype",
       "definition": "The physical port connection subtype that further qualifies the ConnectionType.  The following values are recommended:RJ: 4P4C, 6P2C, 8P8C",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "ja-JP",
@@ -248,12 +254,16 @@
         "dataType": "IfcLabel",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "ConnectionGender",
       "definition": "The physical connection gender.",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "ja-JP",
@@ -443,6 +453,9 @@
             ]
           }
         ]
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

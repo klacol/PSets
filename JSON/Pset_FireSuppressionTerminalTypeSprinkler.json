@@ -5,6 +5,7 @@
     "schema": "IfcPlumbingFireProtectionDomain"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "Device for sprinkling water from a pipe under pressure over an area (BS6100 100 3432)",
   "localizations": [
     {
@@ -49,6 +50,7 @@
       "name": "SprinklerType",
       "definition": "Identifies the predefined types of sprinkler  from which the type required may be set.",
       "ifdGuid": "3_5MQ86NTECO6jV9bWoiCu",
+      "legacyGuid": "3_5MQ86NTECO6jV9bWoiCu",
       "localizations": [
         {
           "language": "ja-JP",
@@ -418,12 +420,16 @@
             ]
           }
         ]
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "Activation",
       "definition": "Identifies the predefined methods of sprinkler activation from which that required may be set.",
       "ifdGuid": "2tW6VaNpX5c8pmuGwEEkmV",
+      "legacyGuid": "2tW6VaNpX5c8pmuGwEEkmV",
       "localizations": [
         {
           "language": "ja-JP",
@@ -608,12 +614,16 @@
             ]
           }
         ]
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "Response",
       "definition": "Identifies the predefined methods of sprinkler response from which that required may be set.",
       "ifdGuid": "2XYwyc3yD41gfQJ0JE_Hge",
+      "legacyGuid": "2XYwyc3yD41gfQJ0JE_Hge",
       "localizations": [
         {
           "language": "ja-JP",
@@ -798,12 +808,16 @@
             ]
           }
         ]
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "ActivationTemperature",
       "definition": "The temperature at which the object is designed to activate.",
       "ifdGuid": "1GGhBNYB9BVQvFYU50Xjp1",
+      "legacyGuid": "1GGhBNYB9BVQvFYU50Xjp1",
       "localizations": [
         {
           "language": "ja-JP",
@@ -840,12 +854,16 @@
         "dataType": "IfcThermodynamicTemperatureMeasure",
         "measureType": "",
         "unitType": "THERMODYNAMICTEMPERATUREUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "CoverageArea",
       "definition": "The area that the sprinkler is designed to protect.",
       "ifdGuid": "3u$WPwXWv15BjmDsFvJcLM",
+      "legacyGuid": "3u$WPwXWv15BjmDsFvJcLM",
       "localizations": [
         {
           "language": "ja-JP",
@@ -882,12 +900,16 @@
         "dataType": "IfcAreaMeasure",
         "measureType": "",
         "unitType": "AREAUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "HasDeflector",
       "definition": "Indication of whether the sprinkler has a deflector (baffle) fitted to diffuse the discharge on activation (= TRUE) or not (= FALSE).",
       "ifdGuid": "1StKu7RYDD7fb61DbCigg6",
+      "legacyGuid": "1StKu7RYDD7fb61DbCigg6",
       "localizations": [
         {
           "language": "ja-JP",
@@ -924,12 +946,16 @@
         "dataType": "IfcBoolean",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "BulbLiquidColor",
       "definition": "The color of the liquid in the bulb for a bulb activated sprinkler. Note that the liquid color varies according to the activation temperature requirement of the sprinkler head. Note also that this property does not need to be asserted for quick response activated sprinklers.",
       "ifdGuid": "1ivtD$_K54jOnV3x9BQmTb",
+      "legacyGuid": "1ivtD$_K54jOnV3x9BQmTb",
       "localizations": [
         {
           "language": "ja-JP",
@@ -1262,12 +1288,16 @@
             ]
           }
         ]
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "DischargeFlowRate",
       "definition": "The volumetric rate of fluid discharge.",
       "ifdGuid": "0g9D$pqDPD$8nHfAlxT2LJ",
+      "legacyGuid": "0g9D$pqDPD$8nHfAlxT2LJ",
       "localizations": [
         {
           "language": "ja-JP",
@@ -1304,12 +1334,16 @@
         "dataType": "IfcVolumetricFlowRateMeasure",
         "measureType": "",
         "unitType": "VOLUMETRICFLOWRATEUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "ResidualFlowingPressure",
       "definition": "The residual flowing pressure in the pipeline at which the discharge flow rate is determined.",
       "ifdGuid": "3GPqSHjfL20Bb1TaMFKqAt",
+      "legacyGuid": "3GPqSHjfL20Bb1TaMFKqAt",
       "localizations": [
         {
           "language": "ja-JP",
@@ -1346,12 +1380,16 @@
         "dataType": "IfcPressureMeasure",
         "measureType": "",
         "unitType": "PRESSUREUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "DischargeCoefficient",
       "definition": "The coefficient of flow at the sprinkler.",
       "ifdGuid": "2UXycD2hL9AuboOCStkd0a",
+      "legacyGuid": "2UXycD2hL9AuboOCStkd0a",
       "localizations": [
         {
           "language": "ja-JP",
@@ -1388,12 +1426,16 @@
         "dataType": "IfcReal",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "MaximumWorkingPressure",
       "definition": "Maximum pressure that the object is manufactured to withstand.",
       "ifdGuid": "2uGXzEsf1CSwxC7PR7lZS3",
+      "legacyGuid": "2uGXzEsf1CSwxC7PR7lZS3",
       "localizations": [
         {
           "language": "ja-JP",
@@ -1430,12 +1472,16 @@
         "dataType": "IfcPressureMeasure",
         "measureType": "",
         "unitType": "PRESSUREUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "ConnectionSize",
       "definition": "Size of the inlet connection to the sprinkler.",
       "ifdGuid": "0yUDCgXKD8LPfK8U31mBAx",
+      "legacyGuid": "0yUDCgXKD8LPfK8U31mBAx",
       "localizations": [
         {
           "language": "ja-JP",
@@ -1472,6 +1518,9 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

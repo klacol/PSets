@@ -5,6 +5,7 @@
     "schema": "IfcHvacDomain"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "Finned tube bundle type attributes.Contains the attributes related to the fins attached to a tube in a finned tube bundle such as is commonly found in coils.",
   "localizations": [
     {
@@ -49,6 +50,7 @@
       "name": "Spacing",
       "definition": "Distance between fins on a tube in the tube bundle.",
       "ifdGuid": "3IrdCpvPr4HOCUIvvpZ60$",
+      "legacyGuid": "3IrdCpvPr4HOCUIvvpZ60$",
       "localizations": [
         {
           "language": "ja-JP",
@@ -85,12 +87,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "Thickness",
       "definition": "Thickness of the fin.",
       "ifdGuid": "2OV7OTucb2jhblqo1YjgAR",
+      "legacyGuid": "2OV7OTucb2jhblqo1YjgAR",
       "localizations": [
         {
           "language": "ja-JP",
@@ -127,12 +133,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "ThermalConductivity",
       "definition": "The thermal conductivity of the fin.",
       "ifdGuid": "35_ifNwoD3hABDIFFQtMm7",
+      "legacyGuid": "35_ifNwoD3hABDIFFQtMm7",
       "localizations": [
         {
           "language": "ja-JP",
@@ -169,12 +179,16 @@
         "dataType": "IfcThermalConductivityMeasure",
         "measureType": "",
         "unitType": "THERMALCONDUCTANCEUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "Length",
       "definition": "Length of the fin as measured parallel to the direction of airflow.",
       "ifdGuid": "1a8ojJi69DwBQgsnR9C97u",
+      "legacyGuid": "1a8ojJi69DwBQgsnR9C97u",
       "localizations": [
         {
           "language": "ja-JP",
@@ -211,12 +225,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "Height",
       "definition": "Length of the fin as measured perpendicular to the direction of airflow.",
       "ifdGuid": "2w_T2hLh17nwupVrNKZaSb",
+      "legacyGuid": "2w_T2hLh17nwupVrNKZaSb",
       "localizations": [
         {
           "language": "ja-JP",
@@ -253,12 +271,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "Diameter",
       "definition": "Actual diameter of a fin for circular fins only.",
       "ifdGuid": "2joH$jVY19_RArwRj_sR98",
+      "legacyGuid": "2joH$jVY19_RArwRj_sR98",
       "localizations": [
         {
           "language": "ja-JP",
@@ -295,12 +317,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "FinCorrugatedType",
       "definition": "Description of a fin corrugated type.",
       "ifdGuid": "0WfbFBQQL6vPZykqEIkL3Y",
+      "legacyGuid": "0WfbFBQQL6vPZykqEIkL3Y",
       "localizations": [
         {
           "language": "ja-JP",
@@ -337,12 +363,16 @@
         "dataType": "IfcLabel",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "HasCoating",
       "definition": "TRUE if the fin has a coating, FALSE if it does not.",
       "ifdGuid": "2NQRpR22vCixMInK1bQrKz",
+      "legacyGuid": "2NQRpR22vCixMInK1bQrKz",
       "localizations": [
         {
           "language": "ja-JP",
@@ -379,6 +409,9 @@
         "dataType": "IfcBoolean",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

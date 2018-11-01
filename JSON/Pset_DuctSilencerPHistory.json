@@ -5,6 +5,7 @@
     "schema": "IfcHvacDomain"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "Duct silencer performance history common attributes.",
   "localizations": [
     {
@@ -49,6 +50,7 @@
       "name": "AirFlowRate",
       "definition": "Volumetric air flow rate.",
       "ifdGuid": "0vG_lSldH1dO2bLcnaX6v4",
+      "legacyGuid": "0vG_lSldH1dO2bLcnaX6v4",
       "localizations": [
         {
           "language": "ja-JP",
@@ -87,12 +89,16 @@
         "guid": "",
         "libraryName": "Industry Foundation Classes by buildingSMART International",
         "sectionref": "Core Schema"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "AirPressureDropCurve",
       "definition": "Air pressure drop as a function of air flow rate.",
       "ifdGuid": "1Mku9z8hL9nwNoYhruKlYk",
+      "legacyGuid": "1Mku9z8hL9nwNoYhruKlYk",
       "localizations": [
         {
           "language": "ja-JP",
@@ -131,6 +137,9 @@
         "guid": "",
         "libraryName": "Industry Foundation Classes by buildingSMART International",
         "sectionref": "Core Schema"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

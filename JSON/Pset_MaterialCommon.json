@@ -5,6 +5,7 @@
     "schema": "IfcMaterialResource"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "A set of general material properties.",
   "localizations": [
     {
@@ -49,6 +50,7 @@
       "name": "MolecularWeight",
       "definition": "Molecular weight of material (typically gas).",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "de-DE",
@@ -85,12 +87,16 @@
         "dataType": "IfcMolecularWeightMeasure",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "Porosity",
       "definition": "The void fraction of the total volume occupied by material (Vbr - Vnet)/Vbr.",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "de-DE",
@@ -127,12 +133,16 @@
         "dataType": "IfcNormalisedRatioMeasure",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "MassDensity",
       "definition": "Material mass density.",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "de-DE",
@@ -169,6 +179,9 @@
         "dataType": "IfcMassDensityMeasure",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

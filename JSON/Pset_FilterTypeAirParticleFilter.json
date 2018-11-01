@@ -5,6 +5,7 @@
     "schema": "IfcHvacDomain"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "Air particle filter type attributes.",
   "localizations": [
     {
@@ -49,6 +50,7 @@
       "name": "AirParticleFilterType",
       "definition": "A panel dry type extended surface filter is a dry-type air filter with random fiber mats or blankets in the forms of pockets, V-shaped or radial pleats, and include the following:CoarseFilter: Filter with a efficiency lower than 30% for atmosphere dust-spot.CoarseMetalScreen: Filter made of metal screen.CoarseCellFoams: Filter made of cell foams.CoarseSpunGlass: Filter made of spun glass.MediumFilter: Filter with an efficiency between 30-98% for atmosphere dust-spot.MediumElectretFilter: Filter with fine electret synthetic fibers.MediumNaturalFiberFilter: Filter with natural fibers.HEPAFilter: High efficiency particulate air filter.ULPAFilter: Ultra low penetration air filter.MembraneFilters: Filter made of membrane for certain pore diameters in flat sheet and pleated form.A renewable media with a moving curtain viscous filter are random-fiber media coated with viscous substance in roll form or curtain where fresh media is fed across the face of the filter and the dirty media is rewound onto a roll at the bottom or to into a reservoir:RollForm: Viscous filter used in roll form.AdhesiveReservoir: Viscous filter used in moving curtain form.A renewable moving curtain dry media filter is a random-fiber dry media of relatively high porosity used in moving-curtain(roll) filters.An electrical filter uses electrostatic precipitation to remove and collect particulate contaminants.",
       "ifdGuid": "134O5qw715mQBvLriQGK7g",
+      "legacyGuid": "134O5qw715mQBvLriQGK7g",
       "localizations": [
         {
           "language": "de-DE",
@@ -603,12 +605,16 @@
             ]
           }
         ]
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "FrameMaterial",
       "definition": "Filter frame material.",
       "ifdGuid": "2ZwARAUR93bfE$8yCeGiJ0",
+      "legacyGuid": "2ZwARAUR93bfE$8yCeGiJ0",
       "localizations": [
         {
           "language": "de-DE",
@@ -647,12 +653,16 @@
         "guid": "",
         "libraryName": "Industry Foundation Classes by buildingSMART International",
         "sectionref": "Core Schema"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "SeparationType",
       "definition": "Air particulate filter media separation type.",
       "ifdGuid": "108Vtx421E082RRMPRM_w4",
+      "legacyGuid": "108Vtx421E082RRMPRM_w4",
       "localizations": [
         {
           "language": "de-DE",
@@ -874,12 +884,16 @@
             ]
           }
         ]
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "DustHoldingCapacity",
       "definition": "Maximum filter dust holding capacity.",
       "ifdGuid": "2wmV_AF_f8cfNTFu5Da5L$",
+      "legacyGuid": "2wmV_AF_f8cfNTFu5Da5L$",
       "localizations": [
         {
           "language": "de-DE",
@@ -916,12 +930,16 @@
         "dataType": "IfcMassMeasure",
         "measureType": "",
         "unitType": "MASSUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "FaceSurfaceArea",
       "definition": "Face area of filter frame.",
       "ifdGuid": "0h8TjRxLfBGBL_48Vt5VYK",
+      "legacyGuid": "0h8TjRxLfBGBL_48Vt5VYK",
       "localizations": [
         {
           "language": "de-DE",
@@ -958,12 +976,16 @@
         "dataType": "IfcAreaMeasure",
         "measureType": "",
         "unitType": "AREAUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "MediaExtendedArea",
       "definition": "Total extended media area.",
       "ifdGuid": "2Fusox7c9AoO6IBzUcQF4r",
+      "legacyGuid": "2Fusox7c9AoO6IBzUcQF4r",
       "localizations": [
         {
           "language": "de-DE",
@@ -1000,12 +1022,16 @@
         "dataType": "IfcAreaMeasure",
         "measureType": "",
         "unitType": "AREAUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "NominalCountedEfficiency",
       "definition": "Nominal filter efficiency based the particle count concentration before and after the filter against particles with a certain size distribution.",
       "ifdGuid": "1i$04AJ9D3DeZCkPDyzSHK",
+      "legacyGuid": "1i$04AJ9D3DeZCkPDyzSHK",
       "localizations": [
         {
           "language": "de-DE",
@@ -1042,12 +1068,16 @@
         "dataType": "IfcReal",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "NominalWeightedEfficiency",
       "definition": "Nominal filter efficiency based the particle weight concentration before and after the filter against particles with a certain size distribution.",
       "ifdGuid": "2i6C7fCEH69ez9dltmFksI",
+      "legacyGuid": "2i6C7fCEH69ez9dltmFksI",
       "localizations": [
         {
           "language": "de-DE",
@@ -1084,12 +1114,16 @@
         "dataType": "IfcReal",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "PressureDropCurve",
       "definition": "Under certain dust holding weight, DelPressure = f (fluidflowRate)",
       "ifdGuid": "2Tgy8YmVz3hQCDfRQ6$Gr5",
+      "legacyGuid": "2Tgy8YmVz3hQCDfRQ6$Gr5",
       "localizations": [
         {
           "language": "de-DE",
@@ -1134,12 +1168,16 @@
           "measureType": "",
           "unitType": "PRESSUREUNIT"
         }
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "CountedEfficiencyCurve",
       "definition": "Counted efficiency curve as a function of dust holding weight, efficiency = f (dust holding weight).",
       "ifdGuid": "0i4vmmYYn1Hurw5SINQfj_",
+      "legacyGuid": "0i4vmmYYn1Hurw5SINQfj_",
       "localizations": [
         {
           "language": "de-DE",
@@ -1184,12 +1222,16 @@
           "measureType": "",
           "unitType": "USERDEFINED"
         }
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "WeightedEfficiencyCurve",
       "definition": "Weighted efficiency curve as a function of dust holding weight, efficiency = f (dust holding weight).",
       "ifdGuid": "1JACbzfJ50$B57X9ZMJOug",
+      "legacyGuid": "1JACbzfJ50$B57X9ZMJOug",
       "localizations": [
         {
           "language": "de-DE",
@@ -1234,6 +1276,9 @@
           "measureType": "",
           "unitType": "USERDEFINED"
         }
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

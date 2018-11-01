@@ -3,6 +3,7 @@ ifcVersion:
   version: 4.0.0.0
   schema: IfcElectricalDomain
 ifdGuid: ''
+legacyGuid: ''
 definition: 'A high voltage surge protection device.'
 localizations:
 - language: de-DE
@@ -30,6 +31,7 @@ properties:
 - name: VaristorType
   definition: A list of the available types of varistor  from which that required may be selected.
   ifdGuid: 2pNgHdCWr44Rp_vpGn8vrt
+  legacyGuid: 2pNgHdCWr44Rp_vpGn8vrt
   localizations:
   - language: ja-JP
     name: '保護タイプ'
@@ -143,3 +145,5 @@ properties:
       - language: ru-RU
         name: 'Unknown'
         definition: ''
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

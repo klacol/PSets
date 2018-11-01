@@ -16,7 +16,7 @@ namespace PSet2YamlConverter
 {
     class Converter
     {
-        List<string> StandardLanguages = new List<string>
+        private List<string> StandardLanguages = new List<string>
             {
                 "en-EN",
                 "es-ES",
@@ -25,9 +25,13 @@ namespace PSet2YamlConverter
                 "ja-JP",
                 "ru-RU"
             };
- 
-        public Converter(string sourceFolderXml,string targetFolderYaml, string targetFolderJson)
+
+        private bool CheckBSDD = false;
+
+
+        public Converter(string sourceFolderXml,string targetFolderYaml, string targetFolderJson, bool checkBSDD = false)
         {
+            CheckBSDD = checkBSDD;
             string propertySetVersionList = string.Empty;
             string propertySetTemplateList = string.Empty;
             string propertyTypeList = string.Empty;
@@ -47,6 +51,7 @@ namespace PSet2YamlConverter
                 {
                     name = pSet.Name,
                     ifdGuid = "",
+                    legacyGuid = "",
                     ifcVersion = new IfcVersion()
                     {
                         version = ConvertToSematicVersion(pSet.IfcVersion.version).ToString(),
@@ -155,26 +160,30 @@ namespace PSet2YamlConverter
                 Property property = new Property()
                 {
                     name = psetProperty.Items[0].ToString(),
-                    ifdGuid = Utils.GuidConverterToIfcGuid(psetProperty.ifdguid),
+                    ifdGuid = "",
+                    legacyGuid = psetProperty.ifdguid,
+                    legacyGuidAsIfcGlobalId = Utils.GuidConverterToIfcGuid(psetProperty.ifdguid),
                     definition = psetProperty.Items[2].ToString()
                 };
 
-                if (property.ifdGuid.Length == 0)
+                if (CheckBSDD)
+                if (property.legacyGuidAsIfcGlobalId.Length == 0)
                 { 
                     Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine($"      ERROR: The GUID for {property.name} is missing in PSet!");
                     Console.ResetColor();
                 }
-                else if (CheckGuidWithBsdd(property.ifdGuid) == false)
+                else if (CheckGuidWithBsdd(property.legacyGuidAsIfcGlobalId) == false)
                         {
                             Console.ForegroundColor = ConsoleColor.Red;
-                            Console.WriteLine($"      ERROR: The GUID {property.ifdGuid} for {property.name} is not resolved by http://bsdd.buildingsmart.org!");
+                            Console.WriteLine($"      ERROR: The GUID {property.legacyGuidAsIfcGlobalId} for {property.name} is not resolved by http://bsdd.buildingsmart.org!");
                             Console.ResetColor();
                         }
                         else
                         {
                             Console.ForegroundColor = ConsoleColor.Green;
-                            Console.WriteLine($"      OK: The GUID {property.ifdGuid} for {property.name} is properly resolved by http://bsdd.buildingsmart.org!");
+                            Console.WriteLine($"      OK: The GUID {property.legacyGuidAsIfcGlobalId} for {property.name} is properly resolved by http://bsdd.buildingsmart.org!");
+                            property.ifdGuid = property.legacyGuidAsIfcGlobalId;
                             Console.ResetColor();
                         }
 
@@ -318,6 +327,13 @@ namespace PSet2YamlConverter
                         property.typePropertyTableValue.DefinedValue.measureType = "";
                         break;
                 };
+
+                property.status = new Status()
+                {
+                    creationDate = new DateTime(2018, 1, 1)
+
+                };
+
 
                 properties.Add(property);
             }

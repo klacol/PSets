@@ -5,6 +5,7 @@
     "schema": "IfcBuildingControlsDomain"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "Properties for signal handling for an analog controller taking disparate valued multiple inputs and creating a single valued binary output. HISTORY: In IFC4, extended properties to replace Pset_BinaryInput and Pset_BinaryOutput.",
   "localizations": [
     {
@@ -49,6 +50,7 @@
       "name": "ControlType",
       "definition": "The type of signal modification effected and applicable ports:LOWERLIMITSWITCH: Single analog input is read and if less than Value.LowerBound then True is written to the output value.UPPERLIMITSWITCH: Single analog input is read and if more than Value.UpperBound then True is written to the output value.LOWERBANDSWITCH: Single analog input is read and if less than Value.LowerBound+BandWidth then True is written to the output value.UPPERBANDSWITCH: Single analog input is read and if more than Value.UpperBound-BandWidth then True is written to the output value.NOT: Single binary input is read and the opposite value is written to the output value.AND: Two binary inputs are read and if both are True then True is written to the output value.OR: Two binary inputs are read and if either is True then True is written to the output value.XOR: Two binary inputs are read and if one is true then True is written to the output value.CALENDAR: No inputs; the current time is compared with an IfcWorkCalendar to which the IfcController is assigned and True is written if active.INPUT: Controller element is a dedicated input.OUTPUT: Controller element is a dedicated output.VARIABLE: Controller element is an in-memory variable.",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "ko-KR",
@@ -645,12 +647,16 @@
             ]
           }
         ]
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "Labels",
       "definition": "Table mapping values to labels, where such labels indicate the meanings of True and False, such as 'Open' and 'Closed'",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "de-DE",
@@ -695,12 +701,16 @@
           "measureType": "",
           "unitType": "USERDEFINED"
         }
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "Polarity",
       "definition": "True indicates normal polarity; False indicates reverse polarity.",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "de-DE",
@@ -737,12 +747,16 @@
         "dataType": "IfcBoolean",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "Value",
       "definition": "The default value such as normally-closed or normally-open.",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "de-DE",
@@ -779,6 +793,9 @@
         "dataType": "IfcBoolean",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

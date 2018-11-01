@@ -3,6 +3,7 @@ ifcVersion:
   version: 4.0.0.0
   schema: IfcHvacDomain
 ifdGuid: ''
+legacyGuid: ''
 definition: 'Fan occurrence attributes attached to an instance of IfcFan.'
 localizations:
 - language: de-DE
@@ -30,6 +31,7 @@ properties:
 - name: DischargeType
   definition: 'Defines the type of connection at the fan discharge.Duct: Discharge into ductwork.Screen: Discharge into screen outlet.Louver: Discharge into a louver.Damper: Discharge into a damper.'
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: ja-JP
     name: '吐出形式'
@@ -184,9 +186,12 @@ properties:
       - language: ru-RU
         name: 'Unknown'
         definition: ''
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: ApplicationOfFan
   definition: 'The functional application of the fan.SupplyAir: Supply air fan. ReturnAir: Return air fan. ExhaustAir: Exhaust air fan. Other: Other type of application not defined above.'
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: ja-JP
     name: 'Fan用途'
@@ -341,9 +346,12 @@ properties:
       - language: ru-RU
         name: 'Unknown'
         definition: ''
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: CoilPosition
   definition: 'Defines the relationship between a fan and a coil.DrawThrough: Fan located downstream of the coil.BlowThrough: Fan located upstream of the coil.'
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: ja-JP
     name: 'コイル位置'
@@ -454,9 +462,12 @@ properties:
       - language: ru-RU
         name: 'Unknown'
         definition: ''
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: MotorPosition
   definition: 'Defines the location of the motor relative to the air stream.InAirStream: Fan motor is in the air stream.OutOfAirStream: Fan motor is out of the air stream.'
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: ja-JP
     name: 'モーター位置'
@@ -567,9 +578,12 @@ properties:
       - language: ru-RU
         name: 'Unknown'
         definition: ''
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: FanMountingType
   definition: Defines the method of mounting the fan in the building.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: ja-JP
     name: 'Fan設置タイプ'
@@ -768,9 +782,12 @@ properties:
       - language: ru-RU
         name: 'Unknown'
         definition: ''
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: FractionOfMotorHeatToAirStream
   definition: Fraction of the motor heat released into the fluid flow.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: ja-JP
     name: 'モーター排熱'
@@ -794,9 +811,12 @@ properties:
     dataType: IfcNormalisedRatioMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: ImpellerDiameter
   definition: Diameter of fan wheel - used to scale performance of geometrically similar fans.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: ja-JP
     name: '羽根径'
@@ -820,3 +840,5 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: LENGTHUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

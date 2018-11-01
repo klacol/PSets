@@ -3,6 +3,7 @@ ifcVersion:
   version: 4.0.0.0
   schema: IfcSharedBldgServiceElements
 ifdGuid: ''
+legacyGuid: ''
 definition: 'Attributes that apply to an air side HVAC system. HISTORY: New property set in IFC Release 1.0.'
 localizations:
 - language: de-DE
@@ -31,7 +32,9 @@ applicableIfcClasses:
 properties:
 - name: Name
   definition: The name of the air side system.
-  ifdGuid: 0rW$c3UEH4mQnjwbuwDD4R
+  ifdGuid: ''
+  legacyGuid: 3583f98378e444c1ac6dea5e3a34d11b
+  legacyGuidAsIfcGlobalId: 0rW$c3UEH4mQnjwbuwDD4R
   localizations:
   - language: ja-JP
     name: '名前'
@@ -58,9 +61,13 @@ properties:
     dataType: IfcLabel
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: Description
   definition: The description of the air side system.
-  ifdGuid: 1$rRmIa5TFWesKccUA5iLt
+  ifdGuid: ''
+  legacyGuid: 7fd5bc1290574f828d949a678a16c577
+  legacyGuidAsIfcGlobalId: 1$rRmIa5TFWesKccUA5iLt
   localizations:
   - language: ja-JP
     name: '説明'
@@ -87,9 +94,13 @@ properties:
     dataType: IfcLabel
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: AirSideSystemType
   definition: This enumeration specifies the basic types of possible air side systems (e.g., Constant Volume, Variable Volume, etc.).
-  ifdGuid: 2AGfT$t69F7OM9RwTex2Ml
+  ifdGuid: ''
+  legacyGuid: 8a42977fdc624f1d85896fa768ec25af
+  legacyGuidAsIfcGlobalId: 2AGfT$t69F7OM9RwTex2Ml
   localizations:
   - language: de-DE
     name: ''
@@ -398,9 +409,13 @@ properties:
       - language: ru-RU
         name: 'Unknown'
         definition: ''
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: AirSideSystemDistributionType
   definition: This enumeration defines the basic types of air side systems (e.g., SingleDuct, DualDuct, Multizone, etc.).
-  ifdGuid: 3u4mx8LmrCtQX4ihN1I8mY
+  ifdGuid: ''
+  legacyGuid: f8130ec8570d4cdda844b2b5c1488c22
+  legacyGuidAsIfcGlobalId: 3u4mx8LmrCtQX4ihN1I8mY
   localizations:
   - language: ja-JP
     name: '搬送方式'
@@ -536,9 +551,13 @@ properties:
       - language: ru-RU
         name: 'Unknown'
         definition: ''
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: TotalAirflow
   definition: The total design supply air flowrate required for the system for either heating or cooling conditions, whichever is greater.
-  ifdGuid: 24RAosvbL3UOfCuyqG7Lgp
+  ifdGuid: ''
+  legacyGuid: 846cacb6e65543798a4ce3cd101d5ab3
+  legacyGuidAsIfcGlobalId: 24RAosvbL3UOfCuyqG7Lgp
   localizations:
   - language: ja-JP
     name: '給気量'
@@ -565,9 +584,13 @@ properties:
     dataType: IfcVolumetricFlowRateMeasure
     measureType: ''
     unitType: VOLUMETRICFLOWRATEUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: EnergyGainTotal
   definition: The total amount of energy gains for the spaces served by the system during the peak cooling conditions, plus any system-level total energy gains.
-  ifdGuid: 3I$X5QTxj5lgIdwcz8wJ9t
+  ifdGuid: ''
+  legacyGuid: d2fe115a77bb45bea4a7ea6f48e93277
+  legacyGuidAsIfcGlobalId: 3I$X5QTxj5lgIdwcz8wJ9t
   localizations:
   - language: ja-JP
     name: '総熱取得'
@@ -594,9 +617,13 @@ properties:
     dataType: IfcPowerMeasure
     measureType: ''
     unitType: POWERUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: AirflowSensible
   definition: The air flowrate required to satisfy the sensible peak loads.
-  ifdGuid: 3JrhuXuR99UuiuFVYto9mY
+  ifdGuid: ''
+  legacyGuid: d3d6be21e1b2497b8b383df8b7c89c22
+  legacyGuidAsIfcGlobalId: 3JrhuXuR99UuiuFVYto9mY
   localizations:
   - language: ja-JP
     name: '顕熱空調給気量'
@@ -623,9 +650,13 @@ properties:
     dataType: IfcVolumetricFlowRateMeasure
     measureType: ''
     unitType: VOLUMETRICFLOWRATEUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: EnergyGainSensible
   definition: The sum of total energy gains for the spaces served by the system during the peak cooling conditions, plus any system-level sensible energy gains.
-  ifdGuid: 2riqXvfJf8SPfJjT32PzCe
+  ifdGuid: ''
+  legacyGuid: b5b34879a53a48719a53b5d0c267d328
+  legacyGuidAsIfcGlobalId: 2riqXvfJf8SPfJjT32PzCe
   localizations:
   - language: ja-JP
     name: '顕熱空調負荷'
@@ -652,9 +683,13 @@ properties:
     dataType: IfcPowerMeasure
     measureType: ''
     unitType: POWERUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: EnergyLoss
   definition: The sum of energy losses for the spaces served by the system during the peak heating conditions.
-  ifdGuid: 3VB9ouO2P5ZRXFQt1iT2kV
+  ifdGuid: ''
+  legacyGuid: df2c9cb86026458db84f6b706c742b9f
+  legacyGuidAsIfcGlobalId: 3VB9ouO2P5ZRXFQt1iT2kV
   localizations:
   - language: ja-JP
     name: '熱（エネルギー）ロス'
@@ -681,9 +716,13 @@ properties:
     dataType: IfcPowerMeasure
     measureType: ''
     unitType: POWERUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: LightingDiversity
   definition: Lighting diversity.
-  ifdGuid: 2qSo28yjL1c9kJVDhcAT9A
+  ifdGuid: ''
+  legacyGuid: b4732088f2d541989b937cdae629d24a
+  legacyGuidAsIfcGlobalId: 2qSo28yjL1c9kJVDhcAT9A
   localizations:
   - language: ja-JP
     name: '照明負荷係数'
@@ -710,9 +749,13 @@ properties:
     dataType: IfcPositiveRatioMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: InfiltrationDiversitySummer
   definition: Diversity factor for Summer infiltration.
-  ifdGuid: 3n_LLkPBb3rfzNF1nMBa8R
+  ifdGuid: ''
+  legacyGuid: f1f9556e64b943d69f573c1c562e421b
+  legacyGuidAsIfcGlobalId: 3n_LLkPBb3rfzNF1nMBa8R
   localizations:
   - language: ja-JP
     name: '夏期すき間換気率'
@@ -739,9 +782,13 @@ properties:
     dataType: IfcPositiveRatioMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: InfiltrationDiversityWinter
   definition: Diversity factor for Winter infiltration.
-  ifdGuid: 06dphIey9AYuGLWAQPjh5O
+  ifdGuid: ''
+  legacyGuid: 069f3ad2a3c24a8b841580a699b6b158
+  legacyGuidAsIfcGlobalId: 06dphIey9AYuGLWAQPjh5O
   localizations:
   - language: ja-JP
     name: '冬期すき間換気率'
@@ -768,9 +815,13 @@ properties:
     dataType: IfcPositiveRatioMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: ApplianceDiversity
   definition: Diversity of appliance load.
-  ifdGuid: 08njnnNYDAieW9$aL7NO4_
+  ifdGuid: ''
+  legacyGuid: 08c6dc715e234ab28809fe45475d813e
+  legacyGuidAsIfcGlobalId: 08njnnNYDAieW9$aL7NO4_
   localizations:
   - language: ja-JP
     name: '機器の負荷率'
@@ -797,9 +848,13 @@ properties:
     dataType: IfcPositiveRatioMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: LoadSafetyFactor
   definition: Load safety factor.
-  ifdGuid: 13liGx9QD4p801uvs289QS
+  ifdGuid: ''
+  legacyGuid: 43bec43b25a344cc8001e39d8220969c
+  legacyGuidAsIfcGlobalId: 13liGx9QD4p801uvs289QS
   localizations:
   - language: ja-JP
     name: '負荷の安全率'
@@ -826,9 +881,13 @@ properties:
     dataType: IfcPositiveRatioMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: HeatingTemperatureDelta
   definition: Heating temperature difference for calculating space air flow rates.
-  ifdGuid: 2wCuTCC4D8LfKlTSRa1mue
+  ifdGuid: ''
+  legacyGuid: ba33874c30434856952f75c6e4070e28
+  legacyGuidAsIfcGlobalId: 2wCuTCC4D8LfKlTSRa1mue
   localizations:
   - language: ja-JP
     name: '暖房時送風温度差'
@@ -855,9 +914,13 @@ properties:
     dataType: IfcThermodynamicTemperatureMeasure
     measureType: ''
     unitType: THERMODYNAMICTEMPERATUREUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: CoolingTemperatureDelta
   definition: Cooling temperature difference for calculating space air flow rates.
-  ifdGuid: 2ELfB78STFHu3vjubypaxk
+  ifdGuid: ''
+  legacyGuid: 8e5692c721c74f4780f9b7897cce4eee
+  legacyGuidAsIfcGlobalId: 2ELfB78STFHu3vjubypaxk
   localizations:
   - language: ja-JP
     name: '冷房時送風温度差'
@@ -884,9 +947,13 @@ properties:
     dataType: IfcThermodynamicTemperatureMeasure
     measureType: ''
     unitType: THERMODYNAMICTEMPERATUREUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: Ventilation
   definition: Required outside air ventilation.
-  ifdGuid: 3xoYIhJtTEturasmo2ZTqe
+  ifdGuid: ''
+  legacyGuid: fbca24ab4f774edf8d64db0c828ddd28
+  legacyGuidAsIfcGlobalId: 3xoYIhJtTEturasmo2ZTqe
   localizations:
   - language: ja-JP
     name: '外気量'
@@ -913,9 +980,13 @@ properties:
     dataType: IfcVolumetricFlowRateMeasure
     measureType: ''
     unitType: VOLUMETRICFLOWRATEUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: FanPower
   definition: Fan motor loads contributing to the cooling load.
-  ifdGuid: 02wlsFwXvBLxv0dM8dFiTL
+  ifdGuid: ''
+  legacyGuid: 02eafd8fea1e4b57be409d62273ec755
+  legacyGuidAsIfcGlobalId: 02wlsFwXvBLxv0dM8dFiTL
   localizations:
   - language: ja-JP
     name: '送風機電力消費量'
@@ -942,3 +1013,5 @@ properties:
     dataType: IfcPowerMeasure
     measureType: ''
     unitType: POWERUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

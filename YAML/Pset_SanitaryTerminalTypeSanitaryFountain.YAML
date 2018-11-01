@@ -3,6 +3,7 @@ ifcVersion:
   version: 4.0.0.0
   schema: IfcPlumbingFireProtectionDomain
 ifdGuid: ''
+legacyGuid: ''
 definition: 'Asanitary terminal that provides a low pressure jet of water for a specific purpose (IAI). HISTORY: In IFC4, Material property removed. Use materials capabilities from IfcMaterialsResource schema. Datatype of color changed to IfcLabel (still a string value).'
 localizations:
 - language: de-DE
@@ -30,6 +31,7 @@ properties:
 - name: FountainType
   definition: 'Selection of the type of fountain from the enumerated list of types where:-DrinkingWater: 	Sanitary appliance that provides a low pressure jet of drinking water.Eyewash: 	Waste water appliance, usually installed in work places where there is a risk of injury to eyes by solid particles or dangerous liquids, with which the user can wash the eyes without touching them.'
   ifdGuid: 2gKDxST_fFIg_9Nm4_seuF
+  legacyGuid: 2gKDxST_fFIg_9Nm4_seuF
   localizations:
   - language: ja-JP
     name: '噴水タイプ'
@@ -140,9 +142,12 @@ properties:
       - language: ru-RU
         name: 'Unknown'
         definition: ''
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: Mounting
   definition: 'Selection of the form of mounting of the fountain from the enumerated list of mountings where:-BackToWall: 	A pedestal mounted sanitary terminal that fits flush to the wall at the rear to cover its service connections.Pedestal: 	A floor mounted sanitary terminal that has an integral base.CounterTop: 	A sanitary terminal that is installed into a horizontal surface that is installed into a horizontal surface. Note: When applied to a wash hand basin, the term more normally used is ‘vanity’. See also Wash Hand Basin Type specification.WallHung: 	A sanitary terminal cantilevered clear of the floor.'
   ifdGuid: 2ZUqmg1R15ue$eqIRCtJ_0
+  legacyGuid: 2ZUqmg1R15ue$eqIRCtJ_0
   localizations:
   - language: ja-JP
     name: '設置'
@@ -297,9 +302,12 @@ properties:
       - language: ru-RU
         name: 'Unknown'
         definition: ''
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: NominalLength
   definition: Nominal or quoted length of the object.
   ifdGuid: 2hX5pIcs1EcQ0H4xZ7DT5H
+  legacyGuid: 2hX5pIcs1EcQ0H4xZ7DT5H
   localizations:
   - language: ja-JP
     name: '長さ'
@@ -323,9 +331,12 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: LENGTHUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: NominalWidth
   definition: Nominal or quoted width of the object.
   ifdGuid: 0986AZNkv4Kgy7pcHEmElK
+  legacyGuid: 0986AZNkv4Kgy7pcHEmElK
   localizations:
   - language: ja-JP
     name: '幅'
@@ -349,9 +360,12 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: LENGTHUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: NominalDepth
   definition: Nominal or quoted depth of the object.
   ifdGuid: 3S5JAlepH0owow00kRMzrE
+  legacyGuid: 3S5JAlepH0owow00kRMzrE
   localizations:
   - language: ja-JP
     name: '深さ'
@@ -375,9 +389,12 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: LENGTHUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: Color
   definition: Color selection for this object.
   ifdGuid: 2l7TbJySr1ducBOGSBN5hn
+  legacyGuid: 2l7TbJySr1ducBOGSBN5hn
   localizations:
   - language: ja-JP
     name: '色'
@@ -401,9 +418,12 @@ properties:
     dataType: IfcLabel
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: DrainSize
   definition: The size of the drain outlet connection from the object.
   ifdGuid: 0$RZ4qy314DhELMV2e_fmJ
+  legacyGuid: 0$RZ4qy314DhELMV2e_fmJ
   localizations:
   - language: ja-JP
     name: '下水管サイズ'
@@ -427,3 +447,5 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: LENGTHUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

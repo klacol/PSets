@@ -5,6 +5,7 @@
     "schema": "IfcSharedBldgElements"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "Properties common to the definition of all occurrences of Window.",
   "localizations": [
     {
@@ -49,6 +50,7 @@
       "name": "Reference",
       "definition": "Reference ID for this specified type in this project (e.g. type 'A-1'), Also referred to as \"construction type\". It should be provided as an alternative to the name of the \"object type\", if the software does not support object types.",
       "ifdGuid": "1IweA$pUvCVPxbmjAGMLJx",
+      "legacyGuid": "1IweA$pUvCVPxbmjAGMLJx",
       "localizations": [
         {
           "language": "de-DE",
@@ -90,12 +92,16 @@
         "dataType": "IfcIdentifier",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "Status",
       "definition": "Status of the element, predominately used in renovation or retrofitting projects. The status can be assigned to as \"New\" - element designed as new addition, \"Existing\" - element exists and remains, \"Demolish\" - element existed but is to be demolished,  \"Temporary\" - element will exists only temporary (like a temporary support structure).",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "de-DE",
@@ -354,12 +360,16 @@
             ]
           }
         ]
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "AcousticRating",
       "definition": "Acoustic rating for this object.It is provided according to the national building code. It indicates the sound transmission resistance of this object by an index ratio (instead of providing full sound absorbtion values).",
       "ifdGuid": "30w14qfKP20RWrf4WXrItE",
+      "legacyGuid": "30w14qfKP20RWrf4WXrItE",
       "localizations": [
         {
           "language": "de-DE",
@@ -401,12 +411,16 @@
         "dataType": "IfcLabel",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "FireRating",
       "definition": "Fire rating for this object.It is given according to the national fire safety classification.",
       "ifdGuid": "1xSlfsCvj1ORVzcHIEdums",
+      "legacyGuid": "1xSlfsCvj1ORVzcHIEdums",
       "localizations": [
         {
           "language": "de-DE",
@@ -448,12 +462,16 @@
         "dataType": "IfcLabel",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "SecurityRating",
       "definition": "Index based rating system indicating security level.It is giving according to the national building code.",
       "ifdGuid": "2xaASKQ3T3KecpIGqBI6Vh",
+      "legacyGuid": "2xaASKQ3T3KecpIGqBI6Vh",
       "localizations": [
         {
           "language": "de-DE",
@@ -495,12 +513,16 @@
         "dataType": "IfcLabel",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "IsExternal",
       "definition": "Indication whether the element is designed for use in the exterior (TRUE) or not (FALSE). If (TRUE) it is an external element and faces the outside of the building.",
       "ifdGuid": "0du00_49z65vqx$Oo1pEHs",
+      "legacyGuid": "0du00_49z65vqx$Oo1pEHs",
       "localizations": [
         {
           "language": "de-DE",
@@ -542,12 +564,16 @@
         "dataType": "IfcBoolean",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "Infiltration",
       "definition": "Infiltration flowrate of outside air for the filler object based on the area of the filler object at a pressure level of 50 Pascals. It shall be used, if the length of all joints is unknown.",
       "ifdGuid": "2Kh1sfGRDBLw9D00bm7B0K",
+      "legacyGuid": "2Kh1sfGRDBLw9D00bm7B0K",
       "localizations": [
         {
           "language": "de-DE",
@@ -589,12 +615,16 @@
         "dataType": "IfcVolumetricFlowRateMeasure",
         "measureType": "",
         "unitType": "VOLUMETRICFLOWRATEUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "ThermalTransmittance",
       "definition": "Thermal transmittance coefficient (U-Value) of a material.It applies to the total door construction.",
       "ifdGuid": "3WI5kUsf58YPoY7w2hHNF0",
+      "legacyGuid": "3WI5kUsf58YPoY7w2hHNF0",
       "localizations": [
         {
           "language": "de-DE",
@@ -636,12 +666,16 @@
         "dataType": "IfcThermalTransmittanceMeasure",
         "measureType": "",
         "unitType": "THERMALTRANSMITTANCEUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "GlazingAreaFraction",
       "definition": "Fraction of the glazing area relative to the total area of the filling element. It shall be used, if the glazing area is not given separately for all panels within the filling element.",
       "ifdGuid": "1xVOg7SOnATxWiQMiJ11m9",
+      "legacyGuid": "1xVOg7SOnATxWiQMiJ11m9",
       "localizations": [
         {
           "language": "de-DE",
@@ -678,12 +712,16 @@
         "dataType": "IfcPositiveRatioMeasure",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "HasSillExternal",
       "definition": "Indication whether the window opening has an external sill (TRUE) or not (FALSE).",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "de-DE",
@@ -720,12 +758,16 @@
         "dataType": "IfcBoolean",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "HasSillInternal",
       "definition": "Indication whether the window opening has an internal sill (TRUE) or not (FALSE).",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "de-DE",
@@ -762,12 +804,16 @@
         "dataType": "IfcBoolean",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "HasDrive",
       "definition": "Indication whether this object has an automatic drive to operate it (TRUE) or no drive (FALSE)",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "de-DE",
@@ -804,12 +850,16 @@
         "dataType": "IfcBoolean",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "SmokeStop",
       "definition": "Indication whether the object is designed to provide a smoke stop (TRUE) or not (FALSE).",
       "ifdGuid": "34PLl$rD5Dy9LrEJFEj_IU",
+      "legacyGuid": "34PLl$rD5Dy9LrEJFEj_IU",
       "localizations": [
         {
           "language": "de-DE",
@@ -846,12 +896,16 @@
         "dataType": "IfcBoolean",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "FireExit",
       "definition": "Indication whether this object is designed to serve as an exit in the case of fire (TRUE) or not (FALSE). Here it defines an exit window in accordance to the national building code.",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "de-DE",
@@ -888,6 +942,9 @@
         "dataType": "IfcBoolean",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

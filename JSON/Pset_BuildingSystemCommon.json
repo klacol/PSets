@@ -4,6 +4,7 @@
     "version": "4.0.0.0"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "Properties common to the definition of building systems.",
   "localizations": [
     {
@@ -48,6 +49,8 @@
       "name": "Reference",
       "definition": "PSet2YamlConverter.PropertyType",
       "ifdGuid": "2nEgg0qSKHuO00025QrE$V",
+      "legacyGuid": "b13aaa80d1c511e1800000215ad4efdf",
+      "legacyGuidAsIfcGlobalId": "2nEgg0qSKHuO00025QrE$V",
       "localizations": [
         {
           "language": "de-DE",
@@ -89,6 +92,9 @@
         "dataType": "IfcIdentifier",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

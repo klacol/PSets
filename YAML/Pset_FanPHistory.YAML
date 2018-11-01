@@ -3,6 +3,7 @@ ifcVersion:
   version: 4.0.0.0
   schema: IfcHvacDomain
 ifdGuid: ''
+legacyGuid: ''
 definition: 'Fan performance history attributes.Sound attribute deleted in IFC2x2 Pset Addendum: Use IfcSoundProperties instead.'
 localizations:
 - language: de-DE
@@ -30,6 +31,7 @@ properties:
 - name: FanRotationSpeed
   definition: Fan rotation speed.
   ifdGuid: 3uOOpSenL1mOKg4t0TQFcp
+  legacyGuid: 3uOOpSenL1mOKg4t0TQFcp
   localizations:
   - language: ja-JP
     name: '回転速度'
@@ -55,9 +57,12 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: WheelTipSpeed
   definition: Fan blade tip speed, typically defined as the linear speed of the tip of the fan blade furthest from the shaft.
   ifdGuid: 3LIm8gDnT6WgM0qGYcUIF0
+  legacyGuid: 3LIm8gDnT6WgM0qGYcUIF0
   localizations:
   - language: ja-JP
     name: 'ホイール先端速度'
@@ -83,9 +88,12 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: FanEfficiency
   definition: Fan mechanical efficiency.
   ifdGuid: 0pFfpDTPjBke7DIpgFc92f
+  legacyGuid: 0pFfpDTPjBke7DIpgFc92f
   localizations:
   - language: ja-JP
     name: 'Fan効率'
@@ -111,9 +119,12 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: OverallEfficiency
   definition: Total efficiency of motor and fan.
   ifdGuid: 3FtBlfUgjClPrq0Z$_hyLb
+  legacyGuid: 3FtBlfUgjClPrq0Z$_hyLb
   localizations:
   - language: ja-JP
     name: '全体効率'
@@ -139,9 +150,12 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: FanPowerRate
   definition: Fan power consumption.
   ifdGuid: 093kfWIJv1o8sbv5xehMVH
+  legacyGuid: 093kfWIJv1o8sbv5xehMVH
   localizations:
   - language: ja-JP
     name: 'Fan効率動力量'
@@ -167,9 +181,12 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: ShaftPowerRate
   definition: Fan shaft power.
   ifdGuid: 14wmk1yaz9iehWt1cImMuq
+  legacyGuid: 14wmk1yaz9iehWt1cImMuq
   localizations:
   - language: ja-JP
     name: '軸動力量'
@@ -195,9 +212,12 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: DischargeVelocity
   definition: The speed at which air discharges from the fan through the fan housing discharge opening.
   ifdGuid: 3nM2PKxRr9wfHPIgrQzats
+  legacyGuid: 3nM2PKxRr9wfHPIgrQzats
   localizations:
   - language: ja-JP
     name: '吐出速度'
@@ -223,9 +243,12 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: DischargePressureLoss
   definition: Fan discharge pressure loss associated with the discharge arrangement.
   ifdGuid: 2YlVlfLgzFrhaqn2mwVs3y
+  legacyGuid: 2YlVlfLgzFrhaqn2mwVs3y
   localizations:
   - language: ja-JP
     name: '吐出圧力損失'
@@ -251,9 +274,12 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: DrivePowerLoss
   definition: Fan drive power losses associated with the type of connection between the motor and the fan wheel.
   ifdGuid: 3zO4UwwSL5_g95XRRzYEyL
+  legacyGuid: 3zO4UwwSL5_g95XRRzYEyL
   localizations:
   - language: ja-JP
     name: '駆動電力損失'
@@ -279,3 +305,5 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

@@ -3,6 +3,7 @@ ifcVersion:
   version: 4.0.0.0
   schema: IfcSharedBldgServiceElements
 ifdGuid: ''
+legacyGuid: ''
 definition: 'Chamber constructed on a drain, sewer or pipeline and with a removable cover, that permits the entry of a person.'
 localizations:
 - language: de-DE
@@ -30,6 +31,7 @@ properties:
 - name: InvertLevel
   definition: Level of the lowest part of the cross section as measured from ground level.
   ifdGuid: 2HvuEcSYrFifZMRukBN8MA
+  legacyGuid: 2HvuEcSYrFifZMRukBN8MA
   localizations:
   - language: ja-JP
     name: '最大深さ'
@@ -56,9 +58,12 @@ properties:
     dataType: IfcLengthMeasure
     measureType: ''
     unitType: LENGTHUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: SoffitLevel
   definition: Level of the highest internal part of the cross section as measured from ground level.
   ifdGuid: 0zdAEdWdT6Q9DLHlXzqQhV
+  legacyGuid: 0zdAEdWdT6Q9DLHlXzqQhV
   localizations:
   - language: ja-JP
     name: '最小深さ'
@@ -85,9 +90,12 @@ properties:
     dataType: IfcLengthMeasure
     measureType: ''
     unitType: LENGTHUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: WallMaterial
   definition: 'The material from which the wall of the chamber is constructed.NOTE: It is assumed that chamber walls will be constructed of a single material.'
   ifdGuid: 1iMkwm1dXB2PiI12rVUvn4
+  legacyGuid: 1iMkwm1dXB2PiI12rVUvn4
   localizations:
   - language: ja-JP
     name: '壁の材質'
@@ -115,9 +123,12 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: WallThickness
   definition: 'The thickness of the chamber wall constructionNOTE: It is assumed that chamber walls will be constructed at a single thickness.'
   ifdGuid: 0tcZ9IAMPChhpesowf0uZB
+  legacyGuid: 0tcZ9IAMPChhpesowf0uZB
   localizations:
   - language: ja-JP
     name: '壁厚さ'
@@ -144,9 +155,12 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: LENGTHUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: BaseMaterial
   definition: 'The material from which the base of the chamber is constructed.NOTE: It is assumed that chamber base will be constructed of a single material.'
   ifdGuid: 1tv3K6eE1AiuPz689xuBYt
+  legacyGuid: 1tv3K6eE1AiuPz689xuBYt
   localizations:
   - language: ja-JP
     name: '床の材質'
@@ -174,9 +188,12 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: BaseThickness
   definition: 'The thickness of the chamber base constructionNOTE: It is assumed that chamber base will be constructed at a single thickness.'
   ifdGuid: 2mvhlacY1F2BhdM40yBlqY
+  legacyGuid: 2mvhlacY1F2BhdM40yBlqY
   localizations:
   - language: ja-JP
     name: '床の厚さ'
@@ -203,9 +220,12 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: LENGTHUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: IsShallow
   definition: Indicates whether the chamber has been designed as being shallow (TRUE) or deep (FALSE).
   ifdGuid: 38CbUQKr951hmOc371oTR1
+  legacyGuid: 38CbUQKr951hmOc371oTR1
   localizations:
   - language: ja-JP
     name: '浅いか'
@@ -232,9 +252,12 @@ properties:
     dataType: IfcBoolean
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: HasSteps
   definition: Indicates whether the chamber has steps (TRUE) or not (FALSE).
   ifdGuid: 29w2xahh583hnneM3XuBmq
+  legacyGuid: 29w2xahh583hnneM3XuBmq
   localizations:
   - language: ja-JP
     name: '階段付け'
@@ -261,9 +284,12 @@ properties:
     dataType: IfcBoolean
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: WithBackdrop
   definition: Indicates whether the chamber has a backdrop or tumbling bay (TRUE) or not (FALSE).
   ifdGuid: 2J1s$VONXCLALsN2_kwiUK
+  legacyGuid: 2J1s$VONXCLALsN2_kwiUK
   localizations:
   - language: ja-JP
     name: 'バックドロップ付け'
@@ -290,9 +316,12 @@ properties:
     dataType: IfcBoolean
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: AccessCoverMaterial
   definition: 'The material from which the access cover to the chamber is constructed.NOTE: It is assumed that chamber walls will be constructed of a single material.'
   ifdGuid: 065GjeOgb7u9PJnj1mnc6H
+  legacyGuid: 065GjeOgb7u9PJnj1mnc6H
   localizations:
   - language: ja-JP
     name: 'アクセス（点検）カバーの材質'
@@ -320,9 +349,12 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: AccessLengthOrRadius
   definition: The length of the chamber access cover or, where the plan shape of the cover is circular, the radius.
   ifdGuid: 1BGhTGZIz4Z9DCyJDNwZM6
+  legacyGuid: 1BGhTGZIz4Z9DCyJDNwZM6
   localizations:
   - language: ja-JP
     name: 'アクセス（点検）カバーの長さ或いは半径'
@@ -349,9 +381,12 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: LENGTHUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: AccessWidth
   definition: The width of the chamber access cover where the plan shape of the cover is not circular.
   ifdGuid: 1SFRgVyZv87wdusm3fq105
+  legacyGuid: 1SFRgVyZv87wdusm3fq105
   localizations:
   - language: ja-JP
     name: 'アクセス（点検）カバーの幅'
@@ -378,9 +413,12 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: LENGTHUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: AccessCoverLoadRating
   definition: The load rating of the access cover (which may be a value or an alphanumerically defined class rating).
   ifdGuid: 08l1YHhiv1vuo1ZtkyuEd2
+  legacyGuid: 08l1YHhiv1vuo1ZtkyuEd2
   localizations:
   - language: ja-JP
     name: 'アクセス（点検）カバーの耐荷重'
@@ -407,3 +445,5 @@ properties:
     dataType: IfcText
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

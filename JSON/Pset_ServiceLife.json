@@ -5,6 +5,7 @@
     "schema": "IfcSharedFacilitiesElements"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "Captures the period of time that an artifact will last along with various factors that impact the expected service life.  HISTORY: Introduced in IFC4 as replacement for IfcServiceLife and IfcServiceLifeFactor.",
   "localizations": [
     {
@@ -53,6 +54,7 @@
       "name": "ServiceLifeType",
       "definition": "ACTUALSERVICELIFE: The service life that an asset has given. EXPECTEDSERVICELIFE: The service life that an artefact is expected to have under current operating conditions. OPTIMISTICREFERENCESERVICELIFE: The best or most optimistic estimate of service life that is quoted for an artefact under reference operating conditions. PESSIMISTICREFERENCESERVICELIFE: The least or most pessimistic estimate of service life that is quoted for an artefact under reference operating conditions. REFERENCESERVICELIFE: The typical service life that is quoted for an artefact under reference operating conditions.",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "de-DE",
@@ -348,12 +350,16 @@
             ]
           }
         ]
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "ServiceLifeDuration",
       "definition": "The length or duration of a service life.",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "de-DE",
@@ -390,12 +396,16 @@
         "dataType": "IfcDuration",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "QualityOfComponents",
       "definition": "Adjustment of the service life resulting from the effect of the quality of components used.",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "de-DE",
@@ -434,12 +444,16 @@
         "LowerBoundValue": "?",
         "UpperBoundValue": "?",
         "typeName": "TypePropertyBoundedValue"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "DesignLevel",
       "definition": "Adjustment of the service life resulting from the effect of design level employed.",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "de-DE",
@@ -478,12 +492,16 @@
         "LowerBoundValue": "?",
         "UpperBoundValue": "?",
         "typeName": "TypePropertyBoundedValue"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "WorkExecutionLevel",
       "definition": "Adjustment of the service life resulting from the effect of the quality of work executed.",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "de-DE",
@@ -522,12 +540,16 @@
         "LowerBoundValue": "?",
         "UpperBoundValue": "?",
         "typeName": "TypePropertyBoundedValue"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "IndoorEnvironment",
       "definition": "Adjustment of the service life resulting from the effect of the indoor environment (where appropriate).",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "de-DE",
@@ -566,12 +588,16 @@
         "LowerBoundValue": "?",
         "UpperBoundValue": "?",
         "typeName": "TypePropertyBoundedValue"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "OutdoorEnvironment",
       "definition": "Adjustment of the service life resulting from the effect of the outdoor environment (where appropriate)",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "de-DE",
@@ -610,12 +636,16 @@
         "LowerBoundValue": "?",
         "UpperBoundValue": "?",
         "typeName": "TypePropertyBoundedValue"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "InUseConditions",
       "definition": "Adjustment of the service life resulting from the effect of the conditions in which components are operating.",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "de-DE",
@@ -654,12 +684,16 @@
         "LowerBoundValue": "?",
         "UpperBoundValue": "?",
         "typeName": "TypePropertyBoundedValue"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "MaintenanceLevel",
       "definition": "Adjustment of the service life resulting from the effect of the level or degree of maintenance applied to dcomponents.",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "de-DE",
@@ -698,12 +732,16 @@
         "LowerBoundValue": "?",
         "UpperBoundValue": "?",
         "typeName": "TypePropertyBoundedValue"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "MeanTimeBetweenFailure",
       "definition": "The average time duration between instances of failure of a product.",
       "ifdGuid": "00QLbTZyXB3AqSCIYyDLzN",
+      "legacyGuid": "00QLbTZyXB3AqSCIYyDLzN",
       "localizations": [
         {
           "language": "de-DE",
@@ -740,6 +778,9 @@
         "dataType": "IfcDuration",
         "measureType": "",
         "unitType": "TIMEUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

@@ -5,6 +5,7 @@
     "schema": "IfcHvacDomain"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "Pipe segment type common attributes.",
   "localizations": [
     {
@@ -49,6 +50,7 @@
       "name": "Reference",
       "definition": "Reference ID for this specified type in this project (e.g. type 'A-1').",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "ja-JP",
@@ -85,12 +87,16 @@
         "dataType": "IfcIdentifier",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "Status",
       "definition": "Status of the element, predominately used in renovation or retrofitting projects. The status can be assigned to as \"New\" - element designed as new addition, \"Existing\" - element exists and remains, \"Demolish\" - element existed but is to be demolished,  \"Temporary\" - element will exists only temporary (like a temporary support structure).",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "ja-JP",
@@ -349,12 +355,16 @@
             ]
           }
         ]
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "WorkingPressure",
       "definition": "Working pressure.",
       "ifdGuid": "0KZrBffijEP8Jes2trC2um",
+      "legacyGuid": "0KZrBffijEP8Jes2trC2um",
       "localizations": [
         {
           "language": "ja-JP",
@@ -391,12 +401,16 @@
         "dataType": "IfcPressureMeasure",
         "measureType": "",
         "unitType": "PRESSUREUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "PressureRange",
       "definition": "Allowable maximum and minimum working pressure (relative to ambient pressure).",
       "ifdGuid": "0SNTk7PCn5Yh_Wcj7M7xE0",
+      "legacyGuid": "0SNTk7PCn5Yh_Wcj7M7xE0",
       "localizations": [
         {
           "language": "ja-JP",
@@ -435,12 +449,16 @@
         "LowerBoundValue": "0",
         "UpperBoundValue": "?",
         "typeName": "TypePropertyBoundedValue"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "TemperatureRange",
       "definition": "Allowable maximum and minimum temperature.",
       "ifdGuid": "2bk8bSaKr4nuG8iAin$lat",
+      "legacyGuid": "2bk8bSaKr4nuG8iAin$lat",
       "localizations": [
         {
           "language": "ja-JP",
@@ -479,12 +497,16 @@
         "LowerBoundValue": "0",
         "UpperBoundValue": "?",
         "typeName": "TypePropertyBoundedValue"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "NominalDiameter",
       "definition": "The nominal diameter of the pipe segment.",
       "ifdGuid": "0mfsK$1sHAVQ5DSeb3rJOm",
+      "legacyGuid": "0mfsK$1sHAVQ5DSeb3rJOm",
       "localizations": [
         {
           "language": "ja-JP",
@@ -521,12 +543,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "InnerDiameter",
       "definition": "The actual inner diameter of the pipe.",
       "ifdGuid": "3C5kBt$tH76BVF$kkgNkVx",
+      "legacyGuid": "3C5kBt$tH76BVF$kkgNkVx",
       "localizations": [
         {
           "language": "ja-JP",
@@ -563,12 +589,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "OuterDiameter",
       "definition": "The actual outer diameter of the pipe.",
       "ifdGuid": "3k29RAFbvB$w5VopIP1kfD",
+      "legacyGuid": "3k29RAFbvB$w5VopIP1kfD",
       "localizations": [
         {
           "language": "ja-JP",
@@ -605,6 +635,9 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

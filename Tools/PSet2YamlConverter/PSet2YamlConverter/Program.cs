@@ -25,7 +25,7 @@ namespace PSet2YamlConverter
             Console.WriteLine($"Into YAML files in this target folder: {targetFolderYaml}");
             Console.WriteLine($"Into JSON files in this target folder: {targetFolderJson}");
 
-            Converter converter = new Converter(sourceFolderXml, targetFolderYaml, targetFolderJson);
+            Converter converter = new Converter(sourceFolderXml, targetFolderYaml, targetFolderJson, true);
 
             Console.WriteLine($"Successfully finished - Be happy with your Open BIM");
         }

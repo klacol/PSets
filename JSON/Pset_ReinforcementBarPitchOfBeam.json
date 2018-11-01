@@ -5,6 +5,7 @@
     "schema": "IfcStructuralElementsDomain"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "The pitch length information of reinforcement  bar with the beam.",
   "localizations": [
     {
@@ -49,6 +50,7 @@
       "name": "Description",
       "definition": "Description of the reinforcement.",
       "ifdGuid": "0L_fv__0j1B8FnoGpCbLKg",
+      "legacyGuid": "0L_fv__0j1B8FnoGpCbLKg",
       "localizations": [
         {
           "language": "ja-JP",
@@ -85,12 +87,16 @@
         "dataType": "IfcText",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "Reference",
       "definition": "A descriptive label for the general reinforcement type.",
       "ifdGuid": "2PdcdaS_DD4gR4vxhwjqYn",
+      "legacyGuid": "2PdcdaS_DD4gR4vxhwjqYn",
       "localizations": [
         {
           "language": "ja-JP",
@@ -127,12 +133,16 @@
         "dataType": "IfcLabel",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "StirrupBarPitch",
       "definition": "The pitch length of the stirrup bar.",
       "ifdGuid": "1f1hPJIOv3Dw$UiF9yzx8l",
+      "legacyGuid": "1f1hPJIOv3Dw$UiF9yzx8l",
       "localizations": [
         {
           "language": "ja-JP",
@@ -169,12 +179,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "SpacingBarPitch",
       "definition": "The pitch length of the spacing bar.",
       "ifdGuid": "0ofnhhUoX4LOdqzuV4nw$d",
+      "legacyGuid": "0ofnhhUoX4LOdqzuV4nw$d",
       "localizations": [
         {
           "language": "ja-JP",
@@ -211,6 +225,9 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

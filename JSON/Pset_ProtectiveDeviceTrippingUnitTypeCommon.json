@@ -5,6 +5,7 @@
     "schema": "IfcElectricalDomain"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "Common information concerning tripping units that area associated with protective devices",
   "localizations": [
     {
@@ -49,6 +50,7 @@
       "name": "Reference",
       "definition": "Reference ID for this specified type in this project (e.g. type 'A-1'), provided, if there is no classification reference to a recognized classification system used.",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "ja-JP",
@@ -90,12 +92,16 @@
         "dataType": "IfcIdentifier",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "Status",
       "definition": "Status of the element, predominately used in renovation or retrofitting projects. The status can be assigned to as \"New\" - element designed as new addition, \"Existing\" - element exists and remains, \"Demolish\" - element existed but is to be demolished,  \"Temporary\" - element will exists only temporary (like a temporary support structure).",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "ja-JP",
@@ -354,12 +360,16 @@
             ]
           }
         ]
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "Standard",
       "definition": "The designation of the standard applicable for the definition of the characteristics of thetripping_unit.",
       "ifdGuid": "1Zvm7IRw947vKKFiilxmMQ",
+      "legacyGuid": "1Zvm7IRw947vKKFiilxmMQ",
       "localizations": [
         {
           "language": "ja-JP",
@@ -401,12 +411,16 @@
         "dataType": "IfcLabel",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "UseInDiscrimination",
       "definition": "An indication whether the time/current tripping information can be applied in a discriminationanalysis or not.",
       "ifdGuid": "2DEDrLeabFuOpZ85A6Lj$X",
+      "legacyGuid": "2DEDrLeabFuOpZ85A6Lj$X",
       "localizations": [
         {
           "language": "ja-JP",
@@ -448,12 +462,16 @@
         "dataType": "IfcBoolean",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "AtexVerified",
       "definition": "An indication whether the tripping_unit is verified to be applied in EX-environment or not.",
       "ifdGuid": "2kbxxS6xTFleQm3AUmrdXb",
+      "legacyGuid": "2kbxxS6xTFleQm3AUmrdXb",
       "localizations": [
         {
           "language": "ja-JP",
@@ -495,12 +513,16 @@
         "dataType": "IfcBoolean",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "OldDevice",
       "definition": "Indication whether the protection_ unit is out-dated or not. If not out-dated, the device is still for sale.",
       "ifdGuid": "33oowLR6PFie0XEyR1RQkL",
+      "legacyGuid": "33oowLR6PFie0XEyR1RQkL",
       "localizations": [
         {
           "language": "ja-JP",
@@ -542,12 +564,16 @@
         "dataType": "IfcBoolean",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "LimitingTerminalSize",
       "definition": "The maximum terminal size capacity of the device.",
       "ifdGuid": "1aDx1mnOHFFhx_OcqyBlBG",
+      "legacyGuid": "1aDx1mnOHFFhx_OcqyBlBG",
       "localizations": [
         {
           "language": "ja-JP",
@@ -589,6 +615,9 @@
         "dataType": "IfcAreaMeasure",
         "measureType": "",
         "unitType": "AREAUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

@@ -5,6 +5,7 @@
     "schema": "IfcHvacDomain"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "Coil occurrence attributes attached to an instance of IfcCoil.",
   "localizations": [
     {
@@ -49,6 +50,7 @@
       "name": "HasSoundAttenuation",
       "definition": "TRUE if the coil has sound attenuation, FALSE if it does not.",
       "ifdGuid": "",
+      "legacyGuidAsIfcGlobalId": "",
       "localizations": [
         {
           "language": "fr-FR",
@@ -85,6 +87,9 @@
         "dataType": "IfcBoolean",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

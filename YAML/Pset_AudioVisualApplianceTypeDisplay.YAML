@@ -3,6 +3,7 @@ ifcVersion:
   version: 4.0.0.0
   schema: IfcElectricalDomain
 ifdGuid: ''
+legacyGuid: ''
 definition: 'An audio-visual display is a device that renders video from a screen.  HISTORY: Added in IFC4.'
 localizations:
 - language: de-DE
@@ -30,6 +31,7 @@ properties:
 - name: DisplayType
   definition: Indicates the type of display.
   ifdGuid: ''
+  legacyGuidAsIfcGlobalId: ''
   localizations:
   - language: ja-JP
     name: '画面種類'
@@ -209,9 +211,12 @@ properties:
       - language: ru-RU
         name: 'Unknown'
         definition: ''
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: NominalSize
   definition: Indicates the diagonal screen size.
   ifdGuid: ''
+  legacyGuidAsIfcGlobalId: ''
   localizations:
   - language: ja-JP
     name: '画面公称サイズ'
@@ -238,9 +243,12 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: DisplayWidth
   definition: Indicates the physical width of the screen (only the display surface).
   ifdGuid: ''
+  legacyGuidAsIfcGlobalId: ''
   localizations:
   - language: ja-JP
     name: '画面幅'
@@ -267,9 +275,12 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: DisplayHeight
   definition: Indicates the physical height of the screen (only the display surface).
   ifdGuid: ''
+  legacyGuidAsIfcGlobalId: ''
   localizations:
   - language: ja-JP
     name: '画面高さ'
@@ -296,9 +307,12 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: Brightness
   definition: Indicates the display brightness.
   ifdGuid: ''
+  legacyGuidAsIfcGlobalId: ''
   localizations:
   - language: ja-JP
     name: '明るさ'
@@ -325,9 +339,12 @@ properties:
     dataType: IfcIlluminanceMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: ContrastRatio
   definition: Indicates the display contrast ratio.
   ifdGuid: ''
+  legacyGuidAsIfcGlobalId: ''
   localizations:
   - language: ja-JP
     name: 'コントラスト比'
@@ -354,9 +371,12 @@ properties:
     dataType: IfcPositiveRatioMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: RefreshRate
   definition: Indicates the display refresh frequency.
   ifdGuid: ''
+  legacyGuidAsIfcGlobalId: ''
   localizations:
   - language: ja-JP
     name: 'リフレッシュレート'
@@ -383,9 +403,12 @@ properties:
     dataType: IfcFrequencyMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: TouchScreen
   definition: Indicates touchscreen support.
   ifdGuid: ''
+  legacyGuidAsIfcGlobalId: ''
   localizations:
   - language: ja-JP
     name: 'タッチスクリーン'
@@ -521,9 +544,12 @@ properties:
       - language: ru-RU
         name: 'Unknown'
         definition: ''
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: VideoResolutionWidth
   definition: Indicates the number of horizontal pixels, e.g. 1920.
   ifdGuid: ''
+  legacyGuidAsIfcGlobalId: ''
   localizations:
   - language: ja-JP
     name: '水平解像度'
@@ -550,9 +576,12 @@ properties:
     dataType: IfcInteger
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: VideoResolutionHeight
   definition: Indicates the number of vertical pixels, e.g. 1080.
   ifdGuid: ''
+  legacyGuidAsIfcGlobalId: ''
   localizations:
   - language: ja-JP
     name: '垂直解像度'
@@ -579,9 +608,12 @@ properties:
     dataType: IfcInteger
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: VideoResolutionMode
   definition: Indicates video resolution modes.
   ifdGuid: ''
+  legacyGuidAsIfcGlobalId: ''
   localizations:
   - language: ja-JP
     name: '解像度モード'
@@ -614,9 +646,12 @@ properties:
       dataType: IfcLabel
       measureType: ''
       unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: VideoScaleMode
   definition: Indicates video scaling modes.
   ifdGuid: ''
+  legacyGuidAsIfcGlobalId: ''
   localizations:
   - language: ja-JP
     name: 'ビデオスケールモード'
@@ -649,9 +684,12 @@ properties:
       dataType: IfcLabel
       measureType: ''
       unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: VideoCaptionMode
   definition: Indicates video closed captioning modes.
   ifdGuid: ''
+  legacyGuidAsIfcGlobalId: ''
   localizations:
   - language: ja-JP
     name: 'ビデオキャプションモード'
@@ -684,9 +722,12 @@ properties:
       dataType: IfcLabel
       measureType: ''
       unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: AudioMode
   definition: Indicates audio sound modes and corresponding labels, if applicable.
   ifdGuid: ''
+  legacyGuidAsIfcGlobalId: ''
   localizations:
   - language: ja-JP
     name: 'オーディオモード'
@@ -719,3 +760,5 @@ properties:
       dataType: IfcLabel
       measureType: ''
       unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

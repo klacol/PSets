@@ -2,6 +2,7 @@
 ifcVersion:
   version: 4.0.0.0
 ifdGuid: ''
+legacyGuid: ''
 definition: 'Log of substance usage attached to an instance of IfcPerformanceHistory having an assigned IfcDistributionPort of type PIPE.'
 localizations:
 - language: de-DE
@@ -29,6 +30,7 @@ properties:
 - name: Temperature
   definition: PSet2YamlConverter.PropertyType
   ifdGuid: 0srtvv6JP54x8fzXnsCgOu
+  legacyGuid: 0srtvv6JP54x8fzXnsCgOu
   localizations:
   - language: ja-JP
     name: '温度'
@@ -54,9 +56,12 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: Pressure
   definition: PSet2YamlConverter.PropertyType
   ifdGuid: 3J6MJ0gqz4IgEb9gSWXES5
+  legacyGuid: 3J6MJ0gqz4IgEb9gSWXES5
   localizations:
   - language: ja-JP
     name: '圧力'
@@ -82,9 +87,12 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: Flowrate
   definition: PSet2YamlConverter.PropertyType
   ifdGuid: 1wFslkM110DwcNqSBBrefD
+  legacyGuid: 1wFslkM110DwcNqSBBrefD
   localizations:
   - language: ja-JP
     name: '流量'
@@ -110,3 +118,5 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

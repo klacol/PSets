@@ -3,6 +3,7 @@ ifcVersion:
   version: 4.0.0.0
   schema: IfcHvacDomain
 ifdGuid: ''
+legacyGuid: ''
 definition: 'Common attributes of a tank type.'
 localizations:
 - language: de-DE
@@ -30,6 +31,7 @@ properties:
 - name: Reference
   definition: Reference ID for this specified type in this project (e.g. type 'A-1').
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: ja-JP
     name: '参照記号'
@@ -53,9 +55,12 @@ properties:
     dataType: IfcIdentifier
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: Status
   definition: Status of the element, predominately used in renovation or retrofitting projects. The status can be assigned to as "New" - element designed as new addition, "Existing" - element exists and remains, "Demolish" - element existed but is to be demolished,  "Temporary" - element will exists only temporary (like a temporary support structure).
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: ja-JP
     name: '状態'
@@ -210,9 +215,12 @@ properties:
       - language: ru-RU
         name: 'Unknown'
         definition: ''
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: AccessType
   definition: Defines the types of access (or cover) to a tank that may be specified.Note that covers are generally specified for rectangular tanks. For cylindrical tanks, access will normally be via a manhole.
   ifdGuid: 0ddhOXtkr04vaR_39qNvt3
+  legacyGuid: 0ddhOXtkr04vaR_39qNvt3
   localizations:
   - language: ja-JP
     name: '点検タイプ'
@@ -389,9 +397,12 @@ properties:
       - language: ru-RU
         name: 'Unknown'
         definition: ''
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: StorageType
   definition: Defines the general material category intended to be stored.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: ja-JP
     name: '貯蔵タイプ'
@@ -612,9 +623,12 @@ properties:
       - language: ru-RU
         name: 'Unknown'
         definition: ''
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: NominalLengthOrDiameter
   definition: The nominal length or, in the case of a vertical cylindrical tank, the nominal diameter of the tank.
   ifdGuid: 2eWVxKALjFTBxZwnoistFV
+  legacyGuid: 2eWVxKALjFTBxZwnoistFV
   localizations:
   - language: ja-JP
     name: '公称長さ又は直径'
@@ -638,9 +652,12 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: LENGTHUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: NominalWidthOrDiameter
   definition: 'The nominal width or, in the case of a horizontal cylindrical tank, the nominal diameter of the tank.Note: Not required for a vertical cylindrical tank.'
   ifdGuid: 1U2gPh59z58e$zEp73FoXp
+  legacyGuid: 1U2gPh59z58e$zEp73FoXp
   localizations:
   - language: ja-JP
     name: '公称幅又は直径'
@@ -664,9 +681,12 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: LENGTHUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: NominalDepth
   definition: 'The nominal depth of the tank.Note: Not required for a horizontal cylindrical tank.'
   ifdGuid: 1bkQORpKv03fXNn8q0O09v
+  legacyGuid: 1bkQORpKv03fXNn8q0O09v
   localizations:
   - language: ja-JP
     name: '公称深さ'
@@ -690,9 +710,12 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: LENGTHUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: NominalCapacity
   definition: The total nominal or design volumetric capacity of the tank.
   ifdGuid: 3IbXqopEHBAf$g5W91NC8F
+  legacyGuid: 3IbXqopEHBAf$g5W91NC8F
   localizations:
   - language: ja-JP
     name: '公称容量'
@@ -716,9 +739,12 @@ properties:
     dataType: IfcVolumeMeasure
     measureType: ''
     unitType: VOLUMEUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: EffectiveCapacity
   definition: The total effective or actual volumetric capacity of the tank.
   ifdGuid: 2Gqd5X8Br76v1v_kD_rFa9
+  legacyGuid: 2Gqd5X8Br76v1v_kD_rFa9
   localizations:
   - language: ja-JP
     name: '有効容量'
@@ -742,9 +768,12 @@ properties:
     dataType: IfcVolumeMeasure
     measureType: ''
     unitType: VOLUMEUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: OperatingWeight
   definition: Operating weight of the tank including all of its contents.
   ifdGuid: 1MC7tXmgf5hQ4J4LtM1VLP
+  legacyGuid: 1MC7tXmgf5hQ4J4LtM1VLP
   localizations:
   - language: ja-JP
     name: '運転重量'
@@ -768,9 +797,12 @@ properties:
     dataType: IfcMassMeasure
     measureType: ''
     unitType: MASSUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: PatternType
   definition: Defines the types of pattern (or shape of a tank that may be specified.
   ifdGuid: 0NZGJd74T3U9FmEhB6yOSb
+  legacyGuid: 0NZGJd74T3U9FmEhB6yOSb
   localizations:
   - language: ja-JP
     name: 'パターンタイプ'
@@ -903,9 +935,12 @@ properties:
       - language: ru-RU
         name: 'Unknown'
         definition: ''
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: EndShapeType
   definition: Defines the types of end shapes that can be used for preformed tanks. The convention for reading these enumerated values is that for a vertical cylinder, the first value is the base and the second is the top; for a horizontal cylinder, the order of reading should be left to right. For a speherical tank, the value UNSET should be used.
   ifdGuid: 0FeVxJrXj4pRaRAJk9Net0
+  legacyGuid: 0FeVxJrXj4pRaRAJk9Net0
   localizations:
   - language: ja-JP
     name: '末端形状タイプ'
@@ -1082,9 +1117,12 @@ properties:
       - language: ru-RU
         name: 'Unknown'
         definition: ''
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: FirstCurvatureRadius
   definition: FirstCurvatureRadius should be defined as the base or left side radius of curvature value.
   ifdGuid: 2XU54mVkjCvwAHSdhVKoHt
+  legacyGuid: 2XU54mVkjCvwAHSdhVKoHt
   localizations:
   - language: ja-JP
     name: '最初の曲率半径'
@@ -1108,9 +1146,12 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: LENGTHUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: SecondCurvatureRadius
   definition: SecondCurvatureRadius should be defined as the top or right side radius of curvature value.
   ifdGuid: 0N9IMuy1D35BcntHUhe_K6
+  legacyGuid: 0N9IMuy1D35BcntHUhe_K6
   localizations:
   - language: ja-JP
     name: '2番目の曲率半径'
@@ -1134,9 +1175,12 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: LENGTHUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: NumberOfSections
   definition: 'Number of sections used in the construction of the tank. Default is 1.Note: All sections assumed to be the same size.'
   ifdGuid: 0BiTjU1BfABRWaYB_Wn6Xq
+  legacyGuid: 0BiTjU1BfABRWaYB_Wn6Xq
   localizations:
   - language: ja-JP
     name: 'セクションの数'
@@ -1160,3 +1204,5 @@ properties:
     dataType: IfcInteger
     measureType: ''
     unitType: INTEGERCOUNTRATEUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

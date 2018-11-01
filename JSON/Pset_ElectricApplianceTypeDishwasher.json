@@ -5,6 +5,7 @@
     "schema": "IfcElectricalDomain"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "Common properties for dishwasher appliances.  HISTORY: Added in IFC4.",
   "localizations": [
     {
@@ -49,6 +50,7 @@
       "name": "DishwasherType",
       "definition": "Type of dishwasher.",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "ja-JP",
@@ -386,6 +388,9 @@
             ]
           }
         ]
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

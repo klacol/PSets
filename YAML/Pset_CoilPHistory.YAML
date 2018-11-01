@@ -3,6 +3,7 @@ ifcVersion:
   version: 4.0.0.0
   schema: IfcHvacDomain
 ifdGuid: ''
+legacyGuid: ''
 definition: 'Coil performance history common attributes.Sound attribute deleted in IFC2x2 Pset Addendum: Use IfcSoundProperties instead.'
 localizations:
 - language: de-DE
@@ -29,7 +30,9 @@ applicableIfcClasses:
 properties:
 - name: AtmosphericPressure
   definition: Ambient atmospheric pressure.
-  ifdGuid: 2OTWBNq7b3eRiBNL4f$3q2
+  ifdGuid: ''
+  legacyGuid: 987602d7d07943a1bb0b5d5129fc3d02
+  legacyGuidAsIfcGlobalId: 2OTWBNq7b3eRiBNL4f$3q2
   localizations:
   - language: fr-FR
     name: 'Pression atmosphérique'
@@ -55,9 +58,13 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: AirPressureDropCurve
   definition: Air pressure drop curve, pressure drop – flow rate curve, AirPressureDrop = f (AirflowRate).
-  ifdGuid: 2ibfFInFv67BvgH3mLDeTY
+  ifdGuid: ''
+  legacyGuid: ac9693d2c4fe461cbe6a443c15368762
+  legacyGuidAsIfcGlobalId: 2ibfFInFv67BvgH3mLDeTY
   localizations:
   - language: fr-FR
     name: 'CourbePerteDeChargeAir'
@@ -83,9 +90,13 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: SoundCurve
   definition: Regenerated sound versus air-flow rate.
-  ifdGuid: 0CeLoPzDT6LPijvfSGrTzy
+  ifdGuid: ''
+  legacyGuid: 0ca15c99f4d746559b2de69710d5df7c
+  legacyGuidAsIfcGlobalId: 0CeLoPzDT6LPijvfSGrTzy
   localizations:
   - language: fr-FR
     name: 'CourbeSon'
@@ -111,9 +122,13 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: FaceVelocity
   definition: Air velocity through the coil.
-  ifdGuid: 07rhDL$1fDohcgZ0piAYJ5
+  ifdGuid: ''
+  legacyGuid: 07d6b355fc1a4dcab9aa8c0cec2a24c5
+  legacyGuidAsIfcGlobalId: 07rhDL$1fDohcgZ0piAYJ5
   localizations:
   - language: fr-FR
     name: 'VitesseFace'
@@ -139,3 +154,5 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

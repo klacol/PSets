@@ -5,6 +5,7 @@
     "schema": "IfcProductExtension"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "Properties common to the definition of all occurrences of IfcTransportElement with the predefined type =\"ELEVATOR\"",
   "localizations": [
     {
@@ -49,6 +50,7 @@
       "name": "FireFightingLift",
       "definition": "Indication whether the elevator is designed to serve as a fire fighting lift the case of fire (TRUE) or not (FALSE). A fire fighting lift is used by fire fighters to access the location of fire and to evacuate people.",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "de-DE",
@@ -85,12 +87,16 @@
         "dataType": "IfcBoolean",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "ClearWidth",
       "definition": "Clear width of the object (elevator). It indicates the distance from the inner surfaces of the elevator car left and right from the elevator door. The shape information is provided in addition to the shape representation and the geometric parameters used within. In cases of inconsistency between the geometric parameters and the shape properties, provided in the attached property, the geometric parameters take precedence.",
       "ifdGuid": "0cEog$KALEBf7OoXL73G6E",
+      "legacyGuid": "0cEog$KALEBf7OoXL73G6E",
       "localizations": [
         {
           "language": "fr-FR",
@@ -127,12 +133,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "ClearDepth",
       "definition": "Clear depth of the object (elevator). It indicates the distance from the inner surface of the elevator door to the opposite surface of the elevator car. The shape information is provided in addition to the shape representation and the geometric parameters used within. In cases of inconsistency between the geometric parameters and the shape properties, provided in the attached property, the geometric parameters take precedence.",
       "ifdGuid": "3GZ9P79VvBY9U_50cogjxy",
+      "legacyGuid": "3GZ9P79VvBY9U_50cogjxy",
       "localizations": [
         {
           "language": "fr-FR",
@@ -169,12 +179,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "ClearHeight",
       "definition": "Clear height of the object (elevator).  The shape information is provided in addition to the shape representation and the geometric parameters used within. In cases of inconsistency between the geometric parameters and the shape properties, provided in the attached property, the geometric parameters take precedence.",
       "ifdGuid": "0vm$ej4jPAs8nmoHPCgGep",
+      "legacyGuid": "0vm$ej4jPAs8nmoHPCgGep",
       "localizations": [
         {
           "language": "fr-FR",
@@ -211,6 +225,9 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

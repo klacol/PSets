@@ -3,6 +3,7 @@ ifcVersion:
   version: 4.0.0.0
   schema: IfcPlumbingFireProtectionDomain
 ifdGuid: ''
+legacyGuid: ''
 definition: 'Pipe fitting or assembly of fittings to receive surface water or waste water, fitted with a grating or sealed cover.'
 localizations:
 - language: de-DE
@@ -30,6 +31,7 @@ properties:
 - name: NominalSumpLength
   definition: Nominal or quoted length measured along the x-axis in the local coordinate system or the radius (in the case of a circular shape in plan) of the sump.
   ifdGuid: 2w5Z8KiE91feClr_0Mb8ya
+  legacyGuid: 2w5Z8KiE91feClr_0Mb8ya
   localizations:
   - language: ja-JP
     name: '汚水槽長さ'
@@ -53,9 +55,12 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: LENGTHUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: NominalSumpWidth
   definition: Nominal or quoted length measured along the y-axis in the local coordinate system of the sump.
   ifdGuid: 1gsD_F18T3DxKZh9Rx_gj4
+  legacyGuid: 1gsD_F18T3DxKZh9Rx_gj4
   localizations:
   - language: ja-JP
     name: '汚水槽幅'
@@ -79,9 +84,12 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: LENGTHUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: NominalSumpDepth
   definition: Nominal or quoted length measured along the z-axis in the local coordinate system of the sump.
   ifdGuid: 05w5Emx6jDNu3sv8t2AdAC
+  legacyGuid: 05w5Emx6jDNu3sv8t2AdAC
   localizations:
   - language: ja-JP
     name: '汚水槽深さ'
@@ -105,9 +113,12 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: LENGTHUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: GullyType
   definition: Identifies the predefined types of gully from which the type required may be set.
   ifdGuid: 3lEv_peqLBvgyB_ViHbNi4
+  legacyGuid: 3lEv_peqLBvgyB_ViHbNi4
   localizations:
   - language: ja-JP
     name: '溝種類'
@@ -218,9 +229,12 @@ properties:
       - language: ru-RU
         name: 'Unknown'
         definition: ''
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: TrapType
   definition: Identifies the predefined types of trap from which the type required may be set.
   ifdGuid: 2u9fqEQkTBDhn4kvC_tWuS
+  legacyGuid: 2u9fqEQkTBDhn4kvC_tWuS
   localizations:
   - language: ja-JP
     name: '防臭弁種類'
@@ -375,9 +389,12 @@ properties:
       - language: ru-RU
         name: 'Unknown'
         definition: ''
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: OutletConnectionSize
   definition: Size of the outlet connection from the object.
   ifdGuid: 3AHRtSCCv6zPMbPayiy1dc
+  legacyGuid: 3AHRtSCCv6zPMbPayiy1dc
   localizations:
   - language: ja-JP
     name: '排気口接続口'
@@ -401,9 +418,12 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: LENGTHUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: BackInletPatternType
   definition: Identifies the pattern of inlet connections to a gully trap.A gulley trap may have 0,1,2,3 or 4 inlet connections and the pattern of their arrangement may vary. The enumeration makes the convention that an outlet is either vertical or is placed at the bottom (south side) of the gully trap (when viewed in plan). Position 1 is to the left (west), position 2 is to the top (north), position 3 is to the right (east) and position 4 is to the bottom (south).               2               |   ----------------   !                       |1-|                       |-3   !                       |   ----------------               |              4
   ifdGuid: 3QmFNTUOr6LuJ1dNx114nR
+  legacyGuid: 3QmFNTUOr6LuJ1dNx114nR
   localizations:
   - language: ja-JP
     name: '背部接続口種類'
@@ -822,9 +842,12 @@ properties:
       - language: ru-RU
         name: 'Unknown'
         definition: ''
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: InletConnectionSize
   definition: Size of the inlet connection(s), where used, of the inlet connections.Note that all inlet connections are assumed to be the same size.
   ifdGuid: 1ZJWVlFNjAq8Kaemhi0SrT
+  legacyGuid: 1ZJWVlFNjAq8Kaemhi0SrT
   localizations:
   - language: ja-JP
     name: '吸気口接続口サイズ'
@@ -848,9 +871,12 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: LENGTHUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: CoverLength
   definition: The length measured along the x-axis in the local coordinate system or the radius (in the case of a circular shape in plan) of the cover of the gully trap.
   ifdGuid: 1o9A2xM1T3GeH$tCFzRqJu
+  legacyGuid: 1o9A2xM1T3GeH$tCFzRqJu
   localizations:
   - language: ja-JP
     name: 'カバーの長さ'
@@ -874,9 +900,12 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: LENGTHUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: CoverWidth
   definition: The length measured along the y-axis in the local coordinate system of the cover of the gully trap.
   ifdGuid: 0WrYJOZ3D6W9akAQuzmVpz
+  legacyGuid: 0WrYJOZ3D6W9akAQuzmVpz
   localizations:
   - language: ja-JP
     name: 'カバーの幅'
@@ -900,3 +929,5 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: LENGTHUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

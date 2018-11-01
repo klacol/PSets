@@ -3,6 +3,7 @@ ifcVersion:
   version: 4.0.0.0
   schema: IfcProductExtension
 ifdGuid: ''
+legacyGuid: ''
 definition: 'The following properties capture environmental impact values of an element. They correspond to the indicators defined into Pset_EnvironmentalImpactIndicators. Environmental impact values are obtained multiplying indicator value per unit by the relevant quantity of the element.'
 localizations:
 - language: de-DE
@@ -30,6 +31,7 @@ properties:
 - name: TotalPrimaryEnergyConsumption
   definition: Quantity of energy used as defined in ISO21930:2007.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: fr-FR
     name: 'ConsommationTotaleEnergiePrimaire'
@@ -56,9 +58,12 @@ properties:
     dataType: IfcEnergyMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: WaterConsumption
   definition: Quantity of water used.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: fr-FR
     name: 'ConsommationEau'
@@ -85,9 +90,12 @@ properties:
     dataType: IfcVolumeMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: HazardousWaste
   definition: Quantity of hazardous waste generated.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: fr-FR
     name: 'DechetsDangereux'
@@ -114,9 +122,12 @@ properties:
     dataType: IfcMassMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: NonHazardousWaste
   definition: Quantity of non hazardous waste generated.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: fr-FR
     name: 'DechetsNonDangereux'
@@ -143,9 +154,12 @@ properties:
     dataType: IfcMassMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: ClimateChange
   definition: Quantity of greenhouse gases emitted calculated in equivalent CO2.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: fr-FR
     name: 'ChangementClimatique'
@@ -172,9 +186,12 @@ properties:
     dataType: IfcMassMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: AtmosphericAcidification
   definition: Quantity of gases responsible for the atmospheric acidification calculated in equivalent SO2.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: fr-FR
     name: 'AcidificationAtmospherique'
@@ -201,9 +218,12 @@ properties:
     dataType: IfcMassMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: RenewableEnergyConsumption
   definition: Quantity of renewable energy used as defined in ISO21930:2007
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: fr-FR
     name: 'ConsommationEnergieRenouvelable'
@@ -230,9 +250,12 @@ properties:
     dataType: IfcEnergyMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: NonRenewableEnergyConsumption
   definition: Quantity of non-renewable energy used as defined in ISO21930:2007
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: fr-FR
     name: 'ConsommationEnergieNonRenouvelable'
@@ -259,9 +282,12 @@ properties:
     dataType: IfcEnergyMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: ResourceDepletion
   definition: Quantity of resources used calculated in equivalent antimony.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: fr-FR
     name: 'EpuisementRessources'
@@ -288,9 +314,12 @@ properties:
     dataType: IfcMassMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: InertWaste
   definition: Quantity of inert waste generated .
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: fr-FR
     name: 'DechetsInertes'
@@ -317,9 +346,12 @@ properties:
     dataType: IfcMassMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: RadioactiveWaste
   definition: Quantity of radioactive waste generated.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: fr-FR
     name: 'DechetsRadioactifs'
@@ -346,9 +378,12 @@ properties:
     dataType: IfcMassMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: StratosphericOzoneLayerDestruction
   definition: Quantity of gases destroying the stratospheric ozone layer calculated in equivalent CFC-R11.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: fr-FR
     name: 'DestructionCoucheOzoneStartospherique'
@@ -375,9 +410,12 @@ properties:
     dataType: IfcMassMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: PhotochemicalOzoneFormation
   definition: Quantity of gases creating the photochemical ozone calculated in equivalent ethylene.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: fr-FR
     name: 'FormationOzonePhotochimique'
@@ -404,9 +442,12 @@ properties:
     dataType: IfcMassMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: Eutrophication
   definition: Quantity of eutrophicating compounds calculated in equivalent PO4.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: fr-FR
     name: 'Eutrophisation'
@@ -433,3 +474,5 @@ properties:
     dataType: IfcMassMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

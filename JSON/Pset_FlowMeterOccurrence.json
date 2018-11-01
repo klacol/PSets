@@ -5,6 +5,7 @@
     "schema": "IfcHvacDomain"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "Flow meter occurrence common attributes.",
   "localizations": [
     {
@@ -49,6 +50,7 @@
       "name": "Purpose",
       "definition": "Enumeration defining the purpose of the flow meter occurrence.",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "de-DE",
@@ -270,6 +272,9 @@
             ]
           }
         ]
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

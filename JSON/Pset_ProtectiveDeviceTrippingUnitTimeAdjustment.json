@@ -5,6 +5,7 @@
     "schema": "IfcElectricalDomain"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "A set of time adjustment values that may be applied to an electronic or thermal tripping unit type.",
   "localizations": [
     {
@@ -49,6 +50,7 @@
       "name": "AdjustmentValueType",
       "definition": "The type of adjustment value that is applied through the property set. This determines the properties that should be asserted (see below).",
       "ifdGuid": "3uXpz9gT57DRdVsbzNTmsT",
+      "legacyGuid": "3uXpz9gT57DRdVsbzNTmsT",
       "localizations": [
         {
           "language": "ja-JP",
@@ -238,12 +240,16 @@
             ]
           }
         ]
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "AdjustmentRange",
       "definition": "Upper and lower time adjustment limits for an AdjustmentValueType = RANGE. Note that this property should not have a value for an  AdjustmentValueType = LIST.",
       "ifdGuid": "2hnzYmCn9DsAf6SLY1Wfn4",
+      "legacyGuid": "2hnzYmCn9DsAf6SLY1Wfn4",
       "localizations": [
         {
           "language": "ja-JP",
@@ -287,12 +293,16 @@
         "LowerBoundValue": "?",
         "UpperBoundValue": "?",
         "typeName": "TypePropertyBoundedValue"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "AdjustmentRangeStepValue",
       "definition": "Step value of time adjustment for an AdjustmentValueType = RANGE. Note that this property should not have a value for an  AdjustmentValueType = LIST.",
       "ifdGuid": "1OCZw3Rdr42R_yuIwT17it",
+      "legacyGuid": "1OCZw3Rdr42R_yuIwT17it",
       "localizations": [
         {
           "language": "ja-JP",
@@ -334,12 +344,16 @@
         "dataType": "IfcTimeMeasure",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "AdjustmentValues",
       "definition": "A list of time adjustment values that may be applied to a tripping unit for an AdjustmentValueType = LIST. A minimum of 1 and a maximum of 16 adjustment values may be specified. Note that this property should not have a value for an  AdjustmentValueType = RANGE.",
       "ifdGuid": "14Ms3iPE5D3hOibV$SXHqy",
+      "legacyGuid": "14Ms3iPE5D3hOibV$SXHqy",
       "localizations": [
         {
           "language": "ja-JP",
@@ -381,12 +395,16 @@
         "dataType": "IfcTimeMeasure",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "AdjustmentDesignation",
       "definition": "The desgnation on the device for the adjustment.",
       "ifdGuid": "1rKv8Wm0T0ouj3X6ZUIfVN",
+      "legacyGuid": "1rKv8Wm0T0ouj3X6ZUIfVN",
       "localizations": [
         {
           "language": "ja-JP",
@@ -428,12 +446,16 @@
         "dataType": "IfcLabel",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "CurrentForTimeDelay",
       "definition": "The tripping current in [x In] at which the time delay is specified. A value for this property should only be asserted for time delay of L-function, and for I2t of the S and G function.",
       "ifdGuid": "13xCuQGn5769KBMML85ih8",
+      "legacyGuid": "13xCuQGn5769KBMML85ih8",
       "localizations": [
         {
           "language": "ja-JP",
@@ -475,12 +497,16 @@
         "dataType": "IfcTimeMeasure",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "I2TApplicability",
       "definition": "The applicability of the time adjustment related to the tripping function.",
       "ifdGuid": "1riz7kpsP5NPxL93gFgCtZ",
+      "legacyGuid": "1riz7kpsP5NPxL93gFgCtZ",
       "localizations": [
         {
           "language": "ja-JP",
@@ -707,6 +733,9 @@
             ]
           }
         ]
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

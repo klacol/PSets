@@ -5,6 +5,7 @@
     "schema": "IfcElectricalDomain"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "A coherent set of attributes representing the breaking capacities of an MCB. Note - A protective device may be associated with different instances of this property set providing information related to different  basic characteristics.",
   "localizations": [
     {
@@ -49,6 +50,7 @@
       "name": "PowerLoss",
       "definition": "The power loss in [W] per pole of the MCB  when the nominal current is flowing through the MCB.",
       "ifdGuid": "3STWWpp7DCH9CPW4FhZYBG",
+      "legacyGuid": "3STWWpp7DCH9CPW4FhZYBG",
       "localizations": [
         {
           "language": "ja-JP",
@@ -90,12 +92,16 @@
         "dataType": "IfcPowerMeasure",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "VoltageLevel",
       "definition": "The voltage levels for which the data of the instance is valid. More than one value may be selected in the enumeration.",
       "ifdGuid": "24Nx0QyoLAju8g7YouIUki",
+      "legacyGuid": "24Nx0QyoLAju8g7YouIUki",
       "localizations": [
         {
           "language": "ja-JP",
@@ -433,12 +439,16 @@
             ]
           }
         ]
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "NominalCurrents",
       "definition": "A set of nominal currents in [A] for which the data of this instance is valid. At least one value shall be provided. Any value in the set shall not exceed the value of the UltimateRatedCurrent associated with the same breaker unit.",
       "ifdGuid": "3Hn1E2QZD0$eJe7qHTkECh",
+      "legacyGuid": "3Hn1E2QZD0$eJe7qHTkECh",
       "localizations": [
         {
           "language": "ja-JP",
@@ -480,12 +490,16 @@
         "dataType": "IfcElectricCurrentMeasure",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "ICU60947",
       "definition": "The ultimate breaking capacity in [A] for an MCB tested in accordance with the IEC 60947 series.",
       "ifdGuid": "2togVcB096RQOC1A9MQsGk",
+      "legacyGuid": "2togVcB096RQOC1A9MQsGk",
       "localizations": [
         {
           "language": "ja-JP",
@@ -527,12 +541,16 @@
         "dataType": "IfcElectricCurrentMeasure",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "ICS60947",
       "definition": "The service breaking capacity in [A] for an MCB tested in accordance with the IEC 60947 series.",
       "ifdGuid": "0D9nmr6s1ESfg3Y5yBslbu",
+      "legacyGuid": "0D9nmr6s1ESfg3Y5yBslbu",
       "localizations": [
         {
           "language": "ja-JP",
@@ -574,12 +592,16 @@
         "dataType": "IfcElectricCurrentMeasure",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "ICN60898",
       "definition": "The nominal breaking capacity in [A] for an MCB tested in accordance with the IEC 60898 series.",
       "ifdGuid": "2sgOYIpjv0SBeYs5taeHXK",
+      "legacyGuid": "2sgOYIpjv0SBeYs5taeHXK",
       "localizations": [
         {
           "language": "ja-JP",
@@ -621,12 +643,16 @@
         "dataType": "IfcElectricCurrentMeasure",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "ICS60898",
       "definition": "The service breaking capacity in [A] for an MCB tested in accordance with the IEC 60898 series.",
       "ifdGuid": "1SSLFBlFz79xEk88l85_Py",
+      "legacyGuid": "1SSLFBlFz79xEk88l85_Py",
       "localizations": [
         {
           "language": "ja-JP",
@@ -668,6 +694,9 @@
         "dataType": "IfcElectricCurrentMeasure",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

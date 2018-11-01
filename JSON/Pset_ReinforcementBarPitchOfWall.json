@@ -5,6 +5,7 @@
     "schema": "IfcStructuralElementsDomain"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "The pitch length information of reinforcement  bar with the wall.",
   "localizations": [
     {
@@ -49,6 +50,7 @@
       "name": "Description",
       "definition": "Description of the reinforcement.",
       "ifdGuid": "3rTavussT1whPakw6fP$WP",
+      "legacyGuid": "3rTavussT1whPakw6fP$WP",
       "localizations": [
         {
           "language": "ja-JP",
@@ -85,12 +87,16 @@
         "dataType": "IfcText",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "Reference",
       "definition": "A descriptive label for the general reinforcement type.",
       "ifdGuid": "1_982euEz7BxgdPixx2pQm",
+      "legacyGuid": "1_982euEz7BxgdPixx2pQm",
       "localizations": [
         {
           "language": "ja-JP",
@@ -127,12 +133,16 @@
         "dataType": "IfcLabel",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "BarAllocationType",
       "definition": "Defines the type of the reinforcement bar allocation.",
       "ifdGuid": "1YYhO6qAjDL9$X20HY7VQc",
+      "legacyGuid": "1YYhO6qAjDL9$X20HY7VQc",
       "localizations": [
         {
           "language": "ja-JP",
@@ -354,12 +364,16 @@
             ]
           }
         ]
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "VerticalBarPitch",
       "definition": "The pitch length of the vertical bar.",
       "ifdGuid": "3gEZBC795A_Qw$4rxIK3j3",
+      "legacyGuid": "3gEZBC795A_Qw$4rxIK3j3",
       "localizations": [
         {
           "language": "ja-JP",
@@ -396,12 +410,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "HorizontalBarPitch",
       "definition": "The pitch length of the horizontal bar.",
       "ifdGuid": "3OvdEo3Ar9g8yff3ABisDu",
+      "legacyGuid": "3OvdEo3Ar9g8yff3ABisDu",
       "localizations": [
         {
           "language": "ja-JP",
@@ -438,12 +456,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "SpacingBarPitch",
       "definition": "The pitch length of the spacing bar.",
       "ifdGuid": "3QNySXHEj9Q8XAW3DGEzoW",
+      "legacyGuid": "3QNySXHEj9Q8XAW3DGEzoW",
       "localizations": [
         {
           "language": "ja-JP",
@@ -480,6 +502,9 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

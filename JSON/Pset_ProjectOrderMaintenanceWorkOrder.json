@@ -5,6 +5,7 @@
     "schema": "IfcSharedMgmtElements"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "A MaintenanceWorkOrder is a detailed description of maintenance work that is to be performed. Note that the Scheduled Frequency property of the maintenance work order is used when the order is required as an instance of a scheduled work order.",
   "localizations": [
     {
@@ -49,6 +50,7 @@
       "name": "ProductDescription",
       "definition": "A textual description of the products that require the work.",
       "ifdGuid": "0ojTZYfO97t9K7AwgtRHH8",
+      "legacyGuid": "0ojTZYfO97t9K7AwgtRHH8",
       "localizations": [
         {
           "language": "de-DE",
@@ -85,12 +87,16 @@
         "dataType": "IfcText",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "WorkTypeRequested",
       "definition": "Work type requested in circumstances where there are categorizations of types of work task. It could be used to identify a remedial task, minor work task, electrical task etc.",
       "ifdGuid": "1rIU1SyC5D3xaOVvl99Hkq",
+      "legacyGuid": "1rIU1SyC5D3xaOVvl99Hkq",
       "localizations": [
         {
           "language": "de-DE",
@@ -127,12 +133,16 @@
         "dataType": "IfcText",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "ContractualType",
       "definition": "The contractual type of the work.",
       "ifdGuid": "23hAy4Hfz8wfWIc9LhDr2J",
+      "legacyGuid": "23hAy4Hfz8wfWIc9LhDr2J",
       "localizations": [
         {
           "language": "de-DE",
@@ -169,12 +179,16 @@
         "dataType": "IfcText",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "IfNotAccomplished",
       "definition": "Comments if the job is not accomplished.",
       "ifdGuid": "3FF6vTMVnFZftD05s56vpg",
+      "legacyGuid": "3FF6vTMVnFZftD05s56vpg",
       "localizations": [
         {
           "language": "de-DE",
@@ -211,12 +225,16 @@
         "dataType": "IfcText",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "MaintenaceType",
       "definition": "Identifies the predefined types of maintenance that can be done from which the type that generates the maintenance work order may be set where:ConditionBased: generated as a result of the condition of an asset or artefact being less than a determined value.Corrective: generated as a result of an immediate and urgent need for maintenance action.PlannedCorrective: generated as a result of immediate corrective action being needed but with sufficient time available for the work order to be included in maintenance planning.Scheduled: generated as a result of a fixed, periodic maintenance requirement.",
       "ifdGuid": "3pAR8ldz976fOGo0sNoETl",
+      "legacyGuid": "3pAR8ldz976fOGo0sNoETl",
       "localizations": [
         {
           "language": "de-DE",
@@ -475,12 +493,16 @@
             ]
           }
         ]
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "FaultPriorityType",
       "definition": "Identifies the predefined types of priority that can be assigned from which the type may be set where:High: action is required urgently.Medium: action can occur within a reasonable period of time.Low: action can occur when convenient.",
       "ifdGuid": "3N_2T$xRL3KODTvLCExoBS",
+      "legacyGuid": "3N_2T$xRL3KODTvLCExoBS",
       "localizations": [
         {
           "language": "de-DE",
@@ -702,12 +724,16 @@
             ]
           }
         ]
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "LocationPriorityType",
       "definition": "Identifies the predefined types of priority that can be assigned from which the type may be set where:High: action is required urgently.Medium: action can occur within a reasonable period of time.Low: action can occur when convenient.",
       "ifdGuid": "2Bn9bV7ur58x$TlxdX4lJD",
+      "legacyGuid": "2Bn9bV7ur58x$TlxdX4lJD",
       "localizations": [
         {
           "language": "de-DE",
@@ -929,12 +955,16 @@
             ]
           }
         ]
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "ScheduledFrequency",
       "definition": "The period of time between expected instantiations of a work order that may have been predefined.",
       "ifdGuid": "3UGmwxrKz6rA70BANLLjnB",
+      "legacyGuid": "3UGmwxrKz6rA70BANLLjnB",
       "localizations": [
         {
           "language": "de-DE",
@@ -971,6 +1001,9 @@
         "dataType": "IfcTimeMeasure",
         "measureType": "",
         "unitType": "TIMEUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

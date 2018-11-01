@@ -3,6 +3,7 @@ ifcVersion:
   version: 4.0.0.0
   schema: IfcHvacDomain
 ifdGuid: ''
+legacyGuid: ''
 definition: 'Smoke damper type attributes.Pset renamed from Pset_DamperTypeSmoke to Pset_DamperTypeSmokeDamper in IFC2x2 Pset Addendum.'
 localizations:
 - language: de-DE
@@ -30,6 +31,7 @@ properties:
 - name: ControlType
   definition: The type of control used to operate the damper (e.g., Open/Closed Indicator, Resetable Temperature Sensor, Temperature Override, etc.) .
   ifdGuid: 1UKgpnjtH0Kxv2BsNM_LsT
+  legacyGuid: 1UKgpnjtH0Kxv2BsNM_LsT
   localizations:
   - language: de-DE
     name: ''
@@ -53,3 +55,5 @@ properties:
     dataType: IfcLabel
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

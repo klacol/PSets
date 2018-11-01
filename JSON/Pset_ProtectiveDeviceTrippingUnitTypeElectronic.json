@@ -5,6 +5,7 @@
     "schema": "IfcElectricalDomain"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "Information on tripping units that are electronically tripped.",
   "localizations": [
     {
@@ -49,6 +50,7 @@
       "name": "ElectronicTrippingUnitType",
       "definition": "A list of the available types of electronic tripping unit  from which that required may be selected.",
       "ifdGuid": "2JkD6IHjXCQRieGSzJLrbW",
+      "legacyGuid": "2JkD6IHjXCQRieGSzJLrbW",
       "localizations": [
         {
           "language": "ja-JP",
@@ -349,12 +351,16 @@
             ]
           }
         ]
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "NominalCurrents",
       "definition": "A set of values providing information on available modules (chips) for setting the nominal current of the protective device. Ifthe set is empty, no nominal current modules are available for the tripping unit.",
       "ifdGuid": "2FpqVgFqH58BgeEnKXLJ_d",
+      "legacyGuid": "2FpqVgFqH58BgeEnKXLJ_d",
       "localizations": [
         {
           "language": "ja-JP",
@@ -396,12 +402,16 @@
         "dataType": "IfcElectricCurrentMeasure",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "N_Protection",
       "definition": "An indication whether the electronic tripping unit has separate protection for the N conductor, or not.",
       "ifdGuid": "12lnSWxz56PALoBDcptjjA",
+      "legacyGuid": "12lnSWxz56PALoBDcptjjA",
       "localizations": [
         {
           "language": "ja-JP",
@@ -443,12 +453,16 @@
         "dataType": "IfcBoolean",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "N_Protection_50",
       "definition": "An indication whether the electronic tripping unit is tripping if the current in the N conductor is more than 50% of that of the phase conductors. The property is only asserted if the property N_Protection is asserted.",
       "ifdGuid": "0Od7hiYbbDDB6E6uKg4SRb",
+      "legacyGuid": "0Od7hiYbbDDB6E6uKg4SRb",
       "localizations": [
         {
           "language": "ja-JP",
@@ -490,12 +504,16 @@
         "dataType": "IfcBoolean",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "N_Protection_100",
       "definition": "An indication whether the electronic tripping unit is tripping if the current in the N conductor is more than 100% of that of the phase conductors. The property is only asserted if the property N_Protection is asserted.",
       "ifdGuid": "1JOtKFQafB_xdEqQr2XEzu",
+      "legacyGuid": "1JOtKFQafB_xdEqQr2XEzu",
       "localizations": [
         {
           "language": "ja-JP",
@@ -537,12 +555,16 @@
         "dataType": "IfcBoolean",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "N_Protection_Select",
       "definition": "An indication whether the use of the N_Protection can be selected by the user or not. If both the properties N_Protection_50 and N_Protection_100 are asserted, the value of N_Protection_Select property is set to TRUE. The property is only asserted if the property N_Protection is asserted.",
       "ifdGuid": "3IFuhpQvnCN9zbCFFySzZx",
+      "legacyGuid": "3IFuhpQvnCN9zbCFFySzZx",
       "localizations": [
         {
           "language": "ja-JP",
@@ -584,6 +606,9 @@
         "dataType": "IfcBoolean",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

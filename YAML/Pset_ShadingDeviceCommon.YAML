@@ -3,6 +3,7 @@ ifcVersion:
   version: 4.0.0.0
   schema: IfcProductExtension
 ifdGuid: ''
+legacyGuid: ''
 definition: 'Shading device properties associated with an element that represents a shading device'
 localizations:
 - language: de-DE
@@ -32,6 +33,7 @@ properties:
 - name: Reference
   definition: Reference ID for this specified type in this project (e.g. type 'A-1'), provided, if there is no classification reference to a recognized classification system used.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: de-DE
     name: 'Bemusterungstyp'
@@ -55,9 +57,12 @@ properties:
     dataType: IfcIdentifier
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: Status
   definition: Status of the element, predominately used in renovation or retrofitting projects. The status can be assigned to as "New" - element designed as new addition, "Existing" - element exists and remains, "Demolish" - element existed but is to be demolished,  "Temporary" - element will exists only temporary (like a temporary support structure).
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: de-DE
     name: 'Status'
@@ -212,9 +217,12 @@ properties:
       - language: ru-RU
         name: 'Unknown'
         definition: ''
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: ShadingDeviceType
   definition: Specifies the type of shading device.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: de-DE
     name: 'Sonnenschutztyp'
@@ -369,9 +377,12 @@ properties:
       - language: ru-RU
         name: 'Unknown'
         definition: ''
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: IsExternal
   definition: Indication whether the element is designed for use in the exterior (TRUE) or not (FALSE). If (TRUE) it is an external element and faces the outside of the building.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: de-DE
     name: 'Außenbauteil'
@@ -395,9 +406,12 @@ properties:
     dataType: IfcBoolean
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: MechanicalOperated
   definition: Indication whether the element is operated machanically (TRUE) or not, i.e. manually  (FALSE).
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: de-DE
     name: 'Mechanisch'
@@ -421,9 +435,12 @@ properties:
     dataType: IfcBoolean
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: ThermalTransmittance
   definition: Thermal transmittance coefficient (U-Value) of a material of a certain thickness for this element.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: de-DE
     name: 'U-Wert'
@@ -447,9 +464,12 @@ properties:
     dataType: IfcThermalTransmittanceMeasure
     measureType: ''
     unitType: THERMALTRANSMITTANCEUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: SolarTransmittance
   definition: '(Tsol): The ratio of incident solar radiation that directly passes through a shading system (also named τe). Note the following equation Asol + Rsol + Tsol = 1'
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: de-DE
     name: 'Strahlungstransmissionsgrad'
@@ -473,9 +493,12 @@ properties:
     dataType: IfcPositiveRatioMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: VisibleLightTransmittance
   definition: Fraction of the visible light that passes the shading system  at normal incidence. It is a value without unit.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: de-DE
     name: 'Transmissionsgrad für sichtbares Licht'
@@ -499,9 +522,12 @@ properties:
     dataType: IfcPositiveRatioMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: SolarReflectance
   definition: '(Rsol): The ratio of incident solar radiation that is reflected by a shading system (also named ρe). Note the following equation Asol + Rsol + Tsol = 1'
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: de-DE
     name: 'Strahlungsreflectionsgrad'
@@ -525,9 +551,12 @@ properties:
     dataType: IfcPositiveRatioMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: VisibleLightReflectance
   definition: Fraction of the visible light that is reflected by the glazing at normal incidence. It is a value without unit.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: de-DE
     name: 'Reflektionsgrad für sichtbares Licht'
@@ -551,9 +580,12 @@ properties:
     dataType: IfcPositiveRatioMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: Roughness
   definition: A measure of the vertical deviations of the surface.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: de-DE
     name: 'Rauheit der Oberfläche'
@@ -577,9 +609,12 @@ properties:
     dataType: IfcLabel
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: SurfaceColor
   definition: The color of the surface.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: de-DE
     name: 'Oberflächenfarbe'
@@ -603,3 +638,5 @@ properties:
     dataType: IfcLabel
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

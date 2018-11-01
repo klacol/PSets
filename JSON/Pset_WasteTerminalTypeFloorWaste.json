@@ -5,6 +5,7 @@
     "schema": "IfcPlumbingFireProtectionDomain"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "Pipe fitting, set into the floor, that collects waste water and discharges it to a separate trap.",
   "localizations": [
     {
@@ -49,6 +50,7 @@
       "name": "NominalBodyLength",
       "definition": "Nominal or quoted length measured along the x-axis in the local coordinate system or the radius (in the case of a circular shape in plan) of the waste.",
       "ifdGuid": "1alOvBZ1z2IvYDnu3XfDti",
+      "legacyGuid": "1alOvBZ1z2IvYDnu3XfDti",
       "localizations": [
         {
           "language": "ja-JP",
@@ -85,12 +87,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "NominalBodyWidth",
       "definition": "Nominal or quoted length measured along the y-axis in the local coordinate system of the waste.",
       "ifdGuid": "2jHqrIOsTEsfoBNRkh7Tm3",
+      "legacyGuid": "2jHqrIOsTEsfoBNRkh7Tm3",
       "localizations": [
         {
           "language": "ja-JP",
@@ -127,12 +133,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "NominalBodyDepth",
       "definition": "Nominal or quoted length measured along the z-axis in the local coordinate system of the waste.",
       "ifdGuid": "0sBdCKaIrDzhtIFvkbfm0m",
+      "legacyGuid": "0sBdCKaIrDzhtIFvkbfm0m",
       "localizations": [
         {
           "language": "ja-JP",
@@ -169,12 +179,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "OutletConnectionSize",
       "definition": "Size of the outlet connection from the object.",
       "ifdGuid": "1GjK9DZez8cxE5pfIpKXbn",
+      "legacyGuid": "1GjK9DZez8cxE5pfIpKXbn",
       "localizations": [
         {
           "language": "ja-JP",
@@ -211,12 +225,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "CoverLength",
       "definition": "The length measured along the x-axis in the local coordinate system or the radius (in the case of a circular shape in plan) of the cover of the waste.",
       "ifdGuid": "2Ol7k7UP17tRj89uRIdlrz",
+      "legacyGuid": "2Ol7k7UP17tRj89uRIdlrz",
       "localizations": [
         {
           "language": "ja-JP",
@@ -253,12 +271,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "CoverWidth",
       "definition": "The length measured along the y-axis in the local coordinate system of the cover of the  waste.",
       "ifdGuid": "0rRFahMrvDjf4Ut6e0h2Ws",
+      "legacyGuid": "0rRFahMrvDjf4Ut6e0h2Ws",
       "localizations": [
         {
           "language": "ja-JP",
@@ -295,6 +317,9 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

@@ -5,6 +5,7 @@
     "schema": "IfcElectricalDomain"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "An open carrier segment on which cables are carried on a ladder structure.HISTORY: IFC4 - NominalLength deleted. To be handled as a quantity measure.",
   "localizations": [
     {
@@ -48,7 +49,9 @@
     {
       "name": "NominalWidth",
       "definition": "The nominal width of the segment.",
-      "ifdGuid": "16ce1TNAz56O14cWro8nt0",
+      "ifdGuid": "",
+      "legacyGuid": "469a805d5caf451980449a0d72231dc0",
+      "legacyGuidAsIfcGlobalId": "16ce1TNAz56O14cWro8nt0",
       "localizations": [
         {
           "language": "ja-JP",
@@ -90,12 +93,17 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "NominalHeight",
       "definition": "The nominal height of the segment.",
-      "ifdGuid": "31JBPtB4v0mOqdf$2Et6AP",
+      "ifdGuid": "",
+      "legacyGuid": "c14cb6772c4e40c18d27a7f08edc6299",
+      "legacyGuidAsIfcGlobalId": "31JBPtB4v0mOqdf$2Et6AP",
       "localizations": [
         {
           "language": "ja-JP",
@@ -137,12 +145,17 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "LadderConfiguration",
       "definition": "Description of the configuration of the ladder structure used.",
-      "ifdGuid": "03Os6O2qv1zB2jW$lVOBfs",
+      "ifdGuid": "",
+      "legacyGuid": "036361980b4e41f4b0ad83fbdf60ba76",
+      "legacyGuidAsIfcGlobalId": "03Os6O2qv1zB2jW$lVOBfs",
       "localizations": [
         {
           "language": "ja-JP",
@@ -184,6 +197,9 @@
         "dataType": "IfcText",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

@@ -5,6 +5,7 @@
     "schema": "IfcStructuralElementsDomain"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "Reinforcement Concrete parameter [ST-2]: The pitch length information of reinforcement  bar with the continuous footing.",
   "localizations": [
     {
@@ -49,6 +50,7 @@
       "name": "Description",
       "definition": "Description of the reinforcement.",
       "ifdGuid": "2W4HeaeVzDleW6qwf4j$HY",
+      "legacyGuid": "2W4HeaeVzDleW6qwf4j$HY",
       "localizations": [
         {
           "language": "ja-JP",
@@ -85,12 +87,16 @@
         "dataType": "IfcText",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "Reference",
       "definition": "A descriptive label for the general reinforcement type.",
       "ifdGuid": "3bBaufm6j0kAKBJ0ZRUu_q",
+      "legacyGuid": "3bBaufm6j0kAKBJ0ZRUu_q",
       "localizations": [
         {
           "language": "ja-JP",
@@ -127,12 +133,16 @@
         "dataType": "IfcLabel",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "CrossingUpperBarPitch",
       "definition": "The pitch length of the crossing upper bar.",
       "ifdGuid": "080qigwQ1AsvsLeU2CyglZ",
+      "legacyGuid": "080qigwQ1AsvsLeU2CyglZ",
       "localizations": [
         {
           "language": "ja-JP",
@@ -169,12 +179,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "CrossingLowerBarPitch",
       "definition": "The pitch length of the crossing lower bar.",
       "ifdGuid": "0fGEK$_Fv1UQVhi_QnyCX0",
+      "legacyGuid": "0fGEK$_Fv1UQVhi_QnyCX0",
       "localizations": [
         {
           "language": "ja-JP",
@@ -211,6 +225,9 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

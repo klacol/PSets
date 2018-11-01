@@ -5,6 +5,7 @@
     "schema": "IfcStructuralAnalysisDomain"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "Thickness parameters of a surface member (structural analysis item) with varying thickness, particularly with linearly varying thickness.  The thickness is interpolated/ extrapolated from three points.  The locations of these points are given either in local x,y coordinates of the surface member or in global X,Y,Z coordinates.  Either way, these points are required to be located within the face or at the bounds of the face  of the surface member, and they must not be located on a common line.  Local and global coordinates shall not be mixed within the same property set instance.",
   "localizations": [
     {
@@ -49,6 +50,7 @@
       "name": "Thickness1",
       "definition": "First thickness parameter of a surface member with varying thickness",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "de-DE",
@@ -85,12 +87,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "Location1Local",
       "definition": "Local x,y coordinates of the point in which Thickness1 is given",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "de-DE",
@@ -127,12 +133,16 @@
         "dataType": "IfcLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "Location1Global",
       "definition": "Global X,Y,Z coordinates of the point in which Thickness1 is given",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "de-DE",
@@ -169,12 +179,16 @@
         "dataType": "IfcLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "Thickness2",
       "definition": "Second thickness parameter of a surface member with varying thickness",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "de-DE",
@@ -211,12 +225,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "Location2Local",
       "definition": "Local x,y coordinates of the point in which Thickness2 is given",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "de-DE",
@@ -253,12 +271,16 @@
         "dataType": "IfcLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "Location2Global",
       "definition": "Global X,Y,Z coordinates of the point in which Thickness2 is given",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "de-DE",
@@ -295,12 +317,16 @@
         "dataType": "IfcLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "Thickness3",
       "definition": "Third thickness parameter of a surface member with varying thickness",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "de-DE",
@@ -337,12 +363,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "Location3Local",
       "definition": "Local x,y coordinates of the point in which Thickness3 is given",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "de-DE",
@@ -379,12 +409,16 @@
         "dataType": "IfcLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "Location3Global",
       "definition": "Global X,Y,Z coordinates of the point in which Thickness3 is given",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "de-DE",
@@ -421,6 +455,9 @@
         "dataType": "IfcLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

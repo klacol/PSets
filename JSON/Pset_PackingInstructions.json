@@ -5,6 +5,7 @@
     "schema": "IfcSharedMgmtElements"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "Packing instructions are specific instructions relating to the packing that is required for an artifact in the event of a move (or transport).",
   "localizations": [
     {
@@ -49,6 +50,7 @@
       "name": "PackingCareType",
       "definition": "Identifies the predefined types of care that may be required when handling the artefact during a move where:Fragile: artefact may be broken during a move through careless handling.HandleWithCare: artefact may be damaged during a move through careless handling.",
       "ifdGuid": "1t9Y3UuJL9g8xYFKXnCB1K",
+      "legacyGuid": "1t9Y3UuJL9g8xYFKXnCB1K",
       "localizations": [
         {
           "language": "ja-JP",
@@ -233,12 +235,16 @@
             ]
           }
         ]
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "WrappingMaterial",
       "definition": "Special requirements for material used to wrap an artefact.",
       "ifdGuid": "28a3BlxbLEnhsqS1JZXhJw",
+      "legacyGuid": "28a3BlxbLEnhsqS1JZXhJw",
       "localizations": [
         {
           "language": "ja-JP",
@@ -277,12 +283,16 @@
         "guid": "",
         "libraryName": "Industry Foundation Classes by buildingSMART International",
         "sectionref": "Core Schema"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "ContainerMaterial",
       "definition": "Special requirements for material used to contain an artefact.",
       "ifdGuid": "0eDpHf_gLDKei2Tl65mIRo",
+      "legacyGuid": "0eDpHf_gLDKei2Tl65mIRo",
       "localizations": [
         {
           "language": "ja-JP",
@@ -321,12 +331,16 @@
         "guid": "",
         "libraryName": "Industry Foundation Classes by buildingSMART International",
         "sectionref": "Core Schema"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "SpecialInstructions",
       "definition": "Special instructions for packing.",
       "ifdGuid": "1rfrAPK3j3V9VV2LQ9ySE3",
+      "legacyGuid": "1rfrAPK3j3V9VV2LQ9ySE3",
       "localizations": [
         {
           "language": "ja-JP",
@@ -363,6 +377,9 @@
         "dataType": "IfcText",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

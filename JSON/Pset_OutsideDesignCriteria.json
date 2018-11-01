@@ -5,6 +5,7 @@
     "schema": "IfcSharedBldgServiceElements"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "Outside air conditions used as the basis for calculating thermal loads at peak conditions, as well as the weather data location from which these conditions were obtained. HISTORY: New property set in IFC Release 1.0.",
   "localizations": [
     {
@@ -49,6 +50,7 @@
       "name": "HeatingDryBulb",
       "definition": "Outside dry bulb temperature for heating design.",
       "ifdGuid": "3JJbX1RQ98p87fZ0zjn1M4",
+      "legacyGuid": "3JJbX1RQ98p87fZ0zjn1M4",
       "localizations": [
         {
           "language": "ja-JP",
@@ -90,12 +92,16 @@
         "dataType": "IfcThermodynamicTemperatureMeasure",
         "measureType": "",
         "unitType": "THERMODYNAMICTEMPERATUREUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "HeatingWetBulb",
       "definition": "Outside wet bulb temperature for heating design.",
       "ifdGuid": "1GqFfP$iP3IAWZe3DCwYGO",
+      "legacyGuid": "1GqFfP$iP3IAWZe3DCwYGO",
       "localizations": [
         {
           "language": "ja-JP",
@@ -137,12 +143,16 @@
         "dataType": "IfcThermodynamicTemperatureMeasure",
         "measureType": "",
         "unitType": "THERMODYNAMICTEMPERATUREUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "HeatingDesignDay",
       "definition": "The month, day and time that has been selected for the heating design calculations.",
       "ifdGuid": "2XZV4R3cHCUwT_slwDikjM",
+      "legacyGuid": "2XZV4R3cHCUwT_slwDikjM",
       "localizations": [
         {
           "language": "ja-JP",
@@ -184,12 +194,16 @@
         "dataType": "IfcDateTime",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "CoolingDryBulb",
       "definition": "Outside dry bulb temperature for cooling design.",
       "ifdGuid": "0vF0peIiXE1x5WX_GrB32a",
+      "legacyGuid": "0vF0peIiXE1x5WX_GrB32a",
       "localizations": [
         {
           "language": "ja-JP",
@@ -231,12 +245,16 @@
         "dataType": "IfcThermodynamicTemperatureMeasure",
         "measureType": "",
         "unitType": "THERMODYNAMICTEMPERATUREUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "CoolingWetBulb",
       "definition": "Outside wet bulb temperature for cooling design.",
       "ifdGuid": "1X7e3Jjw125hzbhcQdfn4O",
+      "legacyGuid": "1X7e3Jjw125hzbhcQdfn4O",
       "localizations": [
         {
           "language": "ja-JP",
@@ -278,12 +296,16 @@
         "dataType": "IfcThermodynamicTemperatureMeasure",
         "measureType": "",
         "unitType": "THERMODYNAMICTEMPERATUREUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "CoolingDesignDay",
       "definition": "The month, day  and time that has been selected for the cooling design calculations.",
       "ifdGuid": "3fcYuytNTFne8k8bcN3j27",
+      "legacyGuid": "3fcYuytNTFne8k8bcN3j27",
       "localizations": [
         {
           "language": "ja-JP",
@@ -325,12 +347,16 @@
         "dataType": "IfcDateTime",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "WeatherDataStation",
       "definition": "The site weather data station description or reference to the data source from which weather data was obtained for use in calculations.",
       "ifdGuid": "1kly8ikwr2teAqXwP_HZcX",
+      "legacyGuid": "1kly8ikwr2teAqXwP_HZcX",
       "localizations": [
         {
           "language": "ja-JP",
@@ -372,12 +398,16 @@
         "dataType": "IfcText",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "WeatherDataDate",
       "definition": "The date for which the weather data was gathered.",
       "ifdGuid": "2nGrx3y3bEsBNiZnIo7ZBk",
+      "legacyGuid": "2nGrx3y3bEsBNiZnIo7ZBk",
       "localizations": [
         {
           "language": "ja-JP",
@@ -419,12 +449,16 @@
         "dataType": "IfcDateTime",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "BuildingThermalExposure",
       "definition": "The thermal exposure expected by the building based on surrounding site conditions.",
       "ifdGuid": "2NJnZHjCj63eN5RuIbdtc4",
+      "legacyGuid": "2NJnZHjCj63eN5RuIbdtc4",
       "localizations": [
         {
           "language": "ja-JP",
@@ -651,12 +685,16 @@
             ]
           }
         ]
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "PrevailingWindDirection",
       "definition": "The prevailing wind angle direction measured from True North (0 degrees) in a clockwise direction.",
       "ifdGuid": "1K7AR7IlX6Y8C8OxuIEACK",
+      "legacyGuid": "1K7AR7IlX6Y8C8OxuIEACK",
       "localizations": [
         {
           "language": "ja-JP",
@@ -698,12 +736,16 @@
         "dataType": "IfcPlaneAngleMeasure",
         "measureType": "",
         "unitType": "PLANEANGLEUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "PrevailingWindVelocity",
       "definition": "The design wind velocity coming from the direction specified by the PrevailingWindDirection attribute.",
       "ifdGuid": "1_F2Qwe0PA3R4GOw35csB1",
+      "legacyGuid": "1_F2Qwe0PA3R4GOw35csB1",
       "localizations": [
         {
           "language": "ja-JP",
@@ -745,6 +787,9 @@
         "dataType": "IfcLinearVelocityMeasure",
         "measureType": "",
         "unitType": "LINEARVELOCITYUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

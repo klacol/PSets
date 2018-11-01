@@ -3,6 +3,7 @@ ifcVersion:
   version: 4.0.0.0
   schema: IfcSharedBldgServiceElements
 ifdGuid: ''
+legacyGuid: ''
 definition: 'Consumption of utility resources, typically applied to the IfcBuilding instance, used to identify how much was consumed on I.e., a monthly basis.'
 localizations:
 - language: de-DE
@@ -30,6 +31,7 @@ properties:
 - name: Heat
   definition: The amount of heat energy consumed during the period specified in the time series.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: ko-KR
     name: '열 소비량'
@@ -58,9 +60,12 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: Electricity
   definition: The amount of electricity consumed during the period specified in the time series.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: ko-KR
     name: '전력 소비량'
@@ -89,9 +94,12 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: Water
   definition: The amount of water consumed during the period specified in the time series.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: ko-KR
     name: '물소비'
@@ -120,9 +128,12 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: Fuel
   definition: The amount of fuel consumed during the period specified in the time series.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: ko-KR
     name: '연료 소비량'
@@ -151,9 +162,12 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: Steam
   definition: The amount of steam consumed during the period specified in the time series.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: ko-KR
     name: '증기소비량'
@@ -182,3 +196,5 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

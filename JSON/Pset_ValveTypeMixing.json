@@ -5,6 +5,7 @@
     "schema": "IfcHvacDomain"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "A valve where typically the temperature of the outlet is determined by mixing hot and cold water inlet flows.",
   "localizations": [
     {
@@ -49,6 +50,7 @@
       "name": "MixerControl",
       "definition": "Defines the form of control of the mixing valve.",
       "ifdGuid": "0aok2wgoXFsg0oljnnIzg9",
+      "legacyGuid": "0aok2wgoXFsg0oljnnIzg9",
       "localizations": [
         {
           "language": "ja-JP",
@@ -270,12 +272,16 @@
             ]
           }
         ]
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "OutletConnectionSize",
       "definition": "The size of the pipework connection from the mixing valve.",
       "ifdGuid": "0tysabk3j0cuE4F85TpZfs",
+      "legacyGuid": "0tysabk3j0cuE4F85TpZfs",
       "localizations": [
         {
           "language": "ja-JP",
@@ -312,6 +318,9 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

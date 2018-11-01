@@ -5,6 +5,7 @@
     "schema": "IfcSharedFacilitiesElements"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "Defines properties of individual instances of manufactured products that may be given by the manufacturer.HISTORY: IFC4: AssemblyPlace property added. This property does not need to be asserted if Pset_ManufacturerTypeInformation is allocated to the type and the AssemblyPlace property is asserted there.",
   "localizations": [
     {
@@ -49,6 +50,7 @@
       "name": "AcquisitionDate",
       "definition": "The date that the manufactured item was purchased.",
       "ifdGuid": "1kuiqjs9jF4OooDPym4BZ2",
+      "legacyGuid": "1kuiqjs9jF4OooDPym4BZ2",
       "localizations": [
         {
           "language": "de-DE",
@@ -85,12 +87,16 @@
         "dataType": "IfcDate",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "BarCode",
       "definition": "The identity of the bar code given to an occurrence of the product.",
       "ifdGuid": "0$YZIN9PX8OBg$nGTzfFYC",
+      "legacyGuid": "0$YZIN9PX8OBg$nGTzfFYC",
       "localizations": [
         {
           "language": "de-DE",
@@ -127,12 +133,16 @@
         "dataType": "IfcIdentifier",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "SerialNumber",
       "definition": "The serial number assigned to an occurrence of a product.",
       "ifdGuid": "2wUVJJe1f1VvooLWIRNcJH",
+      "legacyGuid": "2wUVJJe1f1VvooLWIRNcJH",
       "localizations": [
         {
           "language": "de-DE",
@@ -169,12 +179,16 @@
         "dataType": "IfcIdentifier",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "BatchReference",
       "definition": "The identity of the batch reference from which an occurrence of a product is taken.",
       "ifdGuid": "0ziR8SKAz15xrEGyCGIgg0",
+      "legacyGuid": "0ziR8SKAz15xrEGyCGIgg0",
       "localizations": [
         {
           "language": "de-DE",
@@ -211,12 +225,16 @@
         "dataType": "IfcIdentifier",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "AssemblyPlace",
       "definition": "Enumeration defining where the assembly is intended to take place, either in a factory, other offsite location or on the building site.",
       "ifdGuid": "1NX2H7g_5E0etLgpsdZ7LC",
+      "legacyGuid": "1NX2H7g_5E0etLgpsdZ7LC",
       "localizations": [
         {
           "language": "de-DE",
@@ -438,6 +456,9 @@
             ]
           }
         ]
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

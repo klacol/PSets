@@ -3,6 +3,7 @@ ifcVersion:
   version: 4.0.0.0
   schema: IfcBuildingControlsDomain
 ifdGuid: ''
+legacyGuid: ''
 definition: 'A device that senses or detects wind speed and direction. HISTORY: Added in IFC4.'
 localizations:
 - language: de-DE
@@ -30,6 +31,7 @@ properties:
 - name: WindSensorType
   definition: Enumeration that Identifies the types of wind sensors that can be specified.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: ja-JP
     name: '風センサータイプ'
@@ -253,9 +255,12 @@ properties:
       - language: ru-RU
         name: 'Unknown'
         definition: ''
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: SetPointSpeed
   definition: The wind speed value to be sensed. Use IfcPropertyBoundedValue.SetPointValue to set the set point value.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: ja-JP
     name: '風速設定値'
@@ -282,3 +287,5 @@ properties:
     dataType: IfcLinearVelocityMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

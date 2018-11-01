@@ -5,6 +5,7 @@
     "schema": "IfcElectricalDomain"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "Indicates switch positions or levels over time, such as for energy management or surveillance.",
   "localizations": [
     {
@@ -49,6 +50,7 @@
       "name": "SetPoint",
       "definition": "Indicates the switch position over time according to Pset_SwitchingDeviceTypeCommon.SetPoint.",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "de-DE",
@@ -87,6 +89,9 @@
         "guid": "",
         "libraryName": "Industry Foundation Classes by buildingSMART International",
         "sectionref": "Core Schema"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

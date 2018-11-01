@@ -5,6 +5,7 @@
     "schema": "IfcSharedComponentElements"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "Shape properties specific to connecting accessories in truss form with diagonal cross-bars.",
   "localizations": [
     {
@@ -53,6 +54,7 @@
       "name": "DiagonalTrussHeight",
       "definition": "The overall height of the truss connector.",
       "ifdGuid": "36X9BU4Qr7EfEvqi0WIW4e",
+      "legacyGuid": "36X9BU4Qr7EfEvqi0WIW4e",
       "localizations": [
         {
           "language": "ja-JP",
@@ -94,12 +96,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "DiagonalTrussLength",
       "definition": "The overall length of the truss connector.",
       "ifdGuid": "3obppWKZrAHRjCewXiBARR",
+      "legacyGuid": "3obppWKZrAHRjCewXiBARR",
       "localizations": [
         {
           "language": "ja-JP",
@@ -141,12 +147,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "DiagonalTrussCrossBarSpacing",
       "definition": "The spacing between diagonal cross-bar sections.",
       "ifdGuid": "3ZXvGsSvDBDg69_nmbE30j",
+      "legacyGuid": "3ZXvGsSvDBDg69_nmbE30j",
       "localizations": [
         {
           "language": "ja-JP",
@@ -188,12 +198,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "DiagonalTrussBaseBarDiameter",
       "definition": "The nominal diameter of the base bar.",
       "ifdGuid": "2ZNabvXl9DiewbIjSHd4A_",
+      "legacyGuid": "2ZNabvXl9DiewbIjSHd4A_",
       "localizations": [
         {
           "language": "ja-JP",
@@ -235,12 +249,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "DiagonalTrussSecondaryBarDiameter",
       "definition": "The nominal diameter of the secondary bar.",
       "ifdGuid": "1CeKDsrLL1SR9Ig7hh84OG",
+      "legacyGuid": "1CeKDsrLL1SR9Ig7hh84OG",
       "localizations": [
         {
           "language": "ja-JP",
@@ -282,12 +300,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "DiagonalTrussCrossBarDiameter",
       "definition": "The nominal diameter of the diagonal cross-bars.",
       "ifdGuid": "2oziF6Hm5BfARTGmtbykql",
+      "legacyGuid": "2oziF6Hm5BfARTGmtbykql",
       "localizations": [
         {
           "language": "ja-JP",
@@ -329,6 +351,9 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

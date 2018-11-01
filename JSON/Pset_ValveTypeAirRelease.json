@@ -5,6 +5,7 @@
     "schema": "IfcHvacDomain"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "Valve used to release air from a pipe or fitting. Note that an air release valve is constrained to have a single port pattern",
   "localizations": [
     {
@@ -49,6 +50,7 @@
       "name": "IsAutomatic",
       "definition": "Indication of whether the valve is automatically operated (TRUE) or manually operated (FALSE).",
       "ifdGuid": "2rdOF2S29969_39RfvIzDO",
+      "legacyGuid": "2rdOF2S29969_39RfvIzDO",
       "localizations": [
         {
           "language": "ja-JP",
@@ -85,6 +87,9 @@
         "dataType": "IfcBoolean",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

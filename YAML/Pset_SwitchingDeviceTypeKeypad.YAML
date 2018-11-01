@@ -3,6 +3,7 @@ ifcVersion:
   version: 4.0.0.0
   schema: IfcElectricalDomain
 ifdGuid: ''
+legacyGuid: ''
 definition: 'A keypad is a switch supporting multiple functions.  HISTORY: Added in IFC4.'
 localizations:
 - language: de-DE
@@ -30,6 +31,7 @@ properties:
 - name: KeypadType
   definition: A list of the available types of keypad switch from which that required may be selected.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: ja-JP
     name: 'キーパッドタイプ'
@@ -143,3 +145,5 @@ properties:
       - language: ru-RU
         name: 'Unknown'
         definition: ''
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

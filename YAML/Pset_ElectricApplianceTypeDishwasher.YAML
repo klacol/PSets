@@ -3,6 +3,7 @@ ifcVersion:
   version: 4.0.0.0
   schema: IfcElectricalDomain
 ifdGuid: ''
+legacyGuid: ''
 definition: 'Common properties for dishwasher appliances.  HISTORY: Added in IFC4.'
 localizations:
 - language: de-DE
@@ -30,6 +31,7 @@ properties:
 - name: DishwasherType
   definition: Type of dishwasher.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: ja-JP
     name: '食器洗浄機のタイプ'
@@ -231,3 +233,5 @@ properties:
       - language: ru-RU
         name: 'Unset'
         definition: ''
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

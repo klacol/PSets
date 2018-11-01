@@ -5,6 +5,7 @@
     "schema": "IfcHvacDomain"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "Device that measures, indicates and sometimes records, the volume of oil that passes through it without interrupting the flow.",
   "localizations": [
     {
@@ -49,6 +50,7 @@
       "name": "ConnectionSize",
       "definition": "Defines the size of inlet and outlet pipe connections to the meter.",
       "ifdGuid": "0cosBHzzz61gKAODEKoKD8",
+      "legacyGuid": "0cosBHzzz61gKAODEKoKD8",
       "localizations": [
         {
           "language": "de-DE",
@@ -85,12 +87,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "MaximumFlowRate",
       "definition": "Maximum rate of flow which the meter is expected to pass.",
       "ifdGuid": "0A_jQYv8XBLR_YzeLghDG9",
+      "legacyGuid": "0A_jQYv8XBLR_YzeLghDG9",
       "localizations": [
         {
           "language": "de-DE",
@@ -127,6 +133,9 @@
         "dataType": "IfcVolumetricFlowRateMeasure",
         "measureType": "",
         "unitType": "VOLUMETRICFLOWRATEUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

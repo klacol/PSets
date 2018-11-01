@@ -5,6 +5,7 @@
     "schema": "IfcElectricalDomain"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "Electrical cable with a specific purpose to lead electric current within a circuit or any other electric construction. Includes all types of electric cables, mainly several electrical segments wrapped together, e.g. cable, tube, busbar. Note that the number of conductors within a cable is determined by an aggregation mechanism that aggregates the conductors within the cable. A single-core cable is defined in IEV 461-06-02 as being 'a cable having only one core'; a multiconductor cable is defined in IEV 461-06-03 as b eing 'a cable having more than one conductor, some of which may be uninsulated'; a mulicore cable is defined in IEV 461-06-04 as being 'a cable having more than one core'.",
   "localizations": [
     {
@@ -48,7 +49,9 @@
     {
       "name": "Standard",
       "definition": "The designation of the standard applicable for the definition of the Cable/Bus used.",
-      "ifdGuid": "0z06im8MD1tfNkht4L_Nkx",
+      "ifdGuid": "",
+      "legacyGuid": "3d006b30216341de95eeaf7115f97bbb",
+      "legacyGuidAsIfcGlobalId": "0z06im8MD1tfNkht4L_Nkx",
       "localizations": [
         {
           "language": "ja-JP",
@@ -90,12 +93,17 @@
         "dataType": "IfcLabel",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "NumberOfCores",
       "definition": "The number of cores in Cable/Bus.",
-      "ifdGuid": "1hw9AHkBPFsQVabcan2FzR",
+      "ifdGuid": "",
+      "legacyGuid": "6be89291b8b64fd9a7e496693108ff5b",
+      "legacyGuidAsIfcGlobalId": "1hw9AHkBPFsQVabcan2FzR",
       "localizations": [
         {
           "language": "ja-JP",
@@ -137,12 +145,17 @@
         "dataType": "IfcInteger",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "OverallDiameter",
       "definition": "The overall diameter of a Cable/Bus.",
-      "ifdGuid": "3Su2dxKon6GAo9Cp8MqeQ6",
+      "ifdGuid": "",
+      "legacyGuid": "dce029fb532c4640ac89333216d28686",
+      "legacyGuidAsIfcGlobalId": "3Su2dxKon6GAo9Cp8MqeQ6",
       "localizations": [
         {
           "language": "ja-JP",
@@ -184,12 +197,17 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "RatedVoltage",
       "definition": "The range of allowed voltage that a device is certified to handle. The upper bound of this value is the maximum.",
-      "ifdGuid": "2j1TdluX16Cwt2R6r6lX71",
+      "ifdGuid": "",
+      "legacyGuid": "ad05d9efe2104633adc26c6d46be11c1",
+      "legacyGuidAsIfcGlobalId": "2j1TdluX16Cwt2R6r6lX71",
       "localizations": [
         {
           "language": "ja-JP",
@@ -233,12 +251,17 @@
         "LowerBoundValue": "?",
         "UpperBoundValue": "?",
         "typeName": "TypePropertyBoundedValue"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "RatedTemperature",
       "definition": "The range of allowed temerature that a device is certified to handle. The upper bound of this value is the maximum.",
-      "ifdGuid": "1rleJQgvbBpQABOQNDtFtT",
+      "ifdGuid": "",
+      "legacyGuid": "75be84daab994bcda28b61a5cddcfddd",
+      "legacyGuidAsIfcGlobalId": "1rleJQgvbBpQABOQNDtFtT",
       "localizations": [
         {
           "language": "ja-JP",
@@ -282,12 +305,17 @@
         "LowerBoundValue": "?",
         "UpperBoundValue": "?",
         "typeName": "TypePropertyBoundedValue"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "ScreenDiameter",
       "definition": "The diameter of the screen around a cable or bus segment (if present).",
-      "ifdGuid": "2Fds4xSZf5s9r5LG8wWXny",
+      "ifdGuid": "",
+      "legacyGuid": "8f9f613b723a45d89d4555023a821c7c",
+      "legacyGuidAsIfcGlobalId": "2Fds4xSZf5s9r5LG8wWXny",
       "localizations": [
         {
           "language": "ja-JP",
@@ -329,12 +357,17 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "HasProtectiveEarth",
       "definition": "One core has protective earth marked insulation, Yellow/Green.",
-      "ifdGuid": "2063vDN1HDTw1IhN0eVbN9",
+      "ifdGuid": "",
+      "legacyGuid": "80183e4d5c144d77a052ad70287e55c9",
+      "legacyGuidAsIfcGlobalId": "2063vDN1HDTw1IhN0eVbN9",
       "localizations": [
         {
           "language": "ja-JP",
@@ -376,12 +409,17 @@
         "dataType": "IfcBoolean",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "MaximumOperatingTemperature",
       "definition": "The maximum temperature at which a cable or bus is certified to operate.",
-      "ifdGuid": "3tLXdbOAf9UOrXnS1CsRlj",
+      "ifdGuid": "",
+      "legacyGuid": "f75619e560aa49798d61c5c04cd9bbed",
+      "legacyGuidAsIfcGlobalId": "3tLXdbOAf9UOrXnS1CsRlj",
       "localizations": [
         {
           "language": "ja-JP",
@@ -423,12 +461,17 @@
         "dataType": "IfcThermodynamicTemperatureMeasure",
         "measureType": "",
         "unitType": "THERMODYNAMICTEMPERATUREUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "MaximumShortCircuitTemperature",
       "definition": "The maximum short circuit temperature at which a cable or bus is certified to operate.",
-      "ifdGuid": "0RaAmVWOz0Og0QhYm_2$tL",
+      "ifdGuid": "",
+      "legacyGuid": "1b90ac1f818f4062a01aae2c3e0bfdd5",
+      "legacyGuidAsIfcGlobalId": "0RaAmVWOz0Og0QhYm_2$tL",
       "localizations": [
         {
           "language": "ja-JP",
@@ -470,12 +513,17 @@
         "dataType": "IfcThermodynamicTemperatureMeasure",
         "measureType": "",
         "unitType": "THERMODYNAMICTEMPERATUREUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "SpecialConstruction",
       "definition": "Special construction capabilities like self-supporting, flat devidable cable or bus flat non devidable cable or bus supporting elements inside (steal, textile, concentric conductor). Note that materials used should be agreed between exchange participants before use.",
-      "ifdGuid": "0lIx6wrH5ESQAkUMCXDQgP",
+      "ifdGuid": "",
+      "legacyGuid": "2f4bb1bad5114e71a2ae79632135aa99",
+      "legacyGuidAsIfcGlobalId": "0lIx6wrH5ESQAkUMCXDQgP",
       "localizations": [
         {
           "language": "ja-JP",
@@ -517,12 +565,17 @@
         "dataType": "IfcLabel",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "Weight",
       "definition": "Weight of cable kg/km.",
-      "ifdGuid": "3LgQcxH9H4Q8Y7PbVnn6UG",
+      "ifdGuid": "",
+      "legacyGuid": "d5a9a9bb4494446888876657f1c46790",
+      "legacyGuidAsIfcGlobalId": "3LgQcxH9H4Q8Y7PbVnn6UG",
       "localizations": [
         {
           "language": "ja-JP",
@@ -564,12 +617,17 @@
         "dataType": "IfcMassMeasure",
         "measureType": "",
         "unitType": "MASSUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "SelfExtinguishing60332_1",
       "definition": "Self Extinguishing cable/core according to IEC 60332.1.",
-      "ifdGuid": "2cCP_2dUrEDgOUsiQ8MRH4",
+      "ifdGuid": "",
+      "legacyGuid": "a6319f829ded4e36a61edac68859b444",
+      "legacyGuidAsIfcGlobalId": "2cCP_2dUrEDgOUsiQ8MRH4",
       "localizations": [
         {
           "language": "ja-JP",
@@ -611,12 +669,17 @@
         "dataType": "IfcBoolean",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "SelfExtinguishing60332_3",
       "definition": "Self Extinguishing cable/core according to IEC 60332.3.",
-      "ifdGuid": "0WuSRxQHP5uBx1PB_gz7m7",
+      "ifdGuid": "",
+      "legacyGuid": "20e1c6fb691645e0bec164bfaaf47c07",
+      "legacyGuidAsIfcGlobalId": "0WuSRxQHP5uBx1PB_gz7m7",
       "localizations": [
         {
           "language": "ja-JP",
@@ -658,12 +721,17 @@
         "dataType": "IfcBoolean",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "HalogenProof",
       "definition": "Produces small amount of smoke and irritating Deaerator/Gas.",
-      "ifdGuid": "1b7VbXQj1658M21JuxB6t_",
+      "ifdGuid": "",
+      "legacyGuid": "651df9616ad046148582053e3b2c6dfe",
+      "legacyGuidAsIfcGlobalId": "1b7VbXQj1658M21JuxB6t_",
       "localizations": [
         {
           "language": "ja-JP",
@@ -705,12 +773,17 @@
         "dataType": "IfcBoolean",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "FunctionReliable",
       "definition": "Cable/bus maintain given properties/functions over a given (tested) time and conditions. According to IEC standard.",
-      "ifdGuid": "3V3y2rjV1Ev9YrXe7JuRAk",
+      "ifdGuid": "",
+      "legacyGuid": "df0fc0b5b5f04ee498b58681d3e1b2ae",
+      "legacyGuidAsIfcGlobalId": "3V3y2rjV1Ev9YrXe7JuRAk",
       "localizations": [
         {
           "language": "ja-JP",
@@ -752,6 +825,9 @@
         "dataType": "IfcBoolean",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

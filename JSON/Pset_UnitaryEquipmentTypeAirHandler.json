@@ -5,6 +5,7 @@
     "schema": "IfcHvacDomain"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "Air handler unitary equipment type attributes.Note that these attributes were formerly Pset_AirHandler prior to IFC2x2.",
   "localizations": [
     {
@@ -49,6 +50,7 @@
       "name": "AirHandlerConstruction",
       "definition": "Enumeration defining how the air handler might be fabricated.",
       "ifdGuid": "2rnj3PaF19yw8NHhLxg6if",
+      "legacyGuid": "2rnj3PaF19yw8NHhLxg6if",
       "localizations": [
         {
           "language": "ja-JP",
@@ -233,12 +235,16 @@
             ]
           }
         ]
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "AirHandlerFanCoilArrangement",
       "definition": "Enumeration defining the arrangement of the supply air fan and the cooling coil.",
       "ifdGuid": "0L08spsCb4JAjeD6rmwJWY",
+      "legacyGuid": "0L08spsCb4JAjeD6rmwJWY",
       "localizations": [
         {
           "language": "ja-JP",
@@ -423,12 +429,16 @@
             ]
           }
         ]
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "DualDeck",
       "definition": "Does the AirHandler have a dual deck? TRUE = Yes, FALSE = No.",
       "ifdGuid": "3VBOsvUbv3yQhPRXUpL9ww",
+      "legacyGuid": "3VBOsvUbv3yQhPRXUpL9ww",
       "localizations": [
         {
           "language": "ja-JP",
@@ -465,6 +475,9 @@
         "dataType": "IfcBoolean",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

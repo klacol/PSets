@@ -3,6 +3,7 @@ ifcVersion:
   version: 4.0.0.0
   schema: IfcSharedBldgElements
 ifdGuid: ''
+legacyGuid: ''
 definition: 'Properties common to the definition of all occurrences of IfcRampFlight.'
 localizations:
 - language: de-DE
@@ -32,6 +33,7 @@ properties:
 - name: Reference
   definition: Reference ID for this specified type in this project (e.g. type 'A-1'), Also referred to as "construction type". It should be provided as an alternative to the name of the "object type", if the software does not support object types.
   ifdGuid: 2g6bOmBDz2JvHBJwpZvYuj
+  legacyGuid: 2g6bOmBDz2JvHBJwpZvYuj
   localizations:
   - language: de-DE
     name: 'Bauteiltyp'
@@ -58,9 +60,12 @@ properties:
     dataType: IfcIdentifier
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: Status
   definition: Status of the element, predominately used in renovation or retrofitting projects. The status can be assigned to as "New" - element designed as new addition, "Existing" - element exists and remains, "Demolish" - element existed but is to be demolished,  "Temporary" - element will exists only temporary (like a temporary support structure).
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: de-DE
     name: 'Status'
@@ -215,9 +220,12 @@ properties:
       - language: ru-RU
         name: 'Unknown'
         definition: ''
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: Headroom
   definition: Actual headroom clearance for the passageway according to the current design. The shape information is provided in addition to the shape representation and the geometric parameters used within. In cases of inconsistency between the geometric parameters and the shape properties, provided in the attached property, the geometric parameters take precedence.
   ifdGuid: 2WpBrCEOLCKAXjBw2TSJry
+  legacyGuid: 2WpBrCEOLCKAXjBw2TSJry
   localizations:
   - language: de-DE
     name: 'Durchgangshöhe'
@@ -244,9 +252,12 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: LENGTHUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: ClearWidth
   definition: Actual clear width measured as the clear space for accessibility and egress; it is a measured distance betwen the two handrails or the wall and a handrail on a ramp.The shape information is provided in addition to the shape representation and the geometric parameters used within. In cases of inconsistency between the geometric parameters and the shape properties, provided in the attached property, the geometric parameters take precedence.
   ifdGuid: 2MbLN7x_5EpxkCSyh8pVzv
+  legacyGuid: 2MbLN7x_5EpxkCSyh8pVzv
   localizations:
   - language: de-DE
     name: 'Lichte Breite'
@@ -273,9 +284,12 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: LENGTHUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: Slope
   definition: Sloping angle of the object  - relative to horizontal (0.0 degrees). Actual maximum slope for the passageway according to the current design.The shape information is provided in addition to the shape representation and the geometric parameters used within. In cases of inconsistency between the geometric parameters and the shape properties, provided in the attached property, the geometric parameters take precedence.
   ifdGuid: 1QLq8VOpfFoBlSkf_TjwoE
+  legacyGuid: 1QLq8VOpfFoBlSkf_TjwoE
   localizations:
   - language: de-DE
     name: 'Neigung'
@@ -302,9 +316,12 @@ properties:
     dataType: IfcPlaneAngleMeasure
     measureType: ''
     unitType: PLANEANGLEUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: CounterSlope
   definition: 'Sloping angle of the object, measured perpendicular to the slope  - relative to horizontal (0.0 degrees). Actual maximum slope for the passageway measured perpendicular to the direction of travel according to the current design. The shape information is provided in addition to the shape representation and the geometric parameters used within. In cases of inconsistency between the geometric parameters and the shape properties, provided in the attached property, the geometric parameters take precedence. Note: new property in IFC4.'
   ifdGuid: 1exyHPAuDCR8$OZ9UyPHs6
+  legacyGuid: 1exyHPAuDCR8$OZ9UyPHs6
   localizations:
   - language: de-DE
     name: 'Gegenneigung'
@@ -331,3 +348,5 @@ properties:
     dataType: IfcPlaneAngleMeasure
     measureType: ''
     unitType: PLANEANGLEUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

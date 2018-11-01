@@ -3,6 +3,7 @@ ifcVersion:
   version: 4.0.0.0
   schema: IfcHvacDomain
 ifdGuid: ''
+legacyGuid: ''
 definition: 'Duct fitting occurrence attributes.'
 localizations:
 - language: de-DE
@@ -30,6 +31,7 @@ properties:
 - name: InteriorRoughnessCoefficient
   definition: The interior roughness of the duct fitting material.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: ja-JP
     name: '内面粗さ係数'
@@ -53,9 +55,12 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: LENGTHUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: HasLiner
   definition: TRUE if the fitting has interior duct insulating lining, FALSE if it does not.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: ja-JP
     name: '内張り有無'
@@ -79,9 +84,12 @@ properties:
     dataType: IfcBoolean
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: Color
   definition: 'The color of the duct segment.Note: This is typically used for any duct segments with a painted surface which is not otherwise specified as a covering.'
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: ja-JP
     name: '色'
@@ -105,3 +113,5 @@ properties:
     dataType: IfcLabel
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

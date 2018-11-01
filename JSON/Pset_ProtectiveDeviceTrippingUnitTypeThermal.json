@@ -5,6 +5,7 @@
     "schema": "IfcElectricalDomain"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "Information on tripping units that are thermally tripped.",
   "localizations": [
     {
@@ -49,6 +50,7 @@
       "name": "ThermalTrippingUnitType",
       "definition": "A list of the available types of thermal tripping unit  from which that required may be selected.",
       "ifdGuid": "386Fq2L8zFTBoRkFW20weO",
+      "legacyGuid": "386Fq2L8zFTBoRkFW20weO",
       "localizations": [
         {
           "language": "ja-JP",
@@ -312,12 +314,16 @@
             ]
           }
         ]
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "I1",
       "definition": "The (thermal) lower testing current limit in [x In], indicating that for currents lower than I1, the tripping time shall be longer than the associated tripping time, T2.",
       "ifdGuid": "3WfaP$Fxv0Mw3n68pBwUmu",
+      "legacyGuid": "3WfaP$Fxv0Mw3n68pBwUmu",
       "localizations": [
         {
           "language": "ja-JP",
@@ -359,12 +365,16 @@
         "dataType": "IfcReal",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "I2",
       "definition": "The (thermal) upper testing current limit in [x In], indicating that for currents larger than I2, the tripping time shall be shorter than the associated tripping time, T2.",
       "ifdGuid": "32T1fbEn5AHPbArTIATgOY",
+      "legacyGuid": "32T1fbEn5AHPbArTIATgOY",
       "localizations": [
         {
           "language": "ja-JP",
@@ -406,12 +416,16 @@
         "dataType": "IfcReal",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "T2",
       "definition": "The (thermal) testing time in [s] associated with the testing currents I1 and I2.",
       "ifdGuid": "2d0YBjbpDAzfhW9I36C32F",
+      "legacyGuid": "2d0YBjbpDAzfhW9I36C32F",
       "localizations": [
         {
           "language": "ja-JP",
@@ -453,12 +467,16 @@
         "dataType": "IfcTimeMeasure",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "DefinedTemperature",
       "definition": "The ambient temperature at which the thermal current/time-curve associated with this protection device is defined.",
       "ifdGuid": "2bbReFLyzDxPb04_zNuUtv",
+      "legacyGuid": "2bbReFLyzDxPb04_zNuUtv",
       "localizations": [
         {
           "language": "ja-JP",
@@ -500,12 +518,16 @@
         "dataType": "IfcThermodynamicTemperatureMeasure",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "TemperatureFactor",
       "definition": "The correction factor (typically measured as %/deg K) for adjusting the thermal current/time to an ambient temperature different from the value given by the defined temperature.",
       "ifdGuid": "2hfYjlBzT1dx_Au$QeSmpc",
+      "legacyGuid": "2hfYjlBzT1dx_Au$QeSmpc",
       "localizations": [
         {
           "language": "ja-JP",
@@ -547,12 +569,16 @@
         "dataType": "IfcRatioMeasure",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "CurveDesignation",
       "definition": "The designation of the trippingcurve given by the manufacturer. For a MCB the designation should be in accordance with the designations given in IEC 60898.",
       "ifdGuid": "2zfU3S2FT0ZxOBL1IeldV$",
+      "legacyGuid": "2zfU3S2FT0ZxOBL1IeldV$",
       "localizations": [
         {
           "language": "ja-JP",
@@ -594,6 +620,9 @@
         "dataType": "IfcLabel",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

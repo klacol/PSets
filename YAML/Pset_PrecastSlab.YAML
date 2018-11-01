@@ -3,6 +3,7 @@ ifcVersion:
   version: 4.0.0.0
   schema: IfcStructuralElementsDomain
 ifdGuid: ''
+legacyGuid: ''
 definition: 'Layout and component information defining how prestressed slab components are laid out in a precast slab assembly. The values are global defaults for the slab as a whole, but can be overridden by local placements of the individual com'
 localizations:
 - language: de-DE
@@ -31,6 +32,7 @@ properties:
 - name: TypeDesignator
   definition: Type designator for the precast concrete slab, expressing mainly the component type. Possible values are “Hollow-core”, “Double-tee”, “Flat plank”, etc.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: de-DE
     name: ''
@@ -54,9 +56,12 @@ properties:
     dataType: IfcLabel
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: ToppingType
   definition: Defines if a topping is applied and what kind. Values are “Full topping”, “Perimeter Wash”, “None”
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: de-DE
     name: ''
@@ -80,9 +85,12 @@ properties:
     dataType: IfcLabel
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: EdgeDistanceToFirstAxis
   definition: The distance from the left (‘West’) edge of the slab (in the direction of span of the components) to the axis of the first component.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: de-DE
     name: ''
@@ -106,9 +114,12 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: LENGTHUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: DistanceBetweenComponentAxes
   definition: The distance between the axes of the components, measured along the ‘South’ edge of the slab.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: de-DE
     name: ''
@@ -132,9 +143,12 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: LENGTHUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: AngleToFirstAxis
   definition: The angle of rotation of the axis of the first component relative to the ‘West’ edge of the slab.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: de-DE
     name: ''
@@ -158,9 +172,12 @@ properties:
     dataType: IfcPlaneAngleMeasure
     measureType: ''
     unitType: PLANEANGLEUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: AngleBetweenComponentAxes
   definition: The angle between the axes of each pair of components.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: de-DE
     name: ''
@@ -184,9 +201,12 @@ properties:
     dataType: IfcPlaneAngleMeasure
     measureType: ''
     unitType: PLANEANGLEUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: NominalThickness
   definition: The nominal overall thickness of the slab.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: de-DE
     name: ''
@@ -210,9 +230,12 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: LENGTHUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: NominalToppingThickness
   definition: The nominal thickness of the topping.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: de-DE
     name: ''
@@ -236,3 +259,5 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: LENGTHUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

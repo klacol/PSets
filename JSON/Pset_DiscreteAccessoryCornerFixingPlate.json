@@ -5,6 +5,7 @@
     "schema": "IfcSharedComponentElements"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "Properties specific to corner fixing plates.",
   "localizations": [
     {
@@ -53,6 +54,7 @@
       "name": "CornerFixingPlateLength",
       "definition": "The length of the L-shaped corner plate.",
       "ifdGuid": "0ydFPd$dX4yPRdoC3q80Vv",
+      "legacyGuid": "0ydFPd$dX4yPRdoC3q80Vv",
       "localizations": [
         {
           "language": "ja-JP",
@@ -94,12 +96,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "CornerFixingPlateThickness",
       "definition": "The thickness of the L-shaped corner plate.",
       "ifdGuid": "336uJw8b14$BOAsdMm$kcT",
+      "legacyGuid": "336uJw8b14$BOAsdMm$kcT",
       "localizations": [
         {
           "language": "ja-JP",
@@ -141,12 +147,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "CornerFixingPlateFlangeWidthInPlaneZ",
       "definition": "The flange width of the L-shaped corner plate in plane Z.",
       "ifdGuid": "3K24R5IwXD_8WeXr1tQT$T",
+      "legacyGuid": "3K24R5IwXD_8WeXr1tQT$T",
       "localizations": [
         {
           "language": "ja-JP",
@@ -188,12 +198,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "CornerFixingPlateFlangeWidthInPlaneX",
       "definition": "The flange width of the L-shaped corner plate in plane X.",
       "ifdGuid": "23KcS0oTXFO9l8j3bg5GN4",
+      "legacyGuid": "23KcS0oTXFO9l8j3bg5GN4",
       "localizations": [
         {
           "language": "ja-JP",
@@ -235,6 +249,9 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

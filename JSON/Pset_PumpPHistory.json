@@ -5,6 +5,7 @@
     "schema": "IfcHvacDomain"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "Pump performance history attributes.",
   "localizations": [
     {
@@ -49,6 +50,7 @@
       "name": "MechanicalEfficiency",
       "definition": "The pumps operational mechanical efficiency.",
       "ifdGuid": "3VI5L9mTv9we1T0Qt8b$oI",
+      "legacyGuid": "3VI5L9mTv9we1T0Qt8b$oI",
       "localizations": [
         {
           "language": "ja-JP",
@@ -87,12 +89,16 @@
         "guid": "",
         "libraryName": "Industry Foundation Classes by buildingSMART International",
         "sectionref": "Core Schema"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "OverallEfficiency",
       "definition": "The pump and motor overall operational efficiency.",
       "ifdGuid": "1vwwiszXDDiwrQRrAw9IXI",
+      "legacyGuid": "1vwwiszXDDiwrQRrAw9IXI",
       "localizations": [
         {
           "language": "ja-JP",
@@ -131,12 +137,16 @@
         "guid": "",
         "libraryName": "Industry Foundation Classes by buildingSMART International",
         "sectionref": "Core Schema"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "PressureRise",
       "definition": "The developed pressure.",
       "ifdGuid": "11$To2s9X508WFho7EDGxA",
+      "legacyGuid": "11$To2s9X508WFho7EDGxA",
       "localizations": [
         {
           "language": "ja-JP",
@@ -175,12 +185,16 @@
         "guid": "",
         "libraryName": "Industry Foundation Classes by buildingSMART International",
         "sectionref": "Core Schema"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "RotationSpeed",
       "definition": "Pump rotational speed.",
       "ifdGuid": "1ZECUj2w11Lv7lR_b8$L4L",
+      "legacyGuid": "1ZECUj2w11Lv7lR_b8$L4L",
       "localizations": [
         {
           "language": "ja-JP",
@@ -219,12 +233,16 @@
         "guid": "",
         "libraryName": "Industry Foundation Classes by buildingSMART International",
         "sectionref": "Core Schema"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "Flowrate",
       "definition": "The actual operational fluid flowrate.",
       "ifdGuid": "1HFcrsQp11FOwWkTAi3cFj",
+      "legacyGuid": "1HFcrsQp11FOwWkTAi3cFj",
       "localizations": [
         {
           "language": "ja-JP",
@@ -263,12 +281,16 @@
         "guid": "",
         "libraryName": "Industry Foundation Classes by buildingSMART International",
         "sectionref": "Core Schema"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "Power",
       "definition": "The actual power consumption of the pump.",
       "ifdGuid": "037Drft9PEJ8XcAqZd612q",
+      "legacyGuid": "037Drft9PEJ8XcAqZd612q",
       "localizations": [
         {
           "language": "ja-JP",
@@ -307,6 +329,9 @@
         "guid": "",
         "libraryName": "Industry Foundation Classes by buildingSMART International",
         "sectionref": "Core Schema"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

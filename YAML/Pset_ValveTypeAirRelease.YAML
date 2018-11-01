@@ -3,6 +3,7 @@ ifcVersion:
   version: 4.0.0.0
   schema: IfcHvacDomain
 ifdGuid: ''
+legacyGuid: ''
 definition: 'Valve used to release air from a pipe or fitting. Note that an air release valve is constrained to have a single port pattern'
 localizations:
 - language: de-DE
@@ -30,6 +31,7 @@ properties:
 - name: IsAutomatic
   definition: Indication of whether the valve is automatically operated (TRUE) or manually operated (FALSE).
   ifdGuid: 2rdOF2S29969_39RfvIzDO
+  legacyGuid: 2rdOF2S29969_39RfvIzDO
   localizations:
   - language: ja-JP
     name: '自動'
@@ -53,3 +55,5 @@ properties:
     dataType: IfcBoolean
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

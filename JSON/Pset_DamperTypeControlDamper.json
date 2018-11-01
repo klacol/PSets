@@ -5,6 +5,7 @@
     "schema": "IfcHvacDomain"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "Control damper type attributes.Pset renamed from Pset_DamperTypeControl to Pset_DamperTypeControlDamper in IFC2x2 Pset Addendum.",
   "localizations": [
     {
@@ -49,6 +50,7 @@
       "name": "TorqueRange",
       "definition": "Torque range: minimum operational torque to maximum allowable torque.",
       "ifdGuid": "2ygXEen4j2dPLmIvcNQqd6",
+      "legacyGuid": "2ygXEen4j2dPLmIvcNQqd6",
       "localizations": [
         {
           "language": "de-DE",
@@ -87,12 +89,16 @@
         "LowerBoundValue": "0",
         "UpperBoundValue": "?",
         "typeName": "TypePropertyBoundedValue"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "ControlDamperOperation",
       "definition": "The inherent characteristic of the control damper operation.",
       "ifdGuid": "3mFZ6V47X4kPbkT5zzZUvI",
+      "legacyGuid": "3mFZ6V47X4kPbkT5zzZUvI",
       "localizations": [
         {
           "language": "de-DE",
@@ -277,6 +283,9 @@
             ]
           }
         ]
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

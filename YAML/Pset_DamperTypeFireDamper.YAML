@@ -3,6 +3,7 @@ ifcVersion:
   version: 4.0.0.0
   schema: IfcHvacDomain
 ifdGuid: ''
+legacyGuid: ''
 definition: 'Fire damper type attributes.Pset renamed from Pset_DamperTypeFire to Pset_DamperTypeFireDamper in IFC2x2 Pset Addendum.'
 localizations:
 - language: de-DE
@@ -30,6 +31,7 @@ properties:
 - name: ActuationType
   definition: Enumeration that identifies the different types of dampers.
   ifdGuid: 3x0Jnz7C5E_vdFjMXdPBQT
+  legacyGuid: 3x0Jnz7C5E_vdFjMXdPBQT
   localizations:
   - language: de-DE
     name: ''
@@ -140,9 +142,12 @@ properties:
       - language: ru-RU
         name: 'Unknown'
         definition: ''
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: ClosureRatingEnum
   definition: Enumeration that identifies the closure rating for the damper.
   ifdGuid: 08B8GAuY9C8BGTgFxYdN7n
+  legacyGuid: 08B8GAuY9C8BGTgFxYdN7n
   localizations:
   - language: de-DE
     name: ''
@@ -253,9 +258,12 @@ properties:
       - language: ru-RU
         name: 'Unknown'
         definition: ''
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: FireResistanceRating
   definition: Measure of the fire resistance rating in hours (e.g., 1.5 hours, 2 hours, etc.).
   ifdGuid: 07$XdQJNXD2PJXkyO$xPxF
+  legacyGuid: 07$XdQJNXD2PJXkyO$xPxF
   localizations:
   - language: de-DE
     name: ''
@@ -279,9 +287,12 @@ properties:
     dataType: IfcLabel
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: FusibleLinkTemperature
   definition: The temperature that the fusible link melts.
   ifdGuid: 0kyT0_cJH2S8C8kS9EH08a
+  legacyGuid: 0kyT0_cJH2S8C8kS9EH08a
   localizations:
   - language: de-DE
     name: ''
@@ -305,3 +316,5 @@ properties:
     dataType: IfcThermodynamicTemperatureMeasure
     measureType: ''
     unitType: THERMODYNAMICTEMPERATUREUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

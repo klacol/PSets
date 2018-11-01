@@ -5,6 +5,7 @@
     "schema": "IfcSharedMgmtElements"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "Defines the requirements for purchase orders in a project.",
   "localizations": [
     {
@@ -49,6 +50,7 @@
       "name": "IsFOB",
       "definition": "Indication of whether contents of the purchase order are delivered 'Free on Board' (= True) or not (= False).",
       "ifdGuid": "1EIH_RFhv0aRYDLCAaEjq4",
+      "legacyGuid": "1EIH_RFhv0aRYDLCAaEjq4",
       "localizations": [
         {
           "language": "de-DE",
@@ -85,12 +87,16 @@
         "dataType": "IfcBoolean",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "ShipMethod",
       "definition": "Method of shipping that will be used for goods or services.",
       "ifdGuid": "09Je3yOOT6cvoegIREeivN",
+      "legacyGuid": "09Je3yOOT6cvoegIREeivN",
       "localizations": [
         {
           "language": "de-DE",
@@ -127,6 +133,9 @@
         "dataType": "IfcText",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

@@ -3,6 +3,7 @@ ifcVersion:
   version: 4.0.0.0
   schema: IfcMaterialResource
 ifdGuid: ''
+legacyGuid: ''
 definition: 'A set of general material properties.'
 localizations:
 - language: de-DE
@@ -30,6 +31,7 @@ properties:
 - name: MolecularWeight
   definition: Molecular weight of material (typically gas).
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: de-DE
     name: ''
@@ -53,9 +55,12 @@ properties:
     dataType: IfcMolecularWeightMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: Porosity
   definition: The void fraction of the total volume occupied by material (Vbr - Vnet)/Vbr.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: de-DE
     name: ''
@@ -79,9 +84,12 @@ properties:
     dataType: IfcNormalisedRatioMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: MassDensity
   definition: Material mass density.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: de-DE
     name: ''
@@ -105,3 +113,5 @@ properties:
     dataType: IfcMassDensityMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

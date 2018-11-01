@@ -5,6 +5,7 @@
     "schema": "IfcHvacDomain"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "Gutter segment type common attributes.",
   "localizations": [
     {
@@ -49,6 +50,7 @@
       "name": "Slope",
       "definition": "Angle of the gutter to allow for drainage.",
       "ifdGuid": "1WXrvvfjPE1uTNC1u$AVwh",
+      "legacyGuid": "1WXrvvfjPE1uTNC1u$AVwh",
       "localizations": [
         {
           "language": "ja-JP",
@@ -85,12 +87,16 @@
         "dataType": "IfcPlaneAngleMeasure",
         "measureType": "",
         "unitType": "PLANEANGLEUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "FlowRating",
       "definition": "Actual flow capacity for the gutter. Value of 0.00 means this value has not been set.",
       "ifdGuid": "2CZs9i3VH4UulnRVhoLhGU",
+      "legacyGuid": "2CZs9i3VH4UulnRVhoLhGU",
       "localizations": [
         {
           "language": "ja-JP",
@@ -127,6 +133,9 @@
         "dataType": "IfcVolumetricFlowRateMeasure",
         "measureType": "",
         "unitType": "VOLUMETRICFLOWRATEUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

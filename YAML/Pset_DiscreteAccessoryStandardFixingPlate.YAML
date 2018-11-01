@@ -3,6 +3,7 @@ ifcVersion:
   version: 4.0.0.0
   schema: IfcSharedComponentElements
 ifdGuid: ''
+legacyGuid: ''
 definition: 'Properties specific to standard fixing plates.'
 localizations:
 - language: de-DE
@@ -32,6 +33,7 @@ properties:
 - name: StandardFixingPlateWidth
   definition: The width of the standard fixing plate.
   ifdGuid: 3TxdXJr2H169fProBcLkA1
+  legacyGuid: 3TxdXJr2H169fProBcLkA1
   localizations:
   - language: ja-JP
     name: '幅'
@@ -58,9 +60,12 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: LENGTHUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: StandardFixingPlateDepth
   definition: The depth of the standard fixing plate.
   ifdGuid: 1G9KJ$2CHFsQhWS6YeVBe0
+  legacyGuid: 1G9KJ$2CHFsQhWS6YeVBe0
   localizations:
   - language: ja-JP
     name: '成'
@@ -87,9 +92,12 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: LENGTHUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: StandardFixingPlateThickness
   definition: The thickness of the standard fixing plate.
   ifdGuid: 0bMqCvXgT6OR8TZryCg42w
+  legacyGuid: 0bMqCvXgT6OR8TZryCg42w
   localizations:
   - language: ja-JP
     name: '板厚'
@@ -116,3 +124,5 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: LENGTHUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

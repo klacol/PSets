@@ -3,6 +3,7 @@ ifcVersion:
   version: 4.0.0.0
   schema: IfcKernel
 ifdGuid: ''
+legacyGuid: ''
 definition: 'A property set that enables further classification of actors, including the ability to give a number of actors to be designated as a population, the number being specified as a property to be dealt with as a single value rather than having to aggregate a number of instances of IfcActor.'
 localizations:
 - language: de-DE
@@ -29,7 +30,9 @@ applicableIfcClasses:
 properties:
 - name: NumberOfActors
   definition: The number of actors that are to be dealt with together in the population.
-  ifdGuid: 1UU_Uno4f6lBEqKvglOi0m
+  ifdGuid: ''
+  legacyGuid: 5e7be7b1c84a46bcb3b4539aaf62c030
+  legacyGuidAsIfcGlobalId: 1UU_Uno4f6lBEqKvglOi0m
   localizations:
   - language: ja-JP
     name: '関与者数'
@@ -56,9 +59,13 @@ properties:
     dataType: IfcCountMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: Category
   definition: Designation of the category into which the actors in the population belong.
-  ifdGuid: 1HnN8tcWfCDB_jvWrBa8TK
+  ifdGuid: ''
+  legacyGuid: 51c572379a0a4c34bfade60d4b908754
+  legacyGuidAsIfcGlobalId: 1HnN8tcWfCDB_jvWrBa8TK
   localizations:
   - language: ja-JP
     name: '部門'
@@ -85,9 +92,13 @@ properties:
     dataType: IfcLabel
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: SkillLevel
   definition: Skill level exhibited by the actor and which indicates an extent of their capability to perform actions on the artefacts upon which they can act.
-  ifdGuid: 32z3$G6KfDhPZbIOu722_u
+  ifdGuid: ''
+  legacyGuid: c2f43fd0194a4dad98e5498e07082fb8
+  legacyGuidAsIfcGlobalId: 32z3$G6KfDhPZbIOu722_u
   localizations:
   - language: ja-JP
     name: '技能段階'
@@ -114,3 +125,5 @@ properties:
     dataType: IfcLabel
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

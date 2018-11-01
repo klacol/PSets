@@ -3,6 +3,7 @@ ifcVersion:
   version: 4.0.0.0
   schema: IfcSharedFacilitiesElements
 ifdGuid: ''
+legacyGuid: ''
 definition: 'A set of specific properties for furniture type file cabinet HISTORY: First issued in IFC Release R1.5. Renamed from Pset_FileCabinet'
 localizations:
 - language: de-DE
@@ -30,6 +31,7 @@ properties:
 - name: WithLock
   definition: Indicates whether the file cabinet is lockable (= TRUE) or not (= FALSE).
   ifdGuid: 3pOmq1Ykz0mfIaZkWzb9qh
+  legacyGuid: 3pOmq1Ykz0mfIaZkWzb9qh
   localizations:
   - language: de-DE
     name: ''
@@ -53,3 +55,5 @@ properties:
     dataType: IfcBoolean
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

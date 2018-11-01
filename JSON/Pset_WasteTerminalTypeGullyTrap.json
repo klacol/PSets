@@ -5,6 +5,7 @@
     "schema": "IfcPlumbingFireProtectionDomain"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "Pipe fitting or assembly of fittings to receive surface water or waste water, fitted with a grating or sealed cover and discharging through a trap (BS6100 330 3504 modified)",
   "localizations": [
     {
@@ -49,6 +50,7 @@
       "name": "NominalBodyLength",
       "definition": "Nominal or quoted length measured along the x-axis in the local coordinate system or the radius (in the case of a circular shape in plan) of the chamber of the gully trap.",
       "ifdGuid": "3UTuByDCjATQvVL02vqDsP",
+      "legacyGuid": "3UTuByDCjATQvVL02vqDsP",
       "localizations": [
         {
           "language": "ja-JP",
@@ -85,12 +87,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "NominalBodyWidth",
       "definition": "Nominal or quoted length measured along the y-axis in the local coordinate system of the chamber of the gully trap.",
       "ifdGuid": "2p9ks6W413ZxF4DI_jg2ft",
+      "legacyGuid": "2p9ks6W413ZxF4DI_jg2ft",
       "localizations": [
         {
           "language": "ja-JP",
@@ -127,12 +133,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "NominalBodyDepth",
       "definition": "Nominal or quoted length measured along the z-axis in the local coordinate system of the chamber of the gully trap.",
       "ifdGuid": "3oMpth$yPChAeIy73CVWEw",
+      "legacyGuid": "3oMpth$yPChAeIy73CVWEw",
       "localizations": [
         {
           "language": "ja-JP",
@@ -169,12 +179,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "GullyType",
       "definition": "Identifies the predefined types of gully from which the type required may be set.",
       "ifdGuid": "1yIkMkxCfCtBflnSq7QhLj",
+      "legacyGuid": "1yIkMkxCfCtBflnSq7QhLj",
       "localizations": [
         {
           "language": "ja-JP",
@@ -359,12 +373,16 @@
             ]
           }
         ]
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "HasStrainer",
       "definition": "Indicates whether the gully trap has a strainer (= TRUE) or not (= FALSE).",
       "ifdGuid": "3IJX0wCwr5Y9rNjk_sL5cq",
+      "legacyGuid": "3IJX0wCwr5Y9rNjk_sL5cq",
       "localizations": [
         {
           "language": "ja-JP",
@@ -401,12 +419,16 @@
         "dataType": "IfcBoolean",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "TrapType",
       "definition": "Identifies the predefined types of trap from which the type required may be set.",
       "ifdGuid": "3Kps0vEJT2m8C_yls5RWx$",
+      "legacyGuid": "3Kps0vEJT2m8C_yls5RWx$",
       "localizations": [
         {
           "language": "ja-JP",
@@ -665,12 +687,16 @@
             ]
           }
         ]
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "OutletConnectionSize",
       "definition": "Size of the outlet connection from the object.",
       "ifdGuid": "3jLyfSQxPBoPNlqsSLcCSC",
+      "legacyGuid": "3jLyfSQxPBoPNlqsSLcCSC",
       "localizations": [
         {
           "language": "ja-JP",
@@ -707,12 +733,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "BackInletPatternType",
       "definition": "Identifies the pattern of inlet connections to a gully trap.A gulley trap may have 0,1,2,3 or 4 inlet connections and the pattern of their arrangement may vary. The enumeration makes the convention that an outlet is either vertical or is placed at the bottom (south side) of the gully trap (when viewed in plan). Position 1 is to the left (west), position 2 is to the top (north), position 3 is to the right (east) and position 4 is to the bottom (south).",
       "ifdGuid": "0Vq1BLC5z1xgxnOLbeyvX$",
+      "legacyGuid": "0Vq1BLC5z1xgxnOLbeyvX$",
       "localizations": [
         {
           "language": "de-DE",
@@ -1415,12 +1445,16 @@
             ]
           }
         ]
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "InletConnectionSize",
       "definition": "Size of the inlet connection(s), where used, of the inlet connections.Note that all inlet connections are assumed to be the same size.",
       "ifdGuid": "0i1nR46WL9V8McuNLxNnA5",
+      "legacyGuid": "0i1nR46WL9V8McuNLxNnA5",
       "localizations": [
         {
           "language": "ja-JP",
@@ -1457,12 +1491,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "CoverLength",
       "definition": "The length measured along the x-axis in the local coordinate system or the radius (in the case of a circular shape in plan) of the cover of the gully trap.",
       "ifdGuid": "3mH50RB$11T9NQVGGbAsUI",
+      "legacyGuid": "3mH50RB$11T9NQVGGbAsUI",
       "localizations": [
         {
           "language": "ja-JP",
@@ -1499,12 +1537,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "CoverWidth",
       "definition": "The length measured along the y-axis in the local coordinate system of the cover of the gully trap.",
       "ifdGuid": "1tNTVK6$9EjOberY7n6tJb",
+      "legacyGuid": "1tNTVK6$9EjOberY7n6tJb",
       "localizations": [
         {
           "language": "ja-JP",
@@ -1541,6 +1583,9 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

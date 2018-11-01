@@ -3,6 +3,7 @@ ifcVersion:
   version: 4.0.0.0
   schema: IfcSharedBldgElements
 ifdGuid: ''
+legacyGuid: ''
 definition: 'Properties common to the definition of all occurrences of IfcRamp.'
 localizations:
 - language: de-DE
@@ -32,6 +33,7 @@ properties:
 - name: Reference
   definition: Reference ID for this specified type in this project (e.g. type 'A-1'), Also referred to as "construction type". It should be provided as an alternative to the name of the "object type", if the software does not support object types.
   ifdGuid: 0y$f4z1mP61PY6Ygcys4Mn
+  legacyGuid: 0y$f4z1mP61PY6Ygcys4Mn
   localizations:
   - language: de-DE
     name: 'Bauteiltyp'
@@ -58,9 +60,12 @@ properties:
     dataType: IfcIdentifier
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: Status
   definition: Status of the element, predominately used in renovation or retrofitting projects. The status can be assigned to as "New" - element designed as new addition, "Existing" - element exists and remains, "Demolish" - element existed but is to be demolished,  "Temporary" - element will exists only temporary (like a temporary support structure).
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: de-DE
     name: 'Status'
@@ -215,9 +220,12 @@ properties:
       - language: ru-RU
         name: 'Unknown'
         definition: ''
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: RequiredHeadroom
   definition: Required headroom clearance for the passageway according to the applicable building code or additional requirements.
   ifdGuid: 37Hvq_D810SubReZj03hXk
+  legacyGuid: 37Hvq_D810SubReZj03hXk
   localizations:
   - language: de-DE
     name: 'erforderliche Durchgangshöhe'
@@ -244,9 +252,12 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: LENGTHUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: RequiredSlope
   definition: Required sloping angle of the object  - relative to horizontal (0.0 degrees).Required maximum slope for the passageway according to the applicable building code or additional requirements.
   ifdGuid: 28adyh9InAv8zS9Tx1btRe
+  legacyGuid: 28adyh9InAv8zS9Tx1btRe
   localizations:
   - language: de-DE
     name: 'erforderliche Neigung'
@@ -273,9 +284,12 @@ properties:
     dataType: IfcPlaneAngleMeasure
     measureType: ''
     unitType: PLANEANGLEUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: IsExternal
   definition: Indication whether the element is designed for use in the exterior (TRUE) or not (FALSE). If (TRUE) it is an external element and faces the outside of the building.
   ifdGuid: 070TfDJE5C49yoyTJ4LGCd
+  legacyGuid: 070TfDJE5C49yoyTJ4LGCd
   localizations:
   - language: de-DE
     name: 'Außenbauteil'
@@ -302,9 +316,12 @@ properties:
     dataType: IfcBoolean
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: FireRating
   definition: Fire rating for this object.It is given according to the national fire safety classification.
   ifdGuid: 2cyGqlr19DEwuoQPDTeroK
+  legacyGuid: 2cyGqlr19DEwuoQPDTeroK
   localizations:
   - language: de-DE
     name: 'Feuerwiderstandsklasse'
@@ -331,9 +348,12 @@ properties:
     dataType: IfcLabel
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: FireExit
   definition: Indication whether this object is designed to serve as an exit in the case of fire (TRUE) or not (FALSE).Here it defines an exit ramp in accordance to the national building code.
   ifdGuid: 30NxYilMT6nwHCAJgyj8Xi
+  legacyGuid: 30NxYilMT6nwHCAJgyj8Xi
   localizations:
   - language: de-DE
     name: 'Fluchtweg'
@@ -360,9 +380,12 @@ properties:
     dataType: IfcBoolean
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: HandicapAccessible
   definition: Indication that this object is designed to be accessible by the handicapped. Set to (TRUE) if this ramp is rated as handicap accessible  according the local building codes, otherwise (FALSE).
   ifdGuid: 1jyNC38LbAsRPT03DNsVVe
+  legacyGuid: 1jyNC38LbAsRPT03DNsVVe
   localizations:
   - language: de-DE
     name: 'Behindertengerecht'
@@ -389,9 +412,12 @@ properties:
     dataType: IfcBoolean
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: HasNonSkidSurface
   definition: Indication whether the surface finish is designed to prevent slippery (TRUE) or not (FALSE).
   ifdGuid: 1TMLVV01v2V9Kk5Sn7Ut3r
+  legacyGuid: 1TMLVV01v2V9Kk5Sn7Ut3r
   localizations:
   - language: de-DE
     name: 'Nichtrutschende Oberfläche'
@@ -418,3 +444,5 @@ properties:
     dataType: IfcBoolean
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

@@ -3,6 +3,7 @@ ifcVersion:
   version: 4.0.0.0
   schema: IfcElectricalDomain
 ifdGuid: ''
+legacyGuid: ''
 definition: 'Indicates switch positions or levels over time, such as for energy management or surveillance.'
 localizations:
 - language: de-DE
@@ -30,6 +31,7 @@ properties:
 - name: SetPoint
   definition: Indicates the switch position over time according to Pset_SwitchingDeviceTypeCommon.SetPoint.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: de-DE
     name: ''
@@ -55,3 +57,5 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

@@ -5,6 +5,7 @@
     "schema": "IfcBuildingControlsDomain"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "A device that senses or detects pressure. HISTORY: PressureSensorSensorSetPoint changed to SetPointPressure. Range, accuracy and time constant deleted.",
   "localizations": [
     {
@@ -49,6 +50,7 @@
       "name": "SetPointPressure",
       "definition": "The pressure value to be sensed. Use IfcPropertyBoundedValue.SetPointValue to set the set point value.",
       "ifdGuid": "2mqFX4WJH1Jeg7l$1q3co8",
+      "legacyGuid": "2mqFX4WJH1Jeg7l$1q3co8",
       "localizations": [
         {
           "language": "ja-JP",
@@ -92,12 +94,16 @@
         "LowerBoundValue": "?",
         "UpperBoundValue": "?",
         "typeName": "TypePropertyBoundedValue"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "IsSwitch",
       "definition": "Identifies if the sensor also functions as a switch at the set point (=TRUE) or not (= FALSE).",
       "ifdGuid": "2pLZ2aYOvDbx7ctfKdyDGW",
+      "legacyGuid": "2pLZ2aYOvDbx7ctfKdyDGW",
       "localizations": [
         {
           "language": "ja-JP",
@@ -139,6 +145,9 @@
         "dataType": "IfcBoolean",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

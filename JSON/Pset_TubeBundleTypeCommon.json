@@ -5,6 +5,7 @@
     "schema": "IfcHvacDomain"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "Tube bundle type common attributes.",
   "localizations": [
     {
@@ -49,6 +50,7 @@
       "name": "Reference",
       "definition": "Reference ID for this specified type in this project (e.g. type 'A-1').",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "ja-JP",
@@ -85,12 +87,16 @@
         "dataType": "IfcIdentifier",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "Status",
       "definition": "Status of the element, predominately used in renovation or retrofitting projects. The status can be assigned to as \"New\" - element designed as new addition, \"Existing\" - element exists and remains, \"Demolish\" - element existed but is to be demolished,  \"Temporary\" - element will exists only temporary (like a temporary support structure).",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "ja-JP",
@@ -349,12 +355,16 @@
             ]
           }
         ]
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "NumberOfRows",
       "definition": "Number of tube rows in the tube bundle assembly.",
       "ifdGuid": "3gnn4LboL6RAw_d79yvpJl",
+      "legacyGuid": "3gnn4LboL6RAw_d79yvpJl",
       "localizations": [
         {
           "language": "ja-JP",
@@ -391,12 +401,16 @@
         "dataType": "IfcInteger",
         "measureType": "",
         "unitType": "INTEGERCOUNTRATEUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "StaggeredRowSpacing",
       "definition": "Staggered tube row spacing.",
       "ifdGuid": "39FOV0PHX3FRu7dwjRCP_P",
+      "legacyGuid": "39FOV0PHX3FRu7dwjRCP_P",
       "localizations": [
         {
           "language": "ja-JP",
@@ -433,12 +447,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "InLineRowSpacing",
       "definition": "In-line tube row spacing.",
       "ifdGuid": "1N30FjPmT4ifVFqoxFRQqR",
+      "legacyGuid": "1N30FjPmT4ifVFqoxFRQqR",
       "localizations": [
         {
           "language": "ja-JP",
@@ -475,12 +493,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "NumberOfCircuits",
       "definition": "Number of parallel fluid tube circuits.",
       "ifdGuid": "0IatxKmxr3IgzplLQob9tJ",
+      "legacyGuid": "0IatxKmxr3IgzplLQob9tJ",
       "localizations": [
         {
           "language": "ja-JP",
@@ -517,12 +539,16 @@
         "dataType": "IfcInteger",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "FoulingFactor",
       "definition": "Fouling factor of the tubes in the tube bundle.",
       "ifdGuid": "1Z6mxJGLrBZQDW2$tAW3Nv",
+      "legacyGuid": "1Z6mxJGLrBZQDW2$tAW3Nv",
       "localizations": [
         {
           "language": "ja-JP",
@@ -559,12 +585,16 @@
         "dataType": "IfcThermalResistanceMeasure",
         "measureType": "",
         "unitType": "THERMALRESISTANCEUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "ThermalConductivity",
       "definition": "The thermal conductivity of the tube.",
       "ifdGuid": "0E7KnF3_5BahufIL3MSmSb",
+      "legacyGuid": "0E7KnF3_5BahufIL3MSmSb",
       "localizations": [
         {
           "language": "ja-JP",
@@ -601,12 +631,16 @@
         "dataType": "IfcThermalConductivityMeasure",
         "measureType": "",
         "unitType": "THERMALCONDUCTANCEUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "Length",
       "definition": "Length of the tubes in the tube bundle.",
       "ifdGuid": "0EMcel$Pb2xPd9GfVoiKrj",
+      "legacyGuid": "0EMcel$Pb2xPd9GfVoiKrj",
       "localizations": [
         {
           "language": "ja-JP",
@@ -643,12 +677,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "Volume",
       "definition": "Total volume of fluid in the tubes and their headers.",
       "ifdGuid": "2_B6Pw$NL8sO7tEMz4kiC5",
+      "legacyGuid": "2_B6Pw$NL8sO7tEMz4kiC5",
       "localizations": [
         {
           "language": "ja-JP",
@@ -685,12 +723,16 @@
         "dataType": "IfcVolumeMeasure",
         "measureType": "",
         "unitType": "VOLUMEUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "NominalDiameter",
       "definition": "Nominal diameter or width of the tubes in the tube bundle.",
       "ifdGuid": "2lBray1xb2iBjwREU1paM5",
+      "legacyGuid": "2lBray1xb2iBjwREU1paM5",
       "localizations": [
         {
           "language": "ja-JP",
@@ -727,12 +769,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "OutsideDiameter",
       "definition": "Actual outside diameter of the tube in the tube bundle.",
       "ifdGuid": "26olF$7Rz6GfdTb$JWwKIr",
+      "legacyGuid": "26olF$7Rz6GfdTb$JWwKIr",
       "localizations": [
         {
           "language": "ja-JP",
@@ -769,12 +815,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "InsideDiameter",
       "definition": "Actual inner diameter of the tube in the tube bundle.",
       "ifdGuid": "03ZC0bo5j1C9MUsGoYu_ce",
+      "legacyGuid": "03ZC0bo5j1C9MUsGoYu_ce",
       "localizations": [
         {
           "language": "ja-JP",
@@ -811,12 +861,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "HorizontalSpacing",
       "definition": "Horizontal spacing between tubes in the tube bundle.",
       "ifdGuid": "1FF$oZyH1F2fqOi$GvIWIq",
+      "legacyGuid": "1FF$oZyH1F2fqOi$GvIWIq",
       "localizations": [
         {
           "language": "ja-JP",
@@ -853,12 +907,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "VerticalSpacing",
       "definition": "Vertical spacing between tubes in the tube bundle.",
       "ifdGuid": "2YD$NY0k92OghRMLBQFw4v",
+      "legacyGuid": "2YD$NY0k92OghRMLBQFw4v",
       "localizations": [
         {
           "language": "ja-JP",
@@ -895,12 +953,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "HasTurbulator",
       "definition": "TRUE if the tube has a turbulator, FALSE if it does not.",
       "ifdGuid": "0wgPW4Z2D66B4lqcz9n_Le",
+      "legacyGuid": "0wgPW4Z2D66B4lqcz9n_Le",
       "localizations": [
         {
           "language": "ja-JP",
@@ -937,6 +999,9 @@
         "dataType": "IfcBoolean",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

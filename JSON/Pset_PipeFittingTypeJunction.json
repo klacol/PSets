@@ -5,6 +5,7 @@
     "schema": "IfcHvacDomain"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "Pipe fitting type attributes for junction shapes.",
   "localizations": [
     {
@@ -49,6 +50,7 @@
       "name": "JunctionType",
       "definition": "The type of junction. TEE=3 ports, CROSS = 4 ports.",
       "ifdGuid": "0N077P4Zb93Pko_oVwXc8h",
+      "legacyGuid": "0N077P4Zb93Pko_oVwXc8h",
       "localizations": [
         {
           "language": "ja-JP",
@@ -233,12 +235,16 @@
             ]
           }
         ]
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "JunctionLeftAngle",
       "definition": "The change of direction of flow for the left junction.",
       "ifdGuid": "1_Sr9D4IPCBPoHWTjh03H1",
+      "legacyGuid": "1_Sr9D4IPCBPoHWTjh03H1",
       "localizations": [
         {
           "language": "ja-JP",
@@ -275,12 +281,16 @@
         "dataType": "IfcPositivePlaneAngleMeasure",
         "measureType": "",
         "unitType": "PLANEANGLEUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "JunctionLeftRadius",
       "definition": "The radius of bending for the left junction.",
       "ifdGuid": "2Ley7JJOP6GBDWKyoL8CrS",
+      "legacyGuid": "2Ley7JJOP6GBDWKyoL8CrS",
       "localizations": [
         {
           "language": "ja-JP",
@@ -317,12 +327,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "JunctionRightAngle",
       "definition": "The change of direction of flow for the right junction where 0 indicates straight segment.",
       "ifdGuid": "1DI8vwEMbCR9AwIVJ3_K9L",
+      "legacyGuid": "1DI8vwEMbCR9AwIVJ3_K9L",
       "localizations": [
         {
           "language": "ja-JP",
@@ -359,12 +373,16 @@
         "dataType": "IfcPositivePlaneAngleMeasure",
         "measureType": "",
         "unitType": "PLANEANGLEUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "JunctionRightRadius",
       "definition": "The radius of bending for the right junction where 0 indicates sharp bend.",
       "ifdGuid": "2Y4IMQpdfFqvtaDWKCzThL",
+      "legacyGuid": "2Y4IMQpdfFqvtaDWKCzThL",
       "localizations": [
         {
           "language": "ja-JP",
@@ -401,6 +419,9 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

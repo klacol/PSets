@@ -3,6 +3,7 @@ ifcVersion:
   version: 4.0.0.0
   schema: IfcHvacDomain
 ifdGuid: ''
+legacyGuid: ''
 definition: 'Space heater type common attributes.SoundLevel attribute deleted in IFC2x2 Pset Addendum: Use IfcSoundProperties instead.  Properties added in IFC4.'
 localizations:
 - language: de-DE
@@ -30,6 +31,7 @@ properties:
 - name: Reference
   definition: Reference ID for this specified type in this project (e.g. type 'A-1').
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: ja-JP
     name: '参照記号'
@@ -53,9 +55,12 @@ properties:
     dataType: IfcIdentifier
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: Status
   definition: Status of the element, predominately used in renovation or retrofitting projects. The status can be assigned to as "New" - element designed as new addition, "Existing" - element exists and remains, "Demolish" - element existed but is to be demolished,  "Temporary" - element will exists only temporary (like a temporary support structure).
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: ja-JP
     name: '状態'
@@ -210,9 +215,12 @@ properties:
       - language: ru-RU
         name: 'Unknown'
         definition: ''
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: PlacementType
   definition: Indicates how the space heater is designed to be placed.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: ja-JP
     name: 'プレースメントタイプ'
@@ -367,9 +375,12 @@ properties:
       - language: ru-RU
         name: 'Unknown'
         definition: ''
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: TemperatureClassification
   definition: Enumeration defining the temperature classification of the space heater surface temperature.low temperature - surface temperature is relatively low, usually heated by hot water or electricity.high temperature - surface temperature is relatively high, usually heated by gas or steam.
   ifdGuid: 2GNWX1cxT8Wub2BANe3_9H
+  legacyGuid: 2GNWX1cxT8Wub2BANe3_9H
   localizations:
   - language: ja-JP
     name: '温度分類'
@@ -480,9 +491,12 @@ properties:
       - language: ru-RU
         name: 'Unknown'
         definition: ''
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: HeatTransferDimension
   definition: Indicates how heat is transmitted according to the shape of the space heater.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: ja-JP
     name: '熱伝達値'
@@ -615,9 +629,12 @@ properties:
       - language: ru-RU
         name: 'Unknown'
         definition: ''
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: HeatTransferMedium
   definition: Enumeration defining the heat transfer medium if applicable.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: ja-JP
     name: '熱媒体'
@@ -728,9 +745,12 @@ properties:
       - language: ru-RU
         name: 'Unknown'
         definition: ''
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: EnergySource
   definition: 'Enumeration defining the energy source or fuel combusted to generate heat if applicable.  Note: hydronic heaters shall use UNSET; dual-use hydronic/electric heaters shall use ELECTRICITY.'
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: ja-JP
     name: 'エネルギー源'
@@ -1017,9 +1037,12 @@ properties:
       - language: ru-RU
         name: 'Unknown'
         definition: ''
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: BodyMass
   definition: Overall body mass of the heater.
   ifdGuid: 0fPZQ2FST5WO1YiDa4dzJT
+  legacyGuid: 0fPZQ2FST5WO1YiDa4dzJT
   localizations:
   - language: ja-JP
     name: '本体重量'
@@ -1043,9 +1066,12 @@ properties:
     dataType: IfcMassMeasure
     measureType: ''
     unitType: MASSUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: ThermalMassHeatCapacity
   definition: Product of component mass and specific heat.
   ifdGuid: 2eKhGL95fBVxVjaVPLPrvK
+  legacyGuid: 2eKhGL95fBVxVjaVPLPrvK
   localizations:
   - language: ja-JP
     name: '保有熱容量'
@@ -1069,9 +1095,12 @@ properties:
     dataType: IfcReal
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: OutputCapacity
   definition: Total nominal heat output as listed by the manufacturer.
   ifdGuid: 3TNlbiEev7Ke_Uzr1gfLt0
+  legacyGuid: 3TNlbiEev7Ke_Uzr1gfLt0
   localizations:
   - language: ja-JP
     name: '出力'
@@ -1095,9 +1124,12 @@ properties:
     dataType: IfcPowerMeasure
     measureType: ''
     unitType: POWERUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: ThermalEfficiency
   definition: Overall Thermal Efficiency is defined as gross energy output of the heat transfer device divided by the energy input.
   ifdGuid: 13UfapOeD8t8xxgAkaxLed
+  legacyGuid: 13UfapOeD8t8xxgAkaxLed
   localizations:
   - language: ja-JP
     name: '熱効率'
@@ -1121,9 +1153,12 @@ properties:
     dataType: IfcNormalisedRatioMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: NumberOfPanels
   definition: Number of panels.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: ja-JP
     name: 'パネルの数'
@@ -1147,9 +1182,12 @@ properties:
     dataType: IfcInteger
     measureType: ''
     unitType: INTEGERCOUNTRATEUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: NumberOfSections
   definition: Number of vertical sections, measured in the direction of flow.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: ja-JP
     name: 'セクションの数'
@@ -1173,3 +1211,5 @@ properties:
     dataType: IfcInteger
     measureType: ''
     unitType: INTEGERCOUNTRATEUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

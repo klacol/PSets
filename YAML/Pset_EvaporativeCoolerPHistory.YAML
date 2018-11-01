@@ -3,6 +3,7 @@ ifcVersion:
   version: 4.0.0.0
   schema: IfcHvacDomain
 ifdGuid: ''
+legacyGuid: ''
 definition: 'Evaporative cooler performance history attributes.'
 localizations:
 - language: de-DE
@@ -30,6 +31,7 @@ properties:
 - name: WaterSumpTemperature
   definition: Water sump temperature.
   ifdGuid: 0e9OtBkFTCvxXWOk1KnQy3
+  legacyGuid: 0e9OtBkFTCvxXWOk1KnQy3
   localizations:
   - language: ja-JP
     name: '液温度'
@@ -55,9 +57,12 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: Effectiveness
   definition: Ratio of the change in dry bulb temperature of the (primary) air stream to the difference between the entering dry bulb temperature of the (primary) air and the wet-bulb temperature of the (secondary) air.
   ifdGuid: 2qOE8Hid944gb3tV$IbVUJ
+  legacyGuid: 2qOE8Hid944gb3tV$IbVUJ
   localizations:
   - language: ja-JP
     name: '効率'
@@ -83,9 +88,12 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: SensibleHeatTransferRate
   definition: Sensible heat transfer rate to primary air flow.
   ifdGuid: 0S0mO3Z9nEQAJX4YyF4PG6
+  legacyGuid: 0S0mO3Z9nEQAJX4YyF4PG6
   localizations:
   - language: ja-JP
     name: '顕熱交換量'
@@ -111,9 +119,12 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: LatentHeatTransferRate
   definition: Latent heat transfer rate to primary air flow.
   ifdGuid: 0gHAfdob1EzgfBgrtRToXP
+  legacyGuid: 0gHAfdob1EzgfBgrtRToXP
   localizations:
   - language: ja-JP
     name: '潜熱交換量'
@@ -139,9 +150,12 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: TotalHeatTransferRate
   definition: Total heat transfer rate to primary air flow.
   ifdGuid: 3tkMzzOizF1ReuB3P8WIHz
+  legacyGuid: 3tkMzzOizF1ReuB3P8WIHz
   localizations:
   - language: ja-JP
     name: '全熱交換量'
@@ -167,3 +181,5 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

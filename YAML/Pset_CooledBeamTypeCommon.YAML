@@ -3,6 +3,7 @@ ifcVersion:
   version: 4.0.0.0
   schema: IfcHvacDomain
 ifdGuid: ''
+legacyGuid: ''
 definition: 'Cooled beam common attributes.SoundLevel and SoundAttenuation attributes deleted in IFC2x2 Pset Addendum: Use IfcSoundProperties instead.'
 localizations:
 - language: de-DE
@@ -30,6 +31,7 @@ properties:
 - name: Reference
   definition: Reference ID for this specified type in this project (e.g. type 'A-1'), provided, if there is no classification reference to a recognized classification system used.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: ja-JP
     name: '参照記号'
@@ -53,9 +55,12 @@ properties:
     dataType: IfcIdentifier
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: Status
   definition: Status of the element, predominately used in renovation or retrofitting projects. The status can be assigned to as "New" - element designed as new addition, "Existing" - element exists and remains, "Demolish" - element existed but is to be demolished,  "Temporary" - element will exists only temporary (like a temporary support structure).
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: ja-JP
     name: '状態'
@@ -210,9 +215,12 @@ properties:
       - language: ru-RU
         name: 'Unknown'
         definition: ''
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: IsFreeHanging
   definition: Is it free hanging type (not mounted in a false ceiling)?
   ifdGuid: 0ZBZHtaiPDfusM6k2poOvg
+  legacyGuid: 0ZBZHtaiPDfusM6k2poOvg
   localizations:
   - language: de-DE
     name: ''
@@ -236,9 +244,12 @@ properties:
     dataType: IfcBoolean
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: WaterFlowControlSystemType
   definition: Factory fitted waterflow control system.
   ifdGuid: 12yc51WNf5lf9swEF0941N
+  legacyGuid: 12yc51WNf5lf9swEF0941N
   localizations:
   - language: de-DE
     name: ''
@@ -393,9 +404,12 @@ properties:
       - language: ru-RU
         name: 'Unknown'
         definition: ''
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: WaterPressureRange
   definition: Allowable water circuit working pressure range.
   ifdGuid: 1uvuFGTMf0UO0tSrdYT4yU
+  legacyGuid: 1uvuFGTMf0UO0tSrdYT4yU
   localizations:
   - language: de-DE
     name: ''
@@ -420,9 +434,12 @@ properties:
     LowerBoundValue: 0
     UpperBoundValue: '?'
     typeName: TypePropertyBoundedValue
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: NominalCoolingCapacity
   definition: Nominal cooling capacity.
   ifdGuid: 0dVc4rldjDjOS5fzYDT3dM
+  legacyGuid: 0dVc4rldjDjOS5fzYDT3dM
   localizations:
   - language: de-DE
     name: ''
@@ -446,9 +463,12 @@ properties:
     dataType: IfcPowerMeasure
     measureType: ''
     unitType: POWERUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: NominalSurroundingTemperatureCooling
   definition: Nominal surrounding temperature (refers to nominal cooling capacity).
   ifdGuid: 3v6yRKnSf1l8Y6fCV8rzBf
+  legacyGuid: 3v6yRKnSf1l8Y6fCV8rzBf
   localizations:
   - language: de-DE
     name: ''
@@ -472,9 +492,12 @@ properties:
     dataType: IfcThermodynamicTemperatureMeasure
     measureType: ''
     unitType: THERMODYNAMICTEMPERATUREUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: NominalSurroundingHumidityCooling
   definition: Nominal surrounding humidity (refers to nominal cooling capacity).
   ifdGuid: 3bp44_c8j0MBwYTnoJrOx6
+  legacyGuid: 3bp44_c8j0MBwYTnoJrOx6
   localizations:
   - language: de-DE
     name: ''
@@ -498,9 +521,12 @@ properties:
     dataType: IfcNormalisedRatioMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: NominalSupplyWaterTemperatureCooling
   definition: Nominal supply water temperature (refers to nominal cooling capacity).
   ifdGuid: 0c0kcPRWD5mxlNbThYgh2s
+  legacyGuid: 0c0kcPRWD5mxlNbThYgh2s
   localizations:
   - language: de-DE
     name: ''
@@ -524,9 +550,12 @@ properties:
     dataType: IfcThermodynamicTemperatureMeasure
     measureType: ''
     unitType: THERMODYNAMICTEMPERATUREUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: NominalReturnWaterTemperatureCooling
   definition: Nominal return water temperature (refers to nominal cooling capacity).
   ifdGuid: 2avfrkR_zELh57sAQEBg$Z
+  legacyGuid: 2avfrkR_zELh57sAQEBg$Z
   localizations:
   - language: de-DE
     name: ''
@@ -550,9 +579,12 @@ properties:
     dataType: IfcThermodynamicTemperatureMeasure
     measureType: ''
     unitType: THERMODYNAMICTEMPERATUREUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: NominalWaterFlowCooling
   definition: Nominal water flow (refers to nominal cooling capacity).
   ifdGuid: 1xOVlAy_f6owQ6jD6QoiSR
+  legacyGuid: 1xOVlAy_f6owQ6jD6QoiSR
   localizations:
   - language: de-DE
     name: ''
@@ -576,9 +608,12 @@ properties:
     dataType: IfcVolumetricFlowRateMeasure
     measureType: ''
     unitType: VOLUMETRICFLOWRATEUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: NominalHeatingCapacity
   definition: Nominal heating capacity.
   ifdGuid: 3PH4SlD$b6EASkC_myijua
+  legacyGuid: 3PH4SlD$b6EASkC_myijua
   localizations:
   - language: de-DE
     name: ''
@@ -602,9 +637,12 @@ properties:
     dataType: IfcPowerMeasure
     measureType: ''
     unitType: POWERUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: NominalSurroundingTemperatureHeating
   definition: Nominal surrounding temperature (refers to nominal heating capacity).
   ifdGuid: 3XjGl6_Xf35QjmjLIGpnW7
+  legacyGuid: 3XjGl6_Xf35QjmjLIGpnW7
   localizations:
   - language: de-DE
     name: ''
@@ -628,9 +666,12 @@ properties:
     dataType: IfcThermodynamicTemperatureMeasure
     measureType: ''
     unitType: THERMODYNAMICTEMPERATUREUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: NominalSupplyWaterTemperatureHeating
   definition: Nominal supply water temperature (refers to nominal heating capacity).
   ifdGuid: 0hS0zNuLn4Q8iQ3JA4t6yN
+  legacyGuid: 0hS0zNuLn4Q8iQ3JA4t6yN
   localizations:
   - language: de-DE
     name: ''
@@ -654,9 +695,12 @@ properties:
     dataType: IfcThermodynamicTemperatureMeasure
     measureType: ''
     unitType: THERMODYNAMICTEMPERATUREUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: NominalReturnWaterTemperatureHeating
   definition: Nominal return water temperature (refers to nominal heating capacity).
   ifdGuid: 20UnwMyYrBAx5$TVvaN1Lv
+  legacyGuid: 20UnwMyYrBAx5$TVvaN1Lv
   localizations:
   - language: de-DE
     name: ''
@@ -680,9 +724,12 @@ properties:
     dataType: IfcThermodynamicTemperatureMeasure
     measureType: ''
     unitType: THERMODYNAMICTEMPERATUREUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: NominalWaterFlowHeating
   definition: Nominal water flow (refers to nominal heating capacity).
   ifdGuid: 1HKDNQ1K14LQvTSLQP6wfd
+  legacyGuid: 1HKDNQ1K14LQvTSLQP6wfd
   localizations:
   - language: de-DE
     name: ''
@@ -706,9 +753,12 @@ properties:
     dataType: IfcVolumetricFlowRateMeasure
     measureType: ''
     unitType: VOLUMETRICFLOWRATEUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: IntegratedLightingType
   definition: Integrated lighting in cooled beam.
   ifdGuid: 0ATHIx4Jz1tgf4yPGEYsk6
+  legacyGuid: 0ATHIx4Jz1tgf4yPGEYsk6
   localizations:
   - language: de-DE
     name: ''
@@ -863,9 +913,12 @@ properties:
       - language: ru-RU
         name: 'Unknown'
         definition: ''
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: PipeConnectionEnum
   definition: The manner in which the pipe connection is made to the cooled beam.
   ifdGuid: 2yIlpLQyX2Mh9y2uLqhUgK
+  legacyGuid: 2yIlpLQyX2Mh9y2uLqhUgK
   localizations:
   - language: de-DE
     name: ''
@@ -1020,9 +1073,12 @@ properties:
       - language: ru-RU
         name: 'Unknown'
         definition: ''
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: FinishColor
   definition: Finish color for cooled beam.
   ifdGuid: 06sPC6dyLA18VvtFBluQC4
+  legacyGuid: 06sPC6dyLA18VvtFBluQC4
   localizations:
   - language: de-DE
     name: ''
@@ -1046,9 +1102,12 @@ properties:
     dataType: IfcLabel
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: CoilLength
   definition: Length of coil.
   ifdGuid: 0rR6xCA3zCxBh6enw7_Gwb
+  legacyGuid: 0rR6xCA3zCxBh6enw7_Gwb
   localizations:
   - language: de-DE
     name: ''
@@ -1072,9 +1131,12 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: LENGTHUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: CoilWidth
   definition: Width of coil.
   ifdGuid: 2oasTmKynCBQx50qFV8JM9
+  legacyGuid: 2oasTmKynCBQx50qFV8JM9
   localizations:
   - language: de-DE
     name: ''
@@ -1098,3 +1160,5 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: LENGTHUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

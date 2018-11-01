@@ -3,6 +3,7 @@ ifcVersion:
   version: 4.0.0.0
   schema: IfcStructuralElementsDomain
 ifdGuid: ''
+legacyGuid: ''
 definition: 'The pitch length information of reinforcement  bar with the column. The X and Y direction are based on the local coordinate system of building storey. The X and Y direction of the reinforcement bar are parallel to the X and Y axis of the IfcBuildingStorey''s local coordinate system, respectively.'
 localizations:
 - language: de-DE
@@ -30,6 +31,7 @@ properties:
 - name: Description
   definition: Description of the reinforcement.
   ifdGuid: 0rq9BBzuT8JxNbULbZslbn
+  legacyGuid: 0rq9BBzuT8JxNbULbZslbn
   localizations:
   - language: ja-JP
     name: '説明'
@@ -53,9 +55,12 @@ properties:
     dataType: IfcText
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: Reference
   definition: A descriptive label for the general reinforcement type.
   ifdGuid: 2Xf0ZcCSr29wgyzttt0gt7
+  legacyGuid: 2Xf0ZcCSr29wgyzttt0gt7
   localizations:
   - language: ja-JP
     name: '参照記号'
@@ -79,9 +84,12 @@ properties:
     dataType: IfcLabel
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: ReinforcementBarType
   definition: Defines the type of the reinforcement bar.
   ifdGuid: 2sB7re6DjEI9nd$fFFS2hL
+  legacyGuid: 2sB7re6DjEI9nd$fFFS2hL
   localizations:
   - language: ja-JP
     name: '補強筋タイプ'
@@ -192,9 +200,12 @@ properties:
       - language: ru-RU
         name: 'Unknown'
         definition: ''
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: HoopBarPitch
   definition: The pitch length of the hoop bar.
   ifdGuid: 37UCh8zhT3gxcmbDow3JWa
+  legacyGuid: 37UCh8zhT3gxcmbDow3JWa
   localizations:
   - language: ja-JP
     name: '帯筋間隔'
@@ -218,9 +229,12 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: LENGTHUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: XDirectionTieHoopBarPitch
   definition: The X direction pitch length of the tie hoop.
   ifdGuid: 2z3DK5kVnEjAS19eKvhE80
+  legacyGuid: 2z3DK5kVnEjAS19eKvhE80
   localizations:
   - language: ja-JP
     name: 'Ｘ方向巾止め筋間隔'
@@ -244,9 +258,12 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: LENGTHUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: XDirectionTieHoopCount
   definition: The number of bars with X direction tie hoop bars.
   ifdGuid: 1_KFwlC3fFLxakzlorqa7I
+  legacyGuid: 1_KFwlC3fFLxakzlorqa7I
   localizations:
   - language: ja-JP
     name: 'Ｘ方向巾止め筋本数'
@@ -270,9 +287,12 @@ properties:
     dataType: IfcInteger
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: YDirectionTieHoopBarPitch
   definition: The Y direction pitch length of the tie hoop.
   ifdGuid: 2l7YHJ$in8vwL0fZlNXqvi
+  legacyGuid: 2l7YHJ$in8vwL0fZlNXqvi
   localizations:
   - language: ja-JP
     name: 'Y方向巾止め筋間隔'
@@ -296,9 +316,12 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: LENGTHUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: YDirectionTieHoopCount
   definition: The number of bars with Y direction tie hoop bars.
   ifdGuid: 37g_fEuV5DcuGTWr9oX_C6
+  legacyGuid: 37g_fEuV5DcuGTWr9oX_C6
   localizations:
   - language: ja-JP
     name: 'Y方向巾止め筋本数'
@@ -322,3 +345,5 @@ properties:
     dataType: IfcInteger
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

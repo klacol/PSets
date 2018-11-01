@@ -5,6 +5,7 @@
     "schema": "IfcProductExtension"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "The following properties capture environmental impact values of an element. They correspond to the indicators defined into Pset_EnvironmentalImpactIndicators. Environmental impact values are obtained multiplying indicator value per unit by the relevant quantity of the element.",
   "localizations": [
     {
@@ -49,6 +50,7 @@
       "name": "TotalPrimaryEnergyConsumption",
       "definition": "Quantity of energy used as defined in ISO21930:2007.",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "fr-FR",
@@ -90,12 +92,16 @@
         "dataType": "IfcEnergyMeasure",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "WaterConsumption",
       "definition": "Quantity of water used.",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "fr-FR",
@@ -137,12 +143,16 @@
         "dataType": "IfcVolumeMeasure",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "HazardousWaste",
       "definition": "Quantity of hazardous waste generated.",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "fr-FR",
@@ -184,12 +194,16 @@
         "dataType": "IfcMassMeasure",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "NonHazardousWaste",
       "definition": "Quantity of non hazardous waste generated.",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "fr-FR",
@@ -231,12 +245,16 @@
         "dataType": "IfcMassMeasure",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "ClimateChange",
       "definition": "Quantity of greenhouse gases emitted calculated in equivalent CO2.",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "fr-FR",
@@ -278,12 +296,16 @@
         "dataType": "IfcMassMeasure",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "AtmosphericAcidification",
       "definition": "Quantity of gases responsible for the atmospheric acidification calculated in equivalent SO2.",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "fr-FR",
@@ -325,12 +347,16 @@
         "dataType": "IfcMassMeasure",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "RenewableEnergyConsumption",
       "definition": "Quantity of renewable energy used as defined in ISO21930:2007",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "fr-FR",
@@ -372,12 +398,16 @@
         "dataType": "IfcEnergyMeasure",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "NonRenewableEnergyConsumption",
       "definition": "Quantity of non-renewable energy used as defined in ISO21930:2007",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "fr-FR",
@@ -419,12 +449,16 @@
         "dataType": "IfcEnergyMeasure",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "ResourceDepletion",
       "definition": "Quantity of resources used calculated in equivalent antimony.",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "fr-FR",
@@ -466,12 +500,16 @@
         "dataType": "IfcMassMeasure",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "InertWaste",
       "definition": "Quantity of inert waste generated .",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "fr-FR",
@@ -513,12 +551,16 @@
         "dataType": "IfcMassMeasure",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "RadioactiveWaste",
       "definition": "Quantity of radioactive waste generated.",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "fr-FR",
@@ -560,12 +602,16 @@
         "dataType": "IfcMassMeasure",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "StratosphericOzoneLayerDestruction",
       "definition": "Quantity of gases destroying the stratospheric ozone layer calculated in equivalent CFC-R11.",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "fr-FR",
@@ -607,12 +653,16 @@
         "dataType": "IfcMassMeasure",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "PhotochemicalOzoneFormation",
       "definition": "Quantity of gases creating the photochemical ozone calculated in equivalent ethylene.",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "fr-FR",
@@ -654,12 +704,16 @@
         "dataType": "IfcMassMeasure",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "Eutrophication",
       "definition": "Quantity of eutrophicating compounds calculated in equivalent PO4.",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "fr-FR",
@@ -701,6 +755,9 @@
         "dataType": "IfcMassMeasure",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

@@ -5,6 +5,7 @@
     "schema": "IfcHvacDomain"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "Compressor performance history attributes.",
   "localizations": [
     {
@@ -48,7 +49,9 @@
     {
       "name": "CompressorCapacity",
       "definition": "The product of the  ideal capacity and the overall volumetric efficiency of the compressor.",
-      "ifdGuid": "3wTLpn07z7fPqYwLhegxIm",
+      "ifdGuid": "",
+      "legacyGuid": "fa755cf1007f47a59d22e95ae8abb4b0",
+      "legacyGuidAsIfcGlobalId": "3wTLpn07z7fPqYwLhegxIm",
       "localizations": [
         {
           "language": "fr-FR",
@@ -87,12 +90,17 @@
         "guid": "",
         "libraryName": "Industry Foundation Classes by buildingSMART International",
         "sectionref": "Core Schema"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "EnergyEfficiencyRatio",
       "definition": "Energy efficiency ratio (EER).",
-      "ifdGuid": "1t1ik8khbDNuh_WUX31VNc",
+      "ifdGuid": "",
+      "legacyGuid": "7706cb88bab94d5f8afe81e84305f5e6",
+      "legacyGuidAsIfcGlobalId": "1t1ik8khbDNuh_WUX31VNc",
       "localizations": [
         {
           "language": "fr-FR",
@@ -131,12 +139,17 @@
         "guid": "",
         "libraryName": "Industry Foundation Classes by buildingSMART International",
         "sectionref": "Core Schema"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "CoefficientOfPerformance",
       "definition": "Coefficient of performance (COP).",
-      "ifdGuid": "2xwfgqGfb2ufM8alvQfYbQ",
+      "ifdGuid": "",
+      "legacyGuid": "bbea9ab4429942e2958892fe5aa6295a",
+      "legacyGuidAsIfcGlobalId": "2xwfgqGfb2ufM8alvQfYbQ",
       "localizations": [
         {
           "language": "fr-FR",
@@ -175,12 +188,17 @@
         "guid": "",
         "libraryName": "Industry Foundation Classes by buildingSMART International",
         "sectionref": "Core Schema"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "VolumetricEfficiency",
       "definition": "Ratio of the actual volume of gas entering the compressor to the theoretical displacement of the compressor.",
-      "ifdGuid": "0biExZ1FLD5RPE$LfT7zS3",
+      "ifdGuid": "",
+      "legacyGuid": "25b0eee304f54d15b64efd5a5d1fd703",
+      "legacyGuidAsIfcGlobalId": "0biExZ1FLD5RPE$LfT7zS3",
       "localizations": [
         {
           "language": "fr-FR",
@@ -219,12 +237,17 @@
         "guid": "",
         "libraryName": "Industry Foundation Classes by buildingSMART International",
         "sectionref": "Core Schema"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "CompressionEfficiency",
       "definition": "Ratio of the work required for isentropic compression of the gas to the work delivered to the gas within the compression volume (as obtained by measurement).",
-      "ifdGuid": "1Dbi8v5JP0b8sustPUo2XI",
+      "ifdGuid": "",
+      "legacyGuid": "4d96c239153640948db8db765ec82852",
+      "legacyGuidAsIfcGlobalId": "1Dbi8v5JP0b8sustPUo2XI",
       "localizations": [
         {
           "language": "fr-FR",
@@ -263,12 +286,17 @@
         "guid": "",
         "libraryName": "Industry Foundation Classes by buildingSMART International",
         "sectionref": "Core Schema"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "MechanicalEfficiency",
       "definition": "Ratio of the work (as measured) delivered to the gas to the work input to the compressor shaft.",
-      "ifdGuid": "1I3V7vKH9BTfpkXzcKlZnX",
+      "ifdGuid": "",
+      "legacyGuid": "520df1f951124b769cee87d994be3c61",
+      "legacyGuidAsIfcGlobalId": "1I3V7vKH9BTfpkXzcKlZnX",
       "localizations": [
         {
           "language": "fr-FR",
@@ -307,12 +335,17 @@
         "guid": "",
         "libraryName": "Industry Foundation Classes by buildingSMART International",
         "sectionref": "Core Schema"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "IsentropicEfficiency",
       "definition": "Ratio of the work required for isentropic compression of the gas to work input to the compressor shaft.",
-      "ifdGuid": "2zPXjRXkLAkhgn$cZcCTF0",
+      "ifdGuid": "",
+      "legacyGuid": "bd661b5b86e54ababab1fe68e631d3c0",
+      "legacyGuidAsIfcGlobalId": "2zPXjRXkLAkhgn$cZcCTF0",
       "localizations": [
         {
           "language": "fr-FR",
@@ -351,12 +384,17 @@
         "guid": "",
         "libraryName": "Industry Foundation Classes by buildingSMART International",
         "sectionref": "Core Schema"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "CompressorTotalEfficiency",
       "definition": "Ratio of the thermal cooling capacity to electrical input.",
-      "ifdGuid": "04qBS6SgX9fOJM0mnNnHmw",
+      "ifdGuid": "",
+      "legacyGuid": "04d0b70672a849a584d6030c57c51c3a",
+      "legacyGuidAsIfcGlobalId": "04qBS6SgX9fOJM0mnNnHmw",
       "localizations": [
         {
           "language": "fr-FR",
@@ -395,12 +433,17 @@
         "guid": "",
         "libraryName": "Industry Foundation Classes by buildingSMART International",
         "sectionref": "Core Schema"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "ShaftPower",
       "definition": "The actual shaft power input to the compressor.",
-      "ifdGuid": "0ehPsyddDBuOYDcvJBHOic",
+      "ifdGuid": "",
+      "legacyGuid": "28ad9dbc9e734be1888d9b94cb458b26",
+      "legacyGuidAsIfcGlobalId": "0ehPsyddDBuOYDcvJBHOic",
       "localizations": [
         {
           "language": "fr-FR",
@@ -439,12 +482,17 @@
         "guid": "",
         "libraryName": "Industry Foundation Classes by buildingSMART International",
         "sectionref": "Core Schema"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "InputPower",
       "definition": "Input power to the compressor motor.",
-      "ifdGuid": "27EjMV48n4rwQR3CI0XT41",
+      "ifdGuid": "",
+      "legacyGuid": "873ad59f108c44d7a69b0cc48085d101",
+      "legacyGuidAsIfcGlobalId": "27EjMV48n4rwQR3CI0XT41",
       "localizations": [
         {
           "language": "fr-FR",
@@ -483,12 +531,17 @@
         "guid": "",
         "libraryName": "Industry Foundation Classes by buildingSMART International",
         "sectionref": "Core Schema"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "LubricantPumpHeatGain",
       "definition": "Lubricant pump heat gain.",
-      "ifdGuid": "0FNTwFvKvFyuwW_js7ncIu",
+      "ifdGuid": "",
+      "legacyGuid": "0f5dde8fe54e4ff38ea0fadd87c664b8",
+      "legacyGuidAsIfcGlobalId": "0FNTwFvKvFyuwW_js7ncIu",
       "localizations": [
         {
           "language": "fr-FR",
@@ -527,12 +580,17 @@
         "guid": "",
         "libraryName": "Industry Foundation Classes by buildingSMART International",
         "sectionref": "Core Schema"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "FrictionHeatGain",
       "definition": "Friction heat gain.",
-      "ifdGuid": "2p8PQlI9X7Zf2sljCvdqmi",
+      "ifdGuid": "",
+      "legacyGuid": "b32196af4898478e90b6bed3399f4c2c",
+      "legacyGuidAsIfcGlobalId": "2p8PQlI9X7Zf2sljCvdqmi",
       "localizations": [
         {
           "language": "fr-FR",
@@ -571,12 +629,17 @@
         "guid": "",
         "libraryName": "Industry Foundation Classes by buildingSMART International",
         "sectionref": "Core Schema"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "CompressorTotalHeatGain",
       "definition": "Compressor total heat gain.",
-      "ifdGuid": "23ch$afq162Qd2N6xCsQax",
+      "ifdGuid": "",
+      "legacyGuid": "839abfe4a7404609a9c25c6eccd9a93b",
+      "legacyGuidAsIfcGlobalId": "23ch$afq162Qd2N6xCsQax",
       "localizations": [
         {
           "language": "fr-FR",
@@ -615,12 +678,16 @@
         "guid": "",
         "libraryName": "Industry Foundation Classes by buildingSMART International",
         "sectionref": "Core Schema"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "FullLoadRatio",
       "definition": "Ratio of actual power to full load power as a quadratic function of part load, at certain condensing and evaporating temperature, FracFullLoadPower = f ( PartLoadRatio).",
       "ifdGuid": "",
+      "legacyGuidAsIfcGlobalId": "",
       "localizations": [
         {
           "language": "fr-FR",
@@ -659,6 +726,9 @@
         "guid": "",
         "libraryName": "Industry Foundation Classes by buildingSMART International",
         "sectionref": "Core Schema"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

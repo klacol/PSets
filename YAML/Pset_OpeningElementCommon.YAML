@@ -3,6 +3,7 @@ ifcVersion:
   version: 4.0.0.0
   schema: IfcProductExtension
 ifdGuid: ''
+legacyGuid: ''
 definition: 'Properties common to the definition of all instances of IfcOpeningElement.'
 localizations:
 - language: de-DE
@@ -30,6 +31,7 @@ properties:
 - name: Reference
   definition: Reference ID for this specified type in this project (e.g. type 'A-1'). Used to store the non-classification driven internal construction type.
   ifdGuid: 2iEJgbezL0ewYWXHxlci6i
+  legacyGuid: 2iEJgbezL0ewYWXHxlci6i
   localizations:
   - language: de-DE
     name: 'Referenz ID'
@@ -56,9 +58,12 @@ properties:
     dataType: IfcIdentifier
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: Status
   definition: Status of the element, predominately used in renovation or retrofitting projects. The status can be assigned to as "New" - element designed as new addition, "Existing" - element exists and remains, "Demolish" - element existed but is to be demolished,  "Temporary" - element will exists only temporary (like a temporary support structure).
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: de-DE
     name: 'Status'
@@ -213,9 +218,12 @@ properties:
       - language: ru-RU
         name: 'Unknown'
         definition: ''
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: Purpose
   definition: Indication of the purpose for that opening, e.g. 'ventilation', 'access', etc.
   ifdGuid: 3SEFeNUUPBnRGXyZK559cD
+  legacyGuid: 3SEFeNUUPBnRGXyZK559cD
   localizations:
   - language: fr-FR
     name: 'Motif'
@@ -239,9 +247,12 @@ properties:
     dataType: IfcLabel
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: FireExit
   definition: Indication whether this object is designed to serve as an exit in the case of fire (TRUE) or not (FALSE).Here whether the space (in case of e.g., a corridor) is designed to serve as an exit space, e.g., for fire escape purposes.
   ifdGuid: 2YHzYIOTnElO828UYsvLEV
+  legacyGuid: 2YHzYIOTnElO828UYsvLEV
   localizations:
   - language: fr-FR
     name: 'Sortie de secours'
@@ -265,9 +276,12 @@ properties:
     dataType: IfcBoolean
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: ProtectedOpening
   definition: Indication whether the opening is considered to be protected under fire safety considerations. If (TRUE) it counts as a protected opening under the applicable building code, (FALSE) otherwise.
   ifdGuid: 0Qmq8fPyrEAQxE6W$r5$OD
+  legacyGuid: 0Qmq8fPyrEAQxE6W$r5$OD
   localizations:
   - language: fr-FR
     name: 'Ouverture avec protection incendie'
@@ -291,3 +305,5 @@ properties:
     dataType: IfcBoolean
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

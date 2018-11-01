@@ -3,6 +3,7 @@ ifcVersion:
   version: 4.0.0.0
   schema: IfcElectricalDomain
 ifdGuid: ''
+legacyGuid: ''
 definition: 'An emergency stop device acts to remove as quickly as possible any danger that may have arisen unexpectedly.'
 localizations:
 - language: de-DE
@@ -30,6 +31,7 @@ properties:
 - name: SwitchOperation
   definition: Indicates operation of emergency stop switch.
   ifdGuid: 0sFifQ0mL8cfPMBKM6rJz4
+  legacyGuid: 0sFifQ0mL8cfPMBKM6rJz4
   localizations:
   - language: ja-JP
     name: 'スイッチ操作'
@@ -121,3 +123,5 @@ properties:
       - language: ru-RU
         name: 'Unknown'
         definition: ''
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

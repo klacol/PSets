@@ -5,6 +5,7 @@
     "schema": "IfcSharedBldgServiceElements"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "The aggregated thermal loads experienced by one or many spaces, zones, or buildings. This aggregate thermal load information is typically addressed by a system or plant. HISTORY: New property set in IFC Release 1.0 (Pset_AggregateLoadInformation); renamed Pset_ThermalLoadAggregate in IFC2x2.",
   "localizations": [
     {
@@ -57,6 +58,7 @@
       "name": "TotalCoolingLoad",
       "definition": "The peak total cooling load for the building, zone or space.",
       "ifdGuid": "21ALnpxzL5hfiZB5$b$ocX",
+      "legacyGuid": "21ALnpxzL5hfiZB5$b$ocX",
       "localizations": [
         {
           "language": "ja-JP",
@@ -98,12 +100,16 @@
         "dataType": "IfcPowerMeasure",
         "measureType": "",
         "unitType": "POWERUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "TotalHeatingLoad",
       "definition": "The peak total heating load for the building, zone or space.",
       "ifdGuid": "3_p0PUS0TB9xDy$WxnmhO9",
+      "legacyGuid": "3_p0PUS0TB9xDy$WxnmhO9",
       "localizations": [
         {
           "language": "ja-JP",
@@ -145,12 +151,16 @@
         "dataType": "IfcPowerMeasure",
         "measureType": "",
         "unitType": "POWERUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "LightingDiversity",
       "definition": "Lighting diversity.",
       "ifdGuid": "2m0TGngCz6TgCqBGj8ka1q",
+      "legacyGuid": "2m0TGngCz6TgCqBGj8ka1q",
       "localizations": [
         {
           "language": "ja-JP",
@@ -192,12 +202,16 @@
         "dataType": "IfcPositiveRatioMeasure",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "InfiltrationDiversitySummer",
       "definition": "Diversity factor for Summer infiltration.",
       "ifdGuid": "1Zv0NRPuz70QRw2W1QwNt7",
+      "legacyGuid": "1Zv0NRPuz70QRw2W1QwNt7",
       "localizations": [
         {
           "language": "ja-JP",
@@ -239,12 +253,16 @@
         "dataType": "IfcPositiveRatioMeasure",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "InfiltrationDiversityWinter",
       "definition": "Diversity factor for Winter infiltration.",
       "ifdGuid": "23k5w3L1536OeTMl__ApMd",
+      "legacyGuid": "23k5w3L1536OeTMl__ApMd",
       "localizations": [
         {
           "language": "ja-JP",
@@ -286,12 +304,16 @@
         "dataType": "IfcPositiveRatioMeasure",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "ApplianceDiversity",
       "definition": "Diversity of appliance load.",
       "ifdGuid": "0q8WxGDxP7xgALWqA9mOQw",
+      "legacyGuid": "0q8WxGDxP7xgALWqA9mOQw",
       "localizations": [
         {
           "language": "ja-JP",
@@ -333,12 +355,16 @@
         "dataType": "IfcPositiveRatioMeasure",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "LoadSafetyFactor",
       "definition": "Load safety factor.",
       "ifdGuid": "3HeT7FqffCRwiN$Zuolly4",
+      "legacyGuid": "3HeT7FqffCRwiN$Zuolly4",
       "localizations": [
         {
           "language": "ja-JP",
@@ -380,6 +406,9 @@
         "dataType": "IfcPositiveRatioMeasure",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

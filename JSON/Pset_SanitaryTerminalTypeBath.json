@@ -5,6 +5,7 @@
     "schema": "IfcPlumbingFireProtectionDomain"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "Sanitary appliance for immersion of the human body or parts of it (BS6100). HISTORY: In IFC4, Material and MaterialThickness properties removed. Use materials capabilities from IfcMaterialsResource schema. Datatype of color changed to IfcLabel (still a string value)",
   "localizations": [
     {
@@ -49,6 +50,7 @@
       "name": "BathType",
       "definition": "The property enumeration defines the types of bath that may be specified within the property set where.Domestic: \tBath, for one person at a time, into which the whole body can be easily immersed.DomesticCorner: \tBath, for one person at a time, into which the whole body can be easily immersed and in which the immersion trough is at an angle.Foot: \tShallow bath for washing the feet.Jacuzzi: \tWhirlpool bath for more than one personPlunge: \tBath, usually for more than one person at a time, into which the whole body can be easily immersed.Sitz: \tBath in which a bather sits as in a chair.Treatment: \tBath used for hydrotherapy purposes.Whirlpool: \tBath in which an integrated device agitates the water by pumped circulation or induction of water and/or air.",
       "ifdGuid": "0CDXYw9$b708Shk57NNh1N",
+      "legacyGuid": "0CDXYw9$b708Shk57NNh1N",
       "localizations": [
         {
           "language": "ja-JP",
@@ -455,12 +457,16 @@
             ]
           }
         ]
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "NominalLength",
       "definition": "Nominal or quoted length of the object.",
       "ifdGuid": "0xOETqKmf3hgDk1KtMMabg",
+      "legacyGuid": "0xOETqKmf3hgDk1KtMMabg",
       "localizations": [
         {
           "language": "ja-JP",
@@ -497,12 +503,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "NominalWidth",
       "definition": "Nominal or quoted width of the object.",
       "ifdGuid": "1KlWVr4CT47AIKhJ$L1Sws",
+      "legacyGuid": "1KlWVr4CT47AIKhJ$L1Sws",
       "localizations": [
         {
           "language": "ja-JP",
@@ -539,12 +549,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "NominalDepth",
       "definition": "Nominal or quoted depth of the object.",
       "ifdGuid": "0v20Ux3svEcPhD0luMhpdi",
+      "legacyGuid": "0v20Ux3svEcPhD0luMhpdi",
       "localizations": [
         {
           "language": "ja-JP",
@@ -581,12 +595,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "Color",
       "definition": "Principal color of the object.",
       "ifdGuid": "0fxdQy16rASBxc$$h16e9v",
+      "legacyGuid": "0fxdQy16rASBxc$$h16e9v",
       "localizations": [
         {
           "language": "ja-JP",
@@ -623,12 +641,16 @@
         "dataType": "IfcLabel",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "DrainSize",
       "definition": "The size of the drain outlet connection from the object.",
       "ifdGuid": "0dI1UjOQvERgxu$X4Tf0ku",
+      "legacyGuid": "0dI1UjOQvERgxu$X4Tf0ku",
       "localizations": [
         {
           "language": "ja-JP",
@@ -665,12 +687,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "HasGrabHandles",
       "definition": "Indicates whether the bath is fitted with handles that provide assistance to a bather in entering or leaving the bath.",
       "ifdGuid": "0zlg80Ur59WxW$QFTYglDC",
+      "legacyGuid": "0zlg80Ur59WxW$QFTYglDC",
       "localizations": [
         {
           "language": "ja-JP",
@@ -707,6 +733,9 @@
         "dataType": "IfcBoolean",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

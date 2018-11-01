@@ -4,6 +4,7 @@
     "version": "4.0.0.0"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "Properties for tracking resource usage over time.",
   "localizations": [
     {
@@ -48,6 +49,7 @@
       "name": "ScheduleWork",
       "definition": "PSet2YamlConverter.PropertyType",
       "ifdGuid": "3kLci0qSmHuO00025QrE$V",
+      "legacyGuid": "3kLci0qSmHuO00025QrE$V",
       "localizations": [
         {
           "language": "ja-JP",
@@ -86,12 +88,16 @@
         "guid": "",
         "libraryName": "Industry Foundation Classes by buildingSMART International",
         "sectionref": "Core Schema"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "ActualWork",
       "definition": "PSet2YamlConverter.PropertyType",
       "ifdGuid": "3nKLk0qSmHuO00025QrE$V",
+      "legacyGuid": "3nKLk0qSmHuO00025QrE$V",
       "localizations": [
         {
           "language": "ja-JP",
@@ -130,12 +136,16 @@
         "guid": "",
         "libraryName": "Industry Foundation Classes by buildingSMART International",
         "sectionref": "Core Schema"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "RemainingWork",
       "definition": "PSet2YamlConverter.PropertyType",
       "ifdGuid": "3pixM0qSmHuO00025QrE$V",
+      "legacyGuid": "3pixM0qSmHuO00025QrE$V",
       "localizations": [
         {
           "language": "ja-JP",
@@ -174,12 +184,16 @@
         "guid": "",
         "libraryName": "Industry Foundation Classes by buildingSMART International",
         "sectionref": "Core Schema"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "ScheduleCost",
       "definition": "PSet2YamlConverter.PropertyType",
       "ifdGuid": "3shgO0qSmHuO00025QrE$V",
+      "legacyGuid": "3shgO0qSmHuO00025QrE$V",
       "localizations": [
         {
           "language": "ja-JP",
@@ -218,12 +232,16 @@
         "guid": "",
         "libraryName": "Industry Foundation Classes by buildingSMART International",
         "sectionref": "Core Schema"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "ActualCost",
       "definition": "PSet2YamlConverter.PropertyType",
       "ifdGuid": "3v4G00qSmHuO00025QrE$V",
+      "legacyGuid": "3v4G00qSmHuO00025QrE$V",
       "localizations": [
         {
           "language": "ja-JP",
@@ -262,12 +280,16 @@
         "guid": "",
         "libraryName": "Industry Foundation Classes by buildingSMART International",
         "sectionref": "Core Schema"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "RemainingCost",
       "definition": "PSet2YamlConverter.PropertyType",
       "ifdGuid": "3xSre0qSmHuO00025QrE$V",
+      "legacyGuid": "3xSre0qSmHuO00025QrE$V",
       "localizations": [
         {
           "language": "ja-JP",
@@ -306,12 +328,16 @@
         "guid": "",
         "libraryName": "Industry Foundation Classes by buildingSMART International",
         "sectionref": "Core Schema"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "ScheduleCompletion",
       "definition": "PSet2YamlConverter.PropertyType",
       "ifdGuid": "3_Rag0qSmHuO00025QrE$V",
+      "legacyGuid": "3_Rag0qSmHuO00025QrE$V",
       "localizations": [
         {
           "language": "ja-JP",
@@ -350,12 +376,16 @@
         "guid": "",
         "libraryName": "Industry Foundation Classes by buildingSMART International",
         "sectionref": "Core Schema"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "ActualCompletion",
       "definition": "PSet2YamlConverter.PropertyType",
       "ifdGuid": "00qAI0qSqHuO00025QrE$V",
+      "legacyGuid": "00qAI0qSqHuO00025QrE$V",
       "localizations": [
         {
           "language": "ja-JP",
@@ -394,6 +424,9 @@
         "guid": "",
         "libraryName": "Industry Foundation Classes by buildingSMART International",
         "sectionref": "Core Schema"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

@@ -2,6 +2,7 @@
 ifcVersion:
   version: 4.0.0.0
 ifdGuid: ''
+legacyGuid: ''
 definition: 'Duct port occurrence attributes attached to an instance of IfcDistributionPort.'
 localizations:
 - language: de-DE
@@ -29,6 +30,7 @@ properties:
 - name: ConnectionType
   definition: PSet2YamlConverter.PropertyType
   ifdGuid: 3IiZcc7R5CAhGZuzSrfjuV
+  legacyGuid: 3IiZcc7R5CAhGZuzSrfjuV
   localizations:
   - language: de-DE
     name: ''
@@ -425,9 +427,12 @@ properties:
       - language: ru-RU
         name: 'Notdefined'
         definition: ''
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: ConnectionSubType
   definition: PSet2YamlConverter.PropertyType
   ifdGuid: 0LsHRT7ND0l8585NRu7Ie8
+  legacyGuid: 0LsHRT7ND0l8585NRu7Ie8
   localizations:
   - language: de-DE
     name: ''
@@ -451,9 +456,12 @@ properties:
     dataType: IfcLabel
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: NominalWidth
   definition: PSet2YamlConverter.PropertyType
   ifdGuid: 2YZfyYRY1Aa9bsWGvZEaNq
+  legacyGuid: 2YZfyYRY1Aa9bsWGvZEaNq
   localizations:
   - language: de-DE
     name: ''
@@ -477,9 +485,12 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: NominalHeight
   definition: PSet2YamlConverter.PropertyType
   ifdGuid: 2GgGGOa7f1W9fIUx7l1f05
+  legacyGuid: 2GgGGOa7f1W9fIUx7l1f05
   localizations:
   - language: de-DE
     name: ''
@@ -503,9 +514,12 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: DryBulbTemperature
   definition: PSet2YamlConverter.PropertyType
   ifdGuid: 0EADBlvGD6CPPayNvIwz4O
+  legacyGuid: 0EADBlvGD6CPPayNvIwz4O
   localizations:
   - language: de-DE
     name: ''
@@ -530,9 +544,12 @@ properties:
     LowerBoundValue: ''
     UpperBoundValue: ''
     typeName: TypePropertyBoundedValue
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: WetBulbTemperature
   definition: PSet2YamlConverter.PropertyType
   ifdGuid: 16vijFFij05hFPKkmcWspc
+  legacyGuid: 16vijFFij05hFPKkmcWspc
   localizations:
   - language: de-DE
     name: ''
@@ -557,9 +574,12 @@ properties:
     LowerBoundValue: ''
     UpperBoundValue: ''
     typeName: TypePropertyBoundedValue
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: VolumetricFlowRate
   definition: PSet2YamlConverter.PropertyType
   ifdGuid: 1Zd01dwqHEsBdHToHy7np2
+  legacyGuid: 1Zd01dwqHEsBdHToHy7np2
   localizations:
   - language: de-DE
     name: ''
@@ -584,9 +604,12 @@ properties:
     LowerBoundValue: ''
     UpperBoundValue: ''
     typeName: TypePropertyBoundedValue
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: Velocity
   definition: PSet2YamlConverter.PropertyType
   ifdGuid: 0cKuKOg$P7Mw5MBESnrvTU
+  legacyGuid: 0cKuKOg$P7Mw5MBESnrvTU
   localizations:
   - language: de-DE
     name: ''
@@ -611,9 +634,12 @@ properties:
     LowerBoundValue: ''
     UpperBoundValue: ''
     typeName: TypePropertyBoundedValue
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: Pressure
   definition: PSet2YamlConverter.PropertyType
   ifdGuid: 1rWyryNgTD49uhQjRGslfB
+  legacyGuid: 1rWyryNgTD49uhQjRGslfB
   localizations:
   - language: de-DE
     name: ''
@@ -638,3 +664,5 @@ properties:
     LowerBoundValue: ''
     UpperBoundValue: ''
     typeName: TypePropertyBoundedValue
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

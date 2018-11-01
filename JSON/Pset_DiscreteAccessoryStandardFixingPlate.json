@@ -5,6 +5,7 @@
     "schema": "IfcSharedComponentElements"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "Properties specific to standard fixing plates.",
   "localizations": [
     {
@@ -53,6 +54,7 @@
       "name": "StandardFixingPlateWidth",
       "definition": "The width of the standard fixing plate.",
       "ifdGuid": "3TxdXJr2H169fProBcLkA1",
+      "legacyGuid": "3TxdXJr2H169fProBcLkA1",
       "localizations": [
         {
           "language": "ja-JP",
@@ -94,12 +96,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "StandardFixingPlateDepth",
       "definition": "The depth of the standard fixing plate.",
       "ifdGuid": "1G9KJ$2CHFsQhWS6YeVBe0",
+      "legacyGuid": "1G9KJ$2CHFsQhWS6YeVBe0",
       "localizations": [
         {
           "language": "ja-JP",
@@ -141,12 +147,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "StandardFixingPlateThickness",
       "definition": "The thickness of the standard fixing plate.",
       "ifdGuid": "0bMqCvXgT6OR8TZryCg42w",
+      "legacyGuid": "0bMqCvXgT6OR8TZryCg42w",
       "localizations": [
         {
           "language": "ja-JP",
@@ -188,6 +198,9 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

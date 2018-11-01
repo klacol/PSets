@@ -3,6 +3,7 @@ ifcVersion:
   version: 4.0.0.0
   schema: IfcBuildingControlsDomain
 ifdGuid: ''
+legacyGuid: ''
 definition: 'Characteristics of linear actuation of an actuatorHistory: Replaces Pset_LinearActuator'
 localizations:
 - language: de-DE
@@ -29,7 +30,9 @@ applicableIfcClasses:
 properties:
 - name: Force
   definition: Indicates the maximum close-off force for the actuator.
-  ifdGuid: 0gAM2plJDC68VysbYcxRDR
+  ifdGuid: ''
+  legacyGuid: 2a2960b3bd334c1887fcda58a6edb35b
+  legacyGuidAsIfcGlobalId: 0gAM2plJDC68VysbYcxRDR
   localizations:
   - language: ja-JP
     name: '最大推力'
@@ -56,9 +59,13 @@ properties:
     dataType: IfcForceMeasure
     measureType: ''
     unitType: FORCEUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: Stroke
   definition: Indicates the maximum distance the actuator must traverse.
-  ifdGuid: 2HwHjn9zrAXBE4emYG1Rcy
+  ifdGuid: ''
+  legacyGuid: 91e91b7127dd4a84b384a3089005b9bc
+  legacyGuidAsIfcGlobalId: 2HwHjn9zrAXBE4emYG1Rcy
   localizations:
   - language: ja-JP
     name: 'ストローク'
@@ -85,3 +92,5 @@ properties:
     dataType: IfcLengthMeasure
     measureType: ''
     unitType: LENGTHUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

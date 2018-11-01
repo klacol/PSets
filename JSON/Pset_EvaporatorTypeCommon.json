@@ -5,6 +5,7 @@
     "schema": "IfcHvacDomain"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "Evaporator type common attributes.",
   "localizations": [
     {
@@ -49,6 +50,7 @@
       "name": "Reference",
       "definition": "Reference ID for this specified type in this project (e.g. type 'A-1'), provided, if there is no classification reference to a recognized classification system used.",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "ja-JP",
@@ -85,12 +87,16 @@
         "dataType": "IfcIdentifier",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "Status",
       "definition": "Status of the element, predominately used in renovation or retrofitting projects. The status can be assigned to as \"New\" - element designed as new addition, \"Existing\" - element exists and remains, \"Demolish\" - element existed but is to be demolished,  \"Temporary\" - element will exists only temporary (like a temporary support structure).",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "ja-JP",
@@ -349,12 +355,16 @@
             ]
           }
         ]
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "EvaporatorMediumType",
       "definition": "ColdLiquid: Evaporator is using liquid type of fluid to exchange heat with refrigerant.ColdAir: Evaporator is using air to exchange heat with refrigerant.",
       "ifdGuid": "02$NgB2Vv72Q7X0Miwbqfh",
+      "legacyGuid": "02$NgB2Vv72Q7X0Miwbqfh",
       "localizations": [
         {
           "language": "ja-JP",
@@ -539,12 +549,16 @@
             ]
           }
         ]
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "EvaporatorCoolant",
       "definition": "The fluid used for the coolant in the evaporator.",
       "ifdGuid": "1T2Grs6PHCC8w8_45w1HZL",
+      "legacyGuid": "1T2Grs6PHCC8w8_45w1HZL",
       "localizations": [
         {
           "language": "ja-JP",
@@ -766,12 +780,16 @@
             ]
           }
         ]
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "RefrigerantClass",
       "definition": "Refrigerant class used by the compressor.CFC: Chlorofluorocarbons.HCFC: Hydrochlorofluorocarbons.HFC: Hydrofluorocarbons.",
       "ifdGuid": "1vsegO7_D9EenXRODtFM_2",
+      "legacyGuid": "1vsegO7_D9EenXRODtFM_2",
       "localizations": [
         {
           "language": "ja-JP",
@@ -1141,12 +1159,16 @@
             ]
           }
         ]
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "RefrigerantType",
       "definition": "Refrigerant material.",
       "ifdGuid": "3ZpDdEuRP1a8_W8T55dvc0",
+      "legacyGuid": "3ZpDdEuRP1a8_W8T55dvc0",
       "localizations": [
         {
           "language": "ja-JP",
@@ -1185,12 +1207,16 @@
         "guid": "",
         "libraryName": "Industry Foundation Classes by buildingSMART International",
         "sectionref": "Core Schema"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "ExternalSurfaceArea",
       "definition": "External surface area (both primary and secondary area).",
       "ifdGuid": "3iaLE5ZGT7aeyGpvf9K4lc",
+      "legacyGuid": "3iaLE5ZGT7aeyGpvf9K4lc",
       "localizations": [
         {
           "language": "ja-JP",
@@ -1227,12 +1253,16 @@
         "dataType": "IfcAreaMeasure",
         "measureType": "",
         "unitType": "AREAUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "InternalSurfaceArea",
       "definition": "Internal surface area.",
       "ifdGuid": "1Rjxhq5eLFMRkMAO7rtCSi",
+      "legacyGuid": "1Rjxhq5eLFMRkMAO7rtCSi",
       "localizations": [
         {
           "language": "ja-JP",
@@ -1269,12 +1299,16 @@
         "dataType": "IfcAreaMeasure",
         "measureType": "",
         "unitType": "AREAUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "InternalRefrigerantVolume",
       "definition": "Internal volume of evaporator (refrigerant side).",
       "ifdGuid": "3HuQ0oXFv9HO$BRmEqg4y2",
+      "legacyGuid": "3HuQ0oXFv9HO$BRmEqg4y2",
       "localizations": [
         {
           "language": "ja-JP",
@@ -1311,12 +1345,16 @@
         "dataType": "IfcVolumeMeasure",
         "measureType": "",
         "unitType": "VOLUMEUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "InternalWaterVolume",
       "definition": "Internal volume of evaporator (water side).",
       "ifdGuid": "31pRK6KHDEzgW6i7M34KlI",
+      "legacyGuid": "31pRK6KHDEzgW6i7M34KlI",
       "localizations": [
         {
           "language": "ja-JP",
@@ -1353,12 +1391,16 @@
         "dataType": "IfcVolumeMeasure",
         "measureType": "",
         "unitType": "VOLUMEUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "NominalHeatTransferArea",
       "definition": "Nominal heat transfer surface area associated with nominal overall heat transfer coefficient.",
       "ifdGuid": "36vQVZl2DBZB4DJppwbCwi",
+      "legacyGuid": "36vQVZl2DBZB4DJppwbCwi",
       "localizations": [
         {
           "language": "ja-JP",
@@ -1395,12 +1437,16 @@
         "dataType": "IfcAreaMeasure",
         "measureType": "",
         "unitType": "AREAUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "NominalHeatTransferCoefficient",
       "definition": "Nominal overall heat transfer coefficient associated with nominal heat transfer area.",
       "ifdGuid": "0DxZ4$uDz72u7XR64hH2bk",
+      "legacyGuid": "0DxZ4$uDz72u7XR64hH2bk",
       "localizations": [
         {
           "language": "ja-JP",
@@ -1437,6 +1483,9 @@
         "dataType": "IfcThermalTransmittanceMeasure",
         "measureType": "",
         "unitType": "THERMALTRANSMITTANCEUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

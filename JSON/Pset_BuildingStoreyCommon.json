@@ -5,6 +5,7 @@
     "schema": "IfcProductExtension"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "Properties common to the definition of all instances of IfcBuildingStorey. Please note that several building attributes are handled directly at the IfcBuildingStorey instance, the building storey number (or short name) by IfcBuildingStorey.Name, the building storey name (or long name) by IfcBuildingStorey.LongName, and the description (or comments) by IfcBuildingStorey.Description. Actual building storey quantities, like building storey perimeter, building storey area and building storey volume are provided by IfcElementQuantity, and the building storey classification according to national building code by IfcClassificationReference.",
   "localizations": [
     {
@@ -48,7 +49,9 @@
     {
       "name": "Reference",
       "definition": "Reference ID for this specified type in this project (e.g. type 'A-1'). Used to store the non-classification driven internal project type.",
-      "ifdGuid": "3popLlyPvBNu92eqYqrQ59",
+      "ifdGuid": "",
+      "legacyGuid": "f3cb356ff19e4b5f8242a348b4d5a149",
+      "legacyGuidAsIfcGlobalId": "3popLlyPvBNu92eqYqrQ59",
       "localizations": [
         {
           "language": "de-DE",
@@ -90,12 +93,17 @@
         "dataType": "IfcIdentifier",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "EntranceLevel",
       "definition": "Indication whether this building storey is an entrance level to the building (TRUE), or (FALSE) if otherwise.",
-      "ifdGuid": "2SDljxpxj8E897ca6VXutC",
+      "ifdGuid": "",
+      "legacyGuid": "9c36fb7bcfbb483882479a419f878dcc",
+      "legacyGuidAsIfcGlobalId": "2SDljxpxj8E897ca6VXutC",
       "localizations": [
         {
           "language": "de-DE",
@@ -137,12 +145,17 @@
         "dataType": "IfcBoolean",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "AboveGround",
       "definition": "Indication whether this building storey is fully above ground (TRUE), or below ground (FALSE), or partially above and below ground (UNKNOWN) - as in sloped terrain.",
-      "ifdGuid": "1Uh1eigjT4UQ8wqJVHG2SV",
+      "ifdGuid": "",
+      "legacyGuid": "5eac1a2caad74479a23ad137d140271f",
+      "legacyGuidAsIfcGlobalId": "1Uh1eigjT4UQ8wqJVHG2SV",
       "localizations": [
         {
           "language": "de-DE",
@@ -184,12 +197,17 @@
         "dataType": "IfcLogical",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "SprinklerProtection",
       "definition": "Indication whether this object is sprinkler protected (TRUE) or not (FALSE).",
-      "ifdGuid": "36Mfe2KGv6U9dRW6zM1FXG",
+      "ifdGuid": "",
+      "legacyGuid": "c65a9a02510e467899db806f5604f850",
+      "legacyGuidAsIfcGlobalId": "36Mfe2KGv6U9dRW6zM1FXG",
       "localizations": [
         {
           "language": "de-DE",
@@ -231,12 +249,17 @@
         "dataType": "IfcBoolean",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "SprinklerProtectionAutomatic",
       "definition": "Indication whether this object has an automatic sprinkler protection (TRUE) or not (FALSE).It should only be given, if the property \"SprinklerProtection\" is set to TRUE.",
-      "ifdGuid": "1g5ifGMav8I82nkDgvtJfX",
+      "ifdGuid": "",
+      "legacyGuid": "6a16ca505a4e484880b1b8dab9dd3a61",
+      "legacyGuidAsIfcGlobalId": "1g5ifGMav8I82nkDgvtJfX",
       "localizations": [
         {
           "language": "de-DE",
@@ -278,12 +301,16 @@
         "dataType": "IfcBoolean",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "LoadBearingCapacity",
       "definition": "Maximum load bearing capacity of the floor structure throughtout the storey as designed.",
       "ifdGuid": "",
+      "legacyGuidAsIfcGlobalId": "",
       "localizations": [
         {
           "language": "de-DE",
@@ -320,12 +347,16 @@
         "dataType": "IfcPlanarForceMeasure",
         "measureType": "",
         "unitType": "PLANARFORCEUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "GrossPlannedArea",
       "definition": "Total planned area for the building storey. Used for programming the building storey.",
       "ifdGuid": "",
+      "legacyGuidAsIfcGlobalId": "",
       "localizations": [
         {
           "language": "de-DE",
@@ -367,12 +398,16 @@
         "dataType": "IfcAreaMeasure",
         "measureType": "",
         "unitType": "AREAUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "NetPlannedArea",
       "definition": "Total planned net area for the building storey. Used for programming the building storey.",
       "ifdGuid": "",
+      "legacyGuidAsIfcGlobalId": "",
       "localizations": [
         {
           "language": "de-DE",
@@ -414,6 +449,9 @@
         "dataType": "IfcAreaMeasure",
         "measureType": "",
         "unitType": "AREAUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

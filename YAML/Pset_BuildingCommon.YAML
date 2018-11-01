@@ -3,6 +3,7 @@ ifcVersion:
   version: 4.0.0.0
   schema: IfcProductExtension
 ifdGuid: ''
+legacyGuid: ''
 definition: 'Properties common to the definition of all instances of IfcBuilding. Please note that several building attributes are handled directly at the IfcBuilding instance, the building number (or short name) by IfcBuilding.Name, the building name (or long name) by IfcBuilding.LongName, and the description (or comments) by IfcBuilding.Description. Actual building quantities, like building perimeter, building area and building volume are provided by IfcElementQuantity, and the building classification according to national building code by IfcClassificationReference.'
 localizations:
 - language: de-DE
@@ -29,7 +30,9 @@ applicableIfcClasses:
 properties:
 - name: Reference
   definition: Reference ID for this specified type in this project (e.g. type 'A-1'). Used to store the non-classification driven internal project type.
-  ifdGuid: 2MviFQcjb88x6nNUYE$13H
+  ifdGuid: ''
+  legacyGuid: 96e6c3da9ad94823b1b15de88efc10d1
+  legacyGuidAsIfcGlobalId: 2MviFQcjb88x6nNUYE$13H
   localizations:
   - language: de-DE
     name: 'Referenz ID'
@@ -56,9 +59,13 @@ properties:
     dataType: IfcIdentifier
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: BuildingID
   definition: A unique identifier assigned to a building. A temporary identifier is initially assigned at the time of making a planning application. This temporary identifier is changed to a permanent identifier when the building is registered into a statutory buildings and properties database.
-  ifdGuid: 3ciHkze257nA7jg04keckI
+  ifdGuid: ''
+  legacyGuid: e6b11bbda02147c4a1eda8012ea26b92
+  legacyGuidAsIfcGlobalId: 3ciHkze257nA7jg04keckI
   localizations:
   - language: de-DE
     name: 'Gebäudekennzeichen'
@@ -85,9 +92,13 @@ properties:
     dataType: IfcIdentifier
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: IsPermanentID
   definition: Indicates whether the identity assigned to a building is permanent (= TRUE) or temporary (=FALSE).
-  ifdGuid: 3XPBbcFg51cvJ9mIhQ8G9F
+  ifdGuid: ''
+  legacyGuid: e164b9663ea1419b94c9c12ada21024f
+  legacyGuidAsIfcGlobalId: 3XPBbcFg51cvJ9mIhQ8G9F
   localizations:
   - language: de-DE
     name: 'Gebäudekennzeichen permanent'
@@ -114,9 +125,12 @@ properties:
     dataType: IfcBoolean
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: ConstructionMethod
   definition: The type of construction action to the building, the project deals with, e.g. new construction, renovation, refurbishment, etc.
   ifdGuid: ''
+  legacyGuidAsIfcGlobalId: ''
   localizations:
   - language: de-DE
     name: 'Konstruktionsart'
@@ -143,9 +157,12 @@ properties:
     dataType: IfcLabel
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: FireProtectionClass
   definition: Main fire protection class for the building which is assigned from the fire protection classification table as given by the relevant national building code.
   ifdGuid: ''
+  legacyGuidAsIfcGlobalId: ''
   localizations:
   - language: de-DE
     name: 'Gebäudeklasse Brandschutz'
@@ -172,9 +189,13 @@ properties:
     dataType: IfcLabel
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: SprinklerProtection
   definition: Indication whether this object is sprinkler protected (TRUE) or not (FALSE).
-  ifdGuid: 3a7UmOmlLEWfaR19OhNevX
+  ifdGuid: ''
+  legacyGuid: e41dec18c2f54e82991b04962b5e8e61
+  legacyGuidAsIfcGlobalId: 3a7UmOmlLEWfaR19OhNevX
   localizations:
   - language: de-DE
     name: 'Sprinklerschutz'
@@ -201,9 +222,13 @@ properties:
     dataType: IfcBoolean
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: SprinklerProtectionAutomatic
   definition: Indication whether this object has an automatic sprinkler protection (TRUE) or not (FALSE).
-  ifdGuid: 26Gk41OGrC9ffpiATIRwTT
+  ifdGuid: ''
+  legacyGuid: 8642e101610d4c269a73b0a7526fa75d
+  legacyGuidAsIfcGlobalId: 26Gk41OGrC9ffpiATIRwTT
   localizations:
   - language: de-DE
     name: 'Sprinklerschutz automatisch'
@@ -230,9 +255,13 @@ properties:
     dataType: IfcBoolean
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: OccupancyType
   definition: Occupancy type for this object.It is defined according to the presiding national building code.
-  ifdGuid: 1oS8_jC_X5uBtJ2YXjqsvy
+  ifdGuid: ''
+  legacyGuid: 72708fad33e845e0bdd30a286dd36e7c
+  legacyGuidAsIfcGlobalId: 1oS8_jC_X5uBtJ2YXjqsvy
   localizations:
   - language: de-DE
     name: 'Nutzungsart'
@@ -259,9 +288,13 @@ properties:
     dataType: IfcLabel
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: GrossPlannedArea
   definition: Total planned gross area for the building  Used for programming the building.
-  ifdGuid: 2c86_p8Xv6shnwtOi1Kub2
+  ifdGuid: ''
+  legacyGuid: a6206fb3221e46dabc7add8b01538942
+  legacyGuidAsIfcGlobalId: 2c86_p8Xv6shnwtOi1Kub2
   localizations:
   - language: de-DE
     name: 'Bruttofläche nach Raumprogramm'
@@ -288,9 +321,12 @@ properties:
     dataType: IfcAreaMeasure
     measureType: ''
     unitType: AREAUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: NetPlannedArea
   definition: Total planned net area for the building  Used for programming the building.
   ifdGuid: ''
+  legacyGuidAsIfcGlobalId: ''
   localizations:
   - language: de-DE
     name: 'Nettofläche nach Raumprogramm'
@@ -314,9 +350,13 @@ properties:
     dataType: IfcAreaMeasure
     measureType: ''
     unitType: AREAUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: NumberOfStoreys
   definition: The number of storeys within a building.Captured for those cases where the IfcBuildingStorey entity is not used. Note that if IfcBuilingStorey is asserted and the number of storeys in a building can be determined from it, then this approach should be used in preference to setting a property for the number of storeys.
-  ifdGuid: 0I7hvuQdj7xhk2GQ_dyCUr
+  ifdGuid: ''
+  legacyGuid: 121ebe786a7b47eebb8241afa7f0c7b5
+  legacyGuidAsIfcGlobalId: 0I7hvuQdj7xhk2GQ_dyCUr
   localizations:
   - language: de-DE
     name: 'Geschossanzahl'
@@ -343,9 +383,13 @@ properties:
     dataType: IfcInteger
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: YearOfConstruction
   definition: Year of construction of this building, including expected year of completion.
-  ifdGuid: 2kAZaFl4T6A8Km0Tm4_EFB
+  ifdGuid: ''
+  legacyGuid: ae2a390fbc474628853001dc04f8e3cb
+  legacyGuidAsIfcGlobalId: 2kAZaFl4T6A8Km0Tm4_EFB
   localizations:
   - language: de-DE
     name: 'Baujahr'
@@ -372,9 +416,12 @@ properties:
     dataType: IfcLabel
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: YearOfLastRefurbishment
   definition: Year of last major refurbishment, or reconstruction, of the building (applies to reconstruction works).
   ifdGuid: ''
+  legacyGuidAsIfcGlobalId: ''
   localizations:
   - language: de-DE
     name: 'letztes Renovierungsjahr'
@@ -398,9 +445,13 @@ properties:
     dataType: IfcLabel
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: IsLandmarked
   definition: This builing is listed as a historic building (TRUE), or not (FALSE), or unknown.
-  ifdGuid: 3027d62aL7LxEVFFD2sdNj
+  ifdGuid: ''
+  legacyGuid: c00879c60a454757b39f3cf342da75ed
+  legacyGuidAsIfcGlobalId: 3027d62aL7LxEVFFD2sdNj
   localizations:
   - language: de-DE
     name: 'Denkmalschutz'
@@ -427,3 +478,5 @@ properties:
     dataType: IfcLogical
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

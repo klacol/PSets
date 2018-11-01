@@ -3,6 +3,7 @@ ifcVersion:
   version: 4.0.0.0
   schema: IfcSharedMgmtElements
 ifdGuid: ''
+legacyGuid: ''
 definition: 'Defines the requirements for purchase orders in a project.'
 localizations:
 - language: de-DE
@@ -30,6 +31,7 @@ properties:
 - name: ProductDescription
   definition: A textual description of the products that require the work.
   ifdGuid: 0UoqJXCwj2vuqu34S7lYz0
+  legacyGuid: 0UoqJXCwj2vuqu34S7lYz0
   localizations:
   - language: de-DE
     name: ''
@@ -53,9 +55,12 @@ properties:
     dataType: IfcText
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: WorkTypeRequested
   definition: Work type requested in circumstances where there are categorizations of types of work task. It could be used to identify a remedial task, minor work task, electrical task etc.
   ifdGuid: 3F9v5tvp50mhEYG5O1mPOT
+  legacyGuid: 3F9v5tvp50mhEYG5O1mPOT
   localizations:
   - language: de-DE
     name: ''
@@ -79,9 +84,12 @@ properties:
     dataType: IfcText
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: ContractualType
   definition: The contractual type of the work.
   ifdGuid: 1veF0RDGH10Plkef_IZiX2
+  legacyGuid: 1veF0RDGH10Plkef_IZiX2
   localizations:
   - language: de-DE
     name: ''
@@ -105,9 +113,12 @@ properties:
     dataType: IfcText
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: IfNotAccomplished
   definition: Comments if the job is not accomplished.
   ifdGuid: 3FCpLbMSL4Q9P2ltj6o_Ie
+  legacyGuid: 3FCpLbMSL4Q9P2ltj6o_Ie
   localizations:
   - language: de-DE
     name: ''
@@ -131,3 +142,5 @@ properties:
     dataType: IfcText
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

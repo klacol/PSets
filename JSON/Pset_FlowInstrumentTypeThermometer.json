@@ -5,6 +5,7 @@
     "schema": "IfcBuildingControlsDomain"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "A device that reads and displays a temperature value at a point.",
   "localizations": [
     {
@@ -49,6 +50,7 @@
       "name": "ThermometerType",
       "definition": "Identifies the means by which temperature is displayed.",
       "ifdGuid": "2bjQj7CWbC1vkZSilv9dmO",
+      "legacyGuid": "2bjQj7CWbC1vkZSilv9dmO",
       "localizations": [
         {
           "language": "ja-JP",
@@ -275,12 +277,16 @@
             ]
           }
         ]
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "DisplaySize",
       "definition": "The physical size of the display. In the case of a stem thermometer, this will be the length of the stem. For a dial thermometer, it will be the diameter of the dial.",
       "ifdGuid": "0I4awnbJH1DwaCe1MiQgU6",
+      "legacyGuid": "0I4awnbJH1DwaCe1MiQgU6",
       "localizations": [
         {
           "language": "ja-JP",
@@ -322,6 +328,9 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

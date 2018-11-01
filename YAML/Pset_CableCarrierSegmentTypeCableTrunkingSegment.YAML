@@ -3,6 +3,7 @@ ifcVersion:
   version: 4.0.0.0
   schema: IfcElectricalDomain
 ifdGuid: ''
+legacyGuid: ''
 definition: 'An enclosed carrier segment with one or more compartments into which cables are placed.HISTORY: IFC4 - NominalLength deleted. To be handled as a quantity measure'
 localizations:
 - language: de-DE
@@ -29,7 +30,9 @@ applicableIfcClasses:
 properties:
 - name: NominalWidth
   definition: The nominal width of the segment.
-  ifdGuid: 3xuXwMz7b0bOCQR5U6EZDu
+  ifdGuid: ''
+  legacyGuid: fbe21e96f4794095831a6c57863a3378
+  legacyGuidAsIfcGlobalId: 3xuXwMz7b0bOCQR5U6EZDu
   localizations:
   - language: ja-JP
     name: '公称幅'
@@ -56,9 +59,13 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: LENGTHUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: NominalHeight
   definition: The nominal height of the segment.
-  ifdGuid: 3kYBGUE8bDQ9GnPFndQ2kw
+  ifdGuid: ''
+  legacyGuid: ee88b41e38894d68943164fc67682bba
+  legacyGuidAsIfcGlobalId: 3kYBGUE8bDQ9GnPFndQ2kw
   localizations:
   - language: ja-JP
     name: '公称高'
@@ -85,9 +92,13 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: LENGTHUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: NumberOfCompartments
   definition: The number of separate internal compartments within the trunking.
-  ifdGuid: 3R1fYRpCzEBP2ehWNh0MYp
+  ifdGuid: ''
+  legacyGuid: db06989bcccf4e2d90a8ae05eb0168b3
+  legacyGuidAsIfcGlobalId: 3R1fYRpCzEBP2ehWNh0MYp
   localizations:
   - language: ja-JP
     name: '区画数'
@@ -114,3 +125,5 @@ properties:
     dataType: IfcInteger
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

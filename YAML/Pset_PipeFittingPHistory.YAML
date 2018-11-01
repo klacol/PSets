@@ -3,6 +3,7 @@ ifcVersion:
   version: 4.0.0.0
   schema: IfcHvacDomain
 ifdGuid: ''
+legacyGuid: ''
 definition: 'Pipe fitting performance history common attributes.'
 localizations:
 - language: de-DE
@@ -30,6 +31,7 @@ properties:
 - name: LossCoefficient
   definition: Dimensionless loss coefficient used for calculating fluid resistance representing the ratio of total pressure loss to velocity pressure at a referenced cross-section.
   ifdGuid: 1gwZtwuOP5JAR0mCXILiP5
+  legacyGuid: 1gwZtwuOP5JAR0mCXILiP5
   localizations:
   - language: ja-JP
     name: '損失係数'
@@ -55,9 +57,12 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: FlowrateLeakage
   definition: Leakage flowrate versus pressure difference.
   ifdGuid: 2EoQP6gFfCRea5yzvMv7HR
+  legacyGuid: 2EoQP6gFfCRea5yzvMv7HR
   localizations:
   - language: ja-JP
     name: '漏洩流量'
@@ -83,3 +88,5 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

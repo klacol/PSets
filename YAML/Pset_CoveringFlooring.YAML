@@ -3,6 +3,7 @@ ifcVersion:
   version: 4.0.0.0
   schema: IfcSharedBldgElements
 ifdGuid: ''
+legacyGuid: ''
 definition: 'Properties common to the definition of all occurrence and type objects of covering with the predefined type set to FLOORING.'
 localizations:
 - language: de-DE
@@ -32,6 +33,7 @@ properties:
 - name: HasNonSkidSurface
   definition: Indication whether the surface finish is designed to prevent slippery (TRUE) or not (FALSE).
   ifdGuid: 3c4MFtyWPBWQTa$XFkbgdA
+  legacyGuid: 3c4MFtyWPBWQTa$XFkbgdA
   localizations:
   - language: de-DE
     name: 'Nichtrutschende Oberfläche'
@@ -58,9 +60,12 @@ properties:
     dataType: IfcBoolean
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: HasAntiStaticSurface
   definition: Indication whether the surface finish is designed to prevent electrostatic charge (TRUE) or not (FALSE).
   ifdGuid: 01bAaKZtz46RppsRdNsi_j
+  legacyGuid: 01bAaKZtz46RppsRdNsi_j
   localizations:
   - language: de-DE
     name: 'Antistatische Oberfläche'
@@ -87,3 +92,5 @@ properties:
     dataType: IfcBoolean
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

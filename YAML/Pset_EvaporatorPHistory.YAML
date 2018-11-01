@@ -3,6 +3,7 @@ ifcVersion:
   version: 4.0.0.0
   schema: IfcHvacDomain
 ifdGuid: ''
+legacyGuid: ''
 definition: 'Evaporator performance history attributes.'
 localizations:
 - language: de-DE
@@ -30,6 +31,7 @@ properties:
 - name: HeatRejectionRate
   definition: Sum of the refrigeration effect and the heat equivalent of the power input to the compressor.
   ifdGuid: 2qRKEhiEL2$PDr34TIW4PT
+  legacyGuid: 2qRKEhiEL2$PDr34TIW4PT
   localizations:
   - language: ja-JP
     name: '排熱量'
@@ -55,9 +57,12 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: ExteriorHeatTransferCoefficient
   definition: Exterior heat transfer coefficient associated with exterior surface area.
   ifdGuid: 2WkH85$OX7kuhcpCA0ewPb
+  legacyGuid: 2WkH85$OX7kuhcpCA0ewPb
   localizations:
   - language: ja-JP
     name: '外表面熱交換係数'
@@ -83,9 +88,12 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: InteriorHeatTransferCoefficient
   definition: Interior heat transfer coefficient associated with interior surface area.
   ifdGuid: 3G0pG3NN59XQkk3yvSQiqf
+  legacyGuid: 3G0pG3NN59XQkk3yvSQiqf
   localizations:
   - language: ja-JP
     name: '内面熱交換係数'
@@ -111,9 +119,12 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: RefrigerantFoulingResistance
   definition: Fouling resistance on the refrigerant side.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: de-DE
     name: ''
@@ -139,9 +150,12 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: EvaporatingTemperature
   definition: Refrigerant evaporating temperature.
   ifdGuid: 0vb$qQszH1Lxi7j1fRsLYR
+  legacyGuid: 0vb$qQszH1Lxi7j1fRsLYR
   localizations:
   - language: ja-JP
     name: '蒸発温度'
@@ -167,9 +181,12 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: LogarithmicMeanTemperatureDifference
   definition: Logarithmic mean temperature difference between refrigerant and water or air.
   ifdGuid: 3NERePqjL3Gxeke5ctIxAH
+  legacyGuid: 3NERePqjL3Gxeke5ctIxAH
   localizations:
   - language: ja-JP
     name: '対数平均温度差'
@@ -195,9 +212,12 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: UAcurves
   definition: UV = f (VExterior, VInterior), UV as a function of interior and exterior fluid flow velocity at the entrance.
   ifdGuid: 0SRb_W0vD1iQWly$pBmoSK
+  legacyGuid: 0SRb_W0vD1iQWly$pBmoSK
   localizations:
   - language: ja-JP
     name: 'UA曲線'
@@ -223,9 +243,12 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: CompressorEvaporatorHeatGain
   definition: Heat gain between the evaporator outlet and the compressor inlet.
   ifdGuid: 1IVan5b1bEcR$D0j3z$PCb
+  legacyGuid: 1IVan5b1bEcR$D0j3z$PCb
   localizations:
   - language: ja-JP
     name: '圧縮機・蒸発器熱取得'
@@ -251,9 +274,12 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: CompressorEvaporatorPressureDrop
   definition: Pressure drop between the evaporator outlet and the compressor inlet.
   ifdGuid: 1_uLac62TB_QWj6j8EIuEp
+  legacyGuid: 1_uLac62TB_QWj6j8EIuEp
   localizations:
   - language: ja-JP
     name: '圧縮機・蒸発器圧力降下'
@@ -279,9 +305,12 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: EvaporatorMeanVoidFraction
   definition: Mean void fraction in evaporator.
   ifdGuid: 1NV42RzQjBSBzotbwZ7qQ$
+  legacyGuid: 1NV42RzQjBSBzotbwZ7qQ$
   localizations:
   - language: ja-JP
     name: '蒸発器平均空隙率'
@@ -307,9 +336,12 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: WaterFoulingResistance
   definition: Fouling resistance on water/air side.
   ifdGuid: 1PNOS1Hj53helDN64p1Aw$
+  legacyGuid: 1PNOS1Hj53helDN64p1Aw$
   localizations:
   - language: ja-JP
     name: '水側汚れ抵抗'
@@ -335,3 +367,5 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

@@ -5,6 +5,7 @@
     "schema": "IfcElectricalDomain"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "A high voltage surge protection device.",
   "localizations": [
     {
@@ -49,6 +50,7 @@
       "name": "VaristorType",
       "definition": "A list of the available types of varistor  from which that required may be selected.",
       "ifdGuid": "2pNgHdCWr44Rp_vpGn8vrt",
+      "legacyGuid": "2pNgHdCWr44Rp_vpGn8vrt",
       "localizations": [
         {
           "language": "ja-JP",
@@ -238,6 +240,9 @@
             ]
           }
         ]
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

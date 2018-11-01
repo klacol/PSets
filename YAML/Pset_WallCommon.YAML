@@ -3,6 +3,7 @@ ifcVersion:
   version: 4.0.0.0
   schema: IfcSharedBldgElements
 ifdGuid: ''
+legacyGuid: ''
 definition: 'Properties common to the definition of all occurrences of IfcWall and IfcWallStandardCase.'
 localizations:
 - language: de-DE
@@ -36,6 +37,7 @@ properties:
 - name: Reference
   definition: Reference ID for this specified type in this project (e.g. type 'A-1'), Also referred to as "construction type". It should be provided as an alternative to the name of the "object type", if the software does not support object types.
   ifdGuid: 1NUva2_R17bBrUaH3OGlmJ
+  legacyGuid: 1NUva2_R17bBrUaH3OGlmJ
   localizations:
   - language: de-DE
     name: 'Bauteiltyp'
@@ -62,9 +64,12 @@ properties:
     dataType: IfcIdentifier
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: Status
   definition: Status of the element, predominately used in renovation or retrofitting projects. The status can be assigned to as "New" - element designed as new addition, "Existing" - element exists and remains, "Demolish" - element existed but is to be demolished,  "Temporary" - element will exists only temporary (like a temporary support structure).
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: de-DE
     name: 'Status'
@@ -219,9 +224,12 @@ properties:
       - language: ru-RU
         name: 'Unknown'
         definition: ''
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: AcousticRating
   definition: Acoustic rating for this object.It is provided according to the national building code. It indicates the sound transmission resistance of this object by an index ratio (instead of providing full sound absorbtion values).
   ifdGuid: 3__Yw9Ger23AZxnlfU2zWM
+  legacyGuid: 3__Yw9Ger23AZxnlfU2zWM
   localizations:
   - language: de-DE
     name: 'Schallschutzklasse'
@@ -248,9 +256,12 @@ properties:
     dataType: IfcLabel
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: FireRating
   definition: Fire rating given according to the national fire safety classification.
   ifdGuid: 1nyfvqj8XAuA7sUnlW9iVa
+  legacyGuid: 1nyfvqj8XAuA7sUnlW9iVa
   localizations:
   - language: de-DE
     name: 'Feuerwiderstandsklasse'
@@ -277,9 +288,12 @@ properties:
     dataType: IfcLabel
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: Combustible
   definition: Indication whether the object is made from combustible material (TRUE) or not (FALSE).
   ifdGuid: 3l5OWbcfr0Bec6RAs2HVyj
+  legacyGuid: 3l5OWbcfr0Bec6RAs2HVyj
   localizations:
   - language: de-DE
     name: 'Brennbares Material'
@@ -306,9 +320,12 @@ properties:
     dataType: IfcBoolean
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: SurfaceSpreadOfFlame
   definition: Indication on how the flames spread around the surface,It is given according to the national building code that governs the fire behaviour for materials.
   ifdGuid: 1ghe5OOYD33vhLnsv6Pjtl
+  legacyGuid: 1ghe5OOYD33vhLnsv6Pjtl
   localizations:
   - language: de-DE
     name: 'Brandverhalten'
@@ -332,9 +349,12 @@ properties:
     dataType: IfcLabel
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: ThermalTransmittance
   definition: Thermal transmittance coefficient (U-Value) of a material.Here the total thermal transmittance coefficient through the wall (including all materials).
   ifdGuid: 24PIvB_2r4RO5EXng5I0a3
+  legacyGuid: 24PIvB_2r4RO5EXng5I0a3
   localizations:
   - language: de-DE
     name: 'U-Wert'
@@ -361,9 +381,12 @@ properties:
     dataType: IfcThermalTransmittanceMeasure
     measureType: ''
     unitType: THERMALTRANSMITTANCEUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: IsExternal
   definition: Indication whether the element is designed for use in the exterior (TRUE) or not (FALSE). If (TRUE) it is an external element and faces the outside of the building.
   ifdGuid: 2prn7dGMb9Sgm3rKM9vsQ2
+  legacyGuid: 2prn7dGMb9Sgm3rKM9vsQ2
   localizations:
   - language: de-DE
     name: 'Außenbauteil'
@@ -390,9 +413,12 @@ properties:
     dataType: IfcBoolean
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: ExtendToStructure
   definition: Indicates whether the object extend to the structure above (TRUE) or not (FALSE).
   ifdGuid: 2PRGQPi6n3r8XA3beUDM7o
+  legacyGuid: 2PRGQPi6n3r8XA3beUDM7o
   localizations:
   - language: de-DE
     name: 'Raumhohe Wand'
@@ -416,9 +442,12 @@ properties:
     dataType: IfcBoolean
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: LoadBearing
   definition: Indicates whether the object is intended to carry loads (TRUE) or not (FALSE).
   ifdGuid: 14HVRIHvf4OAGEO5tItvB2
+  legacyGuid: 14HVRIHvf4OAGEO5tItvB2
   localizations:
   - language: de-DE
     name: 'Tragendes Bauteil'
@@ -445,9 +474,12 @@ properties:
     dataType: IfcBoolean
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: Compartmentation
   definition: Indication whether the object is designed to serve as a fire compartmentation (TRUE) or not (FALSE).
   ifdGuid: 3_E_Ce0oz9Tg6F9mqvsd6m
+  legacyGuid: 3_E_Ce0oz9Tg6F9mqvsd6m
   localizations:
   - language: de-DE
     name: 'Brandabschnittsdefinierendes Bauteil'
@@ -471,3 +503,5 @@ properties:
     dataType: IfcBoolean
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

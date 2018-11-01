@@ -5,6 +5,7 @@
     "schema": "IfcPlumbingFireProtectionDomain"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "Symmetrical pipe fitting that unites two or more inlets into a single pipe (BS6100 330 114 adapted).",
   "localizations": [
     {
@@ -49,6 +50,7 @@
       "name": "BreechingInletType",
       "definition": "Defines the type of breeching inlet.",
       "ifdGuid": "1PBtPbm5PBkutFLKLYz0A2",
+      "legacyGuid": "1PBtPbm5PBkutFLKLYz0A2",
       "localizations": [
         {
           "language": "ja-JP",
@@ -233,12 +235,16 @@
             ]
           }
         ]
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "InletDiameter",
       "definition": "The inlet diameter of the breeching inlet.",
       "ifdGuid": "1Cr2hjyYHCTOsR_s63ds0W",
+      "legacyGuid": "1Cr2hjyYHCTOsR_s63ds0W",
       "localizations": [
         {
           "language": "ja-JP",
@@ -275,12 +281,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "OutletDiameter",
       "definition": "The outlet diameter of the breeching inlet.",
       "ifdGuid": "2gjkZTrJn7nAWSRDxVTAhN",
+      "legacyGuid": "2gjkZTrJn7nAWSRDxVTAhN",
       "localizations": [
         {
           "language": "ja-JP",
@@ -317,12 +327,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "CouplingType",
       "definition": "Defines the type coupling on the inlet of the breeching inlet.",
       "ifdGuid": "3yvo51pwHCAv0P$ufQSf2l",
+      "legacyGuid": "3yvo51pwHCAv0P$ufQSf2l",
       "localizations": [
         {
           "language": "ja-JP",
@@ -507,12 +521,16 @@
             ]
           }
         ]
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "HasCaps",
       "definition": "Does the inlet connection have protective caps.",
       "ifdGuid": "39VH7k8TvDUOdez6F_KPhm",
+      "legacyGuid": "39VH7k8TvDUOdez6F_KPhm",
       "localizations": [
         {
           "language": "ja-JP",
@@ -549,6 +567,9 @@
         "dataType": "IfcBoolean",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

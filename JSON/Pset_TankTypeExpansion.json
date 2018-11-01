@@ -5,6 +5,7 @@
     "schema": "IfcHvacDomain"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "Common attributes of an expansion type tank.",
   "localizations": [
     {
@@ -49,6 +50,7 @@
       "name": "ChargePressure",
       "definition": "Nominal or design operating pressure of the tank.",
       "ifdGuid": "22Uu1WRBb8Uw3OUDkc$mHu",
+      "legacyGuid": "22Uu1WRBb8Uw3OUDkc$mHu",
       "localizations": [
         {
           "language": "ja-JP",
@@ -85,12 +87,16 @@
         "dataType": "IfcPressureMeasure",
         "measureType": "",
         "unitType": "PRESSUREUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "PressureRegulatorSetting",
       "definition": "Pressure that is automatically maintained in the tank.",
       "ifdGuid": "16DHREDyX1r8NY83wbNO2Z",
+      "legacyGuid": "16DHREDyX1r8NY83wbNO2Z",
       "localizations": [
         {
           "language": "ja-JP",
@@ -127,12 +133,16 @@
         "dataType": "IfcPressureMeasure",
         "measureType": "",
         "unitType": "PRESSUREUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "ReliefValveSetting",
       "definition": "Pressure at which the relief valve activates.",
       "ifdGuid": "3ehmr80FrAsAV7B5iDfmZN",
+      "legacyGuid": "3ehmr80FrAsAV7B5iDfmZN",
       "localizations": [
         {
           "language": "ja-JP",
@@ -169,6 +179,9 @@
         "dataType": "IfcPressureMeasure",
         "measureType": "",
         "unitType": "PRESSUREUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

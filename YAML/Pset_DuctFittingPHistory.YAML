@@ -3,6 +3,7 @@ ifcVersion:
   version: 4.0.0.0
   schema: IfcHvacDomain
 ifdGuid: ''
+legacyGuid: ''
 definition: 'Duct fitting performance history common attributes.'
 localizations:
 - language: de-DE
@@ -30,6 +31,7 @@ properties:
 - name: LossCoefficient
   definition: Dimensionless loss coefficient used for calculating fluid resistance representing the ratio of total pressure loss to velocity pressure at a referenced cross-section.
   ifdGuid: 2rBc4ICWXAWPGXBUQfBgCt
+  legacyGuid: 2rBc4ICWXAWPGXBUQfBgCt
   localizations:
   - language: ja-JP
     name: '損失係数'
@@ -55,9 +57,12 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: AtmosphericPressure
   definition: Ambient atmospheric pressure.
   ifdGuid: 2sZdCE4355QuGTLmtF9_G9
+  legacyGuid: 2sZdCE4355QuGTLmtF9_G9
   localizations:
   - language: ja-JP
     name: '大気圧'
@@ -83,9 +88,12 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: AirFlowLeakage
   definition: Volumetric leakage flow rate.
   ifdGuid: 3vVqd26OX1DhIdva_7sbO_
+  legacyGuid: 3vVqd26OX1DhIdva_7sbO_
   localizations:
   - language: ja-JP
     name: '漏れ量'
@@ -111,3 +119,5 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

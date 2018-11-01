@@ -5,6 +5,7 @@
     "schema": "IfcHvacDomain"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "Duct segment type common attributes.",
   "localizations": [
     {
@@ -49,6 +50,7 @@
       "name": "Reference",
       "definition": "Reference ID for this specified type in this project (e.g. type 'A-1').",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "ja-JP",
@@ -85,12 +87,16 @@
         "dataType": "IfcIdentifier",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "Status",
       "definition": "Status of the element, predominately used in renovation or retrofitting projects. The status can be assigned to as \"New\" - element designed as new addition, \"Existing\" - element exists and remains, \"Demolish\" - element existed but is to be demolished,  \"Temporary\" - element will exists only temporary (like a temporary support structure).",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "ja-JP",
@@ -349,12 +355,16 @@
             ]
           }
         ]
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "Shape",
       "definition": "Cross sectional shape. Note that this shape is uniform throughout the length of the segment. For nonuniform shapes, a transition fitting should be used instead.",
       "ifdGuid": "1i5Hyn8hf1SxU7zGViWpSn",
+      "legacyGuid": "1i5Hyn8hf1SxU7zGViWpSn",
       "localizations": [
         {
           "language": "ja-JP",
@@ -576,12 +586,16 @@
             ]
           }
         ]
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "WorkingPressure",
       "definition": "Pressure classification as defined by the authority having jurisdiction (e.g., SMACNA, etc.).",
       "ifdGuid": "2dd51qPr9ABeInNMZH9ZaO",
+      "legacyGuid": "2dd51qPr9ABeInNMZH9ZaO",
       "localizations": [
         {
           "language": "ja-JP",
@@ -618,12 +632,16 @@
         "dataType": "IfcPressureMeasure",
         "measureType": "",
         "unitType": "PRESSUREUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "PressureRange",
       "definition": "Allowable maximum and minimum working pressure (relative to ambient pressure).",
       "ifdGuid": "0kWOsbFEz0wv0Vrw4I5VyH",
+      "legacyGuid": "0kWOsbFEz0wv0Vrw4I5VyH",
       "localizations": [
         {
           "language": "ja-JP",
@@ -662,12 +680,16 @@
         "LowerBoundValue": "0",
         "UpperBoundValue": "?",
         "typeName": "TypePropertyBoundedValue"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "TemperatureRange",
       "definition": "Allowable maximum and minimum temperature.",
       "ifdGuid": "1vDvS71CH5XerwTM4hp3FF",
+      "legacyGuid": "1vDvS71CH5XerwTM4hp3FF",
       "localizations": [
         {
           "language": "ja-JP",
@@ -706,12 +728,16 @@
         "LowerBoundValue": "0",
         "UpperBoundValue": "?",
         "typeName": "TypePropertyBoundedValue"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "LongitudinalSeam",
       "definition": "The type of seam to be used along the longitudinal axis of the duct segment.",
       "ifdGuid": "3JyD8bReH5$OzdjuY5q3jX",
+      "legacyGuid": "3JyD8bReH5$OzdjuY5q3jX",
       "localizations": [
         {
           "language": "ja-JP",
@@ -748,12 +774,16 @@
         "dataType": "IfcText",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "NominalDiameterOrWidth",
       "definition": "The nominal diameter or width of the duct segment.",
       "ifdGuid": "2TtpI25Mn81BHfU0uagF9$",
+      "legacyGuid": "2TtpI25Mn81BHfU0uagF9$",
       "localizations": [
         {
           "language": "ja-JP",
@@ -790,12 +820,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "NominalHeight",
       "definition": "The nominal height of the duct segment.",
       "ifdGuid": "2ehDKkRyXEVgw9CN86P1P2",
+      "legacyGuid": "2ehDKkRyXEVgw9CN86P1P2",
       "localizations": [
         {
           "language": "ja-JP",
@@ -832,12 +866,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "Reinforcement",
       "definition": "The type of reinforcement, if any, used for the duct segment.",
       "ifdGuid": "10dDme88TFZgMicJxROfuw",
+      "legacyGuid": "10dDme88TFZgMicJxROfuw",
       "localizations": [
         {
           "language": "ja-JP",
@@ -874,12 +912,16 @@
         "dataType": "IfcLabel",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "ReinforcementSpacing",
       "definition": "The spacing between reinforcing elements.",
       "ifdGuid": "2B7lAbHT9CYOGgdMMPnKfR",
+      "legacyGuid": "2B7lAbHT9CYOGgdMMPnKfR",
       "localizations": [
         {
           "language": "ja-JP",
@@ -916,6 +958,9 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

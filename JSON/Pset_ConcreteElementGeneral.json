@@ -5,6 +5,7 @@
     "schema": "IfcStructuralElementsDomain"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "General properties common to different types of concrete elements. The Pset can be used by a number of subtypes of IfcBuildingElement.",
   "localizations": [
     {
@@ -48,7 +49,9 @@
     {
       "name": "ConstructionMethod",
       "definition": "Designator for whether the concrete element is constructed on site or prefabricated. Allowed values are: 'In-Situ' vs 'Precast'.",
-      "ifdGuid": "360cUAqwb2rxX37QqR0I0$",
+      "ifdGuid": "",
+      "legacyGuid": "c602678ad3a942d7b8431dad1b01203f",
+      "legacyGuidAsIfcGlobalId": "360cUAqwb2rxX37QqR0I0$",
       "localizations": [
         {
           "language": "de-DE",
@@ -85,12 +88,17 @@
         "dataType": "IfcLabel",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "StructuralClass",
       "definition": "The structural class defined for the concrete structure (e.g. '1').",
-      "ifdGuid": "1ZxvpI1vb2mB4gg$OonKW$",
+      "ifdGuid": "",
+      "legacyGuid": "63ef9cd2079942c0b12aabf632c5483f",
+      "legacyGuidAsIfcGlobalId": "1ZxvpI1vb2mB4gg$OonKW$",
       "localizations": [
         {
           "language": "ko-KR",
@@ -132,12 +140,16 @@
         "dataType": "IfcLabel",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "StrengthClass",
       "definition": "Classification of the concrete strength in accordance with the concrete design code which is applied in the project.",
       "ifdGuid": "",
+      "legacyGuidAsIfcGlobalId": "",
       "localizations": [
         {
           "language": "de-DE",
@@ -174,12 +186,17 @@
         "dataType": "IfcLabel",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "ExposureClass",
       "definition": "Classification of exposure to environmental conditions, usually specified in accordance with the concrete design code which is applied in the project.",
-      "ifdGuid": "2oFci6k6X9O8oYRfb3MnPd",
+      "ifdGuid": "",
+      "legacyGuid": "b23e6b06b86849608ca26e99435b1667",
+      "legacyGuidAsIfcGlobalId": "2oFci6k6X9O8oYRfb3MnPd",
       "localizations": [
         {
           "language": "de-DE",
@@ -216,12 +233,16 @@
         "dataType": "IfcLabel",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "ReinforcementVolumeRatio",
       "definition": "The required ratio of the effective mass of the reinforcement to the effective volume of the concrete of a reinforced concrete structural element.",
       "ifdGuid": "",
+      "legacyGuidAsIfcGlobalId": "",
       "localizations": [
         {
           "language": "de-DE",
@@ -258,12 +279,16 @@
         "dataType": "IfcMassDensityMeasure",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "ReinforcementAreaRatio",
       "definition": "The required ratio of the effective area of the reinforcement to the effective area of the concrete At any section of a reinforced concrete structural element.",
       "ifdGuid": "",
+      "legacyGuidAsIfcGlobalId": "",
       "localizations": [
         {
           "language": "de-DE",
@@ -300,12 +325,17 @@
         "dataType": "IfcAreaMeasure",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "DimensionalAccuracyClass",
       "definition": "Classification designation of the dimensional accuracy requirement according to local standards.",
-      "ifdGuid": "1uSwWJt$L02euVilrDnf49",
+      "ifdGuid": "",
+      "legacyGuid": "7873a813dff5400a8e1fb2fd4dc69109",
+      "legacyGuidAsIfcGlobalId": "1uSwWJt$L02euVilrDnf49",
       "localizations": [
         {
           "language": "ko-KR",
@@ -347,12 +377,17 @@
         "dataType": "IfcLabel",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "ConstructionToleranceClass",
       "definition": "Classification designation of the on-site construction tolerances according to local standards.",
-      "ifdGuid": "11SaRSMkLCk8JcvLj8JD54",
+      "ifdGuid": "",
+      "legacyGuid": "417246dc5ae54cb884e6e55b484cd144",
+      "legacyGuidAsIfcGlobalId": "11SaRSMkLCk8JcvLj8JD54",
       "localizations": [
         {
           "language": "ko-KR",
@@ -394,12 +429,16 @@
         "dataType": "IfcLabel",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "ConcreteCover",
       "definition": "The protective concrete cover at the reinforcing bars according to local building regulations.",
       "ifdGuid": "",
+      "legacyGuidAsIfcGlobalId": "",
       "localizations": [
         {
           "language": "de-DE",
@@ -436,12 +475,17 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "ConcreteCoverAtMainBars",
       "definition": "The protective concrete cover at the main reinforcing bars according to local building regulations.",
-      "ifdGuid": "0OvO$Bp3n5We1UALlZJsm0",
+      "ifdGuid": "",
+      "legacyGuid": "18e58fcbcc3c4582805e295be34f6c00",
+      "legacyGuidAsIfcGlobalId": "0OvO$Bp3n5We1UALlZJsm0",
       "localizations": [
         {
           "language": "ko-KR",
@@ -483,12 +527,17 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "ConcreteCoverAtLinks",
       "definition": "The protective concrete cover at the reinforcement links according to local building regulations.",
-      "ifdGuid": "1HUg2NSyjFnRqbxeNgFPEU",
+      "ifdGuid": "",
+      "legacyGuid": "517aa09773cb4fc5bd25ee85ea3d939e",
+      "legacyGuidAsIfcGlobalId": "1HUg2NSyjFnRqbxeNgFPEU",
       "localizations": [
         {
           "language": "ko-KR",
@@ -530,6 +579,9 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

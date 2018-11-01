@@ -3,6 +3,7 @@ ifcVersion:
   version: 4.0.0.0
   schema: IfcElectricalDomain
 ifdGuid: ''
+legacyGuid: ''
 definition: 'A residual current switch opens, closes or isolates a circuit and has no short circuit or overload protection.'
 localizations:
 - language: de-DE
@@ -30,6 +31,7 @@ properties:
 - name: Sensitivity
   definition: Current leakage to an unwanted leading path during normal operation (IEC 151-14-49).
   ifdGuid: 0fMbWeoA5DIARQ_sr_MTNz
+  legacyGuid: 0fMbWeoA5DIARQ_sr_MTNz
   localizations:
   - language: ja-JP
     name: '感度'
@@ -56,3 +58,5 @@ properties:
     dataType: IfcElectricCurrentMeasure
     measureType: ''
     unitType: ELECTRICCURRENTUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

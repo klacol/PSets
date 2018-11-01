@@ -3,6 +3,7 @@ ifcVersion:
   version: 4.0.0.0
   schema: IfcSharedBldgServiceElements
 ifdGuid: ''
+legacyGuid: ''
 definition: 'Log of signal activity attached to an instance of IfcPerformanceHistory having an assigned IfcDistributionPort of type SIGNAL.'
 localizations:
 - language: de-DE
@@ -30,6 +31,7 @@ properties:
 - name: Signal
   definition: Log of signal value.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: ja-JP
     name: '信号'
@@ -58,3 +60,5 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

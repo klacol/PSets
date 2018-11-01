@@ -3,6 +3,7 @@ ifcVersion:
   version: 4.0.0.0
   schema: IfcSharedBldgServiceElements
 ifdGuid: ''
+legacyGuid: ''
 definition: 'Recess or chamber formed to permit access for inspection of substructure and services (definition modified from BS6100 221 4128).'
 localizations:
 - language: de-DE
@@ -30,6 +31,7 @@ properties:
 - name: Length
   definition: The length of the pit.
   ifdGuid: 1g5pZ31SfFBQKi69yieWgW
+  legacyGuid: 1g5pZ31SfFBQKi69yieWgW
   localizations:
   - language: ja-JP
     name: '長さ'
@@ -56,9 +58,12 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: LENGTHUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: Width
   definition: The width of the pit.
   ifdGuid: 0geYUs6uDCFvipp_2qMiSN
+  legacyGuid: 0geYUs6uDCFvipp_2qMiSN
   localizations:
   - language: ja-JP
     name: '幅'
@@ -85,9 +90,12 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: LENGTHUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: Depth
   definition: The depth of the pit.
   ifdGuid: 2HOuA7DwzBVhRyweGYFokL
+  legacyGuid: 2HOuA7DwzBVhRyweGYFokL
   localizations:
   - language: ja-JP
     name: '深さ'
@@ -114,3 +122,5 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: LENGTHUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

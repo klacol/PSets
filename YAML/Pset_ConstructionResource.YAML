@@ -2,6 +2,7 @@
 ifcVersion:
   version: 4.0.0.0
 ifdGuid: ''
+legacyGuid: ''
 definition: 'Properties for tracking resource usage over time.'
 localizations:
 - language: de-DE
@@ -29,6 +30,7 @@ properties:
 - name: ScheduleWork
   definition: PSet2YamlConverter.PropertyType
   ifdGuid: 3kLci0qSmHuO00025QrE$V
+  legacyGuid: 3kLci0qSmHuO00025QrE$V
   localizations:
   - language: ja-JP
     name: '予定作業時間'
@@ -54,9 +56,12 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: ActualWork
   definition: PSet2YamlConverter.PropertyType
   ifdGuid: 3nKLk0qSmHuO00025QrE$V
+  legacyGuid: 3nKLk0qSmHuO00025QrE$V
   localizations:
   - language: ja-JP
     name: '実績作業時間'
@@ -82,9 +87,12 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: RemainingWork
   definition: PSet2YamlConverter.PropertyType
   ifdGuid: 3pixM0qSmHuO00025QrE$V
+  legacyGuid: 3pixM0qSmHuO00025QrE$V
   localizations:
   - language: ja-JP
     name: '残存作業時間'
@@ -110,9 +118,12 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: ScheduleCost
   definition: PSet2YamlConverter.PropertyType
   ifdGuid: 3shgO0qSmHuO00025QrE$V
+  legacyGuid: 3shgO0qSmHuO00025QrE$V
   localizations:
   - language: ja-JP
     name: '予定コスト'
@@ -138,9 +149,12 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: ActualCost
   definition: PSet2YamlConverter.PropertyType
   ifdGuid: 3v4G00qSmHuO00025QrE$V
+  legacyGuid: 3v4G00qSmHuO00025QrE$V
   localizations:
   - language: ja-JP
     name: '実績コスト'
@@ -166,9 +180,12 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: RemainingCost
   definition: PSet2YamlConverter.PropertyType
   ifdGuid: 3xSre0qSmHuO00025QrE$V
+  legacyGuid: 3xSre0qSmHuO00025QrE$V
   localizations:
   - language: ja-JP
     name: '残存コスト'
@@ -194,9 +211,12 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: ScheduleCompletion
   definition: PSet2YamlConverter.PropertyType
   ifdGuid: 3_Rag0qSmHuO00025QrE$V
+  legacyGuid: 3_Rag0qSmHuO00025QrE$V
   localizations:
   - language: ja-JP
     name: '予定完了率'
@@ -222,9 +242,12 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: ActualCompletion
   definition: PSet2YamlConverter.PropertyType
   ifdGuid: 00qAI0qSqHuO00025QrE$V
+  legacyGuid: 00qAI0qSqHuO00025QrE$V
   localizations:
   - language: ja-JP
     name: '実績完了率'
@@ -250,3 +273,5 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

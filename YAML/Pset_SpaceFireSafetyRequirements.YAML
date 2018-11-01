@@ -3,6 +3,7 @@ ifcVersion:
   version: 4.0.0.0
   schema: IfcProductExtension
 ifdGuid: ''
+legacyGuid: ''
 definition: 'Properties related to fire protection of spaces that apply to the occurrences of IfcSpace or IfcZone.'
 localizations:
 - language: de-DE
@@ -36,6 +37,7 @@ properties:
 - name: FireRiskFactor
   definition: Fire Risk factor assigned to the space according to local building regulations. It defines the fire risk of the space at several levels of fire hazard.
   ifdGuid: 02_BOFRd9ATgjz1Se52lo1
+  legacyGuid: 02_BOFRd9ATgjz1Se52lo1
   localizations:
   - language: de-DE
     name: 'Brandgefahrenklasse'
@@ -62,9 +64,12 @@ properties:
     dataType: IfcLabel
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: FlammableStorage
   definition: Indication whether the space is intended to serve as a storage of flammable material (which is regarded as such by the presiding building code. (TRUE) indicates yes, (FALSE) otherwise.
   ifdGuid: 37Gt$dAO10AxtdL3pbyvPG
+  legacyGuid: 37Gt$dAO10AxtdL3pbyvPG
   localizations:
   - language: de-DE
     name: 'Lagerung brennbarer Stoffe'
@@ -91,9 +96,12 @@ properties:
     dataType: IfcBoolean
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: FireExit
   definition: Indication whether this object is designed to serve as an exit in the case of fire (TRUE) or not (FALSE).Here whether the space (in case of e.g., a corridor) is designed to serve as an exit space, e.g., for fire escape purposes.
   ifdGuid: 1JxuFSwYH7fP2uwcKjOF$p
+  legacyGuid: 1JxuFSwYH7fP2uwcKjOF$p
   localizations:
   - language: de-DE
     name: 'Notausgang'
@@ -120,9 +128,12 @@ properties:
     dataType: IfcBoolean
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: SprinklerProtection
   definition: Indication whether the space is sprinkler protected (TRUE) or not (FALSE).
   ifdGuid: 07u$M9VEP8EhI4TbCh16PZ
+  legacyGuid: 07u$M9VEP8EhI4TbCh16PZ
   localizations:
   - language: de-DE
     name: 'Sprinklerschutz'
@@ -149,9 +160,12 @@ properties:
     dataType: IfcBoolean
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: SprinklerProtectionAutomatic
   definition: Indication whether the space has an automatic sprinkler protection (TRUE) or not (FALSE).It should only be given, if the property "SprinklerProtection" is set to TRUE.
   ifdGuid: 2UbJea2JD8rvbdQ$cnhxfN
+  legacyGuid: 2UbJea2JD8rvbdQ$cnhxfN
   localizations:
   - language: de-DE
     name: 'Sprinklerschutz automatisch'
@@ -178,9 +192,12 @@ properties:
     dataType: IfcBoolean
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: AirPressurization
   definition: Indication whether the space is required to have pressurized air (TRUE) or not (FALSE).
   ifdGuid: 3xor87rL16hg04b_CvwWmy
+  legacyGuid: 3xor87rL16hg04b_CvwWmy
   localizations:
   - language: de-DE
     name: 'Luftdruckausgleich'
@@ -207,3 +224,5 @@ properties:
     dataType: IfcBoolean
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

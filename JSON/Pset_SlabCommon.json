@@ -5,6 +5,7 @@
     "schema": "IfcSharedBldgElements"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "Properties common to the definition of all occurrences of IfcSlab. Note: Properties for PitchAngle added in IFC 2x3",
   "localizations": [
     {
@@ -61,6 +62,7 @@
       "name": "Reference",
       "definition": "Reference ID for this specified type in this project (e.g. type 'A-1'), Also referred to as \"construction type\". It should be provided as an alternative to the name of the \"object type\", if the software does not support object types.",
       "ifdGuid": "1WANXGayX8IRD7TiCSpU0b",
+      "legacyGuid": "1WANXGayX8IRD7TiCSpU0b",
       "localizations": [
         {
           "language": "de-DE",
@@ -102,12 +104,16 @@
         "dataType": "IfcIdentifier",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "Status",
       "definition": "Status of the element, predominately used in renovation or retrofitting projects. The status can be assigned to as \"New\" - element designed as new addition, \"Existing\" - element exists and remains, \"Demolish\" - element existed but is to be demolished,  \"Temporary\" - element will exists only temporary (like a temporary support structure).",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "de-DE",
@@ -366,12 +372,16 @@
             ]
           }
         ]
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "AcousticRating",
       "definition": "Acoustic rating for this object.It is provided according to the national building code. It indicates the sound transmission resistance of this object by an index ratio (instead of providing full sound absorbtion values).",
       "ifdGuid": "2gxTDtHsbArP5aJB28pJrh",
+      "legacyGuid": "2gxTDtHsbArP5aJB28pJrh",
       "localizations": [
         {
           "language": "de-DE",
@@ -413,12 +423,16 @@
         "dataType": "IfcLabel",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "FireRating",
       "definition": "Fire rating for this object. It is given according to the national fire safety classification.",
       "ifdGuid": "2IqFUehTv78xIsHVWC0Xyq",
+      "legacyGuid": "2IqFUehTv78xIsHVWC0Xyq",
       "localizations": [
         {
           "language": "de-DE",
@@ -460,12 +474,16 @@
         "dataType": "IfcLabel",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "Combustible",
       "definition": "Indication whether the object is made from combustible material (TRUE) or not (FALSE).",
       "ifdGuid": "1bhsD7TC11JhpHcKkIgpkf",
+      "legacyGuid": "1bhsD7TC11JhpHcKkIgpkf",
       "localizations": [
         {
           "language": "de-DE",
@@ -507,12 +525,16 @@
         "dataType": "IfcBoolean",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "SurfaceSpreadOfFlame",
       "definition": "Indication on how the flames spread around the surface, It is given according to the national building code that governs the fire behaviour for materials.",
       "ifdGuid": "0SC6UYwhn3QBncoJnJ$4sE",
+      "legacyGuid": "0SC6UYwhn3QBncoJnJ$4sE",
       "localizations": [
         {
           "language": "de-DE",
@@ -549,12 +571,16 @@
         "dataType": "IfcLabel",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "ThermalTransmittance",
       "definition": "Thermal transmittance coefficient (U-Value) of a material. Here the total thermal transmittance coefficient through the slab (including all materials).",
       "ifdGuid": "2zqQFKbmDCwvjUVEcPRWFQ",
+      "legacyGuid": "2zqQFKbmDCwvjUVEcPRWFQ",
       "localizations": [
         {
           "language": "de-DE",
@@ -596,12 +622,16 @@
         "dataType": "IfcThermalTransmittanceMeasure",
         "measureType": "",
         "unitType": "THERMALTRANSMITTANCEUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "IsExternal",
       "definition": "Indication whether the element is designed for use in the exterior (TRUE) or not (FALSE). If (TRUE) it is an external element and faces the outside of the building.",
       "ifdGuid": "03vHDBmxT4QRzvRl4dNCTV",
+      "legacyGuid": "03vHDBmxT4QRzvRl4dNCTV",
       "localizations": [
         {
           "language": "de-DE",
@@ -643,12 +673,16 @@
         "dataType": "IfcBoolean",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "LoadBearing",
       "definition": "Indicates whether the object is intended to carry loads (TRUE) or not (FALSE).",
       "ifdGuid": "2Ufhg07lz17ABB_bhjsD01",
+      "legacyGuid": "2Ufhg07lz17ABB_bhjsD01",
       "localizations": [
         {
           "language": "de-DE",
@@ -690,12 +724,16 @@
         "dataType": "IfcBoolean",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "Compartmentation",
       "definition": "Indication whether the object is designed to serve as a fire compartmentation (TRUE) or not (FALSE).",
       "ifdGuid": "0ZbhMQ7YjEGPUQLLPyM20S",
+      "legacyGuid": "0ZbhMQ7YjEGPUQLLPyM20S",
       "localizations": [
         {
           "language": "de-DE",
@@ -732,12 +770,16 @@
         "dataType": "IfcBoolean",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "PitchAngle",
       "definition": "Angle of the slab to the horizontal when used as a component for the roof (specified as 0 degrees or not asserted for cases where the slab is not used as a roof component).      The shape information is provided in addition to the shape representation and the geometric parameters used within. In cases of inconsistency between the geometric parameters and the shape properties, provided in the attached property, the geometric parameters take precedence.  For geometry editing applications, like CAD: this value should be write-only.",
       "ifdGuid": "0V_IXNYKfDMx13JGP3Y1TP",
+      "legacyGuid": "0V_IXNYKfDMx13JGP3Y1TP",
       "localizations": [
         {
           "language": "de-DE",
@@ -774,6 +816,9 @@
         "dataType": "IfcPlaneAngleMeasure",
         "measureType": "",
         "unitType": "PLANEANGLEUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

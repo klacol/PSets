@@ -5,6 +5,7 @@
     "schema": "IfcHvacDomain"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "Pipe fitting type common attributes.",
   "localizations": [
     {
@@ -49,6 +50,7 @@
       "name": "Reference",
       "definition": "Reference ID for this specified type in this project (e.g. type 'A-1').",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "ja-JP",
@@ -85,12 +87,16 @@
         "dataType": "IfcIdentifier",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "Status",
       "definition": "Status of the element, predominately used in renovation or retrofitting projects. The status can be assigned to as \"New\" - element designed as new addition, \"Existing\" - element exists and remains, \"Demolish\" - element existed but is to be demolished,  \"Temporary\" - element will exists only temporary (like a temporary support structure).",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "ja-JP",
@@ -349,12 +355,16 @@
             ]
           }
         ]
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "PressureClass",
       "definition": "The test or rated pressure classification of the fitting.",
       "ifdGuid": "3VHLs3CIX1$xQPlc0frVLe",
+      "legacyGuid": "3VHLs3CIX1$xQPlc0frVLe",
       "localizations": [
         {
           "language": "ja-JP",
@@ -391,12 +401,16 @@
         "dataType": "IfcPressureMeasure",
         "measureType": "",
         "unitType": "PRESSUREUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "PressureRange",
       "definition": "Allowable maximum and minimum working pressure (relative to ambient pressure).",
       "ifdGuid": "0sbQMR4KTFUvclOxuRFIKP",
+      "legacyGuid": "0sbQMR4KTFUvclOxuRFIKP",
       "localizations": [
         {
           "language": "ja-JP",
@@ -435,12 +449,16 @@
         "LowerBoundValue": "0",
         "UpperBoundValue": "?",
         "typeName": "TypePropertyBoundedValue"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "TemperatureRange",
       "definition": "Allowable maximum and minimum temperature.",
       "ifdGuid": "2v9YQ1CQj1$AGApEgiGxGk",
+      "legacyGuid": "2v9YQ1CQj1$AGApEgiGxGk",
       "localizations": [
         {
           "language": "ja-JP",
@@ -479,12 +497,16 @@
         "LowerBoundValue": "0",
         "UpperBoundValue": "?",
         "typeName": "TypePropertyBoundedValue"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "FittingLossFactor",
       "definition": "A factor that determines the pressure loss due to friction through the fitting.",
       "ifdGuid": "2Au8lTTJ15reJqtgsbwwYr",
+      "legacyGuid": "2Au8lTTJ15reJqtgsbwwYr",
       "localizations": [
         {
           "language": "ja-JP",
@@ -521,6 +543,9 @@
         "dataType": "IfcReal",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

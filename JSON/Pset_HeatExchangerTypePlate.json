@@ -5,6 +5,7 @@
     "schema": "IfcHvacDomain"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "Plate heat exchanger type common attributes.",
   "localizations": [
     {
@@ -49,6 +50,7 @@
       "name": "NumberOfPlates",
       "definition": "Number of plates used by the plate heat exchanger.",
       "ifdGuid": "2X8JQoMT55TvqeLi989Lel",
+      "legacyGuid": "2X8JQoMT55TvqeLi989Lel",
       "localizations": [
         {
           "language": "ja-JP",
@@ -85,6 +87,9 @@
         "dataType": "IfcInteger",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

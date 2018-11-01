@@ -5,6 +5,7 @@
     "schema": "IfcHvacDomain"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "Space heater type convector attributes.",
   "localizations": [
     {
@@ -49,6 +50,7 @@
       "name": "ConvectorType",
       "definition": "Indicates the type of convector, whether forced air (mechanically driven) or natural (gravity).",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "ja-JP",
@@ -233,6 +235,9 @@
             ]
           }
         ]
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

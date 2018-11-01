@@ -3,6 +3,7 @@ ifcVersion:
   version: 4.0.0.0
   schema: IfcBuildingControlsDomain
 ifdGuid: ''
+legacyGuid: ''
 definition: 'A device that pneumatically actuates a control element'
 localizations:
 - language: de-DE
@@ -29,7 +30,9 @@ applicableIfcClasses:
 properties:
 - name: InputPressure
   definition: Maximum input control air pressure requirement.
-  ifdGuid: 3HFqSlQS5D9gUX1aEHoAF5
+  ifdGuid: ''
+  legacyGuid: d13f472f69c14d26a7a1064391c8a3c5
+  legacyGuidAsIfcGlobalId: 3HFqSlQS5D9gUX1aEHoAF5
   localizations:
   - language: ja-JP
     name: '入力圧力'
@@ -56,9 +59,13 @@ properties:
     dataType: IfcPressureMeasure
     measureType: ''
     unitType: PRESSUREUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: InputFlowrate
   definition: Maximum input control air flowrate requirement.
-  ifdGuid: 1MeS5HUlD5iP1q6TeAjkfF
+  ifdGuid: ''
+  legacyGuid: 56a1c1517af345b1907419da0ab6ea4f
+  legacyGuidAsIfcGlobalId: 1MeS5HUlD5iP1q6TeAjkfF
   localizations:
   - language: ja-JP
     name: '入力流量'
@@ -85,3 +92,5 @@ properties:
     dataType: IfcVolumetricFlowRateMeasure
     measureType: ''
     unitType: VOLUMETRICFLOWRATEUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

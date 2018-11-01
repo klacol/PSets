@@ -5,6 +5,7 @@
     "schema": "IfcHvacDomain"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "Common performance history attributes for a cooled beam.",
   "localizations": [
     {
@@ -49,6 +50,7 @@
       "name": "TotalCoolingCapacity",
       "definition": "Total cooling capacity. This includes cooling capacity of beam and cooling capacity of supply air.",
       "ifdGuid": "2s1WGoLBf829J$DERinL4Y",
+      "legacyGuid": "2s1WGoLBf829J$DERinL4Y",
       "localizations": [
         {
           "language": "de-DE",
@@ -87,12 +89,16 @@
         "guid": "",
         "libraryName": "Industry Foundation Classes by buildingSMART International",
         "sectionref": "Core Schema"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "TotalHeatingCapacity",
       "definition": "Total heating capacity. This includes heating capacity of beam and heating capacity of supply air.",
       "ifdGuid": "1r4M1nmpX1wwxCF9ZdMzmU",
+      "legacyGuid": "1r4M1nmpX1wwxCF9ZdMzmU",
       "localizations": [
         {
           "language": "de-DE",
@@ -131,12 +137,16 @@
         "guid": "",
         "libraryName": "Industry Foundation Classes by buildingSMART International",
         "sectionref": "Core Schema"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "BeamCoolingCapacity",
       "definition": "Cooling capacity of beam. This excludes cooling capacity of supply air.",
       "ifdGuid": "2bVVWMghT6FA0DQ$PBrUTV",
+      "legacyGuid": "2bVVWMghT6FA0DQ$PBrUTV",
       "localizations": [
         {
           "language": "de-DE",
@@ -175,12 +185,16 @@
         "guid": "",
         "libraryName": "Industry Foundation Classes by buildingSMART International",
         "sectionref": "Core Schema"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "BeamHeatingCapacity",
       "definition": "Heating capacity of beam. This excludes heating capacity of supply air.",
       "ifdGuid": "2o0GV6p2rBgfFBIQnMWrNW",
+      "legacyGuid": "2o0GV6p2rBgfFBIQnMWrNW",
       "localizations": [
         {
           "language": "de-DE",
@@ -219,12 +233,16 @@
         "guid": "",
         "libraryName": "Industry Foundation Classes by buildingSMART International",
         "sectionref": "Core Schema"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "CoolingWaterFlowRate",
       "definition": "Water flow rate for cooling.",
       "ifdGuid": "3nWBw5DbTB$vzx65KioxfL",
+      "legacyGuid": "3nWBw5DbTB$vzx65KioxfL",
       "localizations": [
         {
           "language": "de-DE",
@@ -263,12 +281,16 @@
         "guid": "",
         "libraryName": "Industry Foundation Classes by buildingSMART International",
         "sectionref": "Core Schema"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "HeatingWaterFlowRate",
       "definition": "Water flow rate for heating.",
       "ifdGuid": "1mh6nA17P7RhiR3jVGfEQg",
+      "legacyGuid": "1mh6nA17P7RhiR3jVGfEQg",
       "localizations": [
         {
           "language": "de-DE",
@@ -307,12 +329,16 @@
         "guid": "",
         "libraryName": "Industry Foundation Classes by buildingSMART International",
         "sectionref": "Core Schema"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "CorrectionFactorForCooling",
       "definition": "Correction factor k as a function of water flow rate (used to calculate cooling capacity).",
       "ifdGuid": "3Njl1UBv50_uYdtoCoj9H0",
+      "legacyGuid": "3Njl1UBv50_uYdtoCoj9H0",
       "localizations": [
         {
           "language": "de-DE",
@@ -351,12 +377,16 @@
         "guid": "",
         "libraryName": "Industry Foundation Classes by buildingSMART International",
         "sectionref": "Core Schema"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "CorrectionFactorForHeating",
       "definition": "Correction factor k as a function of water flow rate (used to calculate heating capacity).",
       "ifdGuid": "2qUNYLiczE3fMjoVTSPePK",
+      "legacyGuid": "2qUNYLiczE3fMjoVTSPePK",
       "localizations": [
         {
           "language": "de-DE",
@@ -395,12 +425,16 @@
         "guid": "",
         "libraryName": "Industry Foundation Classes by buildingSMART International",
         "sectionref": "Core Schema"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "WaterPressureDropCurves",
       "definition": "Water pressure drop as function of water flow rate.",
       "ifdGuid": "03dx9NRcP87ANhFEVULuqJ",
+      "legacyGuid": "03dx9NRcP87ANhFEVULuqJ",
       "localizations": [
         {
           "language": "de-DE",
@@ -439,12 +473,16 @@
         "guid": "",
         "libraryName": "Industry Foundation Classes by buildingSMART International",
         "sectionref": "Core Schema"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "SupplyWaterTemperatureCooling",
       "definition": "Supply water temperature in cooling mode.",
       "ifdGuid": "1YHSOVYYf0EQiPtw0Ziu9l",
+      "legacyGuid": "1YHSOVYYf0EQiPtw0Ziu9l",
       "localizations": [
         {
           "language": "de-DE",
@@ -483,12 +521,16 @@
         "guid": "",
         "libraryName": "Industry Foundation Classes by buildingSMART International",
         "sectionref": "Core Schema"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "ReturnWaterTemperatureCooling",
       "definition": "Return water temperature in cooling mode.",
       "ifdGuid": "3Im8G2kbP5NB5eu5t6YVzW",
+      "legacyGuid": "3Im8G2kbP5NB5eu5t6YVzW",
       "localizations": [
         {
           "language": "de-DE",
@@ -527,12 +569,16 @@
         "guid": "",
         "libraryName": "Industry Foundation Classes by buildingSMART International",
         "sectionref": "Core Schema"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "SupplyWaterTemperatureHeating",
       "definition": "Supply water temperature in heating mode.",
       "ifdGuid": "3QjoRbdoH8aez1qq5rksRW",
+      "legacyGuid": "3QjoRbdoH8aez1qq5rksRW",
       "localizations": [
         {
           "language": "de-DE",
@@ -571,12 +617,16 @@
         "guid": "",
         "libraryName": "Industry Foundation Classes by buildingSMART International",
         "sectionref": "Core Schema"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "ReturnWaterTemperatureHeating",
       "definition": "Return water temperature in heating mode.",
       "ifdGuid": "3fev9nSWX3pwIsUHM4HaCw",
+      "legacyGuid": "3fev9nSWX3pwIsUHM4HaCw",
       "localizations": [
         {
           "language": "de-DE",
@@ -615,6 +665,9 @@
         "guid": "",
         "libraryName": "Industry Foundation Classes by buildingSMART International",
         "sectionref": "Core Schema"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

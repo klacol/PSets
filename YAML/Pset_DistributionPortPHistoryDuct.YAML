@@ -2,6 +2,7 @@
 ifcVersion:
   version: 4.0.0.0
 ifdGuid: ''
+legacyGuid: ''
 definition: 'Fluid flow performance history attached to an instance of IfcPerformanceHistory assigned to IfcDistributionPort.  This replaces the deprecated IfcFluidFlowProperties for performance values.'
 localizations:
 - language: de-DE
@@ -29,6 +30,7 @@ properties:
 - name: Temperature
   definition: PSet2YamlConverter.PropertyType
   ifdGuid: 3Bw5L2Vz5DeAATs0TdVhIf
+  legacyGuid: 3Bw5L2Vz5DeAATs0TdVhIf
   localizations:
   - language: de-DE
     name: ''
@@ -54,9 +56,12 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: WetBulbTemperature
   definition: PSet2YamlConverter.PropertyType
   ifdGuid: 30J$B7lK58sesE0tH79del
+  legacyGuid: 30J$B7lK58sesE0tH79del
   localizations:
   - language: de-DE
     name: ''
@@ -82,9 +87,12 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: VolumetricFlowRate
   definition: PSet2YamlConverter.PropertyType
   ifdGuid: 1_ZeVmL9X3mAEUYAm$5rnk
+  legacyGuid: 1_ZeVmL9X3mAEUYAm$5rnk
   localizations:
   - language: de-DE
     name: ''
@@ -110,9 +118,12 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: MassFlowRate
   definition: PSet2YamlConverter.PropertyType
   ifdGuid: 2_Ce9CHon4wAjnpmQnq8Z9
+  legacyGuid: 2_Ce9CHon4wAjnpmQnq8Z9
   localizations:
   - language: de-DE
     name: ''
@@ -138,9 +149,12 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: FlowCondition
   definition: PSet2YamlConverter.PropertyType
   ifdGuid: 0vwzjJx0fC_vmMqxa_ItdJ
+  legacyGuid: 0vwzjJx0fC_vmMqxa_ItdJ
   localizations:
   - language: de-DE
     name: ''
@@ -166,9 +180,12 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: Velocity
   definition: PSet2YamlConverter.PropertyType
   ifdGuid: 20kOv3DPrDmhnl7ZnOP9ZX
+  legacyGuid: 20kOv3DPrDmhnl7ZnOP9ZX
   localizations:
   - language: de-DE
     name: ''
@@ -194,9 +211,12 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: Pressure
   definition: PSet2YamlConverter.PropertyType
   ifdGuid: 21I6029$T09OOx3TehMZSk
+  legacyGuid: 21I6029$T09OOx3TehMZSk
   localizations:
   - language: de-DE
     name: ''
@@ -222,3 +242,5 @@ properties:
     guid: ''
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

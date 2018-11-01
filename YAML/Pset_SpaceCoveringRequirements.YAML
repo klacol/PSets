@@ -3,6 +3,7 @@ ifcVersion:
   version: 4.0.0.0
   schema: IfcProductExtension
 ifdGuid: ''
+legacyGuid: ''
 definition: 'Properties common to the definition of covering requirements of IfcSpace. Those properties define the requirements coming from a space program in early project phases and can later be used to define the room book information, if such coverings are not modeled explicitly as covering elements.'
 localizations:
 - language: de-DE
@@ -30,6 +31,7 @@ properties:
 - name: FloorCovering
   definition: Label to indicate the material or finish of the space flooring. The label is used for room book information and often displayed in room stamp.The material information is provided in absence of an IfcCovering (type=FLOORING) object with own shape representation and material assignment. In case of inconsistency the material assigned to IfcCovering elements takes precedence.
   ifdGuid: 3cQ2xH$gr9O8Ysfx4ojdx9
+  legacyGuid: 3cQ2xH$gr9O8Ysfx4ojdx9
   localizations:
   - language: fr-FR
     name: 'Revêtement de sol'
@@ -53,9 +55,12 @@ properties:
     dataType: IfcLabel
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: FloorCoveringThickness
   definition: Thickness of the material layer(s) for the space flooring.  The thickness information is provided in absence of an IfcCovering (type=FLOORING) object with own shape representation. In cases of inconsistency between the geometric parameters of an assigned IfcCovering and this attached property, the geometric parameters take precedence.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: fr-FR
     name: 'Epaisseur du revêtement de sol'
@@ -79,9 +84,12 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: WallCovering
   definition: Label to indicate the material or finish of the space flooring. The label is used for room book information and often displayed in room stamp.The material information is provided in absence of an IfcCovering (type=CLADDING) object with own shape representation and material assignment. In case of inconsistency the material assigned to IfcCovering elements takes precedence.
   ifdGuid: 3QZCZiwjDB4B3rWJXR4gtB
+  legacyGuid: 3QZCZiwjDB4B3rWJXR4gtB
   localizations:
   - language: fr-FR
     name: 'Revêtement de mur'
@@ -105,9 +113,12 @@ properties:
     dataType: IfcLabel
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: WallCoveringThickness
   definition: Thickness of the material layer(s) for the space cladding.  The thickness information is provided in absence of an IfcCovering (type=CLADDING) object with own shape representation. In cases of inconsistency between the geometric parameters of an assigned IfcCovering and this attached property, the geometric parameters take precedence.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: fr-FR
     name: 'Epaisseur du revêtement de mur'
@@ -131,9 +142,12 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: CeilingCovering
   definition: Label to indicate the material or finish of the space flooring. The label is used for room book information and often displayed in room stamp.The material information is provided in absence of an IfcCovering (type=CEILING) object with own shape representation and material assignment. In case of inconsistency the material assigned to IfcCovering elements takes precedence.
   ifdGuid: 1ux5kfch925BsvmTVnnCfF
+  legacyGuid: 1ux5kfch925BsvmTVnnCfF
   localizations:
   - language: fr-FR
     name: 'Revêtement de plafond'
@@ -157,9 +171,12 @@ properties:
     dataType: IfcLabel
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: CeilingCoveringThickness
   definition: Thickness of the material layer(s) for the space ceiling.  The thickness information is provided in absence of an IfcCovering (type=CEILING) object with own shape representation. In cases of inconsistency between the geometric parameters of an assigned IfcCovering and this attached property, the geometric parameters take precedence.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: fr-FR
     name: 'Epaisseur du revêtement de plafond'
@@ -183,9 +200,12 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: SkirtingBoard
   definition: Label to indicate the material or construction of the skirting board around the space flooring. The label is used for room book information.The material information is provided in absence of an IfcCovering (type=SKIRTINGBOARD) object with own shape representation and material assignment. In case of inconsistency the material assigned to IfcCovering elements takes precedence.
   ifdGuid: 2Z4vhOKRT32eHGfXzeprrm
+  legacyGuid: 2Z4vhOKRT32eHGfXzeprrm
   localizations:
   - language: fr-FR
     name: 'Matériau de la plinthe'
@@ -209,9 +229,12 @@ properties:
     dataType: IfcLabel
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: SkirtingBoardHeight
   definition: Height of the skirting board.The height information is provided in absence of an IfcCovering (type=SKIRTINGBOARD) object with own shape representation and material assignment. In case of inconsistency the height assigned to IfcCovering elements takes precedence.
   ifdGuid: ''
+  legacyGuid: ''
   localizations:
   - language: fr-FR
     name: 'Hauteur de la plinthe'
@@ -235,9 +258,12 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: Molding
   definition: Label to indicate the material or construction of the molding around the space ceiling. The label is used for room book information.The material information is provided in absence of an IfcCovering (type=MOLDING) object with own shape representation and material assignment. In case of inconsistency the material assigned to IfcCovering elements takes precedence.
   ifdGuid: 0aXltwqdD68R797AMJ_6$I
+  legacyGuid: 0aXltwqdD68R797AMJ_6$I
   localizations:
   - language: fr-FR
     name: 'Matériau de la moulure'
@@ -261,9 +287,12 @@ properties:
     dataType: IfcLabel
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: MoldingHeight
   definition: Height of the molding.The height information is provided in absence of an IfcCovering (type=MOLDING) object with own shape representation and material assignment. In case of inconsistency the height assigned to IfcCovering elements takes precedence.
   ifdGuid: 2$Q0pGSVbC1P8FcFzMFiQk
+  legacyGuid: 2$Q0pGSVbC1P8FcFzMFiQk
   localizations:
   - language: fr-FR
     name: 'Hauteur de la moulure'
@@ -287,9 +316,12 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: ConcealedFlooring
   definition: Indication whether this space is designed to have a concealed flooring space (TRUE) or not (FALSE). A concealed flooring space is normally meant to be the space beneath a raised floor.
   ifdGuid: 0aXltwqdD68R797AMJ_6$I
+  legacyGuid: 0aXltwqdD68R797AMJ_6$I
   localizations:
   - language: fr-FR
     name: 'FauxPlancher'
@@ -313,9 +345,12 @@ properties:
     dataType: IfcBoolean
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: ConcealedCeiling
   definition: Indication whether this space is designed to have a concealed flooring space (TRUE) or not (FALSE). A concealed ceiling space is normally meant to be the space between a slab and a ceiling.
   ifdGuid: 2$Q0pGSVbC1P8FcFzMFiQk
+  legacyGuid: 2$Q0pGSVbC1P8FcFzMFiQk
   localizations:
   - language: fr-FR
     name: 'FauxPlafond'
@@ -339,3 +374,5 @@ properties:
     dataType: IfcBoolean
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

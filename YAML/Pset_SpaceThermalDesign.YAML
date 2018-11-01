@@ -3,6 +3,7 @@ ifcVersion:
   version: 4.0.0.0
   schema: IfcSharedBldgServiceElements
 ifdGuid: ''
+legacyGuid: ''
 definition: 'Space or zone HVAC design requirements. HISTORY: New property set in IFC Release 1.0 (Pset_SpaceHvacInformation); renamed to Pset_SpaceThermalDesign and revised in IFC2x2.'
 localizations:
 - language: de-DE
@@ -30,6 +31,7 @@ properties:
 - name: CoolingDesignAirflow
   definition: The air flowrate required during the peak cooling conditions.
   ifdGuid: 0rEP$3o2P6zuYRG9cfdFIm
+  legacyGuid: 0rEP$3o2P6zuYRG9cfdFIm
   localizations:
   - language: ja-JP
     name: '冷房設計吸気量'
@@ -53,9 +55,12 @@ properties:
     dataType: IfcVolumetricFlowRateMeasure
     measureType: ''
     unitType: VOLUMETRICFLOWRATEUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: HeatingDesignAirflow
   definition: The air flowrate required during the peak heating conditions, but could also be determined by minimum ventilation requirement or minimum air change requirements.
   ifdGuid: 14JpPY$OPDrfQ9TQe3zATG
+  legacyGuid: 14JpPY$OPDrfQ9TQe3zATG
   localizations:
   - language: de-DE
     name: ''
@@ -79,9 +84,12 @@ properties:
     dataType: IfcVolumetricFlowRateMeasure
     measureType: ''
     unitType: VOLUMETRICFLOWRATEUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: TotalSensibleHeatGain
   definition: The total sensible heat or energy gained by the space during the peak cooling conditions.
   ifdGuid: 2MtvlAa5vBoOroNJUBq61i
+  legacyGuid: 2MtvlAa5vBoOroNJUBq61i
   localizations:
   - language: ja-JP
     name: '顕熱負荷の合計'
@@ -108,9 +116,12 @@ properties:
     dataType: IfcPowerMeasure
     measureType: ''
     unitType: POWERUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: TotalHeatGain
   definition: The total amount of heat or energy gained by the space at the time of the space's peak cooling conditions.
   ifdGuid: 17UZyUYX50Q9_lVU$_1LM7
+  legacyGuid: 17UZyUYX50Q9_lVU$_1LM7
   localizations:
   - language: ja-JP
     name: '熱取得の合計'
@@ -137,9 +148,12 @@ properties:
     dataType: IfcPowerMeasure
     measureType: ''
     unitType: POWERUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: TotalHeatLoss
   definition: The total amount of heat or energy lost by the space at the time of the space's peak heating conditions.
   ifdGuid: 3$sSXZfs94j9rK01PBcV6k
+  legacyGuid: 3$sSXZfs94j9rK01PBcV6k
   localizations:
   - language: ja-JP
     name: '熱ロスの合計'
@@ -166,9 +180,12 @@ properties:
     dataType: IfcPowerMeasure
     measureType: ''
     unitType: POWERUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: CoolingDryBulb
   definition: Inside dry bulb temperature for cooling design.
   ifdGuid: 0Ekt7zp6rEmvTvnsRrKfOU
+  legacyGuid: 0Ekt7zp6rEmvTvnsRrKfOU
   localizations:
   - language: ja-JP
     name: '冷房設計温度'
@@ -195,9 +212,12 @@ properties:
     dataType: IfcThermodynamicTemperatureMeasure
     measureType: ''
     unitType: THERMODYNAMICTEMPERATUREUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: CoolingRelativeHumidity
   definition: Inside relative humidity for cooling design.
   ifdGuid: 2WdPAEszfD9xc0qV3fHgEq
+  legacyGuid: 2WdPAEszfD9xc0qV3fHgEq
   localizations:
   - language: ja-JP
     name: '冷房設計相対湿度'
@@ -224,9 +244,12 @@ properties:
     dataType: IfcPositiveRatioMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: HeatingDryBulb
   definition: Inside dry bulb temperature for heating design.
   ifdGuid: 1TtgLuOyrCxehjnnrQJa9T
+  legacyGuid: 1TtgLuOyrCxehjnnrQJa9T
   localizations:
   - language: ja-JP
     name: '暖房設計温度'
@@ -253,9 +276,12 @@ properties:
     dataType: IfcThermodynamicTemperatureMeasure
     measureType: ''
     unitType: THERMODYNAMICTEMPERATUREUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: HeatingRelativeHumidity
   definition: Inside relative humidity for heating design.
   ifdGuid: 1bLzbpTF57GuHCA3JSvRxN
+  legacyGuid: 1bLzbpTF57GuHCA3JSvRxN
   localizations:
   - language: ja-JP
     name: '暖房設計相対湿度'
@@ -282,9 +308,12 @@ properties:
     dataType: IfcPositiveRatioMeasure
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: VentilationAirFlowrate
   definition: Ventilation outside air requirement for the space.
   ifdGuid: 0j$5SVCDb0vPk_mfn$_3ra
+  legacyGuid: 0j$5SVCDb0vPk_mfn$_3ra
   localizations:
   - language: ja-JP
     name: '外気量'
@@ -311,9 +340,12 @@ properties:
     dataType: IfcVolumetricFlowRateMeasure
     measureType: ''
     unitType: VOLUMETRICFLOWRATEUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: ExhaustAirFlowrate
   definition: Design exhaust air flow rate for the space.
   ifdGuid: 0$jq2e2hX5wgxBseyr6nLg
+  legacyGuid: 0$jq2e2hX5wgxBseyr6nLg
   localizations:
   - language: ja-JP
     name: '排気量'
@@ -340,9 +372,12 @@ properties:
     dataType: IfcVolumetricFlowRateMeasure
     measureType: ''
     unitType: VOLUMETRICFLOWRATEUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: CeilingRAPlenum
   definition: Ceiling plenum used for return air or not. TRUE = Yes, FALSE = No.
   ifdGuid: 3msS9anE1CZwuzykHsnt1$
+  legacyGuid: 3msS9anE1CZwuzykHsnt1$
   localizations:
   - language: ja-JP
     name: '天井裏還気'
@@ -369,9 +404,12 @@ properties:
     dataType: IfcBoolean
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: BoundaryAreaHeatLoss
   definition: Heat loss per unit area for the boundary object. This is a design input value for use in the absence of calculated load data.
   ifdGuid: 1ykVCT0cP2jv1NkePWtAjY
+  legacyGuid: 1ykVCT0cP2jv1NkePWtAjY
   localizations:
   - language: ja-JP
     name: '周辺関連設備の熱ロス'
@@ -398,3 +436,5 @@ properties:
     dataType: IfcHeatFluxDensityMeasure
     measureType: ''
     unitType: HEATFLUXDENSITYUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

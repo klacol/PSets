@@ -3,6 +3,7 @@ ifcVersion:
   version: 4.0.0.0
   schema: IfcPlumbingFireProtectionDomain
 ifdGuid: ''
+legacyGuid: ''
 definition: 'Waste water appliance for washing the excretory organs while sitting astride the bowl (BS6100). HISTORY: In IFC4, Material property removed. Use materials capabilities from IfcMaterialsResource schema. Datatype of color changed to IfcLabel (still a string value). BidetMounting changed to Mounting.'
 localizations:
 - language: de-DE
@@ -30,6 +31,7 @@ properties:
 - name: Mounting
   definition: 'The property enumeration Pset_SanitaryMountingEnum defines the forms of mounting or fixing of the sanitary terminal that may be specified within property sets used to define sanitary terminals (WC’s, basins, sinks, etc.) where:-BackToWall: 	A pedestal mounted sanitary terminal that fits flush to the wall at the rear to cover its service connections.Pedestal: 	A floor mounted sanitary terminal that has an integral base.CounterTop: 	A sanitary terminal that is installed into a horizontal surface that is installed into a horizontal surface. Note: When applied to a wash hand basin, the term more normally used is ‘vanity’. See also Wash Hand Basin Type specification.WallHung: 	A sanitary terminal cantilevered clear of the floor.Note that BackToWall, Pedestal and WallHung are allowable values for a bidet.'
   ifdGuid: 03EJmRevf5dh0FfxAGn7QJ
+  legacyGuid: 03EJmRevf5dh0FfxAGn7QJ
   localizations:
   - language: ja-JP
     name: '装着'
@@ -184,9 +186,12 @@ properties:
       - language: ru-RU
         name: 'Unknown'
         definition: ''
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: NominalLength
   definition: Nominal or quoted length of the object.
   ifdGuid: 2xG36hJgTA4vZAvnEmfUgo
+  legacyGuid: 2xG36hJgTA4vZAvnEmfUgo
   localizations:
   - language: ja-JP
     name: '呼び長さ'
@@ -210,9 +215,12 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: LENGTHUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: NominalWidth
   definition: Nominal or quoted width of the object.
   ifdGuid: 2sl7yAFvDFEO5ZTgfhm8kP
+  legacyGuid: 2sl7yAFvDFEO5ZTgfhm8kP
   localizations:
   - language: ja-JP
     name: '呼び幅'
@@ -236,9 +244,12 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: LENGTHUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: NominalDepth
   definition: Nominal or quoted depth of the object.
   ifdGuid: 3bXC8UvR9Fb9Ok75Aw5rJg
+  legacyGuid: 3bXC8UvR9Fb9Ok75Aw5rJg
   localizations:
   - language: ja-JP
     name: '公称深さ'
@@ -262,9 +273,12 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: LENGTHUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: Color
   definition: Color selection for this object.
   ifdGuid: 2EfLUByEX0$QwEJX5fT52j
+  legacyGuid: 2EfLUByEX0$QwEJX5fT52j
   localizations:
   - language: ja-JP
     name: '色'
@@ -288,9 +302,12 @@ properties:
     dataType: IfcLabel
     measureType: ''
     unitType: USERDEFINED
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: SpilloverLevel
   definition: The level at which water spills out of the object.
   ifdGuid: 3_zPeLj6f51OoBE7Ef$Bxv
+  legacyGuid: 3_zPeLj6f51OoBE7Ef$Bxv
   localizations:
   - language: ja-JP
     name: '流出レベル'
@@ -314,9 +331,12 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: LENGTHUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000
 - name: DrainSize
   definition: The size of the drain outlet connection from the object.
   ifdGuid: 2fLgBH_F9C1f1zlYhZHLNH
+  legacyGuid: 2fLgBH_F9C1f1zlYhZHLNH
   localizations:
   - language: ja-JP
     name: 'ドレインサイズ'
@@ -340,3 +360,5 @@ properties:
     dataType: IfcPositiveLengthMeasure
     measureType: ''
     unitType: LENGTHUNIT
+  status:
+    creationDate: 2018-01-01T00:00:00.0000000

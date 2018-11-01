@@ -5,6 +5,7 @@
     "schema": "IfcProductExtension"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "Properties related to the lighting requirements that apply to the occurrences of IfcSpace or IfcZone. This includes the required artificial lighting, illuminance, etc.",
   "localizations": [
     {
@@ -61,6 +62,7 @@
       "name": "ArtificialLighting",
       "definition": "Indication whether this space  requires artificial lighting (as natural lighting would be not sufficient). (TRUE) indicates yes (FALSE) otherwise.",
       "ifdGuid": "39VFeCeCv1rQ1xJ7S_tQZp",
+      "legacyGuid": "39VFeCeCv1rQ1xJ7S_tQZp",
       "localizations": [
         {
           "language": "de-DE",
@@ -102,12 +104,16 @@
         "dataType": "IfcBoolean",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "Illuminance",
       "definition": "Required average illuminance value for this space.",
       "ifdGuid": "1k26F_qL99AB9a9kuUR61a",
+      "legacyGuid": "1k26F_qL99AB9a9kuUR61a",
       "localizations": [
         {
           "language": "de-DE",
@@ -149,6 +155,9 @@
         "dataType": "IfcIlluminanceMeasure",
         "measureType": "",
         "unitType": "ILLUMINANCEUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

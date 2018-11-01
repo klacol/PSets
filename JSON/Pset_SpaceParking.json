@@ -5,6 +5,7 @@
     "schema": "IfcProductExtension"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "Properties common to the definition of all occurrences of IfcSpace which have an attribute value for ObjectType = 'Parking'. NOTE: Modified in IFC 2x3, properties ParkingUse and ParkingUnits added.",
   "localizations": [
     {
@@ -49,6 +50,7 @@
       "name": "ParkingUse",
       "definition": "Identifies the type of transporation for which the parking space is designed. Values are not predefined but might include car, compact car, motorcycle, bicycle, truck, bus etc.",
       "ifdGuid": "2dzyb_jLXEMvg7HbWLhPXn",
+      "legacyGuid": "2dzyb_jLXEMvg7HbWLhPXn",
       "localizations": [
         {
           "language": "fr-FR",
@@ -85,12 +87,16 @@
         "dataType": "IfcLabel",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "ParkingUnits",
       "definition": "Indicates the number of transporation units of the type specified by the property ParkingUse that may be accommodated within the space. Generally, this value should default to 1 unit. However, where the parking space is for motorcycles or bicycles, provision may be made for more than one unit in the space.",
       "ifdGuid": "0bL$cH3hj2UeyNS6K1Zlu8",
+      "legacyGuid": "0bL$cH3hj2UeyNS6K1Zlu8",
       "localizations": [
         {
           "language": "fr-FR",
@@ -127,12 +133,16 @@
         "dataType": "IfcCountMeasure",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "IsAisle",
       "definition": "Indicates that this parking zone is for accessing the parking units, i.e. an aisle (TRUE) and not a parking unit itself (FALSE)",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "fr-FR",
@@ -169,12 +179,16 @@
         "dataType": "IfcBoolean",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "IsOneWay",
       "definition": "Indicates whether the parking aisle is designed for oneway traffic (TRUE) or twoway traffic (FALSE). Should only be provided if the property IsAisle is set to TRUE.",
       "ifdGuid": "",
+      "legacyGuid": "",
       "localizations": [
         {
           "language": "fr-FR",
@@ -211,6 +225,9 @@
         "dataType": "IfcBoolean",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]

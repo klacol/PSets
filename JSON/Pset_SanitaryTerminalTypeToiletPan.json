@@ -5,6 +5,7 @@
     "schema": "IfcPlumbingFireProtectionDomain"
   },
   "ifdGuid": "",
+  "legacyGuid": "",
   "definition": "Soil appliance for the disposal of excrement. HISTORY: In IFC4, Material property removed. Use materials capabilities from IfcMaterialsResource schema. Prefix for color property removed. Datatype of color changed to IfcLabel (still a string value).",
   "localizations": [
     {
@@ -49,6 +50,7 @@
       "name": "ToiletType",
       "definition": "Enumeration that defines the types of toilet (water closet) arrangements that may be specified where:-BedPanWasher: Enclosed soil appliance in which bedpans and urinal bottles are emptied and cleansed.Chemical: Portable receptacle or soil appliance that receives and retains excrement in either an integral or a separate container, in which it is chemically treated and from which it has to be emptied periodically.CloseCoupled: \tToilet suite in which a flushing cistern is connected directly to the water closet pan.LooseCoupled: \tToilet arrangement in which a flushing cistern is connected to the water closet pan through a flushing pipe.SlopHopper: \tHopper shaped soil appliance with a flushing rim and outlet similar to those of a toilet pan, into which human excrement is emptied for disposal.",
       "ifdGuid": "1vebf7HEf26R4I__gWJuQ6",
+      "legacyGuid": "1vebf7HEf26R4I__gWJuQ6",
       "localizations": [
         {
           "language": "ja-JP",
@@ -344,12 +346,16 @@
             ]
           }
         ]
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "ToiletPanType",
       "definition": "The property enumeration Pset_ToiletPanTypeEnum defines the types of toilet pan that may be specified within the property set Pset_Toilet:-Siphonic: \tToilet pan in which excrement is removed by siphonage induced by the flushing water.Squat: \tToilet pan with an elongated bowl installed with its top edge at or near floor level, so that the user has to squat.WashDown: \tToilet pan in which excrement is removed by the momentum of the flushing water.WashOut: \tA washdown toilet pan in which excrement falls first into a shallow water filled bowl.",
       "ifdGuid": "2MZCMhIJvDMvKCSMLAfcAt",
+      "legacyGuid": "2MZCMhIJvDMvKCSMLAfcAt",
       "localizations": [
         {
           "language": "ja-JP",
@@ -608,12 +614,16 @@
             ]
           }
         ]
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "PanMounting",
       "definition": "The property enumeration Pset_SanitaryMountingEnum defines the forms of mounting or fixing of the sanitary terminal that may be specified within property sets used to define sanitary terminals (WC’s, basins, sinks, etc.) where:-BackToWall: \tA pedestal mounted sanitary terminal that fits flush to the wall at the rear to cover its service connections.Pedestal: \tA floor mounted sanitary terminal that has an integral base.CounterTop: \tA sanitary terminal that is installed into a horizontal surface that is installed into a horizontal surface. Note: When applied to a wash hand basin, the term more normally used is ‘vanity’. See also Wash Hand Basin Type specification.WallHung: \tA sanitary terminal cantilevered clear of the floor.",
       "ifdGuid": "0aGYcFWuPEpA$qm_Ph1JGp",
+      "legacyGuid": "0aGYcFWuPEpA$qm_Ph1JGp",
       "localizations": [
         {
           "language": "ja-JP",
@@ -872,12 +882,16 @@
             ]
           }
         ]
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "Color",
       "definition": "Color selection for this object",
       "ifdGuid": "1z05dSAvnEmRwPnbHTDTXw",
+      "legacyGuid": "1z05dSAvnEmRwPnbHTDTXw",
       "localizations": [
         {
           "language": "ja-JP",
@@ -914,12 +928,16 @@
         "dataType": "IfcLabel",
         "measureType": "",
         "unitType": "USERDEFINED"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "SpilloverLevel",
       "definition": "The level at which water spills out of the terminal.",
       "ifdGuid": "2kItMo26f76viQ$JiEpook",
+      "legacyGuid": "2kItMo26f76viQ$JiEpook",
       "localizations": [
         {
           "language": "ja-JP",
@@ -956,12 +974,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "NominalLength",
       "definition": "Nominal or quoted length of the object.",
       "ifdGuid": "3biGWjr4j0lurB4qME28S2",
+      "legacyGuid": "3biGWjr4j0lurB4qME28S2",
       "localizations": [
         {
           "language": "ja-JP",
@@ -998,12 +1020,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "NominalWidth",
       "definition": "Nominal or quoted width of the object.",
       "ifdGuid": "1ABiJMZ110eAsCM7YyqByj",
+      "legacyGuid": "1ABiJMZ110eAsCM7YyqByj",
       "localizations": [
         {
           "language": "ja-JP",
@@ -1040,12 +1066,16 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     },
     {
       "name": "NominalDepth",
       "definition": "Nominal or quoted depth of the object.",
       "ifdGuid": "3Fxgl$xZz0yhFZux4COQAC",
+      "legacyGuid": "3Fxgl$xZz0yhFZux4COQAC",
       "localizations": [
         {
           "language": "ja-JP",
@@ -1082,6 +1112,9 @@
         "dataType": "IfcPositiveLengthMeasure",
         "measureType": "",
         "unitType": "LENGTHUNIT"
+      },
+      "status": {
+        "creationDate": "2018-01-01T00:00:00"
       }
     }
   ]
