@@ -49,8 +49,10 @@
     {
       "name": "PowerLoss",
       "definition": "The power loss in [W] per pole of the MCB  when the nominal current is flowing through the MCB.",
-      "ifdGuid": "3STWWpp7DCH9CPW4FhZYBG",
-      "legacyGuid": "3STWWpp7DCH9CPW4FhZYBG",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "dc760833cc734c4493198043eb8e22d0",
+      "legacyGuidAsIfcGlobalId": "3STWWpp7DCH9CPW4FhZYBG",
       "localizations": [
         {
           "language": "ja-JP",
@@ -94,14 +96,25 @@
         "unitType": "USERDEFINED"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "VoltageLevel",
       "definition": "The voltage levels for which the data of the instance is valid. More than one value may be selected in the enumeration.",
-      "ifdGuid": "24Nx0QyoLAju8g7YouIUki",
-      "legacyGuid": "24Nx0QyoLAju8g7YouIUki",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "845fb01af3254ab7822a1e2cb849ebac",
+      "legacyGuidAsIfcGlobalId": "24Nx0QyoLAju8g7YouIUki",
       "localizations": [
         {
           "language": "ja-JP",
@@ -441,14 +454,25 @@
         ]
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "NominalCurrents",
       "definition": "A set of nominal currents in [A] for which the data of this instance is valid. At least one value shall be provided. Any value in the set shall not exceed the value of the UltimateRatedCurrent associated with the same breaker unit.",
-      "ifdGuid": "3Hn1E2QZD0$eJe7qHTkECh",
-      "legacyGuid": "3Hn1E2QZD0$eJe7qHTkECh",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "d1c413826a3340fe84e81f445db8e32b",
+      "legacyGuidAsIfcGlobalId": "3Hn1E2QZD0$eJe7qHTkECh",
       "localizations": [
         {
           "language": "ja-JP",
@@ -492,14 +516,25 @@
         "unitType": "USERDEFINED"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "ICU60947",
       "definition": "The ultimate breaking capacity in [A] for an MCB tested in accordance with the IEC 60947 series.",
-      "ifdGuid": "2togVcB096RQOC1A9MQsGk",
-      "legacyGuid": "2togVcB096RQOC1A9MQsGk",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "b7caa7e62c02466da60c04a2566b642e",
+      "legacyGuidAsIfcGlobalId": "2togVcB096RQOC1A9MQsGk",
       "localizations": [
         {
           "language": "ja-JP",
@@ -543,14 +578,25 @@
         "unitType": "USERDEFINED"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "ICS60947",
       "definition": "The service breaking capacity in [A] for an MCB tested in accordance with the IEC 60947 series.",
-      "ifdGuid": "0D9nmr6s1ESfg3Y5yBslbu",
-      "legacyGuid": "0D9nmr6s1ESfg3Y5yBslbu",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "0d271c351b604e729a83885f0bdaf978",
+      "legacyGuidAsIfcGlobalId": "0D9nmr6s1ESfg3Y5yBslbu",
       "localizations": [
         {
           "language": "ja-JP",
@@ -594,14 +640,25 @@
         "unitType": "USERDEFINED"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "ICN60898",
       "definition": "The nominal breaking capacity in [A] for an MCB tested in accordance with the IEC 60898 series.",
-      "ifdGuid": "2sgOYIpjv0SBeYs5taeHXK",
-      "legacyGuid": "2sgOYIpjv0SBeYs5taeHXK",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "b6a98892cede4070ba22d85de4a11854",
+      "legacyGuidAsIfcGlobalId": "2sgOYIpjv0SBeYs5taeHXK",
       "localizations": [
         {
           "language": "ja-JP",
@@ -645,14 +702,25 @@
         "unitType": "USERDEFINED"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "ICS60898",
       "definition": "The service breaking capacity in [A] for an MCB tested in accordance with the IEC 60898 series.",
-      "ifdGuid": "1SSLFBlFz79xEk88l85_Py",
-      "legacyGuid": "1SSLFBlFz79xEk88l85_Py",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "5c7153cbbcff4727b3ae208bc817e67c",
+      "legacyGuidAsIfcGlobalId": "1SSLFBlFz79xEk88l85_Py",
       "localizations": [
         {
           "language": "ja-JP",
@@ -696,7 +764,16 @@
         "unitType": "USERDEFINED"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     }
   ]

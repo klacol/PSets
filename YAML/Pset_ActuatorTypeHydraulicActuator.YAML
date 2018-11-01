@@ -30,6 +30,7 @@ applicableIfcClasses:
 properties:
 - name: InputPressure
   definition: Maximum design pressure for the actuator.
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
   ifdGuid: ''
   legacyGuid: 21e8aa247cd344e89dfdf14642647ba1
   legacyGuidAsIfcGlobalId: 0XwAeaVDD4w9tzyKP2P7kX
@@ -60,9 +61,18 @@ properties:
     measureType: ''
     unitType: PRESSUREUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: InputFlowrate
   definition: Maximum hydraulic flowrate requirement.
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
   ifdGuid: ''
   legacyGuid: 0f92509db0ac4072a0e72f6bfb391197
   legacyGuidAsIfcGlobalId: 0Fab2TiAn0Sg3dBslxEH6N
@@ -93,4 +103,12 @@ properties:
     measureType: ''
     unitType: VOLUMETRICFLOWRATEUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN

@@ -30,8 +30,10 @@ applicableIfcClasses:
 properties:
 - name: EscortRequirement
   definition: Indicates whether or not an escort is required to accompany persons carrying out a work order at or to/from the place of work (= TRUE) or not (= FALSE).NOTE - There are many instances where escorting is required, particularly in a facility that has a high security rating. Escorting may require that persons are escorted to and from the place of work. Alternatively, it may involve the escort remaining at the place of work at all times.
-  ifdGuid: 27IO9C1i18vuFMkozkipe8
-  legacyGuid: 27IO9C1i18vuFMkozkipe8
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 8749824c06c048e783d6bb2f6eb33a08
+  legacyGuidAsIfcGlobalId: 27IO9C1i18vuFMkozkipe8
   localizations:
   - language: de-DE
     name: ''
@@ -56,11 +58,21 @@ properties:
     measureType: ''
     unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: StartDate
   definition: Date and time from which the permit becomes valid.
-  ifdGuid: 3xOy3DjY50PejNELe7lRFZ
-  legacyGuid: 3xOy3DjY50PejNELe7lRFZ
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: fb63c0cdb62140668b57395a07bdb3e3
+  legacyGuidAsIfcGlobalId: 3xOy3DjY50PejNELe7lRFZ
   localizations:
   - language: de-DE
     name: ''
@@ -85,11 +97,21 @@ properties:
     measureType: ''
     unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: EndDate
   definition: Date and time at which the permit ceases to be valid.
-  ifdGuid: 3DONWHv3L5Mx$gRt7$aNo3
-  legacyGuid: 3DONWHv3L5Mx$gRt7$aNo3
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: cd617811e435455bbfea6f71ff917c83
+  legacyGuidAsIfcGlobalId: 3DONWHv3L5Mx$gRt7$aNo3
   localizations:
   - language: de-DE
     name: ''
@@ -114,11 +136,21 @@ properties:
     measureType: ''
     unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: SpecialRequirements
   definition: Any additional special requirements that need to be included in the permit to work.NOTE - Additional permit requirements may be imposed according to the nature of the facility at which the work is carried out. For instance, in clean areas, special clothing may be required whilst in corrective institutions, it may be necessary to check in and check out tools that will be used for work as a safety precaution.
-  ifdGuid: 2YFWIhMAr64OhGfxmd9qcH
-  legacyGuid: 2YFWIhMAr64OhGfxmd9qcH
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: a23e04ab58ad46118ad0a7bc27274991
+  legacyGuidAsIfcGlobalId: 2YFWIhMAr64OhGfxmd9qcH
   localizations:
   - language: de-DE
     name: ''
@@ -143,4 +175,12 @@ properties:
     measureType: ''
     unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN

@@ -53,8 +53,10 @@
     {
       "name": "Reference",
       "definition": "Reference ID for this specified type in this project (e.g. type 'A-1'), Also referred to as \"construction type\". It should be provided as an alternative to the name of the \"object type\", if the software does not support object types.",
-      "ifdGuid": "2g6bOmBDz2JvHBJwpZvYuj",
-      "legacyGuid": "2g6bOmBDz2JvHBJwpZvYuj",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "aa1a56302cdf424f944b4face3e62e2d",
+      "legacyGuidAsIfcGlobalId": "2g6bOmBDz2JvHBJwpZvYuj",
       "localizations": [
         {
           "language": "de-DE",
@@ -98,14 +100,24 @@
         "unitType": "USERDEFINED"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "Status",
       "definition": "Status of the element, predominately used in renovation or retrofitting projects. The status can be assigned to as \"New\" - element designed as new addition, \"Existing\" - element exists and remains, \"Demolish\" - element existed but is to be demolished,  \"Temporary\" - element will exists only temporary (like a temporary support structure).",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
       "ifdGuid": "",
-      "legacyGuid": "",
+      "legacyGuidAsIfcGlobalId": "",
       "localizations": [
         {
           "language": "de-DE",
@@ -366,14 +378,25 @@
         ]
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "Headroom",
       "definition": "Actual headroom clearance for the passageway according to the current design. The shape information is provided in addition to the shape representation and the geometric parameters used within. In cases of inconsistency between the geometric parameters and the shape properties, provided in the attached property, the geometric parameters take precedence.",
-      "ifdGuid": "2WpBrCEOLCKAXjBw2TSJry",
-      "legacyGuid": "2WpBrCEOLCKAXjBw2TSJry",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "a0ccbd4c39854c50a86d2fa09d713d7c",
+      "legacyGuidAsIfcGlobalId": "2WpBrCEOLCKAXjBw2TSJry",
       "localizations": [
         {
           "language": "de-DE",
@@ -417,14 +440,25 @@
         "unitType": "LENGTHUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "ClearWidth",
       "definition": "Actual clear width measured as the clear space for accessibility and egress; it is a measured distance betwen the two handrails or the wall and a handrail on a ramp.The shape information is provided in addition to the shape representation and the geometric parameters used within. In cases of inconsistency between the geometric parameters and the shape properties, provided in the attached property, the geometric parameters take precedence.",
-      "ifdGuid": "2MbLN7x_5EpxkCSyh8pVzv",
-      "legacyGuid": "2MbLN7x_5EpxkCSyh8pVzv",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "969555c7efe14ecfbb8c73cac8cdff79",
+      "legacyGuidAsIfcGlobalId": "2MbLN7x_5EpxkCSyh8pVzv",
       "localizations": [
         {
           "language": "de-DE",
@@ -468,14 +502,25 @@
         "unitType": "LENGTHUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "Slope",
       "definition": "Sloping angle of the object  - relative to horizontal (0.0 degrees). Actual maximum slope for the passageway according to the current design.The shape information is provided in addition to the shape representation and the geometric parameters used within. In cases of inconsistency between the geometric parameters and the shape properties, provided in the attached property, the geometric parameters take precedence.",
-      "ifdGuid": "1QLq8VOpfFoBlSkf_TjwoE",
-      "legacyGuid": "1QLq8VOpfFoBlSkf_TjwoE",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "5a57421f633a4fc8bbdcba9f9db7ac8e",
+      "legacyGuidAsIfcGlobalId": "1QLq8VOpfFoBlSkf_TjwoE",
       "localizations": [
         {
           "language": "de-DE",
@@ -519,14 +564,25 @@
         "unitType": "PLANEANGLEUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "CounterSlope",
       "definition": "Sloping angle of the object, measured perpendicular to the slope  - relative to horizontal (0.0 degrees). Actual maximum slope for the passageway measured perpendicular to the direction of travel according to the current design. The shape information is provided in addition to the shape representation and the geometric parameters used within. In cases of inconsistency between the geometric parameters and the shape properties, provided in the attached property, the geometric parameters take precedence. Note: new property in IFC4.",
-      "ifdGuid": "1exyHPAuDCR8$OZ9UyPHs6",
-      "legacyGuid": "1exyHPAuDCR8$OZ9UyPHs6",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "68efc4592b834c6c8fd88c97bc651d86",
+      "legacyGuidAsIfcGlobalId": "1exyHPAuDCR8$OZ9UyPHs6",
       "localizations": [
         {
           "language": "de-DE",
@@ -570,7 +626,16 @@
         "unitType": "PLANEANGLEUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     }
   ]

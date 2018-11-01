@@ -30,8 +30,10 @@ applicableIfcClasses:
 properties:
 - name: MechanicalEfficiency
   definition: The pumps operational mechanical efficiency.
-  ifdGuid: 3VI5L9mTv9we1T0Qt8b$oI
-  legacyGuid: 3VI5L9mTv9we1T0Qt8b$oI
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: df485549c1de49ea805d01adc897fc92
+  legacyGuidAsIfcGlobalId: 3VI5L9mTv9we1T0Qt8b$oI
   localizations:
   - language: ja-JP
     name: '機械効率'
@@ -58,11 +60,21 @@ properties:
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: OverallEfficiency
   definition: The pump and motor overall operational efficiency.
-  ifdGuid: 1vwwiszXDDiwrQRrAw9IXI
-  legacyGuid: 1vwwiszXDDiwrQRrAw9IXI
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 79ebab36f6134db3ad5a6f52ba252852
+  legacyGuidAsIfcGlobalId: 1vwwiszXDDiwrQRrAw9IXI
   localizations:
   - language: ja-JP
     name: '全効率'
@@ -89,11 +101,21 @@ properties:
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: PressureRise
   definition: The developed pressure.
-  ifdGuid: 11$To2s9X508WFho7EDGxA
-  legacyGuid: 11$To2s9X508WFho7EDGxA
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 41fddc82d8984500880faf21ce350eca
+  legacyGuidAsIfcGlobalId: 11$To2s9X508WFho7EDGxA
   localizations:
   - language: ja-JP
     name: '昇圧'
@@ -120,11 +142,21 @@ properties:
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: RotationSpeed
   definition: Pump rotational speed.
-  ifdGuid: 1ZECUj2w11Lv7lR_b8$L4L
-  legacyGuid: 1ZECUj2w11Lv7lR_b8$L4L
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 6338c7ad0ba0415791ef6fe948fd5115
+  legacyGuidAsIfcGlobalId: 1ZECUj2w11Lv7lR_b8$L4L
   localizations:
   - language: ja-JP
     name: '回転速度'
@@ -151,11 +183,21 @@ properties:
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: Flowrate
   definition: The actual operational fluid flowrate.
-  ifdGuid: 1HFcrsQp11FOwWkTAi3cFj
-  legacyGuid: 1HFcrsQp11FOwWkTAi3cFj
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 513e6d766b30413d8ea0b9d2ac0e63ed
+  legacyGuidAsIfcGlobalId: 1HFcrsQp11FOwWkTAi3cFj
   localizations:
   - language: ja-JP
     name: '流量'
@@ -182,11 +224,21 @@ properties:
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: Power
   definition: The actual power consumption of the pump.
-  ifdGuid: 037Drft9PEJ8XcAqZd612q
-  legacyGuid: 037Drft9PEJ8XcAqZd612q
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 031cdd69dc964e4c88662b48e71810b4
+  legacyGuidAsIfcGlobalId: 037Drft9PEJ8XcAqZd612q
   localizations:
   - language: ja-JP
     name: '動力'
@@ -213,4 +265,12 @@ properties:
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN

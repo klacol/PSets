@@ -49,8 +49,10 @@
     {
       "name": "FireSensorSetPoint",
       "definition": "The temperature value to be sensed to indicate the presence of fire.",
-      "ifdGuid": "0g4bE6k9r3Ve92eGz7FXUX",
-      "legacyGuid": "0g4bE6k9r3Ve92eGz7FXUX",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "2a125386b89d437e8242a10f473e17a1",
+      "legacyGuidAsIfcGlobalId": "0g4bE6k9r3Ve92eGz7FXUX",
       "localizations": [
         {
           "language": "ja-JP",
@@ -94,14 +96,25 @@
         "unitType": "THERMODYNAMICTEMPERATUREUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "AccuracyOfFireSensor",
       "definition": "The accuracy of the sensor.",
-      "ifdGuid": "2S2Yc_aWf1fxV6H1V0tpk7",
-      "legacyGuid": "2S2Yc_aWf1fxV6H1V0tpk7",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "9c0a29be920a41a7b7c64417c0df3b87",
+      "legacyGuidAsIfcGlobalId": "2S2Yc_aWf1fxV6H1V0tpk7",
       "localizations": [
         {
           "language": "ja-JP",
@@ -145,14 +158,25 @@
         "unitType": "THERMODYNAMICTEMPERATUREUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "TimeConstant",
       "definition": "The time constant of the sensor.",
-      "ifdGuid": "1HyyQTERzCaB6V4Mj8RqN3",
-      "legacyGuid": "1HyyQTERzCaB6V4Mj8RqN3",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "51f3c69d39bf4c90b19f116b486f45c3",
+      "legacyGuidAsIfcGlobalId": "1HyyQTERzCaB6V4Mj8RqN3",
       "localizations": [
         {
           "language": "ja-JP",
@@ -196,7 +220,16 @@
         "unitType": "TIMEUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     }
   ]

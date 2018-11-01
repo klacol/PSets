@@ -32,8 +32,10 @@ applicableIfcClasses:
 properties:
 - name: Reference
   definition: Reference ID for this specified type in this project (e.g. type 'A-1'), Also referred to as "construction type". It should be provided as an alternative to the name of the "object type", if the software does not support object types.
-  ifdGuid: 1ABAYdMFPA58iUyGWLMPnp
-  legacyGuid: 1ABAYdMFPA58iUyGWLMPnp
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 4a2ca8a758f64a148b1ef10815599c73
+  legacyGuidAsIfcGlobalId: 1ABAYdMFPA58iUyGWLMPnp
   localizations:
   - language: de-DE
     name: 'Bauteiltyp'
@@ -61,11 +63,20 @@ properties:
     measureType: ''
     unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: Status
   definition: Status of the element, predominately used in renovation or retrofitting projects. The status can be assigned to as "New" - element designed as new addition, "Existing" - element exists and remains, "Demolish" - element existed but is to be demolished,  "Temporary" - element will exists only temporary (like a temporary support structure).
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
   ifdGuid: ''
-  legacyGuid: ''
+  legacyGuidAsIfcGlobalId: ''
   localizations:
   - language: de-DE
     name: 'Status'
@@ -221,11 +232,21 @@ properties:
         name: 'Unknown'
         definition: ''
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: NumberOfRiser
   definition: Total number of the risers included in the stair flight.
-  ifdGuid: 2aXirGNbvBbxq9c3R4hABH
-  legacyGuid: 2aXirGNbvBbxq9c3R4hABH
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: a486cd505e5e4b97bd099836c4aca2d1
+  legacyGuidAsIfcGlobalId: 2aXirGNbvBbxq9c3R4hABH
   localizations:
   - language: de-DE
     name: 'Anzahl der Steigungen'
@@ -253,11 +274,21 @@ properties:
     measureType: ''
     unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: NumberOfTreads
   definition: Total number of treads included in the stair flight.
-  ifdGuid: 2xxfAV6xTAbxFaEaew8jdq
-  legacyGuid: 2xxfAV6xTAbxFaEaew8jdq
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: bbee929f1bb74a97b3e43a4a3a22d9f4
+  legacyGuidAsIfcGlobalId: 2xxfAV6xTAbxFaEaew8jdq
   localizations:
   - language: de-DE
     name: 'Anzahl der Auftritte'
@@ -285,11 +316,21 @@ properties:
     measureType: ''
     unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: RiserHeight
   definition: Vertical distance from tread to tread. The riser height is supposed to be equal for all steps of a stair or stair flight.
-  ifdGuid: 2nVVBFydb7l9wEAKD5pr1Z
-  legacyGuid: 2nVVBFydb7l9wEAKD5pr1Z
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: b17df2cff27947bc9e8e294345cf5063
+  legacyGuidAsIfcGlobalId: 2nVVBFydb7l9wEAKD5pr1Z
   localizations:
   - language: de-DE
     name: 'Steigung'
@@ -317,11 +358,21 @@ properties:
     measureType: ''
     unitType: LENGTHUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: TreadLength
   definition: Horizontal distance from the front of the thread to the front of the next tread. The tread length is supposed to be equal for all steps of the stair or stair flight at the walking line.
-  ifdGuid: 1TpJ9RpL100xmqR9SuquR6
-  legacyGuid: 1TpJ9RpL100xmqR9SuquR6
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 5dcd325bcd504003bc346c9738d386c6
+  legacyGuidAsIfcGlobalId: 1TpJ9RpL100xmqR9SuquR6
   localizations:
   - language: de-DE
     name: 'Auftritt'
@@ -349,11 +400,21 @@ properties:
     measureType: ''
     unitType: LENGTHUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: NosingLength
   definition: Horizontal distance from the front of the tread to the riser underneath. It is the overhang of the tread.
-  ifdGuid: 13Bp7A6HjFUB2KbrwQcr8L
-  legacyGuid: 13Bp7A6HjFUB2KbrwQcr8L
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 432f31ca191b4f78b094975e9a9b5215
+  legacyGuidAsIfcGlobalId: 13Bp7A6HjFUB2KbrwQcr8L
   localizations:
   - language: de-DE
     name: 'Überstand'
@@ -381,11 +442,21 @@ properties:
     measureType: ''
     unitType: LENGTHUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: WalkingLineOffset
   definition: 'Offset of the walking line from the inner side of the flight. Note: the walking line may have a own shape representation (in case of inconsistencies, the value derived from the shape representation shall take precedence).'
-  ifdGuid: 1AVsOPT2X7zv4v3QgKxZbj
-  legacyGuid: 1AVsOPT2X7zv4v3QgKxZbj
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 4a7f6619742847f791390daa94ee396d
+  legacyGuidAsIfcGlobalId: 1AVsOPT2X7zv4v3QgKxZbj
   localizations:
   - language: de-DE
     name: 'Abstand der Lauflinie'
@@ -413,11 +484,21 @@ properties:
     measureType: ''
     unitType: LENGTHUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: TreadLengthAtOffset
   definition: Length of treads at a given offset.Walking line position is given by the 'WalkingLineOffset'. The resulting value should normally be identical with TreadLength, it may be given in addition, if the walking line offset for building code calculations is different from that used in design.
-  ifdGuid: 3GbU5KIofCH9bJ0myezAl3
-  legacyGuid: 3GbU5KIofCH9bJ0myezAl3
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: d095e1544b2a4c449953030f28f4abc3
+  legacyGuidAsIfcGlobalId: 3GbU5KIofCH9bJ0myezAl3
   localizations:
   - language: de-DE
     name: 'Auftritt an der Lauflinie'
@@ -445,11 +526,21 @@ properties:
     measureType: ''
     unitType: LENGTHUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: TreadLengthAtInnerSide
   definition: Minimum length of treads at the inner side of the winder. Only relevant in case of winding flights, for straight flights it is identical with IfcStairFlight.TreadLength. It is a pre-calculated value, in case of inconsistencies, the value derived from the shape representation shall take precedence.
-  ifdGuid: 3t7Z4WuND04BvXrA2japJZ
-  legacyGuid: 3t7Z4WuND04BvXrA2japJZ
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: f71e3120e1734010be61d4a0ad9334e3
+  legacyGuidAsIfcGlobalId: 3t7Z4WuND04BvXrA2japJZ
   localizations:
   - language: de-DE
     name: 'minimaler Auftritt an der Innenseite'
@@ -477,11 +568,21 @@ properties:
     measureType: ''
     unitType: LENGTHUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: Headroom
   definition: Actual headroom clearance for the passageway according to the current design. The shape information is provided in addition to the shape representation and the geometric parameters used within. In cases of inconsistency between the geometric parameters and the shape properties, provided in the attached property, the geometric parameters take precedence.
-  ifdGuid: 1GBtnRS$f2Y9z$ArBcUbag
-  legacyGuid: 1GBtnRS$f2Y9z$ArBcUbag
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 502f7c5b73fa42889f7f2b52e67a592a
+  legacyGuidAsIfcGlobalId: 1GBtnRS$f2Y9z$ArBcUbag
   localizations:
   - language: de-DE
     name: 'Durchgangshöhe'
@@ -509,11 +610,21 @@ properties:
     measureType: ''
     unitType: LENGTHUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: WaistThickness
   definition: Minimum thickness of the stair flight, measured perpendicular to the slope of the flight to the inner corner of riser and tread. It is a pre-calculated value, in case of inconsistencies, the value derived from the shape representation shall take precedence.
-  ifdGuid: 29kwt_MvP0RRi26GsuZh1z
-  legacyGuid: 29kwt_MvP0RRi26GsuZh1z
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 89bbadfe5b96406dbb02190db88eb07d
+  legacyGuidAsIfcGlobalId: 29kwt_MvP0RRi26GsuZh1z
   localizations:
   - language: de-DE
     name: 'minimale Dicke des Treppenplatte'
@@ -541,4 +652,12 @@ properties:
     measureType: ''
     unitType: LENGTHUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN

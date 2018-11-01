@@ -30,8 +30,10 @@ applicableIfcClasses:
 properties:
 - name: SensibleCoolingCapacity
   definition: Sensible cooling capacity.
-  ifdGuid: 2NacYNhZb9tfgrK9VfR4dA
-  legacyGuid: 2NacYNhZb9tfgrK9VfR4dA
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 97926897ae3949de9ab55097e96c49ca
+  legacyGuidAsIfcGlobalId: 2NacYNhZb9tfgrK9VfR4dA
   localizations:
   - language: ja-JP
     name: '顕熱冷却能力'
@@ -56,11 +58,21 @@ properties:
     measureType: ''
     unitType: POWERUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: LatentCoolingCapacity
   definition: Latent cooling capacity.
-  ifdGuid: 1AS22xfLj3jPX50XeD0Po2
-  legacyGuid: 1AS22xfLj3jPX50XeD0Po2
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 4a7020bba55b43b59845021a0d019c82
+  legacyGuidAsIfcGlobalId: 1AS22xfLj3jPX50XeD0Po2
   localizations:
   - language: ja-JP
     name: '潜熱冷却能力'
@@ -85,11 +97,21 @@ properties:
     measureType: ''
     unitType: POWERUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: CoolingEfficiency
   definition: 'Coefficient of Performance: Ratio of cooling energy output to energy input under full load operating conditions.'
-  ifdGuid: 1ParDQt5P84AKHuYFwQ4Cc
-  legacyGuid: 1ParDQt5P84AKHuYFwQ4Cc
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 5993535adc564810a511e223fa684326
+  legacyGuidAsIfcGlobalId: 1ParDQt5P84AKHuYFwQ4Cc
   localizations:
   - language: ja-JP
     name: '冷却効率'
@@ -114,11 +136,21 @@ properties:
     measureType: ''
     unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: HeatingCapacity
   definition: Heating capacity.
-  ifdGuid: 3F1fzkr5jD_emS8RTecFuO
-  legacyGuid: 3F1fzkr5jD_emS8RTecFuO
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: cf069f6ed45b4dfa8c1c21b76898fe18
+  legacyGuidAsIfcGlobalId: 3F1fzkr5jD_emS8RTecFuO
   localizations:
   - language: ja-JP
     name: '加熱容量'
@@ -143,11 +175,21 @@ properties:
     measureType: ''
     unitType: POWERUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: HeatingEfficiency
   definition: Heating efficiency under full load heating conditions.
-  ifdGuid: 3SLB_Qy4j5xRMrqw$VwJpD
-  legacyGuid: 3SLB_Qy4j5xRMrqw$VwJpD
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: dc54bf9af04b45edb5b5d3afdfe93ccd
+  legacyGuidAsIfcGlobalId: 3SLB_Qy4j5xRMrqw$VwJpD
   localizations:
   - language: ja-JP
     name: '加熱効率'
@@ -172,11 +214,21 @@ properties:
     measureType: ''
     unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: CondenserFlowrate
   definition: Flow rate of fluid through the condenser.
-  ifdGuid: 0kSaT0Bt56qhonI7U7Bheg
-  legacyGuid: 0kSaT0Bt56qhonI7U7Bheg
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 2e7247402f7146d2bcb14877872eba2a
+  legacyGuidAsIfcGlobalId: 0kSaT0Bt56qhonI7U7Bheg
   localizations:
   - language: ja-JP
     name: '凝縮器流量'
@@ -201,11 +253,21 @@ properties:
     measureType: ''
     unitType: VOLUMETRICFLOWRATEUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: CondenserEnteringTemperature
   definition: Temperature of fluid entering condenser.
-  ifdGuid: 3WiwjXcPrFXBtCm4HSpAMu
-  legacyGuid: 3WiwjXcPrFXBtCm4HSpAMu
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: e0b3ab61999d4f84bdccc0445ccca5b8
+  legacyGuidAsIfcGlobalId: 3WiwjXcPrFXBtCm4HSpAMu
   localizations:
   - language: ja-JP
     name: '凝縮器入口温度'
@@ -230,11 +292,21 @@ properties:
     measureType: ''
     unitType: THERMODYNAMICTEMPERATUREUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: CondenserLeavingTemperature
   definition: Termperature of fluid leaving condenser.
-  ifdGuid: 3WI_LQWhDA4w_CkU$QueXn
-  legacyGuid: 3WI_LQWhDA4w_CkU$QueXn
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: e04be55a82b34a13af8cb9efdae28871
+  legacyGuidAsIfcGlobalId: 3WI_LQWhDA4w_CkU$QueXn
   localizations:
   - language: ja-JP
     name: '凝縮器出口温度'
@@ -259,11 +331,21 @@ properties:
     measureType: ''
     unitType: THERMODYNAMICTEMPERATUREUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: OutsideAirFlowrate
   definition: Flow rate of outside air entering the unit.
-  ifdGuid: 2gLFYJgZf51OPzIaPooMSp
-  legacyGuid: 2gLFYJgZf51OPzIaPooMSp
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: aa54f893aa3a4505867d4a4672c96733
+  legacyGuidAsIfcGlobalId: 2gLFYJgZf51OPzIaPooMSp
   localizations:
   - language: ja-JP
     name: '外気流量'
@@ -288,4 +370,12 @@ properties:
     measureType: ''
     unitType: VOLUMETRICFLOWRATEUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN

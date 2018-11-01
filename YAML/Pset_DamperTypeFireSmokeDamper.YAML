@@ -30,8 +30,10 @@ applicableIfcClasses:
 properties:
 - name: ControlType
   definition: The type of control used to operate the damper (e.g., Open/Closed Indicator, Resetable Temperature Sensor, Temperature Override, etc.).
-  ifdGuid: 1KMx$xq5j92PUs0m6rqDWy
-  legacyGuid: 1KMx$xq5j92PUs0m6rqDWy
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 545bbffbd05b490997b60301b5d0d83c
+  legacyGuidAsIfcGlobalId: 1KMx$xq5j92PUs0m6rqDWy
   localizations:
   - language: de-DE
     name: ''
@@ -56,11 +58,21 @@ properties:
     measureType: ''
     unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: ActuationType
   definition: Enumeration that identifies the different types of dampers.
-  ifdGuid: 2Ej3$txzj3BxqoPX7WFG9_
-  legacyGuid: 2Ej3$txzj3BxqoPX7WFG9_
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 8eb43ff7efdb432fbd326611e03d027e
+  legacyGuidAsIfcGlobalId: 2Ej3$txzj3BxqoPX7WFG9_
   localizations:
   - language: de-DE
     name: ''
@@ -172,11 +184,21 @@ properties:
         name: 'Unknown'
         definition: ''
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: ClosureRatingEnum
   definition: Enumeration that identifies the closure rating for the damper.
-  ifdGuid: 0G6CBcxunAkOxHqy4JCUhY
-  legacyGuid: 0G6CBcxunAkOxHqy4JCUhY
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 1018c2e6ef8c4ab98ed1d3c11331eae2
+  legacyGuidAsIfcGlobalId: 0G6CBcxunAkOxHqy4JCUhY
   localizations:
   - language: de-DE
     name: ''
@@ -288,11 +310,21 @@ properties:
         name: 'Unknown'
         definition: ''
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: FireResistanceRating
   definition: Measure of the fire resistance rating in hours (e.g., 1.5 hours, 2 hours, etc.).
-  ifdGuid: 0IXUb9T4v5iO8GxOk$K_Sk
-  legacyGuid: 0IXUb9T4v5iO8GxOk$K_Sk
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 1285e949744e45b18210ed8bbf53e72e
+  legacyGuidAsIfcGlobalId: 0IXUb9T4v5iO8GxOk$K_Sk
   localizations:
   - language: de-DE
     name: ''
@@ -317,11 +349,21 @@ properties:
     measureType: ''
     unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: FusibleLinkTemperature
   definition: The temperature that the fusible link melts.
-  ifdGuid: 0PC6Lpf5v6YORhJXEapkKQ
-  legacyGuid: 0PC6Lpf5v6YORhJXEapkKQ
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 19306573a45e468986eb4e13a4cee51a
+  legacyGuidAsIfcGlobalId: 0PC6Lpf5v6YORhJXEapkKQ
   localizations:
   - language: de-DE
     name: ''
@@ -346,4 +388,12 @@ properties:
     measureType: ''
     unitType: THERMODYNAMICTEMPERATUREUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN

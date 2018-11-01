@@ -49,8 +49,10 @@
     {
       "name": "WorksurfaceArea",
       "definition": "The value of the work surface area of the desk..",
-      "ifdGuid": "1mG$m8rXb5exAPyHKd8w4J",
-      "legacyGuid": "1mG$m8rXb5exAPyHKd8w4J",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "7043fc08d61945a3b299f1152723a113",
+      "legacyGuidAsIfcGlobalId": "1mG$m8rXb5exAPyHKd8w4J",
       "localizations": [
         {
           "language": "de-DE",
@@ -89,14 +91,25 @@
         "unitType": "AREAUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "NumberOfChairs",
       "definition": "Maximum number of chairs that can fit with the table for normal use.",
-      "ifdGuid": "23es$FKpDBug5$8OK4trDH",
-      "legacyGuid": "23es$FKpDBug5$8OK4trDH",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "83a36fcf53334be2a17f218504df5351",
+      "legacyGuidAsIfcGlobalId": "23es$FKpDBug5$8OK4trDH",
       "localizations": [
         {
           "language": "de-DE",
@@ -135,7 +148,16 @@
         "unitType": "USERDEFINED"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     }
   ]

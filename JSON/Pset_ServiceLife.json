@@ -53,8 +53,9 @@
     {
       "name": "ServiceLifeType",
       "definition": "ACTUALSERVICELIFE: The service life that an asset has given. EXPECTEDSERVICELIFE: The service life that an artefact is expected to have under current operating conditions. OPTIMISTICREFERENCESERVICELIFE: The best or most optimistic estimate of service life that is quoted for an artefact under reference operating conditions. PESSIMISTICREFERENCESERVICELIFE: The least or most pessimistic estimate of service life that is quoted for an artefact under reference operating conditions. REFERENCESERVICELIFE: The typical service life that is quoted for an artefact under reference operating conditions.",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
       "ifdGuid": "",
-      "legacyGuid": "",
+      "legacyGuidAsIfcGlobalId": "",
       "localizations": [
         {
           "language": "de-DE",
@@ -352,14 +353,24 @@
         ]
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "ServiceLifeDuration",
       "definition": "The length or duration of a service life.",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
       "ifdGuid": "",
-      "legacyGuid": "",
+      "legacyGuidAsIfcGlobalId": "",
       "localizations": [
         {
           "language": "de-DE",
@@ -398,14 +409,24 @@
         "unitType": "USERDEFINED"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "QualityOfComponents",
       "definition": "Adjustment of the service life resulting from the effect of the quality of components used.",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
       "ifdGuid": "",
-      "legacyGuid": "",
+      "legacyGuidAsIfcGlobalId": "",
       "localizations": [
         {
           "language": "de-DE",
@@ -446,14 +467,24 @@
         "typeName": "TypePropertyBoundedValue"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "DesignLevel",
       "definition": "Adjustment of the service life resulting from the effect of design level employed.",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
       "ifdGuid": "",
-      "legacyGuid": "",
+      "legacyGuidAsIfcGlobalId": "",
       "localizations": [
         {
           "language": "de-DE",
@@ -494,14 +525,24 @@
         "typeName": "TypePropertyBoundedValue"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "WorkExecutionLevel",
       "definition": "Adjustment of the service life resulting from the effect of the quality of work executed.",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
       "ifdGuid": "",
-      "legacyGuid": "",
+      "legacyGuidAsIfcGlobalId": "",
       "localizations": [
         {
           "language": "de-DE",
@@ -542,14 +583,24 @@
         "typeName": "TypePropertyBoundedValue"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "IndoorEnvironment",
       "definition": "Adjustment of the service life resulting from the effect of the indoor environment (where appropriate).",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
       "ifdGuid": "",
-      "legacyGuid": "",
+      "legacyGuidAsIfcGlobalId": "",
       "localizations": [
         {
           "language": "de-DE",
@@ -590,14 +641,24 @@
         "typeName": "TypePropertyBoundedValue"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "OutdoorEnvironment",
       "definition": "Adjustment of the service life resulting from the effect of the outdoor environment (where appropriate)",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
       "ifdGuid": "",
-      "legacyGuid": "",
+      "legacyGuidAsIfcGlobalId": "",
       "localizations": [
         {
           "language": "de-DE",
@@ -638,14 +699,24 @@
         "typeName": "TypePropertyBoundedValue"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "InUseConditions",
       "definition": "Adjustment of the service life resulting from the effect of the conditions in which components are operating.",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
       "ifdGuid": "",
-      "legacyGuid": "",
+      "legacyGuidAsIfcGlobalId": "",
       "localizations": [
         {
           "language": "de-DE",
@@ -686,14 +757,24 @@
         "typeName": "TypePropertyBoundedValue"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "MaintenanceLevel",
       "definition": "Adjustment of the service life resulting from the effect of the level or degree of maintenance applied to dcomponents.",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
       "ifdGuid": "",
-      "legacyGuid": "",
+      "legacyGuidAsIfcGlobalId": "",
       "localizations": [
         {
           "language": "de-DE",
@@ -734,14 +815,25 @@
         "typeName": "TypePropertyBoundedValue"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "MeanTimeBetweenFailure",
       "definition": "The average time duration between instances of failure of a product.",
-      "ifdGuid": "00QLbTZyXB3AqSCIYyDLzN",
-      "legacyGuid": "00QLbTZyXB3AqSCIYyDLzN",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "0069595d8fc84b0cad1c3128bc355f57",
+      "legacyGuidAsIfcGlobalId": "00QLbTZyXB3AqSCIYyDLzN",
       "localizations": [
         {
           "language": "de-DE",
@@ -780,7 +872,16 @@
         "unitType": "TIMEUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     }
   ]

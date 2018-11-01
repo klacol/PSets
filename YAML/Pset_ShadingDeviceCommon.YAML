@@ -32,8 +32,9 @@ applicableIfcClasses:
 properties:
 - name: Reference
   definition: Reference ID for this specified type in this project (e.g. type 'A-1'), provided, if there is no classification reference to a recognized classification system used.
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
   ifdGuid: ''
-  legacyGuid: ''
+  legacyGuidAsIfcGlobalId: ''
   localizations:
   - language: de-DE
     name: 'Bemusterungstyp'
@@ -58,11 +59,20 @@ properties:
     measureType: ''
     unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: Status
   definition: Status of the element, predominately used in renovation or retrofitting projects. The status can be assigned to as "New" - element designed as new addition, "Existing" - element exists and remains, "Demolish" - element existed but is to be demolished,  "Temporary" - element will exists only temporary (like a temporary support structure).
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
   ifdGuid: ''
-  legacyGuid: ''
+  legacyGuidAsIfcGlobalId: ''
   localizations:
   - language: de-DE
     name: 'Status'
@@ -218,11 +228,20 @@ properties:
         name: 'Unknown'
         definition: ''
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: ShadingDeviceType
   definition: Specifies the type of shading device.
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
   ifdGuid: ''
-  legacyGuid: ''
+  legacyGuidAsIfcGlobalId: ''
   localizations:
   - language: de-DE
     name: 'Sonnenschutztyp'
@@ -378,11 +397,20 @@ properties:
         name: 'Unknown'
         definition: ''
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: IsExternal
   definition: Indication whether the element is designed for use in the exterior (TRUE) or not (FALSE). If (TRUE) it is an external element and faces the outside of the building.
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
   ifdGuid: ''
-  legacyGuid: ''
+  legacyGuidAsIfcGlobalId: ''
   localizations:
   - language: de-DE
     name: 'Außenbauteil'
@@ -407,11 +435,20 @@ properties:
     measureType: ''
     unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: MechanicalOperated
   definition: Indication whether the element is operated machanically (TRUE) or not, i.e. manually  (FALSE).
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
   ifdGuid: ''
-  legacyGuid: ''
+  legacyGuidAsIfcGlobalId: ''
   localizations:
   - language: de-DE
     name: 'Mechanisch'
@@ -436,11 +473,20 @@ properties:
     measureType: ''
     unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: ThermalTransmittance
   definition: Thermal transmittance coefficient (U-Value) of a material of a certain thickness for this element.
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
   ifdGuid: ''
-  legacyGuid: ''
+  legacyGuidAsIfcGlobalId: ''
   localizations:
   - language: de-DE
     name: 'U-Wert'
@@ -465,11 +511,20 @@ properties:
     measureType: ''
     unitType: THERMALTRANSMITTANCEUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: SolarTransmittance
   definition: '(Tsol): The ratio of incident solar radiation that directly passes through a shading system (also named τe). Note the following equation Asol + Rsol + Tsol = 1'
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
   ifdGuid: ''
-  legacyGuid: ''
+  legacyGuidAsIfcGlobalId: ''
   localizations:
   - language: de-DE
     name: 'Strahlungstransmissionsgrad'
@@ -494,11 +549,20 @@ properties:
     measureType: ''
     unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: VisibleLightTransmittance
   definition: Fraction of the visible light that passes the shading system  at normal incidence. It is a value without unit.
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
   ifdGuid: ''
-  legacyGuid: ''
+  legacyGuidAsIfcGlobalId: ''
   localizations:
   - language: de-DE
     name: 'Transmissionsgrad für sichtbares Licht'
@@ -523,11 +587,20 @@ properties:
     measureType: ''
     unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: SolarReflectance
   definition: '(Rsol): The ratio of incident solar radiation that is reflected by a shading system (also named ρe). Note the following equation Asol + Rsol + Tsol = 1'
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
   ifdGuid: ''
-  legacyGuid: ''
+  legacyGuidAsIfcGlobalId: ''
   localizations:
   - language: de-DE
     name: 'Strahlungsreflectionsgrad'
@@ -552,11 +625,20 @@ properties:
     measureType: ''
     unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: VisibleLightReflectance
   definition: Fraction of the visible light that is reflected by the glazing at normal incidence. It is a value without unit.
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
   ifdGuid: ''
-  legacyGuid: ''
+  legacyGuidAsIfcGlobalId: ''
   localizations:
   - language: de-DE
     name: 'Reflektionsgrad für sichtbares Licht'
@@ -581,11 +663,20 @@ properties:
     measureType: ''
     unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: Roughness
   definition: A measure of the vertical deviations of the surface.
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
   ifdGuid: ''
-  legacyGuid: ''
+  legacyGuidAsIfcGlobalId: ''
   localizations:
   - language: de-DE
     name: 'Rauheit der Oberfläche'
@@ -610,11 +701,20 @@ properties:
     measureType: ''
     unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: SurfaceColor
   definition: The color of the surface.
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
   ifdGuid: ''
-  legacyGuid: ''
+  legacyGuidAsIfcGlobalId: ''
   localizations:
   - language: de-DE
     name: 'Oberflächenfarbe'
@@ -639,4 +739,12 @@ properties:
     measureType: ''
     unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN

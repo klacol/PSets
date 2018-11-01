@@ -30,6 +30,7 @@ applicableIfcClasses:
 properties:
 - name: CameraType
   definition: Indicates the type of camera.
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
   ifdGuid: ''
   legacyGuidAsIfcGlobalId: ''
   localizations:
@@ -168,9 +169,18 @@ properties:
         name: 'Unknown'
         definition: ''
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: IsOutdoors
   definition: Indicates if camera is designed to be used outdoors.
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
   ifdGuid: ''
   legacyGuidAsIfcGlobalId: ''
   localizations:
@@ -200,9 +210,18 @@ properties:
     measureType: ''
     unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: VideoResolutionWidth
   definition: Indicates the number of horizontal pixels (the largest native video resolution width).
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
   ifdGuid: ''
   legacyGuidAsIfcGlobalId: ''
   localizations:
@@ -232,9 +251,18 @@ properties:
     measureType: ''
     unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: VideoResolutionHeight
   definition: Indicates the number of vertical pixels (the largest native video resolution height).
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
   ifdGuid: ''
   legacyGuidAsIfcGlobalId: ''
   localizations:
@@ -264,9 +292,18 @@ properties:
     measureType: ''
     unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: VideoResolutionMode
   definition: Indicates video resolution modes.
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
   ifdGuid: ''
   legacyGuidAsIfcGlobalId: ''
   localizations:
@@ -302,9 +339,18 @@ properties:
       measureType: ''
       unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: VideoCaptureInterval
   definition: Indicates video frame capture time intervals.
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
   ifdGuid: ''
   legacyGuidAsIfcGlobalId: ''
   localizations:
@@ -337,9 +383,18 @@ properties:
       measureType: ''
       unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: PanTiltZoomPreset
   definition: Indicates pan/tilt/zoom position presets.
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
   ifdGuid: ''
   legacyGuidAsIfcGlobalId: ''
   localizations:
@@ -372,9 +427,18 @@ properties:
       measureType: ''
       unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: PanHorizontal
   definition: Indicates horizontal range for panning.
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
   ifdGuid: ''
   legacyGuidAsIfcGlobalId: ''
   localizations:
@@ -402,9 +466,18 @@ properties:
     UpperBoundValue: '?'
     typeName: TypePropertyBoundedValue
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: PanVertical
   definition: Indicates vertical range for panning.
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
   ifdGuid: ''
   legacyGuidAsIfcGlobalId: ''
   localizations:
@@ -432,9 +505,18 @@ properties:
     UpperBoundValue: '?'
     typeName: TypePropertyBoundedValue
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: TiltHorizontal
   definition: Indicates horizontal range for pivoting, where positive values indicate the camera rotating clockwise,
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
   ifdGuid: ''
   legacyGuidAsIfcGlobalId: ''
   localizations:
@@ -462,9 +544,18 @@ properties:
     UpperBoundValue: '?'
     typeName: TypePropertyBoundedValue
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: TiltVertical
   definition: Indicates vertical range for pivoting, where 0.0 is level, +90 degrees is looking up, -90 degrees is looking down.
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
   ifdGuid: ''
   legacyGuidAsIfcGlobalId: ''
   localizations:
@@ -492,9 +583,18 @@ properties:
     UpperBoundValue: '?'
     typeName: TypePropertyBoundedValue
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: Zoom
   definition: Indicates the zoom range.
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
   ifdGuid: ''
   legacyGuidAsIfcGlobalId: ''
   localizations:
@@ -522,4 +622,12 @@ properties:
     UpperBoundValue: '?'
     typeName: TypePropertyBoundedValue
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN

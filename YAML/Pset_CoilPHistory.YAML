@@ -30,6 +30,7 @@ applicableIfcClasses:
 properties:
 - name: AtmosphericPressure
   definition: Ambient atmospheric pressure.
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
   ifdGuid: ''
   legacyGuid: 987602d7d07943a1bb0b5d5129fc3d02
   legacyGuidAsIfcGlobalId: 2OTWBNq7b3eRiBNL4f$3q2
@@ -59,9 +60,18 @@ properties:
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: AirPressureDropCurve
   definition: Air pressure drop curve, pressure drop – flow rate curve, AirPressureDrop = f (AirflowRate).
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
   ifdGuid: ''
   legacyGuid: ac9693d2c4fe461cbe6a443c15368762
   legacyGuidAsIfcGlobalId: 2ibfFInFv67BvgH3mLDeTY
@@ -91,9 +101,18 @@ properties:
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: SoundCurve
   definition: Regenerated sound versus air-flow rate.
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
   ifdGuid: ''
   legacyGuid: 0ca15c99f4d746559b2de69710d5df7c
   legacyGuidAsIfcGlobalId: 0CeLoPzDT6LPijvfSGrTzy
@@ -123,9 +142,18 @@ properties:
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: FaceVelocity
   definition: Air velocity through the coil.
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
   ifdGuid: ''
   legacyGuid: 07d6b355fc1a4dcab9aa8c0cec2a24c5
   legacyGuidAsIfcGlobalId: 07rhDL$1fDohcgZ0piAYJ5
@@ -155,4 +183,12 @@ properties:
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN

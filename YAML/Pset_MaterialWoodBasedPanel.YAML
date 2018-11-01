@@ -30,8 +30,9 @@ applicableIfcClasses:
 properties:
 - name: ApplicableStructuralDesignMethod
   definition: Determines whether mechanical material properties are applicable to 'ASD' = allowable stress design (working stress design), 'LSD' = limit state design, or 'LRFD' = load and resistance factor design.
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
   ifdGuid: ''
-  legacyGuid: ''
+  legacyGuidAsIfcGlobalId: ''
   localizations:
   - language: de-DE
     name: ''
@@ -56,11 +57,20 @@ properties:
     measureType: ''
     unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: InPlane
   definition: Mechanical properties with respect to in-plane load, i.e. for function as a membrane.
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
   ifdGuid: ''
-  legacyGuid: ''
+  legacyGuidAsIfcGlobalId: ''
   localizations:
   - language: de-DE
     name: ''
@@ -85,8 +95,9 @@ properties:
     subProperties:
     - name: YoungModulusBending
       definition: 'Defining values: α; defined values: elastic modulus in bending.'
+      dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
       ifdGuid: ''
-      legacyGuid: ''
+      legacyGuidAsIfcGlobalId: ''
       localizations:
       - language: de-DE
         name: ''
@@ -117,11 +128,20 @@ properties:
           measureType: ''
           unitType: USERDEFINED
       status:
-        creationDate: 2018-01-01T00:00:00.0000000
+        versionNumber: 4
+        dateOfVersion: 2018-01-01T00:00:00.0000000
+        revisionNumber: 2
+        dateOfRevision: 2018-01-01T00:00:00.0000000
+        status: Active
+        dateOfCreation: 2018-01-01T00:00:00.0000000
+        dateOfActivation: 2018-01-01T00:00:00.0000000
+        dateOfLastChange: 2018-01-01T00:00:00.0000000
+        languageOfCreator: en-EN
     - name: YoungModulusTension
       definition: 'Defining values: α; defined values: elastic modulus in tension.'
+      dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
       ifdGuid: ''
-      legacyGuid: ''
+      legacyGuidAsIfcGlobalId: ''
       localizations:
       - language: de-DE
         name: ''
@@ -152,11 +172,20 @@ properties:
           measureType: ''
           unitType: USERDEFINED
       status:
-        creationDate: 2018-01-01T00:00:00.0000000
+        versionNumber: 4
+        dateOfVersion: 2018-01-01T00:00:00.0000000
+        revisionNumber: 2
+        dateOfRevision: 2018-01-01T00:00:00.0000000
+        status: Active
+        dateOfCreation: 2018-01-01T00:00:00.0000000
+        dateOfActivation: 2018-01-01T00:00:00.0000000
+        dateOfLastChange: 2018-01-01T00:00:00.0000000
+        languageOfCreator: en-EN
     - name: YoungModulusCompression
       definition: Elastic modulus in compression.
+      dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
       ifdGuid: ''
-      legacyGuid: ''
+      legacyGuidAsIfcGlobalId: ''
       localizations:
       - language: de-DE
         name: ''
@@ -181,11 +210,20 @@ properties:
         measureType: ''
         unitType: USERDEFINED
       status:
-        creationDate: 2018-01-01T00:00:00.0000000
+        versionNumber: 4
+        dateOfVersion: 2018-01-01T00:00:00.0000000
+        revisionNumber: 2
+        dateOfRevision: 2018-01-01T00:00:00.0000000
+        status: Active
+        dateOfCreation: 2018-01-01T00:00:00.0000000
+        dateOfActivation: 2018-01-01T00:00:00.0000000
+        dateOfLastChange: 2018-01-01T00:00:00.0000000
+        languageOfCreator: en-EN
     - name: ShearModulus
       definition: Shear modulus.
+      dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
       ifdGuid: ''
-      legacyGuid: ''
+      legacyGuidAsIfcGlobalId: ''
       localizations:
       - language: de-DE
         name: ''
@@ -210,11 +248,20 @@ properties:
         measureType: ''
         unitType: USERDEFINED
       status:
-        creationDate: 2018-01-01T00:00:00.0000000
+        versionNumber: 4
+        dateOfVersion: 2018-01-01T00:00:00.0000000
+        revisionNumber: 2
+        dateOfRevision: 2018-01-01T00:00:00.0000000
+        status: Active
+        dateOfCreation: 2018-01-01T00:00:00.0000000
+        dateOfActivation: 2018-01-01T00:00:00.0000000
+        dateOfLastChange: 2018-01-01T00:00:00.0000000
+        languageOfCreator: en-EN
     - name: BendingStrength
       definition: 'Defining values: α; defined values: bending strength.'
+      dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
       ifdGuid: ''
-      legacyGuid: ''
+      legacyGuidAsIfcGlobalId: ''
       localizations:
       - language: de-DE
         name: ''
@@ -245,11 +292,20 @@ properties:
           measureType: ''
           unitType: USERDEFINED
       status:
-        creationDate: 2018-01-01T00:00:00.0000000
+        versionNumber: 4
+        dateOfVersion: 2018-01-01T00:00:00.0000000
+        revisionNumber: 2
+        dateOfRevision: 2018-01-01T00:00:00.0000000
+        status: Active
+        dateOfCreation: 2018-01-01T00:00:00.0000000
+        dateOfActivation: 2018-01-01T00:00:00.0000000
+        dateOfLastChange: 2018-01-01T00:00:00.0000000
+        languageOfCreator: en-EN
     - name: CompressiveStrength
       definition: 'Defining values: α; defined values: compressive strength.'
+      dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
       ifdGuid: ''
-      legacyGuid: ''
+      legacyGuidAsIfcGlobalId: ''
       localizations:
       - language: de-DE
         name: ''
@@ -280,11 +336,20 @@ properties:
           measureType: ''
           unitType: USERDEFINED
       status:
-        creationDate: 2018-01-01T00:00:00.0000000
+        versionNumber: 4
+        dateOfVersion: 2018-01-01T00:00:00.0000000
+        revisionNumber: 2
+        dateOfRevision: 2018-01-01T00:00:00.0000000
+        status: Active
+        dateOfCreation: 2018-01-01T00:00:00.0000000
+        dateOfActivation: 2018-01-01T00:00:00.0000000
+        dateOfLastChange: 2018-01-01T00:00:00.0000000
+        languageOfCreator: en-EN
     - name: TensileStrength
       definition: 'Defining values: α; defined values: tensile strength.'
+      dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
       ifdGuid: ''
-      legacyGuid: ''
+      legacyGuidAsIfcGlobalId: ''
       localizations:
       - language: de-DE
         name: ''
@@ -315,11 +380,20 @@ properties:
           measureType: ''
           unitType: USERDEFINED
       status:
-        creationDate: 2018-01-01T00:00:00.0000000
+        versionNumber: 4
+        dateOfVersion: 2018-01-01T00:00:00.0000000
+        revisionNumber: 2
+        dateOfRevision: 2018-01-01T00:00:00.0000000
+        status: Active
+        dateOfCreation: 2018-01-01T00:00:00.0000000
+        dateOfActivation: 2018-01-01T00:00:00.0000000
+        dateOfLastChange: 2018-01-01T00:00:00.0000000
+        languageOfCreator: en-EN
     - name: ShearStrength
       definition: 'Defining values: α; defined values: shear strength.'
+      dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
       ifdGuid: ''
-      legacyGuid: ''
+      legacyGuidAsIfcGlobalId: ''
       localizations:
       - language: de-DE
         name: ''
@@ -350,11 +424,20 @@ properties:
           measureType: ''
           unitType: USERDEFINED
       status:
-        creationDate: 2018-01-01T00:00:00.0000000
+        versionNumber: 4
+        dateOfVersion: 2018-01-01T00:00:00.0000000
+        revisionNumber: 2
+        dateOfRevision: 2018-01-01T00:00:00.0000000
+        status: Active
+        dateOfCreation: 2018-01-01T00:00:00.0000000
+        dateOfActivation: 2018-01-01T00:00:00.0000000
+        dateOfLastChange: 2018-01-01T00:00:00.0000000
+        languageOfCreator: en-EN
     - name: BearingStrength
       definition: 'Defining values: α; defined values: bearing strength of bolt holes, i.e. intrados pressure.'
+      dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
       ifdGuid: ''
-      legacyGuid: ''
+      legacyGuidAsIfcGlobalId: ''
       localizations:
       - language: de-DE
         name: ''
@@ -385,11 +468,20 @@ properties:
           measureType: ''
           unitType: USERDEFINED
       status:
-        creationDate: 2018-01-01T00:00:00.0000000
+        versionNumber: 4
+        dateOfVersion: 2018-01-01T00:00:00.0000000
+        revisionNumber: 2
+        dateOfRevision: 2018-01-01T00:00:00.0000000
+        status: Active
+        dateOfCreation: 2018-01-01T00:00:00.0000000
+        dateOfActivation: 2018-01-01T00:00:00.0000000
+        dateOfLastChange: 2018-01-01T00:00:00.0000000
+        languageOfCreator: en-EN
     - name: RaisedCompressiveStrength
       definition: Alternative value for compressive strength which may be used under material and code dependent conditions (e.g. if deformation is tolerable, or far from ends of the member); conditions should be stated in SELF\IfcProperty.Description.
+      dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
       ifdGuid: ''
-      legacyGuid: ''
+      legacyGuidAsIfcGlobalId: ''
       localizations:
       - language: de-DE
         name: ''
@@ -414,11 +506,20 @@ properties:
         measureType: ''
         unitType: USERDEFINED
       status:
-        creationDate: 2018-01-01T00:00:00.0000000
+        versionNumber: 4
+        dateOfVersion: 2018-01-01T00:00:00.0000000
+        revisionNumber: 2
+        dateOfRevision: 2018-01-01T00:00:00.0000000
+        status: Active
+        dateOfCreation: 2018-01-01T00:00:00.0000000
+        dateOfActivation: 2018-01-01T00:00:00.0000000
+        dateOfLastChange: 2018-01-01T00:00:00.0000000
+        languageOfCreator: en-EN
     - name: ReferenceDepth
       definition: Depth in bending for which the mechanical properties are valid; provided as a means to check the integrity of material assignment.
+      dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
       ifdGuid: ''
-      legacyGuid: ''
+      legacyGuidAsIfcGlobalId: ''
       localizations:
       - language: de-DE
         name: ''
@@ -443,13 +544,30 @@ properties:
         measureType: ''
         unitType: USERDEFINED
       status:
-        creationDate: 2018-01-01T00:00:00.0000000
+        versionNumber: 4
+        dateOfVersion: 2018-01-01T00:00:00.0000000
+        revisionNumber: 2
+        dateOfRevision: 2018-01-01T00:00:00.0000000
+        status: Active
+        dateOfCreation: 2018-01-01T00:00:00.0000000
+        dateOfActivation: 2018-01-01T00:00:00.0000000
+        dateOfLastChange: 2018-01-01T00:00:00.0000000
+        languageOfCreator: en-EN
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: OutOfPlane
   definition: Mechanical properties with respect to out-of-plane load, i.e. for function as a plate; tension zone of unbalanced layups is stressed in tension.
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
   ifdGuid: ''
-  legacyGuid: ''
+  legacyGuidAsIfcGlobalId: ''
   localizations:
   - language: de-DE
     name: ''
@@ -474,8 +592,9 @@ properties:
     subProperties:
     - name: YoungModulusBending
       definition: 'Defining values: α; defined values: elastic modulus in bending.'
+      dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
       ifdGuid: ''
-      legacyGuid: ''
+      legacyGuidAsIfcGlobalId: ''
       localizations:
       - language: de-DE
         name: ''
@@ -506,11 +625,20 @@ properties:
           measureType: ''
           unitType: USERDEFINED
       status:
-        creationDate: 2018-01-01T00:00:00.0000000
+        versionNumber: 4
+        dateOfVersion: 2018-01-01T00:00:00.0000000
+        revisionNumber: 2
+        dateOfRevision: 2018-01-01T00:00:00.0000000
+        status: Active
+        dateOfCreation: 2018-01-01T00:00:00.0000000
+        dateOfActivation: 2018-01-01T00:00:00.0000000
+        dateOfLastChange: 2018-01-01T00:00:00.0000000
+        languageOfCreator: en-EN
     - name: YoungModulusTension
       definition: 'Defining values: α; defined values: elastic modulus in tension.'
+      dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
       ifdGuid: ''
-      legacyGuid: ''
+      legacyGuidAsIfcGlobalId: ''
       localizations:
       - language: de-DE
         name: ''
@@ -541,11 +669,20 @@ properties:
           measureType: ''
           unitType: USERDEFINED
       status:
-        creationDate: 2018-01-01T00:00:00.0000000
+        versionNumber: 4
+        dateOfVersion: 2018-01-01T00:00:00.0000000
+        revisionNumber: 2
+        dateOfRevision: 2018-01-01T00:00:00.0000000
+        status: Active
+        dateOfCreation: 2018-01-01T00:00:00.0000000
+        dateOfActivation: 2018-01-01T00:00:00.0000000
+        dateOfLastChange: 2018-01-01T00:00:00.0000000
+        languageOfCreator: en-EN
     - name: YoungModulusCompression
       definition: Elastic modulus in compression.
+      dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
       ifdGuid: ''
-      legacyGuid: ''
+      legacyGuidAsIfcGlobalId: ''
       localizations:
       - language: de-DE
         name: ''
@@ -570,11 +707,20 @@ properties:
         measureType: ''
         unitType: USERDEFINED
       status:
-        creationDate: 2018-01-01T00:00:00.0000000
+        versionNumber: 4
+        dateOfVersion: 2018-01-01T00:00:00.0000000
+        revisionNumber: 2
+        dateOfRevision: 2018-01-01T00:00:00.0000000
+        status: Active
+        dateOfCreation: 2018-01-01T00:00:00.0000000
+        dateOfActivation: 2018-01-01T00:00:00.0000000
+        dateOfLastChange: 2018-01-01T00:00:00.0000000
+        languageOfCreator: en-EN
     - name: ShearModulus
       definition: Shear modulus.
+      dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
       ifdGuid: ''
-      legacyGuid: ''
+      legacyGuidAsIfcGlobalId: ''
       localizations:
       - language: de-DE
         name: ''
@@ -599,11 +745,20 @@ properties:
         measureType: ''
         unitType: USERDEFINED
       status:
-        creationDate: 2018-01-01T00:00:00.0000000
+        versionNumber: 4
+        dateOfVersion: 2018-01-01T00:00:00.0000000
+        revisionNumber: 2
+        dateOfRevision: 2018-01-01T00:00:00.0000000
+        status: Active
+        dateOfCreation: 2018-01-01T00:00:00.0000000
+        dateOfActivation: 2018-01-01T00:00:00.0000000
+        dateOfLastChange: 2018-01-01T00:00:00.0000000
+        languageOfCreator: en-EN
     - name: BendingStrength
       definition: 'Defining values: α; defined values: bending strength.'
+      dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
       ifdGuid: ''
-      legacyGuid: ''
+      legacyGuidAsIfcGlobalId: ''
       localizations:
       - language: de-DE
         name: ''
@@ -634,11 +789,20 @@ properties:
           measureType: ''
           unitType: USERDEFINED
       status:
-        creationDate: 2018-01-01T00:00:00.0000000
+        versionNumber: 4
+        dateOfVersion: 2018-01-01T00:00:00.0000000
+        revisionNumber: 2
+        dateOfRevision: 2018-01-01T00:00:00.0000000
+        status: Active
+        dateOfCreation: 2018-01-01T00:00:00.0000000
+        dateOfActivation: 2018-01-01T00:00:00.0000000
+        dateOfLastChange: 2018-01-01T00:00:00.0000000
+        languageOfCreator: en-EN
     - name: CompressiveStrength
       definition: 'Defining values: α; defined values: compressive strength.'
+      dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
       ifdGuid: ''
-      legacyGuid: ''
+      legacyGuidAsIfcGlobalId: ''
       localizations:
       - language: de-DE
         name: ''
@@ -669,11 +833,20 @@ properties:
           measureType: ''
           unitType: USERDEFINED
       status:
-        creationDate: 2018-01-01T00:00:00.0000000
+        versionNumber: 4
+        dateOfVersion: 2018-01-01T00:00:00.0000000
+        revisionNumber: 2
+        dateOfRevision: 2018-01-01T00:00:00.0000000
+        status: Active
+        dateOfCreation: 2018-01-01T00:00:00.0000000
+        dateOfActivation: 2018-01-01T00:00:00.0000000
+        dateOfLastChange: 2018-01-01T00:00:00.0000000
+        languageOfCreator: en-EN
     - name: TensileStrength
       definition: 'Defining values: α; defined values: tensile strength.'
+      dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
       ifdGuid: ''
-      legacyGuid: ''
+      legacyGuidAsIfcGlobalId: ''
       localizations:
       - language: de-DE
         name: ''
@@ -704,11 +877,20 @@ properties:
           measureType: ''
           unitType: USERDEFINED
       status:
-        creationDate: 2018-01-01T00:00:00.0000000
+        versionNumber: 4
+        dateOfVersion: 2018-01-01T00:00:00.0000000
+        revisionNumber: 2
+        dateOfRevision: 2018-01-01T00:00:00.0000000
+        status: Active
+        dateOfCreation: 2018-01-01T00:00:00.0000000
+        dateOfActivation: 2018-01-01T00:00:00.0000000
+        dateOfLastChange: 2018-01-01T00:00:00.0000000
+        languageOfCreator: en-EN
     - name: ShearStrength
       definition: 'Defining values: α; defined values: shear strength.'
+      dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
       ifdGuid: ''
-      legacyGuid: ''
+      legacyGuidAsIfcGlobalId: ''
       localizations:
       - language: de-DE
         name: ''
@@ -739,11 +921,20 @@ properties:
           measureType: ''
           unitType: USERDEFINED
       status:
-        creationDate: 2018-01-01T00:00:00.0000000
+        versionNumber: 4
+        dateOfVersion: 2018-01-01T00:00:00.0000000
+        revisionNumber: 2
+        dateOfRevision: 2018-01-01T00:00:00.0000000
+        status: Active
+        dateOfCreation: 2018-01-01T00:00:00.0000000
+        dateOfActivation: 2018-01-01T00:00:00.0000000
+        dateOfLastChange: 2018-01-01T00:00:00.0000000
+        languageOfCreator: en-EN
     - name: BearingStrength
       definition: 'Defining values: α; defined values: bearing strength of bolt holes, i.e. intrados pressure.'
+      dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
       ifdGuid: ''
-      legacyGuid: ''
+      legacyGuidAsIfcGlobalId: ''
       localizations:
       - language: de-DE
         name: ''
@@ -774,11 +965,20 @@ properties:
           measureType: ''
           unitType: USERDEFINED
       status:
-        creationDate: 2018-01-01T00:00:00.0000000
+        versionNumber: 4
+        dateOfVersion: 2018-01-01T00:00:00.0000000
+        revisionNumber: 2
+        dateOfRevision: 2018-01-01T00:00:00.0000000
+        status: Active
+        dateOfCreation: 2018-01-01T00:00:00.0000000
+        dateOfActivation: 2018-01-01T00:00:00.0000000
+        dateOfLastChange: 2018-01-01T00:00:00.0000000
+        languageOfCreator: en-EN
     - name: RaisedCompressiveStrength
       definition: Alternative value for compressive strength which may be used under material and code dependent conditions (e.g. if deformation is tolerable, or far from ends of the member); conditions should be stated in SELF\IfcProperty.Description.
+      dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
       ifdGuid: ''
-      legacyGuid: ''
+      legacyGuidAsIfcGlobalId: ''
       localizations:
       - language: de-DE
         name: ''
@@ -803,11 +1003,20 @@ properties:
         measureType: ''
         unitType: USERDEFINED
       status:
-        creationDate: 2018-01-01T00:00:00.0000000
+        versionNumber: 4
+        dateOfVersion: 2018-01-01T00:00:00.0000000
+        revisionNumber: 2
+        dateOfRevision: 2018-01-01T00:00:00.0000000
+        status: Active
+        dateOfCreation: 2018-01-01T00:00:00.0000000
+        dateOfActivation: 2018-01-01T00:00:00.0000000
+        dateOfLastChange: 2018-01-01T00:00:00.0000000
+        languageOfCreator: en-EN
     - name: ReferenceDepth
       definition: Depth in bending for which the mechanical properties are valid; provided as a means to check the integrity of material assignment.
+      dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
       ifdGuid: ''
-      legacyGuid: ''
+      legacyGuidAsIfcGlobalId: ''
       localizations:
       - language: de-DE
         name: ''
@@ -832,13 +1041,30 @@ properties:
         measureType: ''
         unitType: USERDEFINED
       status:
-        creationDate: 2018-01-01T00:00:00.0000000
+        versionNumber: 4
+        dateOfVersion: 2018-01-01T00:00:00.0000000
+        revisionNumber: 2
+        dateOfRevision: 2018-01-01T00:00:00.0000000
+        status: Active
+        dateOfCreation: 2018-01-01T00:00:00.0000000
+        dateOfActivation: 2018-01-01T00:00:00.0000000
+        dateOfLastChange: 2018-01-01T00:00:00.0000000
+        languageOfCreator: en-EN
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: OutOfPlaneNegative
   definition: Mechanical properties with respect to out-of-plane load i.e. for function as a plate; compression zone of unbalanced layups is stressed in tension.
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
   ifdGuid: ''
-  legacyGuid: ''
+  legacyGuidAsIfcGlobalId: ''
   localizations:
   - language: de-DE
     name: ''
@@ -863,8 +1089,9 @@ properties:
     subProperties:
     - name: YoungModulusBending
       definition: 'Defining values: α; defined values: elastic modulus in bending.'
+      dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
       ifdGuid: ''
-      legacyGuid: ''
+      legacyGuidAsIfcGlobalId: ''
       localizations:
       - language: de-DE
         name: ''
@@ -895,11 +1122,20 @@ properties:
           measureType: ''
           unitType: USERDEFINED
       status:
-        creationDate: 2018-01-01T00:00:00.0000000
+        versionNumber: 4
+        dateOfVersion: 2018-01-01T00:00:00.0000000
+        revisionNumber: 2
+        dateOfRevision: 2018-01-01T00:00:00.0000000
+        status: Active
+        dateOfCreation: 2018-01-01T00:00:00.0000000
+        dateOfActivation: 2018-01-01T00:00:00.0000000
+        dateOfLastChange: 2018-01-01T00:00:00.0000000
+        languageOfCreator: en-EN
     - name: YoungModulusTension
       definition: 'Defining values: α; defined values: elastic modulus in tension.'
+      dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
       ifdGuid: ''
-      legacyGuid: ''
+      legacyGuidAsIfcGlobalId: ''
       localizations:
       - language: de-DE
         name: ''
@@ -930,11 +1166,20 @@ properties:
           measureType: ''
           unitType: USERDEFINED
       status:
-        creationDate: 2018-01-01T00:00:00.0000000
+        versionNumber: 4
+        dateOfVersion: 2018-01-01T00:00:00.0000000
+        revisionNumber: 2
+        dateOfRevision: 2018-01-01T00:00:00.0000000
+        status: Active
+        dateOfCreation: 2018-01-01T00:00:00.0000000
+        dateOfActivation: 2018-01-01T00:00:00.0000000
+        dateOfLastChange: 2018-01-01T00:00:00.0000000
+        languageOfCreator: en-EN
     - name: YoungModulusCompression
       definition: Elastic modulus in compression.
+      dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
       ifdGuid: ''
-      legacyGuid: ''
+      legacyGuidAsIfcGlobalId: ''
       localizations:
       - language: de-DE
         name: ''
@@ -959,11 +1204,20 @@ properties:
         measureType: ''
         unitType: USERDEFINED
       status:
-        creationDate: 2018-01-01T00:00:00.0000000
+        versionNumber: 4
+        dateOfVersion: 2018-01-01T00:00:00.0000000
+        revisionNumber: 2
+        dateOfRevision: 2018-01-01T00:00:00.0000000
+        status: Active
+        dateOfCreation: 2018-01-01T00:00:00.0000000
+        dateOfActivation: 2018-01-01T00:00:00.0000000
+        dateOfLastChange: 2018-01-01T00:00:00.0000000
+        languageOfCreator: en-EN
     - name: ShearModulus
       definition: Shear modulus.
+      dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
       ifdGuid: ''
-      legacyGuid: ''
+      legacyGuidAsIfcGlobalId: ''
       localizations:
       - language: de-DE
         name: ''
@@ -988,11 +1242,20 @@ properties:
         measureType: ''
         unitType: USERDEFINED
       status:
-        creationDate: 2018-01-01T00:00:00.0000000
+        versionNumber: 4
+        dateOfVersion: 2018-01-01T00:00:00.0000000
+        revisionNumber: 2
+        dateOfRevision: 2018-01-01T00:00:00.0000000
+        status: Active
+        dateOfCreation: 2018-01-01T00:00:00.0000000
+        dateOfActivation: 2018-01-01T00:00:00.0000000
+        dateOfLastChange: 2018-01-01T00:00:00.0000000
+        languageOfCreator: en-EN
     - name: BendingStrength
       definition: 'Defining values: α; defined values: bending strength.'
+      dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
       ifdGuid: ''
-      legacyGuid: ''
+      legacyGuidAsIfcGlobalId: ''
       localizations:
       - language: de-DE
         name: ''
@@ -1023,11 +1286,20 @@ properties:
           measureType: ''
           unitType: USERDEFINED
       status:
-        creationDate: 2018-01-01T00:00:00.0000000
+        versionNumber: 4
+        dateOfVersion: 2018-01-01T00:00:00.0000000
+        revisionNumber: 2
+        dateOfRevision: 2018-01-01T00:00:00.0000000
+        status: Active
+        dateOfCreation: 2018-01-01T00:00:00.0000000
+        dateOfActivation: 2018-01-01T00:00:00.0000000
+        dateOfLastChange: 2018-01-01T00:00:00.0000000
+        languageOfCreator: en-EN
     - name: CompressiveStrength
       definition: 'Defining values: α; defined values: compressive strength.'
+      dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
       ifdGuid: ''
-      legacyGuid: ''
+      legacyGuidAsIfcGlobalId: ''
       localizations:
       - language: de-DE
         name: ''
@@ -1058,11 +1330,20 @@ properties:
           measureType: ''
           unitType: USERDEFINED
       status:
-        creationDate: 2018-01-01T00:00:00.0000000
+        versionNumber: 4
+        dateOfVersion: 2018-01-01T00:00:00.0000000
+        revisionNumber: 2
+        dateOfRevision: 2018-01-01T00:00:00.0000000
+        status: Active
+        dateOfCreation: 2018-01-01T00:00:00.0000000
+        dateOfActivation: 2018-01-01T00:00:00.0000000
+        dateOfLastChange: 2018-01-01T00:00:00.0000000
+        languageOfCreator: en-EN
     - name: TensileStrength
       definition: 'Defining values: α; defined values: tensile strength.'
+      dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
       ifdGuid: ''
-      legacyGuid: ''
+      legacyGuidAsIfcGlobalId: ''
       localizations:
       - language: de-DE
         name: ''
@@ -1093,11 +1374,20 @@ properties:
           measureType: ''
           unitType: USERDEFINED
       status:
-        creationDate: 2018-01-01T00:00:00.0000000
+        versionNumber: 4
+        dateOfVersion: 2018-01-01T00:00:00.0000000
+        revisionNumber: 2
+        dateOfRevision: 2018-01-01T00:00:00.0000000
+        status: Active
+        dateOfCreation: 2018-01-01T00:00:00.0000000
+        dateOfActivation: 2018-01-01T00:00:00.0000000
+        dateOfLastChange: 2018-01-01T00:00:00.0000000
+        languageOfCreator: en-EN
     - name: ShearStrength
       definition: 'Defining values: α; defined values: shear strength.'
+      dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
       ifdGuid: ''
-      legacyGuid: ''
+      legacyGuidAsIfcGlobalId: ''
       localizations:
       - language: de-DE
         name: ''
@@ -1128,11 +1418,20 @@ properties:
           measureType: ''
           unitType: USERDEFINED
       status:
-        creationDate: 2018-01-01T00:00:00.0000000
+        versionNumber: 4
+        dateOfVersion: 2018-01-01T00:00:00.0000000
+        revisionNumber: 2
+        dateOfRevision: 2018-01-01T00:00:00.0000000
+        status: Active
+        dateOfCreation: 2018-01-01T00:00:00.0000000
+        dateOfActivation: 2018-01-01T00:00:00.0000000
+        dateOfLastChange: 2018-01-01T00:00:00.0000000
+        languageOfCreator: en-EN
     - name: BearingStrength
       definition: 'Defining values: α; defined values: bearing strength of bolt holes, i.e. intrados pressure.'
+      dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
       ifdGuid: ''
-      legacyGuid: ''
+      legacyGuidAsIfcGlobalId: ''
       localizations:
       - language: de-DE
         name: ''
@@ -1163,11 +1462,20 @@ properties:
           measureType: ''
           unitType: USERDEFINED
       status:
-        creationDate: 2018-01-01T00:00:00.0000000
+        versionNumber: 4
+        dateOfVersion: 2018-01-01T00:00:00.0000000
+        revisionNumber: 2
+        dateOfRevision: 2018-01-01T00:00:00.0000000
+        status: Active
+        dateOfCreation: 2018-01-01T00:00:00.0000000
+        dateOfActivation: 2018-01-01T00:00:00.0000000
+        dateOfLastChange: 2018-01-01T00:00:00.0000000
+        languageOfCreator: en-EN
     - name: RaisedCompressiveStrength
       definition: Alternative value for compressive strength which may be used under material and code dependent conditions (e.g. if deformation is tolerable, or far from ends of the member); conditions should be stated in SELF\IfcProperty.Description.
+      dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
       ifdGuid: ''
-      legacyGuid: ''
+      legacyGuidAsIfcGlobalId: ''
       localizations:
       - language: de-DE
         name: ''
@@ -1192,11 +1500,20 @@ properties:
         measureType: ''
         unitType: USERDEFINED
       status:
-        creationDate: 2018-01-01T00:00:00.0000000
+        versionNumber: 4
+        dateOfVersion: 2018-01-01T00:00:00.0000000
+        revisionNumber: 2
+        dateOfRevision: 2018-01-01T00:00:00.0000000
+        status: Active
+        dateOfCreation: 2018-01-01T00:00:00.0000000
+        dateOfActivation: 2018-01-01T00:00:00.0000000
+        dateOfLastChange: 2018-01-01T00:00:00.0000000
+        languageOfCreator: en-EN
     - name: ReferenceDepth
       definition: Depth in bending for which the mechanical properties are valid; provided as a means to check the integrity of material assignment.
+      dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
       ifdGuid: ''
-      legacyGuid: ''
+      legacyGuidAsIfcGlobalId: ''
       localizations:
       - language: de-DE
         name: ''
@@ -1221,6 +1538,22 @@ properties:
         measureType: ''
         unitType: USERDEFINED
       status:
-        creationDate: 2018-01-01T00:00:00.0000000
+        versionNumber: 4
+        dateOfVersion: 2018-01-01T00:00:00.0000000
+        revisionNumber: 2
+        dateOfRevision: 2018-01-01T00:00:00.0000000
+        status: Active
+        dateOfCreation: 2018-01-01T00:00:00.0000000
+        dateOfActivation: 2018-01-01T00:00:00.0000000
+        dateOfLastChange: 2018-01-01T00:00:00.0000000
+        languageOfCreator: en-EN
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN

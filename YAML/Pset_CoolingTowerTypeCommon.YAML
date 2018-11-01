@@ -30,8 +30,9 @@ applicableIfcClasses:
 properties:
 - name: Reference
   definition: Reference ID for this specified type in this project (e.g. type 'A-1'), provided, if there is no classification reference to a recognized classification system used.
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
   ifdGuid: ''
-  legacyGuid: ''
+  legacyGuidAsIfcGlobalId: ''
   localizations:
   - language: ja-JP
     name: '参照記号'
@@ -56,11 +57,20 @@ properties:
     measureType: ''
     unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: Status
   definition: Status of the element, predominately used in renovation or retrofitting projects. The status can be assigned to as "New" - element designed as new addition, "Existing" - element exists and remains, "Demolish" - element existed but is to be demolished,  "Temporary" - element will exists only temporary (like a temporary support structure).
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
   ifdGuid: ''
-  legacyGuid: ''
+  legacyGuidAsIfcGlobalId: ''
   localizations:
   - language: ja-JP
     name: '状態'
@@ -216,11 +226,21 @@ properties:
         name: 'Unknown'
         definition: ''
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: NominalCapacity
   definition: Nominal cooling tower capacity in terms of heat transfer rate of the cooling tower between air stream and water stream at nominal conditions.
-  ifdGuid: 2LjGNaNDvDqfTS33dWOTXa
-  legacyGuid: 2LjGNaNDvDqfTS33dWOTXa
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 95b505e45cde4dd2975c0c39e061d864
+  legacyGuidAsIfcGlobalId: 2LjGNaNDvDqfTS33dWOTXa
   localizations:
   - language: de-DE
     name: ''
@@ -245,11 +265,21 @@ properties:
     measureType: ''
     unitType: POWERUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: CircuitType
   definition: 'OpenCircuit: Exposes water directly to the cooling atmosphere.CloseCircuit: The fluid is separated from the atmosphere by a heat exchanger.Wet: The air stream or the heat exchange surface is evaporatively cooled.Dry: No evaporation into the air stream.DryWet: A combination of a dry tower and a wet tower.'
-  ifdGuid: 1_DX$jzB5A5h2gwx40hcMh
-  legacyGuid: 1_DX$jzB5A5h2gwx40hcMh
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 7e361fedf4b14a16b0aaebb100ae65ab
+  legacyGuidAsIfcGlobalId: 1_DX$jzB5A5h2gwx40hcMh
   localizations:
   - language: de-DE
     name: ''
@@ -405,11 +435,21 @@ properties:
         name: 'Unknown'
         definition: ''
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: FlowArrangement
   definition: 'CounterFlow: Air and water flow enter in different directions.CrossFlow: Air and water flow are perpendicular.ParallelFlow: air and water flow enter in same directions.'
-  ifdGuid: 3fB25aqez7_xDzLCk0v2nC
-  legacyGuid: 3fB25aqez7_xDzLCk0v2nC
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: e92c2164d28f47fbb37d54cb80e42c4c
+  legacyGuidAsIfcGlobalId: 3fB25aqez7_xDzLCk0v2nC
   localizations:
   - language: de-DE
     name: ''
@@ -543,11 +583,21 @@ properties:
         name: 'Unknown'
         definition: ''
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: SprayType
   definition: 'SprayFilled: Water is sprayed into airflow.SplashTypeFill: water cascades over successive rows of splash bars.FilmTypeFill: water flows in a thin layer over closely spaced sheets.'
-  ifdGuid: 0n82ez4R9Ce9__KYsIsn03
-  legacyGuid: 0n82ez4R9Ce9__KYsIsn03
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 31202a3d11b24ca09fbe522d92db1003
+  legacyGuidAsIfcGlobalId: 0n82ez4R9Ce9__KYsIsn03
   localizations:
   - language: de-DE
     name: ''
@@ -681,11 +731,21 @@ properties:
         name: 'Unknown'
         definition: ''
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: CapacityControl
   definition: 'FanCycling: Fan is cycled on and off to control duty.TwoSpeedFan: Fan is switched between low and high speed to control duty.VariableSpeedFan: Fan speed is varied to control duty.DampersControl: Dampers modulate the air flow to control duty.BypassValveControl: Bypass valve modulates the water flow to control duty.MultipleSeriesPumps: Turn on/off multiple series pump to control duty.TwoSpeedPump: Switch between high/low pump speed to control duty.VariableSpeedPump: vary pump speed to control duty.'
-  ifdGuid: 3Xj2bYFjb0R9zKbtHVwU6A
-  legacyGuid: 3Xj2bYFjb0R9zKbtHVwU6A
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: e1b429623ed9406c9f5497745fe9e18a
+  legacyGuidAsIfcGlobalId: 3Xj2bYFjb0R9zKbtHVwU6A
   localizations:
   - language: de-DE
     name: ''
@@ -929,11 +989,21 @@ properties:
         name: 'Unknown'
         definition: ''
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: ControlStrategy
   definition: 'FixedExitingWaterTemp: The capacity is controlled to maintain a fixed exiting water temperature.WetBulbTempReset: The set-point is reset based on the wet-bulb temperature.'
-  ifdGuid: 3Mfgn5Y6H2Gh2vh9eKxUs6
-  legacyGuid: 3Mfgn5Y6H2Gh2vh9eKxUs6
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: d6a6ac4588644242b0b9ac9a14eded86
+  legacyGuidAsIfcGlobalId: 3Mfgn5Y6H2Gh2vh9eKxUs6
   localizations:
   - language: de-DE
     name: ''
@@ -1045,11 +1115,21 @@ properties:
         name: 'Unknown'
         definition: ''
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: NumberOfCells
   definition: Number of cells in one cooling tower unit.
-  ifdGuid: 1NeL8T7f51rxBCR8LS1wiE
-  legacyGuid: 1NeL8T7f51rxBCR8LS1wiE
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 57a1521d1e9141d7b2cc6c855c07ab0e
+  legacyGuidAsIfcGlobalId: 1NeL8T7f51rxBCR8LS1wiE
   localizations:
   - language: de-DE
     name: ''
@@ -1074,11 +1154,21 @@ properties:
     measureType: ''
     unitType: INTEGERCOUNTRATEUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: BasinReserveVolume
   definition: Volume between operating and overflow levels in cooling tower basin.
-  ifdGuid: 0CtrMnfMfBNuyNLx8sGKNm
-  legacyGuid: 0CtrMnfMfBNuyNLx8sGKNm
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 0cdf55b1a56a4b5f8f1757b2364145f0
+  legacyGuidAsIfcGlobalId: 0CtrMnfMfBNuyNLx8sGKNm
   localizations:
   - language: de-DE
     name: ''
@@ -1103,11 +1193,21 @@ properties:
     measureType: ''
     unitType: VOLUMEUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: LiftElevationDifference
   definition: Elevation difference between cooling tower sump and the top of the tower.
-  ifdGuid: 3QdciBE6f5Y8AHrBvhEbhC
-  legacyGuid: 3QdciBE6f5Y8AHrBvhEbhC
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: da9e6b0b386a45888291d4be6b3a5acc
+  legacyGuidAsIfcGlobalId: 3QdciBE6f5Y8AHrBvhEbhC
   localizations:
   - language: de-DE
     name: ''
@@ -1132,11 +1232,21 @@ properties:
     measureType: ''
     unitType: LENGTHUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: WaterRequirement
   definition: Make-up water requirements.
-  ifdGuid: 3eUdILZJPBtBTXW8h2zkp5
-  legacyGuid: 3eUdILZJPBtBTXW8h2zkp5
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: e87a74958d364bdcb761808ac2f6ecc5
+  legacyGuidAsIfcGlobalId: 3eUdILZJPBtBTXW8h2zkp5
   localizations:
   - language: de-DE
     name: ''
@@ -1161,11 +1271,21 @@ properties:
     measureType: ''
     unitType: VOLUMETRICFLOWRATEUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: OperationTemperatureRange
   definition: Allowable operation ambient air temperature range.
-  ifdGuid: 1Nv7Hfccb5Kv7KdShpzg7Y
-  legacyGuid: 1Nv7Hfccb5Kv7KdShpzg7Y
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 57e474699a69455391d49dcaf3f6a1e2
+  legacyGuidAsIfcGlobalId: 1Nv7Hfccb5Kv7KdShpzg7Y
   localizations:
   - language: de-DE
     name: ''
@@ -1190,11 +1310,21 @@ properties:
     measureType: ''
     unitType: THERMODYNAMICTEMPERATUREUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: AmbientDesignDryBulbTemperature
   definition: Ambient design dry bulb temperature used for selecting the cooling tower.
-  ifdGuid: 3yVIzmUA52kgKZWgiaM3H8
-  legacyGuid: 3yVIzmUA52kgKZWgiaM3H8
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: fc7d2f7078a142baa52382ab24583448
+  legacyGuidAsIfcGlobalId: 3yVIzmUA52kgKZWgiaM3H8
   localizations:
   - language: de-DE
     name: ''
@@ -1219,11 +1349,21 @@ properties:
     measureType: ''
     unitType: THERMODYNAMICTEMPERATUREUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: AmbientDesignWetBulbTemperature
   definition: Ambient design wet bulb temperature used for selecting the cooling tower.
-  ifdGuid: 39nwBgRqb2UQI3ujq$tG1W
-  legacyGuid: 39nwBgRqb2UQI3ujq$tG1W
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: c9c7a2ea6f494279a483e2dd3fdd0060
+  legacyGuidAsIfcGlobalId: 39nwBgRqb2UQI3ujq$tG1W
   localizations:
   - language: de-DE
     name: ''
@@ -1248,4 +1388,12 @@ properties:
     measureType: ''
     unitType: THERMODYNAMICTEMPERATUREUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN

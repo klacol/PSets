@@ -49,8 +49,10 @@
     {
       "name": "HoseReelType",
       "definition": "Identifies the predefined types of hose arrangement from which the type required may be set.",
-      "ifdGuid": "0hbvUWzJn3uQXMuUH1Cycw",
-      "legacyGuid": "0hbvUWzJn3uQXMuUH1Cycw",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "2b9797a0f53c43e1a856e1e44133c9ba",
+      "legacyGuidAsIfcGlobalId": "0hbvUWzJn3uQXMuUH1Cycw",
       "localizations": [
         {
           "language": "ja-JP",
@@ -237,14 +239,25 @@
         ]
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "HoseReelMountingType",
       "definition": "Identifies the predefined types of hose reel mounting from which the type required may be set.",
-      "ifdGuid": "24_Zr3Dkn33hvrMGZjQ_CE",
-      "legacyGuid": "24_Zr3Dkn33hvrMGZjQ_CE",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "84fa3d4336ec430ebe755908ed6be30e",
+      "legacyGuidAsIfcGlobalId": "24_Zr3Dkn33hvrMGZjQ_CE",
       "localizations": [
         {
           "language": "ja-JP",
@@ -468,14 +481,25 @@
         ]
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "InletConnectionSize",
       "definition": "Size of the inlet connection to the hose reel.",
-      "ifdGuid": "3vGbjlJCT0zvXL0VH2ozQC",
-      "legacyGuid": "3vGbjlJCT0zvXL0VH2ozQC",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "f9425b6f4cc740f7985501f442cbd68c",
+      "legacyGuidAsIfcGlobalId": "3vGbjlJCT0zvXL0VH2ozQC",
       "localizations": [
         {
           "language": "ja-JP",
@@ -514,14 +538,25 @@
         "unitType": "LENGTHUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "HoseDiameter",
       "definition": "Notional diameter (bore) of the hose.",
-      "ifdGuid": "0p68u5hF1CoOmVXqHLlUTg",
-      "legacyGuid": "0p68u5hF1CoOmVXqHLlUTg",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "33188e05acf04cc98c1f874455bde76a",
+      "legacyGuidAsIfcGlobalId": "0p68u5hF1CoOmVXqHLlUTg",
       "localizations": [
         {
           "language": "ja-JP",
@@ -560,14 +595,25 @@
         "unitType": "LENGTHUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "HoseLength",
       "definition": "Notional length of the hose fitted to the hose reel when fully extended.",
-      "ifdGuid": "2R0cm2Al98EOuiDqCOuRKC",
-      "legacyGuid": "2R0cm2Al98EOuiDqCOuRKC",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "9b026c022af248398e2c374318e1b50c",
+      "legacyGuidAsIfcGlobalId": "2R0cm2Al98EOuiDqCOuRKC",
       "localizations": [
         {
           "language": "ja-JP",
@@ -606,14 +652,25 @@
         "unitType": "LENGTHUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "HoseNozzleType",
       "definition": "Identifies the predefined types of nozzle (in terms of spray pattern) fitted to the end of the hose from which the type required may be set.",
-      "ifdGuid": "3VUvMfNbPEJR5yriatMLJe",
-      "legacyGuid": "3VUvMfNbPEJR5yriatMLJe",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "df7b95a95e564e4db17cd6c9375954e8",
+      "legacyGuidAsIfcGlobalId": "3VUvMfNbPEJR5yriatMLJe",
       "localizations": [
         {
           "language": "ja-JP",
@@ -800,14 +857,25 @@
         ]
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "ClassOfService",
       "definition": "A classification of usage of the hose reel that may be applied.",
-      "ifdGuid": "3rTOl2HfD7b8$Mwpx0hDhf",
-      "legacyGuid": "3rTOl2HfD7b8$Mwpx0hDhf",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "f5758bc2469347948fd6eb3ec0acdae9",
+      "legacyGuidAsIfcGlobalId": "3rTOl2HfD7b8$Mwpx0hDhf",
       "localizations": [
         {
           "language": "ja-JP",
@@ -846,14 +914,25 @@
         "unitType": "USERDEFINED"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "ClassificationAuthority",
       "definition": "The name of the authority that applies the classification of service to the hose reel (e.g. NFPA/FEMA).",
-      "ifdGuid": "0K9$THaOf6VxFXDlK7lnnx",
-      "legacyGuid": "0K9$THaOf6VxFXDlK7lnnx",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "1427f751918a467fb3e136f507bf1c7b",
+      "legacyGuidAsIfcGlobalId": "0K9$THaOf6VxFXDlK7lnnx",
       "localizations": [
         {
           "language": "ja-JP",
@@ -892,7 +971,16 @@
         "unitType": "USERDEFINED"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     }
   ]

@@ -53,6 +53,7 @@
     {
       "name": "Shape",
       "definition": "The shape form of the provision for void, the minimum set of agreed values includes 'Rectangle', 'Round', and 'Undefined'.",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
       "ifdGuid": "",
       "legacyGuid": "1f84ce9dbb8045c4a89c1ca82f749a84",
       "legacyGuidAsIfcGlobalId": "0VXCwTku15nAYS7AWlT9g4",
@@ -99,12 +100,22 @@
         "unitType": "USERDEFINED"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "Width",
       "definition": "The requested width (horizontal extension in elevation) of the provision for void, only provided if the Shape property is set to \"rectangle\".",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
       "ifdGuid": "",
       "legacyGuid": "ee42887c56014da1afff889fc5ce662c",
       "legacyGuidAsIfcGlobalId": "3kGeXyLW5DeQ$$Y9$5pcOi",
@@ -151,12 +162,22 @@
         "unitType": "LENGTHUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "Height",
       "definition": "The requested height (vertical extension in elevation) of the provision for void\", only provided if the Shape property is set to \"rectangle\".",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
       "ifdGuid": "",
       "legacyGuid": "436522bb17e4471a9457461e0b06c648",
       "legacyGuidAsIfcGlobalId": "13PIAx5_H76fHNHXuB1iP8",
@@ -203,12 +224,22 @@
         "unitType": "LENGTHUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "Diameter",
       "definition": "The requested diameter (in elevation) of the provision for void, only provided if the Shape property is set to \"round\".",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
       "ifdGuid": "",
       "legacyGuid": "bb2447722d78415bafd408c2c46c4c8d",
       "legacyGuidAsIfcGlobalId": "2x94ToBNX1Mw$K2CB4R4oD",
@@ -255,12 +286,22 @@
         "unitType": "LENGTHUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "Depth",
       "definition": "The requested depth or thickness of the provision for void.",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
       "ifdGuid": "",
       "legacyGuid": "89c8805ab67d410d904907e6c084d466",
       "legacyGuidAsIfcGlobalId": "29o81Qjdr13P191_R0XDHc",
@@ -307,12 +348,22 @@
         "unitType": "LENGTHUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "System",
       "definition": "he building service system that requires the provision for voids, e.g. 'Air Conditioning', 'Plumbing', 'Electro', etc.",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
       "ifdGuid": "",
       "legacyGuid": "f95921e68338429b9ed40888d2b56b4c",
       "legacyGuidAsIfcGlobalId": "3vMI7cWpX2cvxK28ZIjMjC",
@@ -359,7 +410,16 @@
         "unitType": "USERDEFINED"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     }
   ]

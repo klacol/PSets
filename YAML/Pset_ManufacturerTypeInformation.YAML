@@ -32,8 +32,9 @@ applicableIfcClasses:
 properties:
 - name: GlobalTradeItemNumber
   definition: The Global Trade Item Number (GTIN) is an identifier for trade items developed by GS1 (www.gs1.org).
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
   ifdGuid: ''
-  legacyGuid: ''
+  legacyGuidAsIfcGlobalId: ''
   localizations:
   - language: de-DE
     name: ''
@@ -58,11 +59,21 @@ properties:
     measureType: ''
     unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: ArticleNumber
   definition: Article number or reference that is be applied to a configured product according to a standard scheme for article number definition as defined by the manufacturer. It is often used as the purchasing number.
-  ifdGuid: 2t4J9TTXrC2RP42xr$YL5Y
-  legacyGuid: 2t4J9TTXrC2RP42xr$YL5Y
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: b711325d761d4c09b6440bbd7f895162
+  legacyGuidAsIfcGlobalId: 2t4J9TTXrC2RP42xr$YL5Y
   localizations:
   - language: de-DE
     name: ''
@@ -87,11 +98,21 @@ properties:
     measureType: ''
     unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: ModelReference
   definition: The model number or designator of the product model (or product line) as assigned by the manufacturer of the manufactured item.
-  ifdGuid: 0oPqYuiCn93QpWgb3pEZMS
-  legacyGuid: 0oPqYuiCn93QpWgb3pEZMS
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 326748b8b0cc490dace0aa50f33a359c
+  legacyGuidAsIfcGlobalId: 0oPqYuiCn93QpWgb3pEZMS
   localizations:
   - language: de-DE
     name: ''
@@ -116,11 +137,21 @@ properties:
     measureType: ''
     unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: ModelLabel
   definition: The descriptive model name of the product model (or product line) as assigned by the manufacturer of the manufactured item.
-  ifdGuid: 2XabRaGgb67B__QDb09$Kw
-  legacyGuid: 2XabRaGgb67B__QDb09$Kw
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: a19256e442a9461cbfbe68d94027f53a
+  legacyGuidAsIfcGlobalId: 2XabRaGgb67B__QDb09$Kw
   localizations:
   - language: de-DE
     name: ''
@@ -145,11 +176,21 @@ properties:
     measureType: ''
     unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: Manufacturer
   definition: The organization that manufactured and/or assembled the item.
-  ifdGuid: 1oJcPx4WrDJe9pjFpvRNtj
-  legacyGuid: 1oJcPx4WrDJe9pjFpvRNtj
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 724e667b120d4d4e8273b4fcf96d7ded
+  legacyGuidAsIfcGlobalId: 1oJcPx4WrDJe9pjFpvRNtj
   localizations:
   - language: de-DE
     name: ''
@@ -174,11 +215,21 @@ properties:
     measureType: ''
     unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: ProductionYear
   definition: The year of production of the manufactured item.
-  ifdGuid: 2XWbj4$Jb8oRPb_7moyltx
-  legacyGuid: 2XWbj4$Jb8oRPb_7moyltx
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: a1825b44fd3948c9b665f87c32f2fdfb
+  legacyGuidAsIfcGlobalId: 2XWbj4$Jb8oRPb_7moyltx
   localizations:
   - language: de-DE
     name: ''
@@ -203,11 +254,21 @@ properties:
     measureType: ''
     unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: AssemblyPlace
   definition: Enumeration defining where the assembly is intended to take place, either in a factory or on the building site.
-  ifdGuid: 3L43u_UlP6OwSOIYAdY9sz
-  legacyGuid: 3L43u_UlP6OwSOIYAdY9sz
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: d5103e3e7af64663a7184a22a7889dbd
+  legacyGuidAsIfcGlobalId: 3L43u_UlP6OwSOIYAdY9sz
   localizations:
   - language: de-DE
     name: ''
@@ -341,4 +402,12 @@ properties:
         name: 'Unknown'
         definition: ''
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN

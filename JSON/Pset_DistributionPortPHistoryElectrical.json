@@ -49,8 +49,9 @@
     {
       "name": "Current",
       "definition": "Log of electrical current.",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
       "ifdGuid": "",
-      "legacyGuid": "",
+      "legacyGuidAsIfcGlobalId": "",
       "localizations": [
         {
           "language": "ja-JP",
@@ -96,14 +97,24 @@
         "sectionref": "Core Schema"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "Voltage",
       "definition": "Log of electrical voltage.",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
       "ifdGuid": "",
-      "legacyGuid": "",
+      "legacyGuidAsIfcGlobalId": "",
       "localizations": [
         {
           "language": "ja-JP",
@@ -149,14 +160,24 @@
         "sectionref": "Core Schema"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "RealPower",
       "definition": "Real power.",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
       "ifdGuid": "",
-      "legacyGuid": "",
+      "legacyGuidAsIfcGlobalId": "",
       "localizations": [
         {
           "language": "ja-JP",
@@ -202,14 +223,24 @@
         "sectionref": "Core Schema"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "ReactivePower",
       "definition": "Reactive power.",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
       "ifdGuid": "",
-      "legacyGuid": "",
+      "legacyGuidAsIfcGlobalId": "",
       "localizations": [
         {
           "language": "ja-JP",
@@ -255,14 +286,24 @@
         "sectionref": "Core Schema"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "ApparentPower",
       "definition": "Apparent power.",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
       "ifdGuid": "",
-      "legacyGuid": "",
+      "legacyGuidAsIfcGlobalId": "",
       "localizations": [
         {
           "language": "ja-JP",
@@ -308,14 +349,24 @@
         "sectionref": "Core Schema"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "PowerFactor",
       "definition": "Power factor.",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
       "ifdGuid": "",
-      "legacyGuid": "",
+      "legacyGuidAsIfcGlobalId": "",
       "localizations": [
         {
           "language": "ja-JP",
@@ -361,7 +412,16 @@
         "sectionref": "Core Schema"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     }
   ]

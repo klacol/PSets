@@ -29,8 +29,10 @@ applicableIfcClasses:
 properties:
 - name: Current
   definition: PSet2YamlConverter.PropertyType
-  ifdGuid: 2VhUjrajvA8eTamaxazsiB
-  legacyGuid: 2VhUjrajvA8eTamaxazsiB
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 9fadeb7592de4a228764c24ee4f76b0b
+  legacyGuidAsIfcGlobalId: 2VhUjrajvA8eTamaxazsiB
   localizations:
   - language: ja-JP
     name: '電流'
@@ -57,11 +59,21 @@ properties:
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: Voltage
   definition: PSet2YamlConverter.PropertyType
-  ifdGuid: 1lg7CDGrH2v9TIUzdU$h17
-  legacyGuid: 1lg7CDGrH2v9TIUzdU$h17
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 6fa8730d435442e497527bd9defeb047
+  legacyGuidAsIfcGlobalId: 1lg7CDGrH2v9TIUzdU$h17
   localizations:
   - language: ja-JP
     name: '電圧'
@@ -88,11 +100,21 @@ properties:
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: RealPower
   definition: PSet2YamlConverter.PropertyType
-  ifdGuid: 3xhiQ9aS5FZx39O_jb9Gyc
-  legacyGuid: 3xhiQ9aS5FZx39O_jb9Gyc
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: fbaec68991c14f8fb0c963eb65250f26
+  legacyGuidAsIfcGlobalId: 3xhiQ9aS5FZx39O_jb9Gyc
   localizations:
   - language: ja-JP
     name: '有効電力'
@@ -119,11 +141,21 @@ properties:
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: ReactivePower
   definition: PSet2YamlConverter.PropertyType
-  ifdGuid: 107SSt09T8QPi7FlONxs5S
-  legacyGuid: 107SSt09T8QPi7FlONxs5S
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 401dc737009748699b073ef617ef615c
+  legacyGuidAsIfcGlobalId: 107SSt09T8QPi7FlONxs5S
   localizations:
   - language: ja-JP
     name: '無効電力'
@@ -150,11 +182,21 @@ properties:
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: ApparentPower
   definition: PSet2YamlConverter.PropertyType
-  ifdGuid: 2lYNHW98j2TeNYYr2i$746
-  legacyGuid: 2lYNHW98j2TeNYYr2i$746
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: af897460248b427685e28b50acfc7106
+  legacyGuidAsIfcGlobalId: 2lYNHW98j2TeNYYr2i$746
   localizations:
   - language: ja-JP
     name: '皮相電力'
@@ -181,11 +223,21 @@ properties:
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: PowerFactor
   definition: PSet2YamlConverter.PropertyType
-  ifdGuid: 1Jv3lEllLAG9RzY6AaK90z
-  legacyGuid: 1Jv3lEllLAG9RzY6AaK90z
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 53e43bcebef54a4096fd8862a450903d
+  legacyGuidAsIfcGlobalId: 1Jv3lEllLAG9RzY6AaK90z
   localizations:
   - language: ja-JP
     name: 'パワーファクタ'
@@ -212,11 +264,21 @@ properties:
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: DataTransmitted
   definition: PSet2YamlConverter.PropertyType
-  ifdGuid: 31sBJr1t94sOktsMuxcZA2
-  legacyGuid: 31sBJr1t94sOktsMuxcZA2
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: c1d8b4f5077244d98bb7d96e3b9a3282
+  legacyGuidAsIfcGlobalId: 31sBJr1t94sOktsMuxcZA2
   localizations:
   - language: ja
     name: '発信'
@@ -246,11 +308,21 @@ properties:
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: DataReceived
   definition: PSet2YamlConverter.PropertyType
-  ifdGuid: 3dAyrzXAv2nh7ZzfP57Hvk
-  legacyGuid: 3dAyrzXAv2nh7ZzfP57Hvk
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: e72bcd7d84ae42c6b1e3f696451d1e6e
+  legacyGuidAsIfcGlobalId: 3dAyrzXAv2nh7ZzfP57Hvk
   localizations:
   - language: ja
     name: '受信'
@@ -280,4 +352,12 @@ properties:
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN

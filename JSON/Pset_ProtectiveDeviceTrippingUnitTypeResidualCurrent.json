@@ -49,8 +49,10 @@
     {
       "name": "TrippingUnitReleaseCurrent",
       "definition": "The value of tripping or residual current for which the device has the possibility to be equipped. The values are given in mA.",
-      "ifdGuid": "3R2JPS1EbALQLw9qOorlWh",
-      "legacyGuid": "3R2JPS1EbALQLw9qOorlWh",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "db09365c04e94a55a57a274632d6f82b",
+      "legacyGuidAsIfcGlobalId": "3R2JPS1EbALQLw9qOorlWh",
       "localizations": [
         {
           "language": "ja-JP",
@@ -390,7 +392,16 @@
         ]
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     }
   ]

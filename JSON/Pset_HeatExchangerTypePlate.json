@@ -49,8 +49,10 @@
     {
       "name": "NumberOfPlates",
       "definition": "Number of plates used by the plate heat exchanger.",
-      "ifdGuid": "2X8JQoMT55TvqeLi989Lel",
-      "legacyGuid": "2X8JQoMT55TvqeLi989Lel",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "a12136b259d145779d2856c248255a2f",
+      "legacyGuidAsIfcGlobalId": "2X8JQoMT55TvqeLi989Lel",
       "localizations": [
         {
           "language": "ja-JP",
@@ -89,7 +91,16 @@
         "unitType": "USERDEFINED"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     }
   ]

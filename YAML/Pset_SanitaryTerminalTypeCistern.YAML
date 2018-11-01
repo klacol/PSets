@@ -30,8 +30,10 @@ applicableIfcClasses:
 properties:
 - name: CisternHeight
   definition: Enumeration that identifies the height of the cistern or, if set to 'None' if the urinal has no cistern and is flushed using mains or high pressure water through a flushing valve.
-  ifdGuid: 0FfcqGM7z2uwLUMgK3aHLA
-  legacyGuid: 0FfcqGM7z2uwLUMgK3aHLA
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 0fa66d10587f42e3a55e5aa50391154a
+  legacyGuidAsIfcGlobalId: 0FfcqGM7z2uwLUMgK3aHLA
   localizations:
   - language: ja-JP
     name: '貯水タンクの高さ'
@@ -165,11 +167,21 @@ properties:
         name: 'Unknown'
         definition: ''
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: CisternCapacity
   definition: Volumetric capacity of the cistern
-  ifdGuid: 3d7eK7Naj3OQztvVqIl63m
-  legacyGuid: 3d7eK7Naj3OQztvVqIl63m
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: e71e85075e4b4361af77e5fd12bc60f0
+  legacyGuidAsIfcGlobalId: 3d7eK7Naj3OQztvVqIl63m
   localizations:
   - language: ja-JP
     name: '貯水タンク容量'
@@ -194,11 +206,21 @@ properties:
     measureType: ''
     unitType: VOLUMEUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: IsSingleFlush
   definition: Indicates whether the cistern is single flush = TRUE (i.e. the same amount of water is used for each and every flush) or dual flush = FALSE (i.e. the amount of water used for a flush may be selected by the user to be high or low depending on the waste material to be removed).
-  ifdGuid: 33$I0Sdjv0E8FimuvBmO_K
-  legacyGuid: 33$I0Sdjv0E8FimuvBmO_K
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: c3fd201c9ede403883ecc38e4bc18f94
+  legacyGuidAsIfcGlobalId: 33$I0Sdjv0E8FimuvBmO_K
   localizations:
   - language: ja-JP
     name: '単一のフラッシュ'
@@ -223,11 +245,21 @@ properties:
     measureType: ''
     unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: FlushType
   definition: 'The property enumeration Pset_FlushTypeEnum defines the types of flushing mechanism that may be specified for cisterns and sanitary terminals where:-Lever: 	Flushing is achieved by twisting a lever that causes a predetermined flow of water to be passed from a cistern to the sanitary terminal.Pull: 	Flushing is achieved by pulling a handle or knob vertically upwards that causes a predetermined flow of water to be passed from a cistern to the sanitary terminal.Push: 	Flushing is achieved by pushing a button or plate that causes a predetermined flow of water to be passed from a cistern to the sanitary terminal.Sensor: Flush is activated through an automatic sensing mechanism.'
-  ifdGuid: 28QcYaxkjCZA9$FlGc0Vqq
-  legacyGuid: 28QcYaxkjCZA9$FlGc0Vqq
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 886a68a4eeeb4c8ca27f3ef42601fd34
+  legacyGuidAsIfcGlobalId: 28QcYaxkjCZA9$FlGc0Vqq
   localizations:
   - language: ja-JP
     name: 'タイプフラッシュ'
@@ -383,11 +415,21 @@ properties:
         name: 'Unknown'
         definition: ''
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: FlushRate
   definition: The minimum and maximum volume of water used at each flush. Where a single flush is used, the value of upper bound and lower bound should be equal. For a dual flush toilet, the lower bound should be used for the lesser flush rate and the upper bound for the greater flush rate. Where flush is achieved using mains pressure water through a flush valve, the value of upper and lower bound should be equal and should be the same as the flush rate property of the flush valve (see relevant valve property set). Alternatively, in this case, do not assert the flush rate property; refer to the flush rate of the flush valve.
-  ifdGuid: 3VMYuP2xf43A5Ts8ZxhaxC
-  legacyGuid: 3VMYuP2xf43A5Ts8ZxhaxC
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: df5a2e190bba440ca15dd888fbae4ecc
+  legacyGuidAsIfcGlobalId: 3VMYuP2xf43A5Ts8ZxhaxC
   localizations:
   - language: ja-JP
     name: 'フラッシュレート'
@@ -413,11 +455,21 @@ properties:
     UpperBoundValue: '?'
     typeName: TypePropertyBoundedValue
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: IsAutomaticFlush
   definition: Boolean value that determines if the cistern is flushed automatically either after each use or periodically (TRUE) or whether manual flushing is required (FALSE).
-  ifdGuid: 3WYOdYF_f42Pq$E94l71AS
-  legacyGuid: 3WYOdYF_f42Pq$E94l71AS
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: e08989e23fea44099d3f38912f1c129c
+  legacyGuidAsIfcGlobalId: 3WYOdYF_f42Pq$E94l71AS
   localizations:
   - language: ja-JP
     name: '自動フラッシュか'
@@ -442,11 +494,21 @@ properties:
     measureType: ''
     unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: CisternColor
   definition: Color of the object.
-  ifdGuid: 3_Sl1Di3fAD92ScqaRYZzj
-  legacyGuid: 3_Sl1Di3fAD92ScqaRYZzj
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: fe72f04db03a4a34909c9b491b8a3f6d
+  legacyGuidAsIfcGlobalId: 3_Sl1Di3fAD92ScqaRYZzj
   localizations:
   - language: ja-JP
     name: '貯水タンクカラー'
@@ -471,4 +533,12 @@ properties:
     measureType: ''
     unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN

@@ -30,8 +30,10 @@ applicableIfcClasses:
 properties:
 - name: FaucetType
   definition: 'Defines the range of faucet types that may be specified where:Bib:	 Faucet with a horizontal inlet and a nozzle that discharges downwards.Globe:	 Faucet fitted through the end of a bath, with a horizontal inlet, a partially spherical body and a vertical nozzle.Diverter: 	Combination faucet assembly with a valve to enable the flow of mixed water to be transferred to a showerhead.DividedFlowCombination:	 Combination faucet assembly in which hot and cold water are kept separate until emerging from a common nozzle.Pillar:	 Faucet that has a vertical inlet and a nozzle that discharges downwards.SingleOutletCombination =	 Combination faucet assembly in which hot and cold water mix before emerging from a common nozzle.Spray:	 Faucet with a spray outlet.SprayMixing:	 Spray faucet connected to hot and cold water supplies that delivers water at a temperature determined during use.'
-  ifdGuid: 3a_X3MwInDmBLLi2R$ZNBN
-  legacyGuid: 3a_X3MwInDmBLLi2R$ZNBN
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: e4fa10d6e92c4dc0b555b026ff8d72d7
+  legacyGuidAsIfcGlobalId: 3a_X3MwInDmBLLi2R$ZNBN
   localizations:
   - language: ja-JP
     name: '水栓タイプ'
@@ -275,11 +277,21 @@ properties:
         name: 'Unknown'
         definition: ''
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: FaucetOperation
   definition: 'Defines the range of ways in which a faucet can be operated that may be specified where:CeramicDisc: Quick action faucet with a ceramic seal to open or close the orifice.LeverHandle: Quick action faucet that is operated by a lever handle.NonConcussiveSelfClosing:	 Self closing faucet that does not induce surge pressure.QuarterTurn: Quick action faucet that can be fully opened or shut by turning the operating mechanism through 90 degrees.QuickAction: Faucet that can be opened or closed fully with a single small movement of the operating mechanism.ScrewDown: Faucet in which a plate or disc is moved, by the rotation of a screwed spindle, to close or open the orifice.SelfClosing: Faucet that is opened by pressure of the top of an operating spindle and is closed under the action of a spring or weight when the pressure is released.TimedSelfClosing: 	Self closing faucet that discharges for a predetermined period of time.'
-  ifdGuid: 08qy9Y9Q1CvPzqoQDTapNR
-  legacyGuid: 08qy9Y9Q1CvPzqoQDTapNR
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 08d3c26225a04ce59f74c9a35d9335db
+  legacyGuidAsIfcGlobalId: 08qy9Y9Q1CvPzqoQDTapNR
   localizations:
   - language: ja-JP
     name: '水栓操作'
@@ -523,11 +535,21 @@ properties:
         name: 'Unknown'
         definition: ''
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: FaucetFunction
   definition: Defines the operating temperature of a faucet that may be specified.
-  ifdGuid: 1Xhmg8d5r4UfiSEUh$nz5p
-  legacyGuid: 1Xhmg8d5r4UfiSEUh$nz5p
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 61af0a889c5d447a9b1c39eaffc7d173
+  legacyGuidAsIfcGlobalId: 1Xhmg8d5r4UfiSEUh$nz5p
   localizations:
   - language: ja-JP
     name: '水栓機能'
@@ -661,11 +683,21 @@ properties:
         name: 'Unknown'
         definition: ''
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: Finish
   definition: Description of the finish applied to the faucet.
-  ifdGuid: 0M5pwx4oXFLv2OqOPM9jeh
-  legacyGuid: 0M5pwx4oXFLv2OqOPM9jeh
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 16173ebb13284f579098d1865626da2b
+  legacyGuidAsIfcGlobalId: 0M5pwx4oXFLv2OqOPM9jeh
   localizations:
   - language: ja-JP
     name: '仕上げ'
@@ -690,11 +722,21 @@ properties:
     measureType: ''
     unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: FaucetTopDescription
   definition: Description of the operating mechanism/top of the faucet.
-  ifdGuid: 14j_WNKbPElO5Tf6ZabpeQ
-  legacyGuid: 14j_WNKbPElO5Tf6ZabpeQ
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 44b7e81752564ebd815da468e4973a1a
+  legacyGuidAsIfcGlobalId: 14j_WNKbPElO5Tf6ZabpeQ
   localizations:
   - language: ja-JP
     name: '水栓の頂部'
@@ -719,4 +761,12 @@ properties:
     measureType: ''
     unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN

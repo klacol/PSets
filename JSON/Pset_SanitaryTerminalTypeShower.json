@@ -49,8 +49,10 @@
     {
       "name": "ShowerType",
       "definition": "Selection of the type of shower from the enumerated list of types where:-Drench:  \tShower that rapidly gives a thorough soaking in an emergency.Individual: \tShower unit that is typically enclosed and is for the use of one person at a time.Tunnel: \tShower that has a succession of shower heads or spreaders that operate simultaneously along its length.",
-      "ifdGuid": "3vQWybvG5AfASiowwkxrNz",
-      "legacyGuid": "3vQWybvG5AfASiowwkxrNz",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "f96a0f25e5014aa4a72ccbaeaeef55fd",
+      "legacyGuidAsIfcGlobalId": "3vQWybvG5AfASiowwkxrNz",
       "localizations": [
         {
           "language": "ja-JP",
@@ -274,14 +276,25 @@
         ]
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "HasTray",
       "definition": "Indicates whether the shower has a separate receptacle that catches the water in a shower and directs it to a waste outlet.",
-      "ifdGuid": "3KUQcxmzfBhPK$XHvY3OUb",
-      "legacyGuid": "3KUQcxmzfBhPK$XHvY3OUb",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "d479a9bbc3da4bad953f851e620d87a5",
+      "legacyGuidAsIfcGlobalId": "3KUQcxmzfBhPK$XHvY3OUb",
       "localizations": [
         {
           "language": "de-DE",
@@ -320,14 +333,25 @@
         "unitType": "USERDEFINED"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "NominalLength",
       "definition": "Nominal or quoted length of the object.",
-      "ifdGuid": "0ldvlWVcHAwufiQffkynub",
-      "legacyGuid": "0ldvlWVcHAwufiQffkynub",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "2f9f9be07e644aeb8a6c6a9a6ef31e25",
+      "legacyGuidAsIfcGlobalId": "0ldvlWVcHAwufiQffkynub",
       "localizations": [
         {
           "language": "ja-JP",
@@ -366,14 +390,25 @@
         "unitType": "LENGTHUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "NominalWidth",
       "definition": "Nominal or quoted width of the object.",
-      "ifdGuid": "1I_l8TwMX2$ukYyf8mtzSP",
-      "legacyGuid": "1I_l8TwMX2$ukYyf8mtzSP",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "52faf21de96842ff8ba2f29230dfd719",
+      "legacyGuidAsIfcGlobalId": "1I_l8TwMX2$ukYyf8mtzSP",
       "localizations": [
         {
           "language": "ja-JP",
@@ -412,14 +447,25 @@
         "unitType": "LENGTHUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "NominalDepth",
       "definition": "Nominal or quoted depth of the object.",
-      "ifdGuid": "0qjWQoQ4D5pe$tcyUo4k5n",
-      "legacyGuid": "0qjWQoQ4D5pe$tcyUo4k5n",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "34b606b2684345ce8ff79bc7b212e171",
+      "legacyGuidAsIfcGlobalId": "0qjWQoQ4D5pe$tcyUo4k5n",
       "localizations": [
         {
           "language": "ja-JP",
@@ -458,14 +504,25 @@
         "unitType": "LENGTHUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "Color",
       "definition": "Color selection for this object.",
-      "ifdGuid": "1osp$AYGHALu2sGoBg0aae",
-      "legacyGuid": "1osp$AYGHALu2sGoBg0aae",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "72db3fca89044a5780b64322ea024928",
+      "legacyGuidAsIfcGlobalId": "1osp$AYGHALu2sGoBg0aae",
       "localizations": [
         {
           "language": "ja-JP",
@@ -504,14 +561,25 @@
         "unitType": "USERDEFINED"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "ShowerHeadDescription",
       "definition": "A description of the shower head(s) that emit the spray of water.",
-      "ifdGuid": "0puI0i0Jv46vLC_IHHDhOk",
-      "legacyGuid": "0puI0i0Jv46vLC_IHHDhOk",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "33e1202c013e441b954cf9245136b62e",
+      "legacyGuidAsIfcGlobalId": "0puI0i0Jv46vLC_IHHDhOk",
       "localizations": [
         {
           "language": "ja-JP",
@@ -550,14 +618,25 @@
         "unitType": "USERDEFINED"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "DrainSize",
       "definition": "The size of the drain outlet connection from the object.",
-      "ifdGuid": "2GJFjdB$PCegDU32lPIY8g",
-      "legacyGuid": "2GJFjdB$PCegDU32lPIY8g",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "904cfb672ff64ca2a35e0c2bd94a222a",
+      "legacyGuidAsIfcGlobalId": "2GJFjdB$PCegDU32lPIY8g",
       "localizations": [
         {
           "language": "ja-JP",
@@ -596,7 +675,16 @@
         "unitType": "LENGTHUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     }
   ]

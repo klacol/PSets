@@ -49,8 +49,10 @@
     {
       "name": "BendAngle",
       "definition": "The change of direction of flow.",
-      "ifdGuid": "2YLjcnT6LAMAQWbl06aOZ6",
-      "legacyGuid": "2YLjcnT6LAMAQWbl06aOZ6",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "a256d9b174654a58a6a096f0069188c6",
+      "legacyGuidAsIfcGlobalId": "2YLjcnT6LAMAQWbl06aOZ6",
       "localizations": [
         {
           "language": "ja-JP",
@@ -89,14 +91,25 @@
         "unitType": "PLANEANGLEUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "BendRadius",
       "definition": "The radius of bending if circular arc or zero if sharp bend.",
-      "ifdGuid": "29bCndKRrDSOmbde27at5N",
-      "legacyGuid": "29bCndKRrDSOmbde27at5N",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "8994cc6751bd4d718c259e8087937157",
+      "legacyGuidAsIfcGlobalId": "29bCndKRrDSOmbde27at5N",
       "localizations": [
         {
           "language": "ja-JP",
@@ -135,7 +148,16 @@
         "unitType": "LENGTHUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     }
   ]

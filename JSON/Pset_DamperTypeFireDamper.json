@@ -49,8 +49,10 @@
     {
       "name": "ActuationType",
       "definition": "Enumeration that identifies the different types of dampers.",
-      "ifdGuid": "3x0Jnz7C5E_vdFjMXdPBQT",
-      "legacyGuid": "3x0Jnz7C5E_vdFjMXdPBQT",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "fb013c7d1cc14efb99cfb5686764b69d",
+      "legacyGuidAsIfcGlobalId": "3x0Jnz7C5E_vdFjMXdPBQT",
       "localizations": [
         {
           "language": "de-DE",
@@ -237,14 +239,25 @@
         ]
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "ClosureRatingEnum",
       "definition": "Enumeration that identifies the closure rating for the damper.",
-      "ifdGuid": "08B8GAuY9C8BGTgFxYdN7n",
-      "legacyGuid": "08B8GAuY9C8BGTgFxYdN7n",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "082c840ae2224c20b41da8fee29d71f1",
+      "legacyGuidAsIfcGlobalId": "08B8GAuY9C8BGTgFxYdN7n",
       "localizations": [
         {
           "language": "de-DE",
@@ -431,14 +444,25 @@
         ]
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "FireResistanceRating",
       "definition": "Measure of the fire resistance rating in hours (e.g., 1.5 hours, 2 hours, etc.).",
-      "ifdGuid": "07$XdQJNXD2PJXkyO$xPxF",
-      "legacyGuid": "07$XdQJNXD2PJXkyO$xPxF",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "07fe19da4d784d0994e1bbc63fed9ecf",
+      "legacyGuidAsIfcGlobalId": "07$XdQJNXD2PJXkyO$xPxF",
       "localizations": [
         {
           "language": "de-DE",
@@ -477,14 +501,25 @@
         "unitType": "USERDEFINED"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "FusibleLinkTemperature",
       "definition": "The temperature that the fusible link melts.",
-      "ifdGuid": "0kyT0_cJH2S8C8kS9EH08a",
-      "legacyGuid": "0kyT0_cJH2S8C8kS9EH08a",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "2ef1d03e993442708308b9c24e440224",
+      "legacyGuidAsIfcGlobalId": "0kyT0_cJH2S8C8kS9EH08a",
       "localizations": [
         {
           "language": "de-DE",
@@ -523,7 +558,16 @@
         "unitType": "THERMODYNAMICTEMPERATUREUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     }
   ]

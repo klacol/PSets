@@ -30,8 +30,9 @@ applicableIfcClasses:
 properties:
 - name: Reference
   definition: Reference ID for this specified type in this project (e.g. type 'A-1').
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
   ifdGuid: ''
-  legacyGuid: ''
+  legacyGuidAsIfcGlobalId: ''
   localizations:
   - language: ja-JP
     name: '参照記号'
@@ -56,11 +57,20 @@ properties:
     measureType: ''
     unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: Status
   definition: Status of the element, predominately used in renovation or retrofitting projects. The status can be assigned to as "New" - element designed as new addition, "Existing" - element exists and remains, "Demolish" - element existed but is to be demolished,  "Temporary" - element will exists only temporary (like a temporary support structure).
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
   ifdGuid: ''
-  legacyGuid: ''
+  legacyGuidAsIfcGlobalId: ''
   localizations:
   - language: ja-JP
     name: '状態'
@@ -216,11 +226,21 @@ properties:
         name: 'Unknown'
         definition: ''
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: NumberOfRows
   definition: Number of tube rows in the tube bundle assembly.
-  ifdGuid: 3gnn4LboL6RAw_d79yvpJl
-  legacyGuid: 3gnn4LboL6RAw_d79yvpJl
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: eac711159725466caebe9c727ce734ef
+  legacyGuidAsIfcGlobalId: 3gnn4LboL6RAw_d79yvpJl
   localizations:
   - language: ja-JP
     name: '列数'
@@ -245,11 +265,21 @@ properties:
     measureType: ''
     unitType: INTEGERCOUNTRATEUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: StaggeredRowSpacing
   definition: Staggered tube row spacing.
-  ifdGuid: 39FOV0PHX3FRu7dwjRCP_P
-  legacyGuid: 39FOV0PHX3FRu7dwjRCP_P
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: c93d87c06518433dbe079fab5b319f99
+  legacyGuidAsIfcGlobalId: 39FOV0PHX3FRu7dwjRCP_P
   localizations:
   - language: ja-JP
     name: '互い違いの列間隔'
@@ -274,11 +304,21 @@ properties:
     measureType: ''
     unitType: LENGTHUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: InLineRowSpacing
   definition: In-line tube row spacing.
-  ifdGuid: 1N30FjPmT4ifVFqoxFRQqR
-  legacyGuid: 1N30FjPmT4ifVFqoxFRQqR
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 570c03ed670744b297cfd32ecf6dad1b
+  legacyGuidAsIfcGlobalId: 1N30FjPmT4ifVFqoxFRQqR
   localizations:
   - language: ja-JP
     name: 'インライン列間隔'
@@ -303,11 +343,21 @@ properties:
     measureType: ''
     unitType: LENGTHUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: NumberOfCircuits
   definition: Number of parallel fluid tube circuits.
-  ifdGuid: 0IatxKmxr3IgzplLQob9tJ
-  legacyGuid: 0IatxKmxr3IgzplLQob9tJ
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 12937ed4c3bd434aaf73bd56b2949dd3
+  legacyGuidAsIfcGlobalId: 0IatxKmxr3IgzplLQob9tJ
   localizations:
   - language: ja-JP
     name: '平行流回路数'
@@ -332,11 +382,21 @@ properties:
     measureType: ''
     unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: FoulingFactor
   definition: Fouling factor of the tubes in the tube bundle.
-  ifdGuid: 1Z6mxJGLrBZQDW2$tAW3Nv
-  legacyGuid: 1Z6mxJGLrBZQDW2$tAW3Nv
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 631b0ed3415d4b8da3600bfdca8035f9
+  legacyGuidAsIfcGlobalId: 1Z6mxJGLrBZQDW2$tAW3Nv
   localizations:
   - language: ja-JP
     name: '汚れ係数'
@@ -361,11 +421,21 @@ properties:
     measureType: ''
     unitType: THERMALRESISTANCEUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: ThermalConductivity
   definition: The thermal conductivity of the tube.
-  ifdGuid: 0E7KnF3_5BahufIL3MSmSb
-  legacyGuid: 0E7KnF3_5BahufIL3MSmSb
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 0e1d4c4f0fe14b92be294950d6730725
+  legacyGuidAsIfcGlobalId: 0E7KnF3_5BahufIL3MSmSb
   localizations:
   - language: ja-JP
     name: '熱伝導率'
@@ -390,11 +460,21 @@ properties:
     measureType: ''
     unitType: THERMALCONDUCTANCEUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: Length
   definition: Length of the tubes in the tube bundle.
-  ifdGuid: 0EMcel$Pb2xPd9GfVoiKrj
-  legacyGuid: 0EMcel$Pb2xPd9GfVoiKrj
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 0e5a6a2ffd9942ed99c94297f2b14d6d
+  legacyGuidAsIfcGlobalId: 0EMcel$Pb2xPd9GfVoiKrj
   localizations:
   - language: ja-JP
     name: '長さ'
@@ -419,11 +499,21 @@ properties:
     measureType: ''
     unitType: LENGTHUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: Volume
   definition: Total volume of fluid in the tubes and their headers.
-  ifdGuid: 2_B6Pw$NL8sO7tEMz4kiC5
-  legacyGuid: 2_B6Pw$NL8sO7tEMz4kiC5
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: be2c667afd7548d981f7396f44bac305
+  legacyGuidAsIfcGlobalId: 2_B6Pw$NL8sO7tEMz4kiC5
   localizations:
   - language: ja-JP
     name: '流量'
@@ -448,11 +538,21 @@ properties:
     measureType: ''
     unitType: VOLUMEUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: NominalDiameter
   definition: Nominal diameter or width of the tubes in the tube bundle.
-  ifdGuid: 2lBray1xb2iBjwREU1paM5
-  legacyGuid: 2lBray1xb2iBjwREU1paM5
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: af2f593c07b942b0bb7a6ce781ce4585
+  legacyGuidAsIfcGlobalId: 2lBray1xb2iBjwREU1paM5
   localizations:
   - language: ja-JP
     name: '公称直径'
@@ -477,11 +577,21 @@ properties:
     measureType: ''
     unitType: LENGTHUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: OutsideDiameter
   definition: Actual outside diameter of the tube in the tube bundle.
-  ifdGuid: 26olF$7Rz6GfdTb$JWwKIr
-  legacyGuid: 26olF$7Rz6GfdTb$JWwKIr
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 86caf3ff1dbf464299dd97f4e0e944b5
+  legacyGuidAsIfcGlobalId: 26olF$7Rz6GfdTb$JWwKIr
   localizations:
   - language: ja-JP
     name: '外径'
@@ -506,11 +616,21 @@ properties:
     measureType: ''
     unitType: LENGTHUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: InsideDiameter
   definition: Actual inner diameter of the tube in the tube bundle.
-  ifdGuid: 03ZC0bo5j1C9MUsGoYu_ce
-  legacyGuid: 03ZC0bo5j1C9MUsGoYu_ce
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 038cc025c85b4130959ed90ca2e3e9a8
+  legacyGuidAsIfcGlobalId: 03ZC0bo5j1C9MUsGoYu_ce
   localizations:
   - language: ja-JP
     name: '内径'
@@ -535,11 +655,21 @@ properties:
     measureType: ''
     unitType: LENGTHUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: HorizontalSpacing
   definition: Horizontal spacing between tubes in the tube bundle.
-  ifdGuid: 1FF$oZyH1F2fqOi$GvIWIq
-  legacyGuid: 1FF$oZyH1F2fqOi$GvIWIq
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 4f3ffca3f1104f0a9d18b3f4394a04b4
+  legacyGuidAsIfcGlobalId: 1FF$oZyH1F2fqOi$GvIWIq
   localizations:
   - language: ja-JP
     name: '水平間隔'
@@ -564,11 +694,21 @@ properties:
     measureType: ''
     unitType: LENGTHUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: VerticalSpacing
   definition: Vertical spacing between tubes in the tube bundle.
-  ifdGuid: 2YD$NY0k92OghRMLBQFw4v
-  legacyGuid: 2YD$NY0k92OghRMLBQFw4v
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: a237f5e202e24262aadb5952da3fa139
+  legacyGuidAsIfcGlobalId: 2YD$NY0k92OghRMLBQFw4v
   localizations:
   - language: ja-JP
     name: '垂直間隔'
@@ -593,11 +733,21 @@ properties:
     measureType: ''
     unitType: LENGTHUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: HasTurbulator
   definition: TRUE if the tube has a turbulator, FALSE if it does not.
-  ifdGuid: 0wgPW4Z2D66B4lqcz9n_Le
-  legacyGuid: 0wgPW4Z2D66B4lqcz9n_Le
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 3aa998048c234618b12fd26f49c7e568
+  legacyGuidAsIfcGlobalId: 0wgPW4Z2D66B4lqcz9n_Le
   localizations:
   - language: ja-JP
     name: 'かくはん器有り'
@@ -622,4 +772,12 @@ properties:
     measureType: ''
     unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN

@@ -49,8 +49,9 @@
     {
       "name": "ConnectionType",
       "definition": "The physical port connection:Coaxial: Coaxial connector.RJ: Registered Jack.Radio: Radio waves (wireless).",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
       "ifdGuid": "",
-      "legacyGuid": "",
+      "legacyGuidAsIfcGlobalId": "",
       "localizations": [
         {
           "language": "ja-JP",
@@ -279,14 +280,24 @@
         ]
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "ConnectionSubtype",
       "definition": "The physical port connection subtype that further qualifies the ConnectionType.  The following values are recommended:Radio: IEEE802.11g, IEEE802.11nRJ: 4P4C, 6P2C, 8P8C",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
       "ifdGuid": "",
-      "legacyGuid": "",
+      "legacyGuidAsIfcGlobalId": "",
       "localizations": [
         {
           "language": "ja-JP",
@@ -330,14 +341,24 @@
         "unitType": "USERDEFINED"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "ConnectionGender",
       "definition": "The physical connection gender.",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
       "ifdGuid": "",
-      "legacyGuid": "",
+      "legacyGuidAsIfcGlobalId": "",
       "localizations": [
         {
           "language": "ja-JP",
@@ -529,14 +550,24 @@
         ]
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "Frequency",
       "definition": "Electromagnetic frequency, if applicable.",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
       "ifdGuid": "",
-      "legacyGuid": "",
+      "legacyGuidAsIfcGlobalId": "",
       "localizations": [
         {
           "language": "ja-JP",
@@ -582,14 +613,24 @@
         "typeName": "TypePropertyBoundedValue"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "DataSpeed",
       "definition": "Data transmission in bits per second.",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
       "ifdGuid": "",
-      "legacyGuid": "",
+      "legacyGuidAsIfcGlobalId": "",
       "localizations": [
         {
           "language": "ja-JP",
@@ -635,14 +676,24 @@
         "typeName": "TypePropertyBoundedValue"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "Protocols",
       "definition": "Identifies the protocols used as defined by the Open System Interconnection (OSI) Basic Reference Model (ISO 7498).  Layers include: 1. Physical; 2. DataLink; 3. Network; 4. Transport; 5. Session; 6. Presentation; 7. Application.  Example: 3:IP, 4:TCP, 5:HTTP",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
       "ifdGuid": "",
-      "legacyGuid": "",
+      "legacyGuidAsIfcGlobalId": "",
       "localizations": [
         {
           "language": "ja-JP",
@@ -694,7 +745,16 @@
         }
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     }
   ]

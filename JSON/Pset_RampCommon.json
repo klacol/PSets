@@ -53,8 +53,10 @@
     {
       "name": "Reference",
       "definition": "Reference ID for this specified type in this project (e.g. type 'A-1'), Also referred to as \"construction type\". It should be provided as an alternative to the name of the \"object type\", if the software does not support object types.",
-      "ifdGuid": "0y$f4z1mP61PY6Ygcys4Mn",
-      "legacyGuid": "0y$f4z1mP61PY6Ygcys4Mn",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "3cfe913d0706460598868aa9bcd845b1",
+      "legacyGuidAsIfcGlobalId": "0y$f4z1mP61PY6Ygcys4Mn",
       "localizations": [
         {
           "language": "de-DE",
@@ -98,14 +100,24 @@
         "unitType": "USERDEFINED"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "Status",
       "definition": "Status of the element, predominately used in renovation or retrofitting projects. The status can be assigned to as \"New\" - element designed as new addition, \"Existing\" - element exists and remains, \"Demolish\" - element existed but is to be demolished,  \"Temporary\" - element will exists only temporary (like a temporary support structure).",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
       "ifdGuid": "",
-      "legacyGuid": "",
+      "legacyGuidAsIfcGlobalId": "",
       "localizations": [
         {
           "language": "de-DE",
@@ -366,14 +378,25 @@
         ]
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "RequiredHeadroom",
       "definition": "Required headroom clearance for the passageway according to the applicable building code or additional requirements.",
-      "ifdGuid": "37Hvq_D810SubReZj03hXk",
-      "legacyGuid": "37Hvq_D810SubReZj03hXk",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "c7479d3e34804073895ba23b400eb86e",
+      "legacyGuidAsIfcGlobalId": "37Hvq_D810SubReZj03hXk",
       "localizations": [
         {
           "language": "de-DE",
@@ -417,14 +440,25 @@
         "unitType": "LENGTHUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "RequiredSlope",
       "definition": "Required sloping angle of the object  - relative to horizontal (0.0 degrees).Required maximum slope for the passageway according to the applicable building code or additional requirements.",
-      "ifdGuid": "28adyh9InAv8zS9Tx1btRe",
-      "legacyGuid": "28adyh9InAv8zS9Tx1btRe",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "88927f2b252c4ae48f5c25dec19776e8",
+      "legacyGuidAsIfcGlobalId": "28adyh9InAv8zS9Tx1btRe",
       "localizations": [
         {
           "language": "de-DE",
@@ -468,14 +502,25 @@
         "unitType": "PLANEANGLEUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "IsExternal",
       "definition": "Indication whether the element is designed for use in the exterior (TRUE) or not (FALSE). If (TRUE) it is an external element and faces the outside of the building.",
-      "ifdGuid": "070TfDJE5C49yoyTJ4LGCd",
-      "legacyGuid": "070TfDJE5C49yoyTJ4LGCd",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "0701da4d4ce14c109f32f1d4c4550327",
+      "legacyGuidAsIfcGlobalId": "070TfDJE5C49yoyTJ4LGCd",
       "localizations": [
         {
           "language": "de-DE",
@@ -519,14 +564,25 @@
         "unitType": "USERDEFINED"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "FireRating",
       "definition": "Fire rating for this object.It is given according to the national fire safety classification.",
-      "ifdGuid": "2cyGqlr19DEwuoQPDTeroK",
-      "legacyGuid": "2cyGqlr19DEwuoQPDTeroK",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "a6f10d2fd4124d3bae3269935da35c94",
+      "legacyGuidAsIfcGlobalId": "2cyGqlr19DEwuoQPDTeroK",
       "localizations": [
         {
           "language": "de-DE",
@@ -570,14 +626,25 @@
         "unitType": "USERDEFINED"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "FireExit",
       "definition": "Indication whether this object is designed to serve as an exit in the case of fire (TRUE) or not (FALSE).Here it defines an exit ramp in accordance to the national building code.",
-      "ifdGuid": "30NxYilMT6nwHCAJgyj8Xi",
-      "legacyGuid": "30NxYilMT6nwHCAJgyj8Xi",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "c05fb8acbd6746c7a44c293abcb4886c",
+      "legacyGuidAsIfcGlobalId": "30NxYilMT6nwHCAJgyj8Xi",
       "localizations": [
         {
           "language": "de-DE",
@@ -621,14 +688,25 @@
         "unitType": "USERDEFINED"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "HandicapAccessible",
       "definition": "Indication that this object is designed to be accessible by the handicapped. Set to (TRUE) if this ramp is rated as handicap accessible  according the local building codes, otherwise (FALSE).",
-      "ifdGuid": "1jyNC38LbAsRPT03DNsVVe",
-      "legacyGuid": "1jyNC38LbAsRPT03DNsVVe",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "6df1730321594ad9b65d003357d9f7e8",
+      "legacyGuidAsIfcGlobalId": "1jyNC38LbAsRPT03DNsVVe",
       "localizations": [
         {
           "language": "de-DE",
@@ -672,14 +750,25 @@
         "unitType": "USERDEFINED"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "HasNonSkidSurface",
       "definition": "Indication whether the surface finish is designed to prevent slippery (TRUE) or not (FALSE).",
-      "ifdGuid": "1TMLVV01v2V9Kk5Sn7Ut3r",
-      "legacyGuid": "1TMLVV01v2V9Kk5Sn7Ut3r",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "5d5957df001e427c952e15cc477b70f5",
+      "legacyGuidAsIfcGlobalId": "1TMLVV01v2V9Kk5Sn7Ut3r",
       "localizations": [
         {
           "language": "de-DE",
@@ -723,7 +812,16 @@
         "unitType": "USERDEFINED"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     }
   ]

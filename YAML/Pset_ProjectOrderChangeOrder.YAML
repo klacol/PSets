@@ -30,8 +30,10 @@ applicableIfcClasses:
 properties:
 - name: ReasonForChange
   definition: A description of the problem for why a change is needed.
-  ifdGuid: 03jtHj8WP8MRD9gqf9UsZt
-  legacyGuid: 03jtHj8WP8MRD9gqf9UsZt
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 03b7746d22064859b349ab4a497b68f7
+  legacyGuidAsIfcGlobalId: 03jtHj8WP8MRD9gqf9UsZt
   localizations:
   - language: ja-JP
     name: '変更理由'
@@ -56,11 +58,21 @@ properties:
     measureType: ''
     unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: BudgetSource
   definition: The budget source requested.
-  ifdGuid: 0qxDPsaBr3$RMHVFggXXV$
-  legacyGuid: 0qxDPsaBr3$RMHVFggXXV$
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 34ecd67690bd43fdb5917cfaaa8617ff
+  legacyGuidAsIfcGlobalId: 0qxDPsaBr3$RMHVFggXXV$
   localizations:
   - language: ja-JP
     name: '予算源'
@@ -85,4 +97,12 @@ properties:
     measureType: ''
     unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN

@@ -30,8 +30,10 @@ applicableIfcClasses:
 properties:
 - name: ConnectionSize
   definition: Defines the size of inlet and outlet pipe connections to the meter.
-  ifdGuid: 0cosBHzzz61gKAODEKoKD8
-  legacyGuid: 0cosBHzzz61gKAODEKoKD8
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 26cb62d1f7df4606a50a60d394c94348
+  legacyGuidAsIfcGlobalId: 0cosBHzzz61gKAODEKoKD8
   localizations:
   - language: de-DE
     name: ''
@@ -56,11 +58,21 @@ properties:
     measureType: ''
     unitType: LENGTHUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: MaximumFlowRate
   definition: Maximum rate of flow which the meter is expected to pass.
-  ifdGuid: 0A_jQYv8XBLR_YzeLghDG9
-  legacyGuid: 0A_jQYv8XBLR_YzeLghDG9
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 0afad6a2e4884b55bfa2f6856aacd409
+  legacyGuidAsIfcGlobalId: 0A_jQYv8XBLR_YzeLghDG9
   localizations:
   - language: de-DE
     name: ''
@@ -85,4 +97,12 @@ properties:
     measureType: ''
     unitType: VOLUMETRICFLOWRATEUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN

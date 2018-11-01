@@ -49,8 +49,9 @@
     {
       "name": "Reference",
       "definition": "Reference ID for this specified type in this project (e.g. type 'A-1'), provided, if there is no classification reference to a recognized classification system used.",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
       "ifdGuid": "",
-      "legacyGuid": "",
+      "legacyGuidAsIfcGlobalId": "",
       "localizations": [
         {
           "language": "ja-JP",
@@ -94,14 +95,24 @@
         "unitType": "USERDEFINED"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "Status",
       "definition": "Status of the element, predominately used in renovation or retrofitting projects. The status can be assigned to as \"New\" - element designed as new addition, \"Existing\" - element exists and remains, \"Demolish\" - element existed but is to be demolished,  \"Temporary\" - element will exists only temporary (like a temporary support structure).",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
       "ifdGuid": "",
-      "legacyGuid": "",
+      "legacyGuidAsIfcGlobalId": "",
       "localizations": [
         {
           "language": "ja-JP",
@@ -362,14 +373,25 @@
         ]
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "PrimaryVoltage",
       "definition": "The voltage that is going to be transformed and that runs into the transformer on the primary side.",
-      "ifdGuid": "2mTWu10FL0RQXwyd2kUHpS",
-      "legacyGuid": "2mTWu10FL0RQXwyd2kUHpS",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "b0760e0100f5406da87af270ae791cdc",
+      "legacyGuidAsIfcGlobalId": "2mTWu10FL0RQXwyd2kUHpS",
       "localizations": [
         {
           "language": "ja-JP",
@@ -413,14 +435,25 @@
         "unitType": "ELECTRICVOLTAGEUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "SecondaryVoltage",
       "definition": "The voltage that has been transformed and is running out of the transformer on the secondary side.",
-      "ifdGuid": "3z_e1RZrX4JuLmZ22VP908",
-      "legacyGuid": "3z_e1RZrX4JuLmZ22VP908",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "fdfa805b8f58444f85708c209f649008",
+      "legacyGuidAsIfcGlobalId": "3z_e1RZrX4JuLmZ22VP908",
       "localizations": [
         {
           "language": "ja-JP",
@@ -464,14 +497,25 @@
         "unitType": "ELECTRICVOLTAGEUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "PrimaryCurrent",
       "definition": "The current that is going to be transformed and that runs into the transformer on the primary side.",
-      "ifdGuid": "3_UaVe$2r2NgZZ9iwD5Rv8",
-      "legacyGuid": "3_UaVe$2r2NgZZ9iwD5Rv8",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "fe7a47e8fc2d425ea8e326ce8d15be48",
+      "legacyGuidAsIfcGlobalId": "3_UaVe$2r2NgZZ9iwD5Rv8",
       "localizations": [
         {
           "language": "ja-JP",
@@ -515,14 +559,25 @@
         "unitType": "ELECTRICCURRENTUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "SecondaryCurrent",
       "definition": "The current that has been transformed and is running out of the transformer on the secondary side.",
-      "ifdGuid": "3MI_4rmZH1yPS1trD6zteA",
-      "legacyGuid": "3MI_4rmZH1yPS1trD6zteA",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "d64be135c23441f19701df5346f77a0a",
+      "legacyGuidAsIfcGlobalId": "3MI_4rmZH1yPS1trD6zteA",
       "localizations": [
         {
           "language": "ja-JP",
@@ -566,14 +621,25 @@
         "unitType": "ELECTRICCURRENTUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "PrimaryFrequency",
       "definition": "The frequency that is going to be transformed and that runs into the transformer on the primary side.",
-      "ifdGuid": "0OvqpaUifDFvceZcoUEcde",
-      "legacyGuid": "0OvqpaUifDFvceZcoUEcde",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "18e74ce47aca4d3f99a88e6c9e3a69e8",
+      "legacyGuidAsIfcGlobalId": "0OvqpaUifDFvceZcoUEcde",
       "localizations": [
         {
           "language": "ja-JP",
@@ -617,14 +683,25 @@
         "unitType": "FREQUENCYUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "SecondaryFrequency",
       "definition": "The frequency that has been transformed and is running out of the transformer on the secondary side.",
-      "ifdGuid": "3x71ILtUrD5RLMa08NATrM",
-      "legacyGuid": "3x71ILtUrD5RLMa08NATrM",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "fb1c1495dded4d15b55690021729dd56",
+      "legacyGuidAsIfcGlobalId": "3x71ILtUrD5RLMa08NATrM",
       "localizations": [
         {
           "language": "ja-JP",
@@ -668,14 +745,25 @@
         "unitType": "FREQUENCYUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "PrimaryApparentPower",
       "definition": "The power in VA (volt ampere) that has been transformed and that runs into the transformer on the primary side.",
-      "ifdGuid": "0oouNVpab96ACWwt6I9IBO",
-      "legacyGuid": "0oouNVpab96ACWwt6I9IBO",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "32cb85dfce494918a320eb71922522d8",
+      "legacyGuidAsIfcGlobalId": "0oouNVpab96ACWwt6I9IBO",
       "localizations": [
         {
           "language": "ja-JP",
@@ -719,14 +807,25 @@
         "unitType": "POWERUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "SecondaryApparentPower",
       "definition": "The power in VA (volt ampere) that has been transformed and is running out of the transformer on the secondary side.",
-      "ifdGuid": "18tuJRPsfCeOe7EisF4CvJ",
-      "legacyGuid": "18tuJRPsfCeOe7EisF4CvJ",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "48df84db676a4ca18a073acd8f10ce53",
+      "legacyGuidAsIfcGlobalId": "18tuJRPsfCeOe7EisF4CvJ",
       "localizations": [
         {
           "language": "ja-JP",
@@ -770,14 +869,25 @@
         "unitType": "POWERUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "MaximumApparentPower",
       "definition": "Maximum apparent power/capacity in VA (volt ampere).",
-      "ifdGuid": "2U9jZKpir87RZoznFH2lrw",
-      "legacyGuid": "2U9jZKpir87RZoznFH2lrw",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "9e26d8d4cecd481db8f2f713d10afd7a",
+      "legacyGuidAsIfcGlobalId": "2U9jZKpir87RZoznFH2lrw",
       "localizations": [
         {
           "language": "ja-JP",
@@ -821,14 +931,25 @@
         "unitType": "POWERUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "SecondaryCurrentType",
       "definition": "A list of the secondary current types that can result from transformer output.",
-      "ifdGuid": "10ZV2Elq94jxL9NCB9glkj",
-      "legacyGuid": "10ZV2Elq94jxL9NCB9glkj",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "408df08ebf4244b7b5495cc2c9aafbad",
+      "legacyGuidAsIfcGlobalId": "10ZV2Elq94jxL9NCB9glkj",
       "localizations": [
         {
           "language": "ja-JP",
@@ -1020,14 +1141,25 @@
         ]
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "ShortCircuitVoltage",
       "definition": "A complex number that specifies the real and imaginary parts of the short-circuit voltage at rated current of a transformer given in %.",
-      "ifdGuid": "2kOFRHHwv2iuqRAZO5ZPma",
-      "legacyGuid": "2kOFRHHwv2iuqRAZO5ZPma",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "ae60f6d147ae42b38d1b2a36058d9c24",
+      "legacyGuidAsIfcGlobalId": "2kOFRHHwv2iuqRAZO5ZPma",
       "localizations": [
         {
           "language": "ja-JP",
@@ -1071,14 +1203,25 @@
         "unitType": "USERDEFINED"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "RealImpedanceRatio",
       "definition": "The ratio between the real part of the zero sequence impedance and the real part of the positive impedance (i.e. real part of the short-circuit voltage) of the transformer.Used for three-phase transformer which includes a N-conductor.",
-      "ifdGuid": "19p4Sd_2T5w8iBI4LUdE41",
-      "legacyGuid": "19p4Sd_2T5w8iBI4LUdE41",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "49cc4727f82745e88b0b48455e9ce101",
+      "legacyGuidAsIfcGlobalId": "19p4Sd_2T5w8iBI4LUdE41",
       "localizations": [
         {
           "language": "ja-JP",
@@ -1122,14 +1265,25 @@
         "unitType": "USERDEFINED"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "ImaginaryImpedanceRatio",
       "definition": "The ratio between the imaginary part of the zero sequence impedance and the imaginary part of the positive impedance (i.e. imaginary part of the short-circuit voltage) of the transformer.Used for three-phase transformer which includes a N-conductor.",
-      "ifdGuid": "2yKlrhUOH7YekTQmQZFDqB",
-      "legacyGuid": "2yKlrhUOH7YekTQmQZFDqB",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "bc52fd6b7984478a8b9d6b06a33cdd0b",
+      "legacyGuidAsIfcGlobalId": "2yKlrhUOH7YekTQmQZFDqB",
       "localizations": [
         {
           "language": "ja-JP",
@@ -1173,14 +1327,25 @@
         "unitType": "USERDEFINED"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "TransformerVectorGroup",
       "definition": "List of the possible vector groups for the transformer from which that required may be set. Values in the enumeration list follow a standard international code where the first letter  describes how the primary windings are connected,the second letter describes how the secondary windings are connected, and the numbers describe the rotation of voltages and currents from the primary to the secondary side in multiples of 30 degrees.D: means that the windings are delta-connected.Y: means that the windings are star-connected. Z: means that the windings are zig-zag connected (a special start-connected providing low reactance of the transformer); The connectivity is only relevant for three-phase transformers.",
-      "ifdGuid": "2g$$O4hU5Bq9zyTROUXt2X",
-      "legacyGuid": "2g$$O4hU5Bq9zyTROUXt2X",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "aafff604ade14bd09f7c75b61e8770a1",
+      "legacyGuidAsIfcGlobalId": "2g$$O4hU5Bq9zyTROUXt2X",
       "localizations": [
         {
           "language": "de-DE",
@@ -1737,14 +1902,25 @@
         ]
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "IsNeutralPrimaryTerminalAvailable",
       "definition": "An indication of whether the neutral point of the primary winding is available as a terminal (=TRUE) or not (= FALSE).",
-      "ifdGuid": "13$n6V0IbE9PU01brf35Yg",
-      "legacyGuid": "13$n6V0IbE9PU01brf35Yg",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "43ff119f01294e259780065d690c58aa",
+      "legacyGuidAsIfcGlobalId": "13$n6V0IbE9PU01brf35Yg",
       "localizations": [
         {
           "language": "ja-JP",
@@ -1788,14 +1964,25 @@
         "unitType": "USERDEFINED"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "IsNeutralSecondaryTerminalAvailable",
       "definition": "An indication of whether the neutral point of the secondary winding is available as a terminal (=TRUE) or not (= FALSE).",
-      "ifdGuid": "306XSvJb51cBLj3Di9QMV5",
-      "legacyGuid": "306XSvJb51cBLj3Di9QMV5",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "c01a17394e514198b56d0cdb096967c5",
+      "legacyGuidAsIfcGlobalId": "306XSvJb51cBLj3Di9QMV5",
       "localizations": [
         {
           "language": "ja-JP",
@@ -1839,7 +2026,16 @@
         "unitType": "USERDEFINED"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     }
   ]

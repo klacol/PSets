@@ -49,8 +49,10 @@
     {
       "name": "PerformanceClasses",
       "definition": "A set of designations of performance classes for the breaker unit for which the data of this instance is valid. A breaker unit being a motor protection device may beconstructed for different levels of breaking capacities. A maximum of 7 differentperformance classes may be provided. Examples of performance classes that may be specified include B, C, N, S, H, L, V.",
-      "ifdGuid": "2jrYBwtwDBG8VScr7LpSaG",
-      "legacyGuid": "2jrYBwtwDBG8VScr7LpSaG",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "add622fadfa34b4087dc9b51d5cdc910",
+      "legacyGuidAsIfcGlobalId": "2jrYBwtwDBG8VScr7LpSaG",
       "localizations": [
         {
           "language": "ja-JP",
@@ -94,14 +96,25 @@
         "unitType": "USERDEFINED"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "VoltageLevel",
       "definition": "The voltage levels for which the data of the instance is valid. More than one value may be selected in the enumeration.",
-      "ifdGuid": "2HMOZ9bBr7Sv9MQIHR77im",
-      "legacyGuid": "2HMOZ9bBr7Sv9MQIHR77im",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "915988c994bd4773925669245b1c7b30",
+      "legacyGuidAsIfcGlobalId": "2HMOZ9bBr7Sv9MQIHR77im",
       "localizations": [
         {
           "language": "ja-JP",
@@ -441,14 +454,25 @@
         ]
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "ICU60947",
       "definition": "The ultimate breaking capacity in [A] for a circuit breaker or motor protection device tested in accordance with the IEC 60947 series.",
-      "ifdGuid": "3qXchd5Av0X9M8tX9FE9Td",
-      "legacyGuid": "3qXchd5Av0X9M8tX9FE9Td",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "f4866ae714ae40849588de124f389767",
+      "legacyGuidAsIfcGlobalId": "3qXchd5Av0X9M8tX9FE9Td",
       "localizations": [
         {
           "language": "ja-JP",
@@ -492,14 +516,25 @@
         "unitType": "USERDEFINED"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "ICS60947",
       "definition": "The service breaking capacity in [A] for a circuit breaker or motor protection device tested in accordance with the IEC 60947 series.",
-      "ifdGuid": "1QUoJz0d12fw5Q6NZGjP7D",
-      "legacyGuid": "1QUoJz0d12fw5Q6NZGjP7D",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "5a7b24fd027042a7a15a1978d0b591cd",
+      "legacyGuidAsIfcGlobalId": "1QUoJz0d12fw5Q6NZGjP7D",
       "localizations": [
         {
           "language": "ja-JP",
@@ -543,14 +578,25 @@
         "unitType": "USERDEFINED"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "ICW60947",
       "definition": "The thermal withstand current in [A] for a circuit breaker or motor protection device tested in accordance with the IEC 60947 series. The value shall be related to 1 s.",
-      "ifdGuid": "3zcZL85nT3SQmLrGnuuBhs",
-      "legacyGuid": "3zcZL85nT3SQmLrGnuuBhs",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "fd9a354817174371ac15d50c78e0baf6",
+      "legacyGuidAsIfcGlobalId": "3zcZL85nT3SQmLrGnuuBhs",
       "localizations": [
         {
           "language": "ja-JP",
@@ -594,14 +640,25 @@
         "unitType": "USERDEFINED"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "ICM60947",
       "definition": "The making capacity in [A] for a circuit breaker or motor protection device tested in accordance with the IEC 60947 series.",
-      "ifdGuid": "1gfrkok$DBZB_MtpdiV$FB",
-      "legacyGuid": "1gfrkok$DBZB_MtpdiV$FB",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "6aa75bb2bbf34b8cbf96df39ec7ff3cb",
+      "legacyGuidAsIfcGlobalId": "1gfrkok$DBZB_MtpdiV$FB",
       "localizations": [
         {
           "language": "ja-JP",
@@ -645,7 +702,16 @@
         "unitType": "USERDEFINED"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     }
   ]

@@ -30,8 +30,10 @@ applicableIfcClasses:
 properties:
 - name: PatternType
   definition: Defines the types of pattern (or shape of a tank that may be specified.
-  ifdGuid: 1TnmJZNdTC3hIv7deh6y9N
-  legacyGuid: 1TnmJZNdTC3hIv7deh6y9N
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 5dc704e35e774c0eb4b91e7a2b1bc257
+  legacyGuidAsIfcGlobalId: 1TnmJZNdTC3hIv7deh6y9N
   localizations:
   - language: ja-JP
     name: 'パターンタイプ'
@@ -165,11 +167,21 @@ properties:
         name: 'Unknown'
         definition: ''
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: EndShapeType
   definition: Defines the types of end shapes that can be used for preformed tanks. The convention for reading these enumerated values is that for a vertical cylinder, the first value is the base and the second is the top; for a horizontal cylinder, the order of reading should be left to right. For a speherical tank, the value UNSET should be used.
-  ifdGuid: 2JWHVCYDv3Cgp8bY49WMef
-  legacyGuid: 2JWHVCYDv3Cgp8bY49WMef
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 938117cc88de4332acc8962109816a29
+  legacyGuidAsIfcGlobalId: 2JWHVCYDv3Cgp8bY49WMef
   localizations:
   - language: ja-JP
     name: '末端形状タイプ'
@@ -347,11 +359,21 @@ properties:
         name: 'Unknown'
         definition: ''
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: FirstCurvatureRadius
   definition: FirstCurvatureRadius should be defined as the base or left side radius of curvature value.
-  ifdGuid: 1yJZNwEK18wxLFX5d2sEVF
-  legacyGuid: 1yJZNwEK18wxLFX5d2sEVF
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 7c4e35fa394048ebb54f8459c2d8e7cf
+  legacyGuidAsIfcGlobalId: 1yJZNwEK18wxLFX5d2sEVF
   localizations:
   - language: ja-JP
     name: '最初の曲率半径'
@@ -376,11 +398,21 @@ properties:
     measureType: ''
     unitType: LENGTHUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: SecondCurvatureRadius
   definition: SecondCurvatureRadius should be defined as the top or right side radius of curvature value.
-  ifdGuid: 1khbU31FrDsvejMEEk$R7B
-  legacyGuid: 1khbU31FrDsvejMEEk$R7B
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 6eae578304fd4ddb9a2d58e3aefdb1cb
+  legacyGuidAsIfcGlobalId: 1khbU31FrDsvejMEEk$R7B
   localizations:
   - language: ja-JP
     name: '2番目の曲率半径'
@@ -405,4 +437,12 @@ properties:
     measureType: ''
     unitType: LENGTHUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN

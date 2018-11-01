@@ -30,6 +30,7 @@ applicableIfcClasses:
 properties:
 - name: Standard
   definition: The designation of the standard applicable for the definition of the Cable/Bus used.
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
   ifdGuid: ''
   legacyGuid: 3d006b30216341de95eeaf7115f97bbb
   legacyGuidAsIfcGlobalId: 0z06im8MD1tfNkht4L_Nkx
@@ -60,9 +61,18 @@ properties:
     measureType: ''
     unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: NumberOfCores
   definition: The number of cores in Cable/Bus.
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
   ifdGuid: ''
   legacyGuid: 6be89291b8b64fd9a7e496693108ff5b
   legacyGuidAsIfcGlobalId: 1hw9AHkBPFsQVabcan2FzR
@@ -93,9 +103,18 @@ properties:
     measureType: ''
     unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: OverallDiameter
   definition: The overall diameter of a Cable/Bus.
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
   ifdGuid: ''
   legacyGuid: dce029fb532c4640ac89333216d28686
   legacyGuidAsIfcGlobalId: 3Su2dxKon6GAo9Cp8MqeQ6
@@ -126,9 +145,18 @@ properties:
     measureType: ''
     unitType: LENGTHUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: RatedVoltage
   definition: The range of allowed voltage that a device is certified to handle. The upper bound of this value is the maximum.
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
   ifdGuid: ''
   legacyGuid: ad05d9efe2104633adc26c6d46be11c1
   legacyGuidAsIfcGlobalId: 2j1TdluX16Cwt2R6r6lX71
@@ -160,9 +188,18 @@ properties:
     UpperBoundValue: '?'
     typeName: TypePropertyBoundedValue
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: RatedTemperature
   definition: The range of allowed temerature that a device is certified to handle. The upper bound of this value is the maximum.
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
   ifdGuid: ''
   legacyGuid: 75be84daab994bcda28b61a5cddcfddd
   legacyGuidAsIfcGlobalId: 1rleJQgvbBpQABOQNDtFtT
@@ -194,9 +231,18 @@ properties:
     UpperBoundValue: '?'
     typeName: TypePropertyBoundedValue
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: ScreenDiameter
   definition: The diameter of the screen around a cable or bus segment (if present).
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
   ifdGuid: ''
   legacyGuid: 8f9f613b723a45d89d4555023a821c7c
   legacyGuidAsIfcGlobalId: 2Fds4xSZf5s9r5LG8wWXny
@@ -227,9 +273,18 @@ properties:
     measureType: ''
     unitType: LENGTHUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: HasProtectiveEarth
   definition: One core has protective earth marked insulation, Yellow/Green.
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
   ifdGuid: ''
   legacyGuid: 80183e4d5c144d77a052ad70287e55c9
   legacyGuidAsIfcGlobalId: 2063vDN1HDTw1IhN0eVbN9
@@ -260,9 +315,18 @@ properties:
     measureType: ''
     unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: MaximumOperatingTemperature
   definition: The maximum temperature at which a cable or bus is certified to operate.
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
   ifdGuid: ''
   legacyGuid: f75619e560aa49798d61c5c04cd9bbed
   legacyGuidAsIfcGlobalId: 3tLXdbOAf9UOrXnS1CsRlj
@@ -293,9 +357,18 @@ properties:
     measureType: ''
     unitType: THERMODYNAMICTEMPERATUREUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: MaximumShortCircuitTemperature
   definition: The maximum short circuit temperature at which a cable or bus is certified to operate.
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
   ifdGuid: ''
   legacyGuid: 1b90ac1f818f4062a01aae2c3e0bfdd5
   legacyGuidAsIfcGlobalId: 0RaAmVWOz0Og0QhYm_2$tL
@@ -326,9 +399,18 @@ properties:
     measureType: ''
     unitType: THERMODYNAMICTEMPERATUREUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: SpecialConstruction
   definition: Special construction capabilities like self-supporting, flat devidable cable or bus flat non devidable cable or bus supporting elements inside (steal, textile, concentric conductor). Note that materials used should be agreed between exchange participants before use.
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
   ifdGuid: ''
   legacyGuid: 2f4bb1bad5114e71a2ae79632135aa99
   legacyGuidAsIfcGlobalId: 0lIx6wrH5ESQAkUMCXDQgP
@@ -359,9 +441,18 @@ properties:
     measureType: ''
     unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: Weight
   definition: Weight of cable kg/km.
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
   ifdGuid: ''
   legacyGuid: d5a9a9bb4494446888876657f1c46790
   legacyGuidAsIfcGlobalId: 3LgQcxH9H4Q8Y7PbVnn6UG
@@ -392,9 +483,18 @@ properties:
     measureType: ''
     unitType: MASSUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: SelfExtinguishing60332_1
   definition: Self Extinguishing cable/core according to IEC 60332.1.
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
   ifdGuid: ''
   legacyGuid: a6319f829ded4e36a61edac68859b444
   legacyGuidAsIfcGlobalId: 2cCP_2dUrEDgOUsiQ8MRH4
@@ -425,9 +525,18 @@ properties:
     measureType: ''
     unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: SelfExtinguishing60332_3
   definition: Self Extinguishing cable/core according to IEC 60332.3.
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
   ifdGuid: ''
   legacyGuid: 20e1c6fb691645e0bec164bfaaf47c07
   legacyGuidAsIfcGlobalId: 0WuSRxQHP5uBx1PB_gz7m7
@@ -458,9 +567,18 @@ properties:
     measureType: ''
     unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: HalogenProof
   definition: Produces small amount of smoke and irritating Deaerator/Gas.
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
   ifdGuid: ''
   legacyGuid: 651df9616ad046148582053e3b2c6dfe
   legacyGuidAsIfcGlobalId: 1b7VbXQj1658M21JuxB6t_
@@ -491,9 +609,18 @@ properties:
     measureType: ''
     unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: FunctionReliable
   definition: Cable/bus maintain given properties/functions over a given (tested) time and conditions. According to IEC standard.
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
   ifdGuid: ''
   legacyGuid: df0fc0b5b5f04ee498b58681d3e1b2ae
   legacyGuidAsIfcGlobalId: 3V3y2rjV1Ev9YrXe7JuRAk
@@ -524,4 +651,12 @@ properties:
     measureType: ''
     unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN

@@ -30,8 +30,10 @@ applicableIfcClasses:
 properties:
 - name: IsSelectable
   definition: Indication whether the L-function can be switched off or not.
-  ifdGuid: 3dLtqFswr4Lx75TuCBfcmr
-  legacyGuid: 3dLtqFswr4Lx75TuCBfcmr
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: e7577d0fdbad4457b1c577830ba66c35
+  legacyGuidAsIfcGlobalId: 3dLtqFswr4Lx75TuCBfcmr
   localizations:
   - language: ja-JP
     name: '切り替え'
@@ -59,11 +61,21 @@ properties:
     measureType: ''
     unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: UpperCurrent1
   definition: The current in [x In], indicating that for currents larger than UpperCurrent1 the I2t part of the L-function will trip the current.
-  ifdGuid: 1XN9ktSZDEUwLzNKYIVM3K
-  legacyGuid: 1XN9ktSZDEUwLzNKYIVM3K
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 615c9bb772334e7ba57d5d48927d60d4
+  legacyGuidAsIfcGlobalId: 1XN9ktSZDEUwLzNKYIVM3K
   localizations:
   - language: ja-JP
     name: '上電流1'
@@ -91,11 +103,21 @@ properties:
     measureType: ''
     unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: UpperCurrent2
   definition: The current in [x In], indicating the upper current limit of the upper time/current curve of the I2t part of the L-function.
-  ifdGuid: 3led1iIvL0vu6F0OdxkBWz
-  legacyGuid: 3led1iIvL0vu6F0OdxkBWz
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: efa2706c4b9540e7818f0189fbb8b83d
+  legacyGuidAsIfcGlobalId: 3led1iIvL0vu6F0OdxkBWz
   localizations:
   - language: ja-JP
     name: '上電流2'
@@ -123,11 +145,21 @@ properties:
     measureType: ''
     unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: UpperTime1
   definition: The time in [s], indicating that tripping times of the upper time/current curve lower than UpperTime1 is determined by the I2t part of the L-function.
-  ifdGuid: 2oIWnp3J95pemfylG_eimE
-  legacyGuid: 2oIWnp3J95pemfylG_eimE
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: b24a0c730d3245ce8c29f2f43ea2cc0e
+  legacyGuidAsIfcGlobalId: 2oIWnp3J95pemfylG_eimE
   localizations:
   - language: ja-JP
     name: '上時間1'
@@ -155,11 +187,21 @@ properties:
     measureType: ''
     unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: UpperTime2
   definition: The time in [s], indicating the tripping times of the upper time/current curve at the UpperCurrent2.
-  ifdGuid: 2zTIbNhmTAO8E4oV_QqJzG
-  legacyGuid: 2zTIbNhmTAO8E4oV_QqJzG
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: bd752957af074a608384c9ff9ad13f50
+  legacyGuidAsIfcGlobalId: 2zTIbNhmTAO8E4oV_QqJzG
   localizations:
   - language: ja-JP
     name: '上時間2'
@@ -187,11 +229,21 @@ properties:
     measureType: ''
     unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: LowerCurrent1
   definition: The current in [x In], indicating that for currents smaller than LowerCurrent1 the I2t part of the L-function will not trip the current,
-  ifdGuid: 1hIU4bWdr1yfiHkxyrvP1w
-  legacyGuid: 1hIU4bWdr1yfiHkxyrvP1w
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 6b49e125827d41f29b11bbbf35e5907a
+  legacyGuidAsIfcGlobalId: 1hIU4bWdr1yfiHkxyrvP1w
   localizations:
   - language: ja-JP
     name: '下電流1'
@@ -219,11 +271,21 @@ properties:
     measureType: ''
     unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: LowerCurrent2
   definition: The current in [x In], indicating the upper current limit of the lower time/current curve of the I2t part of the L-function.
-  ifdGuid: 1wuFGpYCnEwv8iLByTwBTm
-  legacyGuid: 1wuFGpYCnEwv8iLByTwBTm
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 7ae0f43388cc4eeb922c54bf1de8b770
+  legacyGuidAsIfcGlobalId: 1wuFGpYCnEwv8iLByTwBTm
   localizations:
   - language: ja-JP
     name: '下電流2'
@@ -251,11 +313,21 @@ properties:
     measureType: ''
     unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: LowerTime1
   definition: The time in [s], indicating that tripping times of the lower time/current curve lower than LowerTime1 is determined by the I2t part of the L-function.
-  ifdGuid: 0W5slVlPX0oepoR$D4hjdn
-  legacyGuid: 0W5slVlPX0oepoR$D4hjdn
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 20176bdfbd9840ca8cf26ff344aed9f1
+  legacyGuidAsIfcGlobalId: 0W5slVlPX0oepoR$D4hjdn
   localizations:
   - language: ja-JP
     name: '下時間1'
@@ -283,11 +355,21 @@ properties:
     measureType: ''
     unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: LowerTime2
   definition: The time in [s], indicating the tripping times of the upper time/current curve at the LowerCurrent2.
-  ifdGuid: 0k9gduOH5Beg1bIuW5mdtH
-  legacyGuid: 0k9gduOH5Beg1bIuW5mdtH
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 2e26a9f861114ba2a0654b8805c27dd1
+  legacyGuidAsIfcGlobalId: 0k9gduOH5Beg1bIuW5mdtH
   localizations:
   - language: ja-JP
     name: '下時間2'
@@ -315,4 +397,12 @@ properties:
     measureType: ''
     unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN

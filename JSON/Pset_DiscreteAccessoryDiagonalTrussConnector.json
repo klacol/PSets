@@ -53,8 +53,10 @@
     {
       "name": "DiagonalTrussHeight",
       "definition": "The overall height of the truss connector.",
-      "ifdGuid": "36X9BU4Qr7EfEvqi0WIW4e",
-      "legacyGuid": "36X9BU4Qr7EfEvqi0WIW4e",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "c68492de11ad473a93b9d2c0204a0128",
+      "legacyGuidAsIfcGlobalId": "36X9BU4Qr7EfEvqi0WIW4e",
       "localizations": [
         {
           "language": "ja-JP",
@@ -98,14 +100,25 @@
         "unitType": "LENGTHUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "DiagonalTrussLength",
       "definition": "The overall length of the truss connector.",
-      "ifdGuid": "3obppWKZrAHRjCewXiBARR",
-      "legacyGuid": "3obppWKZrAHRjCewXiBARR",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "f2973ce0523d4a45bb4ca3a86c2ca6db",
+      "legacyGuidAsIfcGlobalId": "3obppWKZrAHRjCewXiBARR",
       "localizations": [
         {
           "language": "ja-JP",
@@ -149,14 +162,25 @@
         "unitType": "LENGTHUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "DiagonalTrussCrossBarSpacing",
       "definition": "The spacing between diagonal cross-bar sections.",
-      "ifdGuid": "3ZXvGsSvDBDg69_nmbE30j",
-      "legacyGuid": "3ZXvGsSvDBDg69_nmbE30j",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "e387943673934b36a189fb1c2538302d",
+      "legacyGuidAsIfcGlobalId": "3ZXvGsSvDBDg69_nmbE30j",
       "localizations": [
         {
           "language": "ja-JP",
@@ -200,14 +224,25 @@
         "unitType": "LENGTHUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "DiagonalTrussBaseBarDiameter",
       "definition": "The nominal diameter of the base bar.",
-      "ifdGuid": "2ZNabvXl9DiewbIjSHd4A_",
-      "legacyGuid": "2ZNabvXl9DiewbIjSHd4A_",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "a35e497986f24db28ea54ad7119c42be",
+      "legacyGuidAsIfcGlobalId": "2ZNabvXl9DiewbIjSHd4A_",
       "localizations": [
         {
           "language": "ja-JP",
@@ -251,14 +286,25 @@
         "unitType": "LENGTHUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "DiagonalTrussSecondaryBarDiameter",
       "definition": "The nominal diameter of the secondary bar.",
-      "ifdGuid": "1CeKDsrLL1SR9Ig7hh84OG",
-      "legacyGuid": "1CeKDsrLL1SR9Ig7hh84OG",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "4ca14376d5554171b252a87aeb204610",
+      "legacyGuidAsIfcGlobalId": "1CeKDsrLL1SR9Ig7hh84OG",
       "localizations": [
         {
           "language": "ja-JP",
@@ -302,14 +348,25 @@
         "unitType": "LENGTHUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "DiagonalTrussCrossBarDiameter",
       "definition": "The nominal diameter of the diagonal cross-bars.",
-      "ifdGuid": "2oziF6Hm5BfARTGmtbykql",
-      "legacyGuid": "2oziF6Hm5BfARTGmtbykql",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "b2f6c3c647014ba4a6dd430de5f2ed2f",
+      "legacyGuidAsIfcGlobalId": "2oziF6Hm5BfARTGmtbykql",
       "localizations": [
         {
           "language": "ja-JP",
@@ -353,7 +410,16 @@
         "unitType": "LENGTHUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     }
   ]

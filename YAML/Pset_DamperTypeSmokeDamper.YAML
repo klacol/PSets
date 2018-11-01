@@ -30,8 +30,10 @@ applicableIfcClasses:
 properties:
 - name: ControlType
   definition: The type of control used to operate the damper (e.g., Open/Closed Indicator, Resetable Temperature Sensor, Temperature Override, etc.) .
-  ifdGuid: 1UKgpnjtH0Kxv2BsNM_LsT
-  legacyGuid: 1UKgpnjtH0Kxv2BsNM_LsT
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 5e52acf1b7744053be422f65d6f95d9d
+  legacyGuidAsIfcGlobalId: 1UKgpnjtH0Kxv2BsNM_LsT
   localizations:
   - language: de-DE
     name: ''
@@ -56,4 +58,12 @@ properties:
     measureType: ''
     unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN

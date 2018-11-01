@@ -49,8 +49,10 @@
     {
       "name": "ChargePressure",
       "definition": "Nominal or design operating pressure of the tank.",
-      "ifdGuid": "0k29Z9ihL9$g5cT5A9gQt0",
-      "legacyGuid": "0k29Z9ihL9$g5cT5A9gQt0",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "2e0898c9b2b549fea166745289a9adc0",
+      "legacyGuidAsIfcGlobalId": "0k29Z9ihL9$g5cT5A9gQt0",
       "localizations": [
         {
           "language": "ja-JP",
@@ -89,14 +91,25 @@
         "unitType": "PRESSUREUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "PressureRegulatorSetting",
       "definition": "Pressure that is automatically maintained in the tank.",
-      "ifdGuid": "0mWvbjdGv8UfVAyaFZwMlO",
-      "legacyGuid": "0mWvbjdGv8UfVAyaFZwMlO",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "3083996d9d0e487a97caf243e3e96bd8",
+      "legacyGuidAsIfcGlobalId": "0mWvbjdGv8UfVAyaFZwMlO",
       "localizations": [
         {
           "language": "ja-JP",
@@ -135,14 +148,25 @@
         "unitType": "PRESSUREUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "ReliefValveSetting",
       "definition": "Pressure at which the relief valve activates.",
-      "ifdGuid": "0DzmgDVz9CXf8n2r7XRbrq",
-      "legacyGuid": "0DzmgDVz9CXf8n2r7XRbrq",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "0df70a8d7fd24c8692310b51e16e5d74",
+      "legacyGuidAsIfcGlobalId": "0DzmgDVz9CXf8n2r7XRbrq",
       "localizations": [
         {
           "language": "ja-JP",
@@ -181,7 +205,16 @@
         "unitType": "PRESSUREUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     }
   ]

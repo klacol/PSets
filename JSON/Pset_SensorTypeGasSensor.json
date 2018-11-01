@@ -49,8 +49,10 @@
     {
       "name": "GasDetected",
       "definition": "Identification of the gas that is being detected, according to chemical formula.  For example, carbon monoxide is 'CO', carbon dioxide is 'CO2', oxygen is 'O2'.",
-      "ifdGuid": "2kj0F6kBL6$9ZgLcOE7osV",
-      "legacyGuid": "2kj0F6kBL6$9ZgLcOE7osV",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "aeb403c6b8b546fc98ea56660e1f2d9f",
+      "legacyGuidAsIfcGlobalId": "2kj0F6kBL6$9ZgLcOE7osV",
       "localizations": [
         {
           "language": "ja-JP",
@@ -89,14 +91,25 @@
         "unitType": "USERDEFINED"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "SetPointConcentration",
       "definition": "The gas concentration value to be sensed. Use IfcPropertyBoundedValue.SetPointValue to set the set point value.",
-      "ifdGuid": "0Vv_K$rWvAphV9xGsFve6_",
-      "legacyGuid": "0Vv_K$rWvAphV9xGsFve6_",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "1fe7e53fd60e4aceb7c9ed0d8fe681be",
+      "legacyGuidAsIfcGlobalId": "0Vv_K$rWvAphV9xGsFve6_",
       "localizations": [
         {
           "language": "ja-JP",
@@ -137,14 +150,25 @@
         "typeName": "TypePropertyBoundedValue"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "CoverageArea",
       "definition": "The floor area that is covered by the sensor (typically measured as a circle whose center is at the location of the sensor).",
-      "ifdGuid": "1Q7cfuFuXEauVekq3z$T5q",
-      "legacyGuid": "1Q7cfuFuXEauVekq3z$T5q",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "5a1e6a783f884e9387e8bb40fdfdd174",
+      "legacyGuidAsIfcGlobalId": "1Q7cfuFuXEauVekq3z$T5q",
       "localizations": [
         {
           "language": "ja-JP",
@@ -183,7 +207,16 @@
         "unitType": "AREAUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     }
   ]

@@ -30,8 +30,10 @@ applicableIfcClasses:
 properties:
 - name: FanRotationSpeed
   definition: Fan rotation speed.
-  ifdGuid: 3uOOpSenL1mOKg4t0TQFcp
-  legacyGuid: 3uOOpSenL1mOKg4t0TQFcp
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: f8618cdca31541c1852a13701d68f9b3
+  legacyGuidAsIfcGlobalId: 3uOOpSenL1mOKg4t0TQFcp
   localizations:
   - language: ja-JP
     name: '回転速度'
@@ -58,11 +60,21 @@ properties:
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: WheelTipSpeed
   definition: Fan blade tip speed, typically defined as the linear speed of the tip of the fan blade furthest from the shaft.
-  ifdGuid: 3LIm8gDnT6WgM0qGYcUIF0
-  legacyGuid: 3LIm8gDnT6WgM0qGYcUIF0
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: d54b022a37174682a580d108a67923c0
+  legacyGuidAsIfcGlobalId: 3LIm8gDnT6WgM0qGYcUIF0
   localizations:
   - language: ja-JP
     name: 'ホイール先端速度'
@@ -89,11 +101,21 @@ properties:
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: FanEfficiency
   definition: Fan mechanical efficiency.
-  ifdGuid: 0pFfpDTPjBke7DIpgFc92f
-  legacyGuid: 0pFfpDTPjBke7DIpgFc92f
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 333e9ccd759b4bba81cd4b3a8f9890a9
+  legacyGuidAsIfcGlobalId: 0pFfpDTPjBke7DIpgFc92f
   localizations:
   - language: ja-JP
     name: 'Fan効率'
@@ -120,11 +142,21 @@ properties:
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: OverallEfficiency
   definition: Total efficiency of motor and fan.
-  ifdGuid: 3FtBlfUgjClPrq0Z$_hyLb
-  legacyGuid: 3FtBlfUgjClPrq0Z$_hyLb
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: cfdcbbe97aab4cbd9d74023ffeafc565
+  legacyGuidAsIfcGlobalId: 3FtBlfUgjClPrq0Z$_hyLb
   localizations:
   - language: ja-JP
     name: '全体効率'
@@ -151,11 +183,21 @@ properties:
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: FanPowerRate
   definition: Fan power consumption.
-  ifdGuid: 093kfWIJv1o8sbv5xehMVH
-  legacyGuid: 093kfWIJv1o8sbv5xehMVH
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 090eea60493e41c88da5e45ee8ad67d1
+  legacyGuidAsIfcGlobalId: 093kfWIJv1o8sbv5xehMVH
   localizations:
   - language: ja-JP
     name: 'Fan効率動力量'
@@ -182,11 +224,21 @@ properties:
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: ShaftPowerRate
   definition: Fan shaft power.
-  ifdGuid: 14wmk1yaz9iehWt1cImMuq
-  legacyGuid: 14wmk1yaz9iehWt1cImMuq
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 44eb0b81f24f49b28ae0dc1992c16e34
+  legacyGuidAsIfcGlobalId: 14wmk1yaz9iehWt1cImMuq
   localizations:
   - language: ja-JP
     name: '軸動力量'
@@ -213,11 +265,21 @@ properties:
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: DischargeVelocity
   definition: The speed at which air discharges from the fan through the fan housing discharge opening.
-  ifdGuid: 3nM2PKxRr9wfHPIgrQzats
-  legacyGuid: 3nM2PKxRr9wfHPIgrQzats
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: f1582654edbd49ea94594aad5af64df6
+  legacyGuidAsIfcGlobalId: 3nM2PKxRr9wfHPIgrQzats
   localizations:
   - language: ja-JP
     name: '吐出速度'
@@ -244,11 +306,21 @@ properties:
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: DischargePressureLoss
   definition: Fan discharge pressure loss associated with the discharge arrangement.
-  ifdGuid: 2YlVlfLgzFrhaqn2mwVs3y
-  legacyGuid: 2YlVlfLgzFrhaqn2mwVs3y
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: a2bdfbe956af4fd6b934c42c3a7f60fc
+  legacyGuidAsIfcGlobalId: 2YlVlfLgzFrhaqn2mwVs3y
   localizations:
   - language: ja-JP
     name: '吐出圧力損失'
@@ -275,11 +347,21 @@ properties:
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: DrivePowerLoss
   definition: Fan drive power losses associated with the type of connection between the motor and the fan wheel.
-  ifdGuid: 3zO4UwwSL5_g95XRRzYEyL
-  legacyGuid: 3zO4UwwSL5_g95XRRzYEyL
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: fd6047bae9c545faa24585b6fd88ef15
+  legacyGuidAsIfcGlobalId: 3zO4UwwSL5_g95XRRzYEyL
   localizations:
   - language: ja-JP
     name: '駆動電力損失'
@@ -306,4 +388,12 @@ properties:
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN

@@ -29,8 +29,10 @@ applicableIfcClasses:
 properties:
 - name: Temperature
   definition: PSet2YamlConverter.PropertyType
-  ifdGuid: 3Bw5L2Vz5DeAATs0TdVhIf
-  legacyGuid: 3Bw5L2Vz5DeAATs0TdVhIf
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: cbe855427fd14da0a29dd807677eb4a9
+  legacyGuidAsIfcGlobalId: 3Bw5L2Vz5DeAATs0TdVhIf
   localizations:
   - language: de-DE
     name: ''
@@ -57,11 +59,21 @@ properties:
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: WetBulbTemperature
   definition: PSet2YamlConverter.PropertyType
-  ifdGuid: 30J$B7lK58sesE0tH79del
-  legacyGuid: 30J$B7lK58sesE0tH79del
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: c04ff2c7bd4148da8d8e037447267a2f
+  legacyGuidAsIfcGlobalId: 30J$B7lK58sesE0tH79del
   localizations:
   - language: de-DE
     name: ''
@@ -88,11 +100,21 @@ properties:
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: VolumetricFlowRate
   definition: PSet2YamlConverter.PropertyType
-  ifdGuid: 1_ZeVmL9X3mAEUYAm$5rnk
-  legacyGuid: 1_ZeVmL9X3mAEUYAm$5rnk
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 7e8e87f0549843c0a39e88ac3f175c6e
+  legacyGuidAsIfcGlobalId: 1_ZeVmL9X3mAEUYAm$5rnk
   localizations:
   - language: de-DE
     name: ''
@@ -119,11 +141,21 @@ properties:
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: MassFlowRate
   definition: PSet2YamlConverter.PropertyType
-  ifdGuid: 2_Ce9CHon4wAjnpmQnq8Z9
-  legacyGuid: 2_Ce9CHon4wAjnpmQnq8Z9
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: be32824c472c44e8ab71cf06b1d088c9
+  legacyGuidAsIfcGlobalId: 2_Ce9CHon4wAjnpmQnq8Z9
   localizations:
   - language: de-DE
     name: ''
@@ -150,11 +182,21 @@ properties:
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: FlowCondition
   definition: PSet2YamlConverter.PropertyType
-  ifdGuid: 0vwzjJx0fC_vmMqxa_ItdJ
-  legacyGuid: 0vwzjJx0fC_vmMqxa_ItdJ
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 39ebdb53ec0a4cfb9c16d3b93e4b79d3
+  legacyGuidAsIfcGlobalId: 0vwzjJx0fC_vmMqxa_ItdJ
   localizations:
   - language: de-DE
     name: ''
@@ -181,11 +223,21 @@ properties:
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: Velocity
   definition: PSet2YamlConverter.PropertyType
-  ifdGuid: 20kOv3DPrDmhnl7ZnOP9ZX
-  legacyGuid: 20kOv3DPrDmhnl7ZnOP9ZX
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 80b98e43359d4dc2bc6f1e3c586498e1
+  legacyGuidAsIfcGlobalId: 20kOv3DPrDmhnl7ZnOP9ZX
   localizations:
   - language: de-DE
     name: ''
@@ -212,11 +264,21 @@ properties:
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: Pressure
   definition: PSet2YamlConverter.PropertyType
-  ifdGuid: 21I6029$T09OOx3TehMZSk
-  legacyGuid: 21I6029$T09OOx3TehMZSk
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 8148600227f74025863b0dda2b5a372e
+  legacyGuidAsIfcGlobalId: 21I6029$T09OOx3TehMZSk
   localizations:
   - language: de-DE
     name: ''
@@ -243,4 +305,12 @@ properties:
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN

@@ -30,8 +30,10 @@ applicableIfcClasses:
 properties:
 - name: Width
   definition: The width of the trench.
-  ifdGuid: 0D_R61gaP6BP8txrck9N12
-  legacyGuid: 0D_R61gaP6BP8txrck9N12
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 0df9b181aa46462d9237ef59ae257042
+  legacyGuidAsIfcGlobalId: 0D_R61gaP6BP8txrck9N12
   localizations:
   - language: ja-JP
     name: '長さ'
@@ -59,11 +61,21 @@ properties:
     measureType: ''
     unitType: LENGTHUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: Depth
   definition: The depth of the trench.
-  ifdGuid: 1MZiEXk6DDkf1KjadUE$bn
-  legacyGuid: 1MZiEXk6DDkf1KjadUE$bn
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 568ec3a1b8634dba9054b649de3bf971
+  legacyGuidAsIfcGlobalId: 1MZiEXk6DDkf1KjadUE$bn
   localizations:
   - language: ja-JP
     name: '幅'
@@ -91,11 +103,21 @@ properties:
     measureType: ''
     unitType: LENGTHUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: InvertLevel
   definition: Level of the lowest part of the cross section as measured from ground level.
-  ifdGuid: 0$Sji64I9Cgg_8V1NFWZ8h
-  legacyGuid: 0$Sji64I9Cgg_8V1NFWZ8h
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 3f72db0611224caaaf887c15cf82322b
+  legacyGuidAsIfcGlobalId: 0$Sji64I9Cgg_8V1NFWZ8h
   localizations:
   - language: ja-JP
     name: '最大深さ（？）'
@@ -123,4 +145,12 @@ properties:
     measureType: ''
     unitType: LENGTHUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN

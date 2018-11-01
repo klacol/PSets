@@ -49,8 +49,10 @@
     {
       "name": "HeatingDryBulb",
       "definition": "Outside dry bulb temperature for heating design.",
-      "ifdGuid": "3JJbX1RQ98p87fZ0zjn1M4",
-      "legacyGuid": "3JJbX1RQ98p87fZ0zjn1M4",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "d34e58416da248cc81e98c0f6dc41584",
+      "legacyGuidAsIfcGlobalId": "3JJbX1RQ98p87fZ0zjn1M4",
       "localizations": [
         {
           "language": "ja-JP",
@@ -94,14 +96,25 @@
         "unitType": "THERMODYNAMICTEMPERATUREUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "HeatingWetBulb",
       "definition": "Outside wet bulb temperature for heating design.",
-      "ifdGuid": "1GqFfP$iP3IAWZe3DCwYGO",
-      "legacyGuid": "1GqFfP$iP3IAWZe3DCwYGO",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "50d0fa59fec64348a823a0334cea2418",
+      "legacyGuidAsIfcGlobalId": "1GqFfP$iP3IAWZe3DCwYGO",
       "localizations": [
         {
           "language": "ja-JP",
@@ -145,14 +158,25 @@
         "unitType": "THERMODYNAMICTEMPERATUREUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "HeatingDesignDay",
       "definition": "The month, day and time that has been selected for the heating design calculations.",
-      "ifdGuid": "2XZV4R3cHCUwT_slwDikjM",
-      "legacyGuid": "2XZV4R3cHCUwT_slwDikjM",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "a18df11b0e644c7ba77edafe8db2eb56",
+      "legacyGuidAsIfcGlobalId": "2XZV4R3cHCUwT_slwDikjM",
       "localizations": [
         {
           "language": "ja-JP",
@@ -196,14 +220,25 @@
         "unitType": "USERDEFINED"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "CoolingDryBulb",
       "definition": "Outside dry bulb temperature for cooling design.",
-      "ifdGuid": "0vF0peIiXE1x5WX_GrB32a",
-      "legacyGuid": "0vF0peIiXE1x5WX_GrB32a",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "393c0ce84ac84e07b16087e4352c30a4",
+      "legacyGuidAsIfcGlobalId": "0vF0peIiXE1x5WX_GrB32a",
       "localizations": [
         {
           "language": "ja-JP",
@@ -247,14 +282,25 @@
         "unitType": "THERMODYNAMICTEMPERATUREUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "CoolingWetBulb",
       "definition": "Outside wet bulb temperature for cooling design.",
-      "ifdGuid": "1X7e3Jjw125hzbhcQdfn4O",
-      "legacyGuid": "1X7e3Jjw125hzbhcQdfn4O",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "611e80d3b7a04216bf65ae66a7a71118",
+      "legacyGuidAsIfcGlobalId": "1X7e3Jjw125hzbhcQdfn4O",
       "localizations": [
         {
           "language": "ja-JP",
@@ -298,14 +344,25 @@
         "unitType": "THERMODYNAMICTEMPERATUREUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "CoolingDesignDay",
       "definition": "The month, day  and time that has been selected for the cooling design calculations.",
-      "ifdGuid": "3fcYuytNTFne8k8bcN3j27",
-      "legacyGuid": "3fcYuytNTFne8k8bcN3j27",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "e99a2e3cdd774fc6822e2259970ed087",
+      "legacyGuidAsIfcGlobalId": "3fcYuytNTFne8k8bcN3j27",
       "localizations": [
         {
           "language": "ja-JP",
@@ -349,14 +406,25 @@
         "unitType": "USERDEFINED"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "WeatherDataStation",
       "definition": "The site weather data station description or reference to the data source from which weather data was obtained for use in calculations.",
-      "ifdGuid": "1kly8ikwr2teAqXwP_HZcX",
-      "legacyGuid": "1kly8ikwr2teAqXwP_HZcX",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "6ebfc22cbbad42de82b487a67e4639a1",
+      "legacyGuidAsIfcGlobalId": "1kly8ikwr2teAqXwP_HZcX",
       "localizations": [
         {
           "language": "ja-JP",
@@ -400,14 +468,25 @@
         "unitType": "USERDEFINED"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "WeatherDataDate",
       "definition": "The date for which the weather data was gathered.",
-      "ifdGuid": "2nGrx3y3bEsBNiZnIo7ZBk",
-      "legacyGuid": "2nGrx3y3bEsBNiZnIo7ZBk",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "b1435ec3f0394ed8b5ec8f14b21e32ee",
+      "legacyGuidAsIfcGlobalId": "2nGrx3y3bEsBNiZnIo7ZBk",
       "localizations": [
         {
           "language": "ja-JP",
@@ -451,14 +530,25 @@
         "unitType": "USERDEFINED"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "BuildingThermalExposure",
       "definition": "The thermal exposure expected by the building based on surrounding site conditions.",
-      "ifdGuid": "2NJnZHjCj63eN5RuIbdtc4",
-      "legacyGuid": "2NJnZHjCj63eN5RuIbdtc4",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "974f18d1b4cb460e85c56f84a59f7984",
+      "legacyGuidAsIfcGlobalId": "2NJnZHjCj63eN5RuIbdtc4",
       "localizations": [
         {
           "language": "ja-JP",
@@ -687,14 +777,25 @@
         ]
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "PrevailingWindDirection",
       "definition": "The prevailing wind angle direction measured from True North (0 degrees) in a clockwise direction.",
-      "ifdGuid": "1K7AR7IlX6Y8C8OxuIEACK",
-      "legacyGuid": "1K7AR7IlX6Y8C8OxuIEACK",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "541ca6c74af84688830863be1238a314",
+      "legacyGuidAsIfcGlobalId": "1K7AR7IlX6Y8C8OxuIEACK",
       "localizations": [
         {
           "language": "ja-JP",
@@ -738,14 +839,25 @@
         "unitType": "PLANEANGLEUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "PrevailingWindVelocity",
       "definition": "The design wind velocity coming from the direction specified by the PrevailingWindDirection attribute.",
-      "ifdGuid": "1_F2Qwe0PA3R4GOw35csB1",
-      "legacyGuid": "1_F2Qwe0PA3R4GOw35csB1",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "7e3c26baa0064a0db11063a0c59b62c1",
+      "legacyGuidAsIfcGlobalId": "1_F2Qwe0PA3R4GOw35csB1",
       "localizations": [
         {
           "language": "ja-JP",
@@ -789,7 +901,16 @@
         "unitType": "LINEARVELOCITYUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     }
   ]

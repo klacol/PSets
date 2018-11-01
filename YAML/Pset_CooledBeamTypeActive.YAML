@@ -30,8 +30,10 @@ applicableIfcClasses:
 properties:
 - name: AirFlowConfiguration
   definition: Air flow configuration type of cooled beam.
-  ifdGuid: 2AJ82SuEvDkxcoWFnm2$hx
-  legacyGuid: 2AJ82SuEvDkxcoWFnm2$hx
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 8a4c809ce0ee4dbbb9b280fc700bfafb
+  legacyGuidAsIfcGlobalId: 2AJ82SuEvDkxcoWFnm2$hx
   localizations:
   - language: de-DE
     name: ''
@@ -165,11 +167,21 @@ properties:
         name: 'Unknown'
         definition: ''
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: AirflowRateRange
   definition: Possible range of airflow that can be delivered.
-  ifdGuid: 1JQ7WlYbb7l9e7w4jWV8tR
-  legacyGuid: 1JQ7WlYbb7l9e7w4jWV8tR
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 5368782f8a5947bc9a07e84b607c8ddb
+  legacyGuidAsIfcGlobalId: 1JQ7WlYbb7l9e7w4jWV8tR
   localizations:
   - language: de-DE
     name: ''
@@ -195,11 +207,21 @@ properties:
     UpperBoundValue: '?'
     typeName: TypePropertyBoundedValue
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: SupplyAirConnectionType
   definition: The manner in which the pipe connection is made to the cooled beam.
-  ifdGuid: 1IZXw46rLDCg8Na1MHmHZf
-  legacyGuid: 1IZXw46rLDCg8Na1MHmHZf
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 528e1e841b554d32a217901591c118e9
+  legacyGuidAsIfcGlobalId: 1IZXw46rLDCg8Na1MHmHZf
   localizations:
   - language: de-DE
     name: ''
@@ -355,11 +377,21 @@ properties:
         name: 'Unknown'
         definition: ''
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: ConnectionSize
   definition: Duct connection diameter.
-  ifdGuid: 3Hjkk1uj1BZ8BAlhyVdM3r
-  legacyGuid: 3Hjkk1uj1BZ8BAlhyVdM3r
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: d1b6eb81e2d04b8c82cabebf1f9d60f5
+  legacyGuidAsIfcGlobalId: 3Hjkk1uj1BZ8BAlhyVdM3r
   localizations:
   - language: de-DE
     name: ''
@@ -384,4 +416,12 @@ properties:
     measureType: ''
     unitType: LENGTHUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN

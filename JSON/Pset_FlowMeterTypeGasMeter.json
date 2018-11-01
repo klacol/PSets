@@ -49,8 +49,10 @@
     {
       "name": "GasType",
       "definition": "Defines the types of gas that may be specified.",
-      "ifdGuid": "0IyM5eh5z59uJc$Qm5cH9$",
-      "legacyGuid": "0IyM5eh5z59uJc$Qm5cH9$",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "12f16168ac5f452784e6fdac0599127f",
+      "legacyGuidAsIfcGlobalId": "0IyM5eh5z59uJc$Qm5cH9$",
       "localizations": [
         {
           "language": "de-DE",
@@ -311,14 +313,25 @@
         ]
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "ConnectionSize",
       "definition": "Defines the size of inlet and outlet pipe connections to the meter.",
-      "ifdGuid": "1vmEplZQzBdfgQsH6lsLSr",
-      "legacyGuid": "1vmEplZQzBdfgQsH6lsLSr",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "79c0ecef8daf4b9e9a9ad911afd95735",
+      "legacyGuidAsIfcGlobalId": "1vmEplZQzBdfgQsH6lsLSr",
       "localizations": [
         {
           "language": "de-DE",
@@ -357,14 +370,25 @@
         "unitType": "LENGTHUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "MaximumFlowRate",
       "definition": "Maximum rate of flow which the meter is expected to pass.",
-      "ifdGuid": "2urgAyPJb9PuJ6__wIvg0g",
-      "legacyGuid": "2urgAyPJb9PuJ6__wIvg0g",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "b8d6a2bc6539496784c6fbee92e6a02a",
+      "legacyGuidAsIfcGlobalId": "2urgAyPJb9PuJ6__wIvg0g",
       "localizations": [
         {
           "language": "de-DE",
@@ -403,14 +427,25 @@
         "unitType": "VOLUMETRICFLOWRATEUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "MaximumPressureLoss",
       "definition": "Pressure loss expected across the meter under conditions of maximum flow.",
-      "ifdGuid": "2NhvdVY3T3v8njXZTqLmTA",
-      "legacyGuid": "2NhvdVY3T3v8njXZTqLmTA",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "97af99df883743e48c6d86377457074a",
+      "legacyGuidAsIfcGlobalId": "2NhvdVY3T3v8njXZTqLmTA",
       "localizations": [
         {
           "language": "de-DE",
@@ -449,7 +484,16 @@
         "unitType": "PRESSUREUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     }
   ]

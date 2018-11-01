@@ -49,6 +49,7 @@
     {
       "name": "RequestSourceLabel",
       "definition": "A specific name or label that further qualifies the identity of a request source. In the event of an email, this may be the email address.",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
       "ifdGuid": "3WcEc0qRmHuO00025QrE$V",
       "legacyGuid": "e098e980d1bc11e1800000215ad4efdf",
       "legacyGuidAsIfcGlobalId": "3WcEc0qRmHuO00025QrE$V",
@@ -90,12 +91,22 @@
         "unitType": "USERDEFINED"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "RequestSourceName",
       "definition": "The person making the request, where known.",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
       "ifdGuid": "",
       "legacyGuid": "57735433d37a4372b84c44a53ac146fa",
       "legacyGuidAsIfcGlobalId": "1NSrGpqtf3ShXCHAKwmKRw",
@@ -139,12 +150,22 @@
         "sectionref": "Core Schema"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "RequestComments",
       "definition": "Comments that may be made on the request.",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
       "ifdGuid": "",
       "legacyGuid": "9064f3bb6bff41bca862c7308a52500a",
       "legacyGuidAsIfcGlobalId": "2GPFExQ$z1lAXYnp2AKb0A",
@@ -186,7 +207,16 @@
         "unitType": "USERDEFINED"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     }
   ]

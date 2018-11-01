@@ -61,8 +61,10 @@
     {
       "name": "OccupancyType",
       "definition": "Occupancy type for this object. It is defined according to the presiding national building code.",
-      "ifdGuid": "1LagD9xanCxfde4hWPltoG",
-      "legacyGuid": "1LagD9xanCxfde4hWPltoG",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "5592a349ee4c4cee99e812b819bf7c90",
+      "legacyGuidAsIfcGlobalId": "1LagD9xanCxfde4hWPltoG",
       "localizations": [
         {
           "language": "de-DE",
@@ -101,14 +103,25 @@
         "unitType": "USERDEFINED"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "OccupancyNumber",
       "definition": "Number of people required for the activity assigned to this space.",
-      "ifdGuid": "0aFkJ0UTP73QxwoVWAxx_o",
-      "legacyGuid": "0aFkJ0UTP73QxwoVWAxx_o",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "243ee4c079d6470daefac9f80aefbfb2",
+      "legacyGuidAsIfcGlobalId": "0aFkJ0UTP73QxwoVWAxx_o",
       "localizations": [
         {
           "language": "de-DE",
@@ -147,14 +160,25 @@
         "unitType": "USERDEFINED"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "OccupancyNumberPeak",
       "definition": "Maximal number of people required for the activity assigned to this space in peak time.",
-      "ifdGuid": "2NYo_mSkzAof0sC_cNoyy0",
-      "legacyGuid": "2NYo_mSkzAof0sC_cNoyy0",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "978b2fb072ef4aca903633e997cbcf00",
+      "legacyGuidAsIfcGlobalId": "2NYo_mSkzAof0sC_cNoyy0",
       "localizations": [
         {
           "language": "de-DE",
@@ -193,14 +217,25 @@
         "unitType": "USERDEFINED"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "OccupancyTimePerDay",
       "definition": "The amount of time during the day that the activity is required within this space.",
-      "ifdGuid": "1NkUsFzkHESuEgwOVApFg0",
-      "legacyGuid": "1NkUsFzkHESuEgwOVApFg0",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "57b9ed8ff6e44e7383aae987caccfa80",
+      "legacyGuidAsIfcGlobalId": "1NkUsFzkHESuEgwOVApFg0",
       "localizations": [
         {
           "language": "de-DE",
@@ -239,14 +274,25 @@
         "unitType": "TIMEUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "AreaPerOccupant",
       "definition": "Design occupancy loading for this type of usage assigned to this space.",
-      "ifdGuid": "0jbQKpPvT3pQ$4V2AfD2ml",
-      "legacyGuid": "0jbQKpPvT3pQ$4V2AfD2ml",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "2d95a533679743cdafc47c22a9342c2f",
+      "legacyGuidAsIfcGlobalId": "0jbQKpPvT3pQ$4V2AfD2ml",
       "localizations": [
         {
           "language": "de-DE",
@@ -285,14 +331,25 @@
         "unitType": "AREAUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "MinimumHeadroom",
       "definition": "Headroom required for the activity assigned to this space.",
-      "ifdGuid": "0B9l9XEfH15QnrI5tlCG14",
-      "legacyGuid": "0B9l9XEfH15QnrI5tlCG14",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "0b26f2613a944115ac75485def310044",
+      "legacyGuidAsIfcGlobalId": "0B9l9XEfH15QnrI5tlCG14",
       "localizations": [
         {
           "language": "de-DE",
@@ -331,14 +388,25 @@
         "unitType": "LENGTHUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "IsOutlookDesirable",
       "definition": "An indication of whether the outlook is desirable (set TRUE) or not (set FALSE)",
-      "ifdGuid": "0vm3Q_Umr8dxHKFMEiCxep",
-      "legacyGuid": "0vm3Q_Umr8dxHKFMEiCxep",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "39c036be7b0d489fb4543d63ac33ba33",
+      "legacyGuidAsIfcGlobalId": "0vm3Q_Umr8dxHKFMEiCxep",
       "localizations": [
         {
           "language": "de-DE",
@@ -377,7 +445,16 @@
         "unitType": "USERDEFINED"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     }
   ]

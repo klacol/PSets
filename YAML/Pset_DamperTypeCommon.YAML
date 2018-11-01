@@ -30,8 +30,9 @@ applicableIfcClasses:
 properties:
 - name: Reference
   definition: Reference ID for this specified type in this project (e.g. type 'A-1'), provided, if there is no classification reference to a recognized classification system used.
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
   ifdGuid: ''
-  legacyGuid: ''
+  legacyGuidAsIfcGlobalId: ''
   localizations:
   - language: ja-JP
     name: '参照記号'
@@ -56,11 +57,20 @@ properties:
     measureType: ''
     unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: Status
   definition: Status of the element, predominately used in renovation or retrofitting projects. The status can be assigned to as "New" - element designed as new addition, "Existing" - element exists and remains, "Demolish" - element existed but is to be demolished,  "Temporary" - element will exists only temporary (like a temporary support structure).
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
   ifdGuid: ''
-  legacyGuid: ''
+  legacyGuidAsIfcGlobalId: ''
   localizations:
   - language: ja-JP
     name: '状態'
@@ -216,11 +226,21 @@ properties:
         name: 'Unknown'
         definition: ''
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: Operation
   definition: The operational mechanism for the damper operation.
-  ifdGuid: 0$uG6UKe93A9AAhcdLu3Pc
-  legacyGuid: 0$uG6UKe93A9AAhcdLu3Pc
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 3fe1019e52824328928aae69d5e03666
+  legacyGuidAsIfcGlobalId: 0$uG6UKe93A9AAhcdLu3Pc
   localizations:
   - language: de-DE
     name: ''
@@ -332,11 +352,21 @@ properties:
         name: 'Unknown'
         definition: ''
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: Orientation
   definition: The intended orientation for the damper as specified by the manufacturer.
-  ifdGuid: 1eMZ3AZLf3fBC1oo5zLTkx
-  legacyGuid: 1eMZ3AZLf3fBC1oo5zLTkx
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 685a30ca8d5a43a4b301cb217d55dbbb
+  legacyGuidAsIfcGlobalId: 1eMZ3AZLf3fBC1oo5zLTkx
   localizations:
   - language: de-DE
     name: ''
@@ -470,11 +500,21 @@ properties:
         name: 'Unknown'
         definition: ''
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: BladeMaterial
   definition: The material from which the damper blades are constructed.
-  ifdGuid: 1Y6zVG5zj3oROuJw0dZ4b_
-  legacyGuid: 1Y6zVG5zj3oROuJw0dZ4b_
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 621bd7d017db43c9b6384fa0278c497e
+  legacyGuidAsIfcGlobalId: 1Y6zVG5zj3oROuJw0dZ4b_
   localizations:
   - language: de-DE
     name: ''
@@ -500,11 +540,21 @@ properties:
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: BladeThickness
   definition: The thickness of the damper blade.
-  ifdGuid: 2SEM0SYTn8Xx$9EVjYdy7R
-  legacyGuid: 2SEM0SYTn8Xx$9EVjYdy7R
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 9c39601c89dc4887bfc939fb629fc1db
+  legacyGuidAsIfcGlobalId: 2SEM0SYTn8Xx$9EVjYdy7R
   localizations:
   - language: de-DE
     name: ''
@@ -529,11 +579,21 @@ properties:
     measureType: ''
     unitType: LENGTHUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: SealMaterial
   definition: The material from which the damper seals are constructed.
-  ifdGuid: 1Hnm7ozSj30AnEbCj1xc2d
-  legacyGuid: 1Hnm7ozSj30AnEbCj1xc2d
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 51c701f2f5cb4300ac4e94cb41ee60a7
+  legacyGuidAsIfcGlobalId: 1Hnm7ozSj30AnEbCj1xc2d
   localizations:
   - language: de-DE
     name: ''
@@ -559,11 +619,21 @@ properties:
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: BladeAction
   definition: Blade action.
-  ifdGuid: 316e2ugJf3gvTvUnNvTcQA
-  legacyGuid: 316e2ugJf3gvTvUnNvTcQA
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: c11a80b8a93a43ab97797b15f976668a
+  legacyGuidAsIfcGlobalId: 316e2ugJf3gvTvUnNvTcQA
   localizations:
   - language: de-DE
     name: ''
@@ -719,11 +789,21 @@ properties:
         name: 'Unknown'
         definition: ''
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: BladeShape
   definition: Blade shape. Flat means triple V-groove.
-  ifdGuid: 303LrGK_nDkAxk64sr9GxO
-  legacyGuid: 303LrGK_nDkAxk64sr9GxO
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: c00d5d5053ec4db8aeee184db5250ed8
+  legacyGuidAsIfcGlobalId: 303LrGK_nDkAxk64sr9GxO
   localizations:
   - language: de-DE
     name: ''
@@ -857,11 +937,21 @@ properties:
         name: 'Unknown'
         definition: ''
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: BladeEdge
   definition: Blade edge.
-  ifdGuid: 2ObWhVWwr8IfLJxABm5CqF
-  legacyGuid: 2ObWhVWwr8IfLJxABm5CqF
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 98960adf83ad484a9553eca2f014cd0f
+  legacyGuidAsIfcGlobalId: 2ObWhVWwr8IfLJxABm5CqF
   localizations:
   - language: de-DE
     name: ''
@@ -973,11 +1063,21 @@ properties:
         name: 'Unknown'
         definition: ''
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: NumberofBlades
   definition: Number of blades.
-  ifdGuid: 2JcK5hxGLBWPeJVuI9IJJz
-  legacyGuid: 2JcK5hxGLBWPeJVuI9IJJz
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 9399416bed054b819a137f84894934fd
+  legacyGuidAsIfcGlobalId: 2JcK5hxGLBWPeJVuI9IJJz
   localizations:
   - language: de-DE
     name: ''
@@ -1002,11 +1102,21 @@ properties:
     measureType: ''
     unitType: INTEGERCOUNTRATEUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: FaceArea
   definition: Face area open to the airstream.
-  ifdGuid: 2Vf7UqkRX7oRQRZ3WOnI4X
-  legacyGuid: 2Vf7UqkRX7oRQRZ3WOnI4X
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 9fa477b4b9b847c9b69b8c3818c52121
+  legacyGuidAsIfcGlobalId: 2Vf7UqkRX7oRQRZ3WOnI4X
   localizations:
   - language: de-DE
     name: ''
@@ -1031,11 +1141,21 @@ properties:
     measureType: ''
     unitType: AREAUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: MaximumAirFlowRate
   definition: Maximum allowable air flow rate.
-  ifdGuid: 0J_xFVsvj8l9SelWyfNK46
-  legacyGuid: 0J_xFVsvj8l9SelWyfNK46
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 13fbb3dfdb9b48bc9728be0f295d4106
+  legacyGuidAsIfcGlobalId: 0J_xFVsvj8l9SelWyfNK46
   localizations:
   - language: de-DE
     name: ''
@@ -1060,11 +1180,21 @@ properties:
     measureType: ''
     unitType: VOLUMETRICFLOWRATEUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: TemperatureRange
   definition: Temperature range.
-  ifdGuid: 309qkp8Mv6KAs2oo6TIhbZ
-  legacyGuid: 309qkp8Mv6KAs2oo6TIhbZ
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: c0274bb3216e4650ad82cb219d4ab963
+  legacyGuidAsIfcGlobalId: 309qkp8Mv6KAs2oo6TIhbZ
   localizations:
   - language: de-DE
     name: ''
@@ -1090,11 +1220,21 @@ properties:
     UpperBoundValue: '?'
     typeName: TypePropertyBoundedValue
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: MaximumWorkingPressure
   definition: Maximum working pressure.
-  ifdGuid: 2VpP3g3DPCpw64ZheqSFLu
-  legacyGuid: 2VpP3g3DPCpw64ZheqSFLu
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 9fcd90ea0cd64ccfa1848eba3470f578
+  legacyGuidAsIfcGlobalId: 2VpP3g3DPCpw64ZheqSFLu
   localizations:
   - language: de-DE
     name: ''
@@ -1119,11 +1259,21 @@ properties:
     measureType: ''
     unitType: PRESSUREUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: TemperatureRating
   definition: Temperature rating.
-  ifdGuid: 2Cz0Yhgtz1rxNVznDl5Equ
-  legacyGuid: 2Cz0Yhgtz1rxNVznDl5Equ
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 8cf408abab7f41d7b5dff7136f14ed38
+  legacyGuidAsIfcGlobalId: 2Cz0Yhgtz1rxNVznDl5Equ
   localizations:
   - language: de-DE
     name: ''
@@ -1148,11 +1298,21 @@ properties:
     measureType: ''
     unitType: THERMODYNAMICTEMPERATUREUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: NominalAirFlowRate
   definition: Nominal air flow rate.
-  ifdGuid: 0mOCzUHYr2nfTULxJjcUPn
-  legacyGuid: 0mOCzUHYr2nfTULxJjcUPn
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 3060cf5e462d42c6975e57b4ed99e671
+  legacyGuidAsIfcGlobalId: 0mOCzUHYr2nfTULxJjcUPn
   localizations:
   - language: de-DE
     name: ''
@@ -1177,11 +1337,21 @@ properties:
     measureType: ''
     unitType: VOLUMETRICFLOWRATEUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: OpenPressureDrop
   definition: Total pressure drop across damper.
-  ifdGuid: 0FL5ss1xz6l9MineqRuUdx
-  legacyGuid: 0FL5ss1xz6l9MineqRuUdx
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 0f545db607bf46bc95acc68d1be1e9fb
+  legacyGuidAsIfcGlobalId: 0FL5ss1xz6l9MineqRuUdx
   localizations:
   - language: de-DE
     name: ''
@@ -1206,11 +1376,21 @@ properties:
     measureType: ''
     unitType: PRESSUREUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: LeakageFullyClosed
   definition: Leakage when fully closed.
-  ifdGuid: 2cL5wX6XH1YP9x0381dlnG
-  legacyGuid: 2cL5wX6XH1YP9x0381dlnG
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: a6545ea11a144189927b0032019efc50
+  legacyGuidAsIfcGlobalId: 2cL5wX6XH1YP9x0381dlnG
   localizations:
   - language: de-DE
     name: ''
@@ -1235,11 +1415,21 @@ properties:
     measureType: ''
     unitType: VOLUMETRICFLOWRATEUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: LossCoefficentCurve
   definition: Loss coefficient – blade position angle curve; ratio of pressure drop to velocity pressure versus blade angle; C = f (blade angle position).
-  ifdGuid: 0Zd7G5fP11OhKoHf32EQOa
-  legacyGuid: 0Zd7G5fP11OhKoHf32EQOa
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 239c7405a5904162b5324690c239a624
+  legacyGuidAsIfcGlobalId: 0Zd7G5fP11OhKoHf32EQOa
   localizations:
   - language: de-DE
     name: ''
@@ -1270,11 +1460,21 @@ properties:
       measureType: ''
       unitType: PLANEANGLEUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: LeakageCurve
   definition: Leakage versus pressure drop; Leakage = f (pressure).
-  ifdGuid: 2yPP_xt5D1XO9bCHaZcvnc
-  legacyGuid: 2yPP_xt5D1XO9bCHaZcvnc
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: bc659fbbdc53418582653119239b9c66
+  legacyGuidAsIfcGlobalId: 2yPP_xt5D1XO9bCHaZcvnc
   localizations:
   - language: de-DE
     name: ''
@@ -1305,11 +1505,21 @@ properties:
       measureType: ''
       unitType: VOLUMETRICFLOWRATEUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: RegeneratedSoundCurve
   definition: Regenerated sound versus air flow rate.
-  ifdGuid: 1MLzrzndH0aP8$Fvq9vqZB
-  legacyGuid: 1MLzrzndH0aP8$Fvq9vqZB
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 5657dd7dc6744091923f3f9d09e748cb
+  legacyGuidAsIfcGlobalId: 1MLzrzndH0aP8$Fvq9vqZB
   localizations:
   - language: de-DE
     name: ''
@@ -1340,11 +1550,21 @@ properties:
       measureType: ''
       unitType: VOLUMETRICFLOWRATEUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: FrameType
   definition: The type of frame used by the damper (e.g., Standard, Single Flange, Single Reversed Flange, Double Flange, etc.).
-  ifdGuid: 2qs77n3fX0e8OBrHV25Qd6
-  legacyGuid: 2qs77n3fX0e8OBrHV25Qd6
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: b4d871f10e9840a0860bd517c215a9c6
+  legacyGuidAsIfcGlobalId: 2qs77n3fX0e8OBrHV25Qd6
   localizations:
   - language: de-DE
     name: ''
@@ -1369,11 +1589,21 @@ properties:
     measureType: ''
     unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: FrameDepth
   definition: The length (or depth) of the damper frame.
-  ifdGuid: 2OG3YdFdb7FAqccj$dVHzw
-  legacyGuid: 2OG3YdFdb7FAqccj$dVHzw
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 984038a73e79473cad269adfe77d1f7a
+  legacyGuidAsIfcGlobalId: 2OG3YdFdb7FAqccj$dVHzw
   localizations:
   - language: de-DE
     name: ''
@@ -1398,11 +1628,21 @@ properties:
     measureType: ''
     unitType: LENGTHUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: FrameMaterial
   definition: The material from which the damper frame is constructed.
-  ifdGuid: 3W3LJxnTjBTAfDFucPHr2T
-  legacyGuid: 3W3LJxnTjBTAfDFucPHr2T
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: e00d54fbc5db4b74aa4d3f899947509d
+  legacyGuidAsIfcGlobalId: 3W3LJxnTjBTAfDFucPHr2T
   localizations:
   - language: de-DE
     name: ''
@@ -1428,11 +1668,21 @@ properties:
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: FrameThickness
   definition: The thickness of the damper frame material.
-  ifdGuid: 0lZhmQYfn1yw8G0zZSeRpL
-  legacyGuid: 0lZhmQYfn1yw8G0zZSeRpL
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 2f8ebc1a8a9c41f3a21003d8dca1bcd5
+  legacyGuidAsIfcGlobalId: 0lZhmQYfn1yw8G0zZSeRpL
   localizations:
   - language: de-DE
     name: ''
@@ -1457,11 +1707,21 @@ properties:
     measureType: ''
     unitType: LENGTHUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: CloseOffRating
   definition: Close off rating.
-  ifdGuid: 2$we3Wlvz4f8mLKuQ_PtVX
-  legacyGuid: 2$we3Wlvz4f8mLKuQ_PtVX
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: bfea80e0bf9f44a48c155386be6777e1
+  legacyGuidAsIfcGlobalId: 2$we3Wlvz4f8mLKuQ_PtVX
   localizations:
   - language: de-DE
     name: ''
@@ -1486,4 +1746,12 @@ properties:
     measureType: ''
     unitType: PRESSUREUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN

@@ -30,8 +30,10 @@ applicableIfcClasses:
 properties:
 - name: IsNormallyOpen
   definition: If TRUE, the valve is normally open. If FALSE is is normally closed.
-  ifdGuid: 3EACUznkH5ruas8wMGtTgP
-  legacyGuid: 3EACUznkH5ruas8wMGtTgP
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: ce28c7bdc6e445d7893623a590ddda99
+  legacyGuidAsIfcGlobalId: 3EACUznkH5ruas8wMGtTgP
   localizations:
   - language: ja-JP
     name: 'ノーマルオープン'
@@ -56,11 +58,21 @@ properties:
     measureType: ''
     unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: IsolatingPurpose
   definition: Defines the purpose for which the isolating valve is used since the way in which the valve is identified as an isolating valve may be in the context of its use. Note that unless there is a contextual name for the isolating valve (as in the case of a Landing Valve on a rising fire main), then the value assigned shoulkd be UNSET.
-  ifdGuid: 0xxzel27LCKOrym57NOeok
-  legacyGuid: 0xxzel27LCKOrym57NOeok
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 3befda2f08754c518d7cc051d7628cae
+  legacyGuidAsIfcGlobalId: 0xxzel27LCKOrym57NOeok
   localizations:
   - language: ja-JP
     name: '遮断目的'
@@ -172,4 +184,12 @@ properties:
         name: 'Unknown'
         definition: ''
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN

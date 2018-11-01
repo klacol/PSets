@@ -49,8 +49,9 @@
     {
       "name": "Reference",
       "definition": "Reference ID for this specified type in this project (e.g. type 'A-1').",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
       "ifdGuid": "",
-      "legacyGuid": "",
+      "legacyGuidAsIfcGlobalId": "",
       "localizations": [
         {
           "language": "ja-JP",
@@ -89,14 +90,24 @@
         "unitType": "USERDEFINED"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "Status",
       "definition": "Status of the element, predominately used in renovation or retrofitting projects. The status can be assigned to as \"New\" - element designed as new addition, \"Existing\" - element exists and remains, \"Demolish\" - element existed but is to be demolished,  \"Temporary\" - element will exists only temporary (like a temporary support structure).",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
       "ifdGuid": "",
-      "legacyGuid": "",
+      "legacyGuidAsIfcGlobalId": "",
       "localizations": [
         {
           "language": "ja-JP",
@@ -357,14 +368,25 @@
         ]
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "MotorDriveType",
       "definition": "Motor drive type:DIRECTDRIVE: Direct drive. BELTDRIVE: Belt drive. COUPLING: Coupling. OTHER: Other type of motor drive. UNKNOWN: Unknown motor drive type.",
-      "ifdGuid": "3Hb5Cj1HPCBOyHEH5FW3Cy",
-      "legacyGuid": "3Hb5Cj1HPCBOyHEH5FW3Cy",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "d194532d05164c2d8f1139114f80333c",
+      "legacyGuidAsIfcGlobalId": "3Hb5Cj1HPCBOyHEH5FW3Cy",
       "localizations": [
         {
           "language": "ja-JP",
@@ -588,14 +610,25 @@
         ]
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "CapacityControlType",
       "definition": "InletVane: Control by adjusting inlet vane.VariableSpeedDrive: Control by variable speed drive. BladePitchAngle: Control by adjusting blade pitch angle.TwoSpeed: Control by switch between high and low speed.DischargeDamper: Control by modulating discharge damper.",
-      "ifdGuid": "129xEuF8XDCAt6f$QhPccm",
-      "legacyGuid": "129xEuF8XDCAt6f$QhPccm",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "4227b3b83c884d30adc6a7f6ab6669b0",
+      "legacyGuidAsIfcGlobalId": "129xEuF8XDCAt6f$QhPccm",
       "localizations": [
         {
           "language": "ja-JP",
@@ -893,14 +926,25 @@
         ]
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "OperationTemperatureRange",
       "definition": "Allowable operation ambient air temperature range.",
-      "ifdGuid": "2btaCFbuvBLhAPmXM$O1xq",
-      "legacyGuid": "2btaCFbuvBLhAPmXM$O1xq",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "a5de430f978e4b56b299c215bf601ef4",
+      "legacyGuidAsIfcGlobalId": "2btaCFbuvBLhAPmXM$O1xq",
       "localizations": [
         {
           "language": "ja-JP",
@@ -941,14 +985,25 @@
         "typeName": "TypePropertyBoundedValue"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "NominalAirFlowRate",
       "definition": "Nominal air flow rate.",
-      "ifdGuid": "2YoAmcLl57G8OSwMNogmWk",
-      "legacyGuid": "2YoAmcLl57G8OSwMNogmWk",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "a2c8ac2656f14740861ce965f2ab082e",
+      "legacyGuidAsIfcGlobalId": "2YoAmcLl57G8OSwMNogmWk",
       "localizations": [
         {
           "language": "ja-JP",
@@ -987,14 +1042,25 @@
         "unitType": "VOLUMETRICFLOWRATEUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "NominalTotalPressure",
       "definition": "Nominal total pressure rise across the fan.",
-      "ifdGuid": "2clNlP5bjAmA75pnIanQsr",
-      "legacyGuid": "2clNlP5bjAmA75pnIanQsr",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "a6bd7bd9165b4ac0a1c5cf14a4c5adb5",
+      "legacyGuidAsIfcGlobalId": "2clNlP5bjAmA75pnIanQsr",
       "localizations": [
         {
           "language": "ja-JP",
@@ -1033,14 +1099,25 @@
         "unitType": "PRESSUREUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "NominalStaticPressure",
       "definition": "The static pressure within the air stream that the fan must overcome to insure designed circulation of air.",
-      "ifdGuid": "1bZkCrKTzFtO8SoMwLXgfH",
-      "legacyGuid": "1bZkCrKTzFtO8SoMwLXgfH",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "658ee33551df4fdd821cc96e9586aa51",
+      "legacyGuidAsIfcGlobalId": "1bZkCrKTzFtO8SoMwLXgfH",
       "localizations": [
         {
           "language": "ja-JP",
@@ -1079,14 +1156,25 @@
         "unitType": "PRESSUREUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "NominalRotationSpeed",
       "definition": "Nominal fan wheel speed.",
-      "ifdGuid": "0I0Lzx9SL5bQoZHjfppKgI",
-      "legacyGuid": "0I0Lzx9SL5bQoZHjfppKgI",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "12015f7b25c54595aca346da73cd4a92",
+      "legacyGuidAsIfcGlobalId": "0I0Lzx9SL5bQoZHjfppKgI",
       "localizations": [
         {
           "language": "ja-JP",
@@ -1125,14 +1213,25 @@
         "unitType": "ROTATIONALFREQUENCYUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "NominalPowerRate",
       "definition": "Nominal fan power rate.",
-      "ifdGuid": "3ilewiyXz5dQ7TAUgF0VIu",
-      "legacyGuid": "3ilewiyXz5dQ7TAUgF0VIu",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "ecbe8eacf21f459da1dd29ea8f01f4b8",
+      "legacyGuidAsIfcGlobalId": "3ilewiyXz5dQ7TAUgF0VIu",
       "localizations": [
         {
           "language": "ja-JP",
@@ -1171,14 +1270,25 @@
         "unitType": "POWERUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "OperationalCriteria",
       "definition": "Time of operation at maximum operational ambient air temperature.",
-      "ifdGuid": "1wM8zGbuHChgMydEwUq7IQ",
-      "legacyGuid": "1wM8zGbuHChgMydEwUq7IQ",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "7a588f5097844caea5bc9cee9ed0749a",
+      "legacyGuidAsIfcGlobalId": "1wM8zGbuHChgMydEwUq7IQ",
       "localizations": [
         {
           "language": "ja-JP",
@@ -1217,14 +1327,24 @@
         "unitType": "TIMEUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "PressureCurve",
       "definition": "Pressure rise = f (flow rate).",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
       "ifdGuid": "",
-      "legacyGuid": "",
+      "legacyGuidAsIfcGlobalId": "",
       "localizations": [
         {
           "language": "de-DE",
@@ -1271,14 +1391,24 @@
         }
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "EfficiencyCurve",
       "definition": "Fan efficiency =f (flow rate).",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
       "ifdGuid": "",
-      "legacyGuid": "",
+      "legacyGuidAsIfcGlobalId": "",
       "localizations": [
         {
           "language": "de-DE",
@@ -1325,7 +1455,16 @@
         }
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     }
   ]

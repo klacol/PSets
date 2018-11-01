@@ -49,8 +49,10 @@
     {
       "name": "FountainType",
       "definition": "Selection of the type of fountain from the enumerated list of types where:-DrinkingWater: \tSanitary appliance that provides a low pressure jet of drinking water.Eyewash: \tWaste water appliance, usually installed in work places where there is a risk of injury to eyes by solid particles or dangerous liquids, with which the user can wash the eyes without touching them.",
-      "ifdGuid": "2gKDxST_fFIg_9Nm4_seuF",
-      "legacyGuid": "2gKDxST_fFIg_9Nm4_seuF",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "aa50dedc77ea4f4aaf895f013eda8e0f",
+      "legacyGuidAsIfcGlobalId": "2gKDxST_fFIg_9Nm4_seuF",
       "localizations": [
         {
           "language": "ja-JP",
@@ -237,14 +239,25 @@
         ]
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "Mounting",
       "definition": "Selection of the form of mounting of the fountain from the enumerated list of mountings where:-BackToWall: \tA pedestal mounted sanitary terminal that fits flush to the wall at the rear to cover its service connections.Pedestal: \tA floor mounted sanitary terminal that has an integral base.CounterTop: \tA sanitary terminal that is installed into a horizontal surface that is installed into a horizontal surface. Note: When applied to a wash hand basin, the term more normally used is ‘vanity’. See also Wash Hand Basin Type specification.WallHung: \tA sanitary terminal cantilevered clear of the floor.",
-      "ifdGuid": "2ZUqmg1R15ue$eqIRCtJ_0",
-      "legacyGuid": "2ZUqmg1R15ue$eqIRCtJ_0",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "a37b4c2a05b045e28fe8d126ccdd3f80",
+      "legacyGuidAsIfcGlobalId": "2ZUqmg1R15ue$eqIRCtJ_0",
       "localizations": [
         {
           "language": "ja-JP",
@@ -505,14 +518,25 @@
         ]
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "NominalLength",
       "definition": "Nominal or quoted length of the object.",
-      "ifdGuid": "2hX5pIcs1EcQ0H4xZ7DT5H",
-      "legacyGuid": "2hX5pIcs1EcQ0H4xZ7DT5H",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "ab845cd29b604e99a01113b8c735d151",
+      "legacyGuidAsIfcGlobalId": "2hX5pIcs1EcQ0H4xZ7DT5H",
       "localizations": [
         {
           "language": "ja-JP",
@@ -551,14 +575,25 @@
         "unitType": "LENGTHUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "NominalWidth",
       "definition": "Nominal or quoted width of the object.",
-      "ifdGuid": "0986AZNkv4Kgy7pcHEmElK",
-      "legacyGuid": "0986AZNkv4Kgy7pcHEmElK",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "092062a35eee4452af07ce644ec0ebd4",
+      "legacyGuidAsIfcGlobalId": "0986AZNkv4Kgy7pcHEmElK",
       "localizations": [
         {
           "language": "ja-JP",
@@ -597,14 +632,25 @@
         "unitType": "LENGTHUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "NominalDepth",
       "definition": "Nominal or quoted depth of the object.",
-      "ifdGuid": "3S5JAlepH0owow00kRMzrE",
-      "legacyGuid": "3S5JAlepH0owow00kRMzrE",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "dc1532afa33440cbacba000b9b5bdd4e",
+      "legacyGuidAsIfcGlobalId": "3S5JAlepH0owow00kRMzrE",
       "localizations": [
         {
           "language": "ja-JP",
@@ -643,14 +689,25 @@
         "unitType": "LENGTHUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "Color",
       "definition": "Color selection for this object.",
-      "ifdGuid": "2l7TbJySr1ducBOGSBN5hn",
-      "legacyGuid": "2l7TbJySr1ducBOGSBN5hn",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "af1dd953f1cd419f898b61070b5c5af1",
+      "legacyGuidAsIfcGlobalId": "2l7TbJySr1ducBOGSBN5hn",
       "localizations": [
         {
           "language": "ja-JP",
@@ -689,14 +746,25 @@
         "unitType": "USERDEFINED"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "DrainSize",
       "definition": "The size of the drain outlet connection from the object.",
-      "ifdGuid": "0$RZ4qy314DhELMV2e_fmJ",
-      "legacyGuid": "0$RZ4qy314DhELMV2e_fmJ",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "3f6e3134f0304436b39559f0a8fa9c13",
+      "legacyGuidAsIfcGlobalId": "0$RZ4qy314DhELMV2e_fmJ",
       "localizations": [
         {
           "language": "ja-JP",
@@ -735,7 +803,16 @@
         "unitType": "LENGTHUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     }
   ]

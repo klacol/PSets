@@ -49,8 +49,10 @@
     {
       "name": "PressureGaugeType",
       "definition": "Identifies the means by which pressure is displayed.",
-      "ifdGuid": "3qD4We6DL9i8bTDBrAbTS_",
-      "legacyGuid": "3qD4We6DL9i8bTDBrAbTS_",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "f434482818d549b0895d34bd4a95d73e",
+      "legacyGuidAsIfcGlobalId": "3qD4We6DL9i8bTDBrAbTS_",
       "localizations": [
         {
           "language": "ja-JP",
@@ -279,14 +281,25 @@
         ]
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "DisplaySize",
       "definition": "The physical size of the display. For a dial pressure gauge it will be the diameter of the dial.",
-      "ifdGuid": "09az2clwT3Ax1Ech2l6Xr0",
-      "legacyGuid": "09az2clwT3Ax1Ech2l6Xr0",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "0993d0a6bfa7432bb04e9ab0af1a1d40",
+      "legacyGuidAsIfcGlobalId": "09az2clwT3Ax1Ech2l6Xr0",
       "localizations": [
         {
           "language": "ja-JP",
@@ -330,7 +343,16 @@
         "unitType": "LENGTHUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     }
   ]

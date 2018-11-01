@@ -36,8 +36,10 @@ applicableIfcClasses:
 properties:
 - name: OccupancyDiversity
   definition: Diversity factor that may be applied to the number of people in the space.
-  ifdGuid: 1E1I1yydvAGuwuFef4TVj_
-  legacyGuid: 1E1I1yydvAGuwuFef4TVj_
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 4e05207cf27e4a438eb83e8a4475fb7e
+  legacyGuidAsIfcGlobalId: 1E1I1yydvAGuwuFef4TVj_
   localizations:
   - language: ja-JP
     name: '居住者の在室率'
@@ -65,11 +67,21 @@ properties:
     measureType: ''
     unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: OutsideAirPerPerson
   definition: Design quantity of outside air to be provided per person in the space.
-  ifdGuid: 3tD2Cy03H0cex9O2AXD1FY
-  legacyGuid: 3tD2Cy03H0cex9O2AXD1FY
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: f734233c0034409a8ec96022a13413e2
+  legacyGuidAsIfcGlobalId: 3tD2Cy03H0cex9O2AXD1FY
   localizations:
   - language: ja-JP
     name: '１人あたりの外気量'
@@ -97,11 +109,21 @@ properties:
     measureType: ''
     unitType: VOLUMETRICFLOWRATEUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: ReceptacleLoadIntensity
   definition: Average power use intensity of appliances and other non-HVAC equipment in the space per unit area.(PowerMeasure/IfcAreaMeasure).
-  ifdGuid: 3iuYgDEy96ofCk4RORBBWT
-  legacyGuid: 3iuYgDEy96ofCk4RORBBWT
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: ece22a8d3bc246ca932e11b61b2cb81d
+  legacyGuidAsIfcGlobalId: 3iuYgDEy96ofCk4RORBBWT
   localizations:
   - language: ja-JP
     name: '単位面積あたり事務機器の平均電力消費量'
@@ -129,11 +151,21 @@ properties:
     measureType: ''
     unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: AppliancePercentLoadToRadiant
   definition: Percent of sensible load to radiant heat.
-  ifdGuid: 3Y1OuyqPz1EeckZOeA4Cm3
-  legacyGuid: 3Y1OuyqPz1EeckZOeA4Cm3
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: e2058e3cd19f413a89ae8d8a0a10cc03
+  legacyGuidAsIfcGlobalId: 3Y1OuyqPz1EeckZOeA4Cm3
   localizations:
   - language: ja-JP
     name: '放射熱のうち顕熱分の割合'
@@ -161,11 +193,21 @@ properties:
     measureType: ''
     unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: LightingLoadIntensity
   definition: Average lighting load intensity in the space per unit area (PowerMeasure/IfcAreaMeasure).
-  ifdGuid: 19dgnbbe56NeL9lr3V5o9m
-  legacyGuid: 19dgnbbe56NeL9lr3V5o9m
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 499eac659681465e8549bf50df172270
+  legacyGuidAsIfcGlobalId: 19dgnbbe56NeL9lr3V5o9m
   localizations:
   - language: ja-JP
     name: '照明負荷率'
@@ -193,11 +235,21 @@ properties:
     measureType: ''
     unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: LightingPercentLoadToReturnAir
   definition: Percent of lighting load to the return air plenum.
-  ifdGuid: 1gvTvTUuvEzxBsvqQs4_Pa
-  legacyGuid: 1gvTvTUuvEzxBsvqQs4_Pa
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 6ae5de5d7b8e4ef7b2f6e746b613e664
+  legacyGuidAsIfcGlobalId: 1gvTvTUuvEzxBsvqQs4_Pa
   localizations:
   - language: ja-JP
     name: 'リタン空気への照明機器の放熱率'
@@ -225,4 +277,12 @@ properties:
     measureType: ''
     unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN

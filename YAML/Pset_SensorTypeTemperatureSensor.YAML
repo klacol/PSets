@@ -30,8 +30,10 @@ applicableIfcClasses:
 properties:
 - name: TemperatureSensorType
   definition: Enumeration that Identifies the types of temperature sensor that can be specified.
-  ifdGuid: 28bpMfUCX7POY$PlVPFuRM
-  legacyGuid: 28bpMfUCX7POY$PlVPFuRM
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 889735a978c8476588bf66f7d93f86d6
+  legacyGuidAsIfcGlobalId: 28bpMfUCX7POY$PlVPFuRM
   localizations:
   - language: ja-JP
     name: '温度センサータイプ'
@@ -212,11 +214,21 @@ properties:
         name: 'Unknown'
         definition: ''
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: SetPointTemperature
   definition: The temperature value to be sensed. Use IfcPropertyBoundedValue.SetPointValue to set the set point value.
-  ifdGuid: 2x54fxNvr8jRxFOM7Ou8u_
-  legacyGuid: 2x54fxNvr8jRxFOM7Ou8u_
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: bb144a7b5f9d48b5becf6161d8e08e3e
+  legacyGuidAsIfcGlobalId: 2x54fxNvr8jRxFOM7Ou8u_
   localizations:
   - language: ja-JP
     name: '温度設定値'
@@ -245,4 +257,12 @@ properties:
     UpperBoundValue: '?'
     typeName: TypePropertyBoundedValue
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN

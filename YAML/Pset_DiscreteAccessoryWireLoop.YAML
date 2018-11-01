@@ -32,8 +32,10 @@ applicableIfcClasses:
 properties:
 - name: WireLoopBasePlateThickness
   definition: The thickness of the base plate.
-  ifdGuid: 0EyLDVyLr2xujC95rGo1xj
-  legacyGuid: 0EyLDVyLr2xujC95rGo1xj
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 0ef1535ff15d42ef8b4c245d50c81eed
+  legacyGuidAsIfcGlobalId: 0EyLDVyLr2xujC95rGo1xj
   localizations:
   - language: ja-JP
     name: 'ベースプレート厚'
@@ -61,11 +63,21 @@ properties:
     measureType: ''
     unitType: LENGTHUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: WireLoopBasePlateWidth
   definition: The width of the base plate.
-  ifdGuid: 1NFWB1GfjCTQAoxbGekmDv
-  legacyGuid: 1NFWB1GfjCTQAoxbGekmDv
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 573e02c1429b4c75a2b2ee5428bb0379
+  legacyGuidAsIfcGlobalId: 1NFWB1GfjCTQAoxbGekmDv
   localizations:
   - language: ja-JP
     name: 'ベースプレート幅'
@@ -93,11 +105,21 @@ properties:
     measureType: ''
     unitType: LENGTHUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: WireLoopBasePlateLength
   definition: The length of the base plate.
-  ifdGuid: 3BWXDk0b99XQv4AC94W2iu
-  legacyGuid: 3BWXDk0b99XQv4AC94W2iu
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: cb82136e02524985ae4428c244802b38
+  legacyGuidAsIfcGlobalId: 3BWXDk0b99XQv4AC94W2iu
   localizations:
   - language: ja-JP
     name: 'ベースプレート長さ'
@@ -125,11 +147,21 @@ properties:
     measureType: ''
     unitType: LENGTHUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: WireDiameter
   definition: The nominal diameter of the wire.
-  ifdGuid: 0Ljf2cdif5jBggGbgTvaaC
-  legacyGuid: 0Ljf2cdif5jBggGbgTvaaC
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 15b690a69eca45b4baaa425a9de6490c
+  legacyGuidAsIfcGlobalId: 0Ljf2cdif5jBggGbgTvaaC
   localizations:
   - language: ja-JP
     name: 'ワイヤー径'
@@ -157,11 +189,21 @@ properties:
     measureType: ''
     unitType: LENGTHUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: WireEmbeddingLength
   definition: The length of the part of wire which is embedded in the precast concrete element.
-  ifdGuid: 2POsszB1fAYPMhyHTmNSO4
-  legacyGuid: 2POsszB1fAYPMhyHTmNSO4
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 99636dbd2c1a4a8995abf117705dc604
+  legacyGuidAsIfcGlobalId: 2POsszB1fAYPMhyHTmNSO4
   localizations:
   - language: ja-JP
     name: '埋め込み長さ'
@@ -189,11 +231,21 @@ properties:
     measureType: ''
     unitType: LENGTHUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: WireLoopLength
   definition: The length of the fastening loop part of the wire.
-  ifdGuid: 31RA6amWbCrARN3WazaTRk
-  legacyGuid: 31RA6amWbCrARN3WazaTRk
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: c16ca1a4c2094cd4a6d70e093d91d6ee
+  legacyGuidAsIfcGlobalId: 31RA6amWbCrARN3WazaTRk
   localizations:
   - language: ja-JP
     name: '留め具長さ'
@@ -221,4 +273,12 @@ properties:
     measureType: ''
     unitType: LENGTHUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN

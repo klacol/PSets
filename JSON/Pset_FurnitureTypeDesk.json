@@ -49,8 +49,10 @@
     {
       "name": "WorksurfaceArea",
       "definition": "The value of the work surface area of the desk.",
-      "ifdGuid": "2CZBMLzM9EWvB_VUu1DjWC",
-      "legacyGuid": "2CZBMLzM9EWvB_VUu1DjWC",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "8c8cb595f5624e8392fe7dee0136d80c",
+      "legacyGuidAsIfcGlobalId": "2CZBMLzM9EWvB_VUu1DjWC",
       "localizations": [
         {
           "language": "de-DE",
@@ -89,7 +91,16 @@
         "unitType": "AREAUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     }
   ]

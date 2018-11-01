@@ -49,8 +49,10 @@
     {
       "name": "Description",
       "definition": "Description of the reinforcement.",
-      "ifdGuid": "3$B0XblUH0nATmJdvJQMpM",
-      "legacyGuid": "3$B0XblUH0nATmJdvJQMpM",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "ff2c0865bde440c4a7704e7e53696cd6",
+      "legacyGuidAsIfcGlobalId": "3$B0XblUH0nATmJdvJQMpM",
       "localizations": [
         {
           "language": "ja-JP",
@@ -89,14 +91,25 @@
         "unitType": "USERDEFINED"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "Reference",
       "definition": "A descriptive label for the general reinforcement type.",
-      "ifdGuid": "2OqH4N_CX4ugR5h4vhH5Yt",
-      "legacyGuid": "2OqH4N_CX4ugR5h4vhH5Yt",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "98d11117f8c844e2a6c5ac4e6b4458b7",
+      "legacyGuidAsIfcGlobalId": "2OqH4N_CX4ugR5h4vhH5Yt",
       "localizations": [
         {
           "language": "ja-JP",
@@ -135,14 +148,25 @@
         "unitType": "USERDEFINED"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "LongOutsideTopBarPitch",
       "definition": "The pitch length of the long outside top bar.",
-      "ifdGuid": "1H_vC476v5WAviriiA1kAA",
-      "legacyGuid": "1H_vC476v5WAviriiA1kAA",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "51fb93041c6e4580ae6cd6cb0a06e28a",
+      "legacyGuidAsIfcGlobalId": "1H_vC476v5WAviriiA1kAA",
       "localizations": [
         {
           "language": "ja-JP",
@@ -181,14 +205,25 @@
         "unitType": "LENGTHUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "LongInsideCenterTopBarPitch",
       "definition": "The pitch length of the long inside center top bar.",
-      "ifdGuid": "0pHzBasab7RB1m9H6l$UEW",
-      "legacyGuid": "0pHzBasab7RB1m9H6l$UEW",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "3347d2e4da49476cb0702511affde3a0",
+      "legacyGuidAsIfcGlobalId": "0pHzBasab7RB1m9H6l$UEW",
       "localizations": [
         {
           "language": "ja-JP",
@@ -227,14 +262,25 @@
         "unitType": "LENGTHUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "LongInsideEndTopBarPitch",
       "definition": "The pitch length of the long inside end top bar.",
-      "ifdGuid": "0Fe7Tlbu931uRY4leoh118",
-      "legacyGuid": "0Fe7Tlbu931uRY4leoh118",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "0fa0776f9782430786e212fa32ac1048",
+      "legacyGuidAsIfcGlobalId": "0Fe7Tlbu931uRY4leoh118",
       "localizations": [
         {
           "language": "ja-JP",
@@ -273,14 +319,25 @@
         "unitType": "LENGTHUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "ShortOutsideTopBarPitch",
       "definition": "The pitch length of the short outside top bar.",
-      "ifdGuid": "04ODZrrXf06fWgvaByyxij",
-      "legacyGuid": "04ODZrrXf06fWgvaByyxij",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "0460d8f5d61a401a982ae642fcf3bb2d",
+      "legacyGuidAsIfcGlobalId": "04ODZrrXf06fWgvaByyxij",
       "localizations": [
         {
           "language": "ja-JP",
@@ -319,14 +376,25 @@
         "unitType": "LENGTHUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "ShortInsideCenterTopBarPitch",
       "definition": "The pitch length of the short inside center top bar.",
-      "ifdGuid": "2Dfl_2QVXC8hp94AvZujCc",
-      "legacyGuid": "2Dfl_2QVXC8hp94AvZujCc",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "8da6ff8269f84c22bcc910ae63e2d326",
+      "legacyGuidAsIfcGlobalId": "2Dfl_2QVXC8hp94AvZujCc",
       "localizations": [
         {
           "language": "ja-JP",
@@ -365,14 +433,25 @@
         "unitType": "LENGTHUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "ShortInsideEndTopBarPitch",
       "definition": "The pitch length of the short inside end top bar.",
-      "ifdGuid": "0BVhD_YZH9BxbVq9gZVQg6",
-      "legacyGuid": "0BVhD_YZH9BxbVq9gZVQg6",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "0b7eb37e8a34492fb95fd09aa37daa86",
+      "legacyGuidAsIfcGlobalId": "0BVhD_YZH9BxbVq9gZVQg6",
       "localizations": [
         {
           "language": "ja-JP",
@@ -411,14 +490,25 @@
         "unitType": "LENGTHUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "LongOutsideLowerBarPitch",
       "definition": "The pitch length of the long outside lower bar.",
-      "ifdGuid": "0zPYuHNvr9AAAy$1XwI9HI",
-      "legacyGuid": "0zPYuHNvr9AAAy$1XwI9HI",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "3d662e115f9d4928a2bcfc187a489452",
+      "legacyGuidAsIfcGlobalId": "0zPYuHNvr9AAAy$1XwI9HI",
       "localizations": [
         {
           "language": "ja-JP",
@@ -457,14 +547,25 @@
         "unitType": "LENGTHUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "LongInsideCenterLowerBarPitch",
       "definition": "The pitch length of the long inside center lower bar.",
-      "ifdGuid": "1cO7AdAx9EJeWd6xV2V14B",
-      "legacyGuid": "1cO7AdAx9EJeWd6xV2V14B",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "666072a72bb24e4e88271bb7c27c110b",
+      "legacyGuidAsIfcGlobalId": "1cO7AdAx9EJeWd6xV2V14B",
       "localizations": [
         {
           "language": "ja-JP",
@@ -503,14 +604,25 @@
         "unitType": "LENGTHUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "LongInsideEndLowerBarPitch",
       "definition": "The pitch length of the long inside end lower bar.",
-      "ifdGuid": "2HQrOwHU91aPsF9fjWGZSk",
-      "legacyGuid": "2HQrOwHU91aPsF9fjWGZSk",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "916b563a45e241919d8f269b6042372e",
+      "legacyGuidAsIfcGlobalId": "2HQrOwHU91aPsF9fjWGZSk",
       "localizations": [
         {
           "language": "ja-JP",
@@ -549,14 +661,25 @@
         "unitType": "LENGTHUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "ShortOutsideLowerBarPitch",
       "definition": "The pitch length of the short outside lower bar.",
-      "ifdGuid": "19i2U3kCTELB5AARVajqB5",
-      "legacyGuid": "19i2U3kCTELB5AARVajqB5",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "49b02783b8c74e54b14a29b7e4b742c5",
+      "legacyGuidAsIfcGlobalId": "19i2U3kCTELB5AARVajqB5",
       "localizations": [
         {
           "language": "ja-JP",
@@ -595,14 +718,25 @@
         "unitType": "LENGTHUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "ShortInsideCenterLowerBarPitch",
       "definition": "The pitch length of the short inside center lower bar.",
-      "ifdGuid": "3wIbJsm_zBiA7i0yl7G6ye",
-      "legacyGuid": "3wIbJsm_zBiA7i0yl7G6ye",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "fa4a54f6c3ef4bb0a1ec03cbc7406f28",
+      "legacyGuidAsIfcGlobalId": "3wIbJsm_zBiA7i0yl7G6ye",
       "localizations": [
         {
           "language": "ja-JP",
@@ -641,14 +775,25 @@
         "unitType": "LENGTHUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "ShortInsideEndLowerBarPitch",
       "definition": "The pitch length of the short inside end lower bar.",
-      "ifdGuid": "3aZftLGIrFd93FYxwqu7YP",
-      "legacyGuid": "3aZftLGIrFd93FYxwqu7YP",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "e48e9dd5412d4f9c90cf8bbeb4e07899",
+      "legacyGuidAsIfcGlobalId": "3aZftLGIrFd93FYxwqu7YP",
       "localizations": [
         {
           "language": "ja-JP",
@@ -687,7 +832,16 @@
         "unitType": "LENGTHUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     }
   ]

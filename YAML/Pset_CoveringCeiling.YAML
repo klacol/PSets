@@ -32,8 +32,10 @@ applicableIfcClasses:
 properties:
 - name: Permeability
   definition: Ratio of the permeability of the ceiling.The ration can be used to indicate an open ceiling (that enables identification of whether ceiling construction should be considered as impeding distribution of sprinkler water, light etc. from installations within the ceiling area).
-  ifdGuid: 2ynFkjyNn0swH7BEyijjpL
-  legacyGuid: 2ynFkjyNn0swH7BEyijjpL
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: bcc4fbadf17c40dba4472cef2cb6dcd5
+  legacyGuidAsIfcGlobalId: 2ynFkjyNn0swH7BEyijjpL
   localizations:
   - language: de-DE
     name: 'Durchlässigkeit'
@@ -61,11 +63,21 @@ properties:
     measureType: ''
     unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: TileLength
   definition: Length of ceiling tiles. The size information is provided in addition to the shape representation and the geometric parameters used within. In cases of inconsistency between the geometric parameters and the size properties, provided in the attached property set, the geometric parameters take precedence.
-  ifdGuid: 1GJPi804j9xvSH_C8V9oKV
-  legacyGuid: 1GJPi804j9xvSH_C8V9oKV
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 504d9b08004b49ef9711f8c21f27251f
+  legacyGuidAsIfcGlobalId: 1GJPi804j9xvSH_C8V9oKV
   localizations:
   - language: de-DE
     name: 'Deckenplattenlänge'
@@ -93,11 +105,21 @@ properties:
     measureType: ''
     unitType: LENGTHUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: TileWidth
   definition: Width of ceiling tiles. The size information is provided in addition to the shape representation and the geometric parameters used within. In cases of inconsistency between the geometric parameters and the size properties, provided in the attached property set, the geometric parameters take precedence.
-  ifdGuid: 0KbjnV9un6RhWTVdnD8Ahj
-  legacyGuid: 0KbjnV9un6RhWTVdnD8Ahj
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 1496dc5f278c466eb81d7e7c4d20aaed
+  legacyGuidAsIfcGlobalId: 0KbjnV9un6RhWTVdnD8Ahj
   localizations:
   - language: de-DE
     name: 'Deckenplattenbreite'
@@ -125,4 +147,12 @@ properties:
     measureType: ''
     unitType: LENGTHUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN

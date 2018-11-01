@@ -30,8 +30,9 @@ applicableIfcClasses:
 properties:
 - name: Reference
   definition: Reference ID for this specified type in this project (e.g. type 'A-1').
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
   ifdGuid: ''
-  legacyGuid: ''
+  legacyGuidAsIfcGlobalId: ''
   localizations:
   - language: ja-JP
     name: '参照記号'
@@ -56,11 +57,20 @@ properties:
     measureType: ''
     unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: Status
   definition: Status of the element, predominately used in renovation or retrofitting projects. The status can be assigned to as "New" - element designed as new addition, "Existing" - element exists and remains, "Demolish" - element existed but is to be demolished,  "Temporary" - element will exists only temporary (like a temporary support structure).
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
   ifdGuid: ''
-  legacyGuid: ''
+  legacyGuidAsIfcGlobalId: ''
   localizations:
   - language: ja-JP
     name: '状態'
@@ -216,11 +226,21 @@ properties:
         name: 'Unknown'
         definition: ''
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: AccessType
   definition: Defines the types of access (or cover) to a tank that may be specified.Note that covers are generally specified for rectangular tanks. For cylindrical tanks, access will normally be via a manhole.
-  ifdGuid: 0ddhOXtkr04vaR_39qNvt3
-  legacyGuid: 0ddhOXtkr04vaR_39qNvt3
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 279eb621deed4013991bf832745f9dc3
+  legacyGuidAsIfcGlobalId: 0ddhOXtkr04vaR_39qNvt3
   localizations:
   - language: ja-JP
     name: '点検タイプ'
@@ -398,11 +418,20 @@ properties:
         name: 'Unknown'
         definition: ''
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: StorageType
   definition: Defines the general material category intended to be stored.
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
   ifdGuid: ''
-  legacyGuid: ''
+  legacyGuidAsIfcGlobalId: ''
   localizations:
   - language: ja-JP
     name: '貯蔵タイプ'
@@ -624,11 +653,21 @@ properties:
         name: 'Unknown'
         definition: ''
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: NominalLengthOrDiameter
   definition: The nominal length or, in the case of a vertical cylindrical tank, the nominal diameter of the tank.
-  ifdGuid: 2eWVxKALjFTBxZwnoistFV
-  legacyGuid: 2eWVxKALjFTBxZwnoistFV
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: a881fed4295b4f74bee3eb1cacdb73df
+  legacyGuidAsIfcGlobalId: 2eWVxKALjFTBxZwnoistFV
   localizations:
   - language: ja-JP
     name: '公称長さ又は直径'
@@ -653,11 +692,21 @@ properties:
     measureType: ''
     unitType: LENGTHUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: NominalWidthOrDiameter
   definition: 'The nominal width or, in the case of a horizontal cylindrical tank, the nominal diameter of the tank.Note: Not required for a vertical cylindrical tank.'
-  ifdGuid: 1U2gPh59z58e$zEp73FoXp
-  legacyGuid: 1U2gPh59z58e$zEp73FoXp
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 5e0aa66b149f45228ffd3b31c33f2873
+  legacyGuidAsIfcGlobalId: 1U2gPh59z58e$zEp73FoXp
   localizations:
   - language: ja-JP
     name: '公称幅又は直径'
@@ -682,11 +731,21 @@ properties:
     measureType: ''
     unitType: LENGTHUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: NominalDepth
   definition: 'The nominal depth of the tank.Note: Not required for a horizontal cylindrical tank.'
-  ifdGuid: 1bkQORpKv03fXNn8q0O09v
-  legacyGuid: 1bkQORpKv03fXNn8q0O09v
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 65b9a61bcd4e400e9857c48d00600279
+  legacyGuidAsIfcGlobalId: 1bkQORpKv03fXNn8q0O09v
   localizations:
   - language: ja-JP
     name: '公称深さ'
@@ -711,11 +770,21 @@ properties:
     measureType: ''
     unitType: LENGTHUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: NominalCapacity
   definition: The total nominal or design volumetric capacity of the tank.
-  ifdGuid: 3IbXqopEHBAf$g5W91NC8F
-  legacyGuid: 3IbXqopEHBAf$g5W91NC8F
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: d2961d32cce44b2a9fea1602415cc20f
+  legacyGuidAsIfcGlobalId: 3IbXqopEHBAf$g5W91NC8F
   localizations:
   - language: ja-JP
     name: '公称容量'
@@ -740,11 +809,21 @@ properties:
     measureType: ''
     unitType: VOLUMEUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: EffectiveCapacity
   definition: The total effective or actual volumetric capacity of the tank.
-  ifdGuid: 2Gqd5X8Br76v1v_kD_rFa9
-  legacyGuid: 2Gqd5X8Br76v1v_kD_rFa9
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 90d2716120bd471b9079fae37ed4f909
+  legacyGuidAsIfcGlobalId: 2Gqd5X8Br76v1v_kD_rFa9
   localizations:
   - language: ja-JP
     name: '有効容量'
@@ -769,11 +848,21 @@ properties:
     measureType: ''
     unitType: VOLUMEUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: OperatingWeight
   definition: Operating weight of the tank including all of its contents.
-  ifdGuid: 1MC7tXmgf5hQ4J4LtM1VLP
-  legacyGuid: 1MC7tXmgf5hQ4J4LtM1VLP
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 56307de1c2aa45ada113115dd605f559
+  legacyGuidAsIfcGlobalId: 1MC7tXmgf5hQ4J4LtM1VLP
   localizations:
   - language: ja-JP
     name: '運転重量'
@@ -798,11 +887,21 @@ properties:
     measureType: ''
     unitType: MASSUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: PatternType
   definition: Defines the types of pattern (or shape of a tank that may be specified.
-  ifdGuid: 0NZGJd74T3U9FmEhB6yOSb
-  legacyGuid: 0NZGJd74T3U9FmEhB6yOSb
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 178d04e71c47437893f03ab2c6f18725
+  legacyGuidAsIfcGlobalId: 0NZGJd74T3U9FmEhB6yOSb
   localizations:
   - language: ja-JP
     name: 'パターンタイプ'
@@ -936,11 +1035,21 @@ properties:
         name: 'Unknown'
         definition: ''
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: EndShapeType
   definition: Defines the types of end shapes that can be used for preformed tanks. The convention for reading these enumerated values is that for a vertical cylinder, the first value is the base and the second is the top; for a horizontal cylinder, the order of reading should be left to right. For a speherical tank, the value UNSET should be used.
-  ifdGuid: 0FeVxJrXj4pRaRAJk9Net0
-  legacyGuid: 0FeVxJrXj4pRaRAJk9Net0
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 0fa1fed3d61b44cdb91b293b895e8dc0
+  legacyGuidAsIfcGlobalId: 0FeVxJrXj4pRaRAJk9Net0
   localizations:
   - language: ja-JP
     name: '末端形状タイプ'
@@ -1118,11 +1227,21 @@ properties:
         name: 'Unknown'
         definition: ''
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: FirstCurvatureRadius
   definition: FirstCurvatureRadius should be defined as the base or left side radius of curvature value.
-  ifdGuid: 2XU54mVkjCvwAHSdhVKoHt
-  legacyGuid: 2XU54mVkjCvwAHSdhVKoHt
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: a17851307eeb4ce7a291727adf532477
+  legacyGuidAsIfcGlobalId: 2XU54mVkjCvwAHSdhVKoHt
   localizations:
   - language: ja-JP
     name: '最初の曲率半径'
@@ -1147,11 +1266,21 @@ properties:
     measureType: ''
     unitType: LENGTHUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: SecondCurvatureRadius
   definition: SecondCurvatureRadius should be defined as the top or right side radius of curvature value.
-  ifdGuid: 0N9IMuy1D35BcntHUhe_K6
-  legacyGuid: 0N9IMuy1D35BcntHUhe_K6
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 172525b8f0134314b9b1dd17aba3e506
+  legacyGuidAsIfcGlobalId: 0N9IMuy1D35BcntHUhe_K6
   localizations:
   - language: ja-JP
     name: '2番目の曲率半径'
@@ -1176,11 +1305,21 @@ properties:
     measureType: ''
     unitType: LENGTHUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: NumberOfSections
   definition: 'Number of sections used in the construction of the tank. Default is 1.Note: All sections assumed to be the same size.'
-  ifdGuid: 0BiTjU1BfABRWaYB_Wn6Xq
-  legacyGuid: 0BiTjU1BfABRWaYB_Wn6Xq
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 0bb1db5e04ba4a2db82488bfa0c46874
+  legacyGuidAsIfcGlobalId: 0BiTjU1BfABRWaYB_Wn6Xq
   localizations:
   - language: ja-JP
     name: 'セクションの数'
@@ -1205,4 +1344,12 @@ properties:
     measureType: ''
     unitType: INTEGERCOUNTRATEUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN

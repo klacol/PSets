@@ -32,8 +32,10 @@ applicableIfcClasses:
 properties:
 - name: LandID
   definition: Identification number assigned by the statutory registration authority to a land parcel.
-  ifdGuid: 3lsZgcIF11LP1dXuPxAsv3
-  legacyGuid: 3lsZgcIF11LP1dXuPxAsv3
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: efda3aa648f04155906787867b2b6e43
+  legacyGuidAsIfcGlobalId: 3lsZgcIF11LP1dXuPxAsv3
   localizations:
   - language: fr-FR
     name: 'Identifiant parcelle'
@@ -61,11 +63,21 @@ properties:
     measureType: ''
     unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: IsPermanentID
   definition: Indicates whether the identity assigned to a land parcel is permanent (= TRUE) or temporary (=FALSE).
-  ifdGuid: 2Xuug8TWLBARRT1IF36ITk
-  legacyGuid: 2Xuug8TWLBARRT1IF36ITk
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: a1e38a8876054b29b6dd0523c319276e
+  legacyGuidAsIfcGlobalId: 2Xuug8TWLBARRT1IF36ITk
   localizations:
   - language: fr-FR
     name: 'Identifiant permanent'
@@ -93,11 +105,21 @@ properties:
     measureType: ''
     unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: LandTitleID
   definition: Identification number assigned by the statutory registration authority to the title to a land parcel.
-  ifdGuid: 1yq$9H9fj1NRXIkwAn0Q7u
-  legacyGuid: 1yq$9H9fj1NRXIkwAn0Q7u
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 7cd3f251269b415db852bba2b101a1f8
+  legacyGuidAsIfcGlobalId: 1yq$9H9fj1NRXIkwAn0Q7u
   localizations:
   - language: fr-FR
     name: 'Identifiant titre parcelle'
@@ -125,4 +147,12 @@ properties:
     measureType: ''
     unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN

@@ -30,8 +30,10 @@ applicableIfcClasses:
 properties:
 - name: ParkingUse
   definition: Identifies the type of transporation for which the parking space is designed. Values are not predefined but might include car, compact car, motorcycle, bicycle, truck, bus etc.
-  ifdGuid: 2dzyb_jLXEMvg7HbWLhPXn
-  legacyGuid: 2dzyb_jLXEMvg7HbWLhPXn
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: a7f7c97eb5584e5b9a87465815ad9871
+  legacyGuidAsIfcGlobalId: 2dzyb_jLXEMvg7HbWLhPXn
   localizations:
   - language: fr-FR
     name: 'Usage du parking'
@@ -56,11 +58,21 @@ properties:
     measureType: ''
     unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: ParkingUnits
   definition: Indicates the number of transporation units of the type specified by the property ParkingUse that may be accommodated within the space. Generally, this value should default to 1 unit. However, where the parking space is for motorcycles or bicycles, provision may be made for more than one unit in the space.
-  ifdGuid: 0bL$cH3hj2UeyNS6K1Zlu8
-  legacyGuid: 0bL$cH3hj2UeyNS6K1Zlu8
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 2557f9910ebb427a8f177065018efe08
+  legacyGuidAsIfcGlobalId: 0bL$cH3hj2UeyNS6K1Zlu8
   localizations:
   - language: fr-FR
     name: 'Nombre unités'
@@ -85,11 +97,20 @@ properties:
     measureType: ''
     unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: IsAisle
   definition: Indicates that this parking zone is for accessing the parking units, i.e. an aisle (TRUE) and not a parking unit itself (FALSE)
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
   ifdGuid: ''
-  legacyGuid: ''
+  legacyGuidAsIfcGlobalId: ''
   localizations:
   - language: fr-FR
     name: 'Est un accès'
@@ -114,11 +135,20 @@ properties:
     measureType: ''
     unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: IsOneWay
   definition: Indicates whether the parking aisle is designed for oneway traffic (TRUE) or twoway traffic (FALSE). Should only be provided if the property IsAisle is set to TRUE.
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
   ifdGuid: ''
-  legacyGuid: ''
+  legacyGuidAsIfcGlobalId: ''
   localizations:
   - language: fr-FR
     name: 'Sens unique'
@@ -143,4 +173,12 @@ properties:
     measureType: ''
     unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN

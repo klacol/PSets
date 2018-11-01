@@ -30,8 +30,10 @@ applicableIfcClasses:
 properties:
 - name: Length
   definition: The length of the pit.
-  ifdGuid: 1g5pZ31SfFBQKi69yieWgW
-  legacyGuid: 1g5pZ31SfFBQKi69yieWgW
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 6a1738c305ca4f2da52c189f2ca20aa0
+  legacyGuidAsIfcGlobalId: 1g5pZ31SfFBQKi69yieWgW
   localizations:
   - language: ja-JP
     name: '長さ'
@@ -59,11 +61,21 @@ properties:
     measureType: ''
     unitType: LENGTHUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: Width
   definition: The width of the pit.
-  ifdGuid: 0geYUs6uDCFvipp_2qMiSN
-  legacyGuid: 0geYUs6uDCFvipp_2qMiSN
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 2aa227b61b834c3f9b33cfe0b45ac717
+  legacyGuidAsIfcGlobalId: 0geYUs6uDCFvipp_2qMiSN
   localizations:
   - language: ja-JP
     name: '幅'
@@ -91,11 +103,21 @@ properties:
     measureType: ''
     unitType: LENGTHUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: Depth
   definition: The depth of the pit.
-  ifdGuid: 2HOuA7DwzBVhRyweGYFokL
-  legacyGuid: 2HOuA7DwzBVhRyweGYFokL
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 9163828737af4b7eb6fcea84223f2b95
+  legacyGuidAsIfcGlobalId: 2HOuA7DwzBVhRyweGYFokL
   localizations:
   - language: ja-JP
     name: '深さ'
@@ -123,4 +145,12 @@ properties:
     measureType: ''
     unitType: LENGTHUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN

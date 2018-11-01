@@ -49,8 +49,10 @@
     {
       "name": "ElectronicTrippingUnitType",
       "definition": "A list of the available types of electronic tripping unit  from which that required may be selected.",
-      "ifdGuid": "2JkD6IHjXCQRieGSzJLrbW",
-      "legacyGuid": "2JkD6IHjXCQRieGSzJLrbW",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "93b8d19246d84c69bb2841cf53575960",
+      "legacyGuidAsIfcGlobalId": "2JkD6IHjXCQRieGSzJLrbW",
       "localizations": [
         {
           "language": "ja-JP",
@@ -353,14 +355,25 @@
         ]
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "NominalCurrents",
       "definition": "A set of values providing information on available modules (chips) for setting the nominal current of the protective device. Ifthe set is empty, no nominal current modules are available for the tripping unit.",
-      "ifdGuid": "2FpqVgFqH58BgeEnKXLJ_d",
-      "legacyGuid": "2FpqVgFqH58BgeEnKXLJ_d",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "8fcf47ea3f444520baa83b1521553fa7",
+      "legacyGuidAsIfcGlobalId": "2FpqVgFqH58BgeEnKXLJ_d",
       "localizations": [
         {
           "language": "ja-JP",
@@ -404,14 +417,25 @@
         "unitType": "USERDEFINED"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "N_Protection",
       "definition": "An indication whether the electronic tripping unit has separate protection for the N conductor, or not.",
-      "ifdGuid": "12lnSWxz56PALoBDcptjjA",
-      "legacyGuid": "12lnSWxz56PALoBDcptjjA",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "42bf1720efd14664a5722cd9b3dedb4a",
+      "legacyGuidAsIfcGlobalId": "12lnSWxz56PALoBDcptjjA",
       "localizations": [
         {
           "language": "ja-JP",
@@ -455,14 +479,25 @@
         "unitType": "USERDEFINED"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "N_Protection_50",
       "definition": "An indication whether the electronic tripping unit is tripping if the current in the N conductor is more than 50% of that of the phase conductors. The property is only asserted if the property N_Protection is asserted.",
-      "ifdGuid": "0Od7hiYbbDDB6E6uKg4SRb",
-      "legacyGuid": "0Od7hiYbbDDB6E6uKg4SRb",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "189c7aec8a594d34b18e1b852a11c6e5",
+      "legacyGuidAsIfcGlobalId": "0Od7hiYbbDDB6E6uKg4SRb",
       "localizations": [
         {
           "language": "ja-JP",
@@ -506,14 +541,25 @@
         "unitType": "USERDEFINED"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "N_Protection_100",
       "definition": "An indication whether the electronic tripping unit is tripping if the current in the N conductor is more than 100% of that of the phase conductors. The property is only asserted if the property N_Protection is asserted.",
-      "ifdGuid": "1JOtKFQafB_xdEqQr2XEzu",
-      "legacyGuid": "1JOtKFQafB_xdEqQr2XEzu",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "5363750f6a4a4bfbb9ced1ad4284ef78",
+      "legacyGuidAsIfcGlobalId": "1JOtKFQafB_xdEqQr2XEzu",
       "localizations": [
         {
           "language": "ja-JP",
@@ -557,14 +603,25 @@
         "unitType": "USERDEFINED"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "N_Protection_Select",
       "definition": "An indication whether the use of the N_Protection can be selected by the user or not. If both the properties N_Protection_50 and N_Protection_100 are asserted, the value of N_Protection_Select property is set to TRUE. The property is only asserted if the property N_Protection is asserted.",
-      "ifdGuid": "3IFuhpQvnCN9zbCFFySzZx",
-      "legacyGuid": "3IFuhpQvnCN9zbCFFySzZx",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "d23f8af36b9c4c5c9f6530f3fc73d8fb",
+      "legacyGuidAsIfcGlobalId": "3IFuhpQvnCN9zbCFFySzZx",
       "localizations": [
         {
           "language": "ja-JP",
@@ -608,7 +665,16 @@
         "unitType": "USERDEFINED"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     }
   ]

@@ -30,8 +30,10 @@ applicableIfcClasses:
 properties:
 - name: SinkType
   definition: 'Selection of the type of sink from the enumerated list of types where:-Belfast: 	Deep sink that has a plain edge and a weir overflow.Bucket: 	Sink at low level, with protected front edge, that facilitates filling and emptying buckets, usually with a hinged grid on which to stand them.Cleaners:	 Sink, usually fixed at normal height (900mm), with protected front edge.Combination_Left:	 Sink with integral drainer on left hand side.Combination_Right: Sink with integral drainer on right hand side.Combination_Double: 	Sink with integral drainer on both sides.Drip: Small sink that catches drips or flow from a faucet.Laboratory: Sink, of acid resisting material, with a top edge shaped to facilitate fixing to the underside of a desktop.London: Deep sink that has a plain edge and no overflow.Plaster: Sink with sediment receiver to prevent waste plaster passing into drains.Pot: Large metal sink, with a standing waste, for washing cooking utensils.Rinsing: Metal sink in which water can be heated and culinary utensils and tableware immersed at high temperature that destroys most harmful bacteria and allows subsequent self drying..Shelf: Ceramic sink with an integral back shelf through which water fittings are mounted.VegetablePreparation: 	Large metal sink, with a standing waste, for washing and preparing vegetables.'
-  ifdGuid: 3SyHVN1qfFMhRlrlJ8YIF_
-  legacyGuid: 3SyHVN1qfFMhRlrlJ8YIF_
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: dcf117d7074a4f5ab6efd6f4c88923fe
+  legacyGuidAsIfcGlobalId: 3SyHVN1qfFMhRlrlJ8YIF_
   localizations:
   - language: ja-JP
     name: 'シンクの種類'
@@ -407,11 +409,21 @@ properties:
         name: 'Unknown'
         definition: ''
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: Mounting
   definition: 'Selection of the form of mounting of the sink from the enumerated list of mountings where:-BackToWall: A pedestal mounted sanitary terminal that fits flush to the wall at the rear to cover its service connections.Pedestal: 	A floor mounted sanitary terminal that has an integral base.CounterTop: 	A sanitary terminal that is installed into a horizontal surface that is installed into a horizontal surface. Note: When applied to a wash hand basin, the term more normally used is ‘vanity’. See also Wash Hand Basin Type specification.WallHung: 	A sanitary terminal cantilevered clear of the floor.'
-  ifdGuid: 0Swn2oJl510A_X4Gz34b6R
-  legacyGuid: 0Swn2oJl510A_X4Gz34b6R
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 1ceb10b24ef14100afa1110f4312519b
+  legacyGuidAsIfcGlobalId: 0Swn2oJl510A_X4Gz34b6R
   localizations:
   - language: ja-JP
     name: '設置'
@@ -567,11 +579,21 @@ properties:
         name: 'Unknown'
         definition: ''
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: NominalLength
   definition: Nominal or quoted length of the object.
-  ifdGuid: 0x5fqxOan0nBQFy8GCp9dn
-  legacyGuid: 0x5fqxOan0nBQFy8GCp9dn
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 3b169d3b624c40c4b68ff0840ccc99f1
+  legacyGuidAsIfcGlobalId: 0x5fqxOan0nBQFy8GCp9dn
   localizations:
   - language: ja-JP
     name: '長さ'
@@ -596,11 +618,21 @@ properties:
     measureType: ''
     unitType: LENGTHUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: NominalWidth
   definition: Nominal or quoted width of the object.
-  ifdGuid: 2YPgOINO9DcA48M3SKN6MB
-  legacyGuid: 2YPgOINO9DcA48M3SKN6MB
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: a266a6125d824d98a1085837145c658b
+  legacyGuidAsIfcGlobalId: 2YPgOINO9DcA48M3SKN6MB
   localizations:
   - language: ja-JP
     name: '幅'
@@ -625,11 +657,21 @@ properties:
     measureType: ''
     unitType: LENGTHUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: NominalDepth
   definition: Nominal or quoted depth of the object.
-  ifdGuid: 1kawmjckn6XvFv0h83Bev1
-  legacyGuid: 1kawmjckn6XvFv0h83Bev1
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 6e93ac2d9aec468793f902b2032e8e41
+  legacyGuidAsIfcGlobalId: 1kawmjckn6XvFv0h83Bev1
   localizations:
   - language: ja-JP
     name: '深さ'
@@ -654,11 +696,21 @@ properties:
     measureType: ''
     unitType: LENGTHUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: Color
   definition: Color selection for this object.
-  ifdGuid: 1ygxe3uW5FhuINzcaCXXu0
-  legacyGuid: 1ygxe3uW5FhuINzcaCXXu0
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 7cabba03e2014faf8497f6690c861e00
+  legacyGuidAsIfcGlobalId: 1ygxe3uW5FhuINzcaCXXu0
   localizations:
   - language: ja-JP
     name: '色'
@@ -683,11 +735,21 @@ properties:
     measureType: ''
     unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: DrainSize
   definition: The size of the drain outlet connection from the object.
-  ifdGuid: 11wflodrj4VvsBPS9eyRCa
-  legacyGuid: 11wflodrj4VvsBPS9eyRCa
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 41ea9bf29f5b447f9d8b65c268f1b324
+  legacyGuidAsIfcGlobalId: 11wflodrj4VvsBPS9eyRCa
   localizations:
   - language: ja-JP
     name: '管径'
@@ -712,11 +774,21 @@ properties:
     measureType: ''
     unitType: LENGTHUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: MountingOffset
   definition: For cunter top maounted sinks, the vertical offset between the top of the sink and the counter top.
-  ifdGuid: 0osPhdCO1FTudEB0sWFh4p
-  legacyGuid: 0osPhdCO1FTudEB0sWFh4p
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 32d99ae731804f7789ce2c0da03eb133
+  legacyGuidAsIfcGlobalId: 0osPhdCO1FTudEB0sWFh4p
   localizations:
   - language: ja-JP
     name: '据付補正'
@@ -741,4 +813,12 @@ properties:
     measureType: ''
     unitType: LENGTHUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN

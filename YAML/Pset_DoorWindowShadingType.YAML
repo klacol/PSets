@@ -44,8 +44,9 @@ applicableIfcClasses:
 properties:
 - name: ShadingCoefficient
   definition: Reduction of the Solar Heat Gain Coefficient (SHGC) value (equal to the g-value in Europe) of the glazing by applying a shading device. Commonly known as Fc (or previously z-Value). The total Radiation Transmittance g<total> = g * Fc. The reduction coefficient is given as a unitless value between 0 and 1; the lower the shading coefficient (SC) the less solar heat it transmits.
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
   ifdGuid: ''
-  legacyGuid: ''
+  legacyGuidAsIfcGlobalId: ''
   localizations:
   - language: de-DE
     name: 'German-name-0'
@@ -73,11 +74,21 @@ properties:
     measureType: ''
     unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: ExternalShadingCoefficient
   definition: Radiation transmission coefficient of the outside shading device. It is a value without unit.
-  ifdGuid: 2RiBHumdbFV9gO7cAgaygi
-  legacyGuid: 2RiBHumdbFV9gO7cAgaygi
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 9bb0b478c2794f7c9a981e62aa93caac
+  legacyGuidAsIfcGlobalId: 2RiBHumdbFV9gO7cAgaygi
   localizations:
   - language: de-DE
     name: 'German-name-1'
@@ -105,11 +116,21 @@ properties:
     measureType: ''
     unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: InternalShadingCoefficient
   definition: Radiation transmission coefficient of the inside shading device, symbol "b-value". It is a value without unit.
-  ifdGuid: 3GLfVijNT8ovpt_m9GxZ4m
-  legacyGuid: 3GLfVijNT8ovpt_m9GxZ4m
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: d05697ecb57748cb9cf7fb0250ee3130
+  legacyGuidAsIfcGlobalId: 3GLfVijNT8ovpt_m9GxZ4m
   localizations:
   - language: de-DE
     name: 'German-name-2'
@@ -137,11 +158,21 @@ properties:
     measureType: ''
     unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: InsetShadingCoefficient
   definition: Radiation transmission coefficient of the shading device inside the glazing, symbol "b-value". It is a value without unit.
-  ifdGuid: 16fGJJgED6PhaHiRoPc8zU
-  legacyGuid: 16fGJJgED6PhaHiRoPc8zU
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 46a504d3a8e34666b911b1bc99988f5e
+  legacyGuidAsIfcGlobalId: 16fGJJgED6PhaHiRoPc8zU
   localizations:
   - language: de-DE
     name: 'German-name-3'
@@ -169,4 +200,12 @@ properties:
     measureType: ''
     unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN

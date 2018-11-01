@@ -49,8 +49,9 @@
     {
       "name": "FireFightingLift",
       "definition": "Indication whether the elevator is designed to serve as a fire fighting lift the case of fire (TRUE) or not (FALSE). A fire fighting lift is used by fire fighters to access the location of fire and to evacuate people.",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
       "ifdGuid": "",
-      "legacyGuid": "",
+      "legacyGuidAsIfcGlobalId": "",
       "localizations": [
         {
           "language": "de-DE",
@@ -89,14 +90,25 @@
         "unitType": "USERDEFINED"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "ClearWidth",
       "definition": "Clear width of the object (elevator). It indicates the distance from the inner surfaces of the elevator car left and right from the elevator door. The shape information is provided in addition to the shape representation and the geometric parameters used within. In cases of inconsistency between the geometric parameters and the shape properties, provided in the attached property, the geometric parameters take precedence.",
-      "ifdGuid": "0cEog$KALEBf7OoXL73G6E",
-      "legacyGuid": "0cEog$KALEBf7OoXL73G6E",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "263b2abf50a54e2e91d8ca15470d018e",
+      "legacyGuidAsIfcGlobalId": "0cEog$KALEBf7OoXL73G6E",
       "localizations": [
         {
           "language": "fr-FR",
@@ -135,14 +147,25 @@
         "unitType": "LENGTHUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "ClearDepth",
       "definition": "Clear depth of the object (elevator). It indicates the distance from the inner surface of the elevator door to the opposite surface of the elevator car. The shape information is provided in addition to the shape representation and the geometric parameters used within. In cases of inconsistency between the geometric parameters and the shape properties, provided in the attached property, the geometric parameters take precedence.",
-      "ifdGuid": "3GZ9P79VvBY9U_50cogjxy",
-      "legacyGuid": "3GZ9P79VvBY9U_50cogjxy",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "d08c964725fe4b8897be1409b2aadefc",
+      "legacyGuidAsIfcGlobalId": "3GZ9P79VvBY9U_50cogjxy",
       "localizations": [
         {
           "language": "fr-FR",
@@ -181,14 +204,25 @@
         "unitType": "LENGTHUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "ClearHeight",
       "definition": "Clear height of the object (elevator).  The shape information is provided in addition to the shape representation and the geometric parameters used within. In cases of inconsistency between the geometric parameters and the shape properties, provided in the attached property, the geometric parameters take precedence.",
-      "ifdGuid": "0vm$ej4jPAs8nmoHPCgGep",
-      "legacyGuid": "0vm$ej4jPAs8nmoHPCgGep",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "39c3fa2d12d64ad88c70c9164ca90a33",
+      "legacyGuidAsIfcGlobalId": "0vm$ej4jPAs8nmoHPCgGep",
       "localizations": [
         {
           "language": "fr-FR",
@@ -227,7 +261,16 @@
         "unitType": "LENGTHUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     }
   ]

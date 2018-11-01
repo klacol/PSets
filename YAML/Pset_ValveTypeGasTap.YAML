@@ -30,8 +30,10 @@ applicableIfcClasses:
 properties:
 - name: HasHoseUnion
   definition: Indicates whether the gas tap is fitted with a hose union connection (= TRUE) or not (= FALSE).
-  ifdGuid: 1_ZJfcuc155h6XhE6o0Sug
-  legacyGuid: 1_ZJfcuc155h6XhE6o0Sug
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 7e8d3a66e2604516b1a1ace1b201ce2a
+  legacyGuidAsIfcGlobalId: 1_ZJfcuc155h6XhE6o0Sug
   localizations:
   - language: ja-JP
     name: 'ホースユニオン付き'
@@ -56,4 +58,12 @@ properties:
     measureType: ''
     unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN

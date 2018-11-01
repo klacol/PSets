@@ -49,8 +49,10 @@
     {
       "name": "NumberOfSections",
       "definition": "Number of sections used in the construction of the tankNote: All sections assumed to be the same size.",
-      "ifdGuid": "02PTQm7xf5sRf$$UQ19P6A",
-      "legacyGuid": "02PTQm7xf5sRf$$UQ19P6A",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "0265d6b01fba45d9ba7ffde68125918a",
+      "legacyGuidAsIfcGlobalId": "02PTQm7xf5sRf$$UQ19P6A",
       "localizations": [
         {
           "language": "ja-JP",
@@ -89,14 +91,25 @@
         "unitType": "INTEGERCOUNTRATEUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "SectionLength",
       "definition": "The length of a section used in the construction of the tank.",
-      "ifdGuid": "0qn$dqzKfBHgLq7LYFFKbw",
-      "legacyGuid": "0qn$dqzKfBHgLq7LYFFKbw",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "34c7f9f4f54a4b46a5741d588f3d497a",
+      "legacyGuidAsIfcGlobalId": "0qn$dqzKfBHgLq7LYFFKbw",
       "localizations": [
         {
           "language": "ja-JP",
@@ -135,14 +148,25 @@
         "unitType": "LENGTHUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "SectionWidth",
       "definition": "The width of a section used in the construction of the tank.",
-      "ifdGuid": "0Z8eiQzdL2kfESzFwzwe$R",
-      "legacyGuid": "0Z8eiQzdL2kfESzFwzwe$R",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "23228b1af67542ba939cf4febdea8fdb",
+      "legacyGuidAsIfcGlobalId": "0Z8eiQzdL2kfESzFwzwe$R",
       "localizations": [
         {
           "language": "ja-JP",
@@ -181,7 +205,16 @@
         "unitType": "LENGTHUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     }
   ]

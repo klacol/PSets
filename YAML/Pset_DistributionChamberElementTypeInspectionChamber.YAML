@@ -30,8 +30,10 @@ applicableIfcClasses:
 properties:
 - name: ChamberLengthOrRadius
   definition: Length or, in the event of the shape being circular in plan, the radius of the chamber.
-  ifdGuid: 06C4uFPRn3kRJLEYfA5tdV
-  legacyGuid: 06C4uFPRn3kRJLEYfA5tdV
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 06304e0f65bc43b9b4d53a2a4a1779df
+  legacyGuidAsIfcGlobalId: 06C4uFPRn3kRJLEYfA5tdV
   localizations:
   - language: ja-JP
     name: 'チャンバー（バイブスペース？）の長さあるいは半径'
@@ -59,11 +61,21 @@ properties:
     measureType: ''
     unitType: LENGTHUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: ChamberWidth
   definition: Width, in the event of the shape being non circular in plan.
-  ifdGuid: 1kRjwjPPvA4RzJraAQNxzl
-  legacyGuid: 1kRjwjPPvA4RzJraAQNxzl
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 6e6edead659e4a11bf53d6429a5fbf6f
+  legacyGuidAsIfcGlobalId: 1kRjwjPPvA4RzJraAQNxzl
   localizations:
   - language: ja-JP
     name: 'チャンバー（バイブスペース？）の幅'
@@ -91,11 +103,21 @@ properties:
     measureType: ''
     unitType: LENGTHUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: InvertLevel
   definition: Level of the lowest part of the cross section as measured from ground level.
-  ifdGuid: 2pd4$QIxH19uMjtXKbYZeR
-  legacyGuid: 2pd4$QIxH19uMjtXKbYZeR
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: b39c4fda4bb4412785adde15258a3a1b
+  legacyGuidAsIfcGlobalId: 2pd4$QIxH19uMjtXKbYZeR
   localizations:
   - language: ja-JP
     name: '最大深さ（？）'
@@ -123,11 +145,21 @@ properties:
     measureType: ''
     unitType: LENGTHUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: SoffitLevel
   definition: Level of the highest internal part of the cross section as measured from ground level.
-  ifdGuid: 3zO_kHpOX2a8fZopGrpzh6
-  legacyGuid: 3zO_kHpOX2a8fZopGrpzh6
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: fd63eb91cd8842908a63cb3435cfdac6
+  legacyGuidAsIfcGlobalId: 3zO_kHpOX2a8fZopGrpzh6
   localizations:
   - language: ja-JP
     name: '最小深さ（？）'
@@ -155,11 +187,21 @@ properties:
     measureType: ''
     unitType: LENGTHUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: WallMaterial
   definition: 'The material from which the wall of the chamber is constructed.NOTE: It is assumed that chamber walls will be constructed of a single material.'
-  ifdGuid: 211rf$eD903v0HclsTkilp
-  legacyGuid: 211rf$eD903v0HclsTkilp
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 81075a7fa0d2400f90119afd9dbacbf3
+  legacyGuidAsIfcGlobalId: 211rf$eD903v0HclsTkilp
   localizations:
   - language: ja-JP
     name: '壁の材質'
@@ -188,11 +230,21 @@ properties:
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: WallThickness
   definition: 'The thickness of the chamber wall constructionNOTE: It is assumed that chamber walls will be constructed at a single thickness.'
-  ifdGuid: 2osYyDHxj4Ye_tWovpb9Tp
-  legacyGuid: 2osYyDHxj4Ye_tWovpb9Tp
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: b2da2f0d47bb448a8fb7832e73949773
+  legacyGuidAsIfcGlobalId: 2osYyDHxj4Ye_tWovpb9Tp
   localizations:
   - language: ja-JP
     name: '壁厚さ'
@@ -220,11 +272,21 @@ properties:
     measureType: ''
     unitType: LENGTHUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: BaseMaterial
   definition: 'The material from which the base of the chamber is constructed.NOTE: It is assumed that chamber base will be constructed of a single material.'
-  ifdGuid: 0W7IkNodnAsv9CDTpU2Nqd
-  legacyGuid: 0W7IkNodnAsv9CDTpU2Nqd
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 201d2b97ca7c4adb924c35dcde097d27
+  legacyGuidAsIfcGlobalId: 0W7IkNodnAsv9CDTpU2Nqd
   localizations:
   - language: ja-JP
     name: '床の材質'
@@ -253,11 +315,21 @@ properties:
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: BaseThickness
   definition: 'The thickness of the chamber base constructionNOTE: It is assumed that chamber base will be constructed at a single thickness.'
-  ifdGuid: 10MuQbeoz0UxCr0GFMuXwu
-  legacyGuid: 10MuQbeoz0UxCr0GFMuXwu
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 405b86a5a32f407bb3350103d6e21eb8
+  legacyGuidAsIfcGlobalId: 10MuQbeoz0UxCr0GFMuXwu
   localizations:
   - language: ja-JP
     name: '床の厚さ'
@@ -285,11 +357,21 @@ properties:
     measureType: ''
     unitType: LENGTHUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: WithBackdrop
   definition: Indicates whether the chamber has a backdrop or tumbling bay (TRUE) or not (FALSE).
-  ifdGuid: 2Dg98M$oL86gXPzlUpqBQW
-  legacyGuid: 2Dg98M$oL86gXPzlUpqBQW
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 8da89216ff25481aa859f6f7b3d0b6a0
+  legacyGuidAsIfcGlobalId: 2Dg98M$oL86gXPzlUpqBQW
   localizations:
   - language: ja-JP
     name: 'バックドロップ付け'
@@ -317,11 +399,21 @@ properties:
     measureType: ''
     unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: AccessCoverMaterial
   definition: 'The material from which the access cover to the chamber is constructed.NOTE: It is assumed that chamber walls will be constructed of a single material.'
-  ifdGuid: 2CBZ9nWy9ATeQHI7QplQGb
-  legacyGuid: 2CBZ9nWy9ATeQHI7QplQGb
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 8c2e327183c24a7686914876b3bda425
+  legacyGuidAsIfcGlobalId: 2CBZ9nWy9ATeQHI7QplQGb
   localizations:
   - language: ja-JP
     name: 'アクセス（点検）カバーの材質'
@@ -350,11 +442,21 @@ properties:
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: AccessLengthOrRadius
   definition: The length of the chamber access cover or, where the plan shape of the cover is circular, the radius.
-  ifdGuid: 07Pl2DGurEtucFPQyV9Q4i
-  legacyGuid: 07Pl2DGurEtucFPQyV9Q4i
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 0766f08d438d4edf898f65af1f25a12c
+  legacyGuidAsIfcGlobalId: 07Pl2DGurEtucFPQyV9Q4i
   localizations:
   - language: ja-JP
     name: 'アクセス（点検）カバーの長さ或いは半径'
@@ -382,11 +484,21 @@ properties:
     measureType: ''
     unitType: LENGTHUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: AccessWidth
   definition: The width of the chamber access cover where the plan shape of the cover is not circular.
-  ifdGuid: 2n5oGr3b10fwdsFDLEw2$3
-  legacyGuid: 2n5oGr3b10fwdsFDLEw2$3
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: b11724350e5040a7a9f63cd54ee82fc3
+  legacyGuidAsIfcGlobalId: 2n5oGr3b10fwdsFDLEw2$3
   localizations:
   - language: ja-JP
     name: 'アクセス（点検）カバーの幅'
@@ -414,11 +526,21 @@ properties:
     measureType: ''
     unitType: LENGTHUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: AccessCoverLoadRating
   definition: The load rating of the access cover (which may be a value or an alphanumerically defined class rating).
-  ifdGuid: 08nm5qGRnAUAHVBBkV0LWP
-  legacyGuid: 08nm5qGRnAUAHVBBkV0LWP
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 08c7017441bc4a78a45f2cbb9f015819
+  legacyGuidAsIfcGlobalId: 08nm5qGRnAUAHVBBkV0LWP
   localizations:
   - language: ja-JP
     name: 'アクセス（点検）カバーの耐荷重'
@@ -446,4 +568,12 @@ properties:
     measureType: ''
     unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN

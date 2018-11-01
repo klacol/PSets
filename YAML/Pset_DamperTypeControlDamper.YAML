@@ -30,8 +30,10 @@ applicableIfcClasses:
 properties:
 - name: TorqueRange
   definition: 'Torque range: minimum operational torque to maximum allowable torque.'
-  ifdGuid: 2ygXEen4j2dPLmIvcNQqd6
-  legacyGuid: 2ygXEen4j2dPLmIvcNQqd6
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: bcaa13a8c44b429d95704b99976b49c6
+  legacyGuidAsIfcGlobalId: 2ygXEen4j2dPLmIvcNQqd6
   localizations:
   - language: de-DE
     name: ''
@@ -57,11 +59,21 @@ properties:
     UpperBoundValue: '?'
     typeName: TypePropertyBoundedValue
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: ControlDamperOperation
   definition: The inherent characteristic of the control damper operation.
-  ifdGuid: 3mFZ6V47X4kPbkT5zzZUvI
-  legacyGuid: 3mFZ6V47X4kPbkT5zzZUvI
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: f03e319f107844b9996e745f7d8dee52
+  legacyGuidAsIfcGlobalId: 3mFZ6V47X4kPbkT5zzZUvI
   localizations:
   - language: de-DE
     name: ''
@@ -173,4 +185,12 @@ properties:
         name: 'Unknown'
         definition: ''
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN

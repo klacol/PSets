@@ -49,8 +49,10 @@
     {
       "name": "CoverageArea",
       "definition": "The area that is covered by the sensor (typically measured as a circle whose center is at the location of the sensor).",
-      "ifdGuid": "0yYywhPxH9v9NvMCrovdWP",
-      "legacyGuid": "0yYywhPxH9v9NvMCrovdWP",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "3c8bceab67b449e495f958cd72e67819",
+      "legacyGuidAsIfcGlobalId": "0yYywhPxH9v9NvMCrovdWP",
       "localizations": [
         {
           "language": "ja-JP",
@@ -94,14 +96,25 @@
         "unitType": "AREAUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "SetPointTemperature",
       "definition": "The temperature value to be sensed. Use IfcPropertyBoundedValue.SetPointValue to set the set point value.",
-      "ifdGuid": "3IIdjQnln8evytrTw4jlyU",
-      "legacyGuid": "3IIdjQnln8evytrTw4jlyU",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "d24a7b5ac6fc48a39f37d5de84b6ff1e",
+      "legacyGuidAsIfcGlobalId": "3IIdjQnln8evytrTw4jlyU",
       "localizations": [
         {
           "language": "ja-JP",
@@ -147,14 +160,25 @@
         "typeName": "TypePropertyBoundedValue"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "RateOfTemperatureRise",
       "definition": "The rate of temperature rise that is to be sensed as being hazardous.",
-      "ifdGuid": "0PrrLhYbbAEOtxI_xP8cKB",
-      "legacyGuid": "0PrrLhYbbAEOtxI_xP8cKB",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "19d7556b8a594a398dfb4beed922650b",
+      "legacyGuidAsIfcGlobalId": "0PrrLhYbbAEOtxI_xP8cKB",
       "localizations": [
         {
           "language": "ja-JP",
@@ -198,7 +222,16 @@
         "unitType": "TEMPERATURERATEOFCHANGEUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     }
   ]

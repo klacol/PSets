@@ -49,8 +49,10 @@
     {
       "name": "NominalSumpLength",
       "definition": "Nominal or quoted length measured along the x-axis in the local coordinate system or the radius (in the case of a circular shape in plan) of the sump.",
-      "ifdGuid": "2w5Z8KiE91feClr_0Mb8ya",
-      "legacyGuid": "2w5Z8KiE91feClr_0Mb8ya",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "ba163214b0e241a6832fd7e016948f24",
+      "legacyGuidAsIfcGlobalId": "2w5Z8KiE91feClr_0Mb8ya",
       "localizations": [
         {
           "language": "ja-JP",
@@ -89,14 +91,25 @@
         "unitType": "LENGTHUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "NominalSumpWidth",
       "definition": "Nominal or quoted length measured along the y-axis in the local coordinate system of the sump.",
-      "ifdGuid": "1gsD_F18T3DxKZh9Rx_gj4",
-      "legacyGuid": "1gsD_F18T3DxKZh9Rx_gj4",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "6ad8df8f04874337b523ac96fbfaab44",
+      "legacyGuidAsIfcGlobalId": "1gsD_F18T3DxKZh9Rx_gj4",
       "localizations": [
         {
           "language": "ja-JP",
@@ -135,14 +148,25 @@
         "unitType": "LENGTHUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "NominalSumpDepth",
       "definition": "Nominal or quoted length measured along the z-axis in the local coordinate system of the sump.",
-      "ifdGuid": "05w5Emx6jDNu3sv8t2AdAC",
-      "legacyGuid": "05w5Emx6jDNu3sv8t2AdAC",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "05e853b0ec6b4d5f80f6e48dc22a728c",
+      "legacyGuidAsIfcGlobalId": "05w5Emx6jDNu3sv8t2AdAC",
       "localizations": [
         {
           "language": "ja-JP",
@@ -181,14 +205,25 @@
         "unitType": "LENGTHUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "GullyType",
       "definition": "Identifies the predefined types of gully from which the type required may be set.",
-      "ifdGuid": "3lEv_peqLBvgyB_ViHbNi4",
-      "legacyGuid": "3lEv_peqLBvgyB_ViHbNi4",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "ef3b9fb3a3454be6af0bf9fb11957b04",
+      "legacyGuidAsIfcGlobalId": "3lEv_peqLBvgyB_ViHbNi4",
       "localizations": [
         {
           "language": "ja-JP",
@@ -375,14 +410,25 @@
         ]
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "TrapType",
       "definition": "Identifies the predefined types of trap from which the type required may be set.",
-      "ifdGuid": "2u9fqEQkTBDhn4kvC_tWuS",
-      "legacyGuid": "2u9fqEQkTBDhn4kvC_tWuS",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "b8269d0e6ae74b36bc44bb933ede0e1c",
+      "legacyGuidAsIfcGlobalId": "2u9fqEQkTBDhn4kvC_tWuS",
       "localizations": [
         {
           "language": "ja-JP",
@@ -643,14 +689,25 @@
         ]
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "OutletConnectionSize",
       "definition": "Size of the outlet connection from the object.",
-      "ifdGuid": "3AHRtSCCv6zPMbPayiy1dc",
-      "legacyGuid": "3AHRtSCCv6zPMbPayiy1dc",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "ca45bddc30ce46f595a5664f2cf019e6",
+      "legacyGuidAsIfcGlobalId": "3AHRtSCCv6zPMbPayiy1dc",
       "localizations": [
         {
           "language": "ja-JP",
@@ -689,14 +746,25 @@
         "unitType": "LENGTHUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "BackInletPatternType",
       "definition": "Identifies the pattern of inlet connections to a gully trap.A gulley trap may have 0,1,2,3 or 4 inlet connections and the pattern of their arrangement may vary. The enumeration makes the convention that an outlet is either vertical or is placed at the bottom (south side) of the gully trap (when viewed in plan). Position 1 is to the left (west), position 2 is to the top (north), position 3 is to the right (east) and position 4 is to the bottom (south).               2               |   ----------------   !                       |1-|                       |-3   !                       |   ----------------               |              4",
-      "ifdGuid": "3QmFNTUOr6LuJ1dNx114nR",
-      "legacyGuid": "3QmFNTUOr6LuJ1dNx114nR",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "dac0f5dd798d465784c19d7ec1044c5b",
+      "legacyGuidAsIfcGlobalId": "3QmFNTUOr6LuJ1dNx114nR",
       "localizations": [
         {
           "language": "ja-JP",
@@ -1401,14 +1469,25 @@
         ]
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "InletConnectionSize",
       "definition": "Size of the inlet connection(s), where used, of the inlet connections.Note that all inlet connections are assumed to be the same size.",
-      "ifdGuid": "1ZJWVlFNjAq8Kaemhi0SrT",
-      "legacyGuid": "1ZJWVlFNjAq8Kaemhi0SrT",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "634e07ef3d7b4ad08524a30aec01cd5d",
+      "legacyGuidAsIfcGlobalId": "1ZJWVlFNjAq8Kaemhi0SrT",
       "localizations": [
         {
           "language": "ja-JP",
@@ -1447,14 +1526,25 @@
         "unitType": "LENGTHUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "CoverLength",
       "definition": "The length measured along the x-axis in the local coordinate system or the radius (in the case of a circular shape in plan) of the cover of the gully trap.",
-      "ifdGuid": "1o9A2xM1T3GeH$tCFzRqJu",
-      "legacyGuid": "1o9A2xM1T3GeH$tCFzRqJu",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "7224a0bb58174342847fdcc3fd6f44f8",
+      "legacyGuidAsIfcGlobalId": "1o9A2xM1T3GeH$tCFzRqJu",
       "localizations": [
         {
           "language": "ja-JP",
@@ -1493,14 +1583,25 @@
         "unitType": "LENGTHUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "CoverWidth",
       "definition": "The length measured along the y-axis in the local coordinate system of the cover of the gully trap.",
-      "ifdGuid": "0WrYJOZ3D6W9akAQuzmVpz",
-      "legacyGuid": "0WrYJOZ3D6W9akAQuzmVpz",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "20d624d88c334680992e29ae3dc1fcfd",
+      "legacyGuidAsIfcGlobalId": "0WrYJOZ3D6W9akAQuzmVpz",
       "localizations": [
         {
           "language": "ja-JP",
@@ -1539,7 +1640,16 @@
         "unitType": "LENGTHUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     }
   ]

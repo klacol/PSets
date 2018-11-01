@@ -30,8 +30,10 @@ applicableIfcClasses:
 properties:
 - name: UpstreamPressure
   definition: The operating pressure of the fluid upstream of the pressure reducing valve.
-  ifdGuid: 0NnCApg6v9be8i8jBuOB6Y
-  legacyGuid: 0NnCApg6v9be8i8jBuOB6Y
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 17c4c2b3a86e4996822c22d2f860b1a2
+  legacyGuidAsIfcGlobalId: 0NnCApg6v9be8i8jBuOB6Y
   localizations:
   - language: ja-JP
     name: '上流圧力'
@@ -56,11 +58,21 @@ properties:
     measureType: ''
     unitType: PRESSUREUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: DownstreamPressure
   definition: The operating pressure of the fluid downstream of the pressure reducing valve.
-  ifdGuid: 0dPl2NLav1l8a4ExIOAdqF
-  legacyGuid: 0dPl2NLav1l8a4ExIOAdqF
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 2766f097564e41bc89043bb4982a7d0f
+  legacyGuidAsIfcGlobalId: 0dPl2NLav1l8a4ExIOAdqF
   localizations:
   - language: ja-JP
     name: '下流圧力'
@@ -85,4 +97,12 @@ properties:
     measureType: ''
     unitType: PRESSUREUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN

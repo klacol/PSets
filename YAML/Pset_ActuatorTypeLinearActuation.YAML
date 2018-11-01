@@ -30,6 +30,7 @@ applicableIfcClasses:
 properties:
 - name: Force
   definition: Indicates the maximum close-off force for the actuator.
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
   ifdGuid: ''
   legacyGuid: 2a2960b3bd334c1887fcda58a6edb35b
   legacyGuidAsIfcGlobalId: 0gAM2plJDC68VysbYcxRDR
@@ -60,9 +61,18 @@ properties:
     measureType: ''
     unitType: FORCEUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: Stroke
   definition: Indicates the maximum distance the actuator must traverse.
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
   ifdGuid: ''
   legacyGuid: 91e91b7127dd4a84b384a3089005b9bc
   legacyGuidAsIfcGlobalId: 2HwHjn9zrAXBE4emYG1Rcy
@@ -93,4 +103,12 @@ properties:
     measureType: ''
     unitType: LENGTHUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN

@@ -49,8 +49,10 @@
     {
       "name": "AdjustmentValueType",
       "definition": "The type of adjustment value that is applied through the property set. This determines the properties that should be asserted (see below).",
-      "ifdGuid": "2zrhWekkP4ywkn$bzMSPKZ",
-      "legacyGuid": "2zrhWekkP4ywkn$bzMSPKZ",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "bdd6b828bae644f3abb1fe5f56719523",
+      "legacyGuidAsIfcGlobalId": "2zrhWekkP4ywkn$bzMSPKZ",
       "localizations": [
         {
           "language": "ja-JP",
@@ -242,14 +244,25 @@
         ]
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "AdjustmentRange",
       "definition": "Upper and lower current adjustment limits for an AdjustmentValueType = RANGE. Note that this property should not have a value for an  AdjustmentValueType = LIST.",
-      "ifdGuid": "39YDbmxdrFJv_5Ki0kNu8A",
-      "legacyGuid": "39YDbmxdrFJv_5Ki0kNu8A",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "c988d970ee7d4f4f9f8552c02e5f820a",
+      "legacyGuidAsIfcGlobalId": "39YDbmxdrFJv_5Ki0kNu8A",
       "localizations": [
         {
           "language": "ja-JP",
@@ -295,14 +308,25 @@
         "typeName": "TypePropertyBoundedValue"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "AdjustmentRangeStepValue",
       "definition": "Step value of current adjustment for an AdjustmentValueType = RANGE. Note that this property should not have a value for an  AdjustmentValueType = LIST.",
-      "ifdGuid": "1xw0bJW8rAzOJU2v$46_Un",
-      "legacyGuid": "1xw0bJW8rAzOJU2v$46_Un",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "7be80953808d4af584de0b9fc41be7b1",
+      "legacyGuidAsIfcGlobalId": "1xw0bJW8rAzOJU2v$46_Un",
       "localizations": [
         {
           "language": "ja-JP",
@@ -346,14 +370,25 @@
         "unitType": "USERDEFINED"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "AdjustmentValues",
       "definition": "A list of current adjustment values that may be applied to a tripping unit for an AdjustmentValueType = LIST. A minimum of 1 and a maximum of 16 adjustment values may be specified. Note that this property should not have a value for an  AdjustmentValueType = RANGE.",
-      "ifdGuid": "3HhjZxKvfABegSk4_rEIgk",
-      "legacyGuid": "3HhjZxKvfABegSk4_rEIgk",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "d1aed8fb539a4a2e8a9cb84fb5392aae",
+      "legacyGuidAsIfcGlobalId": "3HhjZxKvfABegSk4_rEIgk",
       "localizations": [
         {
           "language": "ja-JP",
@@ -397,14 +432,25 @@
         "unitType": "USERDEFINED"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "AdjustmentDesignation",
       "definition": "The desgnation on the device for the adjustment.",
-      "ifdGuid": "086lL5vZTCJPwViB7LNTcW",
-      "legacyGuid": "086lL5vZTCJPwViB7LNTcW",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "081af545e6374c4d9e9fb0b1d55dd9a0",
+      "legacyGuidAsIfcGlobalId": "086lL5vZTCJPwViB7LNTcW",
       "localizations": [
         {
           "language": "ja-JP",
@@ -448,7 +494,16 @@
         "unitType": "USERDEFINED"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     }
   ]

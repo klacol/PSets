@@ -49,8 +49,10 @@
     {
       "name": "FlangeTable",
       "definition": "Designation of the standard table to which the flange conforms.",
-      "ifdGuid": "0u5q$e4_1FuwZoiRY1xWWL",
-      "legacyGuid": "0u5q$e4_1FuwZoiRY1xWWL",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "38174fe813e04fe3a8f2b1b881ee0815",
+      "legacyGuidAsIfcGlobalId": "0u5q$e4_1FuwZoiRY1xWWL",
       "localizations": [
         {
           "language": "ja-JP",
@@ -89,14 +91,25 @@
         "unitType": "USERDEFINED"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "FlangeStandard",
       "definition": "Designation of the standard describing the flange table.",
-      "ifdGuid": "01ezdYQgD0L987s7NICx7B",
-      "legacyGuid": "01ezdYQgD0L987s7NICx7B",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "01a3d9e26aa340549207d875d233b1cb",
+      "legacyGuidAsIfcGlobalId": "01ezdYQgD0L987s7NICx7B",
       "localizations": [
         {
           "language": "ja-JP",
@@ -135,14 +148,25 @@
         "unitType": "USERDEFINED"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "BoreSize",
       "definition": "The nominal bore of the pipe flange.",
-      "ifdGuid": "0XPZY9xMfBJw8RKX2956QA",
-      "legacyGuid": "0XPZY9xMfBJw8RKX2956QA",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "21663889ed6a4b4fa21b52108914668a",
+      "legacyGuidAsIfcGlobalId": "0XPZY9xMfBJw8RKX2956QA",
       "localizations": [
         {
           "language": "ja-JP",
@@ -181,14 +205,25 @@
         "unitType": "LENGTHUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "FlangeDiameter",
       "definition": "Overall diameter of the flange.",
-      "ifdGuid": "0F4Ui$nLD7OBBgjE0faE76",
-      "legacyGuid": "0F4Ui$nLD7OBBgjE0faE76",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "0f11eb3fc5534760b2eab4e02990e1c6",
+      "legacyGuidAsIfcGlobalId": "0F4Ui$nLD7OBBgjE0faE76",
       "localizations": [
         {
           "language": "ja-JP",
@@ -227,14 +262,25 @@
         "unitType": "LENGTHUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "FlangeThickness",
       "definition": "Thickness of the material from which the pipe bend is constructed.",
-      "ifdGuid": "3$jBISV6v4$w_axzt9TQHh",
-      "legacyGuid": "3$jBISV6v4$w_axzt9TQHh",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "ffb4b49c7c6e44ffafa4efddc975a46b",
+      "legacyGuidAsIfcGlobalId": "3$jBISV6v4$w_axzt9TQHh",
       "localizations": [
         {
           "language": "ja-JP",
@@ -273,14 +319,25 @@
         "unitType": "LENGTHUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "NumberOfBoltholes",
       "definition": "Number of boltholes in the flange.",
-      "ifdGuid": "1AsaQ38Yr98eKryr_jGv$L",
-      "legacyGuid": "1AsaQ38Yr98eKryr_jGv$L",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "4ada4683222d49228535f35fad439fd5",
+      "legacyGuidAsIfcGlobalId": "1AsaQ38Yr98eKryr_jGv$L",
       "localizations": [
         {
           "language": "ja-JP",
@@ -319,14 +376,25 @@
         "unitType": "USERDEFINED"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "BoltSize",
       "definition": "Size of the bolts securing the flange.",
-      "ifdGuid": "04akGjqKvALuOyjKgRQtxN",
-      "legacyGuid": "04akGjqKvALuOyjKgRQtxN",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "0492e42dd14e4a57863cb54a9b6b7ed7",
+      "legacyGuidAsIfcGlobalId": "04akGjqKvALuOyjKgRQtxN",
       "localizations": [
         {
           "language": "ja-JP",
@@ -365,14 +433,25 @@
         "unitType": "LENGTHUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "BoltholePitch",
       "definition": "Diameter of the circle along which the boltholes are placed.",
-      "ifdGuid": "0Msy6o3cH1SeWcIon38i5_",
-      "legacyGuid": "0Msy6o3cH1SeWcIon38i5_",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "16dbc1b20e64417288264b2c4322c17e",
+      "legacyGuidAsIfcGlobalId": "0Msy6o3cH1SeWcIon38i5_",
       "localizations": [
         {
           "language": "ja-JP",
@@ -411,7 +490,16 @@
         "unitType": "LENGTHUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     }
   ]

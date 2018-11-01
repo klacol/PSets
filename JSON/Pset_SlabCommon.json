@@ -61,8 +61,10 @@
     {
       "name": "Reference",
       "definition": "Reference ID for this specified type in this project (e.g. type 'A-1'), Also referred to as \"construction type\". It should be provided as an alternative to the name of the \"object type\", if the software does not support object types.",
-      "ifdGuid": "1WANXGayX8IRD7TiCSpU0b",
-      "legacyGuid": "1WANXGayX8IRD7TiCSpU0b",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "6029785093c84849b34776c31ccde025",
+      "legacyGuidAsIfcGlobalId": "1WANXGayX8IRD7TiCSpU0b",
       "localizations": [
         {
           "language": "de-DE",
@@ -106,14 +108,24 @@
         "unitType": "USERDEFINED"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "Status",
       "definition": "Status of the element, predominately used in renovation or retrofitting projects. The status can be assigned to as \"New\" - element designed as new addition, \"Existing\" - element exists and remains, \"Demolish\" - element existed but is to be demolished,  \"Temporary\" - element will exists only temporary (like a temporary support structure).",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
       "ifdGuid": "",
-      "legacyGuid": "",
+      "legacyGuidAsIfcGlobalId": "",
       "localizations": [
         {
           "language": "de-DE",
@@ -374,14 +386,25 @@
         ]
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "AcousticRating",
       "definition": "Acoustic rating for this object.It is provided according to the national building code. It indicates the sound transmission resistance of this object by an index ratio (instead of providing full sound absorbtion values).",
-      "ifdGuid": "2gxTDtHsbArP5aJB28pJrh",
-      "legacyGuid": "2gxTDtHsbArP5aJB28pJrh",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "aaedd37747694ad591644cb088cd3d6b",
+      "legacyGuidAsIfcGlobalId": "2gxTDtHsbArP5aJB28pJrh",
       "localizations": [
         {
           "language": "de-DE",
@@ -425,14 +448,25 @@
         "unitType": "USERDEFINED"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "FireRating",
       "definition": "Fire rating for this object. It is given according to the national fire safety classification.",
-      "ifdGuid": "2IqFUehTv78xIsHVWC0Xyq",
-      "legacyGuid": "2IqFUehTv78xIsHVWC0Xyq",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "92d0f7a8adde4723b4b645f80c021f34",
+      "legacyGuidAsIfcGlobalId": "2IqFUehTv78xIsHVWC0Xyq",
       "localizations": [
         {
           "language": "de-DE",
@@ -476,14 +510,25 @@
         "unitType": "USERDEFINED"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "Combustible",
       "definition": "Indication whether the object is made from combustible material (TRUE) or not (FALSE).",
-      "ifdGuid": "1bhsD7TC11JhpHcKkIgpkf",
-      "legacyGuid": "1bhsD7TC11JhpHcKkIgpkf",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "65af634774c0414ebcd1994b92ab3ba9",
+      "legacyGuidAsIfcGlobalId": "1bhsD7TC11JhpHcKkIgpkf",
       "localizations": [
         {
           "language": "de-DE",
@@ -527,14 +572,25 @@
         "unitType": "USERDEFINED"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "SurfaceSpreadOfFlame",
       "definition": "Indication on how the flames spread around the surface, It is given according to the national building code that governs the fire behaviour for materials.",
-      "ifdGuid": "0SC6UYwhn3QBncoJnJ$4sE",
-      "legacyGuid": "0SC6UYwhn3QBncoJnJ$4sE",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "1c3067a2eabc4368bc66c93c53fc4d8e",
+      "legacyGuidAsIfcGlobalId": "0SC6UYwhn3QBncoJnJ$4sE",
       "localizations": [
         {
           "language": "de-DE",
@@ -573,14 +629,25 @@
         "unitType": "USERDEFINED"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "ThermalTransmittance",
       "definition": "Thermal transmittance coefficient (U-Value) of a material. Here the total thermal transmittance coefficient through the slab (including all materials).",
-      "ifdGuid": "2zqQFKbmDCwvjUVEcPRWFQ",
-      "legacyGuid": "2zqQFKbmDCwvjUVEcPRWFQ",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "bdd1a3d497034ceb9b5e7ce9996e03da",
+      "legacyGuidAsIfcGlobalId": "2zqQFKbmDCwvjUVEcPRWFQ",
       "localizations": [
         {
           "language": "de-DE",
@@ -624,14 +691,25 @@
         "unitType": "THERMALTRANSMITTANCEUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "IsExternal",
       "definition": "Indication whether the element is designed for use in the exterior (TRUE) or not (FALSE). If (TRUE) it is an external element and faces the outside of the building.",
-      "ifdGuid": "03vHDBmxT4QRzvRl4dNCTV",
-      "legacyGuid": "03vHDBmxT4QRzvRl4dNCTV",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "03e5134bc3b74469bf796ef1275cc75f",
+      "legacyGuidAsIfcGlobalId": "03vHDBmxT4QRzvRl4dNCTV",
       "localizations": [
         {
           "language": "de-DE",
@@ -675,14 +753,25 @@
         "unitType": "USERDEFINED"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "LoadBearing",
       "definition": "Indicates whether the object is intended to carry loads (TRUE) or not (FALSE).",
-      "ifdGuid": "2Ufhg07lz17ABB_bhjsD01",
-      "legacyGuid": "2Ufhg07lz17ABB_bhjsD01",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "9ea6ba801eff411ca2cbfa5aedd8d001",
+      "legacyGuidAsIfcGlobalId": "2Ufhg07lz17ABB_bhjsD01",
       "localizations": [
         {
           "language": "de-DE",
@@ -726,14 +815,25 @@
         "unitType": "USERDEFINED"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "Compartmentation",
       "definition": "Indication whether the object is designed to serve as a fire compartmentation (TRUE) or not (FALSE).",
-      "ifdGuid": "0ZbhMQ7YjEGPUQLLPyM20S",
-      "legacyGuid": "0ZbhMQ7YjEGPUQLLPyM20S",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "2396b59a1e2b4e41979a55567c58201c",
+      "legacyGuidAsIfcGlobalId": "0ZbhMQ7YjEGPUQLLPyM20S",
       "localizations": [
         {
           "language": "de-DE",
@@ -772,14 +872,25 @@
         "unitType": "USERDEFINED"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "PitchAngle",
       "definition": "Angle of the slab to the horizontal when used as a component for the roof (specified as 0 degrees or not asserted for cases where the slab is not used as a roof component).      The shape information is provided in addition to the shape representation and the geometric parameters used within. In cases of inconsistency between the geometric parameters and the shape properties, provided in the attached property, the geometric parameters take precedence.  For geometry editing applications, like CAD: this value should be write-only.",
-      "ifdGuid": "0V_IXNYKfDMx13JGP3Y1TP",
-      "legacyGuid": "0V_IXNYKfDMx13JGP3Y1TP",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "1ff92857894a4d5bb0434d0643881759",
+      "legacyGuidAsIfcGlobalId": "0V_IXNYKfDMx13JGP3Y1TP",
       "localizations": [
         {
           "language": "de-DE",
@@ -818,7 +929,16 @@
         "unitType": "PLANEANGLEUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     }
   ]

@@ -37,7 +37,7 @@ namespace PSet2YamlConverter
             string propertyTypeList = string.Empty;
             string propertyUnitList = string.Empty;
 
-            foreach (string sourceFile in Directory.EnumerateFiles(sourceFolderXml, "PSet*.xml").OrderBy(x => x).ToList())//.Where(x=>x.Contains("Pset_SpaceThermalRequirements")))
+            foreach (string sourceFile in Directory.EnumerateFiles(sourceFolderXml, "PSet*.xml").OrderBy(x => x).ToList())//.Where(x=>x.Contains("Pset_ConstructionResource")))
             {
                 Console.WriteLine($"Opening {sourceFile.Replace(sourceFolderXml + @"\", string.Empty)}");
                 PropertySetDef pSet = PropertySetDef.LoadFromFile(sourceFile);
@@ -160,6 +160,7 @@ namespace PSet2YamlConverter
                 Property property = new Property()
                 {
                     name = psetProperty.Items[0].ToString(),
+                    dictionaryIdentifier = "http://bsdd.buildingsmart.org/IFC",
                     ifdGuid = "",
                     legacyGuid = psetProperty.ifdguid,
                     legacyGuidAsIfcGlobalId = Utils.GuidConverterToIfcGuid(psetProperty.ifdguid),
@@ -176,13 +177,13 @@ namespace PSet2YamlConverter
                 else if (CheckGuidWithBsdd(property.legacyGuidAsIfcGlobalId) == false)
                         {
                             Console.ForegroundColor = ConsoleColor.Red;
-                            Console.WriteLine($"      ERROR: The GUID {property.legacyGuidAsIfcGlobalId} for {property.name} is not resolved by http://bsdd.buildingsmart.org!");
+                            Console.WriteLine($"      ERROR: The GUID {property.legacyGuidAsIfcGlobalId} for {property.name} is not resolved by http://bsdd.buildingsmart.org");
                             Console.ResetColor();
                         }
                         else
                         {
                             Console.ForegroundColor = ConsoleColor.Green;
-                            Console.WriteLine($"      OK: The GUID {property.legacyGuidAsIfcGlobalId} for {property.name} is properly resolved by http://bsdd.buildingsmart.org!");
+                            Console.WriteLine($"      OK: The GUID {property.legacyGuidAsIfcGlobalId} for {property.name} is properly resolved by http://bsdd.buildingsmart.org");
                             property.ifdGuid = property.legacyGuidAsIfcGlobalId;
                             Console.ResetColor();
                         }
@@ -328,10 +329,17 @@ namespace PSet2YamlConverter
                         break;
                 };
 
-                property.status = new Status()
+                property.status = new PublicationStatus()
                 {
-                    creationDate = new DateTime(2018, 1, 1)
-
+                    versionNumber = 4,                 
+                    dateOfVersion = new DateTime(2018, 1, 1),
+                    revisionNumber = 2,
+                    dateOfRevision = new DateTime(2018, 1, 1),
+                    status = PublicationStatus.Status.Active.ToString(),
+                    dateOfCreation = new DateTime(2018, 1, 1),
+                    dateOfActivation = new DateTime(2018, 1, 1),
+                    dateOfLastChange = new DateTime(2018, 1, 1),
+                    languageOfCreator = "en-EN"
                 };
 
 
@@ -363,15 +371,16 @@ namespace PSet2YamlConverter
             //guid = "3WcEc0qRmHuO00025QrE$V"; working GUID
             bool check = false;
             string url = $"http://bsdd.buildingsmart.org/api/4.0/IfdConcept/{guid}";
+
+            var webClient = new WebClient();
             try
             {
-                var request = (HttpWebRequest)WebRequest.Create(url);
-                var response = (HttpWebResponse)request.GetResponse();
-                //var responseString = new StreamReader(response.GetResponseStream()).ReadToEnd();
+                var response = webClient.DownloadString(url);
                 check = true;
             }
             catch(Exception ex)
             {
+                //Console.WriteLine($"      ERROR: {ex.Message} {url}");
                 check = false;
             }
 

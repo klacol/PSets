@@ -30,8 +30,10 @@ applicableIfcClasses:
 properties:
 - name: Reference
   definition: Reference ID for this specified type in this project (e.g. type 'A-1'). Used to store the non-classification driven internal construction type.
-  ifdGuid: 2iEJgbezL0ewYWXHxlci6i
-  legacyGuid: 2iEJgbezL0ewYWXHxlci6i
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: ac393aa5a3d540a3a8a0851eef9ac1ac
+  legacyGuidAsIfcGlobalId: 2iEJgbezL0ewYWXHxlci6i
   localizations:
   - language: de-DE
     name: 'Referenz ID'
@@ -59,11 +61,20 @@ properties:
     measureType: ''
     unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: Status
   definition: Status of the element, predominately used in renovation or retrofitting projects. The status can be assigned to as "New" - element designed as new addition, "Existing" - element exists and remains, "Demolish" - element existed but is to be demolished,  "Temporary" - element will exists only temporary (like a temporary support structure).
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
   ifdGuid: ''
-  legacyGuid: ''
+  legacyGuidAsIfcGlobalId: ''
   localizations:
   - language: de-DE
     name: 'Status'
@@ -219,11 +230,21 @@ properties:
         name: 'Unknown'
         definition: ''
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: Purpose
   definition: Indication of the purpose for that opening, e.g. 'ventilation', 'access', etc.
-  ifdGuid: 3SEFeNUUPBnRGXyZK559cD
-  legacyGuid: 3SEFeNUUPBnRGXyZK559cD
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: dc38fa1779e64bc5b421f2350514998d
+  legacyGuidAsIfcGlobalId: 3SEFeNUUPBnRGXyZK559cD
   localizations:
   - language: fr-FR
     name: 'Motif'
@@ -248,11 +269,21 @@ properties:
     measureType: ''
     unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: FireExit
   definition: Indication whether this object is designed to serve as an exit in the case of fire (TRUE) or not (FALSE).Here whether the space (in case of e.g., a corridor) is designed to serve as an exit space, e.g., for fire escape purposes.
-  ifdGuid: 2YHzYIOTnElO828UYsvLEV
-  legacyGuid: 2YHzYIOTnElO828UYsvLEV
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: a247d89261dc4ebd820221e8b6e5539f
+  legacyGuidAsIfcGlobalId: 2YHzYIOTnElO828UYsvLEV
   localizations:
   - language: fr-FR
     name: 'Sortie de secours'
@@ -277,11 +308,21 @@ properties:
     measureType: ''
     unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: ProtectedOpening
   definition: Indication whether the opening is considered to be protected under fire safety considerations. If (TRUE) it counts as a protected opening under the applicable building code, (FALSE) otherwise.
-  ifdGuid: 0Qmq8fPyrEAQxE6W$r5$OD
-  legacyGuid: 0Qmq8fPyrEAQxE6W$r5$OD
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 1ac3422967cd4e29aece1a0ff517f60d
+  legacyGuidAsIfcGlobalId: 0Qmq8fPyrEAQxE6W$r5$OD
   localizations:
   - language: fr-FR
     name: 'Ouverture avec protection incendie'
@@ -306,4 +347,12 @@ properties:
     measureType: ''
     unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN

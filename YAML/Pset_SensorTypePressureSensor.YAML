@@ -30,8 +30,10 @@ applicableIfcClasses:
 properties:
 - name: SetPointPressure
   definition: The pressure value to be sensed. Use IfcPropertyBoundedValue.SetPointValue to set the set point value.
-  ifdGuid: 2mqFX4WJH1Jeg7l$1q3co8
-  legacyGuid: 2mqFX4WJH1Jeg7l$1q3co8
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: b0d0f8448134414e8a87bff0740e6c88
+  legacyGuidAsIfcGlobalId: 2mqFX4WJH1Jeg7l$1q3co8
   localizations:
   - language: ja-JP
     name: '圧力設定値'
@@ -60,11 +62,21 @@ properties:
     UpperBoundValue: '?'
     typeName: TypePropertyBoundedValue
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: IsSwitch
   definition: Identifies if the sensor also functions as a switch at the set point (=TRUE) or not (= FALSE).
-  ifdGuid: 2pLZ2aYOvDbx7ctfKdyDGW
-  legacyGuid: 2pLZ2aYOvDbx7ctfKdyDGW
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: b35630a4898e4d97b1e6de9527f0d420
+  legacyGuidAsIfcGlobalId: 2pLZ2aYOvDbx7ctfKdyDGW
   localizations:
   - language: ja-JP
     name: 'スイッチ機能の有無'
@@ -92,4 +104,12 @@ properties:
     measureType: ''
     unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN

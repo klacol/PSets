@@ -32,8 +32,10 @@ applicableIfcClasses:
 properties:
 - name: ColumnShoeBasePlateThickness
   definition: The thickness of the column shoe base plate.
-  ifdGuid: 1aZFi1cNX4XQbBsRkP4u_e
-  legacyGuid: 1aZFi1cNX4XQbBsRkP4u_e
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 648cfb0199784485a94bd9bb99138fa8
+  legacyGuidAsIfcGlobalId: 1aZFi1cNX4XQbBsRkP4u_e
   localizations:
   - language: ja-JP
     name: 'ベースプレート厚'
@@ -61,11 +63,21 @@ properties:
     measureType: ''
     unitType: LENGTHUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: ColumnShoeBasePlateWidth
   definition: The width of the column shoe base plate.
-  ifdGuid: 2bgJ5ReDf9zOofHfF2$nqN
-  legacyGuid: 2bgJ5ReDf9zOofHfF2$nqN
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: a5a9315ba0da49f58ca94693c2ff1d17
+  legacyGuidAsIfcGlobalId: 2bgJ5ReDf9zOofHfF2$nqN
   localizations:
   - language: ja-JP
     name: 'ベースプレート幅'
@@ -93,11 +105,21 @@ properties:
     measureType: ''
     unitType: LENGTHUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: ColumnShoeBasePlateDepth
   definition: The depth of the column shoe base plate.
-  ifdGuid: 3thTvHYy52a9Vaml3Qxlnf
-  legacyGuid: 3thTvHYy52a9Vaml3Qxlnf
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: f7adde518bc1429097e4c2f0daeefc69
+  legacyGuidAsIfcGlobalId: 3thTvHYy52a9Vaml3Qxlnf
   localizations:
   - language: ja-JP
     name: 'ベースプレート成'
@@ -125,11 +147,21 @@ properties:
     measureType: ''
     unitType: LENGTHUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: ColumnShoeCasingHeight
   definition: The height of the column shoe casing.
-  ifdGuid: 1rSkO37vj8qg3aRPQi9TzC
-  legacyGuid: 1rSkO37vj8qg3aRPQi9TzC
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 7572e6031f9b48d2a0e46d96ac25df4c
+  legacyGuidAsIfcGlobalId: 1rSkO37vj8qg3aRPQi9TzC
   localizations:
   - language: ja-JP
     name: 'ケーシング厚'
@@ -157,11 +189,21 @@ properties:
     measureType: ''
     unitType: LENGTHUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: ColumnShoeCasingWidth
   definition: The width of the column shoe casing.
-  ifdGuid: 3Nd1ZGbsPCEuwrZvH721up
-  legacyGuid: 3Nd1ZGbsPCEuwrZvH721up
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: d79c18d097664c3b8eb58f9447081e33
+  legacyGuidAsIfcGlobalId: 3Nd1ZGbsPCEuwrZvH721up
   localizations:
   - language: ja-JP
     name: 'ケーシング幅'
@@ -189,11 +231,21 @@ properties:
     measureType: ''
     unitType: LENGTHUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: ColumnShoeCasingDepth
   definition: The depth of the column shoe casing.
-  ifdGuid: 3VfkH7ON50ZRwZKb$vYujq
-  legacyGuid: 3VfkH7ON50ZRwZKb$vYujq
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: dfa6e4476171408dbea3525ff98b8b74
+  legacyGuidAsIfcGlobalId: 3VfkH7ON50ZRwZKb$vYujq
   localizations:
   - language: ja-JP
     name: 'ケーシング成'
@@ -221,4 +273,12 @@ properties:
     measureType: ''
     unitType: LENGTHUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN

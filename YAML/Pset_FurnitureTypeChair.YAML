@@ -30,8 +30,10 @@ applicableIfcClasses:
 properties:
 - name: SeatingHeight
   definition: The value of seating height if the chair height is not adjustable.
-  ifdGuid: 25jmjQM0L56AXyW8sR641g
-  legacyGuid: 25jmjQM0L56AXyW8sR641g
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 85b70b5a58054518a87c808d9b18406a
+  legacyGuidAsIfcGlobalId: 25jmjQM0L56AXyW8sR641g
   localizations:
   - language: de-DE
     name: ''
@@ -56,11 +58,21 @@ properties:
     measureType: ''
     unitType: LENGTHUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: HighestSeatingHeight
   definition: The value of seating height of high level if the chair height is adjustable.
-  ifdGuid: 3b8TadxgzCIu$bt4sIBxel
-  legacyGuid: 3b8TadxgzCIu$bt4sIBxel
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: e521d927eeaf4c4b8fe5dc4d922fba2f
+  legacyGuidAsIfcGlobalId: 3b8TadxgzCIu$bt4sIBxel
   localizations:
   - language: de-DE
     name: ''
@@ -85,11 +97,21 @@ properties:
     measureType: ''
     unitType: LENGTHUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: LowestSeatingHeight
   definition: The value of seating height of low level if the chair height is adjustable.
-  ifdGuid: 0cG7v5DurE4R2XZFVZYQBY
-  legacyGuid: 0cG7v5DurE4R2XZFVZYQBY
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 26407e45378d4e11b0a18cf7e389a2e2
+  legacyGuidAsIfcGlobalId: 0cG7v5DurE4R2XZFVZYQBY
   localizations:
   - language: de-DE
     name: ''
@@ -114,4 +136,12 @@ properties:
     measureType: ''
     unitType: LENGTHUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN

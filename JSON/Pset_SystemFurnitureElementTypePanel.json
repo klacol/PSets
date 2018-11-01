@@ -49,8 +49,10 @@
     {
       "name": "HasOpening",
       "definition": "indicates whether the panel has an opening (= TRUE) or not (= FALSE).",
-      "ifdGuid": "1Nxhu1SOHAt9sr7jBdhKFo",
-      "legacyGuid": "1Nxhu1SOHAt9sr7jBdhKFo",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "57eebe0171844adc9db51ed2e7ad43f2",
+      "legacyGuidAsIfcGlobalId": "1Nxhu1SOHAt9sr7jBdhKFo",
       "localizations": [
         {
           "language": "de-DE",
@@ -89,14 +91,25 @@
         "unitType": "USERDEFINED"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "FurniturePanelType",
       "definition": "Available panel types from which that required may be selected.",
-      "ifdGuid": "2gTNhwHbPCp8dsdoK0r7Z3",
-      "legacyGuid": "2gTNhwHbPCp8dsdoK0r7Z3",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "aa757afa46564ccc89f69f2500d478c3",
+      "legacyGuidAsIfcGlobalId": "2gTNhwHbPCp8dsdoK0r7Z3",
       "localizations": [
         {
           "language": "de-DE",
@@ -505,14 +518,25 @@
         ]
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "NominalThickness",
       "definition": "The nominal thickness of the panel.",
-      "ifdGuid": "3Z762KxVTCmhpQHrlL0mUX",
-      "legacyGuid": "3Z762KxVTCmhpQHrlL0mUX",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "e31c6094edf74cc2bcda475bd50307a1",
+      "legacyGuidAsIfcGlobalId": "3Z762KxVTCmhpQHrlL0mUX",
       "localizations": [
         {
           "language": "de-DE",
@@ -551,7 +575,16 @@
         "unitType": "LENGTHUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     }
   ]

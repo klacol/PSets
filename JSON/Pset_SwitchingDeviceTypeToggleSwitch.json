@@ -49,8 +49,10 @@
     {
       "name": "ToggleSwitchType",
       "definition": "A list of the available types of toggle switch from which that required may be selected.",
-      "ifdGuid": "3Y8GsPhqT5gPif4K2XIqVJ",
-      "legacyGuid": "3Y8GsPhqT5gPif4K2XIqVJ",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "e2210d99af4745a99b291140a14b47d3",
+      "legacyGuidAsIfcGlobalId": "3Y8GsPhqT5gPif4K2XIqVJ",
       "localizations": [
         {
           "language": "ja-JP",
@@ -501,14 +503,25 @@
         ]
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "SwitchUsage",
       "definition": "A list of the available usages for toggle switches from which that required may be selected.",
-      "ifdGuid": "0npo$uzEr8x9trUChlffYv",
-      "legacyGuid": "0npo$uzEr8x9trUChlffYv",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "31cf2ff8f4ed48ec9df578caefa698b9",
+      "legacyGuidAsIfcGlobalId": "0npo$uzEr8x9trUChlffYv",
       "localizations": [
         {
           "language": "ja-JP",
@@ -811,14 +824,25 @@
         ]
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "SwitchActivation",
       "definition": "A list of the available activations for toggle switches from which that required may be selected.",
-      "ifdGuid": "25kbFjaGTDMR_iU2gf5$TD",
-      "legacyGuid": "25kbFjaGTDMR_iU2gf5$TD",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "85ba53ed91074d59bfac782aa917f74d",
+      "legacyGuidAsIfcGlobalId": "25kbFjaGTDMR_iU2gf5$TD",
       "localizations": [
         {
           "language": "ja-JP",
@@ -1195,7 +1219,16 @@
         ]
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     }
   ]

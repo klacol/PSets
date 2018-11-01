@@ -49,8 +49,10 @@
     {
       "name": "NominalBodyLength",
       "definition": "Nominal or quoted length measured along the x-axis in the local coordinate system or the radius (in the case of a circular shape in plan) of the drain.",
-      "ifdGuid": "0dCrYW0ZP8ZOpLMzkCVBRN",
-      "legacyGuid": "0dCrYW0ZP8ZOpLMzkCVBRN",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "273358a00236488d8cd55bdb8c7cb6d7",
+      "legacyGuidAsIfcGlobalId": "0dCrYW0ZP8ZOpLMzkCVBRN",
       "localizations": [
         {
           "language": "ja-JP",
@@ -89,14 +91,25 @@
         "unitType": "LENGTHUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "NominalBodyWidth",
       "definition": "Nominal or quoted length measured along the y-axis in the local coordinate system of the drain.",
-      "ifdGuid": "2izFF_ijH4femu4f58A_FE",
-      "legacyGuid": "2izFF_ijH4femu4f58A_FE",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "acf4f3feb2d444a68c381291482be3ce",
+      "legacyGuidAsIfcGlobalId": "2izFF_ijH4femu4f58A_FE",
       "localizations": [
         {
           "language": "ja-JP",
@@ -135,14 +148,25 @@
         "unitType": "LENGTHUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "NominalBodyDepth",
       "definition": "Nominal or quoted length measured along the z-axis in the local coordinate system of the drain.",
-      "ifdGuid": "32j62FYKr39hvieE5ugBCo",
-      "legacyGuid": "32j62FYKr39hvieE5ugBCo",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "c2b4608f894d4326be6ca0e178a8b332",
+      "legacyGuidAsIfcGlobalId": "32j62FYKr39hvieE5ugBCo",
       "localizations": [
         {
           "language": "ja-JP",
@@ -181,14 +205,25 @@
         "unitType": "LENGTHUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "OutletConnectionSize",
       "definition": "Size of the outlet connection from the object.",
-      "ifdGuid": "26GSnkwKH8axgcEwLyhK3F",
-      "legacyGuid": "26GSnkwKH8axgcEwLyhK3F",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "8641cc6ee9444893baa63ba57cad40cf",
+      "legacyGuidAsIfcGlobalId": "26GSnkwKH8axgcEwLyhK3F",
       "localizations": [
         {
           "language": "ja-JP",
@@ -227,14 +262,25 @@
         "unitType": "LENGTHUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "CoverLength",
       "definition": "The length measured along the x-axis in the local coordinate system or the radius (in the case of a circular shape in plan) of the cover of the drain.",
-      "ifdGuid": "2cqm38lFrDCxU7t6aPv6A6",
-      "legacyGuid": "2cqm38lFrDCxU7t6aPv6A6",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "a6d300c8bcfd4d33b787dc6919e46286",
+      "legacyGuidAsIfcGlobalId": "2cqm38lFrDCxU7t6aPv6A6",
       "localizations": [
         {
           "language": "ja-JP",
@@ -273,14 +319,25 @@
         "unitType": "LENGTHUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "CoverWidth",
       "definition": "The length measured along the y-axis in the local coordinate system of the cover of the  drain.",
-      "ifdGuid": "1VF7igqLX8hePu5BzwRfJL",
-      "legacyGuid": "1VF7igqLX8hePu5BzwRfJL",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "5f3c7b2ad15848ae867814bf7a6e94d5",
+      "legacyGuidAsIfcGlobalId": "1VF7igqLX8hePu5BzwRfJL",
       "localizations": [
         {
           "language": "ja-JP",
@@ -319,7 +376,16 @@
         "unitType": "LENGTHUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     }
   ]

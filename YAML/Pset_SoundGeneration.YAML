@@ -30,8 +30,9 @@ applicableIfcClasses:
 properties:
 - name: SoundCurve
   definition: Table of sound frequencies and sound power measured in decibels at a reference power of 1 picowatt(10^(-12) watt) for the referenced octave band frequency.
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
   ifdGuid: ''
-  legacyGuid: ''
+  legacyGuidAsIfcGlobalId: ''
   localizations:
   - language: ja-JP
     name: '音響（騒音？）曲線'
@@ -65,4 +66,12 @@ properties:
       measureType: ''
       unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN

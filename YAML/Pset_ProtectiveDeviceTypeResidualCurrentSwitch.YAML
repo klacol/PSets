@@ -30,8 +30,10 @@ applicableIfcClasses:
 properties:
 - name: Sensitivity
   definition: Current leakage to an unwanted leading path during normal operation (IEC 151-14-49).
-  ifdGuid: 0fMbWeoA5DIARQ_sr_MTNz
-  legacyGuid: 0fMbWeoA5DIARQ_sr_MTNz
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 295a5828c8a14d48a6dafb6d7e59d5fd
+  legacyGuidAsIfcGlobalId: 0fMbWeoA5DIARQ_sr_MTNz
   localizations:
   - language: ja-JP
     name: '感度'
@@ -59,4 +61,12 @@ properties:
     measureType: ''
     unitType: ELECTRICCURRENTUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN

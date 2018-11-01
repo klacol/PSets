@@ -30,8 +30,10 @@ applicableIfcClasses:
 properties:
 - name: SetPointSound
   definition: The sound pressure value to be sensed. Use IfcPropertyBoundedValue.SetPointValue to set the set point value.
-  ifdGuid: 0RIPy8XhT69RfA3y4o5t1i
-  legacyGuid: 0RIPy8XhT69RfA3y4o5t1i
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 1b499f0886b74625ba4a0fc13217706c
+  legacyGuidAsIfcGlobalId: 0RIPy8XhT69RfA3y4o5t1i
   localizations:
   - language: ja-JP
     name: '音圧設定値'
@@ -60,4 +62,12 @@ properties:
     UpperBoundValue: '?'
     typeName: TypePropertyBoundedValue
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN

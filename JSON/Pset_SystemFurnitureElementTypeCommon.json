@@ -49,8 +49,10 @@
     {
       "name": "IsUsed",
       "definition": "Indicates whether the element is being used in a workstation (= TRUE) or not.(= FALSE).",
-      "ifdGuid": "03aeZkgaz7Hhat6MCeFzdA",
-      "legacyGuid": "03aeZkgaz7Hhat6MCeFzdA",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "039288eeaa4f4746b9371963283fd9ca",
+      "legacyGuidAsIfcGlobalId": "03aeZkgaz7Hhat6MCeFzdA",
       "localizations": [
         {
           "language": "de-DE",
@@ -89,14 +91,25 @@
         "unitType": "USERDEFINED"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "GroupCode",
       "definition": "e.g. panels, worksurfaces, storage, etc.",
-      "ifdGuid": "0jJDSYmXL599TkKhf40uzq",
-      "legacyGuid": "0jJDSYmXL599TkKhf40uzq",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "2d4cd722c2154524976e52ba44038f74",
+      "legacyGuidAsIfcGlobalId": "0jJDSYmXL599TkKhf40uzq",
       "localizations": [
         {
           "language": "de-DE",
@@ -135,14 +148,25 @@
         "unitType": "USERDEFINED"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "NominalWidth",
       "definition": "The nominal width of the system furniture elements of this type. The size information is provided in addition to the shape representation and the geometric parameters used within. In cases of inconsistency between the geometric parameters and the size properties, provided in the attached property set, the geometric parameters take precedence.",
-      "ifdGuid": "1AN2X1qx92KgG0x4IkTLPB",
-      "legacyGuid": "1AN2X1qx92KgG0x4IkTLPB",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "4a5c2841d3b24252a400ec44ae75564b",
+      "legacyGuidAsIfcGlobalId": "1AN2X1qx92KgG0x4IkTLPB",
       "localizations": [
         {
           "language": "de-DE",
@@ -181,14 +205,25 @@
         "unitType": "LENGTHUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "NominalHeight",
       "definition": "The nominal height of the system furniture elements of this type. The size information is provided in addition to the shape representation and the geometric parameters used within. In cases of inconsistency between the geometric parameters and the size properties, provided in the attached property set, the geometric parameters take precedence.",
-      "ifdGuid": "20ov1sP9rFcf9OyWAuIMob",
-      "legacyGuid": "20ov1sP9rFcf9OyWAuIMob",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "80cb9076649d4f9a9258f202b8496ca5",
+      "legacyGuidAsIfcGlobalId": "20ov1sP9rFcf9OyWAuIMob",
       "localizations": [
         {
           "language": "de-DE",
@@ -227,14 +262,25 @@
         "unitType": "LENGTHUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "Finishing",
       "definition": "The finishing applied to system furniture elements of this type e.g. walnut, fabric.",
-      "ifdGuid": "0cMY1bTnL7R8IVElysT7zA",
-      "legacyGuid": "0cMY1bTnL7R8IVElysT7zA",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "265a20657715476c849f3aff36747f4a",
+      "legacyGuidAsIfcGlobalId": "0cMY1bTnL7R8IVElysT7zA",
       "localizations": [
         {
           "language": "de-DE",
@@ -273,7 +319,16 @@
         "unitType": "USERDEFINED"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     }
   ]

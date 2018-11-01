@@ -49,8 +49,10 @@
     {
       "name": "Length",
       "definition": "The length of the sump.",
-      "ifdGuid": "3bQRmjIvb42ul5hyfQ2KGe",
-      "legacyGuid": "3bQRmjIvb42ul5hyfQ2KGe",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "e569bc2d4b99440b8bc5afca5a094428",
+      "legacyGuidAsIfcGlobalId": "3bQRmjIvb42ul5hyfQ2KGe",
       "localizations": [
         {
           "language": "ja-JP",
@@ -94,14 +96,25 @@
         "unitType": "LENGTHUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "Width",
       "definition": "The width of the sump.",
-      "ifdGuid": "0p78VlFrb6vP5gKMmk87IW",
-      "legacyGuid": "0p78VlFrb6vP5gKMmk87IW",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "331c87ef3f5946e5916a516c2e2074a0",
+      "legacyGuidAsIfcGlobalId": "0p78VlFrb6vP5gKMmk87IW",
       "localizations": [
         {
           "language": "ja-JP",
@@ -145,14 +158,25 @@
         "unitType": "LENGTHUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "InvertLevel",
       "definition": "The lowest point in the cross section of the sump.",
-      "ifdGuid": "12mj4QLWjBn9rn4REDxn09",
-      "legacyGuid": "12mj4QLWjBn9rn4REDxn09",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "42c2d11a560b4bc49d7111b38def1009",
+      "legacyGuidAsIfcGlobalId": "12mj4QLWjBn9rn4REDxn09",
       "localizations": [
         {
           "language": "ja-JP",
@@ -196,7 +220,16 @@
         "unitType": "LENGTHUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     }
   ]

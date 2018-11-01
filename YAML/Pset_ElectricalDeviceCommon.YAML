@@ -29,8 +29,10 @@ applicableIfcClasses:
 properties:
 - name: RatedCurrent
   definition: PSet2YamlConverter.PropertyType
-  ifdGuid: 1uJPqXHDH0jRCEAj47O9L8
-  legacyGuid: 1uJPqXHDH0jRCEAj47O9L8
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 784d9d2144d440b5b30e2ad107609548
+  legacyGuidAsIfcGlobalId: 1uJPqXHDH0jRCEAj47O9L8
   localizations:
   - language: de-DE
     name: ''
@@ -56,11 +58,21 @@ properties:
     UpperBoundValue: ''
     typeName: TypePropertyBoundedValue
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: RatedVoltage
   definition: PSet2YamlConverter.PropertyType
-  ifdGuid: 2YuL_rvIv9uxXdCK0Vu7_6
-  legacyGuid: 2YuL_rvIv9uxXdCK0Vu7_6
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: a2e15fb5e52e49e3b86731401fe07f86
+  legacyGuidAsIfcGlobalId: 2YuL_rvIv9uxXdCK0Vu7_6
   localizations:
   - language: de-DE
     name: ''
@@ -86,11 +98,21 @@ properties:
     UpperBoundValue: ''
     typeName: TypePropertyBoundedValue
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: NominalFrequencyRange
   definition: PSet2YamlConverter.PropertyType
-  ifdGuid: 3scdbKLST8Ge9QL74TErgy
-  legacyGuid: 3scdbKLST8Ge9QL74TErgy
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: f69a795455c74842825a54711d3b5abc
+  legacyGuidAsIfcGlobalId: 3scdbKLST8Ge9QL74TErgy
   localizations:
   - language: de-DE
     name: ''
@@ -116,11 +138,21 @@ properties:
     UpperBoundValue: ''
     typeName: TypePropertyBoundedValue
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: PowerFactor
   definition: PSet2YamlConverter.PropertyType
-  ifdGuid: 3FKZGrWnL47wR1V9jblsAW
-  legacyGuid: 3FKZGrWnL47wR1V9jblsAW
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: cf5234358315441fa6c17c9b65bf62a0
+  legacyGuidAsIfcGlobalId: 3FKZGrWnL47wR1V9jblsAW
   localizations:
   - language: de-DE
     name: ''
@@ -145,11 +177,21 @@ properties:
     measureType: ''
     unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: ConductorFunction
   definition: PSet2YamlConverter.PropertyType
-  ifdGuid: 3vDX0hr89BVhc9fLSUDJTm
-  legacyGuid: 3vDX0hr89BVhc9fLSUDJTm
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: f936102bd4824b7eb989a5571e353770
+  legacyGuidAsIfcGlobalId: 3vDX0hr89BVhc9fLSUDJTm
   localizations:
   - language: de-DE
     name: ''
@@ -239,11 +281,21 @@ properties:
         name: 'L3'
         definition: ''
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: NumberOfPoles
   definition: PSet2YamlConverter.PropertyType
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
   ifdGuid: 1BMno0qTyHuO00025QrE$V
-  legacyGuid: 1BMno0qTyHuO00025QrE$V
+  legacyGuid: 4b5b1c80d1df11e1800000215ad4efdf
+  legacyGuidAsIfcGlobalId: 1BMno0qTyHuO00025QrE$V
   localizations:
   - language: de-DE
     name: ''
@@ -268,11 +320,21 @@ properties:
     measureType: ''
     unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: HasProtectiveEarth
   definition: PSet2YamlConverter.PropertyType
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
   ifdGuid: 1Gk6S0qTyHuO00025QrE$V
-  legacyGuid: 1Gk6S0qTyHuO00025QrE$V
+  legacyGuid: 50b86700d1df11e1800000215ad4efdf
+  legacyGuidAsIfcGlobalId: 1Gk6S0qTyHuO00025QrE$V
   localizations:
   - language: de-DE
     name: ''
@@ -297,11 +359,21 @@ properties:
     measureType: ''
     unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: IP_Code
   definition: PSet2YamlConverter.PropertyType
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
   ifdGuid: 1MhaW0qTyHuO00025QrE$V
-  legacyGuid: 1MhaW0qTyHuO00025QrE$V
+  legacyGuid: 56ae4800d1df11e1800000215ad4efdf
+  legacyGuidAsIfcGlobalId: 1MhaW0qTyHuO00025QrE$V
   localizations:
   - language: de-DE
     name: ''
@@ -326,11 +398,21 @@ properties:
     measureType: ''
     unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: InsulationStandardClass
   definition: PSet2YamlConverter.PropertyType
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
   ifdGuid: 1TFB_0qTyHuO00025QrE$V
-  legacyGuid: 1TFB_0qTyHuO00025QrE$V
+  legacyGuid: 5d3cbf80d1df11e1800000215ad4efdf
+  legacyGuidAsIfcGlobalId: 1TFB_0qTyHuO00025QrE$V
   localizations:
   - language: de-DE
     name: ''
@@ -508,4 +590,12 @@ properties:
         name: 'Unset'
         definition: ''
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN

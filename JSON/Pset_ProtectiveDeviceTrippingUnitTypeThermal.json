@@ -49,8 +49,10 @@
     {
       "name": "ThermalTrippingUnitType",
       "definition": "A list of the available types of thermal tripping unit  from which that required may be selected.",
-      "ifdGuid": "386Fq2L8zFTBoRkFW20weO",
-      "legacyGuid": "386Fq2L8zFTBoRkFW20weO",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "c818fd02548f4f74bc9bb8f80203aa18",
+      "legacyGuidAsIfcGlobalId": "386Fq2L8zFTBoRkFW20weO",
       "localizations": [
         {
           "language": "ja-JP",
@@ -316,14 +318,25 @@
         ]
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "I1",
       "definition": "The (thermal) lower testing current limit in [x In], indicating that for currents lower than I1, the tripping time shall be longer than the associated tripping time, T2.",
-      "ifdGuid": "3WfaP$Fxv0Mw3n68pBwUmu",
-      "legacyGuid": "3WfaP$Fxv0Mw3n68pBwUmu",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "e0a6467f3fbe405ba0f1188ccbe9ec38",
+      "legacyGuidAsIfcGlobalId": "3WfaP$Fxv0Mw3n68pBwUmu",
       "localizations": [
         {
           "language": "ja-JP",
@@ -367,14 +380,25 @@
         "unitType": "USERDEFINED"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "I2",
       "definition": "The (thermal) upper testing current limit in [x In], indicating that for currents larger than I2, the tripping time shall be shorter than the associated tripping time, T2.",
-      "ifdGuid": "32T1fbEn5AHPbArTIATgOY",
-      "legacyGuid": "32T1fbEn5AHPbArTIATgOY",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "c2741a653b114a45994ad5d48a76a622",
+      "legacyGuidAsIfcGlobalId": "32T1fbEn5AHPbArTIATgOY",
       "localizations": [
         {
           "language": "ja-JP",
@@ -418,14 +442,25 @@
         "unitType": "USERDEFINED"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "T2",
       "definition": "The (thermal) testing time in [s] associated with the testing currents I1 and I2.",
-      "ifdGuid": "2d0YBjbpDAzfhW9I36C32F",
-      "legacyGuid": "2d0YBjbpDAzfhW9I36C32F",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "a70222ed97334af69ae02520c630308f",
+      "legacyGuidAsIfcGlobalId": "2d0YBjbpDAzfhW9I36C32F",
       "localizations": [
         {
           "language": "ja-JP",
@@ -469,14 +504,25 @@
         "unitType": "USERDEFINED"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "DefinedTemperature",
       "definition": "The ambient temperature at which the thermal current/time-curve associated with this protection device is defined.",
-      "ifdGuid": "2bbReFLyzDxPb04_zNuUtv",
-      "legacyGuid": "2bbReFLyzDxPb04_zNuUtv",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "a595ba0f57cf4ded994013ef57e1edf9",
+      "legacyGuidAsIfcGlobalId": "2bbReFLyzDxPb04_zNuUtv",
       "localizations": [
         {
           "language": "ja-JP",
@@ -520,14 +566,25 @@
         "unitType": "USERDEFINED"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "TemperatureFactor",
       "definition": "The correction factor (typically measured as %/deg K) for adjusting the thermal current/time to an ambient temperature different from the value given by the defined temperature.",
-      "ifdGuid": "2hfYjlBzT1dx_Au$QeSmpc",
-      "legacyGuid": "2hfYjlBzT1dx_Au$QeSmpc",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "aba62b6f2fd7419fbf8ae3f6a8730ce6",
+      "legacyGuidAsIfcGlobalId": "2hfYjlBzT1dx_Au$QeSmpc",
       "localizations": [
         {
           "language": "ja-JP",
@@ -571,14 +628,25 @@
         "unitType": "USERDEFINED"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "CurveDesignation",
       "definition": "The designation of the trippingcurve given by the manufacturer. For a MCB the designation should be in accordance with the designations given in IEC 60898.",
-      "ifdGuid": "2zfU3S2FT0ZxOBL1IeldV$",
-      "legacyGuid": "2zfU3S2FT0ZxOBL1IeldV$",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "bda5e0dc08f7408fb60b5414a8be77ff",
+      "legacyGuidAsIfcGlobalId": "2zfU3S2FT0ZxOBL1IeldV$",
       "localizations": [
         {
           "language": "ja-JP",
@@ -622,7 +690,16 @@
         "unitType": "USERDEFINED"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     }
   ]

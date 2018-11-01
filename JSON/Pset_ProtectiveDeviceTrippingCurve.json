@@ -49,8 +49,10 @@
     {
       "name": "TrippingCurveType",
       "definition": "The type of tripping curve that is represented by the property set.",
-      "ifdGuid": "3h0JYf$jzEXv4Wec3ar2az",
-      "legacyGuid": "3h0JYf$jzEXv4Wec3ar2az",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "eb0138a9fedf4e879120a260e4d4293d",
+      "legacyGuidAsIfcGlobalId": "3h0JYf$jzEXv4Wec3ar2az",
       "localizations": [
         {
           "language": "ja-JP",
@@ -242,14 +244,25 @@
         ]
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "TrippingCurve",
       "definition": "A curve that establishes the release time of a tripping unit when a particular prospective current is applied.  Note that the tripping curve is defined within a Cartesian coordinate system and this fact must be asserted within the property set: (1) Defining value is the Prospective Current which is a list of minimum 2 and maximum 16 numbers providing the currents in [x In] for points in the current/time log/log coordinate space. The curve is drawn as a straight line between two consecutive points.(2) Defined value is a list of minimum 2 and maximum 16 numbers providing the release_time in [s] for points in the current/time log/log coordinate space. The curve is drawn as a straight line between two consecutive points. Note that a defined interpolation.",
-      "ifdGuid": "0eHtRcW4j8uROAILvIkhb9",
-      "legacyGuid": "0eHtRcW4j8uROAILvIkhb9",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "284776e6804b48e1b60a495e52bab949",
+      "legacyGuidAsIfcGlobalId": "0eHtRcW4j8uROAILvIkhb9",
       "localizations": [
         {
           "language": "ja-JP",
@@ -301,7 +314,16 @@
         }
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     }
   ]

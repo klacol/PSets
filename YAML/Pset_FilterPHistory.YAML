@@ -30,8 +30,10 @@ applicableIfcClasses:
 properties:
 - name: CountedEfficiency
   definition: Filter efficiency based the particle counts concentration before and after filter against particles with certain size distribution.
-  ifdGuid: 2wT_inaQLENBfwOPpVTTy2
-  legacyGuid: 2wT_inaQLENBfwOPpVTTy2
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: ba77eb3191a54e5cba7a619cdf75df02
+  legacyGuidAsIfcGlobalId: 2wT_inaQLENBfwOPpVTTy2
   localizations:
   - language: de-DE
     name: ''
@@ -58,11 +60,21 @@ properties:
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: WeightedEfficiency
   definition: Filter efficiency based the particle weight concentration before and after filter against particles with certain size distribution.
-  ifdGuid: 1t0ugVthf9LwEoaPSZvqUI
-  legacyGuid: 1t0ugVthf9LwEoaPSZvqUI
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 77038a9fdeba4957a3b2919723e74792
+  legacyGuidAsIfcGlobalId: 1t0ugVthf9LwEoaPSZvqUI
   localizations:
   - language: de-DE
     name: ''
@@ -89,11 +101,21 @@ properties:
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: ParticleMassHolding
   definition: Mass of particle holding in the filter.
-  ifdGuid: 0f56Adr3D5SOoEyDPFsxGX
-  legacyGuid: 0f56Adr3D5SOoEyDPFsxGX
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 291462a7d43345718c8ef0d64fdbb421
+  legacyGuidAsIfcGlobalId: 0f56Adr3D5SOoEyDPFsxGX
   localizations:
   - language: de-DE
     name: ''
@@ -120,4 +142,12 @@ properties:
     libraryName: Industry Foundation Classes by buildingSMART International
     sectionref: Core Schema
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN

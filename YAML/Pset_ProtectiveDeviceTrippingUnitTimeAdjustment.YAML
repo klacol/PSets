@@ -30,8 +30,10 @@ applicableIfcClasses:
 properties:
 - name: AdjustmentValueType
   definition: The type of adjustment value that is applied through the property set. This determines the properties that should be asserted (see below).
-  ifdGuid: 3uXpz9gT57DRdVsbzNTmsT
-  legacyGuid: 3uXpz9gT57DRdVsbzNTmsT
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: f8873f49a9d14735b9dfda5f57770d9d
+  legacyGuidAsIfcGlobalId: 3uXpz9gT57DRdVsbzNTmsT
   localizations:
   - language: ja-JP
     name: '調整値の型'
@@ -146,11 +148,21 @@ properties:
         name: 'Unknown'
         definition: ''
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: AdjustmentRange
   definition: Upper and lower time adjustment limits for an AdjustmentValueType = RANGE. Note that this property should not have a value for an  AdjustmentValueType = LIST.
-  ifdGuid: 2hnzYmCn9DsAf6SLY1Wfn4
-  legacyGuid: 2hnzYmCn9DsAf6SLY1Wfn4
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: abc7d8b033124dd8aa46715881829c44
+  legacyGuidAsIfcGlobalId: 2hnzYmCn9DsAf6SLY1Wfn4
   localizations:
   - language: ja-JP
     name: '調整範囲'
@@ -179,11 +191,21 @@ properties:
     UpperBoundValue: '?'
     typeName: TypePropertyBoundedValue
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: AdjustmentRangeStepValue
   definition: Step value of time adjustment for an AdjustmentValueType = RANGE. Note that this property should not have a value for an  AdjustmentValueType = LIST.
-  ifdGuid: 1OCZw3Rdr42R_yuIwT17it
-  legacyGuid: 1OCZw3Rdr42R_yuIwT17it
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 58323e836e7d4409bfbce12e9d047b37
+  legacyGuidAsIfcGlobalId: 1OCZw3Rdr42R_yuIwT17it
   localizations:
   - language: ja-JP
     name: '調整範囲のステップ値'
@@ -211,11 +233,21 @@ properties:
     measureType: ''
     unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: AdjustmentValues
   definition: A list of time adjustment values that may be applied to a tripping unit for an AdjustmentValueType = LIST. A minimum of 1 and a maximum of 16 adjustment values may be specified. Note that this property should not have a value for an  AdjustmentValueType = RANGE.
-  ifdGuid: 14Ms3iPE5D3hOibV$SXHqy
-  legacyGuid: 14Ms3iPE5D3hOibV$SXHqy
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 445b60ec64e14d0eb62c95ffdc851d3c
+  legacyGuidAsIfcGlobalId: 14Ms3iPE5D3hOibV$SXHqy
   localizations:
   - language: ja-JP
     name: '調整値'
@@ -243,11 +275,21 @@ properties:
     measureType: ''
     unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: AdjustmentDesignation
   definition: The desgnation on the device for the adjustment.
-  ifdGuid: 1rKv8Wm0T0ouj3X6ZUIfVN
-  legacyGuid: 1rKv8Wm0T0ouj3X6ZUIfVN
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 75539220c00740cb8b438468de4a97d7
+  legacyGuidAsIfcGlobalId: 1rKv8Wm0T0ouj3X6ZUIfVN
   localizations:
   - language: ja-JP
     name: '調整の指定'
@@ -275,11 +317,21 @@ properties:
     measureType: ''
     unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: CurrentForTimeDelay
   definition: The tripping current in [x In] at which the time delay is specified. A value for this property should only be asserted for time delay of L-function, and for I2t of the S and G function.
-  ifdGuid: 13xCuQGn5769KBMML85ih8
-  legacyGuid: 13xCuQGn5769KBMML85ih8
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 43ecce1a43114718950b59654816cac8
+  legacyGuidAsIfcGlobalId: 13xCuQGn5769KBMML85ih8
   localizations:
   - language: ja-JP
     name: '時延電流'
@@ -307,11 +359,21 @@ properties:
     measureType: ''
     unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: I2TApplicability
   definition: The applicability of the time adjustment related to the tripping function.
-  ifdGuid: 1riz7kpsP5NPxL93gFgCtZ
-  legacyGuid: 1riz7kpsP5NPxL93gFgCtZ
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 75b3d1eecf66455d9ed5243a8fa8cde3
+  legacyGuidAsIfcGlobalId: 1riz7kpsP5NPxL93gFgCtZ
   localizations:
   - language: ja-JP
     name: 'I2Tの適用'
@@ -448,4 +510,12 @@ properties:
         name: 'Unknown'
         definition: ''
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN

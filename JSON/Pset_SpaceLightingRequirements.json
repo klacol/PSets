@@ -61,8 +61,10 @@
     {
       "name": "ArtificialLighting",
       "definition": "Indication whether this space  requires artificial lighting (as natural lighting would be not sufficient). (TRUE) indicates yes (FALSE) otherwise.",
-      "ifdGuid": "39VFeCeCv1rQ1xJ7S_tQZp",
-      "legacyGuid": "39VFeCeCv1rQ1xJ7S_tQZp",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "c97cfa0ca0ce41d5a07b4c773edda8f3",
+      "legacyGuidAsIfcGlobalId": "39VFeCeCv1rQ1xJ7S_tQZp",
       "localizations": [
         {
           "language": "de-DE",
@@ -106,14 +108,25 @@
         "unitType": "USERDEFINED"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "Illuminance",
       "definition": "Required average illuminance value for this space.",
-      "ifdGuid": "1k26F_qL99AB9a9kuUR61a",
-      "legacyGuid": "1k26F_qL99AB9a9kuUR61a",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "6e0863fed1524928b26426ee1e6c6064",
+      "legacyGuidAsIfcGlobalId": "1k26F_qL99AB9a9kuUR61a",
       "localizations": [
         {
           "language": "de-DE",
@@ -157,7 +170,16 @@
         "unitType": "ILLUMINANCEUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     }
   ]

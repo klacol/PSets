@@ -49,8 +49,10 @@
     {
       "name": "HasHoseUnion",
       "definition": "Indicates whether the gas tap is fitted with a hose union connection (= TRUE) or not (= FALSE).",
-      "ifdGuid": "1_ZJfcuc155h6XhE6o0Sug",
-      "legacyGuid": "1_ZJfcuc155h6XhE6o0Sug",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "7e8d3a66e2604516b1a1ace1b201ce2a",
+      "legacyGuidAsIfcGlobalId": "1_ZJfcuc155h6XhE6o0Sug",
       "localizations": [
         {
           "language": "ja-JP",
@@ -89,7 +91,16 @@
         "unitType": "USERDEFINED"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     }
   ]

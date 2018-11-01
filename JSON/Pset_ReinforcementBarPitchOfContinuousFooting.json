@@ -49,8 +49,10 @@
     {
       "name": "Description",
       "definition": "Description of the reinforcement.",
-      "ifdGuid": "2W4HeaeVzDleW6qwf4j$HY",
-      "legacyGuid": "2W4HeaeVzDleW6qwf4j$HY",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "a0111a24a1ff4dbe8806d3aa44b7f462",
+      "legacyGuidAsIfcGlobalId": "2W4HeaeVzDleW6qwf4j$HY",
       "localizations": [
         {
           "language": "ja-JP",
@@ -89,14 +91,25 @@
         "unitType": "USERDEFINED"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "Reference",
       "definition": "A descriptive label for the general reinforcement type.",
-      "ifdGuid": "3bBaufm6j0kAKBJ0ZRUu_q",
-      "legacyGuid": "3bBaufm6j0kAKBJ0ZRUu_q",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "e52e4e29c06b40b8a50b4c08db7b8fb4",
+      "legacyGuidAsIfcGlobalId": "3bBaufm6j0kAKBJ0ZRUu_q",
       "localizations": [
         {
           "language": "ja-JP",
@@ -135,14 +148,25 @@
         "unitType": "USERDEFINED"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "CrossingUpperBarPitch",
       "definition": "The pitch length of the crossing upper bar.",
-      "ifdGuid": "080qigwQ1AsvsLeU2CyglZ",
-      "legacyGuid": "080qigwQ1AsvsLeU2CyglZ",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "08034b2ae9a04adb9d95a1e08cf2abe3",
+      "legacyGuidAsIfcGlobalId": "080qigwQ1AsvsLeU2CyglZ",
       "localizations": [
         {
           "language": "ja-JP",
@@ -181,14 +205,25 @@
         "unitType": "LENGTHUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "CrossingLowerBarPitch",
       "definition": "The pitch length of the crossing lower bar.",
-      "ifdGuid": "0fGEK$_Fv1UQVhi_QnyCX0",
-      "legacyGuid": "0fGEK$_Fv1UQVhi_QnyCX0",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "2940e53ff8fe4179a7ebb3e6b1f0c840",
+      "legacyGuidAsIfcGlobalId": "0fGEK$_Fv1UQVhi_QnyCX0",
       "localizations": [
         {
           "language": "ja-JP",
@@ -227,7 +262,16 @@
         "unitType": "LENGTHUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     }
   ]

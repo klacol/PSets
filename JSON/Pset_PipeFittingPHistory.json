@@ -49,8 +49,10 @@
     {
       "name": "LossCoefficient",
       "definition": "Dimensionless loss coefficient used for calculating fluid resistance representing the ratio of total pressure loss to velocity pressure at a referenced cross-section.",
-      "ifdGuid": "1gwZtwuOP5JAR0mCXILiP5",
-      "legacyGuid": "1gwZtwuOP5JAR0mCXILiP5",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "6aea3dfae186454ca6c0c0c85256c645",
+      "legacyGuidAsIfcGlobalId": "1gwZtwuOP5JAR0mCXILiP5",
       "localizations": [
         {
           "language": "ja-JP",
@@ -91,14 +93,25 @@
         "sectionref": "Core Schema"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "FlowrateLeakage",
       "definition": "Leakage flowrate versus pressure difference.",
-      "ifdGuid": "2EoQP6gFfCRea5yzvMv7HR",
-      "legacyGuid": "2EoQP6gFfCRea5yzvMv7HR",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "8ec9a646a8fa4c6e8905f3de56e4745b",
+      "legacyGuidAsIfcGlobalId": "2EoQP6gFfCRea5yzvMv7HR",
       "localizations": [
         {
           "language": "ja-JP",
@@ -139,7 +152,16 @@
         "sectionref": "Core Schema"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     }
   ]

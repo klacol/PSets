@@ -49,8 +49,10 @@
     {
       "name": "Description",
       "definition": "Description of the reinforcement.",
-      "ifdGuid": "3rTavussT1whPakw6fP$WP",
-      "legacyGuid": "3rTavussT1whPakw6fP$WP",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "f5764e78db6741eab664bba1a967f819",
+      "legacyGuidAsIfcGlobalId": "3rTavussT1whPakw6fP$WP",
       "localizations": [
         {
           "language": "ja-JP",
@@ -89,14 +91,25 @@
         "unitType": "USERDEFINED"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "Reference",
       "definition": "A descriptive label for the general reinforcement type.",
-      "ifdGuid": "1_982euEz7BxgdPixx2pQm",
-      "legacyGuid": "1_982euEz7BxgdPixx2pQm",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "7e2480a8e0ef472fbaa766cefb0b36b0",
+      "legacyGuidAsIfcGlobalId": "1_982euEz7BxgdPixx2pQm",
       "localizations": [
         {
           "language": "ja-JP",
@@ -135,14 +148,25 @@
         "unitType": "USERDEFINED"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "BarAllocationType",
       "definition": "Defines the type of the reinforcement bar allocation.",
-      "ifdGuid": "1YYhO6qAjDL9$X20HY7VQc",
-      "legacyGuid": "1YYhO6qAjDL9$X20HY7VQc",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "628ab606d0ab4d549fe10804621df6a6",
+      "legacyGuidAsIfcGlobalId": "1YYhO6qAjDL9$X20HY7VQc",
       "localizations": [
         {
           "language": "ja-JP",
@@ -366,14 +390,25 @@
         ]
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "VerticalBarPitch",
       "definition": "The pitch length of the vertical bar.",
-      "ifdGuid": "3gEZBC795A_Qw$4rxIK3j3",
-      "legacyGuid": "3gEZBC795A_Qw$4rxIK3j3",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "ea3a32cc1c914af9aebf135ed2503b43",
+      "legacyGuidAsIfcGlobalId": "3gEZBC795A_Qw$4rxIK3j3",
       "localizations": [
         {
           "language": "ja-JP",
@@ -412,14 +447,25 @@
         "unitType": "LENGTHUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "HorizontalBarPitch",
       "definition": "The pitch length of the horizontal bar.",
-      "ifdGuid": "3OvdEo3Ar9g8yff3ABisDu",
-      "legacyGuid": "3OvdEo3Ar9g8yff3ABisDu",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "d8e673b20cad49a88f29a4328bb36378",
+      "legacyGuidAsIfcGlobalId": "3OvdEo3Ar9g8yff3ABisDu",
       "localizations": [
         {
           "language": "ja-JP",
@@ -458,14 +504,25 @@
         "unitType": "LENGTHUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "SpacingBarPitch",
       "definition": "The pitch length of the spacing bar.",
-      "ifdGuid": "3QNySXHEj9Q8XAW3DGEzoW",
-      "legacyGuid": "3QNySXHEj9Q8XAW3DGEzoW",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "da5fc72144eb4968884a8033503bdca0",
+      "legacyGuidAsIfcGlobalId": "3QNySXHEj9Q8XAW3DGEzoW",
       "localizations": [
         {
           "language": "ja-JP",
@@ -504,7 +561,16 @@
         "unitType": "LENGTHUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     }
   ]

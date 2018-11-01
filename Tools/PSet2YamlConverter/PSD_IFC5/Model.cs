@@ -36,6 +36,9 @@ namespace PSD_IFC5
         public string name { get; set; }
 
         public string definition { get; set; }
+        public string description { get; set; }
+        public string example { get; set; }
+
     }
     public class ApplicableIfcClass
     {
@@ -45,31 +48,20 @@ namespace PSD_IFC5
     public class Property
     {
         public string name { get; set; }
-
         public string definition { get; set; }
-
+        public string dictionaryIdentifier { get; set; }
         public string ifdGuid { get; set; }
         public string legacyGuid { get; set; }
         public string legacyGuidAsIfcGlobalId { get; set; }
-
         public List<Localization> localizations { get; set; }
-
         public TypePropertyBoundedValue typePropertyBoundedValue { get; set; }
-
         public TypeComplexProperty typeComplexProperty { get; set; }
-
         public TypePropertyEnumeratedValue typePropertyEnumeratedValue { get; set; }
-
         public TypePropertyListValue typePropertyListValue { get; set; }
-
         public TypePropertyReferenceValue typePropertyReferenceValue { get; set; }
-
         public TypePropertySingleValue typePropertySingleValue { get; set; }
-
         public TypePropertyTableValue typePropertyTableValue { get; set; }
-
-        public Status status{ get; set; }
-
+        public PublicationStatus status{ get; set; }
     }
     public class TypeOfValue
     {
@@ -286,9 +278,18 @@ namespace PSD_IFC5
         public List<Localization> localizations { get; set; }
     }
 
-    public class Status
+    public class PublicationStatus
     {
-        public DateTime creationDate { get; set; }
-
+        public int versionNumber { get; set; }
+        public DateTime dateOfVersion { get; set; }
+        public int revisionNumber { get; set; }
+        public DateTime dateOfRevision { get; set; }
+        public enum Status {Active, Inactive}
+        public string status { get; set; }
+        public DateTime dateOfCreation { get; set; }
+        public DateTime dateOfActivation { get; set; }
+        public DateTime dateOfLastChange { get; set; }    
+        public DateTime dateOfDeactivation { get; set; }
+        public string languageOfCreator { get; set; }
     }
 }

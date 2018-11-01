@@ -30,8 +30,10 @@ applicableIfcClasses:
 properties:
 - name: MixerControl
   definition: Defines the form of control of the mixing valve.
-  ifdGuid: 0aok2wgoXFsg0oljnnIzg9
-  legacyGuid: 0aok2wgoXFsg0oljnnIzg9
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 24cae0baab284fdaa032bedc714bda89
+  legacyGuidAsIfcGlobalId: 0aok2wgoXFsg0oljnnIzg9
   localizations:
   - language: ja-JP
     name: '混合制御'
@@ -165,11 +167,21 @@ properties:
         name: 'Unknown'
         definition: ''
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: OutletConnectionSize
   definition: The size of the pipework connection from the mixing valve.
-  ifdGuid: 0tysabk3j0cuE4F85TpZfs
-  legacyGuid: 0tysabk3j0cuE4F85TpZfs
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 37f36925b83b409b83843c815dce3a76
+  legacyGuidAsIfcGlobalId: 0tysabk3j0cuE4F85TpZfs
   localizations:
   - language: ja-JP
     name: '出力側接続口径'
@@ -194,4 +206,12 @@ properties:
     measureType: ''
     unitType: LENGTHUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN

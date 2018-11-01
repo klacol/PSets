@@ -49,8 +49,10 @@
     {
       "name": "PercentageOpen",
       "definition": "The ratio between the amount that the valve is open to the full open position of the valve.",
-      "ifdGuid": "28VRDbpfvD6PGlO0JKW80K",
-      "legacyGuid": "28VRDbpfvD6PGlO0JKW80K",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "887db365ce9e4d19942f6004d4808014",
+      "legacyGuidAsIfcGlobalId": "28VRDbpfvD6PGlO0JKW80K",
       "localizations": [
         {
           "language": "ja-JP",
@@ -91,14 +93,25 @@
         "sectionref": "Core Schema"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "MeasuredFlowRate",
       "definition": "The rate of flow of a fluid measured across the valve.",
-      "ifdGuid": "1BtEmbU0vAZAnf6IB4G6RD",
-      "legacyGuid": "1BtEmbU0vAZAnf6IB4G6RD",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "4bdcec25780e4a8cac691922c44066cd",
+      "legacyGuidAsIfcGlobalId": "1BtEmbU0vAZAnf6IB4G6RD",
       "localizations": [
         {
           "language": "ja-JP",
@@ -139,14 +152,25 @@
         "sectionref": "Core Schema"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "MeasuredPressureDrop",
       "definition": "The actual pressure drop in the fluid measured across the valve.",
-      "ifdGuid": "0M6m0XtZPA89OI5KM18qbF",
-      "legacyGuid": "0M6m0XtZPA89OI5KM18qbF",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "161b0021de364a20961215458123494f",
+      "legacyGuidAsIfcGlobalId": "0M6m0XtZPA89OI5KM18qbF",
       "localizations": [
         {
           "language": "ja-JP",
@@ -187,7 +211,16 @@
         "sectionref": "Core Schema"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     }
   ]

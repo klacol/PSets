@@ -30,8 +30,10 @@ applicableIfcClasses:
 properties:
 - name: Mounting
   definition: 'The property enumeration Pset_SanitaryMountingEnum defines the forms of mounting or fixing of the sanitary terminal that may be specified within property sets used to define sanitary terminals (WC’s, basins, sinks, etc.) where:-BackToWall: 	A pedestal mounted sanitary terminal that fits flush to the wall at the rear to cover its service connections.Pedestal: 	A floor mounted sanitary terminal that has an integral base.CounterTop: 	A sanitary terminal that is installed into a horizontal surface that is installed into a horizontal surface. Note: When applied to a wash hand basin, the term more normally used is ‘vanity’. See also Wash Hand Basin Type specification.WallHung: 	A sanitary terminal cantilevered clear of the floor.Note that BackToWall, Pedestal and WallHung are allowable values for a bidet.'
-  ifdGuid: 03EJmRevf5dh0FfxAGn7QJ
-  legacyGuid: 03EJmRevf5dh0FfxAGn7QJ
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 03393c1ba39a459eb00fa7b290c47693
+  legacyGuidAsIfcGlobalId: 03EJmRevf5dh0FfxAGn7QJ
   localizations:
   - language: ja-JP
     name: '装着'
@@ -187,11 +189,21 @@ properties:
         name: 'Unknown'
         definition: ''
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: NominalLength
   definition: Nominal or quoted length of the object.
-  ifdGuid: 2xG36hJgTA4vZAvnEmfUgo
-  legacyGuid: 2xG36hJgTA4vZAvnEmfUgo
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: bb4031ab4ea74a1398cae713b0a5eab2
+  legacyGuidAsIfcGlobalId: 2xG36hJgTA4vZAvnEmfUgo
   localizations:
   - language: ja-JP
     name: '呼び長さ'
@@ -216,11 +228,21 @@ properties:
     measureType: ''
     unitType: LENGTHUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: NominalWidth
   definition: Nominal or quoted width of the object.
-  ifdGuid: 2sl7yAFvDFEO5ZTgfhm8kP
-  legacyGuid: 2sl7yAFvDFEO5ZTgfhm8kP
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: b6bc7f0a3f934f39816376aa6bc08b99
+  legacyGuidAsIfcGlobalId: 2sl7yAFvDFEO5ZTgfhm8kP
   localizations:
   - language: ja-JP
     name: '呼び幅'
@@ -245,11 +267,21 @@ properties:
     measureType: ''
     unitType: LENGTHUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: NominalDepth
   definition: Nominal or quoted depth of the object.
-  ifdGuid: 3bXC8UvR9Fb9Ok75Aw5rJg
-  legacyGuid: 3bXC8UvR9Fb9Ok75Aw5rJg
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: e584c21ee5b24f94962e1c52ba1754ea
+  legacyGuidAsIfcGlobalId: 3bXC8UvR9Fb9Ok75Aw5rJg
   localizations:
   - language: ja-JP
     name: '公称深さ'
@@ -274,11 +306,21 @@ properties:
     measureType: ''
     unitType: LENGTHUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: Color
   definition: Color selection for this object.
-  ifdGuid: 2EfLUByEX0$QwEJX5fT52j
-  legacyGuid: 2EfLUByEX0$QwEJX5fT52j
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 8ea5578bf0e840fdae8e4e11697450ad
+  legacyGuidAsIfcGlobalId: 2EfLUByEX0$QwEJX5fT52j
   localizations:
   - language: ja-JP
     name: '色'
@@ -303,11 +345,21 @@ properties:
     measureType: ''
     unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: SpilloverLevel
   definition: The level at which water spills out of the object.
-  ifdGuid: 3_zPeLj6f51OoBE7Ef$Bxv
-  legacyGuid: 3_zPeLj6f51OoBE7Ef$Bxv
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: fef59a15b46a45058c8b3873a9fcbef9
+  legacyGuidAsIfcGlobalId: 3_zPeLj6f51OoBE7Ef$Bxv
   localizations:
   - language: ja-JP
     name: '流出レベル'
@@ -332,11 +384,21 @@ properties:
     measureType: ''
     unitType: LENGTHUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: DrainSize
   definition: The size of the drain outlet connection from the object.
-  ifdGuid: 2fLgBH_F9C1f1zlYhZHLNH
-  legacyGuid: 2fLgBH_F9C1f1zlYhZHLNH
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: a956a2d1f8f24c06907dbe2ae34555d1
+  legacyGuidAsIfcGlobalId: 2fLgBH_F9C1f1zlYhZHLNH
   localizations:
   - language: ja-JP
     name: 'ドレインサイズ'
@@ -361,4 +423,12 @@ properties:
     measureType: ''
     unitType: LENGTHUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN

@@ -49,8 +49,10 @@
     {
       "name": "MixerControl",
       "definition": "Defines the form of control of the mixing valve.",
-      "ifdGuid": "0aok2wgoXFsg0oljnnIzg9",
-      "legacyGuid": "0aok2wgoXFsg0oljnnIzg9",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "24cae0baab284fdaa032bedc714bda89",
+      "legacyGuidAsIfcGlobalId": "0aok2wgoXFsg0oljnnIzg9",
       "localizations": [
         {
           "language": "ja-JP",
@@ -274,14 +276,25 @@
         ]
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "OutletConnectionSize",
       "definition": "The size of the pipework connection from the mixing valve.",
-      "ifdGuid": "0tysabk3j0cuE4F85TpZfs",
-      "legacyGuid": "0tysabk3j0cuE4F85TpZfs",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "37f36925b83b409b83843c815dce3a76",
+      "legacyGuidAsIfcGlobalId": "0tysabk3j0cuE4F85TpZfs",
       "localizations": [
         {
           "language": "ja-JP",
@@ -320,7 +333,16 @@
         "unitType": "LENGTHUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     }
   ]

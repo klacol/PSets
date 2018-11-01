@@ -49,8 +49,9 @@
     {
       "name": "Reference",
       "definition": "Reference ID for this specified type in this project (e.g. type 'A-1'), provided, if there is no classification reference to a recognized classification system used.",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
       "ifdGuid": "",
-      "legacyGuid": "",
+      "legacyGuidAsIfcGlobalId": "",
       "localizations": [
         {
           "language": "ja-JP",
@@ -89,14 +90,24 @@
         "unitType": "USERDEFINED"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "Status",
       "definition": "Status of the element, predominately used in renovation or retrofitting projects. The status can be assigned to as \"New\" - element designed as new addition, \"Existing\" - element exists and remains, \"Demolish\" - element existed but is to be demolished,  \"Temporary\" - element will exists only temporary (like a temporary support structure).",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
       "ifdGuid": "",
-      "legacyGuid": "",
+      "legacyGuidAsIfcGlobalId": "",
       "localizations": [
         {
           "language": "ja-JP",
@@ -357,14 +368,25 @@
         ]
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "IsFreeHanging",
       "definition": "Is it free hanging type (not mounted in a false ceiling)?",
-      "ifdGuid": "0ZBZHtaiPDfusM6k2poOvg",
-      "legacyGuid": "0ZBZHtaiPDfusM6k2poOvg",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "232e347792c64da78d961ae0b3c98e6a",
+      "legacyGuidAsIfcGlobalId": "0ZBZHtaiPDfusM6k2poOvg",
       "localizations": [
         {
           "language": "de-DE",
@@ -403,14 +425,25 @@
         "unitType": "USERDEFINED"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "WaterFlowControlSystemType",
       "definition": "Factory fitted waterflow control system.",
-      "ifdGuid": "12yc51WNf5lf9swEF0941N",
-      "legacyGuid": "12yc51WNf5lf9swEF0941N",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "42f26141817a45be9276e8e3c0244057",
+      "legacyGuidAsIfcGlobalId": "12yc51WNf5lf9swEF0941N",
       "localizations": [
         {
           "language": "de-DE",
@@ -671,14 +704,25 @@
         ]
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "WaterPressureRange",
       "definition": "Allowable water circuit working pressure range.",
-      "ifdGuid": "1uvuFGTMf0UO0tSrdYT4yU",
-      "legacyGuid": "1uvuFGTMf0UO0tSrdYT4yU",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "78e783d0756a407980377359e2744f1e",
+      "legacyGuidAsIfcGlobalId": "1uvuFGTMf0UO0tSrdYT4yU",
       "localizations": [
         {
           "language": "de-DE",
@@ -719,14 +763,25 @@
         "typeName": "TypePropertyBoundedValue"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "NominalCoolingCapacity",
       "definition": "Nominal cooling capacity.",
-      "ifdGuid": "0dVc4rldjDjOS5fzYDT3dM",
-      "legacyGuid": "0dVc4rldjDjOS5fzYDT3dM",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "277e6135be7b4db58705a7d88d7439d6",
+      "legacyGuidAsIfcGlobalId": "0dVc4rldjDjOS5fzYDT3dM",
       "localizations": [
         {
           "language": "de-DE",
@@ -765,14 +820,25 @@
         "unitType": "POWERUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "NominalSurroundingTemperatureCooling",
       "definition": "Nominal surrounding temperature (refers to nominal cooling capacity).",
-      "ifdGuid": "3v6yRKnSf1l8Y6fCV8rzBf",
-      "legacyGuid": "3v6yRKnSf1l8Y6fCV8rzBf",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "f91bc6d4c5ca41bc8886a4c7c8d7d2e9",
+      "legacyGuidAsIfcGlobalId": "3v6yRKnSf1l8Y6fCV8rzBf",
       "localizations": [
         {
           "language": "de-DE",
@@ -811,14 +877,25 @@
         "unitType": "THERMODYNAMICTEMPERATUREUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "NominalSurroundingHumidityCooling",
       "definition": "Nominal surrounding humidity (refers to nominal cooling capacity).",
-      "ifdGuid": "3bp44_c8j0MBwYTnoJrOx6",
-      "legacyGuid": "3bp44_c8j0MBwYTnoJrOx6",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "e5cc413e988b4058bea2771c93d58ec6",
+      "legacyGuidAsIfcGlobalId": "3bp44_c8j0MBwYTnoJrOx6",
       "localizations": [
         {
           "language": "de-DE",
@@ -857,14 +934,25 @@
         "unitType": "USERDEFINED"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "NominalSupplyWaterTemperatureCooling",
       "definition": "Nominal supply water temperature (refers to nominal cooling capacity).",
-      "ifdGuid": "0c0kcPRWD5mxlNbThYgh2s",
-      "legacyGuid": "0c0kcPRWD5mxlNbThYgh2s",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "2602e9996e0345c3bbd795dae2aab0b6",
+      "legacyGuidAsIfcGlobalId": "0c0kcPRWD5mxlNbThYgh2s",
       "localizations": [
         {
           "language": "de-DE",
@@ -903,14 +991,25 @@
         "unitType": "THERMODYNAMICTEMPERATUREUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "NominalReturnWaterTemperatureCooling",
       "definition": "Nominal return water temperature (refers to nominal cooling capacity).",
-      "ifdGuid": "2avfrkR_zELh57sAQEBg$Z",
-      "legacyGuid": "2avfrkR_zELh57sAQEBg$Z",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "a4e69d6e6fef4e56b147d8a68e2eafe3",
+      "legacyGuidAsIfcGlobalId": "2avfrkR_zELh57sAQEBg$Z",
       "localizations": [
         {
           "language": "de-DE",
@@ -949,14 +1048,25 @@
         "unitType": "THERMODYNAMICTEMPERATUREUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "NominalWaterFlowCooling",
       "definition": "Nominal water flow (refers to nominal cooling capacity).",
-      "ifdGuid": "1xOVlAy_f6owQ6jD6QoiSR",
-      "legacyGuid": "1xOVlAy_f6owQ6jD6QoiSR",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "7b61fbcaf3ea46cba686b4d19acac71b",
+      "legacyGuidAsIfcGlobalId": "1xOVlAy_f6owQ6jD6QoiSR",
       "localizations": [
         {
           "language": "de-DE",
@@ -995,14 +1105,25 @@
         "unitType": "VOLUMETRICFLOWRATEUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "NominalHeatingCapacity",
       "definition": "Nominal heating capacity.",
-      "ifdGuid": "3PH4SlD$b6EASkC_myijua",
-      "legacyGuid": "3PH4SlD$b6EASkC_myijua",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "d944472f37f94638a72e33ec3cb2de24",
+      "legacyGuidAsIfcGlobalId": "3PH4SlD$b6EASkC_myijua",
       "localizations": [
         {
           "language": "de-DE",
@@ -1041,14 +1162,25 @@
         "unitType": "POWERUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "NominalSurroundingTemperatureHeating",
       "definition": "Nominal surrounding temperature (refers to nominal heating capacity).",
-      "ifdGuid": "3XjGl6_Xf35QjmjLIGpnW7",
-      "legacyGuid": "3XjGl6_Xf35QjmjLIGpnW7",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "e1b50bc6fa1a4315ab70b55490cf1807",
+      "legacyGuidAsIfcGlobalId": "3XjGl6_Xf35QjmjLIGpnW7",
       "localizations": [
         {
           "language": "de-DE",
@@ -1087,14 +1219,25 @@
         "unitType": "THERMODYNAMICTEMPERATUREUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "NominalSupplyWaterTemperatureHeating",
       "definition": "Nominal supply water temperature (refers to nominal heating capacity).",
-      "ifdGuid": "0hS0zNuLn4Q8iQ3JA4t6yN",
-      "legacyGuid": "0hS0zNuLn4Q8iQ3JA4t6yN",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "2b700f57e15c44688b1a0d3284dc6f17",
+      "legacyGuidAsIfcGlobalId": "0hS0zNuLn4Q8iQ3JA4t6yN",
       "localizations": [
         {
           "language": "de-DE",
@@ -1133,14 +1276,25 @@
         "unitType": "THERMODYNAMICTEMPERATUREUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "NominalReturnWaterTemperatureHeating",
       "definition": "Nominal return water temperature (refers to nominal heating capacity).",
-      "ifdGuid": "20UnwMyYrBAx5$TVvaN1Lv",
-      "legacyGuid": "20UnwMyYrBAx5$TVvaN1Lv",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "807b1e96f22d4b2bb17f75fe645c1579",
+      "legacyGuidAsIfcGlobalId": "20UnwMyYrBAx5$TVvaN1Lv",
       "localizations": [
         {
           "language": "de-DE",
@@ -1179,14 +1333,25 @@
         "unitType": "THERMODYNAMICTEMPERATUREUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "NominalWaterFlowHeating",
       "definition": "Nominal water flow (refers to nominal heating capacity).",
-      "ifdGuid": "1HKDNQ1K14LQvTSLQP6wfd",
-      "legacyGuid": "1HKDNQ1K14LQvTSLQP6wfd",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "5150d5da05404455ae5d7156991baa67",
+      "legacyGuidAsIfcGlobalId": "1HKDNQ1K14LQvTSLQP6wfd",
       "localizations": [
         {
           "language": "de-DE",
@@ -1225,14 +1390,25 @@
         "unitType": "VOLUMETRICFLOWRATEUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "IntegratedLightingType",
       "definition": "Integrated lighting in cooled beam.",
-      "ifdGuid": "0ATHIx4Jz1tgf4yPGEYsk6",
-      "legacyGuid": "0ATHIx4Jz1tgf4yPGEYsk6",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "0a7514bb113f41deaa44f1940e8b6b86",
+      "legacyGuidAsIfcGlobalId": "0ATHIx4Jz1tgf4yPGEYsk6",
       "localizations": [
         {
           "language": "de-DE",
@@ -1493,14 +1669,25 @@
         ]
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "PipeConnectionEnum",
       "definition": "The manner in which the pipe connection is made to the cooled beam.",
-      "ifdGuid": "2yIlpLQyX2Mh9y2uLqhUgK",
-      "legacyGuid": "2yIlpLQyX2Mh9y2uLqhUgK",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "bc4afcd56bc8425ab27c0b8574adea94",
+      "legacyGuidAsIfcGlobalId": "2yIlpLQyX2Mh9y2uLqhUgK",
       "localizations": [
         {
           "language": "de-DE",
@@ -1761,14 +1948,25 @@
         ]
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "FinishColor",
       "definition": "Finish color for cooled beam.",
-      "ifdGuid": "06sPC6dyLA18VvtFBluQC4",
-      "legacyGuid": "06sPC6dyLA18VvtFBluQC4",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "06d993069fc54a0487f9dcf2efe1a304",
+      "legacyGuidAsIfcGlobalId": "06sPC6dyLA18VvtFBluQC4",
       "localizations": [
         {
           "language": "de-DE",
@@ -1807,14 +2005,25 @@
         "unitType": "USERDEFINED"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "CoilLength",
       "definition": "Length of coil.",
-      "ifdGuid": "0rR6xCA3zCxBh6enw7_Gwb",
-      "legacyGuid": "0rR6xCA3zCxBh6enw7_Gwb",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "356c6ecc283f4cecbac6a31e87f90ea5",
+      "legacyGuidAsIfcGlobalId": "0rR6xCA3zCxBh6enw7_Gwb",
       "localizations": [
         {
           "language": "de-DE",
@@ -1853,14 +2062,25 @@
         "unitType": "LENGTHUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "CoilWidth",
       "definition": "Width of coil.",
-      "ifdGuid": "2oasTmKynCBQx50qFV8JM9",
-      "legacyGuid": "2oasTmKynCBQx50qFV8JM9",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "b293677053cc4c2daec50343df213589",
+      "legacyGuidAsIfcGlobalId": "2oasTmKynCBQx50qFV8JM9",
       "localizations": [
         {
           "language": "de-DE",
@@ -1899,7 +2119,16 @@
         "unitType": "LENGTHUNIT"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     }
   ]

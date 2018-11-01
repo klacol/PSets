@@ -30,8 +30,9 @@ applicableIfcClasses:
 properties:
 - name: Reference
   definition: Reference ID for this specified type in this project (e.g. type 'A-1').
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
   ifdGuid: ''
-  legacyGuid: ''
+  legacyGuidAsIfcGlobalId: ''
   localizations:
   - language: ja-JP
     name: '参照記号'
@@ -56,11 +57,20 @@ properties:
     measureType: ''
     unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: Status
   definition: Status of the element, predominately used in renovation or retrofitting projects. The status can be assigned to as "New" - element designed as new addition, "Existing" - element exists and remains, "Demolish" - element existed but is to be demolished,  "Temporary" - element will exists only temporary (like a temporary support structure).
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
   ifdGuid: ''
-  legacyGuid: ''
+  legacyGuidAsIfcGlobalId: ''
   localizations:
   - language: ja-JP
     name: '状態'
@@ -216,11 +226,21 @@ properties:
         name: 'Unknown'
         definition: ''
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: Weight
   definition: Weight of filter.
-  ifdGuid: 2NLApjqIH7oxn1s_$$LNDU
-  legacyGuid: 2NLApjqIH7oxn1s_$$LNDU
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 9754acedd12447cbbc41dbefff55735e
+  legacyGuidAsIfcGlobalId: 2NLApjqIH7oxn1s_$$LNDU
   localizations:
   - language: de-DE
     name: ''
@@ -245,11 +265,21 @@ properties:
     measureType: ''
     unitType: MASSUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: InitialResistance
   definition: Initial new filter fluid resistance (i.e., pressure drop at the maximum air flowrate across the filter when the filter is new per ASHRAE Standard 52.1).
-  ifdGuid: 021Zu4J5H5OwyJ5Ai1NWV0
-  legacyGuid: 021Zu4J5H5OwyJ5Ai1NWV0
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 02063e044c544563af1314ab015e07c0
+  legacyGuidAsIfcGlobalId: 021Zu4J5H5OwyJ5Ai1NWV0
   localizations:
   - language: de-DE
     name: ''
@@ -274,11 +304,21 @@ properties:
     measureType: ''
     unitType: PRESSUREUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: FinalResistance
   definition: Filter fluid resistance when replacement is required (i.e., Pressure drop at the maximum air flowrate across the filter when the filter needs replacement per ASHRAE Standard 52.1).
-  ifdGuid: 08fEEfPZ58zxIxps2Gw7nq
-  legacyGuid: 08fEEfPZ58zxIxps2Gw7nq
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 08a4e3a9663148f7b4bbcf6090e87c74
+  legacyGuidAsIfcGlobalId: 08fEEfPZ58zxIxps2Gw7nq
   localizations:
   - language: de-DE
     name: ''
@@ -303,11 +343,21 @@ properties:
     measureType: ''
     unitType: PRESSUREUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: OperationTemperatureRange
   definition: Allowable operation ambient fluid temperature range.
-  ifdGuid: 1Uyl8fUHvBevV$B04Nh32Z
-  legacyGuid: 1Uyl8fUHvBevV$B04Nh32Z
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 5ef2f229791e4ba397ff2c0117ac30a3
+  legacyGuidAsIfcGlobalId: 1Uyl8fUHvBevV$B04Nh32Z
   localizations:
   - language: de-DE
     name: ''
@@ -333,11 +383,21 @@ properties:
     UpperBoundValue: '?'
     typeName: TypePropertyBoundedValue
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: FlowRateRange
   definition: Possible range of fluid flowrate that can be delivered.
-  ifdGuid: 0_m0_i3NTAzQNTDYp4u91c
-  legacyGuid: 0_m0_i3NTAzQNTDYp4u91c
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 3ec00fac0d774af5a5dd362cc4e09066
+  legacyGuidAsIfcGlobalId: 0_m0_i3NTAzQNTDYp4u91c
   localizations:
   - language: de-DE
     name: ''
@@ -363,11 +423,21 @@ properties:
     UpperBoundValue: '?'
     typeName: TypePropertyBoundedValue
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: NominalFilterFaceVelocity
   definition: Filter face velocity.
-  ifdGuid: 3haetEvXj9iQ8sG8jB0OWF
-  legacyGuid: 3haetEvXj9iQ8sG8jB0OWF
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: eb928dcee61b49b1a236408b4b01880f
+  legacyGuidAsIfcGlobalId: 3haetEvXj9iQ8sG8jB0OWF
   localizations:
   - language: de-DE
     name: ''
@@ -392,11 +462,21 @@ properties:
     measureType: ''
     unitType: LINEARVELOCITYUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: NominalMediaSurfaceVelocity
   definition: Average fluid velocity at the media surface.
-  ifdGuid: 1T61r9_LLDhRYIAO3tNXpl
-  legacyGuid: 1T61r9_LLDhRYIAO3tNXpl
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 5d181d49f9554dadb8922980f75e1cef
+  legacyGuidAsIfcGlobalId: 1T61r9_LLDhRYIAO3tNXpl
   localizations:
   - language: de-DE
     name: ''
@@ -421,11 +501,21 @@ properties:
     measureType: ''
     unitType: LINEARVELOCITYUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: NominalPressureDrop
   definition: Total pressure drop across the filter.
-  ifdGuid: 1GAuDB0CvDKPUtJ0MIy5_S
-  legacyGuid: 1GAuDB0CvDKPUtJ0MIy5_S
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 502b834b00ce4d5197b74c0592f05f9c
+  legacyGuidAsIfcGlobalId: 1GAuDB0CvDKPUtJ0MIy5_S
   localizations:
   - language: de-DE
     name: ''
@@ -450,11 +540,21 @@ properties:
     measureType: ''
     unitType: PRESSUREUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: NominalFlowrate
   definition: Nominal fluid flow rate through the filter.
-  ifdGuid: 1U2wCsQErB5vLrVmIZ4R34
-  legacyGuid: 1U2wCsQErB5vLrVmIZ4R34
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 5e0ba33668ed4b1795757f04a311b0c4
+  legacyGuidAsIfcGlobalId: 1U2wCsQErB5vLrVmIZ4R34
   localizations:
   - language: de-DE
     name: ''
@@ -479,11 +579,21 @@ properties:
     measureType: ''
     unitType: VOLUMETRICFLOWRATEUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: NominalParticleGeometricMeanDiameter
   definition: Particle geometric mean diameter associated with nominal efficiency.
-  ifdGuid: 14STYLxEL3Hua4AlYkt2xF
-  legacyGuid: 14STYLxEL3Hua4AlYkt2xF
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 4471d895ece5434789042af8aedc2ecf
+  legacyGuidAsIfcGlobalId: 14STYLxEL3Hua4AlYkt2xF
   localizations:
   - language: de-DE
     name: ''
@@ -508,11 +618,21 @@ properties:
     measureType: ''
     unitType: LENGTHUNIT
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: NominalParticleGeometricStandardDeviation
   definition: Particle geometric standard deviation associated with nominal efficiency.
-  ifdGuid: 2JGEQEvdXEKRK1FBi67BBt
-  legacyGuid: 2JGEQEvdXEKRK1FBi67BBt
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 9340e68ee6784e51b5013cbb061cb2f7
+  legacyGuidAsIfcGlobalId: 2JGEQEvdXEKRK1FBi67BBt
   localizations:
   - language: de-DE
     name: ''
@@ -537,4 +657,12 @@ properties:
     measureType: ''
     unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN

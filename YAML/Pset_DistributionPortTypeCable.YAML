@@ -29,8 +29,10 @@ applicableIfcClasses:
 properties:
 - name: ConnectionType
   definition: PSet2YamlConverter.PropertyType
-  ifdGuid: 0RKQL3FvDFfwK378TxjBGf
-  legacyGuid: 0RKQL3FvDFfwK378TxjBGf
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 1b51a5433f934fa7a5031c877bb4b429
+  legacyGuidAsIfcGlobalId: 0RKQL3FvDFfwK378TxjBGf
   localizations:
   - language: ja-JP
     name: '接続タイプ'
@@ -406,11 +408,21 @@ properties:
         name: 'Unset'
         definition: ''
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: ConnectionSubtype
   definition: PSet2YamlConverter.PropertyType
-  ifdGuid: 1A5cORvpX3_vdhIOgP0LY0
-  legacyGuid: 1A5cORvpX3_vdhIOgP0LY0
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 4a16661be73843fb99eb498a99015880
+  legacyGuidAsIfcGlobalId: 1A5cORvpX3_vdhIOgP0LY0
   localizations:
   - language: ja-JP
     name: '接続サブタイプ'
@@ -435,11 +447,21 @@ properties:
     measureType: ''
     unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: ConnectionGender
   definition: PSet2YamlConverter.PropertyType
-  ifdGuid: 1QcnE_aj55XODZJWLi4uym
-  legacyGuid: 1QcnE_aj55XODZJWLi4uym
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 5a9b13be92d1458583634e056c138f30
+  legacyGuidAsIfcGlobalId: 1QcnE_aj55XODZJWLi4uym
   localizations:
   - language: ja-JP
     name: '接続ジェンダー'
@@ -573,11 +595,21 @@ properties:
         name: 'Unset'
         definition: ''
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: ConductorFunction
   definition: PSet2YamlConverter.PropertyType
-  ifdGuid: 03sO5GIyzFT8intkW6NLbP
-  legacyGuid: 03sO5GIyzFT8intkW6NLbP
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 03d981504bcf4f748b31dee8065d5959
+  legacyGuidAsIfcGlobalId: 03sO5GIyzFT8intkW6NLbP
   localizations:
   - language: ja-JP
     name: '電線種類'
@@ -799,11 +831,21 @@ properties:
         name: 'Unset'
         definition: ''
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: CurrentContent3rdHarmonic
   definition: PSet2YamlConverter.PropertyType
-  ifdGuid: 3g_0_IvjzCAQ60XkYRwY3f
-  legacyGuid: 3g_0_IvjzCAQ60XkYRwY3f
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: eaf80f92e6df4c29a18086e89bea20e9
+  legacyGuidAsIfcGlobalId: 3g_0_IvjzCAQ60XkYRwY3f
   localizations:
   - language: ja-JP
     name: '第３高調波電流と相電流の比'
@@ -828,11 +870,21 @@ properties:
     measureType: ''
     unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: Current
   definition: PSet2YamlConverter.PropertyType
-  ifdGuid: 1I1maXboTEcP5x$ShYx_g0
-  legacyGuid: 1I1maXboTEcP5x$ShYx_g0
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 5207092197274e99917bfdcae2efea80
+  legacyGuidAsIfcGlobalId: 1I1maXboTEcP5x$ShYx_g0
   localizations:
   - language: ja-JP
     name: '電流'
@@ -858,11 +910,21 @@ properties:
     UpperBoundValue: ''
     typeName: TypePropertyBoundedValue
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: Voltage
   definition: PSet2YamlConverter.PropertyType
-  ifdGuid: 27j$QobBL4UhVjgWuhQGvz
-  legacyGuid: 27j$QobBL4UhVjgWuhQGvz
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 87b7f6b294b5447ab7edaa0e2b690e7d
+  legacyGuidAsIfcGlobalId: 27j$QobBL4UhVjgWuhQGvz
   localizations:
   - language: ja-JP
     name: '電圧'
@@ -888,11 +950,21 @@ properties:
     UpperBoundValue: ''
     typeName: TypePropertyBoundedValue
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: Power
   definition: PSet2YamlConverter.PropertyType
-  ifdGuid: 13VYb5tj10cOr5hZsTbt3R
-  legacyGuid: 13VYb5tj10cOr5hZsTbt3R
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 437e2945ded040998d45ae3d9d9770db
+  legacyGuidAsIfcGlobalId: 13VYb5tj10cOr5hZsTbt3R
   localizations:
   - language: ja-JP
     name: '電力'
@@ -918,11 +990,21 @@ properties:
     UpperBoundValue: ''
     typeName: TypePropertyBoundedValue
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: Protocols
   definition: PSet2YamlConverter.PropertyType
-  ifdGuid: 0LajgwBXH9KgSPIIIBgr3C
-  legacyGuid: 0LajgwBXH9KgSPIIIBgr3C
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 1592daba2e144952a71949248bab50cc
+  legacyGuidAsIfcGlobalId: 0LajgwBXH9KgSPIIIBgr3C
   localizations:
   - language: ja
     name: 'プロトコル'
@@ -950,4 +1032,12 @@ properties:
     measureType: ''
     unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN

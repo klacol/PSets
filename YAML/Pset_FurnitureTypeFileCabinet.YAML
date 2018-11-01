@@ -30,8 +30,10 @@ applicableIfcClasses:
 properties:
 - name: WithLock
   definition: Indicates whether the file cabinet is lockable (= TRUE) or not (= FALSE).
-  ifdGuid: 3pOmq1Ykz0mfIaZkWzb9qh
-  legacyGuid: 3pOmq1Ykz0mfIaZkWzb9qh
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: f3630d018aef40c294a48ee83d949d2b
+  legacyGuidAsIfcGlobalId: 3pOmq1Ykz0mfIaZkWzb9qh
   localizations:
   - language: de-DE
     name: ''
@@ -56,4 +58,12 @@ properties:
     measureType: ''
     unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN

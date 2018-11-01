@@ -30,8 +30,10 @@ applicableIfcClasses:
 properties:
 - name: SwitchOperation
   definition: Indicates operation of emergency stop switch.
-  ifdGuid: 0sFifQ0mL8cfPMBKM6rJz4
-  legacyGuid: 0sFifQ0mL8cfPMBKM6rJz4
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 363eca5a0305489a96562d4586d53f44
+  legacyGuidAsIfcGlobalId: 0sFifQ0mL8cfPMBKM6rJz4
   localizations:
   - language: ja-JP
     name: 'スイッチ操作'
@@ -124,4 +126,12 @@ properties:
         name: 'Unknown'
         definition: ''
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN

@@ -30,8 +30,10 @@ applicableIfcClasses:
 properties:
 - name: SetPointIlluminance
   definition: The illuminance value to be sensed. Use IfcPropertyBoundedValue.SetPointValue to set the set point value.
-  ifdGuid: 0mh0U3v6TBHOXoWOWn4OZg
-  legacyGuid: 0mh0U3v6TBHOXoWOWn4OZg
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 30ac0783e4674b4588728188311188ea
+  legacyGuidAsIfcGlobalId: 0mh0U3v6TBHOXoWOWn4OZg
   localizations:
   - language: ja-JP
     name: '照度設定値'
@@ -60,4 +62,12 @@ properties:
     UpperBoundValue: '?'
     typeName: TypePropertyBoundedValue
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN

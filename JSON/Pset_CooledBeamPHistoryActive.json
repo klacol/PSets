@@ -49,8 +49,10 @@
     {
       "name": "AirFlowRate",
       "definition": "Air flow rate.",
-      "ifdGuid": "2GoUPb1e5Bx9$vnBQc_J5K",
-      "legacyGuid": "2GoUPb1e5Bx9$vnBQc_J5K",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "90c9e66506814bec9ff9c4b6a6f93154",
+      "legacyGuidAsIfcGlobalId": "2GoUPb1e5Bx9$vnBQc_J5K",
       "localizations": [
         {
           "language": "de-DE",
@@ -91,14 +93,25 @@
         "sectionref": "Core Schema"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "Throw",
       "definition": "Distance cooled beam throws the air.",
-      "ifdGuid": "2QN98Snsf9yQj0yo98QqKy",
-      "legacyGuid": "2QN98Snsf9yQj0yo98QqKy",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "9a5c921cc76a49f1ab40f322486b453c",
+      "legacyGuidAsIfcGlobalId": "2QN98Snsf9yQj0yo98QqKy",
       "localizations": [
         {
           "language": "de-DE",
@@ -139,14 +152,25 @@
         "sectionref": "Core Schema"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "AirPressureDropCurves",
       "definition": "Air pressure drop as function of air flow rate.",
-      "ifdGuid": "0StdX$MjD1_PdSgzrIlGWa",
-      "legacyGuid": "0StdX$MjD1_PdSgzrIlGWa",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "1cde787f5ad341f999dcabdd52bd0824",
+      "legacyGuidAsIfcGlobalId": "0StdX$MjD1_PdSgzrIlGWa",
       "localizations": [
         {
           "language": "de-DE",
@@ -187,7 +211,16 @@
         "sectionref": "Core Schema"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     }
   ]

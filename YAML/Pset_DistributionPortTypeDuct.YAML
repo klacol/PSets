@@ -29,8 +29,10 @@ applicableIfcClasses:
 properties:
 - name: ConnectionType
   definition: PSet2YamlConverter.PropertyType
-  ifdGuid: 3IiZcc7R5CAhGZuzSrfjuV
-  legacyGuid: 3IiZcc7R5CAhGZuzSrfjuV
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: d2b239a61db14c2ab423e3d735a6de1f
+  legacyGuidAsIfcGlobalId: 3IiZcc7R5CAhGZuzSrfjuV
   localizations:
   - language: de-DE
     name: ''
@@ -428,11 +430,21 @@ properties:
         name: 'Notdefined'
         definition: ''
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: ConnectionSubType
   definition: PSet2YamlConverter.PropertyType
-  ifdGuid: 0LsHRT7ND0l8585NRu7Ie8
-  legacyGuid: 0LsHRT7ND0l8585NRu7Ie8
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 15d916dd1d7340bc81481576f81d2a08
+  legacyGuidAsIfcGlobalId: 0LsHRT7ND0l8585NRu7Ie8
   localizations:
   - language: de-DE
     name: ''
@@ -457,11 +469,21 @@ properties:
     measureType: ''
     unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: NominalWidth
   definition: PSet2YamlConverter.PropertyType
-  ifdGuid: 2YZfyYRY1Aa9bsWGvZEaNq
-  legacyGuid: 2YZfyYRY1Aa9bsWGvZEaNq
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: a28e9f226e204a909976810e633a45f4
+  legacyGuidAsIfcGlobalId: 2YZfyYRY1Aa9bsWGvZEaNq
   localizations:
   - language: de-DE
     name: ''
@@ -486,11 +508,21 @@ properties:
     measureType: ''
     unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: NominalHeight
   definition: PSet2YamlConverter.PropertyType
-  ifdGuid: 2GgGGOa7f1W9fIUx7l1f05
-  legacyGuid: 2GgGGOa7f1W9fIUx7l1f05
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 90a90418907a41809a527bb1ef069005
+  legacyGuidAsIfcGlobalId: 2GgGGOa7f1W9fIUx7l1f05
   localizations:
   - language: de-DE
     name: ''
@@ -515,11 +547,21 @@ properties:
     measureType: ''
     unitType: USERDEFINED
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: DryBulbTemperature
   definition: PSet2YamlConverter.PropertyType
-  ifdGuid: 0EADBlvGD6CPPayNvIwz4O
-  legacyGuid: 0EADBlvGD6CPPayNvIwz4O
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 0e28d2efe50346319664f17e52ebd118
+  legacyGuidAsIfcGlobalId: 0EADBlvGD6CPPayNvIwz4O
   localizations:
   - language: de-DE
     name: ''
@@ -545,11 +587,21 @@ properties:
     UpperBoundValue: ''
     typeName: TypePropertyBoundedValue
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: WetBulbTemperature
   definition: PSet2YamlConverter.PropertyType
-  ifdGuid: 16vijFFij05hFPKkmcWspc
-  legacyGuid: 16vijFFij05hFPKkmcWspc
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 46e6cb4f3ecb4016b3d952ec26836ce6
+  legacyGuidAsIfcGlobalId: 16vijFFij05hFPKkmcWspc
   localizations:
   - language: de-DE
     name: ''
@@ -575,11 +627,21 @@ properties:
     UpperBoundValue: ''
     typeName: TypePropertyBoundedValue
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: VolumetricFlowRate
   definition: PSet2YamlConverter.PropertyType
-  ifdGuid: 1Zd01dwqHEsBdHToHy7np2
-  legacyGuid: 1Zd01dwqHEsBdHToHy7np2
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 639c0067eb444ed8b9d177247c1f1cc2
+  legacyGuidAsIfcGlobalId: 1Zd01dwqHEsBdHToHy7np2
   localizations:
   - language: de-DE
     name: ''
@@ -605,11 +667,21 @@ properties:
     UpperBoundValue: ''
     typeName: TypePropertyBoundedValue
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: Velocity
   definition: PSet2YamlConverter.PropertyType
-  ifdGuid: 0cKuKOg$P7Mw5MBESnrvTU
-  legacyGuid: 0cKuKOg$P7Mw5MBESnrvTU
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 26538518abf6475ba1562ce731d7975e
+  legacyGuidAsIfcGlobalId: 0cKuKOg$P7Mw5MBESnrvTU
   localizations:
   - language: de-DE
     name: ''
@@ -635,11 +707,21 @@ properties:
     UpperBoundValue: ''
     typeName: TypePropertyBoundedValue
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN
 - name: Pressure
   definition: PSet2YamlConverter.PropertyType
-  ifdGuid: 1rWyryNgTD49uhQjRGslfB
-  legacyGuid: 1rWyryNgTD49uhQjRGslfB
+  dictionaryIdentifier: http://bsdd.buildingsmart.org/IFC
+  ifdGuid: ''
+  legacyGuid: 7583cd7c5ea74d109e2b6ad6d0dafa4b
+  legacyGuidAsIfcGlobalId: 1rWyryNgTD49uhQjRGslfB
   localizations:
   - language: de-DE
     name: ''
@@ -665,4 +747,12 @@ properties:
     UpperBoundValue: ''
     typeName: TypePropertyBoundedValue
   status:
-    creationDate: 2018-01-01T00:00:00.0000000
+    versionNumber: 4
+    dateOfVersion: 2018-01-01T00:00:00.0000000
+    revisionNumber: 2
+    dateOfRevision: 2018-01-01T00:00:00.0000000
+    status: Active
+    dateOfCreation: 2018-01-01T00:00:00.0000000
+    dateOfActivation: 2018-01-01T00:00:00.0000000
+    dateOfLastChange: 2018-01-01T00:00:00.0000000
+    languageOfCreator: en-EN

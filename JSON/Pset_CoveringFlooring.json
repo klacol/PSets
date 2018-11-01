@@ -53,8 +53,10 @@
     {
       "name": "HasNonSkidSurface",
       "definition": "Indication whether the surface finish is designed to prevent slippery (TRUE) or not (FALSE).",
-      "ifdGuid": "3c4MFtyWPBWQTa$XFkbgdA",
-      "legacyGuid": "3c4MFtyWPBWQTa$XFkbgdA",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "e61163f7f2064b81a764fe13ee96a9ca",
+      "legacyGuidAsIfcGlobalId": "3c4MFtyWPBWQTa$XFkbgdA",
       "localizations": [
         {
           "language": "de-DE",
@@ -98,14 +100,25 @@
         "unitType": "USERDEFINED"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     },
     {
       "name": "HasAntiStaticSurface",
       "definition": "Indication whether the surface finish is designed to prevent electrostatic charge (TRUE) or not (FALSE).",
-      "ifdGuid": "01bAaKZtz46RppsRdNsi_j",
-      "legacyGuid": "01bAaKZtz46RppsRdNsi_j",
+      "dictionaryIdentifier": "http://bsdd.buildingsmart.org/IFC",
+      "ifdGuid": "",
+      "legacyGuid": "0194a9148f7f4419bcf3d9b9d7dacfad",
+      "legacyGuidAsIfcGlobalId": "01bAaKZtz46RppsRdNsi_j",
       "localizations": [
         {
           "language": "de-DE",
@@ -149,7 +162,16 @@
         "unitType": "USERDEFINED"
       },
       "status": {
-        "creationDate": "2018-01-01T00:00:00"
+        "versionNumber": 4,
+        "dateOfVersion": "2018-01-01T00:00:00",
+        "revisionNumber": 2,
+        "dateOfRevision": "2018-01-01T00:00:00",
+        "status": "Active",
+        "dateOfCreation": "2018-01-01T00:00:00",
+        "dateOfActivation": "2018-01-01T00:00:00",
+        "dateOfLastChange": "2018-01-01T00:00:00",
+        "dateOfDeactivation": "0001-01-01T00:00:00",
+        "languageOfCreator": "en-EN"
       }
     }
   ]
