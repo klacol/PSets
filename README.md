@@ -14,7 +14,7 @@ IFC-Release	| Date |	Identifier  |	Documentation	 | ISO Standard |	Release Notes
 ------------|------|--------------|----------------|--------------|---------------
 4.0.2.1 | 2017 |IFC 4 Add2 TC1 |               |              |[Download](http://www.buildingsmart-tech.org/ifc/IFC4/Add2TC1/html/link/listing-ifc4_add2.htm)|
 4.0.2.0 | 2016 | IFC 4 Add2   |                |              |[Download](http://www.buildingsmart-tech.org/ifc/IFC4/Add2/html/link/listing-ifc4_add2.htm)|
-4.0.0.5	| 2013 | IFC4	final   | ISO 16739:2013 |	            | [Download](http://www.buildingsmart-tech.org/ifc/IFC4/final/html)
+4.0.0.5	| 2013 | IFC4	final   | ISO 16739:2013 |	            | [Download](http://www.buildingsmart-tech.org/ifc/IFC4/final/html) (A. Computer interpretable listings)
 2.3.0.1	| 2007 | IFC2X3_FINAL | IFC 2x3 TC1	   |   |[Download](http://www.buildingsmart-tech.org/specifications/pset-releases/Psets%20for%20IFC2x3%20TC1)
 2.3.0.0	| 2006 | IFC2X3_FINAL	| IFC 2x3	       ||
 
